@@ -1,0 +1,5 @@
+[properties]
+categories:string = DBServeriai,
+public:boolean = 1
+title:string = Duomen\xc5\xb3 bazi\xc5\xb3 serveris \xe2\x80\x9eFirebird\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eFirebird\xe2\x80\x9c yra gana populiari komercinio DB serverio \xe2\x80\x9eBorland Interbase 6.x\xe2\x80\x9c atviro\nkodo at\xc5\xa1aka. Tai duomen\xc5\xb3 baz\xc4\x97s valdymo sistema, pasi\xc5\xbeyminti grei\xc4\x8diu ir si\xc5\xablanti daugel\xc4\xaf ANSI SQL-92 \nypatybi\xc5\xb3. Ji veikianti \xe2\x80\x9eMS Windows\xe2\x80\x9c, \xe2\x80\x9eLinux\xe2\x80\x9c bei kitose \xe2\x80\x9eUNIX\xe2\x80\x9c platformose.

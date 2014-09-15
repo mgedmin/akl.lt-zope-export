@@ -1,0 +1,110 @@
+Nuo: Kęstutis Biliūnas <kebil@kaunas.init.lt> <br />
+Kam: akl@akl.lt <akl@akl.lt><br />
+Cc: akl-wg <akl-wg@akl.lt><br />
+Tema: [AKL-wg] freedict-lit<br />
+Data: Tue, 23 Jan 2007 11:25:56 +0200<br />
+
+Sveiki,
+
+Aš jau kuris laikas (nuo 2005-09-05) darau freedict-lit žodynus. Žiūr:
+http://kebil.ghost.lt/freedict-lit/
+Aš pats iki šiol skiriu jam mažokai laiko, suprasdamas, kad vienas
+tokiame darbe mažai ką ir tepadarysi. Šiuo metu yra tik du žodynai:
+eng-lit (virš 1200 headwords) ir lit-eng (apie  450 headwords). Porą
+kartų jau rašiau apie tai ir siūliau tautiečiams prisidėti, bet niekam
+tai neįdomu. Siūliau ir AKL'ui sukurti tam tikslui SVN repozitoriją, bet
+niekas neišgirdo. Aš žinau, kad AKL'as tokių projektų nelabai linkęs
+palaikyti (nes laiko, kad AKL'as yra judėjimas apie atvirą kodą, o
+konkretaus kodo projekto palaikymas yra trečiaeilis uždavinys).
+
+Šiuo metu susirašinėju su dabartiniu freedict projekto lyderiu Michael
+Bunk (jis bando mane įtraukti į šį projektą). Taigi atsiranda galimybė
+šiems žodynams patekti į šį projektą, todėl aš nusprendžiau dar kartą
+iškelti šį klausimą.
+
+Labai svarbu turėti atviro kodo žodyną, nepriklausanti nuo jokių
+išoriniu (ne atviro kodo) servisų. Ar negalėtų AKL'as sukurti SVN
+repozitoriją šiam freedict-lit projektui. Gal prisidėtų daugiau žmonių
+prie žodžių rinkimo (nors mažokai šansų, nes tai juodas neįdomus
+darbas), gal kas norėtų rinkti žodžius ir kitų kalbų žodynui. Jei mes
+turėtumėme tokį projektą (t,y, SVN ir projekto rezultatus padėtumėme
+į files,akl.lt), tuomet žodyno header'is galėtų atrodyti taip:
+
+English-Lithuanian FreeDict Dictionary
+
+by: Kęstutis Biliūnas <kebil@kaunas.init.lt>,
+    Dar Kažkas and others.
+
+Edition: 0.1
+Size: about 1200 headwords
+
+Published by: FreeDict, 2007
+at: http://freedict.org/
+
+Availability:
+Copyright (C) 2007 Atviras Kodas Lietuvai (AKL)
+Available under the terms of the GNU General Public Licence.
+
+<b>Jei mes to nepadarysime, žodynas ir toliau vystysis lėtai ir žodyno
+headeri'is freedict projekte atrodys taip:</b>
+
+English-Lithuanian FreeDict Dictionary
+
+by: Kęstutis Biliūnas <kebil@kaunas.init.lt>
+
+Edition: 0.1
+Size: about 1200 headwords
+
+Published by: FreeDict, 2007
+at: http://freedict.org/
+
+Availability:
+Copyright (C) 2005 Horst Eyermann, <horst@freedict.de> Available
+under the terms of the GNU General Public Licence.
+
+Taigi AKL'e, ką apie tai manai?
+-- 
+Kęstutis Biliūnas <kebil@kaunas.init.lt>
+
+<hr>
+"FreeDict":http://www.freedict.org/en/ - tai projektas, kuris  prižiūri ir publikuoja laisvus vertimų žodynus.
+FreeDict taip pat užtikrina, kad žodynai galėtų būti konvertuojami į DICTD duomenų bazės formatą, kurį naudoja
+žodynų serveriai dictd ir Serpento. Pačių žodynų turinį kuria individualūs kūrėjai arba grupės, o FreeDict
+projektas tik rūpinasi teisingu jų organizavimu, formatavimu ir publikavimu projekto serveriuose. Šiuo metu
+šiame projekte yra 64 dvikalbiai žodynai, bet artimiausiu metu jų žada pastebimai padaugėti. 
+
+FreeDict projektas priima tik laisvus, atviro kodo žodynus, t.y. žodynai turi turėti aiškias autorines teises
+(copyright) ir GPL arba kitą laisva licenciją. Be to pageidautina, kad žodynų išeities tekstai būtų TEI XML formate.
+Šis projektas šalia pagrindinio DICTD žodynų formato dar išleidžia žodynus ir Evolutionary (PalmOS ir WinCE kompiuteriams)
+bei Bedic (Zaurus delniniams kompiuteriams) formatais.
+
+<b>freedict-lit</b> projekto tikslas - bendruomeniniu būdu sukurti laisvus lietuviškus dvikalbius žodynus, kurie
+galėtų patekti į FreeDict projektą. Kol kas tai tik du žodynai: eng-lit ir lit-eng. Jei atsirastų žmonių norinčių rinkti
+žodžius ir kitiems žodynams, tokie žodynai taip pat bus įtraukti į freedict-lit projektą. 
+
+Projekto išeities tekstų archyvas ir sukompiliuoti DICTD formato žodynai padėti - http://files.akl.lt/freedict-lit/ . Šis adresas bus laikomas oficialiu projekto Home adresu. Šių žodynų .deb paketus rasite Lietuvos neoficialių Debiano paketų repozitorijoje ftp://debian.home.lt/debian
+
+<hr>
+Šių metų vasario 20 d. eng-lit ir lit-eng žodynai pateko į FreeDict projekto cvs repozitoriją (žiūr.: http://freedict.cvs.sourceforge.net/freedict/). Kol kas šie žodynai atrodo gana juokingai šalia kitų kalbų didelių žodynų. Kai kurie žodynai turi apie 100 000 ir daugiau įrašų, nors vidurkis yra apie 20 000 žodžių. Tačiau jau dabar iš 66 projekte esančių žodynų lit-eng yra 6-tas nuo galo, o eng-lit 13-tas nuo galo.
+
+Šiuo metu (2008-03-05) lit-eng yra 16-tas nuo galo, o eng-lit 21-tas nuo galo.
+<hr>
+
+<h3>Projekto SVN repozitorija</h3>
+
+Rolandas Juodžbalis <rolandas@home.lt>  savo serveryje šiam projektui sukūrė SVN repozitoriją http://debian.home.lt/freedict-lit . Anoniminį šios repozitorijos checkout'ą galima padaryti taip:
+<pre>
+svn checkout http://debian.home.lt/freedict-lit/trunk freedict-lit
+</pre>
+Jei norite prisidėti prie šių žodynų žodžių bazės rinkimo ir gauti commit'inimo teises, rašykite "man", mailto:kebil@kaunas.init.lt . Turėdami repozitorijos naudotojo vardą ir slaptažodį, checkout'ą darykite taip:
+<pre>
+svn checkout http://naudotojo_vardas@debian.home.lt/freedict-lit
+</pre>
+<hr>
+Dabartinė žodynų būsena:
+<pre>
+Žodynas | Žodžių sk.
+--------|----------
+eng-lit |   3050
+lit-eng |   1821 
+</pre>

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 882311207
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 22:18:56.771000 GMT+3
+logo_url:string = 
+mail:string = o.grigas@gmail.com
+organization:string = UAB Etronika
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Osvaldas Grigas
+url_asm:string = 
+url_org:string = http://www.etronika.lt

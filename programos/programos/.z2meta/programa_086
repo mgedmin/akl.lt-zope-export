@@ -1,0 +1,5 @@
+[properties]
+categories:string = Vaizdui,
+public:boolean = 1
+title:string = Paveiksl\xc4\x97li\xc5\xb3 per\xc5\xbei\xc5\xabros programa \xe2\x80\x9egThumb
+trumpai:text = \xe2\x80\x9egThumb\xe2\x80\x9c yra sukurta \xe2\x80\x9eGNU/Linux\xe2\x80\x9c operacin\xc4\x97s sistemos aplinkai <a\nhref="http://www.gnome.org/start/2.2">GNOME</a>. Tai yra paveiksl\xc4\x97li\xc5\xb3\nper\xc5\xbei\xc5\xabros, tvarkymo ir redagavimo programa. Vis\xc5\xb3 pirma, \xe2\x80\x9egThumb\xe2\x80\x9c\nprograma galima per\xc5\xbei\xc5\xabr\xc4\x97ti atskirus paveiksl\xc4\x97lius: BMP, JPEG, GIF, PNG,\nTIFF, ICO, XPM if GIF animacij\xc4\x85. Taip pat rodo EXIF duomenis, kuriuos\nturi JPEG paveiksl\xc4\x97liai.

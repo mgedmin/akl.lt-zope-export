@@ -1,0 +1,5 @@
+       	Earth3D is a program that visualizes the earth in realtime in a 3D view. It uses data from NASA, USGS, the CIA and the city of Osnabrück. The program is available as binary for Linux, MacOS X and Windows under the GPL license. The program's features are
+
+    * viewing the earth as a whole
+    * zooming in until countries, cities and even single houses become visible (in areas where the necessary map resolution is available)
+    * embedding external data like current earthquake positions or cloud data

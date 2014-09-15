@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 159139733
+confirmed:boolean = 1
+gen_date:date = 2005/10/19 21:13:19.247000 GMT+3
+logo_url:string = 
+mail:string = raimius@gmail.com
+organization:string = 
+position:string = moksleivis
+status:string = fiz_asm
+title:string = Raimondas Ambrasunas
+url_asm:string = 
+url_org:string = 

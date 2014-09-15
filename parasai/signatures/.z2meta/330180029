@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 434026277
+confirmed:boolean = 1
+gen_date:date = 2005/05/29 19:49:42.229000 GMT+3
+logo_url:string = http://bug.lt
+mail:string = deivis@akmene.net
+organization:string = Proud member of Akmene BSD group 
+position:string = moksleivis
+status:string = fiz_asm
+title:string = Deividas Serksnys
+url_asm:string = http://bsd.akmene.net
+url_org:string = http://bsd.akmene.net

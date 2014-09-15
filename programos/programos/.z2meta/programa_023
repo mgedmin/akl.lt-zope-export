@@ -1,0 +1,5 @@
+[properties]
+categories:string = Vaizdui,
+public:boolean = 1
+title:string = Vektorin\xc4\x97s grafikos programa "Sodipodi"
+trumpai:text = \xe2\x80\x9eSodipodi\xe2\x80\x9c programa yra skirta darbui su vektorine grafika (kaip pvz., \xe2\x80\x9eCorel Draw\xe2\x80\x9c). Ji veikia \xe2\x80\x9eMS Windows\xe2\x80\x9c ir \xc4\xafvairiose \xe2\x80\x9eUnix\xe2\x80\x9c \ntipo operacin\xc4\x97se sistemose (pvz., \xe2\x80\x9eLinux\xe2\x80\x9c). Turi \xc4\xafvairi\xc5\xb3 fig\xc5\xabr\xc5\xb3 bei laisvo pie\xc5\xa1imo \xc4\xafrankius, \ntaip pat teksto ra\xc5\xa1ymo, klonavimo, sukimo ir kit\xc5\xb3 trasformacij\xc5\xb3, u\xc5\xbepildymo bei kitus \xc4\xafrankius. 

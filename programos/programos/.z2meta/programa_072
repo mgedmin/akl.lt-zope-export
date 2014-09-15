@@ -1,0 +1,5 @@
+[properties]
+categories:string = Vertimui,
+public:boolean = 1
+title:string = Vertim\xc5\xb3 programa \xe2\x80\x9eTranslator\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eTranslator\xe2\x80\x9c pravers ver\xc4\x8diant kai kurias u\xc5\xbedaro kodo programas.

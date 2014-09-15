@@ -1,0 +1,28 @@
+Overview of electronic document types used at municipal institutions
+
+* "list of file formats", used in Lithuanian municipalities websites:
+
+ I noticed, that they use 3 file formats for publishing documents :
+
+ 1.M$ Office (.doc, .xls, .ppt)
+
+ 2. Portable document format (PDF). PDF forms aren't used in Lithuanian municipalities
+
+ 3. Vilnius municipality uses .RTF
+
+ 4. HTML, of course ;)
+
+* Problems with document publications:
+
+ 1. There are no order - one document is published in HTML, other same kind document - in PDF, other - in M$ Office format, see for example news (announcements) at right side of www.vilnius.lt or at www.kaunas.lt
+
+ 2. Municipalites web sites doesn't follow recomendations for governmental institution web sites, published Lithuanian government (for example recommendation number 20 from http://www3.lrs.lt/cgi-bin/preps2?Condition1=209540 tells, that documents should be available also in open formats)
+
+* Other notices
+
+ - Most documents are published only for viewing and reading (not for editing)
+
+ - There are also documents, which should be printed on paper
+
+ - Most municipalities doesn't accept electronic documents from citizens or firms
+ (fillable forms are not used)

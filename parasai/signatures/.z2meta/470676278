@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 341241448
+confirmed:boolean = 1
+gen_date:date = 2005/05/28 03:02:8.671000 GMT+3
+logo_url:string = 
+mail:string = gecukas@gmail.com
+organization:string = 
+position:string = Studijuoju
+status:string = fiz_asm
+title:string = Gediminas Volskis
+url_asm:string = 
+url_org:string = 

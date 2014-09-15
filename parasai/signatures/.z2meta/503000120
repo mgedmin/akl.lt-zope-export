@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 290505743
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 10:27:57.269000 GMT+3
+logo_url:string = 
+mail:string = p.aleliunas@gmail.com
+organization:string = VU
+position:string = Studentas
+status:string = fiz_asm
+title:string = Paulius Aleli\xc5\xabnas
+url_asm:string = 
+url_org:string = 

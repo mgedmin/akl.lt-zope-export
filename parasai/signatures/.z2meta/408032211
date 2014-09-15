@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 187729812
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 20:06:32.395000 GMT+3
+logo_url:string = http://pov.lt/povlogo
+mail:string = gintas@akl.lt
+organization:string = Programuotoj\xc5\xb3 artel\xc4\x97
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Gintautas Miliauskas
+url_asm:string = http://gintasm.blogspot.com
+url_org:string = http://pov.lt

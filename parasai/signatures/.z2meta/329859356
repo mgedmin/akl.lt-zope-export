@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 925076694
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 16:59:49.066000 GMT+3
+logo_url:string = 
+mail:string = martynasp@gmail.com
+organization:string = Vilniaus Licejus
+position:string = moksleivis, programuotojas
+status:string = fiz_asm
+title:string = Martynas Pumputis
+url_asm:string = 
+url_org:string = http://www.licejus.lt

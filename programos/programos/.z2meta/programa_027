@@ -1,0 +1,5 @@
+[properties]
+categories:string = Vaizdui,
+public:boolean = 1
+title:string = 3D animacijos ir modeliavimo programa \xe2\x80\x9eBlender\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eBlender\xe2\x80\x9c - labai galinga 3D animacijos ir modeliavimo programa, savo galimyb\xc4\x97mis prilygstanti \n3D Studio Max programai. \xe2\x80\x9eBlender\xe2\x80\x9c programa galima sukurti 3D animacij\xc4\x85. Programoje yra \ndidelis \xc4\xafranki\xc5\xb3 pasirinkimas.

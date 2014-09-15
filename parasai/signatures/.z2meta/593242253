@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 985570630
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 12:50:15.739000 GMT+3
+logo_url:string = 
+mail:string = dreinius@gmail.com
+organization:string = 
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Saulius Dreinius
+url_asm:string = http://www.sadas.info
+url_org:string = 

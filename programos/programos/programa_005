@@ -1,0 +1,27 @@
+<h2>Rašybos tikrinimo programa „Ispell“ <br>
+<a href=""></a></h2>
+
+<p>
+„Ispell“ yra rašybos tikrinimo paketas, skirtas atvirojo kodo programoms. Programa ir žodynas suderinamas 
+su rašybos tikrinimo bibliotekomis, naudojamomis atviro kodo biuro programose: „OpenOffice“, 
+„AbiWord“, „Mozilla“. Užtikrinama integracija su šiomis programomis „Windows“ ir „Linux“ platformose 
+(Intel architektūros kompiuteriuose), o taip pat su programomis, sugebančiomis tikrinti 
+rašybą naudojant „ispell“ programos programinę sąsają (Emacs, VIM, mutt).
+</p>
+<p>Programos naudojamas žodynas yra suderintas su Dabartinės lietuvių kalbos žodyno (DLŽK) 2000 metų leidimu. 
+Taip pat panaudoti ir atviro kodo „ispell-lt“ projekto 2000—2003 metais surinkti žodžiai, 
+kurių nėra DLKŽ, dažniau pasitaikantys mokslinėje, techninėje, bei šnekamojoje kalboje. Į žodyną 
+nebuvo įtaukti pasenę bei tarmiški žodžiai. Be DLKŽ, žodyno sudarymui buvo naudojama 
+Dabartinės lietuvių kalbos gramatika, 1996 m. leidimas, iš kurios buvo paimtos uždaros žodžių klasės: 
+prielinksniai, dalelytės, jungtukai, skaitvardžiai bei įvardžiai, o taip pat kai kurie prieveiksmiai.
+</p>
+<p>Iš viso žodyne yra 106164 žodžiai bendrai, skaičiuojant lietuviškus ir tarptautinius. 
+Lietuvių kalbos žodyną ir žodžių kaitybos taisykles parengė Ramūnas Lukaševičius ir Albertas Agejevas.
+</p>
+<p>Naujausią programos versiją galite atsisiųsti iš 
+<a href="http://ftp.akl.lt/ispell-lt/">http://ftp.akl.lt/ispell-lt/</a>. Pateiktame archyve yra žodynai bei 
+instrukcijos vartotojui. Instrukcijas pateikia ir „OpenOffice“ lokalizavimo komanda savo 
+<a href="http://aldona.mii.lt/pms/lok/openoffice/tikrink.htm">tinklalapyje</a>.
+</p>
+<p>Taip pat galite prisijungti ir prie „ispell-lt“ projekto 
+<a href="https://lists.akl.lt/mailman/listinfo/ispell-lt">diskusijų forumo</a>.

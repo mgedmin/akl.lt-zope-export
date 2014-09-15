@@ -1,0 +1,21 @@
+<p>2005 m. rugsėjo 15 d. išleista geriausio laisvo biuro programų paketo <b>„OpenOffice.org“ 1.1.5</b> versija.</p>
+Joje įdiegtas <b>OpenDocument</b> formato dokumentų palaikymas, ištaisyta saugumo spraga bei atlikti kiti patobulinimai:
+<ul>
+ <li>atnaujinti populiarių šriftų bei rašybos tikrinimo priemonių įdiegimo įrankiai (Žr. File->Autopilot);</li>
+ <li>pagerintas suderinamumas su naujausiomis „OpenOffice.org“ 2.x versijomis;</li>
+ <li>atnaujintas vertimas į lietuvių kalbą;</li>
+ <li>ištaisytos įvairios klaidos.</li>
+</ul>
+<p>Pilnas pagerinimų sąrašas - <a href="http://download.openoffice.org/1.1.5/release_notes_1.1.5.html">http://download.openoffice.org/1.1.5/release_notes_1.1.5.html</a> (anglų kalba)</p>
+<p>Naujesnėse biuro paketo „OpenOffice.org“ versijose - serijoje 2.x pagrindinis dokumentų formatas bus <b>OpenDocument</b>.
+<b>OpenDocument</b> - tai neprilausomos verslo standartų organizacijos <a href="http://www.oasis-open.org">OASIS</a> 
+standartizuotas universalusis biuro dokumentų formatas, palaikomas ir naudojamas smulkių bei stambių PĮ gamintojų – 
+SUN, IBM, Novell, Oracle, KDE, Corel ir t.t. Šis formatas turi daugiausia galimybių iš visų (ir atvirų ir uždarų)
+ biuro dokumentų formatų, tame tarpe ir skaitmeninio parašo palaikymą</p>
+<p>Planuojama, kad tai paskutinė 1.1.x serijos versija. Šiuo metu į lietuvių kalbą baigiama versti „OpenOffice.org“ 2.0,
+1.1.x versijų vertimas yra baigtas.</p>
+<p>Dėl <b>OpenDocument</b> formato palaikymo bei kitų aukščiau paminėtų pakeitimų ir klaidų ištaisymų primygtinai rekomenduojame atnaujinti senesnes 1.1.x
+serijos versijas visiems naudotojams.</p>
+<p>Daugiau informacijos bei atsisiuntimai - <a href="http://www.openoffice.lt">www.openoffice.lt</a> bei <a href="ftp://ftp.akl.lt/OpenOffice.org/localized/">ftp.akl.lt/OpenOffice.org/localized/</a></p>
+<p>Iš ten atsisiųsti galite ir sulietuvintas šio paketo versijas, veikiančias „Windows“, „GNU/Linux“ bei „MacOSX“ operacinėse sistemose.
+</p>

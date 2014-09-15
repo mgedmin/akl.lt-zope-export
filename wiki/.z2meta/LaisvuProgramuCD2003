@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:13+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-11-23T20:00:43+00:00
+last_editor:string = 127.0.0.1
+last_editor_ip:string = 127.0.0.1
+last_log:string = cad
+parents:lines = [\'InfoBalt2003\', \'LPCD\']
+revision_number:int = 1
+subscriber_list:lines = [\'Ramunas.Lukasevicius@mail.lt\']
+title:string = 

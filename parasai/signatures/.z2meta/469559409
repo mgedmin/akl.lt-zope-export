@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 797529913
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 08:56:9.045000 GMT+3
+logo_url:string = http://www.bite.avb.lt/index.1.jpg
+mail:string = admin@bite.avb.lt
+organization:string = G.Petkevi\xc4\x8dait\xc4\x97s-Bit\xc4\x97s vie\xc5\xa1oji biblioteka
+position:string = Kompiuterini\xc5\xb3 tinkl\xc5\xb3 administratorius
+status:string = fiz_asm
+title:string = Nerijus Skar\xc5\xbeauskas
+url_asm:string = 
+url_org:string = http://www.bite.avb.lt

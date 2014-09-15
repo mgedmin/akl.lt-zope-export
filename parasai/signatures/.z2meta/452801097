@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 830383433
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 12:34:39.111000 GMT+3
+logo_url:string = 
+mail:string = sity@takas.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Vytis Ilonis
+url_asm:string = http://www.pypas.com
+url_org:string = 

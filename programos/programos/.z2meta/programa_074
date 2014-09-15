@@ -1,0 +1,5 @@
+[properties]
+categories:string = Webserveriai,
+public:boolean = 1
+title:string = Interneto taikom\xc5\xb3j\xc5\xb3 program\xc5\xb3 serveris \xe2\x80\x9eZope\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eZope\xe2\x80\x9c (Z Object Publishing Environment) yra daugiaplatforminis \ninterneto taikom\xc5\xb3j\xc5\xb3 program\xc5\xb3 (web application) serveris, \xc4\xafgalinantis \ngreitai kurti patikimas \xc5\xbeiniatinklio programas. \xe2\x80\x9eZope\xe2\x80\x9c yra para\xc5\xa1ytas \xe2\x80\x9ePython\xe2\x80\x9c,\nlabai produktyvia objekti\xc5\xa1kai orientuota skript\xc5\xb3, kalba.

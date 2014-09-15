@@ -1,0 +1,5 @@
+[properties]
+categories:string = Multimedia,
+public:boolean = 1
+title:string = Audio grotuvas \xe2\x80\x9eZinf\xe2\x80\x9c
+trumpai:text = Tai daugiaplatforminis audio grotuvas, sukurtas i\xc5\xa1 \xe2\x80\x9eFreeAMP\xe2\x80\x9c. Groja daugum\xc4\x85 muzikini\xc5\xb3 byl\xc5\xb3 \n(MP3, OGG, WAV ir k.t.), turi galing\xc4\x85 muzikos nar\xc5\xa1ykl\xc4\x99 bei byl\xc5\xb3 siuntimo valdym\xc4\x85. \nPrograma palaiko <a href="http://www.zinf.org/themes.php" target="_blank">temas</a>. 

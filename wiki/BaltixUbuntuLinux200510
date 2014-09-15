@@ -1,0 +1,837 @@
+Projekto partneris - http://www.ubuntu.lt
+
+<b>Svarbu - reikia pagalbos testuojant ir rašant mini-atmintinę pradedančiajam ("žaliam") kompiuterio naudotojui apie darbą su Baltix GNU/Linux ver. 1.x - kas galite prisidėti rašykite komentarus čia: [Baltix-Howto]</b>
+
+Manome, kad siūlyti eiliniams Lietuvos žmonėms tiesiog standartinį Ubuntu (dabar yra versija 05.10) yra nelabai gerai, kadangi taip bus praktiškai gadinamas Desktop Linux įvaizdis, nes dabar Ubuntu turi pakankamai svarbių trūkumų, kurių dauguma *jau* ištaisyti Ubuntu 5.10 pagrindu padarytame Baltix 1.0 (pradedant release candidate), taigi, pilnai su Ubuntu 5.10 suderintame Baltix 1.0 yra tokie privalumai, palyginus su Ubuntu 5.10:
+
+1. Baltix Live CD režimu aptinka ir automatiškai prijungia kietųjų diskų skirsnius ir todėl eiliniam
+žmogui labai paprasta pasinaudoti (pažiūrėti, paklausyti ar pan.) juose esančia informacija :(
+
+2. Baltix turi ne tik sudėtingą (tekstinio režimo) ir gana pavojingą (nesuprantančiam galima labai
+lengvai ištrinti visą kietajame diske esančią info)  įdiegimo programą bet ir labai paprastą bei intuityvų grafinį įdiegimo įrankį ubuntu-express, jo nuotraukas žr.: http://baltix.akl.lt/
+
+3. Baltix groja ir rodo praktiškai visus muzikinius kūrinius bei filmus,
+Baltix pilnai palaiko ir DivX, ir Xvid ir mp3 ir daug daug kitų video bei muzikos formatus.
+
+4. Baltix ištaisytos keletas gana didelių usability problemų, pvz eiliniam žmgui yra
+daug paprasčiau įdiegti pvz skype iš deb paketo (kurį galima atsisiųsti
+iš skype puslapio), kadangi paspaudus su pele ant .deb paketo atsidaro
+ne archyvavimo programa, o vartotojas gauną trumpą informaciją apie .deb pakete
+esančią programą (ar dokumentaciją ar pan.) ir mygtuką "Install", kurį paspaudus galima įdiegti.
+
+5. Baltix turi Lietuvių - Anglų - Lietuvių bei Lietuvių-Vokiečių-Lietuvių žodynus.
+
+6. Baltix turi vektorinės grafikos ar diagramų ar brėžinių
+braižymo programos (deja OpenOffice Draw vis dar nepalaiko netgi svg formato, be to - neturi pavyzdžių kaip pvz dia)
+
+7. Baltix turi TV peržiūrėjimo programą.
+
+8. Baltix turi normalią CD įrašymo programą (papildoma programa būtina, nes GNOME esantis nautilus-cd-burner nepalaiko
+nei multisession nei CD/DVD įrašymo nekuriant .iso, įsivaizduojant kiek laiko trunka 4,5 Gb iso kūrimas ?)
+
+9. Baltix Linux gerokai greičiau dirba su CD/DVD įrenginiais (Ubuntu neįjungia DMA režimo CD/DVD įrenginiams, todėl kai vyksta CD/DVD nuskaitymas ar įrašymas labai smarkiai apkraunamas procesorius, dėl šios priežasties praktiškai neįmanoma žiūrėti DVD video bei nekomfortabilu dirbti su kitomis programomis įrašinėjant CD/DVD su Ubuntu).
+
+10. Baltix'e dauguma pagrindinių programų (pvz interneto naršyklė) yra nelietuviškos, be papildomų paketų įdiegimo iš interneto.
+
+11. Grafinis disko dalijimo (skirstymo) įrankis turi keletą gana svarbių klaidų, pvz jei dirbama Lietuvių kalba tai neveikia NTFS skirsnių sumažinimas (resize) ir kai kurios kitos operacijos, žr. ubuntu bugzilla
+
+
+**Sprendimas**
+
+Baltix'e šios problemos **jau** išspręstos, taigi mes nusprendėm tiesiog papildyti Ubuntu reikiamais paketais (pvz OpenDict, User-friendly įdiegimo programa ir t.t.), ištaisyti pagrindinias usability problemas ir tokią, paruoštą eiliniam žmogui, Linux distribuciją jau siūlyti per Infobalt ir visai Lietuvos rinkai. Dirbam kartu su http://www.ubuntu.lt chebra :)
+
+Jei kas nori prisidėti prie to vertimais, testavimu, klaidų taisymu ir pan. - labai laukiam pagalbos, parašykite čia komentarą kuo galite ar kuo norite pagelbėti. Taip pat galite parašyti laišką mantas-ETA-akl_taškas_lt
+
+
+Patogiam įdiegimui naudosime **Ubuntu-Express** programą, jos naujausius išeities tekstus bei screenshot'us galima rasti
+http://interactors.coop/~trunks/installer/
+
+Reikia pagalbos verčiant ir testuojant šią programą.
+
+Šios programos pagrindinis kūrėjas dabar yra toks Javier Carranza javier.carranza@interactors.coop
+Taigi jei rasite kokių problemų ar ką nors patobulinsite - praneškite į  ubuntu-devel@lists.ubuntu.com ir CC tam javier.carranza@interactors.coop
+
+Kadangi Baltix nuo 2005 metų naudoja debian-installer (ubuntu-installer) technologiją, ją nesunkiai galima panaudoti ne tik startavimui iš CD bet ir įdiegimui į kietąjį diską ar pan. - kitaip tariant Baltix jau nuo 2005 metų galima įdiegti ne tik su patogiu grafiniu įdiegikliu, bet ir su ta pačia standartine tekstinio režimo Debian/Ubuntu įdiegimo programa. Tam yra parašytas live-installer modulis (komponentas), žr.: 
+
+https://launchpad.net/products/live-installer/ bei http://gnome-ev.de/index.php/GNOME_LiveCD/Documentation/LiveCDInstaller
+
+**Bendros Baltix 1.0 / Ubuntu 5.10 problemos**
+
+- Biuro programų paketas neturi lietuviško interfeiso bei help'o :(
+
+- Neleidžia vartotojui nustatyti 100 Hz monitoriaus atnaujinimo dažnio "Ekrano raiškos" nustatymuose, žr.: https://bugzilla.ubuntu.com/10130
+
+- Neturi kokybiško ir pilno NTFS bylų sistemos palaikymo - Ubuntu 5.10 "Breezy" ntfsprogs versija yra totaliai pasenusi (1.9.4, išleista daugiau nei prieš metus, tokia pati, kaip ir Debian 'Sarge'), žr. http://bugzilla.ubuntu.com/15038 . Nuo 2005 vasaros (nuo 1.11.0 versijos) ntfsprogs turi ntfsmount įrankį, kurio pagalba galima prijungti ntfs skirsnį įrašymo režimu. Baltix 1.1 reikia sudėti ne senesnę nei 1.12.0 (ji išleista 2005-10-07).
+
+- atjungus nešiojamo usb atmintuko (su dešiniu pelės klavišu paspaudus ir išsirinkus "Unmount Volume") skirsnį ir nuėjus į "Computer" tas usb atmintukas ten vistiek matosi, kas iš principo nebūtų blogai, bet va kai ant jo paspaudi tai vietoj to, kad prijungtų gauni klaidą - "Unable to mount" :(
+
+<b>Patobulinimai, įdėti į Baltix 1.2 versiją</b>
+
+Ubuntu 5.10 neveikia spausdintuvo konfigūravimas su foomatic-configure įrankiu, dėl ko neveikia ir visos šį įrankį naudojančios priemonės, pvz Foomatic-GUI programa :(
+
+vytis@baltix-linux:~$ gksudo foomatic-gui
+
+Use of uninitialized value in substitution (s///) at /usr/share/perl5/Foomatic/DB.pm line 3432.
+
+lpadmin: add-printer (set model) failed: server-error-internal-error
+
+Could not set up/change the queue "banditas"!
+
+Usage: /etc/init.d/cupsd {start|stop|restart|force-reload}
+
+invoke-rc.d: initscript cupsys, action "reload" failed.
+
+
+Baltix 1.1 neveikia dpkg-reconfigure flashplugin-nonfree bei update-flashplugin skriptai :(
+Ubuntu 5.10 multiverse yra flashplayer-mozilla paketas, gal geriau tą arba kokį patvarkytą iš Debian Unstable naudoti  ?
+
+
+/etc/apt/sources.list deb-src eilutės perkeltos į galą (nes 99% vistiek jo nenaudoja ir nenaudos) bei pridėti breezy-updates bei breezy-backports paketų šaltiniai 
+Taip pat gal verta as default įjungti security-updates paketų šaltinį ? Jei žmogus neturės interneto tai daug problemų nesukels - tik keletą klaidų pranešimų, o jei turės tai automatiškai vyks atnaujinimai ir bus gerai ;)
+
+
+Ubuntu 5.10 trūksta pelės kursorių temų, ypač didelių. Yra big-cursor bei xcursor-themes paketai, juos manau reiktų sudėti as default į Baltix ir pareportinti bug'ą į Ubuntu dėl to.
+dar yra (nesudėtas į Baltix) gcursor paketas, tipo user-friendly programėlė, skirta keisti pelės kursoriaus temai, esanti Sistema->Nustatymai
+
+
+Ubuntu 5.10/Baltix iki 1.2 paliepiant persikrauti kompiuteriui, raudoname užraše vietoj lietuviškų raidžių š, į, ė  ir t.t. rodo neaiškius simbolius. - tai pataisiau į /etc/console-tools/config byloje įrašydamas eilutę SCREEN_FONT=LatArCyrHeb-16.
+
+Nežinau kas čia :( : Be to Baltix, kaip ir Ubuntu niekaip neįmanoma paleisti lt-std standartinės klaviatūros išdėstymo ???
+
+
+Diegiant msttcorefonts atsiradiusiame lange prašoma nurodyti esančių fontų katalogą. By default būna įrašyta 'none', kas logiškai reiškia, kad neturi atsisiuntęs tų fontų. Bandant diegti, programa paslaptingai lūžta. Problema - esanti 'none' reikšmė. Diegiant iš naujo ir išvalius 'none', fontai susidėjo. By default location'o reiktų nerodyti, t.y. kad diegiant fontus nieko nebūtų įvesta, nes 'none' labai klaidina.
+
+
+Ubuntu 5.10/Baltix 1.1 esantis prisijungimo menedžeris (gdm) yra neuserfriendly - kairiam šone rodo vartotojus, tačiau nerašo jų vardų, tik pilną vardą, tačiau dešiniam šone prašo įvesti būtent trumpą vartotojo vardą, o ne tą, kurį rodo kairiam šone. Tai klaidina eilinius žmones.
+
+
+Ubuntu 5.10 ir Baltix 1.1 yra prasta Windows emuliacija (per senas WINE ir nėra WINE konfigūravimo programos). Linex distribucijoje radau tokį WineTools, kurį sudėjau ir į Baltix 0.9 - tas WineTools yra labai galingas dalykas, su juo labai patogu įdiegti/išmesti ir paleisti Windows programas, taip pat ir konfigūruoti WINE.
+
+Daugiau informacijos - http://www.von-thadden.de/Joachim/WineTools/ bei http://www.winehq.com/site/download
+
+Taip pat dar yra toks Sidenet Wine Configuration Utility, žr.: http://sidenet.ddo.jp/winetips/config.html
+
+Naujausią wine ir winetools galima pasiimti iš http://www.winehq.com/site/download-deb (http://wine.sourceforge.net/apt/ ), taip pat galima padaryti backport'ą iš Ubuntu dapper
+
+
+Baltix 1.2 versijoje reikia atnaujinti dokumentaciją - įdėti atnaujintus ir naujai parašytus dokumentus, pagal kuriuos buvo dėstyta Linux seminare mokytojams ir mokyklų IT specialistams. Būtų gerai atnaujinti dar ir Linux vartotojo vadovą.
+
+
+Baltix 1.2beta ištestuota ir veikia nauja testcd opcija :)
+
+
+Pastebėjau, kad Debian unstable foomatic-db* paketai ženkliai padidėjo palyginus su Ubuntu 5.10 (ten yra foomatic-db* 2005-07-20 versija)
+Gal 1.2 versijoje reiktų atnaujinti spausdintuvų draiverius (foomatic-db*) ?
+
+
+1.2 versijoje atnaujinti gimp-help ir gimp-help-common iki 0.9 versijos (Debian unstable 0.9 versija užima ~1 MB suspausto dydžio mažiau nei Ubuntu 5.10 esanti 0.8 versija)
+
+
+Atnaujinti ttf-freefont - Ubuntu 5.10 yra sena sena 2003 metų versija :(
+
+
+
+From unknown Tue Oct 18 13:32:36 +0300 2005
+From: 
+Date: Tue, 18 Oct 2005 13:32:36 +0300
+Subject: Baltix/Ubuntu grafika
+Message-ID: <20051018133236+0300@wiki.akl.lt>
+
+Galiu prisidėti prie šios distribucijos grafikos. Manau būtina sukurti šiai distribucijai gražių fono paveikslėlių, darbastalio temų ar panašiai....Visi darbastalio fonai bus dedami čia: http://gimp.akl.lt/baltix/
+   Su pagarba Giedrius Naudžiūnas  <gimpng-eta-taškas-lt
+
+From unknown Tue Oct 25 10:38:07 +0300 2005
+From: 
+Date: Tue, 25 Oct 2005 10:38:07 +0300
+Subject: Baltix CD viršeliai
+Message-ID: <20051025103807+0300@wiki.akl.lt>
+
+http://gimp.akl.lt/cd/    rasite Baltix cd viršelių pavyzdžius. Laukiame komentarų. Giedrius Naudžiūnas <gimpng-eta-gmail_taškas_com>
+
+From unknown Wed Oct 26 19:19:32 +0300 2005
+From: 
+Date: Wed, 26 Oct 2005 19:19:32 +0300
+Subject: Baltix CD viršeliai
+Message-ID: <20051026191932+0300@wiki.akl.lt>
+
+Manau geriausias yra pirmasis viršelis, nes jame aiškiai suprantame kas tame diske tiksliai yra ir kas prisidėje prie to disko turinio kūrimo. Pagarbiai Ernestas Lukoševičius
+
+From unknown Wed Nov 2 09:31:47 +0200 2005
+From: 
+Date: Wed, 02 Nov 2005 09:31:47 +0200
+Subject: Keleta pastebėjimų
+Message-ID: <20051102093147+0200@wiki.akl.lt>
+
+BMP grotuvui reiktu nustatyti esd įskiepį (output plug-in), dabar yra alsa. Klausant muzikos nesigirdi gnome garsų.
+Pasileidus LiveCD yra tik LT klaviatūrą (layout), norit parašyti @,#, ir t.t. reikia pačiam pridėti anglišką išdėstymą, manau būtu daug patogiau jeigu jis jau būtu pridėtas. Dainius Sakalinskas aka DinuX
+
+From unknown Wed Nov 16 18:15:15 +0200 2005
+From: 
+Date: Wed, 16 Nov 2005 18:15:15 +0200
+Subject: Ubuntu 5.10 kaip ir kitur yra negerai parinkti lietuvos irc tinklo
+	serveriai XChat'e
+Message-ID: <20051116181515+0200@wiki.akl.lt>
+
+Ubuntu 5.10 kaip ir kitur yra negerai parinkti lietuvos irc tinklo serveriai XChat programoje:
+
+Jungiamiasi prie irc6.ktu.lt (2001:778::6667) prievadu 7668...
+Nepavyko prisijungti. Klaida: Network is unreachable
+ Bandomas kitas tinklo „Aitvaras“ serveris...
+Atsijungta ().
+Ieškoma irc6.ktu.lt
+Jungiamiasi prie irc6.ktu.lt (2001:778::6667) prievadu 7666...
+Nepavyko prisijungti. Klaida: Network is unreachable
+ Bandomas kitas tinklo „Aitvaras“ serveris...
+Atsijungta ().
+Ieškoma irc.data.lt
+Jungiamiasi prie mantra.cs.microlink.lt (213.197.128.90) prievadu 6668...
+ Certification info: Subject: C=LT ST=Vilnius L=Vilnius O=MicroLink Data OU=Central Systems CN=irc-ssl.aitvaras.net
+   Issuer: C=LT ST=Vilnius  L=Vilnius O=MicroLink Data OU=Central Systems CN=irc-ssl.aitvaras.net
+   Public key algorithm: rsaEncryption (1024 bits)
+   Public key algorithm uses ephemeral key with -1217580650 bits
+   Sign algorithm md5WithRSAEncryption (0 bits)
+   Valid since Feb 15 11:56:54 2003 GMT to Oct  7 11:56:54 2004 GMT
+ Cipher info:
+   Version: TLSv1/SSLv3, cipher DES-CBC3-SHA (168 bits)
+ Nepavyko prisijungti. Klaida: self signed certificate.? (18)
+
+
+From unknown Mon Nov 21 05:26:10 +0200 2005
+From: 
+Date: Mon, 21 Nov 2005 05:26:10 +0200
+Subject: Ubuntu 5.10 negroja muzikiniu bylu, kai uzvedi peles kursoriu ant ju
+Message-ID: <20051121052610+0200@wiki.akl.lt>
+
+Tai va - Nautilus programa turetu groti muzikines bylas, kai ant ju palaikai peles kursoriu, taciau nei Ubuntu 5.10 negroja :(
+Paleidus is terminalo nautilus meta klaida, kad truksta play, mpg123 bei ogg123 :( padarius apt-get install mpg321 sox bei vorbis-tools viskas pradeda veikti, tik su ogg bei flac bei kitais formatais neaiskiai kazkaip ;)
+
+From unknown Mon Nov 21 11:52:32 +0200 2005
+From: 
+Date: Mon, 21 Nov 2005 11:52:32 +0200
+Subject: Ubuntu 5.10 neuserfriendly yra prideti CD/DVD su deb paketais
+Message-ID: <20051121115232+0200@wiki.akl.lt>
+
+Nuejus i software preferences (per synaptic) nors nuejus per update-manager arba per "Add applications" (gnome-app-install) ir pasirinkus Settings->Repositories yra mygtukas Add CD :/
+
+From unknown Mon Dec 5 05:30:26 +0200 2005
+From: 
+Date: Mon, 05 Dec 2005 05:30:26 +0200
+Subject: Baltix 1.1 ir tikriausiai 1.0 nerodo prezentacijų fonų peržiūros :(
+Message-ID: <20051205053026+0200@wiki.akl.lt>
+
+Baltix 1.1 ir tikriausiai 1.0 nerodo prezentacijų fonų peržiūros Impress programoje dešinėje pusėje esančioje užduočių srityje (atidarius kortelę "Pagrindai" sekcijoje "Galimi", parodo krūvą baltų stačiakampių su užrašu "Peržiūra negalima" vietoj fonų) :(
+
+Įtariu kad klaida yra OpenOffice.org 2.0 programoje, kuri nesugeba sugeneruoti peržiūros OpenOffice 1.0 formato šablonams.
+
+From unknown Mon Dec 5 14:02:23 +0200 2005
+From: 
+Date: Mon, 05 Dec 2005 14:02:23 +0200
+Subject: Neįmanoma dirbti su Baltix esant pelei prijungtai prie COM1 prievado
+Message-ID: <20051205140223+0200@wiki.akl.lt>
+
+Šios problemos nebuvo 0.7 versijoje, kurioje buvo tokia pelė prijungiama įveadant papildomas eilutes į xorg.conf bylą.
+
+From unknown Mon Dec 5 20:47:25 +0200 2005
+From: 
+Date: Mon, 05 Dec 2005 20:47:25 +0200
+Subject: Baltix'e, DMA įjungiamas tik pirmam CD/DVD įrenginiui
+Message-ID: <20051205204725+0200@wiki.akl.lt>
+
+Ubuntu 5.10 DMA neįjungiamas visiems, o Baltix'e - antram ir sekantiems CD/DVD įrenginiams.
+greitas pataisymas būtų į /etc/hdparm.conf įrašyti:
+
+/dev/cdrom1 {
+        dma = on
+}
+
+From unknown Tue Dec 6 12:00:23 +0200 2005
+From: 
+Date: Tue, 06 Dec 2005 12:00:23 +0200
+Subject: Totemas nerodo HDTV rip
+Message-ID: <20051206120023+0200@wiki.akl.lt>
+
+Atidarant HDTV rip filmus ant senos baltix versijos (0.7 berods) Totemas meta pranešimą, kad neturi reikiamo kodeko. 1.0 baltixe totemas tiesiog pakimba. 
+reikėtų įdiegti VLC - tas rodo be jokių atsikalbinėjimų.
+
+
+From mantas Fri Dec 9 08:23:47 +0200 2005
+From: mantas
+Date: Fri, 09 Dec 2005 08:23:47 +0200
+Subject: Ubuntu 5.10 esantis prisijungimo menedžeris (gdm) yra neuserfriendly
+Message-ID: <20051209082347+0200@wiki.akl.lt>
+
+Ubuntu 5.10/Baltix 1.1 esantis prisijungimo menedžeris (gdm) yra neuserfriendly - kairiam šone rodo vartotojus, tačiau nerašo jų vardų, tik pilną vardą, tačiau dešiniam šone prašo įvesti būtent trumpą vartotojo vardą, o ne tą, kurį rodo kairiam šone. Tai klaidina eilinius žmones.
+
+Reik atnaujinti paketą iki 2.13 versijos ir būtinai ištestuoti ar atnaujintas paketas neturės problemų jį išmetant arba atnaujinant, nes sudėjus gdm iš ubuntu unstable su dpkg --force-depends jį neidavo išmesti, rašydavo va kokią klaidą:
+Preconfiguring packages ...
+(Reading database ... 103706 files and directories currently installed.)
+Removing gdm ...
+ * Stopping GNOME Display Manager... invoke-rc.d: initscript gdm, action "stop" failed.
+dpkg: error processing gdm (--remove):
+ subprocess pre-removal script returned error exit status 1
+
+From unknown Thu Dec 15 08:57:33 +0200 2005
+From: 
+Date: Thu, 15 Dec 2005 08:57:33 +0200
+Subject: Įdiegimo į hdb diską problemos
+Message-ID: <20051215085733+0200@wiki.akl.lt>
+
+Įdiegiant į hdb diską Baltix, esant įdiegtam diske hda Windows, į hda disko MBR neįrašoma grub informacija, dėl ko nėra galimybės dirbti su Baltix linux.
+
+From unknown Mon Dec 19 09:51:39 +0200 2005
+From: 
+Date: Mon, 19 Dec 2005 09:51:39 +0200
+Subject: Papildomų klaviatūros išdėstymo galimybės
+Message-ID: <20051219095139+0200@wiki.akl.lt>
+
+Papildant Baltix kitais klaviatūros išdėstymais, pagal nutylėjimą užsideda „Alt-Alt“ klaviatūrų perjungimas, dėl ko klaviatūros išdėstymai nepersijungia iš vieno į kitą, tikriausiai dėl to, kad LTU klaviatūra naudoja dešinį „Alt“ klavišą kaip trečio lygio simbolių įvedimui. Taisoma: pasirinkama vietoj „Alt-Alt“ kombinacijos Windowsinę „Alt-Schift“ perjungimo kombinaciją. Po šios operacijos perjungėjas pradeda dirbti be priekaištų tiek su pele, tiek klaviatūra.
+
+From unknown Mon Dec 19 09:57:00 +0200 2005
+From: 
+Date: Mon, 19 Dec 2005 09:57:00 +0200
+Subject: Instaliacinė problema.
+Message-ID: <20051219095700+0200@wiki.akl.lt>
+
+Kai tame pačiame hda diske jau yra Windows skirsnis, tai po Baltix instaliacijos jis tampa nepasiekiamu. Taisoma, redaguojant /boot/grub/menu.lst failą, „atkomentuojant“ reikiamas Windows paleidimo eilutes.
+
+From unknown Sun Jan 1 11:02:24 +0200 2006
+From: 
+Date: Sun, 01 Jan 2006 11:02:24 +0200
+Subject: Problema prisijungiant
+Message-ID: <20060101110224+0200@wiki.akl.lt>
+
+Pastebejau, kad standartiškai dalijant hardą (defoult), skirsnis, skirtas vartotujui namų aplankai ir montojamas /home yra per mažas. Per tam tikro kiekio vartotojo prisijungimų, juo talpa išseka ir tmpa nebeimanoma prisijungti. Voron 
+
+From unknown Thu Jan 5 11:31:12 +0200 2006
+From: 
+Date: Thu, 05 Jan 2006 11:31:12 +0200
+Subject: ! Peržiūrint filmų bylų sąvybes.
+Message-ID: <20060105113112+0200@wiki.akl.lt>
+
+Peržiūrint filmų bylų sąvybes iš kontekstinio meniu dešiniu pelės klavišu, visi lietuviški mygtukų ir užrašų pavadinimai bylų tvarkyklėje, paleidus ją iš naujo, virsta angliškais, kontekstinis meniu ir šiukšlinės vardai tampa angliški, ir tenka perkrauti kompiuterį, norint, kad viskas atsistatytų į normalias vėžes.
+
+From unknown Thu Jan 5 15:37:30 +0200 2006
+From: 
+Date: Thu, 05 Jan 2006 15:37:30 +0200
+Subject: Nepasileidžia žaidimas „Tuxcart Race“
+Message-ID: <20060105153730+0200@wiki.akl.lt>
+
+Paleidžiant žaidimą atsidaro pradinis langas, o bandant jį paleisti žaidimui, programa nustoja veikusi.
+
+
+From unknown Tue Jan 17 13:40:24 +0200 2006
+From: 
+Date: Tue, 17 Jan 2006 13:40:24 +0200
+Subject: Gal 1.2 ver. reiktų naudoti user-setup ir kitus naujo casper komponentus bei espresso installerį ?
+Message-ID: <20060117134024+0200@wiki.akl.lt>
+
+Gal 1.2 versijoje reiktų naudoti user-setup ir kitus atnaujinto casper komponentus bei espresso instalerį ?
+
+From unknown Thu Jan 19 09:58:46 +0200 2006
+From: 
+Date: Thu, 19 Jan 2006 09:58:46 +0200
+Subject: Gal reiktu į 1.2 sumesti mail-notification systray priedą?
+Message-ID: <20060119095846+0200@wiki.akl.lt>
+
+Gal reiktu į 1.2 sumesti mail-notification systray priedą?
+
+From unknown Thu Jan 19 19:15:28 +0200 2006
+From: 
+Date: Thu, 19 Jan 2006 19:15:28 +0200
+Subject: Atnaujinti 1.2beta CD esantį index.html
+Message-ID: <20060119191528+0200@wiki.akl.lt>
+
+Reik atnaujinti 1.2beta CD esantį index.html, dabar jis turi klaidų kaip pvz nuoroda "pakeitimų žurnalas" rodanti   į http://ftp.akllinux/.lt/bal/BALTIX-CHANGELOG.txt
+
+From unknown Fri Jan 20 20:45:29 +0200 2006
+From: 
+Date: Fri, 20 Jan 2006 20:45:29 +0200
+Subject: Patikrinti, ar Baltix 1.2 beta versijoje esanti OpenOffice.org 2.0.1 neturi svarbių klaidų
+Message-ID: <20060120204529+0200@wiki.akl.lt>
+
+Patikrinti, ar Baltix 1.2 beta versijoje esanti OpenOffice.org 2.0.1 neturi svarbių klaidų, kaip aprašyta čia:
+
+http://ubuntuforums.org/showthread.php?t=97595&page=3
+
+There are significant issues with current 2.0.1 version available from http://people.ubuntu.com/~doko/OOo2
+
+a) The built-in bibliographic database is unreachable
+b) Gallery opens, but doesn't read in default clipart
+c) Complex arrows and bezier lines are corrupted (I got a presentation with all bezier lines as simple, angled polylines)
+
+From unknown Mon Jan 23 13:21:37 +0200 2006
+From: 
+Date: Mon, 23 Jan 2006 13:21:37 +0200
+Subject: Ar reikia Baltix'e irssi-text IRC kliento ? gal geriau xchat-text, jis užima ~8x mažiau vietos (100k
+Message-ID: <20060123132137+0200@wiki.akl.lt>
+
+Ar reikia Baltix'e irssi-text IRC kliento ? gal geriau xchat-text, jis užima ~8x mažiau vietos (100kb).
+
+From mantas Tue Jan 24 23:26:13 +0200 2006
+From: mantas
+Date: Tue, 24 Jan 2006 23:26:13 +0200
+Subject: Ubuntu 5.10/Baltix 1.1 nėra boot meniu konfigūravimo įrankio :(
+Message-ID: <20060124232613+0200@wiki.akl.lt>
+
+Ubuntu 5.10/Baltix 1.1 nėra boot meniu konfigūravimo įrankio :(
+
+From unknown Wed Jan 25 23:40:05 +0200 2006
+From: 
+Date: Wed, 25 Jan 2006 23:40:05 +0200
+Subject: Baltix 1.2 beta diegimas automatiškai paskirstant laisvą vietą diske 
+Message-ID: <20060125234005+0200@wiki.akl.lt>
+
+Pasirinkus diegti OS į laisvą disko vietą, tai daroma labai ilgai ir po maždaug 15 min operacija tampa nebeatšaukiama. Diegimas iš tikrųjų nevyksta ir nutraukiamas tik perkrovus kompiuterį.
+
+From unknown Wed Jan 25 23:43:58 +0200 2006
+From: 
+Date: Wed, 25 Jan 2006 23:43:58 +0200
+Subject: Baltix 1.2 beta diegimas paskirstant vietą rankiniu būdu
+Message-ID: <20060125234358+0200@wiki.akl.lt>
+
+Neįmanoma pakeisti ntfs skirsnių dydžio. Paspaudus "Išsaugoti", niekas nepasikeičia.
+
+From unknown Wed Jan 25 23:46:14 +0200 2006
+From: 
+Date: Wed, 25 Jan 2006 23:46:14 +0200
+Subject: Diegiant nepaklausia ar išsaugoti
+Message-ID: <20060125234614+0200@wiki.akl.lt>
+
+Diegiant Baltix, pakeitus skirsnių dydį ir paspaudus "Pirmyn", naudotojo turėtų paklausti, ar išsaugoti pakeitimus.
+
+From unknown Wed Jan 25 23:51:09 +0200 2006
+From: 
+Date: Wed, 25 Jan 2006 23:51:09 +0200
+Subject: Keičiant skirsnio dydį -- default bylų sistema ext2
+Message-ID: <20060125235109+0200@wiki.akl.lt>
+
+Keičiant skirsnio dydį numatytoji bylų sistema yra ext2, o turėtų būti ext3.
+
+From unknown Wed Jan 25 23:54:13 +0200 2006
+From: 
+Date: Wed, 25 Jan 2006 23:54:13 +0200
+Subject: Nautilus netikėtai liaunasi veikęs
+Message-ID: <20060125235413+0200@wiki.akl.lt>
+
+(1) Ant bylos paspaudus "Atverti su kita programa", išmetamas klaidos pranešimas, kad programa Nautilus netikėtai liovėsi veikusi.
+(2) Pranešime paspaudus "Uždaryti", ji įsijungia vėl, lyg paspaudus "Perleisti programą".
+
+From unknown Wed Jan 25 23:55:18 +0200 2006
+From: 
+Date: Wed, 25 Jan 2006 23:55:18 +0200
+Subject: Reikia angliškos klaviatūros
+Message-ID: <20060125235518+0200@wiki.akl.lt>
+
+Būtų geriau, jei angliška klaviatūra būtų jau iš karto įdiegta.
+
+From unknown Wed Jan 25 23:59:40 +0200 2006
+From: 
+Date: Wed, 25 Jan 2006 23:59:40 +0200
+Subject: Painiava su klaviatūros išdėstymais
+Message-ID: <20060125235940+0200@wiki.akl.lt>
+
+(1) Pridėjus US English klaviatūrą, ji atsiranda tik perkėlus ją aukštyn.
+(2) Po to pašalinus anglišką klaviatūrą, ji nepasišalina, o klaviatūros indikatoriuje rodoma kaip "?".
+(3) Spausdinant "?" klaviatūra, rašomos lietuviškos raidės, o Ltu -- vietoj lietuviškų raidžių rašomi skaičiai.
+
+From unknown Thu Jan 26 00:01:49 +0200 2006
+From: 
+Date: Thu, 26 Jan 2006 00:01:49 +0200
+Subject: Netvarka darbalaukyje
+Message-ID: <20060126000149+0200@wiki.akl.lt>
+
+Pirmas dalykas, kuris krinta į akis -- tai katalogo "Linux Dokumentacija" keista vieta: jis pasislinkęs kairėn.
+
+From unknown Thu Jan 26 00:02:51 +0200 2006
+From: 
+Date: Thu, 26 Jan 2006 00:02:51 +0200
+Subject: Paspaudus "Įdiegti į diską" iššoka lentelė anglų (!) kalba.
+Message-ID: <20060126000251+0200@wiki.akl.lt>
+
+
+
+From unknown Thu Jan 26 12:57:01 +0200 2006
+From: 
+Date: Thu, 26 Jan 2006 12:57:01 +0200
+Subject: Painiava su klaviatūros išdėstymais
+Message-ID: <20060126125701+0200@wiki.akl.lt>
+In-Reply-To: <20060125235940+0200@wiki.akl.lt>
+
+Baltix 1.1, tikriausiai ir 1.2, įdiegiant papildomus klaviatūros išdėstymus, ši painiava atsiranda dėl to, kad pagal nutylėjimą įsijungia Alt - Alt klaviatūrų perjungimo (klaviatūros perjungiamos nuspaudus abu Alt klaišus) kombinacija. Pakeitus šį scenarijų į Alt - Shift, viskas gražiai persijungia. Eiti pele ant LTU, deš. pelės klavišas, klaviatūros išdėstymai, „klavišų kombinacijos?“ lapelis, praplėsti joje paryškintą grupę ir pasirinkti vietoj „body Atl ... grup“ į „Alt - Shift group“. Ir išsaugoti pakitimus
+
+From unknown Thu Jan 26 13:37:18 +0200 2006
+From: 
+Date: Thu, 26 Jan 2006 13:37:18 +0200
+Subject: Painiava su klaviatūros išdėstymais
+Message-ID: <20060126133718+0200@wiki.akl.lt>
+In-Reply-To: <20060126125701+0200@wiki.akl.lt>
+
+patikslinimas Eiti pele ant LTU, deš. pelės klavišas, eiti į „Atidaryti klaviatūros nustatymai“, po to eiti į lapelį „išdėstymo nustatymai“, praplėsti joje paryškintą „group Shift/lock behavior“ grupę ir nuimti varnelę nuo „both Atl keys torge“ ir uždėti varnelę ant „Alt + Shift changes group“. Ir išsaugoti pakitimus
+
+
+From unknown Thu Jan 26 14:56:41 +0200 2006
+From: 
+Date: Thu, 26 Jan 2006 14:56:41 +0200
+Subject: Patebėjimas
+Message-ID: <20060126145641+0200@wiki.akl.lt>
+
+Kraunant Baltix į HDD Ubuntu-Express programa reklamuojamos sena Baltix 1.0 versija ir kai kurios programų versijos. Gal aplamai vertėtų išmesti versijų numerius.
+
+From unknown Fri Jan 27 18:53:15 +0200 2006
+From: 
+Date: Fri, 27 Jan 2006 18:53:15 +0200
+Subject: ubuntu-express įdiegimo programa neleidžia naudoti brūkšnelių - ir _ kompiuterio varde :(
+Message-ID: <20060127185315+0200@wiki.akl.lt>
+
+ubuntu-express įdiegimo programa neleidžia naudoti brūkšnelių - ir _ kompiuterio varde :(
+
+From unknown Fri Jan 27 19:16:23 +0200 2006
+From: 
+Date: Fri, 27 Jan 2006 19:16:23 +0200
+Subject: xorg-driver-fglrx reikalauja paketų gcc-3.3-base ir libstdc++5, kurių nėra Baltix 1.2beta CD :(
+Message-ID: <20060127191623+0200@wiki.akl.lt>
+
+xorg-driver-fglrx reikalauja paketų, kurių nėra Baltix 1.2beta CD :
+
+apt-get install xorg-driver-fglrx
+The following extra packages will be installed:
+  gcc-3.3-base libstdc++5
+
+From unknown Fri Jan 27 19:19:34 +0200 2006
+From: 
+Date: Fri, 27 Jan 2006 19:19:34 +0200
+Subject: ubuntu-express įdiegimo programa nenustato įdiegimo metu įvesto kompiuterio vardo :(
+Message-ID: <20060127191934+0200@wiki.akl.lt>
+
+ubuntu-express įdiegimo programa nenustato įdiegimo metu įvesto kompiuterio vardo - po įdiegimo jis visuomet tampa baltix-linux :)
+
+From mantas Wed Feb 1 00:10:53 +0200 2006
+From: mantas
+Date: Wed, 01 Feb 2006 00:10:53 +0200
+Subject: Į Baltix 1.2 CD reik įdėti naujus ATI vaizdo draiverius iš mirror.ubuntulinux.nl/dists/breezy-seveas
+Message-ID: <20060201001053+0200@wiki.akl.lt>
+
+Į Baltix 1.2 CD reiktų įdėti naujas ATI vaizdo plokščių valdykles iš http://mirror.ubuntulinux.nl/dists/breezy-seveas/
+
+Daugiau informacijos apie ATI vaizdo plokščių valdykles žr.: https://wiki.ubuntu.com/BinaryDriverHowto/ATI
+
+From unknown Wed Feb 1 20:51:08 +0200 2006
+From: 
+Date: Wed, 01 Feb 2006 20:51:08 +0200
+Subject: Gal į Baltix 1.2 verta įdėti atnaujintą (0.5.1cvs) CD/DVD įrašytuvą gnomebaker ?
+Message-ID: <20060201205108+0200@wiki.akl.lt>
+
+Gal į Baltix 1.2 verta įdėti atnaujintą (0.5.1cvs) CD/DVD įrašytuvą gnomebaker ?
+Neatrodo, kad https://launchpad.net/products/gnomebaker/+bugs būtų kokių nors kritinių klaidų, o toje versijoje yra pataisyta keletas bug'ų, pvz turėtų leisti įrašinėti pilną CD (702 MB) :)
+
+
+From unknown Sat Feb 4 08:17:01 +0200 2006
+From: 
+Date: Sat, 04 Feb 2006 08:17:01 +0200
+Subject: patikrinti ar 1.2 release candidate normaliai veikia update-manager
+Message-ID: <20060204081701+0200@wiki.akl.lt>
+
+patikrinti ar 1.2 release candidate normaliai veikia update-manager, nes testuojant iš Live CD jis dingdavo netikėtai ;)
+
+From unknown Tue Feb 7 09:18:34 +0200 2006
+From: 
+Date: Tue, 07 Feb 2006 09:18:34 +0200
+Subject: Gal reiktų į Baltix CD sudėti lilo deb paketą ?
+Message-ID: <20060207091834+0200@wiki.akl.lt>
+
+Gal reiktų į Baltix CD sudėti lilo deb paketą ? Kai kuriais atvejais įdiegiant grub įvyksta klaida, tuomet pasiūlo diegti lilo, bet kadandi lilo nėra Baltix CD tai įvyksta klaida kai pabandai diegti lilo.
+Kitas variantas būtų tiesiog ištaisyti grub-install skripto bug'ą su XFS :)
+
+From unknown Tue Feb 7 18:07:10 +0200 2006
+From: 
+Date: Tue, 07 Feb 2006 18:07:10 +0200
+Subject: Po įdiegimo startuojant rodomam meniu turi būti Baltix GNU/Linux, o ne Ubuntu
+Message-ID: <20060207180710+0200@wiki.akl.lt>
+
+Po įdiegimo startuojant rodomam meniu turi būti Baltix GNU/Linux, o ne Ubuntu.
+
+From unknown Fri Feb 10 08:53:23 +0200 2006
+From: 
+Date: Fri, 10 Feb 2006 08:53:23 +0200
+Subject: Gal reiktų pakeisti branduolį iš 2-6-12-9-386 į 2-6-12-10-386
+Message-ID: <20060210085323+0200@wiki.akl.lt>
+
+Gal reiktų pakeisti linux branduolį, nes Ubuntu security updates instaliuoja 2-6-12-10 branduolį į Baltix instaliaciją, bet norint jį paleisti, reikia rankomis pataisyti /boot/grub/menu.lst krovimosi eigą keičiant visur galūnę ...-9-386 į ...-10-386, o po to -9-386 branduolį pašalinti paketų tvarkymo programa. 
+
+From unknown Fri Feb 10 08:56:05 +0200 2006
+From: 
+Date: Fri, 10 Feb 2006 08:56:05 +0200
+Subject: Po įdiegimo startuojant rodomam meniu turi būti Baltix GNU/Linux, o ne Ubuntu
+Message-ID: <20060210085605+0200@wiki.akl.lt>
+In-Reply-To: <20060207180710+0200@wiki.akl.lt>
+
+Tas įvyksta atnaujinus iš Baltix serverio GDM iki 2.13 versijos. Pastebėta, kad keičiasi po atnaujinimo ir darbastalio fonas.
+
+From unknown Mon Feb 13 15:27:21 +0200 2006
+From: 
+Date: Mon, 13 Feb 2006 15:27:21 +0200
+Subject: Baltix 1.0-1.2rc instaleris turi ne tik suformatuot / skirsnį, bet ir pakeisti jo tipą į Linux (83)
+Message-ID: <20060213152721+0200@wiki.akl.lt>
+
+Baltix 1.0-1.2rc instaleris turi ne tik suformatuot / skirsnį, bet ir pakeisti jo tipą į Linux (83), nes priešingu atveju root (/) skirsnio tipas gali likti kitoks, pvz NTFS ir tuomet grub-install pradeda grybauti, rašo:
+
+The file /boot/grub/stage1 not read correctly.
+
+pvz grub-install skripte užkomentavus eilutes, kur tikrina ir rašo echo "The file $file not read correctly." gauname va ką:
+
+root@baltix-linux:~# chroot /target/ /sbin/grub-install --recheck --no-floppy "(hd0)"
+Probing devices to guess BIOS drives. This may take a long time.
+Due to a bug in xfs_freeze, the following command might produce a segmentation
+fault when /boot/grub is not in an XFS filesystem. This error is harmless and
+can be ignored.
+xfs_freeze: specified file ["/boot/grub"] is not on an XFS filesystem
+
+    GNU GRUB  version 0.95  (640K lower / 3072K upper memory)
+
+ [ Minimal BASH-like line editing is supported.  For the first word, TAB
+   lists possible command completions.  Anywhere else TAB lists the possible
+   completions of a device/filename. ]
+grub> root (hd0,2)
+ Filesystem type unknown, partition type 0x7
+grub> setup  --stage2=/boot/grub/stage2 --prefix=/boot/grub (hd0)
+
+Error 17: Cannot mount selected partition
+grub> quit
+
+
+From unknown Mon Feb 13 15:29:40 +0200 2006
+From: 
+Date: Mon, 13 Feb 2006 15:29:40 +0200
+Subject: Esant usb atmintinei, kraunant Baltix jis krovimosi metu užlūžta
+Message-ID: <20060213152940+0200@wiki.akl.lt>
+
+Nežinau kaip pas kitus, bet intel plokštė 915PE/G su 930 serijos procesoriumi Pentium 4 ir 686-smp ar 386 branduoliu neužsikrauna Baltix, bet užlūžta, jei krovimosi metu yra įdėta į kompą usb atmintinė. Pranešimas xserver negali startuoti. Ant šio kompo nepasiledžia ir memtest86+, bei žaidimas „Tuxcart race“. Be to 1.2 betoj programavimo menu kai paskutiniame nuorodoje, vietoj lietuviškų raidžių neaiškūs simboliai. Ką erzina angliškas pasveikinimas „Wilkome“ GDM, galima nesunkiai jį pakeisti programa „Prisijungimo langas“ į žodį „Sveiki“
+
+From unknown Mon Feb 13 15:31:08 +0200 2006
+From: 
+Date: Mon, 13 Feb 2006 15:31:08 +0200
+Subject: numlockx įjungia numlock netgi startuojant ant laptopo (Acer TM 2300), nes dmidecode reikalauja root
+Message-ID: <20060213153108+0200@wiki.akl.lt>
+
+numlockx įjungia numlock netgi startuojant ant laptopo (Acer TM 2300), nes dmidecode reikalauja root
+
+From mantas Mon Feb 13 16:02:46 +0200 2006
+From: mantas
+Date: Mon, 13 Feb 2006 16:02:46 +0200
+Subject: Baltix 1.0-1.2rc instaliavimo metu paleistas gparted neleidzia
+	performatuot skirsnio
+Message-ID: <20060213160246+0200@wiki.akl.lt>
+
+Baltix 1.0-1.2rc instaliavimo metu paleistas gparted neleidzia performatuot skirsnio
+
+From unknown Wed Feb 22 11:22:50 +0200 2006
+From: 
+Date: Wed, 22 Feb 2006 11:22:50 +0200
+Subject: Programų meniu nėra DVD diskų kopijavimo į CD/kietą diską įrankio (DVD ripper) "Thoggen" :(
+Message-ID: <20060222112250+0200@wiki.akl.lt>
+
+Programų meniu nėra DVD diskų kopijavimo į CD/kietą diską įrankio (DVD ripper) "Thoggen" :( 
+Klaida yra /usr/share/applications/thoggen.desktop byloje - prieš Name ir Comment yra _
+
+
+From unknown Thu Feb 23 13:02:58 +0200 2006
+From: 
+Date: Thu, 23 Feb 2006 13:02:58 +0200
+Subject: gnomebaker 0.5.1 ir senesnės versijos neleidžia įrašyti/trinti jau prijungto CD-RW :(
+Message-ID: <20060223130258+0200@wiki.akl.lt>
+
+gnomebaker 0.5.1 ir senesnės versijos neleidžia įrašyti/trinti jau prijungto CD-RW :(
+
+From unknown Sat Feb 25 22:40:33 +0200 2006
+From: 
+Date: Sat, 25 Feb 2006 22:40:33 +0200
+Subject: Tinklo konfigūravimo įrankis turėtų būti Programos->Internetas
+Message-ID: <20060225224033+0200@wiki.akl.lt>
+
+Tinklo konfigūravimas įrankis turėtų būti randamas Programos->Internetas
+
+From unknown Tue Mar 7 02:18:58 +0200 2006
+From: 
+Date: Tue, 07 Mar 2006 02:18:58 +0200
+Subject: Baltix 1.3 versijoje reiktų atnaujinti WineTools bent jau iki wt0.9jo-III
+Message-ID: <20060307021858+0200@wiki.akl.lt>
+
+Baltix 1.3 versijoje reiktų atnaujinti WineTools bent jau iki wt0.9jo-III (13.12.2005), žr.: 
+http://www.von-thadden.de/Joachim/WineTools/CHANGELOG.txt
+
+From unknown Tue Mar 7 03:36:57 +0200 2006
+From: 
+Date: Tue, 07 Mar 2006 03:36:57 +0200
+Subject: 1.3 versijoj atnaujinti openoffice-templates-lt paketą, kad veiktų su OpenOffice.org 2.0.2
+Message-ID: <20060307033657+0200@wiki.akl.lt>
+
+1.3 versijoj atnaujinti openoffice-templates-lt paketą, kad tiktų /usr/lib/openoffice.org (Ubuntu 5.10 buvo /usr/lib/openoffice.org2, bet Ubuntu 6.04 bus /usr/lib/openoffice.org )
+
+From unknown Tue Mar 7 03:48:24 +0200 2006
+From: 
+Date: Tue, 07 Mar 2006 03:48:24 +0200
+Subject: openoffice.org2-help-lt-dummy pakete nuoroda turi būti /usr/lib/openoffice.org/help kataloge
+Message-ID: <20060307034824+0200@wiki.akl.lt>
+
+openoffice.org2-help-lt-dummy pakete nuoroda turi būti /usr/lib/openoffice.org/help kataloge
+
+From unknown Tue Mar 7 04:03:56 +0200 2006
+From: 
+Date: Tue, 07 Mar 2006 04:03:56 +0200
+Subject: Gal į Baltix mokykloms skirtą versiją verta įtraukti TappyTux children's educational game suite ?
+Message-ID: <20060307040356+0200@wiki.akl.lt>
+
+Gal į Baltix mokykloms skirtą versiją verta įtraukti TappyTux children's educational game suite, žr.: 
+http://silentcoder.co.za/tiki/tiki-index.php?page=TappyTux
+
+From unknown Wed Mar 8 14:19:51 +0200 2006
+From: 
+Date: Wed, 08 Mar 2006 14:19:51 +0200
+Subject: Paleidus iš ubuntu-express jisai sukuria root teisėmis /home/ubuntu/.mozilla :(
+Message-ID: <20060308141951+0200@wiki.akl.lt>
+
+Paleidus iš ubuntu-express jisai sukuria root teisėmis /home/ubuntu/.mozilla ir dėl to nestartuoja Mozilla Firefox jei jį pirmą kartą leidi iš ubuntu vartotojo :(
+
+From unknown Fri Mar 10 09:07:24 +0200 2006
+From: 
+Date: Fri, 10 Mar 2006 09:07:24 +0200
+Subject: Per sena foo2hp tvarkyklė
+Message-ID: <20060310090724+0200@wiki.akl.lt>
+
+Su Baltix 1.2 RC1 spausdintuvas HP Color Laserjet 2600n spausdina tik juodai baltai. Reiktų atnaujinti. Smulkiau http://foo2hp.rkkda.com/
+
+From unknown Fri Mar 10 09:17:37 +0200 2006
+From: 
+Date: Fri, 10 Mar 2006 09:17:37 +0200
+Subject: Netikslūs ntfs skirsnio įrašai /etc/fstab
+Message-ID: <20060310091737+0200@wiki.akl.lt>
+
+Instaliuojant Baltix 1.2RC1, esant ntfs skirsniams, Ubuntu expres juos įrašo į /etc/fstab netiksliai, dėl to krovimosi metu išmeta (ALT-F1 lange) apie 8 eilučių įspėjimą, kad utf8 nuo 2.6.6 kernel versijos nenaudotinas, o turi būti nls=utf8. Įrašius /etc/fstab vietoj „utf8“ - „nls=utf8“ įspėjimas išnyksta. 
+
+From unknown Fri Mar 10 09:23:28 +0200 2006
+From: 
+Date: Fri, 10 Mar 2006 09:23:28 +0200
+Subject: Instaliuoti žaidimai yra nebylūs
+Message-ID: <20060310092328+0200@wiki.akl.lt>
+
+Instaliuoti žaidimai Tux racer, planet penguin racer yra su garsais, bet išbandžius ant 2 kompiuterių Baltix 1.2 beta jie yra nebylūs, nors sisteminius garsus, CD groja.
+
+From unknown Fri Mar 10 09:24:25 +0200 2006
+From: 
+Date: Fri, 10 Mar 2006 09:24:25 +0200
+Subject: Instaliuoti žaidimai yra nebylūs
+Message-ID: <20060310092425+0200@wiki.akl.lt>
+
+Instaliuoti žaidimai Tux racer, planet penguin racer yra su garsais, bet išbandžius ant 2 kompiuterių Baltix 1.2 beta jie yra nebylūs, nors sisteminius garsus, CD groja.
+
+From unknown Fri Mar 10 09:27:39 +0200 2006
+From: 
+Date: Fri, 10 Mar 2006 09:27:39 +0200
+Subject: Instaliuoti žaidimai yra nebylūs
+Message-ID: <20060310092739+0200@wiki.akl.lt>
+
+Instaliuoti žaidimai Tux racer, planet penguin racer yra su garsais, bet išbandžius ant 2 kompiuterių Baltix 1.2 beta jie yra nebylūs, nors sisteminius garsus, CD groja.
+
+From unknown Sat Mar 11 17:15:15 +0200 2006
+From: 
+Date: Sat, 11 Mar 2006 17:15:15 +0200
+Subject: Gal reiktų pakeisti branduolį iš 2-6-12-9-386 į 2-6-12-10-386
+Message-ID: <20060311171515+0200@wiki.akl.lt>
+In-Reply-To: <20060210085323+0200@wiki.akl.lt>
+
+Gal ir taip , bet po įdiegimo atnaujinus paketus atsinaujina ir branduolys iki 2-6-12-10-386 todėl nemanau kad čia didelė problema.
+
+From unknown Tue Mar 14 10:42:16 +0200 2006
+From: 
+Date: Tue, 14 Mar 2006 10:42:16 +0200
+Subject: Instaliuoti žaidimai yra nebylūs
+Message-ID: <20060314104216+0200@wiki.akl.lt>
+In-Reply-To: <20060310092328+0200@wiki.akl.lt>
+
+Jei juos: tuxkarte, pingus paleidwiama tiesiai iš katalogo /usr/games, tai garsai žaidimuose groja, bet jei juos paleidi iš sukurtų leistukų pvz., meniu žaidimai ar darbastalyje, tai jie tampa nebylūs.
+
+From unknown Tue Mar 14 22:31:27 +0200 2006
+From: 
+Date: Tue, 14 Mar 2006 22:31:27 +0200
+Subject: Thuderbird
+Message-ID: <20060314223127+0200@wiki.akl.lt>
+
+Gal derėtų šią pašto programą padaryti numatytaja . Nesakau kad "Evoliution" bloga programa , tiesiog "Thunderbird" gal ideologiškai labiau derėtų prie "Firefox" naršyklės ? ;) .
+
+From unknown Sat Mar 18 18:13:37 +0200 2006
+From: 
+Date: Sat, 18 Mar 2006 18:13:37 +0200
+Subject: Thuderbird
+Message-ID: <20060318181337+0200@wiki.akl.lt>
+In-Reply-To: <20060314223127+0200@wiki.akl.lt>
+
+Norėčiau pridurti jog nustačius "Thunerbird" numtytaja ji neveikia kaip numatytoji :( . Tiksliau pasakius neveikia kaip numatytoji nei "Evoliution" nustačius "Thunderbird" numatytaja . Paspaudus ant emeilo nuorodos pvz: naršyklėje šiuo atveju neatsidaro nei viena :(. Nustačius "Evoliution" numatytaja viskas veikia gerai. Reikia būtinai ištasyti !!! P.S. Gal naujausioje "Baltix" versijoje šios problemėlės neliks ? :) .
+
+From unknown Sat Mar 18 18:16:00 +0200 2006
+From: 
+Date: Sat, 18 Mar 2006 18:16:00 +0200
+Subject: Thuderbird
+Message-ID: <20060318181600+0200@wiki.akl.lt>
+In-Reply-To: <20060318181337+0200@wiki.akl.lt>
+
+Reikia būtinai ištaisyti !!! Čia pats pasitaisiau ;).
+
+From unknown Mon Mar 20 14:49:53 +0200 2006
+From: 
+Date: Mon, 20 Mar 2006 14:49:53 +0200
+Subject: Instaliuoti žaidimai yra nebylūs
+Message-ID: <20060320144953+0200@wiki.akl.lt>
+In-Reply-To: <20060314104216+0200@wiki.akl.lt>
+
+Žaidimai su garsais groja iš Desktopo leistukų, jei leistukuose papildomai visoms grupėms suteikiamos teisės execute (vietoj skaitinės išraiškos 644 turi būti 755). Po antrojo Desktopo leistukų paleidimo garsai atsiranda.
+
+From unknown Tue Mar 21 10:58:27 +0200 2006
+From: 
+Date: Tue, 21 Mar 2006 10:58:27 +0200
+Subject: Nerodo DVD filmų
+Message-ID: <20060321105827+0200@wiki.akl.lt>
+
+Niekaip nepavyksta paleisti žiūrėti DVD ar video bylų ar filmų su 5.1 sursound garso takeliu. Totem išmeta pranešimą Audio device is busy...
+
+From unknown Tue Apr 4 13:40:46 +0300 2006
+From: 
+Date: Tue, 04 Apr 2006 13:40:46 +0300
+Subject: Nerodo DVD filmų
+Message-ID: <20060404134046+0300@wiki.akl.lt>
+In-Reply-To: <20060321105827+0200@wiki.akl.lt>
+
+Tas gaunasi, kai yra sumaišytas disko suskirstymo eiliškumas. Pradžioje reikia sukurti didžiausią skirsnį /, po to mažesnį /home, ir tik po to Swap. Tada DVD groja be problemų. Jei pradžioje sukursime vidutinio dydžio skirsnį, po to didžiausią, ir galų gale mažiausią, tai Ubuntu express pirmajam priskiria /home, antrajam /, trečiajam Swap, ir tada DVD negroja.
+
+From unknown Mon Apr 24 12:34:59 +0300 2006
+From: 
+Date: Mon, 24 Apr 2006 12:34:59 +0300
+Subject: Pasiūlymas
+Message-ID: <20060424123459+0300@wiki.akl.lt>
+
+Kadangi 1.3 rc1 distribucija viršijo 700Mb dydį, gal vertėtų į ją įtraukti ir „gnome-sudoku“ paketą, populiarųjį loginį žaidimą.
+
+From unknown Mon May 1 19:59:43 +0300 2006
+From: 
+Date: Mon, 01 May 2006 19:59:43 +0300
+Subject: žaislai..
+Message-ID: <20060501195943+0300@wiki.akl.lt>
+
+turėtumėt sumest ir bene geriausią OSS žaidimą "Battle for Wesnoth" - http://www.wesnoth.org/
+
+From unknown Fri May 5 14:25:59 +0300 2006
+From: 
+Date: Fri, 05 May 2006 14:25:59 +0300
+Subject: žaislai..
+Message-ID: <20060505142559+0300@wiki.akl.lt>
+In-Reply-To: <20060501195943+0300@wiki.akl.lt>
+
+Deja jis skirtas Dapper 6.06 versijai, o ne Breezy 5.10, ant kurios padarytas Baltix.
+
+From unknown Wed May 10 13:12:11 +0300 2006
+From: 
+Date: Wed, 10 May 2006 13:12:11 +0300
+Subject: Instaliuoti žaidimai yra nebylūs
+Message-ID: <20060510131211+0300@wiki.akl.lt>
+In-Reply-To: <20060314104216+0200@wiki.akl.lt>
+
+Taisymas http://ubuntuforums.org/showthread.php?t=22647

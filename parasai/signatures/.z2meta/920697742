@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 451321530
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 10:13:59.159000 GMT+3
+logo_url:string = http://grafika.iv.lt/iv/logo.gif
+mail:string = arvydas@iv.lt
+organization:string = UAB "Interneto vizija"
+position:string = direktorius
+status:string = imone
+title:string = Arvydas \xc5\xa0trausas
+url_asm:string = 
+url_org:string = http://www.iv.lt/

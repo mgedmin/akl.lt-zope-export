@@ -1,0 +1,36 @@
+## Script (Python) "edit_sig"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+## Warnings:
+##  Doesn't print, but reads 'printed' variable.
+##
+request = container.REQUEST
+id = request.form['id']
+root = container['signatures']
+sig = root[id]
+
+sig.manage_edit(sig, request.form['title'])
+
+for item in ["confirmed", "agree"]:
+    value = item in request.form.keys()
+    sig.manage_changeProperties({item: value})
+    
+for item in request.form.keys():
+    if item in ["id", "title", "confirmed", "agree"]:
+        continue
+    try:
+        getattr(sig, item)
+        sig.manage_changeProperties({item: request.form[item]})
+    except AttributeError:
+        if item in ["moder_denied", "moder_ok"]:
+            sig.manage_addProperty(item, request.form[item], "string")
+        else:
+            raise "AttributeError: %s" % item
+request.response.redirect("edit_sig_form?id=%s&msg=Pataisyta" % id)
+return printed

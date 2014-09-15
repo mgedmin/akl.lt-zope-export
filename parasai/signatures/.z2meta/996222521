@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 606551471
+confirmed:boolean = 1
+gen_date:date = 2005/05/13 15:30:48.623000 GMT+3
+logo_url:string = 
+mail:string = albertas@megalogika.lt
+organization:string = UAB MegaLogika
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Albertas Mick\xc4\x97nas
+url_asm:string = 
+url_org:string = http://megalogika.lt

@@ -1,0 +1,90 @@
+<script type="text/javascript" language="javascript">
+//<!--
+function checkForm() {
+    forma = document.getElementById('forma');
+    balas1 = false;
+    balas2 = false;
+    balas3 = false;
+    invalid = false;
+    for (i = 0; i < forma.elements.length; i++) {
+        el = forma.elements[i];
+        if (el.type != 'radio') {    
+            continue;
+        }
+        if (el.checked) {
+            if (el.value == '1') {
+                if (balas1) {
+                    invalid = true;
+                    break;
+                } else {
+                    balas1 = true;
+                }
+            }
+            if (el.value == '2') {
+                if (balas2) {
+                    invalid = true;
+                    break;
+                } else {
+                    balas2 = true;
+                }
+            }
+            if (el.value == '3') {
+                if (balas3) {
+                    invalid = true;
+                    break;
+                } else {
+                    balas3 = true;
+                }
+            }
+        }
+    }
+    if (invalid) {
+        alert('Balsuojant vieną kartą galima priskirti 1 balą, vieną kartą 2 balus ir vieną kartą - 3. Jūs balsavote per daug.');
+        return false;
+    }
+    if (!(balas1 && balas2 && balas3)) {
+        alert('Dar ne už visus balsavote.');
+        return false;
+    }
+    if (document.getElementById('email').value == '') {
+        alert('Neįvestas el. pašto adresas');
+        return false;
+    }
+    return true;
+}
+//-->
+</script>
+<form action="balsuok" method="post" id="forma">
+  <table>
+  <tr>
+    <th rowspan="2">Vardas</th>
+    <th rowspan="2">Nominacija</th>
+    <th colspan="3">Balai</th>
+  </tr>
+  <tr>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+  </tr>
+  <tr tal:repeat="item here/kandidatai">
+    <td tal:content="item/name"></td>
+    <td tal:content="item/nomin"></td>
+    <td>
+      <input type="radio" tal:attributes="name item/id"
+             value="1" />
+    </td>
+    <td>
+      <input type="radio" tal:attributes="name item/id"
+             value="2" />
+    </td>
+    <td>
+      <input type="radio" tal:attributes="name item/id"
+             value="3" />
+    </td>
+  </tr>
+  </table>
+  <br />
+  El. paštas: <input type="text" name="email" id="email" />
+  <input type="submit" value="Balsuoti" onclick="javascript: return checkForm();" />
+   <input type="reset" value="Išvalyti" />
+</form>

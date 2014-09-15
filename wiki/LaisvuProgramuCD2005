@@ -1,0 +1,264 @@
+Laisvų programų CD 3 leidimas
+
+  Laikas atnaujinti LPCD. Naujame leidinyje bus patobulinta programų dėgimo programa (iš http://www.theopencd.org). Išmesime visas serveriui skirtas programas.
+
+
+Turinys 
+
+ * Biuro programos:
+
+    o Ofiso paketas ("OpenOffice.org", lt ir en versijos.) 
+
+    o Tekstų redaktorius ("AbiWord", kelių kalbų versijos)
+
+    o Kalendorius bei darbo organizatorius ("Mozilla-Calendar")
+
+    o PDF failų kūrimo įrankis ("PDFCreator") *new*
+
+ * Interneto programos: 
+
+    o Interneto naršyklės ("Mozilla", "Mozilla Firefox") *new*
+
+    o E-pašto programos ("Mozilla Thunderbird", "Sylpheed") *new*
+
+    o Atviro kodo susirašinėjimo agentai ("Exodus", "Miranda", "PSI", "Gaim" bei "XChat")
+
+    o HTML redaktorius ("NVU") *new*
+
+    o Turinio valdybo sistemos ("Plone", "eZpublish", "Mambo") *new* 
+
+    o Internetinio dienoraščio programa ("Wordpress") *new*  - reikėtu aprašymą patobulinti
+
+    o Parsisiuntimo programos - FTP, SSH, SCP ("FileZilla" - ftp, "WackGet" - parsisiuntimo, "PuTTY" - ssh, "WinSCP" - scp) *new*
+
+ * Grafikos apdorojimo programos:
+
+    o Grafikos apdorojimo programos ("GIMP", "Sodipodi")
+
+    o Darbo su vaizdais bei paveikslėliais įrankių rinkinys ("Image Magic")
+
+    o Darbo su ekrano nuotraukomis programa ("smartision-ScreenCopy")
+
+    o 3d grafikos apdorojimo programos ("Blender")
+
+ * Multimedia (audio ir video) programos:
+
+    o Audio grotuvas ("Zinf") 
+
+    o Garso redaktorius ("Audacity") 
+
+    o Muzikinių CD nuskaitymo į kompiuterį programa ("CDex") 
+
+    o Muzikinių bylų suspaudėjas ("Oggdrop")
+
+ * Programavimui:
+
+    o "Eclipse" (su skiepais PHP, Python, Ruby ir dokumentacija)
+
+    o "Vim"
+
+ * Kompiuterinio projektavimo bei diagramų kūrimo programos (katalogas "Diagramos_CAD"):
+
+    o Kompiuterinio projektavimo (braižymo) programa ("QCAD") 
+
+    o Diagramų kūrimo programa ("Dia") 
+
+    o Funkcijų grafikų braižymo programa ("Gnuplot") 
+
+ * Vertimo programos bei žodynai (katalogas "Zodynai_Vertimai"):
+
+    o Vertimų programos ("PoEdit", "Translator") bei kompiuterinių terminų žodynas
+
+ * Kitos programos (katalogas "Irankiai"):
+
+    o PostScript bei PDF programos ("Ghostscrip" bei "GsView")
+
+    o Vertimų programos (PoEdit, Translator) bei kompiuterinių terminų žodynas (i kataloga "Zodynai_Vertimai"? mykolas)
+
+    o Bylų tvarkytojas - DN
+
+    o Universalus archyvatorius ("7-Zip")
+
+    o GNUPG
+
+    o Screensavers ("Really Slick Screensavers") *new*
+
+    o "Notepad2" *new*  (net nežinau koki jam aprašymą sugalvoti)
+
+ * Mokomosios programos (katalogas Mokymas):
+
+    o Mokomosios programos ("Tux Typing", "TuxPaint", "Tux of Math Command")
+
+    o Matematika ("Maxima", "Octave")
+
+    o Astronomijos mokymo programa ("Celestia") 
+
+ * Žaidimai *new*  (reikia daugiau žaidimų, kas žino rašykite komentarą)
+
+    o "TuxRacer"
+
+    o "Reaper"
+
+    o "MirrorMagic"
+
+    o "Search and Rescue"
+
+    o "FlightGear"
+
+    o "Sokoban"
+
+    o "Battle for Wesnoth"
+
+    o "FrozenBubble"
+
+ * Žodynai
+
+    o Žodynų programa "OpenDict" ir "LED" įskiepiai
+
+
+Kandidatai
+
+ * Internet
+
+    * TightVNC (http://www.tightvnc.com/) (1.2.9, 0.9 MB)
+
+    * WinHTTrack (http://www.httrack.com/) (3.33, 3.6 MB)
+
+    * K-meleon (http://kmeleon.sourceforge.net/) (0.9, 4.9 MB)
+
+ * Networking
+
+    * DRKspider (http://www.drk.com.ar/projects.php) 
+
+ * Serving
+
+    * AppServ (MySQL, PHP, Apache) (http://www.appservnetwork.com/)
+
+    * phpBB (http://www.phpbb.com/)
+
+    * MediaWiki (http://wikipedia.sourceforge.net/)
+
+ * Publishing
+
+    * MikTeX (http://www.miktex.org/) (2.4, 25 MB, this is the small install, large is over 250 MB)
+
+    * LyX (http://www.lyx.org/) (1.3.5, 6.3 MB, required are a set of latex fonts, 900 KB in size)
+
+ * Multimedia
+
+    * VirtualDub (http://virtualdub.sourceforge.net/)
+
+    * VLC (http://www.videolan.org/vlc/) 
+
+ * Utilities
+
+    * explore2fs (http://uranus.it.swin.edu.au/~jn/linux/explore2fs.htm) 
+
+ * Development
+
+    * Dev-C++ (http://www.bloodshed.net/devcpp.html)
+
+    * MinGW (http://www.mingw.org/)
+
+    * Python (http://www.python.org/)
+
+    * wxPython (http://www.wxpython.org/)
+
+    * Database Design Tool (http://www.visi.com/~jjanssens/) 
+
+    * XEmacs (http://www.xemacs.org/)
+
+    * SciTE (http://www.scintilla.org/SciTE.html) (1.63, 1.1 MB, using Bruce Dodson's installer)
+
+    * Notepad++
+
+    * NSIS (http://nsis.sourceforge.net/) (2.06, 1.6 MB)
+
+    * XAMPP (http://www.apachefriends.org/en/index.html) (1.4.13, 24.5 MB)
+
+ * Design
+
+    * PovRay (http://www.povray.org/)
+
+    * Imagemagick (http://www.imagemagick.org/) 
+
+ * Scientific
+
+    * Maxima (http://maxima.sourceforge.net/)
+
+    * SciLab (http://scilabsoft.inria.fr/)
+
+    * R-project (http://www.r-project.org/)
+
+    * OpenDX
+
+ * Other
+
+    * Clamwin (http://www.clamwin.com/)
+
+    * Inkscape (http://www.inkscape.org/)
+
+    * Mozilla Sunbird (http://www.mozilla.org/projects/calendar/sunbird.html)
+
+    * Rainlender (http://vapaa.dc.inet.fi/~rainy/index.php?pn=projects&amp;project=rainlendar) (0.21.1, 785 KB)
+
+    * Media Player Classic (http://www.gabest.org/) (6.4.8.4, 2.0 MB)
+
+    * musikCube (http://www.musikcube.com/) (0.92.5, 6.5 MB) 
+
+    * Open Clip Art (http://www.openclipart.org/) (0.13.2, 42.7 MB)
+
+ * Utils
+
+    * WinDirStat (http://windirstat.sourceforge.net/) (1.1.1, 0.6 MB)
+
+    * WinPT (http://winpt.sourceforge.net/en/) (1.0rc2, 3.0 MB)
+
+    * WinMerge (http://winmerge.sourceforge.net/) (2.2.4, 2.6 MB) 
+
+<hr>
+
+ Rašykite savo pasiūlymus ir kometarus.
+
+
+From unknown Tue Jul 19 12:27:52 +0300 2005
+From: jaro 
+Date: Tue, 19 Jul 2005 12:27:52 +0300
+Subject: Daugiau CMS'u
+Message-ID: <20050719122752+0300@wiki.akl.lt>
+
+Plone, Mambo, Wordpress
+
+From unknown Sat Aug 27 17:03:44 +0300 2005
+From: 
+Date: Sat, 27 Aug 2005 17:03:44 +0300
+Subject: DUK
+Message-ID: <20050827170344+0300@wiki.akl.lt>
+
+Manau reikia į CD įdėti naudojimosi DUK. Apie copyright ir t.t.
+
+From unknown Tue Sep 6 14:50:42 +0300 2005
+From: 
+Date: Tue, 06 Sep 2005 14:50:42 +0300
+Subject: OpenDocument bei OpenOffice formatų bylų peržiūrėjimo programą http://visioo-writer.tuxfamily.org
+Message-ID: <20050906145042+0300@wiki.akl.lt>
+
+Manau būtinai reikia pridėti laisvą OpenDocument bei OpenOffice.org formatų bylų (dokumentų) peržiūrėjimo programą - http://visioo-writer.tuxfamily.org
+
+From unknown Tue Sep 6 14:52:42 +0300 2005
+From: 
+Date: Tue, 06 Sep 2005 14:52:42 +0300
+Subject: Gal reikia palikti kokią vieną kitą DBMS ?
+Message-ID: <20050906145242+0300@wiki.akl.lt>
+
+Sakote, kad reikia išmesti visas serveriui skirtas programas. O kaip dėl duombazių ? Manau reikia palikti kokią vieną kitą DBMS.
+
+From unknown Tue Sep 6 16:35:53 +0300 2005
+From: jaro
+Date: Tue, 06 Sep 2005 16:35:53 +0300
+Subject: re: Gal reikia palikti kokią vieną kitą DBMS ?
+Message-ID: <20050906163553+0300@wiki.akl.lt>
+In-Reply-To: <20050906145242+0300@wiki.akl.lt>
+
+Nemanau, kad yra daug žmonių, kurie ant savo Windows serverio suktu laisvas DBVS. Be to, tie kurie tai sugeba padaryti vargu ar naudosis LPCD.
+LPCD tiesiog nėra skirtas serverių dėgimui, jis skirtas namų naudotojams.

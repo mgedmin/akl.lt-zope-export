@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 665078376
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 20:11:48.508000 GMT+3
+logo_url:string = 
+mail:string = imbusy@freemail.lt
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Lukas Steiblys
+url_asm:string = 
+url_org:string = 

@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>\xe2\x80\x9eQuantum GIS\xe2\x80\x9c (<a href="http://qgis.sourceforge.net/">QGIS</a>) yra laisva geografin\xc4\x97s informacijos sistemos programin\xc4\x97 \xc4\xafranga, veikiant \xe2\x80\x9eLinux\xe2\x80\x9c ir \xe2\x80\x9eUnix\xe2\x80\x9c operacij\xc5\xb3 sistemose. Ji naudoja atviro kodo duomen\xc5\xb3 baz\xc4\x97s server\xc4\xaf <a href="http://www.postgresql.org/">\xe2\x80\x9ePostgreSQL\xe2\x80\x9c</a>, o grafin\xc4\x97 vartotojo s\xc4\x85saja sukurta Qt programine \xc4\xafranga.\n</p>
+date:string = 2003-09-17
+title:string = Nauja GIS sistema \xe2\x80\x9eLinux\xe2\x80\x9c ir \xe2\x80\x9eUnix\xe2\x80\x9c platformoms

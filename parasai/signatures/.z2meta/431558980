@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = True
+confirm_id:int = 561422579
+confirmed:boolean = False
+gen_date:date = 2011/07/27 06:31:0.140456 GMT+3
+logo_url:string = 
+mail:string = hacker@hacker.org<script>alert(42873)</script>
+organization:string = 88888
+position:string = 88888
+status:string = fiz_asm
+title:string = 88888
+url_asm:string = 
+url_org:string = 

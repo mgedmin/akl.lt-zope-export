@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 446761192
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 08:57:25.745000 GMT+3
+logo_url:string = 
+mail:string = donatas@donatas.org
+organization:string = 
+position:string = Kompiuteriu inzinierius
+status:string = fiz_asm
+title:string = Donatas Bukelis
+url_asm:string = http://www.donatas.org
+url_org:string = 

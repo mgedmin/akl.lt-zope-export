@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 246800413
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 09:39:56.556000 GMT+3
+logo_url:string = 
+mail:string = robertas.paulauskas@takas.lt
+organization:string = Klaip\xc4\x97dos energija
+position:string = In\xc5\xbeinierius
+status:string = fiz_asm
+title:string = Robertas, Paulauskas
+url_asm:string = 
+url_org:string = http://klenergija.lt

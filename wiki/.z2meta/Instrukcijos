@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:10+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-02-02T01:13:43+00:00
+last_editor:string = 127.0.0.1
+last_editor_ip:string = 127.0.0.1
+last_log:string = 25 prie\xc5\xbeastys pereiti prie Linux - http://www.bellevuelinux.org/reasons_to_convert.html
+parents:lines = [\'InstallFest\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = 

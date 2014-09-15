@@ -1,0 +1,461 @@
+Sąrašas žaidimų ir mokomųjų programų, kurios bus įtrauktos į Žaidimų CD
+
+ <table width="100%" border="1" bordercolor="#000000" cellpadding="4"
+cellspacing="0">
+<col width="18*"> <col width="50*"> <col width="45*"> <col
+width="38*"> <col width="49*"> <col width="56*"> <thead> <tr
+valign="top">
+<th width="7%">
+<p align="center">Eil.Nr.</p>
+</th>
+<th width="20%">
+<p>Pavadinimas</p>
+</th>
+<th width="17%">
+<p>Versija LPCD2.1 ver</p>
+</th>
+<th width="15%">
+<p>Dabartinė versija</p>
+</th>
+<th width="19%">
+<p>Atnaujinti/neatnaujinti/pastabos</p>
+</th>
+<th width="22%">
+<p>Adresas, iš kur galima parsisiųsti programą</p>
+</th>
+</tr>
+</thead> <tbody>
+<tr valign="top">
+<td width="7%">
+<p align="left"><br>
+</p>
+</td>
+<td width="20%">
+<p><b>Kūrybiškumo programos</b></p>
+</td>
+<td width="17%" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="15%" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%">
+<p><br>
+</p>
+</td>
+<td width="22%">
+<p><br>
+</p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="1" sdnum="1023;">
+<p align="right" style="">1</p>
+</td>
+<td width="20%" valign="top">
+<p style="">Fle3</p>
+</td>
+<td width="17%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p><br>
+</p>
+</td>
+<td width="22%" valign="top">
+<p><br>
+</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="7%">
+<p align="left"><br>
+</p>
+</td>
+<td width="20%">
+<p><b>Mokomosios programos</b></p>
+</td>
+<td width="17%" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="15%" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%">
+<p><br>
+</p>
+</td>
+<td width="22%">
+<p><br>
+</p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="2" sdnum="1023;">
+<p align="right" style="">2</p>
+</td>
+<td width="20%" valign="top">
+<p style="">Celestia</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>1.3.1</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p><br>
+</p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://www.shatters.net/celestia/download.html">http://www.shatters.net/celestia/download.html</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="3" sdnum="1023;">
+<p align="right" style="">3</p>
+</td>
+<td width="20%" valign="top">
+<p style="">TuxType</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>1.5.1</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p>atnaujinti, jei bus naujesnė versija windowsam (dabar 1.5.1)</p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://tuxtype.sourceforge.net/download/">http://tuxtype.sourceforge.net/download/</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="4" sdnum="1023;">
+<p align="right" style="">4</p>
+</td>
+<td width="20%" valign="top">
+<p style="">TuxPaint</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>0.9.13</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p>atnaujinti, taip pat patikrinti ar nėra 0.9.14 versijos,
+kurioje ištaisytas bugas (žr. <a
+href="http://www.newbreedsoftware.com/tuxpaint/">Saurio 14 naujieną</a>).
+Baigti versti</p>
+</td>
+<td width="22%" valign="top">
+<p><a
+href="http://www.newbreedsoftware.com/tuxpaint/download/windows/">http://www.newbreedsoftware.com/tuxpaint/download/windows/</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="5" sdnum="1023;">
+<p align="right">5</p>
+</td>
+<td width="20%" valign="top">
+<p style="">Tux of Math Command</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>2001.09.07 ?</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p><br>
+</p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://sourceforge.net/projects/tuxmath/">http://sourceforge.net/projects/tuxmath/</a></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="7%">
+<p align="left"><br>
+</p>
+</td>
+<td width="20%">
+<p><b>Žaidimai</b></p>
+</td>
+<td width="17%" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="15%" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%">
+<p><br>
+</p>
+</td>
+<td width="22%">
+<p><br>
+</p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="6" sdnum="1023;">
+<p align="right">6</p>
+</td>
+<td width="20%" valign="top">
+<p>TuxRacer</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>0.61a</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p>Beje egzistuoja žaidimo <a href="http://www.tuxracer.com/">patobulinimas</a>
+tik dėja ne opensource, yra nemokamas demo <font color="#b80047">testuota</font></p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://tuxracer.sourceforge.net/download.html">http://tuxracer.sourceforge.net/download.html</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="7" sdnum="1023;">
+<p align="right">7</p>
+</td>
+<td width="20%" valign="top">
+<p>Race</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>0.7.0</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p>atnaujinti, jei bus windows versija, kol kas tik 0.7.0 </p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://race.sourceforge.net/">http://race.sourceforge.net/</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="8" sdnum="1023;">
+<p align="right">8</p>
+</td>
+<td width="20%" valign="top">
+<p>FreeCiv</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>1.14.1</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p><br>
+</p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://www.freeciv.org/download.phtml">http://www.freeciv.org/download.phtml</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="9" sdnum="1023;">
+<p align="right">9</p>
+</td>
+<td width="20%" valign="top">
+<p>Mirror Magic II</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>2.0.2</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p><br>
+</p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://www.artsoft.org/mirrormagic/">http://www.artsoft.org/mirrormagic/</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="10" sdnum="1023;">
+<p align="right">10</p>
+</td>
+<td width="20%" valign="top">
+<p>GL-117</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>1.2</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p><br>
+</p>
+</td>
+<td width="22%" valign="top">
+<p><a
+href="http://home.t-online.de/home/Primetime./gl-117/download.htm">http://home.t-online.de/home/Primetime./gl-117/download.htm</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="11" sdnum="1023;">
+<p align="right">11</p>
+</td>
+<td width="20%" valign="top">
+<p>Reaper</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>0.98.2</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p><br>
+</p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://reaper3d.sourceforge.net/download.html">http://reaper3d.sourceforge.net/download.html</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="12" sdnum="1023;">
+<p align="right">12</p>
+</td>
+<td width="20%" valign="top">
+<p>FlighGear</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>0.9.3</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p><br>
+</p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://www.flightgear.org/Downloads/binary.html">http://www.flightgear.org/Downloads/binary.html</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="13" sdnum="1023;">
+<p align="right">13</p>
+</td>
+<td width="20%" valign="top">
+<p>Toppler</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>1.0.5</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p>kol kas win versija 1.0.5</p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://toppler.sourceforge.net/">http://toppler.sourceforge.net/</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="14" sdnum="1023;">
+<p align="right">14</p>
+</td>
+<td width="20%" valign="top">
+<p>Fozzen Bubble</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>1.0</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p><font color="#000000">patikrinti, ar installeris iš </font><a
+href="http://sourceforge.net/projects/fbe-win32/"><font color="#000000">čia</font></a><font
+color="#000000"> paimtas </font> <font color="#b80047">testuota</font></p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://www.frozen-bubble.org/index.php?menu_item=1">http://www.frozen-bubble.org/</a></p>
+<p><a href="http://www.frozen-bubble.org/index.php?menu_item=1">http://www.frozen-bubble.org/index.php?menu_item=1</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="15" sdnum="1023;">
+<p align="right">15</p>
+</td>
+<td width="20%" valign="top">
+<p>GNU Chess</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>4.15</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p><br>
+</p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://www.tim-mann.org/gnuchess.html">http://www.tim-mann.org/gnuchess.html</a></p>
+</td>
+</tr>
+<tr>
+<td width="7%" valign="bottom" sdval="16" sdnum="1023;">
+<p align="right">16</p>
+</td>
+<td width="20%" valign="top">
+<p>Search And Rescue</p>
+</td>
+<td width="17%" valign="top" sdval="0" sdnum="1023;0;@">
+<p>0.8.1</p>
+</td>
+<td width="15%" valign="top" sdnum="1023;0;@">
+<p><br>
+</p>
+</td>
+<td width="19%" valign="top">
+<p><br>
+</p>
+</td>
+<td width="22%" valign="top">
+<p><a href="http://wolfpack.twu.net/SearchAndRescue/">http://wolfpack.twu.net/SearchAndRescue/</a></p>
+</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,13 @@
+<h2>Įrankis matematiniams skaičiavimams „Octave“<br>
+<a href="http://www.octave.org/">www.octave.org</a></h2>
+<a href="http://www.octave.org">
+  <img src="images/octave_sombrero.jpg" alt="Octave pavyzdys" border="0" class="rphoto">
+    </a>
+<p>
+„GNU Octave“ yra aukšto lygio kalba, skirta skaičiavimams. Ji suteikia komandinės
+eilutės aplinką ir leidžia atlikti įvairius skaičiavimus. Ši kalba yra labai gerai
+suderinta su matematiniu paketu „Matlab“, todėl „Matlab“ skirtos programos puikiai
+veikia su „Octave“ ir atvirkščiai. Daug informacijos rasite tinklalapyje
+<a href="http://octave.sourceforge.net/Octave_Windows.htm" target="_blank">http://octave.sourceforge.net/Octave_Windows.htm</a>.<br>
+„Octave“ moka pavaizduoti ir grafikus. Tam reikia įdiegti „gnuplot“ programą.
+</p>

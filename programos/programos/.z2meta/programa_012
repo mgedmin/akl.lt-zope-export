@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = Interneto pokalbi\xc5\xb3 programa \xe2\x80\x9eMiranda IM\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eMiranda IM\xe2\x80\x9c (Miranda Instant Messanger) yra pokalbi\xc5\xb3 internete programa, \nskirta \xe2\x80\x9eMS Windows\xe2\x80\x9c (95, 98, Me, NT4, 2000, XP) terpei, pritaikyta darbui su dauguma \npaplitusi\xc5\xb3 pokalbi\xc5\xb3 program\xc5\xb3 protokol\xc5\xb3. \xe2\x80\x9eMiranda IM\xe2\x80\x9c \xe2\x80\x9enepriri\xc5\xa1ta\xe2\x80\x9c nei prie vieno protokolo - \nvartotojas pats renkasi norimus protokolus ir \xc4\xafdiegia kaip \xc4\xafskiepius (plugin). Programoje si\xc5\xablomi \nICQ, AIM, MSN, IRC ir Jabber protokol\xc5\xb3 \xc4\xafskiepiai. Kitus (Gadu-Gadu, ICQ Groupware, Yahoo, \nNetsend ir t.t.) galima parsisi\xc5\xb3sti i\xc5\xa1 <a href="http://www.miranda-im.org/" target="_blank">http://www.miranda-im.org</a>. \n\xe2\x80\x9eMiranda IM\xe2\x80\x9c skirta tiems, kurie nori dirbti viena programa, naudodamiesi keliais skirtingais protokolais. 

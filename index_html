@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="lt">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <base tal:attributes="href request/response/base">
+  <title>Atviras kodas Lietuvai</title>
+  <link rel="stylesheet" type="text/css"
+        tal:attributes="href python: here.root().absolute_url() + '/style/main.css'">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/gif">
+  <link rel="alternate" href="/naujienos/rss" type="application/rss+xml">
+</head>
+<body tal:attributes="class python:not here.isRoot() and 'inner' or 'index'; id python:here.getId()">
+  <div id="main_container">
+    <div id="top_container">
+      <h1 id="main_head"><a href="/"
+                            tal:attributes="href python: here.root().absolute_url()"
+                            title="Į pradžios tinklalapį"><span>Atviras kodas Lietuvai</span></a></h1>
+      <div id="highlight"
+           tal:content="structure python:here.fix_encoding(here.hotnews())">
+      </div>
+      <ol id="main_menu" tal:define="menu here/menu"
+          tal:content="structure python:here.fix_encoding(menu)">
+          <li id="menu1"><a href="#">nuoroda1</a></li>
+          <li id="menu2"><a href="#">nuoroda2</a></li>
+          <li id="menu3"><a href="#">nuoroda3</a></li>
+          <li id="menu4"><a href="#">nuoroda4</a></li>
+          <li id="menu5"><a href="#">nuoroda5</a></li>
+          <li id="menu6"><a href="#">nuoroda6</a></li>
+      </ol>
+      <div id="top_container_bottom"></div>
+    </div>
+
+        <div id="submenu" tal:define="menu here/submenu"
+             tal:condition="menu"
+             tal:content="structure python:here.fix_encoding(menu)"></div>
+
+<tal:comment replace="nothing">             
+<!-- BANERIS -->
+        <div tal:condition="here/submenu"
+             tal:content="structure here/banners"></div>
+</tal:comment>
+<tal:comment replace="nothing">
+<!-- MENIU TURI BUTI LISTAS -->             
+    <ol id="submenu" tal:condition="here/submenu">
+      <li tal:define="menu here/submenu"
+          tal:condition="menu" tal:content="structure menu"></li>
+    </ol>
+</tal:comment>    
+ 
+    <div id="content_column" tal:define="text here/text"
+         tal:content="structure python:here.fix_encoding(text)"></div>
+    <div id="dashboard" tal:define="text here/default"
+         tal:content="structure python:here.fix_encoding(text)"
+         tal:condition="here/isRoot"></div>
+    <div id="footer"><p>Autorinės teisės © 2002—2009 Atviras kodas Lietuvai.
+      Svetainės turinys pateikiamas pagal <a href="http://www.gnu.org/copyleft/fdl.html">GNU FDL</a> licenciją be invariantinių skyrių ir priekinio ar užpakalinio viršelio tekstų.
+      Visais klausimais kreipkitės: <a href="mailto:info@akl.lt">info@akl.lt</a>.
+      Puslapis sukurtas su <a href="http://www.zope.org/Credits">Zope</a>.</p>
+        <!-- phpmyvisites -->
+        <script type="text/javascript">
+        var a_vars = Array();
+        var pagename='';
+
+        var phpmyvisitesSite = 1;
+        var phpmyvisitesURL = "http://stats.akl.lt/phpmyvisites.php";
+        </script>
+        <script type="text/javascript" language="javascript" src="http://stats.akl.lt/phpmyvisites.js"></script>
+        <!-- /phpmyvisites -->
+        <div id="footer_bottom"></div>    
+    </div>
+  </div>
+
+
+
+
+
+
+
+<tal:comment replace="nothing">
+
+<table class="main">
+  <tr>
+    <td class="nude">      
+      <!-- Header -->
+      <table class="header">
+        <tr>
+          <td class="vfill">
+            <h1 class="img"><img
+    tal:attributes="src python: here.root().absolute_url() + '/images/logo.png'"
+    alt="Atviras kodas Lietuvai"></h1>
+          </td>
+          <td class="nude"><img class="nude"
+    tal:attributes="src python: here.root().absolute_url() + '/images/pic.png'"
+    alt=""></td>
+        </tr>
+      </table>
+      <!-- Menu -->
+      <table class="menu">
+        <tr tal:content="structure here/menu">
+          <td class="links"><a href="#" class="menu">nuoroda</a></td>
+          <td class="orange"><a href="#" class="menu1">nuoroda</a></td>
+          <td class="links"><a href="#" class="menu">nuoroda</a></td>
+          <td class="links"><a href="#" class="menu">nuoroda</a></td>
+          <td class="links"><a href="#" class="menu">nuoroda</a></td>
+          <td class="links"><a href="#" class="menu">nuoroda</a></td>
+          <!-- td><img src="images/spacer.png" alt="" width="5"></td -->
+        </tr>
+      </table>        
+    </td>
+    </tr>
+
+    <!-- Body -->
+    <tr>
+      <td class="main">
+        <div class="main">
+	  <table class="content">
+            <tr>
+              <td class="submenu"
+                  tal:condition="here/submenu">
+                <div tal:define="menu here/submenu"
+                     tal:condition="menu"
+                     tal:content="structure menu"></div>
+                <div tal:condition="here/submenu"
+                     tal:content="structure here/banners"></div>
+              </td>
+              <td class="text"
+                  tal:content="structure here/text"></td>
+
+              <td class="news"
+                  tal:content="structure here/default"
+                  tal:condition="here/isRoot"></td>
+            </tr>
+          </table>
+	</div>
+      </td>
+    </tr>
+    <!-- Footer -->
+    <tr>
+      <td class="footer">
+            Autorinės teisės &copy; 2002--2010
+           Atviras kodas Lietuvai. 
+           Svetainės turinys pateikiamas pagal <a href="http://www.gnu.org/copyleft/fdl.html" style="color: #788894">GNU FDL</a>
+           licenciją be invariantinių skyrių ir priekinio ar galinio viršelio tekstų.
+           Visais klausimais kreipkitės: <a href="mailto:info@akl.lt">info@akl.lt</a>.
+           Puslapis sukurtas su <a href="http://www.zope.org/Credits" style="color: #788894">Zope</a>.
+      </td>
+  </tr>
+</table>
+
+<!-- phpmyvisites -->
+<script type="text/javascript">
+<!--
+var a_vars = Array();
+var pagename='';
+
+var phpmyvisitesSite = 1;
+var phpmyvisitesURL = "http://stats.akl.lt/phpmyvisites.php";
+//-->
+</script>
+<script type="text/javascript" src="http://stats.akl.lt/phpmyvisites.js"></script>
+<!-- /phpmyvisites --> 
+
+</tal:comment>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9198561-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

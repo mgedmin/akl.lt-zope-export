@@ -1,0 +1,5 @@
+[properties]
+categories:string = Multimedia,
+public:boolean = 1
+title:string = Video redaktorius \xe2\x80\x9eVidomi\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eVidomi\xe2\x80\x9c - tai program\xc5\xb3 paketas, skirtas auk\xc5\xa1tos kokyb\xc4\x97s video (XviD ir DivX MPEG4) k\xc5\xabrimui bei per\xc5\xbei\xc5\xabrai.

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 357748253
+confirmed:boolean = 1
+gen_date:date = 2005/05/22 15:21:7.524000 GMT+3
+logo_url:string = http://www.vgtu.lt/images/logo.jpg
+mail:string = rrr@sc.vtu.lt
+organization:string = VGTU
+position:string = WEB programuotojas, studentas
+status:string = fiz_asm
+title:string = Robertas Rad\xc5\xbevilas
+url_asm:string = http://rrr.mine.nu/
+url_org:string = http://www.vgtu.lt

@@ -1,0 +1,36 @@
+<p>Vakar (2006-05-11) Novell pristatė naują savo distribucijos versiją – SUSE Linux 10.1.<p>
+
+<p>Ji pasižymi tuo, kad tai pirma stabili SUSE Linux versija, sukurta viso pasaulio atviro kodo PĮ programuotojų 
+ir šalininkų bendruomenės, kas tapo įmanoma Novell iniciatyvos openSUSE dėka. Distribucija platinama internete, 
+taip pat parduodama tradicinėse Novell pakuotėse per visą jos platintojų tinklą.</p>
+
+<p>„Novell ir openSUSE bendruomenė sukūrė Linux produktą, kuris sudomins ir naujokus GNU/Linux pasaulyje, 
+ir patyrusius naudotojus“, - sakė Holger Dyroff, Novell SUSE vadybos viceprezidentas.</p>
+
+<p>SUSE Linux 10.1 sukurta Linux branduolio 2.6.16.13 pagrindu ir yra sudaryta iš X serverio Xorg 6.9.0, 
+grafinės aplinkos KDE 3.5.1 bei GNOME 2.12.0.1, oficialios pakuotės OpenOffice.org 2.0.2, vaizdų apdorojimo 
+programos GIMP 2.2.10, kompiliatorių rinkinio GCC 4.1.0 su biblioteka Glibc 2.4, naršyklės 
+Mozilla Firefox 1.5.0.3 ir pašto programos Thunderbird 1.5 ir t.t.</p>
+
+<p>Trumpai:</p>
+<ul>
+<li>kernel-2.6.16.13</li>
+<li>gcc-4.1.0 </li>
+<li>glibc-2.4 </li>
+<li>X.Org-6.9.0 </li>
+<li>xgl-cvs_060503</li>
+<li>apache2-2.2.0 </li>
+<li>PostgreSQL-8.1.3 </li>
+<li>MySQL-5.0.18 </li>
+<li>samba-3.0.22 </li>
+<li>PHP-5.1.2 </li>
+<li>KDE-3.5.1 </li>
+<li>GNOME-2.12 </li>
+<li>GIMP-2.2.10 (gimp-cmyk-0.3)</li>
+<li>OpenOffice_org-2.0.2</li>
+</ul>
+
+<p>Parsisiųsti SUSE Linux 10.1 galima iš <a href="http://download.opensuse.org/">http://download.opensuse.org/</a>.</p>
+
+<p>Daugiau: <a href="http://lwn.net/Articles/183230/">http://lwn.net/Articles/183230/</a></p>
+<p>Šaltiniai: <a href="http://www.nixp.ru">http://www.nixp.ru</a>, <a href="http://www.linux.org.ru">http://www.linux.org.ru</a>.</p>

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 913023536
+confirmed:boolean = 1
+gen_date:date = 2005/07/01 11:45:19.709000 GMT+3
+logo_url:string = 
+mail:string = tomas.bendorius@vda.lt
+organization:string = Vilniaus dail\xc4\x97s akademija
+position:string = Kompiutreri\xc5\xb3 skyriaus ved\xc4\x97jas
+status:string = fiz_asm
+title:string = Tomas Bendorius
+url_asm:string = 
+url_org:string = http://www.vda.lt

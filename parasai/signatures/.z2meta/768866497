@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 715514475
+confirmed:boolean = 1
+gen_date:date = 2006/03/12 20:45:11.337000 GMT+2
+logo_url:string = 
+mail:string = marius@m2m.lt
+organization:string = Benq
+position:string = Produkto vadovas
+status:string = fiz_asm
+title:string = Marius Sinkevicius
+url_asm:string = 
+url_org:string = http://www.benqmobile.com/

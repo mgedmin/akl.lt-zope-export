@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 314649615
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 17:48:45.347000 GMT+3
+logo_url:string = 
+mail:string = neydomu@yahoo.co.uk
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = VILMANTAS, GRINIUS
+url_asm:string = 
+url_org:string = 

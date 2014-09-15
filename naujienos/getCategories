@@ -1,0 +1,35 @@
+## Script (Python) "getCategories"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+# Dėl pavadinimų žiūrėti į map_categories
+
+return [m[0] for m in context.map_categories()]
+
+# Pavadinimuose nenaudokite tarpų! Vietoje jų rašykite &nbsp;
+# Vietoje 'Biuro programos' reiktų rašyti 'Biuro&nbsp;programos'
+return [
+    'Biuro&nbsp;programos',
+    'OpenOffice',
+    'Interneto&nbsp;programos',
+    'Grafikos&nbsp;programos',
+    'Multimedia',
+    'Žaidimai&nbsp;ir&nbsp;pramogos',
+    'Programavimas',
+    'Laisva&nbsp;PĮ&nbsp;Lietuvoje',
+    'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai',
+    'GNU/Linux&nbsp;OS',
+    'GNU/Hurd&nbsp;OS',
+    'FreeBSD&nbsp;OS',
+    'OpenBSD&nbsp;OS',
+    'GNOME&nbsp;aplinka',
+    'KDE&nbsp;aplinka',
+    'Grafinės&nbsp;aplinkos',
+    'Sėkmės&nbsp;istorijos',
+    'Patentai&nbsp;ir&nbsp;autorinės&nbsp;teisės', 
+]

@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title tal:content="python: 'Photo: ' + here[request.image].title_or_id()">The Title</title>
+  </head>
+  <body> 
+   <div class="picnav">
+         <span tal:replace="here/cookie"/>
+         <p>
+         <span tal:replace="structure here/navbar" />&nbsp;&nbsp;
+
+         <b tal:content="structure python: '%s <em>from</em> %s' % (here[request.image].title_or_id(), here.title_or_id())" />&nbsp;&nbsp;
+
+         <a tal:attributes="href python: '%s?display=%s&image=%s' % (request.URL, 'medium', request.image)">640</a>
+         <a tal:attributes="href python: '%s?display=%s&image=%s' % (request.URL, 'large', request.image)">768</a>
+         <a tal:attributes="href python: '%s?display=%s&image=%s' % (request.URL, 'xlarge', request.image)">1024</a>
+         <a tal:attributes="href python: '%s?display=&image=%s' %  (request.URL, request.image)">original 
+              <span tal:replace="python: '(%sx%s)' % (here[request.image].width(), here[request.image].height())"/></a> 
+         </p>
+    </div>
+
+    <div class="pic">
+       <span tal:replace="structure python: here[request.image].tag(display=request.display)"/>
+    </div>
+
+  </body>
+</html>

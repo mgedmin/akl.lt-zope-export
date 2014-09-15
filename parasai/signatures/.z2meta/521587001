@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 189307118
+confirmed:boolean = 1
+gen_date:date = 2005/05/13 16:13:39.924000 GMT+3
+logo_url:string = 
+mail:string = laikasnelaukia@takas.lt
+organization:string = Kauno apskrities jaunimo draugija "Laikas nelaukia"
+position:string = Prezidentas
+status:string = vis_org
+title:string = Juozas Adomaitis
+url_asm:string = 
+url_org:string = http://www.laikasnelaukia.visiems.lt

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 249731152
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 13:52:23.074000 GMT+3
+logo_url:string = 
+mail:string = gentoo@balticum-tv.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Andrius Aleksejevas
+url_asm:string = http://gentoo.tk
+url_org:string = 

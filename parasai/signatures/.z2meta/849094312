@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 555862174
+confirmed:boolean = 1
+gen_date:date = 2005/06/02 18:43:40.570000 GMT+3
+logo_url:string = 
+mail:string = vykintas@gmail.com
+organization:string = \xc5\xa0ilal\xc4\x97s Stepono Dariaus ir Stasio Gir\xc4\x97no vidurin\xc4\x97 mokykla
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Vykintas Augilius
+url_asm:string = 
+url_org:string = 

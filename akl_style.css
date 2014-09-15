@@ -1,0 +1,364 @@
+* { font-size: 10pt; }
+
+html {
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	text-align: center;
+	margin: 20px 0px;
+	background-color: #ffffff;
+	font-family: "Trebuchet MS" Verdana Geneva Arial Helvetica sans-serif;
+}
+table.main {
+	text-align: center;
+	border-spacing: 0px;
+	border: none; 
+	/*width: 800px;*/
+	width: 65em;
+	/*margin: auto auto;*/
+	margin-top: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
+
+td.vfill {
+	width: 100%
+}
+
+.nude {
+	margin: 0px;
+	padding: 0px;
+}
+
+td.main {
+	height: 100%;
+	vertical-align: top;
+}
+
+table.header { 
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	height: 70px;
+	background-image: url("images/bg.png");
+	background-repeat: repeat-x;
+	/*width: 800px;*/
+	width: 65em;
+}
+
+table.header td { 
+	margin: 0px;
+	padding: 0px;
+}
+table.menu {
+	width: 65em;
+/*	width: 800px;*/
+	border-spacing: 2px 1px;
+	/* table-layout: fixed; */
+}
+
+td.links {
+	border: solid 1px #7d7d7d;
+	text-align: center;
+	height: 10px;
+	width: auto;
+}
+
+td.links a {
+	margin: 0px;
+	padding: 0px;
+}
+
+td.orange {
+/*	background-color: #FF9600; */
+	background-color: #F8C400;
+	border: 1px solid #FF9600;
+	text-align: center;
+	height: 10px;
+	width: auto;
+}
+
+div.main {
+	padding: 2ex 0ex; 
+	text-align: left; 
+}
+
+table.karsta-naujiena { 
+	/*padding:0.1em;
+	background-color:red; */
+	border: 1px solid #FF9600;
+	margin-right:1em;
+	margin-top: 1em;
+}
+
+td.karsta-naujiena {
+	background-color:white;
+}
+
+a.karsta-naujiena {
+	font-size: inherit;
+	color:inherit;
+}
+
+table.content {
+	vertical-align: top;
+/*        width: 600px; */
+}
+
+table.content td.submenu {
+	vertical-align: top;
+	width: 20em;
+}
+
+table.content td.news{
+	vertical-align: top;
+	width: 40em;
+	/*width: 45%;*/
+	padding-left: 2ex;
+	background-color: #F5F5F5;
+	border: dotted 1px #7d7d7d;
+}
+
+table.content td.text {
+	vertical-align: top;
+	/*width: 450px;*/
+	width: 55em;
+	/*width: 55%;*/
+}
+
+a.menu {
+	color: #000000;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+a:hover.menu {
+	color: #FF9600;
+	font-size: 10px;
+}
+
+a.menu1 {
+	color: #000000;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+a:hover.menu1 {
+	color: #000000;
+	font-size: 10px;
+}
+
+a.news {
+	color: #2670C3;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14pt;
+	
+}
+
+a:hover.news {
+	color: #1e5b9f;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14pt;
+}
+
+td.submenu {
+	vertical-align: top;
+	margin-right: 5ex;
+}
+
+td.footer {
+	vertical-align: bottom;
+	color: #E0E0E0;
+	background-color: #A2ACAF;
+	width: 65em;
+	height: 16px;
+	margin: 20px;
+	text-align: center;
+	font-family: Verdana, Geneva, Helvetica, Arial;
+}
+
+div.footer {
+	color: #E0E0E0;
+	background-color: #A2ACAF;
+/*	width: 800px;*/
+	width: 65em;
+	height: 16px;
+	margin: 20px;
+	text-align: center;
+	font-family: Verdana, Geneva, Helvetica, Arial;
+	/*font-size: 10px;*/
+}
+
+a.visited {
+	color: #1e5b9f;
+}
+
+a {
+	color: #2670C3;
+}
+
+td.submenu {
+	vertical-align: top;
+	text-align: left;
+	padding-right: 5ex;
+}
+
+td.submenu a {
+	font-weight: bold;
+	color: #788894;
+	text-decoration: none;	
+	FONT-FAMILY: Verdana, Geneva, Helvetica, Arial;
+	FONT-SIZE: 8pt;
+}
+
+
+
+td.submenu a.selected {
+	color: black;
+}
+
+td.submenu a:hover {
+	color: #FF9600;
+}
+
+td { FONT-SIZE: 8pt; }
+
+p {
+	FONT-SIZE: 9pt;
+}
+
+.arrow {
+	color: #FF9600;
+}
+
+.subarrow {
+        font-weight: normal;
+        font-size: 9pt;
+        margin-left: 1ex;
+}
+
+h1 {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+h1.img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+h2 {
+	font-size: 12pt;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 2ex;
+}
+
+
+h3 {
+	font-weight: bold;
+	color: black;
+	font-size: 10pt;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h3.news {
+	font-weight: bold;
+	color: black;
+	font-size: 10pt;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+h4.karsta-naujiena {
+	 font-size:12pt;
+	 color: #9A0000;
+	  margin-top: 0.5em;
+}
+
+h4 {
+	font-weight: bold;
+	color: #73aa80;
+	font-size: 7pt;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h4 a {
+    color: #73aa80;
+}
+
+h4.news_title {
+	font-weight: bold;
+	color: #73aa80;
+	font-size: 8pt;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h5 {
+	font-weight: bold;
+	color: #788894;
+	font-size: 7pt;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.lphoto {
+	float: left;
+	margin-right:  1.5ex;
+	margin-top:    0.5ex;
+	margin-bottom: 0.5ex;
+}
+
+.rphoto {
+	float: right;
+	margin-left:  1.5ex;
+	margin-top:    0.5ex;
+	margin-bottom: 0.5ex;
+}
+
+img {
+	border: none;
+}
+
+div.readmore {
+	margin-top:   0ex;
+	text-align:   left;
+}
+
+div.news_info {
+	font-size: 11px;
+	color: #656363;
+}
+
+div.news_info a {
+	font-size: 11px;
+	color: #656363;
+	text-decoration: none;
+}
+
+div.naujiena-trumpai {
+	margin-bottom: 0ex;
+        font-size: 9pt;
+}
+
+p.naujiena-trumpai {
+	margin-bottom: 0ex;
+	font-weight: bold;
+}
+
+li {
+        font-size: 9pt;
+}

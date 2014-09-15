@@ -1,0 +1,75 @@
+Vartotojo vadovas
+
+ Tai knyga, skirta savivaldybių darbuotojams, kitiems valstybės tarnautojams, įmonėms, kt. organizacijoms. Į knygą bus įtrauktos instrukcijos ir rekomendaicjos kaip kurti svetainę, atitinkančią W3C standartus, kaip rengti atvirojo standarto formato dokumentus.
+
+ Vartotojas bus rengiamas lietuvių ir latvių kalbomis, atlikus analizę abiejose valstybėse, tad pritaikomas tiek Lietuvos, tiek Latvijos vartotojams. Bus atspausdinta 100 egz. lietuvių kalba ir 50 (60 ?) egz. latvių. Elektroninis variantas bus patalpintas partnerių svetainėse ir laisvai prieinamas visiems. Puslapių sk. ~ 50.
+
+ Turinys
+
+  Siūlau preliminarų turinį, kas turite kokių minčių - komentuokite.
+
+  1. Apžvalga
+
+    o Atvirieji standartai
+
+    o Laisva ir atvirojo kodo programinė įranga
+
+    o Lietuvos (Latvijos) ir Europos Komisijos teisės aktų apžvalga
+
+    o Kitų šalių patirtis
+
+  2. Svetainės atitikimas atviriesiems standartams
+
+    o Ši dalis OOo formatu: http://www.mif.vu.lt/~alga/akl_webVadovas.sxw
+
+    o Atvirieji standartai Internete -- informacija sprendimų darytojams
+
+    o Svetainės atitikimo atviriems standartams testavimas ir taisymas -- praktinė dalis IT darbuotojams
+
+  3. Elektroninių dokumentų rengimas, publikavimas bei priėmimas
+
+    o Elektroniniai dokumentai. Atvirųjų dokumentų formatų svarba keičiantis informacija su piliečiais bei įmonėm.
+
+    o Elektroninių dokumentų, naudojamų savivaldos institucijose, apžvalga
+
+    o Atvirojo formato dokumentų formatai. Pasirinkimo taisyklės bei nurodymai sveitainių turinio pildytojams (pvz konkursams dokumentų valdymo sistemoms pirkti).
+
+    o Dokumentų kūrimas atvirais formatais bei egzistuojančių dokumentų konvertavimas į atvirus formatus. (buv. įrankiai dokumentų  kūrimui ir konvertavimui.)
+
+  4. Priedai
+
+    o Terminų žodynėlis
+
+    o Elektroninių dokumentų formatų lentelė
+
+    o Pagrindinės nuorodos
+
+ Vartotojo vadove informacija bus pateikiama ir administratoriui, ir elektroninių dokumentų rengėjui (techniniam ir ne techniniam personalui).
+
+ Apie vartotojo vadovą anglų k. - UsersGuide
+
+From unknown Mon May 16 11:11:37 +0300 2005
+From: 
+Date: Mon, 16 May 2005 11:11:37 +0300
+Subject: Biurokrato pastabos
+Message-ID: <20050516111137+0300@wiki.akl.lt>
+
+3.1. "piliečiais bei įmonėm" siūlau keisti į "fiziniais bei juridiniais asmenimis". piliečiai - per siaura (bo yra ir ne-piliečių Lietuvos gyventojų; 
+3.3. "Atvirojo formato dokumentų formatai." -  gal geriau "atvirojo standarto dokumentų formatai"? Vienžo, pagalvokit apie žodį "formatas", ar kai kur nebūtų prasminga jį pakeisti į "standartą", jei kalba eina ne apie konkretų formatą, o apie atviruosius standartus atitinkančius dokumentų formatus apskritai. 
+
+
+From unknown Mon May 16 11:34:22 +0300 2005
+From: 
+Date: Mon, 16 May 2005 11:34:22 +0300
+Subject: Dėl 3 dalies
+Message-ID: <20050516113422+0300@wiki.akl.lt>
+
+Man atrodo atskiru punktu reikėtų pridėti, kad Europos Sąjungoje numatoma oficialiai naudoti atvirą, OASIS propaguojamą, biuro programų duomenų  apsikeitimo standartą, bei parašyti bent trumpai apie visas iš to išplauksiančias pasekmes.
+
+From unknown Mon May 16 20:02:01 +0300 2005
+From: 
+Date: Mon, 16 May 2005 20:02:01 +0300
+Subject: 1.3 skyrius
+Message-ID: <20050516200201+0300@wiki.akl.lt>
+
+"HTML ir HTTP technologijos atsirado ankstyvaisiais 1990-aisias neformalių specifikacijų pavidalu" 2 netikslumai: I - HTML ir HTTP yra visiškai skirtingi dalykai, kažkaip gal kitaip reikėtų pasakyti.  II - lietuvių kalboje nesakoma "ankstyvaisiais 1990-aisias", nesa tai reiškia metus, o ne dešimtmetį. Sakykit "X dešimtmečio pradžioje", jei jau niekaip kitaip negalima pasakyti.

@@ -1,0 +1,8 @@
+[properties]
+confirm_id:string = 696447902
+confirmed:boolean = 1
+email:string = aiste@aiste.org
+grazulis:int = 3
+kriauciunas:int = 2
+title:string = aiste@aiste.org
+zalatorius:int = 1

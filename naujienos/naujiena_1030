@@ -1,0 +1,20 @@
+<p>VU ITTC isteigė naują, <b>patikimą</b>, greitą LIETUVIŠKĄ Debian GNU/Linux Ubuntu mirror'ą (veidrodį).</p>
+
+<ul>
+ <li>1 Gbps (1000 Mbps) greitis; </li>
+ <li>Pilni Debian GNU/Linux ir Ubuntu archyvai;</li>
+ <li>Push-mirroring atnaujinimai (tai reiškia, jog veidrodis atsinaujina iš karto, kai tik Debian GNU/Linux ar Ubuntu bendruomenė patvirtina pakeitimus);</li>
+ <li>Veidrodis yra oficialus ir pripažintas Debian GNU/Linux ir Ubuntu bendruomenių: itrauktas į launchpad.net sistemą ir download sistemą per ubuntu.com. Taip pat į cdn.debian.net bei yra įkeltas į <i><u>ftp.lt.debian.org</u></i> sąrašą (vienas iš greičiausiai pripažintų, patekusių į šį sąrašą).</li>
+</ul>
+
+<p>Adresai: <br />
+<a href="http://debian.mirror.vu.lt">http://debian.mirror.vu.lt</a> <br />
+<a href="http://ubuntu.mirror.vu.lt">http://ubuntu.mirror.vu.lt</a>
+</p>
+<p>
+sources.list failiuka galima is karto atsisiusti:<br />
+<a href="http://debian.mirror.vu.lt/debian-sources.list">http://debian.mirror.vu.lt/debian-sources.list</a>
+<a href="http://ubuntu.mirror.vu.lt/ubuntu-sources.list">http://ubuntu.mirror.vu.lt/ubuntu-sources.list</a>
+</p>
+
+<p>Taip pat mūsų bendruomenė mąsto apie kitų linux distribucijų mirroring'ą.</p>

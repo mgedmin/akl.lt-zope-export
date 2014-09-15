@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 194174227
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 16:43:9.351000 GMT+3
+logo_url:string = 
+mail:string = rozhe@one.lt
+organization:string = UAB TECHNA ORBIS
+position:string = IT specialistas
+status:string = fiz_asm
+title:string = Ramunas Mikalauskas
+url_asm:string = 
+url_org:string = http://www.technaorbis.lt

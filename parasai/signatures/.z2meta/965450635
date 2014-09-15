@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 211833466
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 13:11:27.410000 GMT+3
+logo_url:string = 
+mail:string = nkrukauskas@gmail.com
+organization:string = 
+position:string = IT sistem\xc5\xb3 administratorius
+status:string = fiz_asm
+title:string = Nerijus Krukauskas
+url_asm:string = http://nk99.org/
+url_org:string = 

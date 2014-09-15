@@ -1,0 +1,5 @@
+[properties]
+categories:string = Multimedia,
+public:boolean = 1
+title:string = Muzikini\xc5\xb3 byl\xc5\xb3 suspaud\xc4\x97jas \xe2\x80\x9eOggdrop\xe2\x80\x9c
+trumpai:text = Suspaud\xc5\xbeia \xc4\xaf ogg format\xc4\x85, kuris yra kokybi\xc5\xa1kesnis nei mp3.

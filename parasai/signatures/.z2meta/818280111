@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 662769004
+confirmed:boolean = 1
+gen_date:date = 2005/05/21 09:43:43.665000 GMT+3
+logo_url:string = 
+mail:string = ramunas.strauka@b4net.lt
+organization:string = AB bankas "Hansabankas"
+position:string = tarnautojas
+status:string = fiz_asm
+title:string = Ram\xc5\xabnas Strauka
+url_asm:string = 
+url_org:string = 

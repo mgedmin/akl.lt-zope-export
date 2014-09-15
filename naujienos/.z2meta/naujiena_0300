@@ -1,0 +1,7 @@
+[properties]
+blurb:text = Baland\xc5\xbeio 28 dien\xc4\x85, Vilniaus miesto savivaldyb\xc4\x97s Tarybos pos\xc4\x97d\xc5\xbei\xc5\xb3 sal\xc4\x97je\n(Konstitucijos pr. 3) organizuojamas <a href="http://www.akl.lt/projektai/?doc=seminarai.html#SEC5">praktinis seminaras</a> atvir\xc5\xb3j\xc5\xb3\nstandart\xc5\xb3 ir atvir\xc5\xb3j\xc5\xb3 dokument\xc5\xb3 format\xc5\xb3 tema.<br>\nSeminaras skirtas Lietuvos miest\xc5\xb3 ir rajon\xc5\xb3 savivaldybi\xc5\xb3 IT vadovams ir\nspecialistams, taip pat - apskri\xc4\x8di\xc5\xb3 vir\xc5\xa1inink\xc5\xb3 administracij\xc5\xb3 bei valstybini\xc5\xb3 institucij\xc5\xb3 IT vadovams ir specialistams, norintiems pagilinti \xc5\xbeinias atvir\xc5\xb3j\xc5\xb3 standart\xc5\xb3 ir atvirojo kodo srityje.
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\')
+date:string = 2005-04-26
+profesionalams:boolean = 0
+title:string = "Atvirieji standartai ir atvirieji dokument\xc5\xb3 formatai savivaldyb\xc4\x97se". Seminaras, 2005-04-28, Vilnius

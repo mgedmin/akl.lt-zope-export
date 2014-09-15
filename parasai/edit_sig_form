@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC 
+    "-//W3C//DTD XHTML 1.1 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html metal:use-macro="container/main_template/macros/main">
+<tal:block metal:fill-slot="body">
+  <h3 style="color: red;" tal:content="here/REQUEST/msg | nothing"/>
+  <form action="edit_sig" method="post"
+        tal:define="id here/REQUEST/id;
+                   sig python:here.signatures[id]">
+    <input type="hidden" name="id" tal:attributes="value id"/>
+    <table>
+      <tr>
+        <th align="left">Vardas, pavardė:</th>
+        <td><input name="title" size="40" type="text" 
+                   tal:attributes="value sig/title"/></td>
+      </tr>
+      <tr>
+        <th align="left">Pareigos:</th>
+        <td><input name="position" size="40" type="text" 
+                   tal:attributes="value sig/position"/></td>
+      </tr>
+      <tr>
+        <th align="left">Organizacija:</th>
+        <td><input name="organization" size="40" type="text" 
+                   tal:attributes="value sig/organization"/></td>
+      </tr>
+      <tr>
+        <th align="left">Organizacijos adresas:</th>
+        <td><input name="url_org" size="40" type="text" 
+                   tal:attributes="value sig/url_org"/></td>
+      </tr>
+      <tr>
+        <th align="left">Organizacijos logotipas:</th>
+        <td><input name="logo_url" size="40" type="text" 
+                   tal:attributes="value sig/logo_url"/></td>
+      </tr>
+      <tr>
+        <th align="left">El. paštas:</th>
+        <td><input name="mail" size="40" type="text" 
+                   tal:attributes="value sig/mail"/></td>
+      </tr>
+      <tr>
+        <th align="left">Patvirtinta:</th>
+        <td><input name="confirmed" type="checkbox" 
+                   tal:attributes="checked 
+                                python:sig.confirmed and 'checked' or ''"/></td>
+      </tr>
+      <tr>
+        <th align="left">Statusas:</th>
+        <td>
+          <select name="status"
+                  tal:define="statuses python:here.getAvailableStatus()">
+            <tal:block tal:repeat="item python:statuses.keys()">
+                <option tal:attributes="value item;
+                        selected python:sig.status == item and 'selected' or ''"
+                        tal:content="python:statuses[item]"/>
+            </tal:block>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th align="left">Asmeninis adresas internete:</th>
+        <td><input name="url_asm" size="40" type="text" 
+                   tal:attributes="value sig/url_asm"/></td>
+      </tr>
+      <tr>
+        <th align="left">Sutinka skelbtis internete:</th>
+        <td><input name="agree" type="checkbox" 
+            tal:attributes="checked python:sig.agree and 'checked' or ''"/></td>
+      </tr>
+      <tr>
+        <th align="left">Patvirtinta moderatoriaus:</th>
+        <td><input name="moder_ok" size="40" type="text" 
+                   tal:attributes="value sig/moder_ok | nothing"/></td>
+      </tr>
+      <tr>
+        <th align="left">Atšaukta moderatoriaus:</th>
+        <td><input name="moder_denied" size="40" type="text" 
+                   tal:attributes="value sig/moder_denied | nothing"/></td>
+      </tr>
+    </table>
+    <br/>
+    <input type="submit" value="Gerai"/> 
+  </form>
+</tal:block>
+</html>

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 275752104
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 03:23:11.354000 GMT+3
+logo_url:string = http://www.elektronika.lt/logo/elektronika_logo152x152.gif
+mail:string = info@elektronika.lt
+organization:string = Technologij\xc5\xb3 portalas \xe2\x80\x9eElektronika.lt\xe2\x80\x9c
+position:string = proj. vadovas
+status:string = kita
+title:string = Tautvydas Levinskas
+url_asm:string = 
+url_org:string = http://www.elektronika.lt

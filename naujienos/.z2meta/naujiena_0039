@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Linusas Torvaldsas (Linus Torvalds) i\xc5\xa1leido pirmaj\xc4\x85 \xe2\x80\x9eLinux\xe2\x80\x9c kernelio 2.6.x serijos versij\xc4\x85, skirt\xc4\x85 testavimui. \xe2\x80\x9eLinux\xe2\x80\x9c k\xc5\xabr\xc4\x97jas tikisi, kad galutin\xc4\x97 2.6.0 versija bus i\xc5\xa1leista po ma\xc5\xbeiau nei septyni\xc5\xb3 m\xc4\x97nesi\xc5\xb3.\n</p>
+date:string = 2003-07-22
+title:string = I\xc5\xa1leista 2.6.0-test1 \xe2\x80\x9eLinux\xe2\x80\x9c kernelio versija

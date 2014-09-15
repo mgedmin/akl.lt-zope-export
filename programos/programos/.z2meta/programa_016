@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = \xe2\x80\x9eX-Chat\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eXChat\xe2\x80\x9c - tai multiplatforminis IRC klientas. Programa skirta IRC pokalbiams, \npilnai lituanizuota, palaiko IPv6, savyje turi Lietuvos IRC sto\xc4\x8di\xc5\xb3 adresus. 

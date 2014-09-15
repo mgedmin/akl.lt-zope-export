@@ -1,0 +1,9 @@
+[properties]
+author:string = Kristina Kudria\xc5\xa1ova
+blurb:text = Pranc\xc5\xabzijos Nacionalin\xc4\x97 Asambl\xc4\x97ja nusprend\xc4\x97 atsisakyti Windows atvirojo kodo program\xc5\xb3 naudai. Jau bir\xc5\xbeel\xc4\xaf Nacionalin\xc4\x97s Asambl\xc4\x97jos atstovai dirbs su 1154 nauj\xc5\xb3 kompiuteri\xc5\xb3 su Ubuntu Linux.
+categories:multiple selection = (\'GNU/Linux&nbsp;OS\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2007-03-17
+email:string = ristinak@gmail.com
+profesionalams:boolean = False
+title:string = Pranc\xc5\xabzijos vald\xc5\xbeia pereina prie Ubuntu Linux

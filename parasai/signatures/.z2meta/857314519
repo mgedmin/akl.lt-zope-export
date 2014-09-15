@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 401398370
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 16:07:36.040000 GMT+3
+logo_url:string = 
+mail:string = romslez@stud.ktu.lt
+organization:string = 
+position:string = Studentas
+status:string = fiz_asm
+title:string = Romas \xc5\xa0le\xc5\xbeevi\xc4\x8dius
+url_asm:string = 
+url_org:string = 

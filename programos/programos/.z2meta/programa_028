@@ -1,0 +1,5 @@
+[properties]
+categories:string = Vaizdui,
+public:boolean = True
+title:string = Maketavimo programa \xe2\x80\x9eScribus\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eScribus\xe2\x80\x9c skirta \xc4\xafvairi\xc5\xb3 leidini\xc5\xb3 maketavimui \xe2\x80\x9eWindows\xe2\x80\x9c, \xe2\x80\x9eMacOS X\xe2\x80\x9c bei \xe2\x80\x9eLinux\xe2\x80\x9c operacin\xc4\x97se sistemose. \nJi pana\xc5\xa1i \xc4\xaf tokias programas, kaip \xe2\x80\x9ePageMaker\xe2\x80\x9c, \xe2\x80\x9eQuarkXPress\xe2\x80\x9c ar \xe2\x80\x9eInDesign\xe2\x80\x9c, ir skiriasi tuo, \nkad platinama GNU GPL licencijos s\xc4\x85lygomis. Programa veikia \xe2\x80\x9eGNU/Linux\xe2\x80\x9c, kitose UNIX platformose, MacOS X ir OS/2 bei Windows 2000/XP.

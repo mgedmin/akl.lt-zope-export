@@ -1,0 +1,59 @@
+<h2>Biuro paketas „OpenOffice.org“<br>
+<a href="http://www.openoffice.lt">www.openoffice.lt</a> 
+<a href="http://www.openoffice.org">www.openoffice.org</a>
+<a href="http://www.openoffice.lt"><img src="images/OOo_logo.png" alt="OpenOffice.org" border="0" class="rphoto"></a>
+</h2>
+
+<p>Multiplatforminis paketas suderinamas su „MS-Office“ bylų formatais. Paketas susideda iš: 
+<ul>
+<li>teksto procesoriaus, </li>
+<li>elektroninių lentelių, </li>
+<li>grafikos redaktoriaus, </li>
+<li>prezentacijų rengimo programos, </li>
+<li>web redaktoriaus ir </li>
+<li>kitų programų. </li>
+</ul>
+<p>„OpenOffice“ gali visiškai pakeisti „MS-Office“ programas. Pilnai palaikomas lietuviškas raštas. 
+Yra įvairių kalbų (anglų, vokiečių, rusų, lietuvių, lenkų ir kt.) rašybos tikrinimas bei automatinis perkėlimas.
+OpenOffice biuro paketas turi daug naudingų galimybių, pvz., integruotą exportavimą į PDF formatą, galimybė išsaugoti grafinę
+ bylą SWF (Macromedia Flash) formatu, „Macro Recorder“ ir t.t.
+Naujausia versija yra 2.0 beta, kurioje yra daug naujų galimybių, pvz patogi duomenų bazių programa, ištaisyta daug klaidų,
+ pagerintas suderinamumas su paplitusiais komerciniais dokumentų formatais.</p>
+<p> Lietuviškas „OpenOffice“ puslapis yra <a href="http://www.openoffice.lt">http://www.openoffice.lt</a>.
+Jame rasite OpenOffice paketą išverstą į lietuvių kalbą, atsakymus į dažnai užduodamus klausimus (FAQ),
+naudotojų forumus el.paštu, dokumentaciją bei knygų apie OpenOffice aprašymus, dokumentų šablonus lietuvių kalba,
+naudingų nuorodų ir daug kitos reikalingos informacijos.</p>
+</p>
+
+<p>Minimalūs reikalavimai kompiuteriui: daugiau nei 32 MB (dirbant su „WinME“, „Win2000“, „WinXP“ - 
+daugiau nei 64 MB) operatyviosios atminties (RAM); Pentium 133, ne mažiau kaip 150 MB laisvos vietos kietajame diske. </p>
+
+<p>Norint įdiegti „OpenOffice.org“ paketą į „Windows OS“, reikia išarchyvuoti bylą „OOo_Win32Intel_install.zip“ ir 
+paleisti bylą „setup.exe“. Toliau vadovaukitės įdiegimo programos nurodymais. Daugiau apie diegimą galima sužinoti iš 
+„README“ bei „Installation_Guide“ dokumentų. Rašybos tikrinimo įrankių įdiegimo instrukcijas rasite 
+<a href="http://www.openoffice.lt">http://www.openoffice.lt</a>. </p>
+
+<p>„OpenoOffice.org“ programų vertimo į lietuvių kalbą darbo grupės tinklalapis yra 
+<a href="http://aldona.mii.lt/pms/lok/openoffice/">http://aldona.mii.lt/pms/lok/openoffice/</a>.</p>
+
+<p><a href="http://mozillaquest.com/Linux03/OpenOffice_1-1_Overview_Story01.html">Čia</a> galite paskaityti 
+apžvalgą apie „OpenOffice 1.1“ ir jo palyginimą su „MS Office“ savybių ir kainų atžvilgiais (straipsnis 
+anglų kalba). Taip pat yra keletas aprašymų, pvz., 
+<a href="http://mozillaquest.com/Linux03/OpenOffice-Calc-Budget_Story01.html">kaip 
+susikurti biudžeto skaičiuoklę su Calc</a>, 
+<a href="http://mozillaquest.com/Linux03/OpenOffice-Calc-Contact_Story01.html">kaip 
+susitvarkyti asmeninę informaciją su Calc</a> 
+arba <a href="http://mozillaquest.com/Linux03/OpenOffice-Writer-Newsletter_Story01.html">
+kaip parašyti naujienų laišką su Writer</a>, 
+<a href="http://www.linuxplanet.com/linuxplanet/tutorials/5178/1/">kaip integruoti Writer į verslą</a>. 
+Visi šie straipsniai yra anglų kalba. Taip pat paskaitykite 
+<a href="http://www.linuxjournal.com//article.php?sid=7488">straipsnį</a>, 
+kodėl, kada ir kaip verta naudoti 
+stilius. <br>
+Lietuvių kalba dokumentaciją atsisiųskite iš IVPK 
+<a href="http://www.ivpk.lt/main.php?id=opensource/d4.html">tinklapio</a>. Čia rasite PDF bylas ne tik 
+apie „OpenOffice“, bet ir apie interneto programų rinkinį „Mozilla“.</p>
+
+<p>Dar keletas naudingų nuorodų anglų kalba: „OpenOffice“ 
+<a href="http://www.ooodocs.org/modules.php?name=Content&pa=showpage&pid=3">
+How-to dokumentai</a>, <a href="http://ooo.ximian.com/hackers-guide.html">Unofficial OpenOffice Hacker's guide</a>.</p>

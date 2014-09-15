@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 285832560
+confirmed:boolean = 1
+gen_date:date = 2005/05/26 23:52:47.267000 GMT+3
+logo_url:string = http://www.vetrunge.ku.lt/rb/88x31.gif
+mail:string = wastks@gmail.com
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Algirdas Venskus
+url_asm:string = http://bite.lt/plius/~wassup!
+url_org:string = http://vetrunge.ku.lt

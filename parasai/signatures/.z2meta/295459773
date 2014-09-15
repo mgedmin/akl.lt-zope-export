@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 192689910
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 15:46:46.157000 GMT+3
+logo_url:string = 
+mail:string = arunas@liuiza.com
+organization:string = 
+position:string = studentas, programuotojas, internetini\xc5\xb3 projekt\xc5\xb3 k\xc5\xabrejas
+status:string = fiz_asm
+title:string = Ar\xc5\xabnas Liuiza
+url_asm:string = http://www.liuiza.com
+url_org:string = 

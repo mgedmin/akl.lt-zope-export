@@ -1,0 +1,22 @@
+I (mantas) think, that we should talk mainly about user-friendly tools, because most of IT specialists in municipalities are (and will be) profans (lamers) in internet technologies and HTML.
+
+It seems the best tool for creating and editing (fixing) standards compliant web site is **NVU** - look at **http://www.nvu.com** 
+
+Nvu was started from the Mozilla Composer code base.  As you may have heard, the Mozilla Internet suite is in the process of being broken up into individual pieces (browser, email, etc.).  Nvu will pick up where Composer left off, adding additional features, functionality and ease of use.
+
+**Simple description (from http://www.nvu.com/features.html page and FAQ)**:
+
+A complete Web Authoring System for Linux Desktop as well as Microsoft Windows and Macintosh users to rival programs like FrontPage and Dreamweaver.
+
+Nvu makes managing a web site a snap.  Now anyone can create web pages and manage a website with no technical expertise or knowledge of HTML. Even though it's designed for the novice web designer, Nvu is also ideal for experienced web programmers who want to save time in creating content or web design. 
+Because you can quickly toggle between the WYSIWYG editing mode and the HTML code mode, just by changing tabs, Nvu is also ideal for those wishing to learn HTML programming, as they can easily observe the interaction between the HTML code and what a user will see in their web browser.
+
+Few articles and tutorials about NVU:
+
+http://www.thesitewizard.com/reviews/nvu.shtml (this is about beta version)
+
+http://www.thesitewizard.com/gettingstarted/
+Most people in Lithuania uses FrontPage or Dreamweaver, which makes non compliant web sites, for example FrontPage generates HTML, which is correctly displayed only with M$ IE :( We should tell about this in our users guide !!!
+
+
+Aigars (AFAIK) told one good tool for checking web site - http://checky.sourceforge.net/

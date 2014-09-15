@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = Interneto pokalbi\xc5\xb3 programa \xe2\x80\x9ePSI\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9ePSI\xe2\x80\x9c yra pokalbi\xc5\xb3 programa, veikianti jabber tinkle. Galima susira\xc5\xa1in\xc4\x97ti su \xc5\xbemon\xc4\x97mis, \nkurie naudojasi ICQ, MSN, Yahoo Messenger ir kt. protokolais. Pla\xc4\x8diau apie tai, kaip elgtis \njabber tinkle yra apra\xc5\xa1yta adresu <a href="http://www.akl.lt/skaitykla/dokumentacija/?doc=jabber.html">http://www.akl.lt/projektai/?doc=jabber.html</a>.\n

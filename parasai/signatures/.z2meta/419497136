@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 555343794
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 22:43:47.046000 GMT+3
+logo_url:string = 
+mail:string = shirshegsm@gmail.com
+organization:string = 
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Linas Valiukas
+url_asm:string = http://shirshegsm.lt.eu.org
+url_org:string = 

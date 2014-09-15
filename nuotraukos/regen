@@ -1,0 +1,29 @@
+## Script (Python) "regen"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+def reCurse(dir):
+    results = ""
+    for ob in dir.objectValues('Folder'):
+        results += "folder %s\n" % dir.id
+        results += reCurse(ob)
+    for ob in dir.objectValues('Photo'):
+         if not context.REQUEST.has_key('quality'):
+             context.REQUEST.set('quality', 90)
+         context.REQUEST.set('engine', 'ImageMagick')
+         context.REQUEST.set('pregen', 0)
+         context.REQUEST.set('timeout', 0)
+         ob.manage_editSettings(context.REQUEST)
+         ob.manage_regenDisplays() 
+    return results
+
+print reCurse(context)
+
+print  "done"
+
+return printed

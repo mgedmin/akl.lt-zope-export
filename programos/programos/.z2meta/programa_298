@@ -1,0 +1,5 @@
+[properties]
+categories:string = Pramogai,
+public:boolean = False
+title:string = Sudoku_Portable
+trumpai:text = Sudoku Portable yra \xc4\xafdomus ir u\xc5\xbekre\xc4\x8diamas skai\xc4\x8di\xc5\xb3 galvos\xc5\xabkis. \xc5\xa0is \xc5\xbeaidimas nereikalauja instaliavimo, j\xc4\xaf galima paleisti i\xc5\xa1 USB atminties rakto, CD, ne\xc5\xa1iojamo kieto disko, arba bet kokio savo katalogo, kuriame jis \xc4\xafra\xc5\xa1ytas.

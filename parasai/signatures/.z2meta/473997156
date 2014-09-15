@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 701999556
+confirmed:boolean = 0
+gen_date:date = 2005/05/19 11:38:11.415000 GMT+3
+logo_url:string = http://www.ziniur.lt/images/graphics/1066979497.gif
+mail:string = seitan@legacisystems.org
+organization:string = \xc5\xbdini\xc5\xb3 radijas
+position:string = IT specialistas
+status:string = vis_org
+title:string = Tadas Ustinavi\xc4\x8dius
+url_asm:string = http://legacysystems.org
+url_org:string = http://www.ziniur.lt

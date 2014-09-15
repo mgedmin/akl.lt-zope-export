@@ -1,0 +1,24 @@
+<h2>Interneto parduotuvė „osCommerce“<br>
+<a href="http://www.oscommerce.com">www.oscommerce.com</a><br>
+<a href="http://ec.akl.lt">http://ec.akl.lt</a></h2>
+<a href="http://www.oscommerce.com">
+  <img src="images/oscommerce_logo.gif" alt="osCommerce" border="0" class="rphoto">
+    </a>
+<p>„osCommerce“ (open source Commerce) - tai interneto parduotuvės (elektroninės
+komercijos, katalogo) turinio valdymo sistema. Pagrindinės ypatybės:
+daugiakalbiškumas, daug funkcijų ir papildančių modulių, aktyvi bendruomenė
+forume, virš 1400 užsiregistravusių veikiančių parduotuvių visame pasaulyje.
+</p> 
+<p>„osCommerce“ yra verčiama ir į lietuvių kalbą. Demonstracinę jos versiją 
+rasite <a href="http://ec.akl.lt/catalog">http://ec.akl.lt/catalog</a>. 
+Lietuviško vertimo autoriai: Kęstutis Mikolajūnas ir Gregory Smirnov.
+</p>
+<p>Reikalavimai sistemai: Apache (ar kitas) serveris, pageidautina SSL,
+PHP3/PHP4, MySQL, bet kuri operacinė sistema (įskaitant „Linux“, „Solaris“, „BSD“, „Microsoft
+Windows“).
+</p>
+<p>
+Projekto tinklapis: <a href="http://www.oscommerce.com">www.oscommerce.com</a>, 
+lietuviška svetainė: <a href="http://ec.akl.lt">http://ec.akl.lt</a>.
+Dokumentacija rašoma <a href="http://wiki.oscommerce.com/">http://wiki.oscommerce.com</a>, 
+forumas yra <a href="http://forums.oscommerce.com">http://forums.oscommerce.com</a>.

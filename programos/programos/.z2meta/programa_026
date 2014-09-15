@@ -1,0 +1,5 @@
+[properties]
+categories:string = Vaizdui,
+public:boolean = True
+title:string = Paveiksl\xc4\x97li\xc5\xb3 ir nuotrauk\xc5\xb3 per\xc5\xbei\xc5\xabros programos \xe2\x80\x9eCornice\xe2\x80\x9c bei \xe2\x80\x9eImgv\xe2\x80\x9c
+trumpai:text = <p>Universalios paveiksl\xc4\x97li\xc5\xb3 ir nuotrauk\xc5\xb3 per\xc5\xbei\xc5\xabros programos \xe2\x80\x9eCornice\xe2\x80\x9c bei \xe2\x80\x9eImgv\xe2\x80\x9c veikia visose populiariose OS.\n\xc5\xa0iomis programomis galima per\xc5\xbei\xc5\xabr\xc4\x97ti vis\xc5\xb3 populiari\xc5\xb3 format\xc5\xb3 paveiksl\xc4\x97lius: BMP, JPEG, GIF, PNG,\nTIFF, ICO, XPM if GIF animacij\xc4\x85, taip pat nuotrauk\xc5\xb3 informacij\xc4\x85 (EXIF duomenis).</p>\n<p>Programos paveiksl\xc4\x97lius gali apsukti, apversti, \xc5\xbei\xc5\xabr\xc4\x97ti juodai baltomis spalvomis.\nTaip pat galima m\xc4\x97gautis paveiksl\xc4\x97liais \xc5\xbei\xc5\xabrint per vis\xc4\x85 ekran\xc4\x85 (fullscreen) ar automatiniam skaidri\xc5\xb3 pakeitimo (\xe2\x80\x9eslide show\xe2\x80\x9c) re\xc5\xbeime.</p>

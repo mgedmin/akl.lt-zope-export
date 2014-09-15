@@ -1,0 +1,5 @@
+[properties]
+categories:string = Webserveriai,
+public:boolean = 1
+title:string = Interneto serveris \xe2\x80\x9eApache\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eApache\xe2\x80\x9c HTTP (interneto) serveris yra populiariausias interneto serveris nuo 1996-\xc5\xb3j\xc5\xb3. Remiantis statistikos \nduomenimis, \xc5\xa1iandien 63 proc. tinklalapi\xc5\xb3 naudoja \xe2\x80\x9eApache\xe2\x80\x9c. \xe2\x80\x9eApache\xe2\x80\x9c palaiko HTTP standartus, \nu\xc5\xbetikrina saugum\xc4\x85, efektyvum\xc4\x85 ir lankstum\xc4\x85.

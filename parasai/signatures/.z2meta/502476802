@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 262454551
+confirmed:boolean = 0
+gen_date:date = 2005/06/09 17:53:13.055000 GMT+3
+logo_url:string = 
+mail:string = fafas [at] tavo [dot] net
+organization:string = IT specialias
+position:string = serverio administravimas
+status:string = fiz_asm
+title:string = K\xc4\x99stutis Ka\xc5\xa1\xc4\x8dionis
+url_asm:string = http://fafas.tophosting.lt
+url_org:string = http://daoc.underground.lt

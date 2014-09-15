@@ -1,0 +1,17 @@
+<h2>Vektorinės grafikos (paišymo) programa "Inkscape" <br>
+<a href="http://www.inkscape.org">
+  <img src="images/inkscape-0.38-linux-gradient_thumb.png" alt="Inscape screenshot" border="0" class="rphoto">
+</a>
+<a href="http://www.inkscape.org" target="_blank">www.inkscape.org</a></h2>
+<p>
+Programa „Inkscape“ yra skirta darbui su vektorine grafika (kaip pvz. „Adobe Illustrator“ ar „Corel Draw“).
+Ji veikia „MS Windows“ ir įvairiose „Unix“ tipo operacinėse sistemose (pvz., „Linux“). Turi įvairių figūrų bei
+laisvo piešimo įrankius, taip pat teksto rašymo, klonavimo, sukimo ir kitų trasformacijų, užpildymo bei kitus įrankius. <br>
+Su „Inscape“ dirbi yra lengva, kadangi jos išvaizda panaši į daugumą šio tipo programų (kaip "Adobe Illustrator" ar „Corel Draw“),
+taip pat šioje programoje yra keletas lengvai įsisavinamų pamokėlių: "Pagrindiniai įgūdžiai" (Inkscape: Basic), 
+"Sudėtingesni veiksmai" (Inkscape: Advanced), "Dizaino principai ir pagrindiniai elementai" (Elements and Principles of Design), 
+"Patarimai ir gudrybės" (Tips and Tricks). Šias pamokėles rasite meniu Help->Tutorials.<br>
+„Inkscape“ bei pamokėlės išverstos į rusų, lenkų ir daugelį kitų kalbų.<br>
+Naudoja <a href="http://www.w3.org" target="_blank">W3C</a> konsorsiumo SVG (Scalable Vector Graphic) formatą. 
+Turi galimybę įkelti rastrinę grafiką bei eksportuoti sukurtą paveikslą į PNG (Portable Network Graphic) formatą.
+</p>

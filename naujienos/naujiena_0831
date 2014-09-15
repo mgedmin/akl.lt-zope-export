@@ -1,0 +1,5 @@
+<p>Projektas FreeDOS, kuriantis su DOS sutaikomą operacinę sistemą, galinčią dirbti IBM kompiuteriuose, pagaliau pristatė pirmą finalinę versiją 1.0. Sistema buvo kuriama nuo 1994 metų ir turi tokias galimybes kaip įkrova iš Windows 95-2003 /NT/XP/ME, failų sistemos FAT32 ir didelių diskų (LBA) palaikymas, LFN palaikymas, diskų podėlis (angl. cache) (LBACACHE). Į sistemą įeina programos, skirtos valdyti atminčiai (HIMEM, EMM386, UMBPCI), pakeitimas SHSUCDX ir tvarkyklė (angl. driver) įrenginiui CD-ROM (XCDROM), tvarkyklė pelei su ratuku (CUTEMOUSE), FDAPM kompiuterio maitinimui reguliuoti ir tvarkyklė UDMA (XDMA, iki 4 diskų).</p>
+<p>Iš naudotojams skirtų programų FreeDOS 1.0 galima paminėti multimedijos grotuvą MPXPLAY (mp3, ogg, wmv ir kitiems formatams), archyvatorius (7ZIP, INFO-ZIP zip & unzip), tekstinius redaktorius (EDIT / SETEDIT), pagalbos failų naršyklę (HTMLHELP), teksto žiūryklę (PG). FreeDOS platinama pagal GNU GPL (Bendrą Viešąją Licenciją).</p>
+
+<p>Šaltinis: <a href="http://www.nixp.ru/news/7730">nixp.ru</a></p>
+<p>Daugiau: <a href="http://www.freedos.org/freedos/about/">freedos.org</a></p>

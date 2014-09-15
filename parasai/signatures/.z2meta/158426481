@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 725798649
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 17:37:36.836000 GMT+3
+logo_url:string = 
+mail:string = baioraz@xxx.lt
+organization:string = KTU
+position:string = Studentas
+status:string = fiz_asm
+title:string = Darius Zabiela
+url_asm:string = 
+url_org:string = http://www.ktu.lt

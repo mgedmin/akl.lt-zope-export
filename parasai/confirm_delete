@@ -1,0 +1,45 @@
+## Script (Python) "confirm_delete"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+request = context.REQUEST
+response = request.RESPONSE
+try:
+    id = request.id
+    confirm_id = request.confirm_id
+except AttributeError:
+    response.redirect("showMsg?msg=%s" % "Rėmimo atšaukti negalime, nes neteisingai suformuluota užklausa.")
+    return
+root = container['signatures']
+try:
+    sig = root[id]
+except KeyError:
+    response.redirect("showMsg?msg=%s" % "Rėmimo atšaukti negalime. Galbūt jau anksčiau pasitraukėte iš AKL rėmėjų?")
+    return
+    
+if str(sig.confirm_id) == confirm_id:
+    if sig.gen_date + 1 < DateTime():
+        response.redirect("showMsg?msg=%s" % "Jūsų rėmimas negali būti atšauktas. Turbūt praėjo 24 val. limitas. Bandykite rėmimą atšaukti iš naujo.")
+        return
+    root.manage_delObjects([id])
+    Msg = """Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Sveiki,
+
+Jūsų AKL rėmimas prieš programinės įrangos patentus buvo atšauktas.
+
+--
+AKL"""
+    To = sig.mail
+    From = "AKL <%s>" % sig.mail
+    Subj = "=?UTF-8?B?UGFyYcWhbyBpxaF0cnluaW1hcw==?="
+    context.MailHost.send(Msg, To, From, Subj)
+    request.RESPONSE.redirect("showMsg?msg=%s" % "Jūsų AKL rėmimas prieš programinės įrangos patentus buvo atšauktas.")
+else:
+    response.redirect("showMsg?msg=%s" % "AKL rėmimas nebuvo atšauktas, turbūt ne tą rėmimą bandote patvirtinti.")

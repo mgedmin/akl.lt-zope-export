@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 576110244
+confirmed:boolean = 0
+gen_date:date = 2005/05/27 09:40:50.700000 GMT+3
+logo_url:string = 
+mail:string = r.civilis@post.skynet.lt
+organization:string = UAB "Skalmantas"
+position:string = buhalteris
+status:string = fiz_asm
+title:string = Ram\xc5\xabnas \xc4\x8civilis
+url_asm:string = 
+url_org:string = http://www.skalmantas.lt

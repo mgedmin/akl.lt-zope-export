@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 845564760
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 11:35:5.303000 GMT+3
+logo_url:string = http://forumas.hosteksas.lt/templates/subSilver/images/logo_phpBB.gif
+mail:string = avn@hosteksas.lt
+organization:string = UAB "Hosteksas"
+position:string = direktorius
+status:string = imone
+title:string = Ar\xc5\xabnas Norvai\xc5\xa1a
+url_asm:string = 
+url_org:string = http://hosteksas.lt

@@ -1,0 +1,5 @@
+<p>Korporacija Microsoft paskelbė apie oficialų operacinės sistemos Windows Embedded CE 6.0 išleidimą. Ši naujiena nebūtų pastebėta AK apžvalgininkų, jei ne viena aplinkybė: CE 6.0 išeities tekstai (apie 3.9 milijonai eilučių) dabar visiškai prieinami licencijos Shared Source sąlygomis kompanijos partneriams.</p>
+<p>Licencija Shared Source nėra laisva tikrąja šio žodžio prasme, tačiau išsprendžia vieną iš uždaro kodo PĮ problemų: užsakovas gauna teisę peržiūrėti išeities tekstus, įnešti į juos pakeitimus ir naudoti pakeistą kodą nekomerciniams tikslams.</p>
+<p>Hardy Poppinga, Microsoft sistemų mobiliems telefonams ir kitiems įrenginiams skyriaus vadybininkas, paaiškino, kad nauja iniciatyva shared source yra „pats reikšmingiausias anonsas jo skyriui per daugelį metų“. „Mes pirmą kartą per savo 10 metų istoriją partneriams – programuotojams atveriame visą Windows Embedded CE branduolį. Dabar jie galės kurti nuostabius įrenginius, skatindami inovacijas dėl priėjimo prie išeities tekstų.“</p>
+
+<p>Pagrindinė nuoroda į naujieną: <a href="http://msdn.microsoft.com/embedded/usewinemb/ce/sharedsrccode/default.aspx">msdn.microsoft.com/embedded</a></p>

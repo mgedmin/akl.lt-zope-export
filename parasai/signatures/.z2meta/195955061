@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 591401312
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 21:45:6.984000 GMT+3
+logo_url:string = 
+mail:string = simkus@tinklapis.net
+organization:string = A. \xc5\xa0imkaus komercin\xc4\x97 firma
+position:string = savininkas
+status:string = imone
+title:string = Algirdas \xc5\xa0imkus
+url_asm:string = 
+url_org:string = 

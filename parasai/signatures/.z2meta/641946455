@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 102505834
+confirmed:boolean = 1
+gen_date:date = 2005/05/29 16:15:1.467000 GMT+3
+logo_url:string = 
+mail:string = yooton@one.lt
+organization:string = 
+position:string = PHP programeris
+status:string = fiz_asm
+title:string = Audrius Burkauskas
+url_asm:string = http://tdm.puslapiai.lt
+url_org:string = 

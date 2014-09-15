@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 513867383
+confirmed:boolean = 1
+gen_date:date = 2005/05/26 21:43:9.298000 GMT+3
+logo_url:string = 
+mail:string = simas8@gmail.com
+organization:string = 
+position:string = moksleivis
+status:string = fiz_asm
+title:string = Simas Zikaras
+url_asm:string = 
+url_org:string = 

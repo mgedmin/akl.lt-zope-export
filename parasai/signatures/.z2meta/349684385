@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 749099577
+confirmed:boolean = 1
+gen_date:date = 2005/05/23 19:48:34.889000 GMT+3
+logo_url:string = 
+mail:string = vaidas.c@centras.lt
+organization:string = UAB \xe2\x80\x9eUtenos vandenys\xe2\x80\x9c
+position:string = kompiuteri\xc5\xb3 specialistas
+status:string = fiz_asm
+title:string = Vaidas \xc4\x8cypas
+url_asm:string = 
+url_org:string = 

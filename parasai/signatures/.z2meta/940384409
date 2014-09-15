@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 287909244
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 22:48:7.313000 GMT+3
+logo_url:string = http://www.ekontaktas.lt/eklogo.png
+mail:string = skystis@splius.lt
+organization:string = UAB Reklamos kontaktai
+position:string = IT projekt\xc5\xb3 vadovas
+status:string = fiz_asm
+title:string = Darius \xc5\xbditkevi\xc4\x8dius
+url_asm:string = 
+url_org:string = http://www.ekontaktas.lt

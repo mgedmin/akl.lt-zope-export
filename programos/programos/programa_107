@@ -1,0 +1,9 @@
+WW2D is cross-platform, free and open-source application similar to NASA World Wind or Google Earth software. It allows you to explore Earth using satellite imagery, topographic maps and images from other data sources also providing large placenames and boundaries database and allowing you to install community-made add-ons for even more information about our planet.
+
+In basic configuration WW2D uses images from Blue Marble Next Generation (500 m/pixel), Landsat7 (15 m/pixel), USGS Topo Maps (2.4 m/pixel), USGS Digital Ortho imagery (1 m/pixel), USGS Urban Area Ortho (0.25-0.33 m/pixel) imagery.
+
+WW2D is designed to dynamically download needed data from internet, however you can manually download data you want for faster access and offline usage.
+
+WW2D is based on Java and OpenGL technologies and will run on Windows, Mac OS X and Linux (x86 and amd64).
+
+In addition to Earth there are also other worlds can be explored in WW2D such as Moon and Mars

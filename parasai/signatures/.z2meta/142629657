@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 572191442
+confirmed:boolean = 1
+gen_date:date = 2005/05/23 00:35:10.809000 GMT+3
+logo_url:string = 
+mail:string = darius.as@gmail.com
+organization:string = Mokykla
+position:string = mokinys
+status:string = fiz_asm
+title:string = Darius, Jurgutis
+url_asm:string = 
+url_org:string = 

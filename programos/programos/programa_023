@@ -1,0 +1,13 @@
+<h2>Vektorinės grafikos (paišymo) programa "Sodipodi" <br>
+<a href="http://sodipodi.sf.net">
+  <img src="images/sodipodi.png" alt="Sodipodi.png" border="0" class="rphoto">
+</a>
+<a href="http://sodipodi.sf.net">http://sodipodi.sf.net</a></h2>
+<p>
+„Sodipodi“ programa yra skirta darbui su vektorine grafika (kaip pvz., „Corel Draw“). Ji veikia „MS Windows“ ir įvairiose „Unix“ 
+tipo operacinėse sistemose (pvz., „Linux“). Turi įvairių figūrų bei laisvo piešimo įrankius, 
+taip pat teksto rašymo, klonavimo, sukimo ir kitų trasformacijų, užpildymo bei kitus įrankius. 
+Naudoja <a href="http://www.w3.org" target="_blank">W3C</a> konsorsiumo SVG (Scalable Vector Graphic) formatą. 
+Turi galimybę įkelti rastrinę grafiką 
+bei eksportuoti sukurtą paveikslą į PNG (Portable Network Graphic) formatą.
+</p>

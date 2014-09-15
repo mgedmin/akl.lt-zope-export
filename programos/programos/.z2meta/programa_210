@@ -1,0 +1,5 @@
+[properties]
+categories:string = Mokymui,Pramogai,
+public:boolean = False
+title:string = Glest - puikus realaus laiko strategijos \xc5\xbeaidimas 3D pasaulyje http://www.glest.org
+trumpai:text = http://www.glest.org\n\nGlest - puikus realaus laiko strategijos \xc5\xbeaidimas 3D pasaulyje\n\nA free 3d real-time customizable strategy game.\n\nGlest takes place in a context which could be compared to that of the pre-renaissance Europe, with the licence that magic forces exist in the environment and can be controlled.\n\nCurrent version is fully playable, includes single player game against CPU controlled players, two factions with their corresponding tech trees, units, buildings and some maps. 

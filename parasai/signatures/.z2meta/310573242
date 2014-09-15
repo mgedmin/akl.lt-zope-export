@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 509133872
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 17:07:0.258000 GMT+3
+logo_url:string = http://www.alna.com/images/logo.gif
+mail:string = ignas@kis.lt
+organization:string = AB Alna Software
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Ignas Galvelis
+url_asm:string = 
+url_org:string = http://alna.lt

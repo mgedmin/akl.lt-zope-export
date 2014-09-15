@@ -1,0 +1,25 @@
+<tal:block tal:condition="not:here/getid">
+<h2>AKL naujienos</h2>
+<div tal:repeat="naujiena here/visos">
+  <a tal:attributes="name naujiena/getId" ></a>
+  <h4><a tal:attributes="href string:?id=${naujiena/getId}"
+         tal:content="python:unicode(naujiena.date) + ' ' + unicode(naujiena.title, 'utf-8')"></a>
+  </h4>
+  <div tal:content="structure naujiena" />
+</div>
+</tal:block>
+<tal:block tal:condition="here/getid">
+  <tal:block tal:define="id here/getid;
+                         naujiena python:here[id]" >
+    <h3 tal:content="python:naujiena.title.decode('utf-8')" />
+    <div class="news_info"> 
+      [<span tal:replace="naujiena/date"/><tal:span tal:condition="naujiena/author|nothing"> 
+         | <a tal:attributes="href string:mailto:${naujiena/email|nothing}"
+              tal:content="naujiena/author|nothing">Autorius</a>
+       </tal:span>]
+    </div>
+    <div tal:content="structure python:here.fix_encoding(naujiena())" />
+    <br>
+    <a href="http://www.akl.lt/naujienos">Kitos naujienos</a>
+  </tal:block>
+</tal:block>

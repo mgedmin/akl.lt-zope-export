@@ -1,0 +1,15 @@
+<h2>Galinga asmeninių finansų apskaitos sistema „GnuCash“ <br>
+<a href="http://www.gnucash.org" target="_blank">www.gnucash.org</a></h2>
+<p>
+Tai laisva asmeninių finansų apskaitos sistema, pagrįsta profesionalios apskaitos principais. 
+Labai patogi ir lengvai įsisavinama grafinė sąsaja. Dirba „GNU/Linux“, „Mac OSX“, „*BSD“, „Solaris“, „AIX“, ir kt. <br>
+Palaiko Open Financial Exchange (OFX) protokolą, kurį naudoja ar planuoja naudoti daug bankų bei kitų finsnsinių 
+paslaugų tiekėjų. Taip pat palaiko German Home Banking Computer Information HBCI protokolą.<br>
+Yra galimybė importuoti duomenis iš Intuit® Quicken® QIF bylų. Vienu metu gali dirbti ir keli vartotojai, tuomet 
+duomenims saugoti reikia naudoti „PostgreSQL“ duomenų bazę.<br>
+Apskaitai galima naudoti įvairias valiutas - litus, eurus, JAV dolerius ir t.t.<br>
+ <br>  
+„GnuCash“ pagalba galima suformuoti daug įvairių ataskaitų bei grafikų.<br>
+Išsamią dokumentaciją bei pradžiamokslius rasite <a href="http://www.gnucash.org" target="_blank">www.gnucash.org</a> 
+dokumentacijos bei pagalbos (Help) skyriuose.
+</p>

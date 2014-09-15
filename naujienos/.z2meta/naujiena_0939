@@ -1,0 +1,9 @@
+[properties]
+author:string = Kristina Kudria\xc5\xa1ova
+blurb:text = Bendruomen\xc4\x97 OpenOffice.org su pasidid\xc5\xbeiavimu prane\xc5\xa1a apie naujos atviro kodo biuro paketo OpenOffice.org 2.1 versijos i\xc5\xa1leidim\xc4\x85. Naujoje versijoje daugyb\xc4\x97 naujovi\xc5\xb3 patobulinim\xc5\xb3.
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2006-12-26
+email:string = kristina@akl.lt
+profesionalams:boolean = False
+title:string = I\xc5\xa1leista OpenOffice.org 2.1 bei OOo 2.1 Professional  - sutikite Naujus metus su nauju biuro paketu!

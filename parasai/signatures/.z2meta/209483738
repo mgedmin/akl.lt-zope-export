@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 618766472
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 22:45:41.805000 GMT+3
+logo_url:string = 
+mail:string = valdas.bikauskas@mif.vu.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Valdas Bikauskas
+url_asm:string = 
+url_org:string = 

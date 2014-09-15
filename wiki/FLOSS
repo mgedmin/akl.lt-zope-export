@@ -1,0 +1,64 @@
+Laisvos, atviro kodo programos
+
+  Laisvos, atviro kodo programos, kas tai? Čia aprašysime apie floss, paminėsime kad yra du angliški apibrežimai. Ir papasakosime apie FLOSS terminą.
+
+Paimta iš: http://europa.eu.int/idabc/en/document/1744/468
+
+
+The Many Aspects of Open Source
+Open source
+	    	Different organisations have different reasons for choosing OSS, especially in the public sector where politics and other non-technical issues play a role. This page sums up some of these.
+
+
+    * Political Aspects
+      Issues related to governmental tasks, goals and responsibilities
+
+      Freedom and equality
+      OSS allows everyone can to use, study, modify and distribute the software, regardless of a person's status, wealth, social background, upbringings etcetera. This means that OSS levels the playing field with respect to the software side, because in essence everyone is granted the same rights as the original author. In practice, licensing a piece of software under an Open Source license has proven to stimulate the participation of lots of different people and companies to its development and use, thereby making contributors feel like they are working on the improvement of society, while all remaining equal.
+
+      Digital endurance
+      The government is responsible for storing a large amount of data in name of the public. Birth certificates, tax records, social insurance records to name but a few. Essential in the storage is that the information will be accessible for many decades to come, so people needing the information can do so without needing to resort to a museum computer with ancient software to retrieve the data. Since OSS gives you its source code, the way in which information is stored is publically known or at least traceable for an indefinite amount of time to come.
+
+      Digital heritage
+      Any society is standing on the shoulders of previous generations. It's any government's task to motivate and stimulate progress, both in the technical field as well as in other fields. OSS can be treated as a heritage of previous generations as it contains a vast amount of their knowledge and expertise. New generations of people can freely build upon that knowledge to create new and innovative solutions for new problems.
+
+      Stimulation of innovation
+      OSS is actively developed on a 24-hour basis by a huge amount of programmers all over the world. Depending on the success of a certain OSS project, this results in a development process that outpaces that of many competitors. Another aspect of OSS is that many different people and organisations look at the software from a different perspective. This leads to invaluable discussions on what direction the development should be taken. Many IT experts claim it is this multi-cultural and multi-organisational influence that, combined with the global spreading and fast development pace, makes OSS more innovative than closed software.
+
+    * Economical Aspects
+
+      Cost reduction
+      Many studies and user experiences testify various cost reductions when using OSS. This can be an important motivation, especially for public organisations wishing to spend their tax payer's money as wisely as possible.
+
+      Market health
+      In the past there have been a lot of complaints from governmental organisations about vendor lock-in. They used to buy large amounts of software from one vendor who could then raise prices or force upgrades since the organisations were too much dependent on the software to throw it out. OSS limits the lock-in possibilities as many different vendors can provide the same software. 
+
+    * Social Aspects
+
+      Education
+      Since OSS is completely open, it is easy to study its internal workings. Several universities and high schools actively do this and students are quoted to say that they learned a great deal and that it was fun on top of that.
+
+      Team work
+      OSS is team work. Almost no successful project is done by only one programmer. This stimulates people to go out on the internet to discuss and codevelop pieces of software. This holds for employees of large organisations as well as for individuals who just happen to like programming. Because of the internet and OSS, these people who may have been seen as lone rangers before now actively participate in social groups that motivate them to be the best they can.
+
+    * Managerial and/or Technical Aspects
+
+      Quality of the products: stability and reliability
+      Several studies show that even though the OSS development process may look chaotic, its products are often of a higher quality than their closed (commercial) counterparts. This is a big advantage for users of the software as their systems become more reliable. Especially in these times where those same users become more and more dependent on IT as a whole.
+
+      Transparence
+      Because the source code of OSS products is available, it becomes increasingly easier to study and understand its workings. This is comparable to a car, where the hood is opened for the first time; you don't need to be a mechanic to drive it, but you can hire any mechanic to fix it when broken.
+
+      Support
+      Professional deployment of OSS often requires Service Level Agreements (SLAs). As the source code is completely open, OSS allows the software vendor to be untied from providing support, freeing the user from being locked into one specific service provider. Anybody can provide support and fix problems. There is already a large amount of companies that support OSS for their customers.
+
+      Security
+      Many people consider being open contradictory to being secure. OSS security is based upon the "many eyeball theory" which states that given enough people who review the code, almost any weakness of the software will be found and fixed. This leads to increased security, even though everyone can read all internals of the software itself.
+
+    * Legal Aspects
+
+      Licensing
+      Although the contrary might seem true, Open Source licenses are firmly based on copyright law. This means that without copyright law, there would be no OSS. Copyright law dictates that the creator/owner of a certain work is exclusively granted specific rights, such as copying. The copyright holder can then decide what to do with those rights. In the case of Open Source, the programmers decided to make the work available under an Open Source license, which basically grants everyone the same rights as the owners. Specifcally everyone is allowed to copy, modify and distribute the software. An Open Source license can however also specify a number of obligations to respect when using the software, such as retaining copyright notices. Just as with closed software licenses, Open Source licenses have to be legally respected by the users.
+
+      Liability
+      When OSS doesn't function as expected, or when users suffer damage from using the software, OSS makes it difficult to point to a single liable person or organisation. However, many organisations using OSS will require a legal representative as a condition for deploying the software. Although in practice closed source software also provides little or no liability, the fact that it is branded by one company makes it emotionally more acceptable for some. This weakness is thus based on perception.

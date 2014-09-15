@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 297910241
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 10:44:50.646000 GMT+3
+logo_url:string = 
+mail:string = simona.selezniovaite@sc.vu.lt
+organization:string = Vilniaus universitetas
+position:string = programuotoja
+status:string = fiz_asm
+title:string = Simona Selezniovait\xc4\x97
+url_asm:string = 
+url_org:string = http://www.vu.lt

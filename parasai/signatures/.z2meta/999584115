@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 176880080
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 17:47:25.956000 GMT+3
+logo_url:string = 
+mail:string = tadas@bpi.lt
+organization:string = UAB "Baltijos Programine Iranga"
+position:string = IS Konsultantas
+status:string = fiz_asm
+title:string = Tadas Jarockas
+url_asm:string = 
+url_org:string = http://www.bpi.lt

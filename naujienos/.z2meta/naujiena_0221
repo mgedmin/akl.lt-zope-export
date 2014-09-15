@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Projektas <a href="http://fink.sourceforge.net">\xe2\x80\x9eFink\xe2\x80\x9c</a> pritaiko\natviro kodo programin\xc4\x99 \xc4\xafrang\xc4\x85 \xe2\x80\x9eMac OS X\xe2\x80\x9c sistemai, tarp j\xc5\xb3 ir tokius\ngalingus paket\xc5\xb3 valdymo \xc4\xafrankius, kaip apt-get, dpkg. Naujausia \xe2\x80\x9eFink\xe2\x80\x9c\n0.7.0 versija jau prieinama \xc4\xafdiegimui. Pirm\xc4\x85 kart\xc4\x85 diegiantys \xe2\x80\x9eFink\xe2\x80\x9c\ninstrukcijas ras <a\n href="http://fink.sourceforge.net/download/index.php?phpLang=en">\xc4\x8dia</a>,\natnaujinantys senesnes \xe2\x80\x9eFink\xe2\x80\x9c versijas instrukcijas ras <a\n href="http://fink.sourceforge.net/download/upgrade.php?phpLang=en">\xc4\x8dia</a>.\n</p>
+date:string = 2004-04-07
+title:string = \xe2\x80\x9eFink\xe2\x80\x9c - atviras kodas \xe2\x80\x9eMac OS X\xe2\x80\x9c sistemai

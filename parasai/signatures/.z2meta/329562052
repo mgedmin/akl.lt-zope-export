@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 836178055
+confirmed:boolean = 1
+gen_date:date = 2005/05/24 08:27:50.012000 GMT+3
+logo_url:string = 
+mail:string = kazimieras.aliulis@mif.vu.lt
+organization:string = 
+position:string = informatikas
+status:string = fiz_asm
+title:string = Kazimieras Aliulis
+url_asm:string = 
+url_org:string = 

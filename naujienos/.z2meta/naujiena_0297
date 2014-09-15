@@ -1,0 +1,7 @@
+[properties]
+blurb:text = J\xc5\xabs dar galite susp\xc4\x97ti skirti 2% nuo savo sumok\xc4\x97t\xc5\xb3 pajam\xc5\xb3. Tereikia u\xc5\xbepildyti FR0512 form\xc4\x85 (<a href="http://www.akl.lt/apie/files/FR0512_pvz.sxw">.sxw</a>, <a href="http://www.akl.lt/apie/files/FR0512_pvz.pdf">.pdf</a>) ir pateikti j\xc4\x85 apskrities valstybinei mokes\xc4\x8di\xc5\xb3 inspekcijai. Daugiau \ninformacijos apie AKL veiklos r\xc4\x97mim\xc4\x85 rasite <a href="http://www.akl.lt/apie/?doc=parama.html">\xc4\x8dia.</a>.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x83\\xc2\\x85\\xc3\\x82\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\')
+date:string = 
+profesionalams:boolean = 0
+title:string =  Paremk laisv\xc4\x85 programin\xc4\x99 \xc4\xafrang\xc4\x85 - skirk 2% nuo sumok\xc4\x97to pajam\xc5\xb3 mokes\xc4\x8dio organizacijai "Atviras kodas Lietuvai"

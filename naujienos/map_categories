@@ -1,0 +1,35 @@
+## Script (Python) "map_categories"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+# Pirmas pavadinimas title, antras pavadinimas trumpas ir aiskus id
+# Pavadinimuose nenaudokite tarpų! Vietoje jų rašykite &nbsp;
+# Vietoje 'Biuro programos' reiktų rašyti 'Biuro&nbsp;programos'
+
+map = [
+    ('Biuro&nbsp;programos', 'biuro_programos'),
+    ('OpenOffice', 'ooo'),
+    ('Interneto&nbsp;programos', 'int_programos'),
+    ('Grafikos&nbsp;programos', 'graf_programos'),
+    ('Multimedia', 'multimedia'),
+    ('Žaidimai&nbsp;ir&nbsp;pramogos', 'zaidimai'),
+    ('Programavimas', 'programavimas'),
+    ('Laisva&nbsp;PĮ&nbsp;Lietuvoje', 'laisva_pi'),
+    ('Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai', 'laisvi_standartai'),
+    ('GNU/Linux&nbsp;OS', 'linux'),
+    ('GNU/Hurd&nbsp;OS', 'hurd'),
+    ('FreeBSD&nbsp;OS', 'freebsd'),
+    ('OpenBSD&nbsp;OS', 'openbsd'),
+    ('GNOME&nbsp;aplinka', 'gnome'),
+    ('KDE&nbsp;aplinka', 'kde'),
+    ('Grafinės&nbsp;aplinkos', 'grafines_aplinkos'),
+    ('Sėkmės&nbsp;istorijos', 'sekmes_istorijos'),
+    ('Patentai&nbsp;ir&nbsp;autorinės&nbsp;teisės', 'patentai'), 
+]
+
+return map

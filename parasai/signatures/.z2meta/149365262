@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 766345709
+confirmed:boolean = 0
+gen_date:date = 2006/01/12 10:14:0.007000 GMT+2
+logo_url:string = http://www.miniclip.com
+mail:string = ignaspoklad@hotmail.com
+organization:string = cs
+position:string = Zaisti kompa
+status:string = kita
+title:string = Ignas p
+url_asm:string = http://www.blogas.lt/cs
+url_org:string = http://www.blogas.lt/cs

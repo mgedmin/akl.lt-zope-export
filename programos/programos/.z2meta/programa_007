@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = Pa\xc5\xa1to skaitymo programa \xe2\x80\x9eMozilla Thunderbird\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eMozilla Thunderbird\xe2\x80\x9c - tai multiplatformin\xc4\x97 pa\xc5\xa1to ir naujien\xc5\xb3 skaitymo programa. \nTai naujos kartos pa\xc5\xa1to klientas, pakeisiantis dabartin\xc4\xaf integruot\xc4\x85 \xe2\x80\x9eMozilla Mail\xe2\x80\x9c program\xc4\x85, kadangi Thunderbird veikia\n grei\xc4\x8diau, naudoja ma\xc5\xbeiau kompiuterio resurs\xc5\xb3 ir yra patogesn\xc4\x97.\nSvarbi \xc5\xa1ios programos savyb\xc4\x97 - \xe2\x80\x9eThunderbird\xe2\x80\x9c veikia ir be \xe2\x80\x9eMozilla\xe2\x80\x9c nar\xc5\xa1ykl\xc4\x97s, tad \njei nenaudojate Mozilla nar\xc5\xa1ykl\xc4\x97s ir naudojate Mozilla Firebird ar kit\xc4\x85 nar\xc5\xa1ykl\xc4\x99 - Thunderbird el. pa\xc5\xa1to programa\n ko gero yra geriausias pasirinkimas.

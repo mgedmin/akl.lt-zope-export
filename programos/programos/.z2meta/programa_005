@@ -1,0 +1,5 @@
+[properties]
+categories:string = Biurui,
+public:boolean = 1
+title:string = Ra\xc5\xa1ybos tikrinimo programa \xe2\x80\x9eIspell\xe2\x80\x9c 
+trumpai:text = \xe2\x80\x9eIspell\xe2\x80\x9c yra ra\xc5\xa1ybos tikrinimo paketas, skirtas atvirojo kodo programoms. Programa ir \xc5\xbeodynas suderinamas \nsu ra\xc5\xa1ybos tikrinimo bibliotekomis, naudojamomis atviro kodo biuro programose: \xe2\x80\x9eOpenOffice\xe2\x80\x9c, \n\xe2\x80\x9eAbiWord\xe2\x80\x9c, \xe2\x80\x9eMozilla\xe2\x80\x9c. U\xc5\xbetikrinama integracija su \xc5\xa1iomis programomis \xe2\x80\x9eWindows\xe2\x80\x9c ir \xe2\x80\x9eLinux\xe2\x80\x9c platformose \n(Intel architekt\xc5\xabros kompiuteriuose), o taip pat su programomis, sugeban\xc4\x8diomis tikrinti \nra\xc5\xa1yb\xc4\x85 naudojant \xe2\x80\x9eispell\xe2\x80\x9c programos programin\xc4\x99 s\xc4\x85saj\xc4\x85 (Emacs, VIM, mutt).

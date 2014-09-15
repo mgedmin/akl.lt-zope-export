@@ -1,0 +1,7 @@
+[properties]
+blurb:text = 2005 m. gegu\xc5\xbe\xc4\x97s 20 d. planuojama baigiamoji PHARE 2002 Bendradarbiavimo abipus sienos Baltijos j\xc5\xabros regione programos finansuojamo <a href="http://www.akl.lt/phare">projekto</a> konferencija, \xc4\xaf \nkuri\xc4\x85 pakviesime savivaldybi\xc5\xb3 informacini\xc5\xb3 technologij\xc5\xb3 srit\xc4\xaf kuruojan\xc4\x8dius \nvadovus bei administracij\xc5\xb3 direktorius, taip pat - \napskri\xc4\x8di\xc5\xb3 vir\xc5\xa1inink\xc5\xb3 administracij\xc5\xb3 vadovus ir informacini\xc5\xb3 technologij\xc5\xb3 srit\xc4\xaf \nkuruojan\xc4\x8dius vadovus bei valstybini\xc5\xb3 institucij\xc5\xb3 informacini\xc5\xb3 technologij\xc5\xb3 padalini\xc5\xb3 vadovus. \nKonferencijoje gal\xc4\x97s dalyvauti visi, kuriems aktuali konferencijos tema.
+categories:multiple selection = (\'Interneto&nbsp;programos\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\')
+date:string = 2005-05-09
+profesionalams:boolean = 0
+title:string = "Atvirieji standartai ir atvirieji dokument\xc5\xb3 formatai vie\xc5\xa1ajame administravime". Konferencija, 2005-05-20 d., Vilnius

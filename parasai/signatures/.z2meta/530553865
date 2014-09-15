@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 678910365
+confirmed:boolean = 1
+gen_date:date = 2005/07/06 01:38:24.277000 GMT+3
+logo_url:string = 
+mail:string = saulius35@takas.lt
+organization:string = 
+position:string = invalidas
+status:string = fiz_asm
+title:string = Saulius U\xc5\xbeusienis
+url_asm:string = 
+url_org:string = 

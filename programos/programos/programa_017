@@ -1,0 +1,13 @@
+<h2>„Nvu“<br>
+<a href="http://www.nvu.com" target="_blank">www.nvu.com</a></h2>
+
+<p>
+Ypač patogus ir galingas įrankis vizualiam HTML puslapių kūrimui, tinkantis tiek pradedantiesiems 
+(nėra būtina žinoti HTML, turi vizualias priemones), tiek profesionalams (turi patogų tiesioginio HTML
+ redagavimo komponentą)<br>
+Daugelį objektų savybių galima keisti vizualiai. Patogus darbas su kadrais, formomis, lentelėmis,
+šablonais, „JavaScript“, yra CSS redaktorius ir t.t. Nesunkiai galima išplėsti - t.y. pridėti papildomų
+komponentų (pvz datos/laiko arba kalendoriaus elementus, kuriuos paskui galėsite įdėti į kuriamus 
+puslapius vieno klavišo paspaudimu).<br>
+NVU yra sukurtas Gecko ir Mozilla Composer pagrindu.
+</p>

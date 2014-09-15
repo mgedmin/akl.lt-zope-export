@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 868322742
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 16:44:28.576000 GMT+3
+logo_url:string = 
+mail:string = v.pankauskas@ktug.lt
+organization:string = KTUG
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Vilius Pankauskas
+url_asm:string = 
+url_org:string = http://www.ktug.lt

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 191883239
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 12:16:45.672000 GMT+3
+logo_url:string = 
+mail:string = jaroslav@akl.lt
+organization:string = 
+position:string = Studentas
+status:string = fiz_asm
+title:string = Jaroslav \xc5\xa0atkevi\xc4\x8d
+url_asm:string = 
+url_org:string = 

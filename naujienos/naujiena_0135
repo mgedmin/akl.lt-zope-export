@@ -1,0 +1,19 @@
+<p>Pastaruoju metu <a href="http://www.omni.lt/index.php?base/z_130321">sklando kalbos</a> 
+apie nemokamų „Red Hat Linux“ distribucijų
+leidimo bei palaikymo uždarymą. Kas gi vyksta?<br>
+Lapkričio 4 dieną „Red Hat“ oficialiai pareiškė apie savo nemokamų
+distribucijų palaikymo pabaigą (RH 7.x, 8.0 iki metų pabaigos, RH 9 iki
+kitų metų balandžio 30 d.). Dabar kompanija siūlo įsigyti vieną iš "Red Hat
+Enterprise“ versijų.<br>
+Dėl šių pranešimų neverta nerimauti, nes tai, kas atsitiko, tai tik
+kitas „Red Hat“ politikos žingsnis. Šiais metais buvo įkurtas naujas
+„Red Hat“ projektas „Fedora“, o lapkričio 6 dieną pasirodė pirmoji „Fedora
+Linux“ versija - „Fedora Core 1“.<br>
+<a href="http://fedora.redhat.com">Fedora</a> - tai „Red Hat“ finansuojamas projektas, bet jį kuria ne tik viena
+kompanija, kaip buvo su „Red Hat Linux“ distribucija, o „Linux“ bendruomenė. Šis žingsnis leis kiekvienam norinčiam 
+prisijungti prie mėgstamo projekto bei įtakoti jo vystymąsi. Jau pirmame distribucijos leidime matoma bendruomenės įtaka. Be to, „Fedora Linux“ turėtų pasirodyti daugelis technologinių naujovių, ji bus vystoma atvirai, visus pakeitimus bus galima pasiimti nelaukiant
+stabilios versijos (naudojant apt arba yum įrankius). Stabilios
+versijos turėtų pasirodyti kas 2-3 mėnesiai.<br>
+Iš esmės „Red Hat“ neužsislaptino, o tapo atviresnė.<br>
+Naujausius „Fedora“ patobulinimus sužinosite <a href="http://fedora.redhat.com/docs/release-notes/">čia</a>. Apie diegimo ir atnaujinimo įrankius skaitykite <a href="http://www.xades.com/proj/fedora_repos.html">čia</a>.
+</p>

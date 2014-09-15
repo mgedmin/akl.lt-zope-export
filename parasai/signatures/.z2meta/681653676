@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 430646674
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 11:57:41.022000 GMT+3
+logo_url:string = 
+mail:string = dainzele@one.lt
+organization:string = VU
+position:string = studentas
+status:string = fiz_asm
+title:string = Dainius Valuzis
+url_asm:string = 
+url_org:string = 

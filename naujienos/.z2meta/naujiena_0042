@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Atviro kodo Interneto nar\xc5\xa1ykl\xc4\x97s KDE <a href="http://www.konqueror.org/">\xe2\x80\x9eKonqueror\xe2\x80\x9c</a>, <a href="http://www.apple.com/safari/">\xe2\x80\x9eSafari\xe2\x80\x9c</a> bei <a href="http://www.mozilla.org">\xe2\x80\x9eMozilla\xe2\x80\x9c</a> palaiko ir ne lotyni\xc5\xa1kus sri\xc4\x8di\xc5\xb3 vardus (angl. - domain names). Jau galima <a href="http://www.verisign.com/nds/naming/idn/">u\xc5\xbesiregistruoti</a> ir naudoti tinklalapio adres\xc4\x85 daugiau nei 350 kalb\xc5\xb3, ne tik angl\xc5\xb3.\n</p>
+date:string = 2003-07-23
+title:string = Atviro kodo nar\xc5\xa1ykl\xc4\x97s palaiko tarptautinius sri\xc4\x8di\xc5\xb3 vardus (domain names)

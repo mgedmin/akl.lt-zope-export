@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 183754640
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 10:22:4.578000 GMT+3
+logo_url:string = http://www.ibt.lt/images/BTI_zenklas.gif
+mail:string = vainius@ibt.lt
+organization:string = Biotechnologijos Institutas
+position:string = Mokslinis darbuotojas
+status:string = fiz_asm
+title:string = Darius Vainius
+url_asm:string = 
+url_org:string = http://www.ibt.lt

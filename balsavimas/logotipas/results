@@ -1,0 +1,7 @@
+<table>
+  <tr tal:repeat="item here/rikiuotiRezultatai">
+    <td tal:content="item/name"/>
+    <td tal:content="item/value"/>
+    <td><tal:x tal:content="python: '-'*int(item['value'])">...</tal:x></td>
+  </tr>
+</table>

@@ -1,0 +1,9 @@
+[properties]
+author:string = akl
+blurb:text = LRS "Konstitucijos sal\xc4\x97je" 2006-01-20 \xc4\xafvyko seminaras "Atvir\xc5\xb3 standart\xc5\xb3 ir atviro kodo programin\xc4\x97s \xc4\xafrangos pl\xc4\x97tra - pasiekimai ir problemos". Vaizdo \xc4\xafra\xc5\xa1as patalpintas www.lrs.lt "Renginiai".
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2006-01-21
+email:string = liudziu@gmail.com
+profesionalams:boolean = 1
+title:string = Seminaras "Atvir\xc5\xb3 standart\xc5\xb3 ir atviro kodo programin\xc4\x97s \xc4\xafrangos pl\xc4\x97tra - pasiekimai ir problemos"

@@ -1,0 +1,42 @@
+**Baltix** yra daromas Ubuntu LiveCD technologijos pagrindu šiek tiek ją patobulinus (pridėta galimybė įdiegti į kietą diską bei dar keli patobulinimai)
+
+Ubuntu LiveCD technologija iš esmės yra paprasčiausias debian-installer'is, kuriame pridėtas vienas papildomas modulis (**casper-udeb_NN.udeb** paketas), kuris paleidžia suspaustoje **filesystem.cloop** byloje esančią Debian/Ubuntu ar suderinamą Linux sistemą.
+
+Trumpai paaiškinsiu kaip vyksta Baltix (ir kitų debian-installer pagrindu padarytų CD) sistemos startavimas iš CD:
+
+1. Pradžioje pasikrauna labai minimali debian(ubuntu) sistema iš install/initrd.gz ir initrd.gz esantis init skriptas startuoja debian-installer'į (dar vadinamas **ubuntu-installer** ;), (galima padaryti gunzip initrd.gz ir tada mount -o loop initrd /mnt ir pamatysit kas ten viduj) 
+
+2. Debian-installer'is yra modulinis dalykas, o jo moduliai yra **.udeb** paketai ;)
+
+3. Tada debian-installer aptinka cdrom ar kokį kitą media, kur yra **dists** katalogas ir jo pakataloge yra **Release** byla ir dar /debian-installer/binary-i386/Paskages byla (čia i386 architektūros kompams, jei bus koks Apple kompas tai ieškos /debian-installer/binary-powerpc/Packages, jei Athlon64 - tai /debian-installer/binary-amd64/Paskages ir t.t.)
+
+4. Toje **Packages** byloje yra visa informacija apie prieinamus debian-installer komponentus (.udeb paketus).
+
+5. Tada suinstaliuojamas toks debian-installer komponentas **anna**, kuris dirba panašiai kaip apt-get ir jis suinstaliuoja (sukrauna į atmintį) kitus reikiamus komponentus
+
+6. tų komponentų yra daug ir gerų ;), pvz. tinklo hardware detektinimo, tinklo konfigūravimo, disko dalinimo ir t.t.
+
+7. vienas tų komponentų iš jų yra **casper-udeb**, jis atlieka LiveCD startavimo darbą - sukuria vartotoją, prijungia /casper/filesystem.cloop byloje esančią bylų sistemą, padaro chroot į ją ir startuoja Linux OS iš ten :)
+
+
+Taigi, iš principo visas **Baltix** gyvena **filesystem.cloop** byloje, ją keičiant galima nesunkiai pritaikyti Baltix GNU/Linux savo poreikiams, žr.: http://www.ubuntulinux.org/wiki/LiveCDCustomizationHowTo 
+
+Kadangi Baltix naudoja debian-installer (ubuntu-installer) technologiją, ją nesunkiai galima panaudoti ne tik startavimui iš CD bet ir įdiegimui į kietąjį diską ar pan.. Tam yra parašytas **live-installer** modulis (komponentas), žr.:
+
+http://launchpad.net/products/live-installer/ bei http://gnome-ev.de/index.php/GNOME_LiveCD/Documentation/LiveCDInstaller
+
+From unknown Tue Apr 12 15:24:26 +0300 2005
+From: 
+Date: Tue, 12 Apr 2005 15:24:26 +0300
+Subject: nkts
+Message-ID: <20050412152426+0300@https://wiki.akl.lt>
+
+;) valio...
+
+From unknown Tue Apr 12 15:42:36 +0300 2005
+From: 
+Date: Tue, 12 Apr 2005 15:42:36 +0300
+Subject: gimpNG
+Message-ID: <20050412154236+0300@https://wiki.akl.lt>
+
+Tai štai kaip viskas sukasi...:)

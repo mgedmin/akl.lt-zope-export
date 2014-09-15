@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 102911547
+confirmed:boolean = 1
+gen_date:date = 2005/07/23 18:19:43.079000 GMT+3
+logo_url:string = 
+mail:string = zeimys@gmail.com
+organization:string = Zenito Technologijos
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Tomas \xc5\xbdeimys
+url_asm:string = 
+url_org:string = 

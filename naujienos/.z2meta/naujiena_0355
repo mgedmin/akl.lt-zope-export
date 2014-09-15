@@ -1,0 +1,9 @@
+[properties]
+author:string = Audrius Me\xc5\xa1kauskas
+blurb:text = \xc5\xa0iandien buvo paskelbtas pirmasis GNU Bendrosios Vie\xc5\xa1osios Licencijos tre\xc4\x8diojo varianto juodra\xc5\xa1is. \xc5\xa0iuo metu labai dideliam skai\xc4\x8diui laisv\xc5\xb3j\xc5\xb3 program\xc5\xb3 taikomai antroji versijai jau penkiolika met\xc5\xb3 - programavimo pasaulyje tai labai daug. GNU siekia, kad naujosios versijos k\xc5\xabrime dalyvaut\xc5\xb3 kuo daugiau laisv\xc5\xb3j\xc5\xb3 program\xc5\xb3 k\xc5\xabr\xc4\x97j\xc5\xb3 i\xc5\xa1 viso pasaulio. Licenzijai skirtame tinklalapyje kiekvienas gali aptarti jam nepatinkan\xc4\x8dius punktus ir si\xc5\xablyti pataisas. 
+categories:multiple selection = (\'OpenOffice\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2006-01-16
+email:string = audriusa@bluewin.ch
+profesionalams:boolean = 0
+title:string = Paskelbtas pirmasis GPL 3 juodra\xc5\xa1tis

@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = Interneto pokalbi\xc5\xb3 programa \xe2\x80\x9eGabber\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eGabber\xe2\x80\x9c - tai atviro standarto pokalbi\xc5\xb3 internete sistemos (\xe2\x80\x9eInstant Messages\xe2\x80\x9c) - Jabber klientas. \nJabber architekt\xc5\xabros d\xc4\x97ka galima kalb\xc4\x97tis ir su \xc5\xbemon\xc4\x97mis, kurie naudojasi kitomis pokalbi\xc5\xb3 sistemomis, pvz.:\nMSN, AIM, ICQ, YAHOO, IRC ir t.t.. Galima naudotis keliais skirtingais protokolais vienu metu. 

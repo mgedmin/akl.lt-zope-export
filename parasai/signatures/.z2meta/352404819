@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 748712544
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 20:05:55.316000 GMT+3
+logo_url:string = 
+mail:string = povilas69@gmail.com
+organization:string = Vecctor IT solutions
+position:string = Laisvai samdomas programuotojas
+status:string = fiz_asm
+title:string = Povilas Poderskis
+url_asm:string = 
+url_org:string = http://www.vecctor.net

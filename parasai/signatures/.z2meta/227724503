@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 716544433
+confirmed:boolean = 1
+gen_date:date = 2005/06/02 11:17:42.869000 GMT+3
+logo_url:string = 
+mail:string = toxxic@one.lt
+organization:string = UAB "Kompiuteri\xc5\xb3 Arsenalas"
+position:string = Kompiuteri\xc5\xb3 technikas
+status:string = fiz_asm
+title:string = Ram\xc5\xabnas \xc4\x8cere\xc5\xa1kevi\xc4\x8dius
+url_asm:string = http://globalflood.tinklapiai.lt
+url_org:string = http://arsenalas.home.lt

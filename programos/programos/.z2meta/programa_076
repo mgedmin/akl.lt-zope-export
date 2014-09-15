@@ -1,0 +1,5 @@
+[properties]
+categories:string = Webserveriai,
+public:boolean = 1
+title:string = Interneto parduotuv\xc4\x97 \xe2\x80\x9eosCommerce\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eosCommerce\xe2\x80\x9c (open source Commerce) - tai interneto parduotuv\xc4\x97s (elektronin\xc4\x97s\nkomercijos, katalogo) turinio valdymo sistema. Pagrindin\xc4\x97s ypatyb\xc4\x97s:\ndaugiakalbi\xc5\xa1kumas, daug funkcij\xc5\xb3 ir papildan\xc4\x8di\xc5\xb3 moduli\xc5\xb3, aktyvi bendruomen\xc4\x97\nforume, vir\xc5\xa1 1400 u\xc5\xbesiregistravusi\xc5\xb3 veikian\xc4\x8di\xc5\xb3 parduotuvi\xc5\xb3 visame pasaulyje.

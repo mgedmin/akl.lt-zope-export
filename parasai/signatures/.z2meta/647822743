@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 653034357
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 19:47:25.730000 GMT+3
+logo_url:string = 
+mail:string = queelis@gmail.com
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = K\xc4\x99stutis Gela\xc5\xbeius
+url_asm:string = 
+url_org:string = 

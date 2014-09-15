@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 924120865
+confirmed:boolean = 1
+gen_date:date = 2005/07/18 16:42:43.572000 GMT+3
+logo_url:string = 
+mail:string = j.turevicius@gmail.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Jonas Turevicius
+url_asm:string = 
+url_org:string = 

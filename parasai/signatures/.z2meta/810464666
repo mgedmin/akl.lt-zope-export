@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 914467007
+confirmed:boolean = 1
+gen_date:date = 2005/06/02 12:37:10.216000 GMT+3
+logo_url:string = 
+mail:string = tadas@litnet.lt
+organization:string = KTU ITPI, Litnet valdymo centras
+position:string = UNIX sistem\xc5\xb3 administratorius
+status:string = fiz_asm
+title:string = Tadas Miniotas
+url_asm:string = 
+url_org:string = http://www.litnet.lt

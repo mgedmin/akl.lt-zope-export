@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 495604507
+confirmed:boolean = 1
+gen_date:date = 2005/06/01 11:39:16.433000 GMT+3
+logo_url:string = 
+mail:string = zvi@kn.nrd.lt
+organization:string = NRD
+position:string = 
+status:string = fiz_asm
+title:string = \xc5\xbdilvinas Vidmantas
+url_asm:string = 
+url_org:string = 

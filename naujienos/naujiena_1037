@@ -1,0 +1,31 @@
+<P>
+Žinant, kad Lietuvoje didelė dalis programinės įrangos naudojama nelegaliai, neretai siūloma naudoti legalias nemokamas programas ir Linux operacinę sistemą. Todėl „Lietukas“ – nemokamas lietuviškas platinamasis paketas – turėtų padėti  paprastiems žmonėms susipažinti su Linux operacine sistema. „Lietukas“ skirtas tiems, kuriems kompiuteris pirmiausia reikalingas naršymui internete, dokumentų rengimui, muzikos klausymui, filmų žiūrėjimui. Jis yra sukurtas openSUSE Linux pagrindu, įtraukiant lietuvių kalbos paketus, kodekus, „flash player“. 
+</P>
+<P>
+Iš esmės „Lietukas“ yra ta pati <a href="http://opensuse.lt/">„openSUSE“</a> sistema, tačiau papildyta taip, kad eiliniam naudotojui ją įdiegus į kompiuterį, nebereikėtų papildomai gaišti diegiant populiarią programinę įrangą, pvz., video kodekus, „Flash“ priedą naršyklei. 
+Vis tik ši sistema buvo kuriama pirmiausia todėl, kad būtų galima greitai įdiegti kasdieniam naudojimui paruoštą lietuvišką „Linux“ operacinę sistemą neturint interneto. Tuo „Lietukas“ primena <a href="http://baltix.lt/">„Baltix GNU/Linux“</a> distributyvą, tačiau pastarajame šiuo metu naudojamos „GNOME“, „LXDE“ ir „Unity“ darbalaukio aplinkos, o „Lietuke“ – „KDE 4“ grafinė aplinka. 
+Kitas esminis „Lietuko“ ir <a href="http://baltix.lt/">„Baltix GNU/Linux“</a> skirtumas - bazinė operacinė sistema (Baltix sukurtas <a href="http://ubuntu.lt/">Ubuntu</a> ir <a href="http://debian.org/">Debian GNU/Linux</a> pagrindu).
+</P>
+<P>
+„Lietuke“, kaip ir standartinėje „openSUSE“ sistemoje, rasite: „Mozilla Firefox“ interneto naršyklę; „LibreOffice“ raštinės programų rinkinį, galintį dokumentus eksportuoti .pdf formatu, palaikantį „MS Office“ formatus; „GIMP“ paveikslėlių redagavimo programą.
+</P>
+<P>
+„Lietuką“ pirmą kartą paleisite demonstracinėje veiksenoje, t. y. jį galite naudoti kaip vadinamąjį LiveCD/LiveUSB: iš diegimo laikmenos paleista sistema nepaliečia kompiuteryje esančių duomenų, o naudoja tik RAM. Jei patinka, tokią sistemą galite įsidiegti į savo kompiuterį. Galite diegti ir šalia jau esamos operacinės sistemos, pvz., „Windows“; tuomet turėsite paskirti vietos naujai sistemai arba sumažindami esamus diskų skaidinius, arba bent vieną jų pašalindami. 
+</P>
+<P>
+Yra du „Lietuko“ .iso atvaizdžių variantai: vienas skirtas įrašymui į DVD, kitas – į
+USB laikmeną. Tiesa, iš DVD „Lietukas“ pasileis ir veiks
+gerokai lėčiau nei iš atmintuko. „Windows“ sistemos naudotojai
+.iso atvaizdį į USB atmintinę galės įrašyti naudodamiesi <A HREF="ftp://ftp.berlios.de/pub/kiwi/ImageWriter.exe"><I>„SUSE
+Studio ImageWriter“</I></A> programa, kuriai reikalinga <A HREF="http://download.microsoft.com/download/0/8/c/08c19fa4-4c4f-4ffb-9d6c-150906578c9e/NetFx20SP1_x86.exe"><I>„.NET
+2.0 Runtime“</I></A>; įrašymo pamoka pateikta
+<A HREF="http://www.youtube.com/watch?v=AH_kQ8fUqjo">http://www.youtube.com/watch?v=AH_kQ8fUqjo</A>
+ir <A HREF="http://opensuse.lt/index.php?option=com_content&amp;view=article&amp;id=78:liveusb-gamyba-windows-sistemoje&amp;catid=10:diegimas&amp;Itemid=2">opensuse.lt</A>
+svetainėje. 
+</P>
+<P>„Lietuką“ galite
+atsisiųsti iš <A HREF="http://ftp.akl.lt/users/embar/Lietukas/">http://ftp.akl.lt/users/embar/Lietukas/</A>
+svetainės. Daugiau lietuviškos informacijos apie sistemą rasite
+parsisiųstame .iso disko atvaizdyje, aplanke „Dokumentacija“,
+<A HREF="http://ftp.akl.lt/users/embar/">http://ftp.akl.lt/users/embar/</A>
+svetainėje.</P>

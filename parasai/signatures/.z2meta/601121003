@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 747064457
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 18:33:17.851000 GMT+3
+logo_url:string = 
+mail:string = t.kvedaras@akl.lt
+organization:string = UAB "Neosymmetria"
+position:string = Programuotojas/administratorius
+status:string = fiz_asm
+title:string = Tadas Kvedaras
+url_asm:string = http://tadas.vaikas.net
+url_org:string = http://www.neo.lt

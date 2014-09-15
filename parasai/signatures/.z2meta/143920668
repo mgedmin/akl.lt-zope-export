@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 492735827
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 14:16:20.830000 GMT+3
+logo_url:string = 
+mail:string = a.kasparas@gmc.lt
+organization:string = GM Constult Group, UAB
+position:string = IT administratorius
+status:string = fiz_asm
+title:string = Aidas Kasparas
+url_asm:string = 
+url_org:string = 

@@ -1,0 +1,376 @@
+Lietuviška "Linux" operacinė sistema - distributyvas
+
+  Projekto vadovas - Mantas Kriaučiūnas (mantas_eta_akl.lt)
+
+  Lietuviškas distributyvas yra nekuriamas iš naujo, o paprasčiausiai yra išverstas ir aptvarkytas/pagerintas jau egzistuojantis populiarus distributyvas - Ubuntu bei Debian GNU/Linux.
+
+  Lietuvai skirtas distributyvas yra aktyviai tobulinamas nuo 2002 metų - tai **Baltix** GNU/Linux, žr.: **http://baltix.akl.lt**, kurią atsisiųsti galima iš http://ftp.akl.lt/Linux/Baltix/ bei ftp://ziedas.ktu.lt/pub/Mirrors/Baltix/
+
+  Trumpai tariant tai yra paprasta ir **patogi** naudoti (galima dirbti ir tiesai iš CD) bei <b>įdiegti</b> į kietą diską GNU/Linux operacinė sistema, sukurta Debian (http://www.debian.org) bei <a href=http://www.ubuntulinux.org>Ubuntu</a> <a href=http://www.ubuntulinux.org/wiki/LiveCD>LiveCD</a> pagrindu.
+
+ <b>Svarbu - reikia pagalbos testuojant ir rašant mini-atmintinę pradedančiajam ("žaliam") kompiuterio naudotojui apie darbą su Baltix GNU/Linux ver. 3.x - kas galite prisidėti rašykite komentarus čia į http://baltix.akl.lt/wiki/BaltixHowto</b>
+
+ Taip pat reikia rimtai užsiimti Baltix GNU/Linux ir kitų laisvų produktų reklamavimu bei populiarinimu - tam yra skirtas puslapis [BaltixReklama]
+
+<a href="http://baltix.akl.lt" class="image" title="Baltix 3.0 išvaizda"><img src="http://baltix.akl.lt/apie/Baltix3.0desktopscreenshotsmall400.png" border="0"> </a>
+
+  Daugiau informacijos: http://linux.akl.lt , http://baltix.akl.lt , http://www.ubuntu.lt bei http://debian.akl.lt
+
+  Norint pasileisti Baltix operacinę sistemą nėra būtina net įdiegti (žinoma įdiegimo galimybė irgi yra) - paprasčiausiai nustatykite BIOS, kad OS pirmiausia paleistų iš CD įrenginio ir įdėkite šį CD į CD įrenginį.
+
+  Baltix galima įsigyti kompiuterinės technikos parduotuvėse ir kitur, žr.: http://baltix.akl.lt/downloads
+
+ Senesnė Baltix versija buvo platinama ir technikos/internetiniuose knygynuose bei didžiuosiuose prekybos centruose kartu su atmintine "Pažintis su Linux", daugiau informacijos apie šį produktą rasite AKL skaitykloje:
+
+http://www.akl.lt/skaitykla/knygos/?doc=linuxatmintine.html
+
+
+  Baltix GNU/Linux distributyve yra <b>GNOME</b> (http://www.gnome.org) (seniau buvo ir <b>KDE</b>) grafinės aplinkos bei:
+
+   * biuro programų paketas OpenOffice ( http://www.openoffice.org ) (Mini bei Server versijose yra tekstų redaktorius AbiWord, http://www.abiword.org )
+
+   * laisva žodynų programa <b>OpenDict</b>
+
+   * Lietuviškos rašybos tikrinimo įrankiai (integruoti į daugumą programų, kaip OpenOffice ar interneto naršyklę bei pašto programas)
+
+   * interneto naršyklė ir el. pašto programa, pokalbių bei kitos interneto programas
+
+   * naujausia vaizdų apdorojimo programa The Gimp 2.4.x
+
+   * muzikos (audio) ir video programinė įranga
+
+   * mokomosios programos vaikams TuxPaint, Pingus ir Gcompris
+
+   * Kosmoso simuliatorius Celestia
+
+   * kietojo disko skirsnių tvarkymo įrankiai Gparted ir partimage bei duomenų atstatymo įrankis TestDisk.
+
+   * Mažai kompiuterio resursų reikalaujanti LXDE aplinka
+
+   * Operatyvinės atminties testavimo įrankis memtest bei CPU testavimo programos CPUBurn
+
+   * viso daugiau kaip 900 įdiegtų programinės įrangos paketų, apimančių daugiau kaip 1500 programų, įrankių bei žaidimų (TuxKart, PlanetPenguin Racer, Pingus, Frozen-Bubble ir t.t.)
+
+  Greitas "Baltix GNU/Linux" paleidimas:
+
+   * įdėkite Baltix CD į CD įrenginį
+
+   * įsitikinkite ar BIOS nustatyta, kad OS pirmiausia paleistų iš CD įrenginio
+
+   * perstartuokite kompiuterį
+
+
+  Kviečiu visus testuoti ir teikti pasiūlymus bei pranešti apie klaidas, žr.: http://launchpad.net/baltix
+
+  Labai prašome padėti tobulinti, versti bei kitiems naudotis Lietuvai skirto Linux distributyvu, norintys prisijungti užsiregistruokite http://launchpad.net/baltix ir prisijunkite prie Baltix-Members komandos 
+
+  Baltix internetinis forumas yra - http://forumai.akl.lt
+
+  Baltix distributyvas laikosi "Linux garbes kodekso": http://wiki.akl.lt/GarbesKodeksas
+
+
+  <b>Labiau paplitę Baltix CD leidimai</b>:
+
+ - Baltix [CD] jau buvo dalinamas [WitFor] parodos metu bei diegiamas daugelio į vartotojų kompiuterius [InstallFest] metu.
+
+ - 2004 07 mėn UAB "BMS" išleido Baltix 0.7 versiją, kurią galima įsigyti visuose BMS bei jų atstovų ir partnerių kompiuterių prekybos salonuose. Daugiau info - http://debian.home.lt naujienose
+
+ - 2004 12 mėn Akelotė ir Ko. išleido Baltix 0.7.5 versiją.
+
+ - 2005 08 mėn UAB "BMS" išleido Baltix 0.8 versiją su iš esmės patobulinta startavimo ir aparatūrinės įrangos atpažinimo bei įdiegimo technologija. Nuo šiol Baltix galima įdiegti ir grafiniame ir tekstiniame režime, t.y. netgi ant tų kompiuterių, kuriuose grafinę aplinką yra problematiška paleisti.<br>
+ <b>PERSPĖJIMAS - BMS išleisti Baltix GNU/Linux ver. 0.8 kompaktiniai diskai yra sugadinti (CD gamybos brokas), todėl visi juos įsigiję galite *nemokamai* pasikeisti į naujesnę BMS platinamą Baltix ver. 0.9 ar 1.3</b>
+
+ - 2005 10 mėn Organizacija "Atviras Kodas Lietuvai" išleido Baltix 1.0, kuri buvo pristatyta ir laimėjo geriausio lietuviško ITTE produkto apdovanojimą Infobalt 2005 parodos metu. Ją įsigyti galite UAB "Saugūs duomenys" (http://www.sdl.lt) bei kitose kompiuterinės įrangos prekybos vietose.
+
+ - 2006 04 mėn UAB "BMS" išleido Baltix 1.3 versiją, kuri moka automatiškai įdiegti oficialias nuosavybines ATI bei NVIDIA vaizdo plokščių  3D valdykles (drivers), jei laisvos valdyklės nepalaiko jūsų vaizdo plokštės startavimo iš CD ar kieto disko metu.
+
+ - 2006 10 mėn Organizacija "Atviras Kodas Lietuvai" išleido Baltix 2.0, kuri buvo pristatyta ir platinama Infobalt 2006 parodos metu.
+
+ - 2007 10 mėn Organizacija "Atviras Kodas Lietuvai" išleido Baltix 3.0, kuri buvo pristatyta ir platinama Infobalt 2007 parodos metu. Ją įsigyti galite UAB "Saugūs duomenys" (http://www.sdl.lt), UAB „Acme computer components“ bei kitose kompiuterinės įrangos prekybos vietose.
+
+ - 2008 01 mėn UAB "BMS" išleido Baltix 3.1 versiją (ant CD kažkodėl parašyta 1.4), kuri yra sukurta Ubuntu 7.10 pagrindu ir moka automatiškai įdiegti oficialias nuosavybines ATI bei NVIDIA vaizdo plokščių  3D valdykles (drivers) iš CD ar interneto.
+
+ - 2008 03 mėn Švietimo ministerijos Informacinių technologijų centras (ITC) išleido Baltix 3.1e DVD, kuri yra sukurta Ubuntu 7.10 pagrindu ir turi labai daug programinų, skirtų mokymuisi bei kūrybai, žr.: http://mokslui.akl.lt . Toje pačioje pakuotėje ITC išleido ir Baltix "school" server CD versiją, skirtą mokyklų serveriams su intraneto (sukurto Plone turinio valdymo sistemos pagrindu), failų serverio bei kita naudinga programine įranga.
+
+ - 2008 05 mėn Organizacija "Atviras Kodas Lietuvai" kartu su UAB „Bonamens“ išleido Baltix 2008-05 (3.5), kuri yra sukurta Ubuntu 8.04 pagrindu. Ją įsigyti galite UAB "Saugūs duomenys" (http://www.sdl.lt), UAB „Acme computer components“ bei kitose kompiuterinės įrangos prekybos vietose.
+
+
+ Baltix Linux, kaip ir kitas laisvas OS kompiuteriais prekiaujančios įmonės gali pardavinėti su naujais kompiuteriais.
+ Mokesčių inspekcijos (VMI) atstovai patvirtino, kad privatūs asmenys, perkantys naują kompiuterį galės susigrąžinti pinigus per pajamų mokesčio lengvatą nepriklausomai nuo to, kokia OS bus pirktame kompiuteryje - ar nemokama ar brangi.
+ Konkretų atsakymą iš mokesčių inspekcijos dėl Baltix ir kitokių Linux OS galite perskaityti čia:
+
+ https://lists.akl.lt/pipermail/akl/2005-January/001420.html
+
+ Reportažas ir interviu su mokesčių inspekcijos darbuotoja yra padėtas čia:
+ http://ftp.akl.lt/AKL/Video/Laisvu_programu_pardavinejimas-VMI_interviu/
+
+ Baltix pagrindu yra daroma Lietuvos mokymo įstaigoms skirtas AtvirasKodasSvietimui, žr. http://mokslui.akl.lt
+
+
+ Baltix yra nesunku keisti/tobulinti bei pritaikyti savo poreikiams - žr.: [Baltix GNU/Linux technologija] 
+
+ Pagrindinis kūrėjas: Mantas Kriaučiūnas, mob. tel. +370 614 53085, paštas: mantas-eta-akl_lt
+
+<b>Dėmesio: Klausimus/pasiūlymus ir kitus komentarus rašykite į naująjį Baltix puslapį - http://baltix.akl.lt/wiki </b>
+
+<hr>
+
+From Romena Thu Nov 27 18:48:07 +0200 2003
+Date: Thu, Nov 27 2003 18:48:07 +0200
+From: Romena
+Subject: Reik daryti lankstinuką su "gyvais" pasakojimais - gerais atsiliepimais
+Message-ID: <20050211131643+0200@wiki.akl.lt>
+
+štai tokią žinutę parašė kažkoks veikėjas į http://www.mandrake.lt/?mid=1&smid=2&id=133&:<br>
+Sveiki, Linuxistai!  Noriu papasakoti, kaip susipažinau su Linux!  Užsukau į Maximą, nusipirkau knygelę "Atmintinė. Pažintis su Linux". Kartu buvo kompaktas su Baltix-Knopix Linux. Kaina 10,50 Lt. Kompaktą įmeti i CD-ROM ir įjungi kompą, palaukti kol pasirodo GNOME aplinka ir gali dirbti. Pirmas įspudis man - fantastiškas. Man Linux padare tokį įspudį, kokio nesugebėjo padaryti Windows. Ten tiek daug kietų programų, kad niekaip nesuprantu, kaip jos telpa į 1 CD.  Turi internetą? Tada paleidi MOZZILA naršyklę ir tu - internete!. Kaip paprasta! . Linux galimybėmis ir draugiškumu niekuo nesiskiria nuo Windows. Kai kuriose srityse Linux pranašesnė! Šį laiškelį parašiau kompiuterineje su savo Linux per OPENOFFICE<br>
+
+Dar buvo keletas gerų atsiliepimų, berods, į AKL konferenciją parašytų. Mantiena, kaupk tai, o paskui darysime lankstinuką su "gyvais" pasakojimais:)
+
+
+From unknown Fri Feb 11 13:16:43 +0200 2005
+From: 
+Date: Fri, 11 Feb 2005 13:16:43 +0200
+Subject: 
+Message-ID: <20050211131643+0200@wiki.akl.lt>
+
+norėtųsi, kad būtų padaryta speciali baltix'o versija Kauno technologijos universitetui, kurioje būtų g++ kompiliatorius, j2sdk, eclipse, nedit. konsolės ikonėlė galetų būti panelėje, kad nereikėtų ilgai ieškoti :) Manau būtų tiek...
+
+From Mantas Thu Mar 3 13:33:07 +0200 2005
+From: Mantas
+Date: Thu, 03 Mar 2005 13:33:07 +0200
+Subject: 
+Message-ID: <20050303133307+0200@wiki.akl.lt>
+
+klausimas naudojantiems Baltix ir šiaip Linux namuose ar darbe:
+
+Ar reikalinga Baltix'e CinePaint ( http://www.cinepaint.org ) programa ?
+
+CinePaint is painting and retouching software primarily used for motion picture frame-by-frame retouching and dust-busting.
+
+Mano manymu ji daugiau yra skirta filmų kūrėjams - profesionalams, o ne vartotojams.
+
+From mantas Sat Mar 26 15:38:18 +0200 2005
+From: mantas
+Date: Sat, 26 Mar 2005 15:38:18 +0200
+Subject: įmonė "Europajėgos" siūlo Baltix
+Message-ID: <20050326153818+0200@wiki.akl.lt>
+
+Va vooz2 parašė, kad įmonė "Europajėgos" rekomenduoja naudoti Debian ir Baltix:
+http://www.europajegos.lt/lt/index.php?option=content&task=view&id=34&Itemid=53
+
+
+From unknown Mon May 2 16:19:15 +0300 2005
+From: 
+Date: Mon, 02 May 2005 16:19:15 +0300
+Subject: Baltix logotipas
+Message-ID: <20050502161915+0300@wiki.akl.lt>
+
+kadangi gimp.akl.lt parašytą kad logotipų konkursas kaip ir baigtas, tai aš matyt nespėjau nusiųst laiku savo variantų kuriuos laisvalaikiu pripaišiau, tai juos rodau čia: http://dzhibas.meganas.lt/baltix-logo2.png :) [yra vektoriniai variantai]
+
+From unknown Thu May 5 15:31:36 +0300 2005
+From: 
+Date: Thu, 05 May 2005 15:31:36 +0300
+Subject: taip
+Message-ID: <20050505153136+0300@wiki.akl.lt>
+
+Tai gal kas nors registruoja kiek jau įdiegimų Lietuvoje šio distributyvo?
+
+From unknown Thu May 5 18:45:55 +0300 2005
+From: 
+Date: Thu, 05 May 2005 18:45:55 +0300
+Subject: Baltix logotipas. Mykolas OK
+Message-ID: <20050505184555+0300@wiki.akl.lt>
+
+Tinklapyje http://gimp.akl.lt/baltix%20logotipas.html radau siūlomus Baltix logotipus.
+Man labiausiai patiko šie:
+http://gimp.akl.lt/baltix%20logotipai/kristina/02_kisa_red_small.png
+http://gimp.akl.lt/baltix%20logotipai/kristina/02_kisa_green_small.png
+Šis irgi nieko, tik mažinant raidė darosi per mažos:
+http://gimp.akl.lt/baltix%20logotipai/audrius%20skersys/AKL%20Hand-m.jpg
+Manau, kad nereikėtų rinktis su jūros simboliais ar žemėlapiais.
+
+
+From unknown Mon May 16 00:27:44 +0300 2005
+From: 
+Date: Mon, 16 May 2005 00:27:44 +0300
+Subject: Baltix logotipas. Jurgis
+Message-ID: <20050516002744+0300@wiki.akl.lt>
+
+man labiausiai patiko:
+1) http://gimp.akl.lt/baltix%20logotipai/gimpNG/baltixpi.png 
+2) http://gimp.akl.lt/baltix%20logotipai/gimpNG/raid.rem.png
+3) įdomi idėja pirmai raidei http://gimp.akl.lt/baltix%20logotipai/kristina/01_kisa_big.png , <br>
+manau tiktu ja suderinti su http://gimp.akl.lt/baltix%20logotipai/kristina/02_kisa_red_big.png ar kt.
+4) gal geriau ant smiliaus uzrasa perkelt :) http://gimp.akl.lt/baltix%20logotipai/audrius%20skersys/AKL%20Hand.jpg 
+
+ps.: šiaip linksmai nuteikė - http://www.elta.lt/zinute_pr.php?inf_id=439059 
+
+
+From unknown Wed Jun 22 17:07:41 +0300 2005
+From: 
+Date: Wed, 22 Jun 2005 17:07:41 +0300
+Subject: 
+Message-ID: <20050622170741+0300@wiki.akl.lt>
+
+Kas nors gali pasakiti ar galima Linux,a ziureti ne tik iskart is disko be instaliacijos,ar ji galima instalioti i kompiuteri,kad jis veiktu be disko?
+Ir kaip tai padaryti.
+Kas zinosit galit man parasiti i eL.pasta "zemezemezeme@one.lt"
+
+
+From unknown Fri Aug 26 13:33:00 +0300 2005
+From: 
+Date: Fri, 26 Aug 2005 13:33:00 +0300
+Subject: Baltix'ui reikia dokumentacijos bei atsakymų į dažnai užduodamus klausimus (FAQ)
+Message-ID: <20050826133300+0300@wiki.akl.lt>
+In-Reply-To: <20050628082106+0300@wiki.akl.lt>
+
+As galeciau, parasykite man y email savo email. ernetas@gmail.com
+
+From unknown Thu Nov 3 20:19:55 +0200 2005
+From: 
+Date: Thu, 03 Nov 2005 20:19:55 +0200
+Subject: Siūlau naudot torrentus
+Message-ID: <20051103201955+0200@wiki.akl.lt>
+
+Būtų neblogai jei .iso skleidimui naudotumėt torrentus - ir parsisiųsti patikimiau ir serverį galbūt kiek nukrautumėt.
+
+
+From unknown Thu Dec 15 15:46:59 +0200 2005
+From: 
+Date: Thu, 15 Dec 2005 15:46:59 +0200
+Subject: Baltix - grazu ir patogu
+Message-ID: <20051215154659+0200@wiki.akl.lt>
+
+Isimeciau - grazu ir patogu. 
+Sekmes siam projektui!
+
+From unknown Thu Dec 15 23:13:09 +0200 2005
+From: 
+Date: Thu, 15 Dec 2005 23:13:09 +0200
+Subject: Baltix
+Message-ID: <20051215231309+0200@wiki.akl.lt>
+
+Šitas distributyvas pirmas, kuris iš Live CD sugebėjo paleisti garsą ir sureguliuoti internetą. Pažanga. Jau kelis metus naudoju "Mandrake" (šiuo metu 10.2 versiją) ir čia neturiu jokių bėdų su geležimi ir programine įranga. 
+
+From unknown Wed Dec 28 15:19:13 +0200 2005
+From: 
+Date: Wed, 28 Dec 2005 15:19:13 +0200
+Subject: testavima
+Message-ID: <20051228151913+0200@wiki.akl.lt>
+
+Galiu padeti testuoti šį distributyvą ant AMD Atlon64bit su ATI Radion 9500 kompiuterije. Dabar tik pagaliau įdiegiau Baltix į kompą, labai patiko. Po Ubuntu5.10 iš ties labai gera versija. Šaunoliai vaikinai! :)Voron rshabashov@yandex.ru   
+
+From unknown Sat Dec 31 15:09:26 +0200 2005
+From: 
+Date: Sat, 31 Dec 2005 15:09:26 +0200
+Subject: Algirdas <Givybe amzina -lytiniu budu plintanti liga>
+Message-ID: <20051231150926+0200@wiki.akl.lt>
+
+   Labai sunku pereit nuo Windows prie LINUX.KNYGU AUTORIAI GALETU PARASHYT NUOSEKLIAI KAIP ISIINSTALIUOT LINUX'A AR BENT TRUMPA INTERNETO PASIJUNGIMA!!!KANKINIESI 2 SAVAITES IR NEINA INTERNETO PAJUNGT IR DAR RASHO KAIP LENGA SU LINUXAIS dirbti...pats nauodoju Suse 9.3 Mandrake 10.1 ir jauciu pire Slackware pereisiu 10.1 ir kaip fainai ant visu neina interneto pajungt...
+
+
+From mantas Fri Jan 13 12:55:03 +0200 2006
+From: mantas
+Date: Fri, 13 Jan 2006 12:55:03 +0200
+Subject: Gal verta būtų į Baltix įtraukti kokių GIS programų, pvz QGIS arba Thuban ?
+Message-ID: <20060113125503+0200@wiki.akl.lt>
+
+Gal verta būtų į Baltix įtraukti kokių GIS programų, pvz QGIS arba Thuban ?
+
+Thuban yra žemėlapių peržiūrėjimo programa, užimanti nedaug vietos, parašyta su python.
+
+From unknown Tue Jan 24 19:30:17 +0200 2006
+From: 
+Date: Tue, 24 Jan 2006 19:30:17 +0200
+Subject: Jei kam nors Baltix veikia blogai - visų pirma patikrinkite ar gerai atsisiuntė/įsirašė CD (md5sum)
+Message-ID: <20060124193017+0200@wiki.akl.lt>
+
+Jei kam nors Baltix veikia blogai - visų pirma patikrinkite ar gerai atsisiuntė/įsirašė CD (patikrinkite kontrolines sumas - md5sum).
+Tai paprasčiausiai padaryti pasirinkus „Patikrinti, ar nėra CD defektų“ ir paspaudus "Enter" CD startavimo metu, kai tik pradeda krautis iš CD ir pasirodo užrašas "Sveikiname paleidus Baltix GNU/Linux CD".
+Jei po CD tikrinimo parašo, kad klaidų nėra verta patikrinti ir atmintį - pasirinkite "Tikrinti operatyviąją atminti (RAM)" (angl. Test memory) Baltix CD startavimo metu.
+Jei pas jus ir kompaktinio disko ir atminties testai tame kompiuteryje nerado klaidų, tačiau Baltix GNU/Linux vistiek veikia ne taip, kaip jūs tikitės - vadinasi galite pranešti apie pastebėtas klaidas/nepatogumus į https://launchpad.net/baltix/ :)
+
+
+From unknown Tue Jan 24 21:27:26 +0200 2006
+From: 
+Date: Tue, 24 Jan 2006 21:27:26 +0200
+Subject: Kompiterinių terminų žodynas
+Message-ID: <20060124212726+0200@wiki.akl.lt>
+
+Manau gerai būtų kompiuterinių terminų žodynai "Anglų-Lietuvių"  - "Lietuvių-Lietuvių", Kai kurie terminai net man specialitui neaiškūs, ką kalbėt apie paprastus naudotojus. darbas nebūtų sunkus, nes, jau tokių ne vienas yra paviešinti internete. Galėčiau ir aš padaryti, jei kas paaiškintų, kokia programa kuriami žodynai, arba koks žodynų failų formatas.  
+
+
+From unknown Mon Jan 30 18:55:06 +0200 2006
+From: 
+Date: Mon, 30 Jan 2006 18:55:06 +0200
+Subject: pasiulymas del neto
+Message-ID: <20060130185506+0200@wiki.akl.lt>
+
+"DSL takas" gan populiarus lietuvoje, galbut tikslinga butu i ateities Baltix versijas itraukti automatini populiariausiu telekomo platinamu usb modemu atpazinima ir palaikyma? Zinoma jei tai is vis imanoma atlikti.
+
+
+From unknown Tue Jan 31 21:22:55 +0200 2006
+From: 
+Date: Tue, 31 Jan 2006 21:22:55 +0200
+Subject: pasiulymas del neto - Būtinai reikia!!!
+Message-ID: <20060131212255+0200@wiki.akl.lt>
+In-Reply-To: <20060131202944+0200@wiki.akl.lt>
+
+Baltix tikrai puiki sistema !!!
+
+
+From unknown Thu Feb 9 22:45:48 +0200 2006
+From: 
+Date: Thu, 09 Feb 2006 22:45:48 +0200
+Subject: Baltix darbastalio tema...
+Message-ID: <20060209224548+0200@wiki.akl.lt>
+
+Ar nereikėtų parinkti Baltix'ui graženę išvaizdą? Šiuo metu labai jau kvepia seniena:)Yra labai nebloga ikonų tema''Tango'': http://tango-project.org/
+
+
+From unknown Mon Feb 13 22:08:57 +0200 2006
+From: 
+Date: Mon, 13 Feb 2006 22:08:57 +0200
+Subject: Antivirusas i Baltix'a
+Message-ID: <20060213220857+0200@wiki.akl.lt>
+
+Sveiki,
+
+ as gan naujas sio neblogo dalyko vartotojas ir pradejau ji naudoti tik tam kad galeciau "is linux'o praskanuoti windausu particijas antivirusu" :)
+Betgi paaiskejo, kad man jis visai patinka ir kaip pagrindine OS. Geras dalykas Baltix'e tas, kad cia yra antivirusine programa, kuria galima suinstaliuoti t.y. aegis antivirus scanner. Pabandziau ji idiegti, bet kazkaip tai nekaip jis veikia, t.y. nesiupdeintina normaliai ir po instaliavimo as ji galejau susirasti tik per paieska (neisidejo nuoroda pasirenkamuose menu).
+Siulau i Baltix'a idiegti normalu antivirusa, su palaikymais (t.y. nuolatiniais updeitais) ir grazia grafine aplinka ;) Tai tiek komentaru
+
+-Skiormas
+
+
+From unknown Tue Feb 21 16:53:32 +0200 2006
+From: 
+Date: Tue, 21 Feb 2006 16:53:32 +0200
+Subject: pasiulymas del neto - Būtinai reikia!!!
+Message-ID: <20060221165332+0200@wiki.akl.lt>
+In-Reply-To: <20060131202944+0200@wiki.akl.lt>
+
+Jau pavyko susitvarkyti ir tai tikrai nėra taip labai sudėtinga kaip atrodė :) Jeigu jūsų modemas yra GLOBESPAN tipo pvz: D-Link DSL200 rev b tai parsisiųskit tvarkyklę iš: eciadsl.flashtux.org. Kadangi BALTIX yra DEBIAN tipo tai siųskitės deb.failą.Jį įdiegti tikrai paprasta :). Dar būtinai parsisiųskit synch. failą , nes jame ir parenkamas modemas pagal jo procesorių !!! Čia paminėtam modemui reikia nukopijuoti failą gs7470synch04.bin. DNS1:212.59.0.1 DNS2:212.59.0.2, o toliau jūsų tikėjo duomenys, LLC_RFC2364. Daugiau lyg ir nieko nereikia keisti. Prisijungimui- sudo eciadsl-start.Atsijungimui- sudo eciadsl-stop. Būtinai pabandykit !!!
+
+
+From unknown Sat Apr 29 02:39:45 +0300 2006
+From: 
+Date: Sat, 29 Apr 2006 02:39:45 +0300
+Subject: Problemos su draiveriais (?)
+Message-ID: <20060429023945+0300@wiki.akl.lt>
+
+Boot loaderio apipavidalinimui reikia trupučio grafikos dizainerio prisilietimo, nes, atleiskit, baltix su kubuntu atspindžiu (tik be k raidės) idėjiškai gal ir gerai, bet išvaizdos prasme tragiškai atrodo. :) Ir Baltix logotipas galėtų būti kiek paprastesnis, nes dabar jį pamačius kyla asociacijos, kad Baltixu sunku naudotis. Ubuntu būtu gero logotipo pavyzdys.
+
+O iš programavimo, vertimų ir konfigūravimų pusės jūs šaunūs. archatas at yahoo dot com
+
+From unknown Thu May 25 08:30:01 +0300 2006
+From: 
+Date: Thu, 25 May 2006 08:30:01 +0300
+Subject: Jei nerodo MS WMV 9 (win32) 
+Message-ID: <20060525083001+0300@wiki.akl.lt>
+In-Reply-To: <20060204210031+0200@wiki.akl.lt>
+
+čia reikia instaliuoti w32codec paketą. Komandos:
+wget -c ftp://ftp.nerim.net/debian-marillat/pool/main/w/w32codecs/w32codecs_20050412-0.4_i386.deb 
+sudo dpkg -i w32codecs_20050412-0.4_i386.deb
+

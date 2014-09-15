@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 953163565
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 10:53:25.719000 GMT+3
+logo_url:string = http://www.sat.lt/images/sat_logo.gif
+mail:string = sati@sat.lt
+organization:string = Sisteminio Admintsravimo Technologijos  ir \xc4\xaeranga
+position:string = Direktorius
+status:string = imone
+title:string = Gintautas \xc5\xa0vedas
+url_asm:string = 
+url_org:string = http://www.sat.lt

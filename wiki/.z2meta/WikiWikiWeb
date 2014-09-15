@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-11-16T14:22:01+00:00
+creator:string = 
+creator_ip:string = 
+last_edit_time:string = 2005-11-16T14:22:01+00:00
+last_editor:string = 
+last_editor_ip:string = 
+last_log:string = 
+parents:lines = [\'FrontPage\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = WikiWikiWeb

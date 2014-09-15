@@ -1,0 +1,28 @@
+## Script (Python) "getCategories"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+# Pavadinimuose nenaudokite tarpų! Vietoje jų rašykite &nbsp;
+# Vietoje 'Biuro programos' reiktų rašyti 'Biuro&nbsp;programos'
+return [
+    'Biurui',
+    'Internetui',
+    'Programavimui',
+    'Projektavimui',
+    'Vaizdui',
+    'Multimedia',
+    'DBServeriai',
+    'Webserveriai',
+    'GIS',
+    'Mokymui',
+    'Finansams',
+    'Pramogai',
+    'Vertimui',
+    'Žodynai',
+    'Kitos',
+]

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 934691839
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 10:11:33.927000 GMT+3
+logo_url:string = http://www.litvent.lt/logo_litvent.jpg
+mail:string = info@litvent.lt
+organization:string = UAB "LITVENT"
+position:string = Direktorius
+status:string = imone
+title:string = Adolfas Galvanauskas
+url_asm:string = 
+url_org:string = http://www.litvent.lt

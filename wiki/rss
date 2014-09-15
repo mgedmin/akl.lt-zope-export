@@ -1,0 +1,37 @@
+ <?xml version="1.0"?>
+ <rss version="2.0">
+   <channel>
+     <title><dtml-var "aq_parent.title" html_quote></title>
+     <link><dtml-var "aq_parent.absolute_url()">/FrontPage</link>
+     <description><dtml-var "aq_parent.title" html_quote></description>
+     <language>lt-lt</language>
+ <dtml-try>
+ <!-- using catalog search -->
+ <dtml-in Catalog sort=lastEditTime reverse size=20>
+     <item>
+       <title><dtml-var "id" html_quote></title>
+       <link><dtml-var "URL1">/<dtml-var "id"></link>
+       <dtml-if "id[0] == 'z'">
+       <description><dtml-let 
+ page="getObject()"
+ text="page.text()[0:200]"
+ >
+ <dtml-var expr="text" html_quote></dtml-let></description>
+       <dtml-else>
+       <description><dtml-var last_log html_quote></description>
+       </dtml-if>
+       <pubDate><dtml-var lastEditTime fmt="%a, %d %b %Y %H:%M:%S +0000"></pubDate>
+       <author><dtml-var last_editor html_quote></author>
+       </item>
+ </dtml-in>
+ <dtml-except>
+ <!-- not using catalog search -->
+ <dtml-in "aq_parent.objectValues(spec='ZWiki Page')" sort=lastEditTime reverse size=20>
+     <item>
+       <title><dtml-var "id()" html_quote></title>
+       <link><dtml-var "aq_inner.aq_parent.absolute_url()">/<dtml-var "id()"></link>
+       </item>
+ </dtml-in>
+ </dtml-try>
+     </channel>
+ </rss>

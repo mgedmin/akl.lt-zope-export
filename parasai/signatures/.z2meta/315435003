@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 927274561
+confirmed:boolean = 1
+gen_date:date = 2005/05/24 10:57:52.958000 GMT+3
+logo_url:string = http://www.varztupasaulis.lt/images/logo.gif
+mail:string = aurimas@gmail.com
+moder_denied:string = 
+moder_ok:string = JP - perved\xc5\xbeiau i\xc5\xa1 \xc4\xafmon\xc4\x97s
+organization:string = UAB Ginestra
+position:string = Kompiuterini\xc5\xb3 tinkl\xc5\xb3 administratorius
+status:string = fiz_asm
+title:string = Aurimas Fi\xc5\xa1eras
+url_asm:string = 
+url_org:string = http://www.varztupasaulis.lt

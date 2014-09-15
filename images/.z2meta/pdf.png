@@ -1,0 +1,6 @@
+[properties]
+alt:string = 
+content_type:string = image/png
+height:string = 28
+title:string = pdf.png
+width:string = 28

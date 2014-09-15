@@ -1,0 +1,5 @@
+[properties]
+categories:string = Finansams,
+public:boolean = 1
+title:string = Asmenini\xc5\xb3 finans\xc5\xb3 apskaitos sistema \xe2\x80\x9eGnuCash\xe2\x80\x9c
+trumpai:text = Tai laisva asmenini\xc5\xb3 finans\xc5\xb3 apskaitos sistema, pagr\xc4\xafsta profesionalios apskaitos principais. \nLabai patogi ir lengvai \xc4\xafsisavinama grafin\xc4\x97 s\xc4\x85saja. Dirba \xe2\x80\x9eGNU/Linux\xe2\x80\x9c, \xe2\x80\x9eMac OSX\xe2\x80\x9c, \xe2\x80\x9e*BSD\xe2\x80\x9c, \xe2\x80\x9eSolaris\xe2\x80\x9c, \xe2\x80\x9eAIX\xe2\x80\x9c, ir kt. <br>\nPalaiko Open Financial Exchange (OFX) protokol\xc4\x85, kur\xc4\xaf naudoja ar planuoja naudoti daug bank\xc5\xb3 bei kit\xc5\xb3 finsnsini\xc5\xb3 \npaslaug\xc5\xb3 tiek\xc4\x97j\xc5\xb3. Taip pat palaiko German Home Banking Computer Information HBCI protokol\xc4\x85.

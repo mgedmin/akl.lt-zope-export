@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = Interneto pokalbi\xc5\xb3 programa \xe2\x80\x9eExodus\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eExodus\xe2\x80\x9c - tai atviro standarto pokalbi\xc5\xb3 internete sistemos (\xe2\x80\x9eInstant Messages\xe2\x80\x9c) - Jabber klientas. \xc5\xa0i programa veikia tik Windows OS.\nJabber architekt\xc5\xabros d\xc4\x97ka galima kalb\xc4\x97tis ir su \xc5\xbemon\xc4\x97mis, kurie naudojasi ne jabber, o kitais pokalbi\xc5\xb3 protokol\xc5\xb3 klientais:\nMSN, IRC, AIM, ICQ, YAHOO. Galima naudotis keliais skirtingais protokolais vienu metu. 

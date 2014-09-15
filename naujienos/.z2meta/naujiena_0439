@@ -1,0 +1,9 @@
+[properties]
+author:string = Jaro
+blurb:text = Asociacija "Atviras kodas Lietuvai" (AKL) nuo\xc5\xa1ird\xc5\xbeiai d\xc4\x97koja visiems, pasitik\xc4\x97jusiems m\xc5\xabs\xc5\xb3 veikla ir 2005 m. skyrusiems jai dal\xc4\xaf sumok\xc4\x97t\xc5\xb3 savo pajam\xc5\xb3 mokes\xc4\x8dio. \xc5\xa0iais metais J\xc5\xabs irgi galite mums pad\xc4\x97ti. Mes \xc4\xafsipareigojame, kad l\xc4\x97\xc5\xa1os bus panaudotos efektyviai ir skaidriai, prisid\xc4\x97s prie laisvos programin\xc4\x97s \xc4\xafrangos plitimo Lietuvoje. Jums tereikia u\xc5\xbepildyti FR0512 form\xc4\x85 (<a href="http://www.akl.lt/apie/files/FR0512_pvz.odt">.odt</a>, <a href="http://www.akl.lt/apie/files/FR0512_pvz.pdf">.pdf</a>) ir pateikti j\xc4\x85 apskrities valstybinei mokes\xc4\x8di\xc5\xb3 inspekcijai. Laiko liko nedaug - pra\xc5\xa1ym\xc4\x85 reikia pateikti iki <b>gegu\xc5\xbe\xc4\x97s 2 d.</b> <br/>\nNu\xc5\xa1ird\xc5\xbeiai tikim\xc4\x97s sulaukti J\xc5\xabs\xc5\xb3 paramos ir dar kart\xc4\x85 d\xc4\x97kojame par\xc4\x97musiems AKL veikl\xc4\x85.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2006-04-27
+email:string = jaroslav@akl.lt
+profesionalams:boolean = False
+title:string =  Paremk laisv\xc4\x85 programin\xc4\x99 \xc4\xafrang\xc4\x85 - skirk 2% nuo sumok\xc4\x97to pajam\xc5\xb3 mokes\xc4\x8dio organizacijai "Atviras kodas Lietuvai"

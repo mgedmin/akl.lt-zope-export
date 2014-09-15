@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 309103239
+confirmed:boolean = 1
+gen_date:date = 2005/05/20 08:21:53.466000 GMT+3
+logo_url:string = http://www.telecom.lt/i/logo.gif
+mail:string = aleksandras@vault.lt
+organization:string = Lietuvos telekomas
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Aleksandras S
+url_asm:string = 
+url_org:string = http://www.telecom.lt

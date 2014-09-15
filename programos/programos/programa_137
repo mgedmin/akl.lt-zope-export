@@ -1,0 +1,21 @@
+Programos pagalba galima pildyti:
+1. gyventojo individualios veiklos pajamų išlaidų apskaitos žurnalą;
+2. gaunamų pvm sąskaitų registrą;
+3. išrašomų pvm sąskaitų registrą;
+4. ridos apskaitos registrą;
+5. sąmatų registrą;
+6. klientų registrą.
+Programos pagalba galima išrašyti ir atspausdinti:
+1. sąskaitą faktūrą;
+2. pvm sąskaitą faktūrą;
+3. sąmatą.
+Programavimo kalba: PHP, duombazių serveris MySQL.
+Operacinė sistema:
+1. Linux;
+2. FreeBSD;
+3. MacOS;
+4. Windows.
+Licenzija: GNU.
+Kontaktinė informacija: info@ragintas.com.
+Pastaba: programą naudoju savo versle. Noriu viešai paskelbti, todėl reikalinga vieta viešame ftp serveryje
+

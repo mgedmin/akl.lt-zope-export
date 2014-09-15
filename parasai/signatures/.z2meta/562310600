@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 600711040
+confirmed:boolean = 1
+gen_date:date = 2005/12/18 20:34:21.296000 GMT+2
+logo_url:string = 
+mail:string = zygis1990@gmail.com
+organization:string = 
+position:string = Mokslas
+status:string = fiz_asm
+title:string = Zygimantas Petrukevicius
+url_asm:string = 
+url_org:string = 

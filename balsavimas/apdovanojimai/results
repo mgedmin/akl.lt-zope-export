@@ -1,0 +1,6 @@
+<table>
+  <tr tal:repeat="item here/rezultatai">
+    <td tal:content="item/name"></td>
+    <td tal:content="item/value"></td>
+  </tr>
+</table>

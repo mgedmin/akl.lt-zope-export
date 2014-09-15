@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 389649864
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 12:28:26.370000 GMT+3
+logo_url:string = http://www.sat.lt/images/sat_logo.gif
+mail:string = balys.vaitiekunas@gmail.com
+organization:string = "Sisteminio Admintsravimo Technologijos ir \xc4\xaeranga"
+position:string = Kompiuteri\xc5\xb3 in\xc5\xbeinierius
+status:string = fiz_asm
+title:string = Balys Vaitiek\xc5\xabnas
+url_asm:string = 
+url_org:string = http://www.sat.lt

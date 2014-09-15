@@ -1,0 +1,6 @@
+[properties]
+alt:string = 
+content_type:string = image/png
+height:string = 192
+title:string = gimp-svg-import-thumb.png
+width:string = 256

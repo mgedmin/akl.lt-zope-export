@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,Programavimui,
+public:boolean = 1
+title:string = HTML redaktorius \xe2\x80\x9eNvu\xe2\x80\x9c
+trumpai:text = Ypa\xc4\x8d patogus ir galingas \xc4\xafrankis vizualiam HTML puslapi\xc5\xb3 k\xc5\xabrimui, tinkantis tiek pradedantiesiems \n(n\xc4\x97ra b\xc5\xabtina \xc5\xbeinoti HTML, turi vizualias priemones), tiek profesionalams (turi patog\xc5\xb3 tiesioginio HTML\n redagavimo komponent\xc4\x85)

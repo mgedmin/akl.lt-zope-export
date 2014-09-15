@@ -1,0 +1,5 @@
+[properties]
+categories:string = Pramogai,
+public:boolean = 1
+title:string = SuperTux
+trumpai:text = SuperTux - klasikinis b\xc4\x97gti ir \xc5\xa1okti stiliaus \xc5\xbeaidimas, \xc4\xafkv\xc4\x97ptas legendini\xc5\xb3 Nintendo \xc5\xbeaidim\xc5\xb3 i\xc5\xa1 Super Mario serijos.

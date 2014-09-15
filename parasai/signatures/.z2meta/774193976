@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 277132702
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 17:18:29.121000 GMT+3
+logo_url:string = 
+mail:string = sasnausk@informatik.uni-tuebingen.de
+organization:string = Universit\xc3\xa4t T\xc3\xbcbingen
+position:string = Studentas
+status:string = fiz_asm
+title:string = Raimondas Sasnauskas
+url_asm:string = 
+url_org:string = http://www.uni-tuebingen.de

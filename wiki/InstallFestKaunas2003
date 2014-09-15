@@ -1,0 +1,107 @@
+DIEGIMO ŠVENTĖ ![InstallFest] - PIRMĄ KARTĄ LIETUVOJE !!!
+
+  **Kada?** 2003.09.20 d., šeštadienį
+
+  **Kur?** KTU Informacinių technologijų plėtros instituto patalpose (buvęs Skaičiavimo centras)
+
+  **Dalyviai**. Tikėtina, kad daugelis bus studžių. Taip pat turėtų aplinkui zujinti ir mokinukai. Reiktų pritraukti kuo įvairiausios publikos: mokytojų, dėstytojų, verslininkų, bibliotekininkų,...
+
+  **Informavimas apie rengini**. Tam turime tokius šaltinius: Naujienų, Naudotojų ir AKL mailing listai, os_linux, bsd ir panašios konferencijos, distribucijų lietuviškuosius tinklalapius. Taip pat būtų gerai, kad žinutės atsirastų visuose naujienų portaluose, specializuotuose laikraščiuose ir žurnaluose, IT rubrikose, TV laidose. **KAIP BUVO:** planavo atvykti TV 3 "Kompiuterijos" laida, Kauno TV, bet pasikeitė planai. Parašė "Laikinoji sostinė" dar prieš renginį, ty. 19 d. Detaliau apie publikacijas yra apačioje. **REIKALINGA:** kaip ir dažniausiai, žiniasklaidą reikia kviestis asmeniškai ir dar priminti.
+
+  **Atlikti/Nuspresta/Kaip buvo/Reikalinga**:
+
+     * nuspręsti dėl renginio pavadinimo: !InstallFest, !InstallFiesta,.... -- **nuspresta:** vadinsime "Diegimo švente", nurodant ir "Installfest"
+ 
+     * nuspręsti, ką instaliuosime masiškai, kai naujokas nenurodys konkrečios distribucijos -- **nuspresta:** instaliuoti "Knoppix"
+
+     * apsispręsti dėl grafinės aplinkos -- **nuspresta:** bus ir KDE, ir GNOME, ir lietuvių, ir anglų kalbomis. Pademonstruosime visas, ką norės, tą ir pasirinks
+
+     * nuspręsti, kurias programas instaliuoti -- **nuspresta:** instaliuoti visas arba light variantą
+
+     * reikalavimai kompiuteriui: **nuspresta:** minimum 64RAM, minimum 1GB vietos diske (rekomenduojama 2.5 GB), 300MHz procesorius
+
+     * parengti distribuciją ir ją testuoti -- **isipareigojimas:** parengia Mantas (iki 2003.09.08), Casp paleidžia bugzillą (iki 2003.09.08), visi testuoja iki 2003.09.15. **KAIP BUVO:** bugzilla paleista, tačiau turbūt niekas nesinaudojo; parengta distra tik naktį iš 19 į 20 d., todėl niekas netestavo, išskyrus Mantą. Be to, buvo kalbėta apie Knoppix, o gavosi toli Morphix, toli Knoppix-Morphix, o tipo vadinosi Baltix-Knoppix. **REIKALINGA:** laikytis susitarimų, terminų, apie pakeitimus dėl distros informuoti visus kuo anksčiau, o ne 2 dienos prieš renginį.
+
+     * surašyti testuotą distribuciją į CD, kad nebūtų trikdžių ir dar pratestuoti -- **isipareigojimas:** 2003.09.15-2003.09.17 įrašomas "Knoppix" į CD'žius ir testuojamas. CD ir įrašinėtojų yra. **KAIP BUVO:** žr. prieš tai buv. punktą. Įrašinėjimas vyko 20 d. ryte tiesiai renginyje. Tai įnešė didelį chaosą: neparuošti kompiuteriai demonstravimui, nėra CD'žių dalyviams, nes nespėjame įrašinėti. **REIKALINGA:** atėjus dalyviui, jau turi būti paruošta: CD, instrukcijos, konsultantas.
+
+     * sukurti CD dėžutės apipavidalinimą -- **isipareigojimas:** Kastytis (priminti 2003.09.08). **KAIP BUVO:** Kastytis sukūrė ne vieną versiją CD viršelių dizaino (yra patalpinta ftp.akl.lt) ir atspaudė 50 vnt. (+ 50 vnt papildomai :)).
+
+     * gauti CD, kad netektų savų naudoti. **KAIP BUVO:** BMS davė 50 vnt. CD'žių
+
+     * parengti dokumentą, kad dalyvis galėtų pasirašyti ir vėliau nebūtų jokių ginčų, atsiradus nesklandumams. **KAIP BUVO:** dokumento nerengėme, dayviai buvo iš anksto įspėti apie kopijas.
+
+     * parengti mini instrukcijas, kaip reikia instaliuoti, atnaujinti ir kaip tvarkytis po to ir kur kreiptis pagalbos -- **isipareigojimas:** Moxliukas, padedamas Manto, parengia instrukcijų draft'ą iki 2003.09.17. **KAIP BUVO:** Moxliukas parengė variantą pagal Knoppix, tačiau paskutinę naktį reikėjo perdaryti pagal Knoppix-Morphix ar kaip jis tenais vadinasi.
+
+     * organizuoti registraciją norinčiųjų prižiūrėti, kad gautųsi optimalus skaičius prižiūrėtojų -- **isipareigojimas:** visi norintys pasidalinti patirtimi ir padėti naujokui, registruojasi pas Romeną, nurodydamas vardą ir distribucijas, kurias galėtų padėti instaliuoti ir konfigūruoti. **KAIP BUVO:** daugiau mažiau dalyvavo visi užsiregistravę. Labai pagelbėjo vilniečių komandos. Buvo manyta, kad 1 prižiūrėtojo gali užtekti netgi 5 dalyviams, tačiau realiai ir 3 dalyviai buvo per daug. Viso konsultantų buvo 13 (3 iš jų turėjo kitus užsiėmimus, todėl dalyvių neprižiūrėjo).
+
+     * organizuoti registraciją norinčiųjų įsiinstaliuoti Linux, kad orientuotis į žmonių skaičių -- registracijai yra anketa, registracija prasideda 2003.09.08. **isipareigojimas:** Romena parengia anketą, informaciją patalpina į www iki 2003.09.08 ir išsiuntinėja nuo 2003.09.08. **KAIP BUVO:** informacija patalpinta į www.akl.lt, 2003.09.10 d. parašyta apie tai į Naujienų listą ir pradėta kviesti žiniasklaida. Pradėta siuntinėti info į įvairias organizacijas (universitetai, asociacijos ir t.t.). Realiai anketos pradėjo eiti nuo 15 d., o tai yra gerokai per vėlai. Viso dalyvių buvo 14. **REIKALINGA:** Paskutinę savaitę jau turi baigtis dalyvių registracija. Jeigu daugiau dalyvių nei konsultantų, reikia skirstyti valandomis.
+
+     * įspėti dalyvius pasidaryti vietos diske, pasidaryti backupus, kad paskui netektų gailėtis prarastos info. **KAIP BUVO:** dalyviai įspėti.
+
+     * ką kiekvienas turi atsinešti su savimi: kompiuterį, monitorių, pelę, klaviatūrą, kabelį, maitinimą, būtų gerai ir tinklo kortą bei CD-ROM'ą, o jei gali ir printerį, skenerį ir panašius dalykus. **KAIP BUVO:** įtraukta į anketą, papildomai apklausta telefonu prieš renginį.
+     
+     * parengti korteles dalyviams, pasidaryti vizitines korteles, pagaminti ir iškabinti plakatus (visuose universitetuose, gimnazijoje, ITPI,..), parengti lipdukus dalyviams ant kompiuterių ("Linux inside" tipo). **KAIP BUVO:** plakato maketas - Ritukė, plakato spausdinimas - Henris, skrajutės maketas - Paulius M., skrajutės spausdinimas - Smaltija. Plakatai iškabinti per vėlai, skrajutės pradėtos dalinti taip pat per vėlai. Vardines korteles turėjo konsultantai. **REIKALINGA:** plakatus kabinti ir skrajutes dalinti reikia 1 savaitę prieš renginį.
+
+     * pajungti webcamą -- Andriaus idėja. Graži idėja, bet jai realizuoti reikia iš anksto pasiruošti :).
+
+  **Kitokios idejos**:
+
+     * aprengti prižiūrėtojus renginio marškinėliais, renginio metu siūlyti marškinėlius, suorganizuoti gaiviųjų gėrimų, kavos aparatą, kitos crazy idėjos... **REIKALINGA:** numatyti pietų pertraukėlę - tai reikalinga tiek konsultantams, tiek ir dalyviams. Dar geriau, jei tai pavyktų kartu, prie bendro stalo.
+
+  **PUBLIKACIJOS**
+
+  Prieš renginį:
+
+    * http://www.studentas.lt/?act=1&sid=222772
+
+    * http://www.infosa.lt/naujiena.php?ID=93
+
+    * http://www.ebiz.lt/article.php3/2/5554/4
+
+    * http://www.bendruomenes.lt/news/news/index.php?id=7948&no=0&gid=
+
+    * http://www.bendruomenes.lt/events/?id=7913
+
+    * http://www.ktu.lt "Informacijos" dalyje
+
+    * http://www.elta.lt/zinute_m.php?inf_id=220664
+
+    * Straipsnis "Laikinoje sostinėje" 03.09.20 - "Universitete &acirc;�� naujas renginys kompiuterių vartotojams", Laurynas Bunka
+
+    * Forumai: AK Naujienos, NVO, Verslininkų namai, LIKS, Veidrodis, banga.lt
+
+  Po renginio:
+
+    * Respublika, priedas Infoteka 03.09.23, 1 psl. - "Lietuvoje - pirmoji atviro kodo diegimo šventė", Liutauras Leščinskas -> "straipsnis":http://www.infoteka.lt/index.php?name=rodyti2&id=980&kat_id=72
+
+    * Kauno diena, priedas Argumentai 03.09.23 - "Nemokamų programų šventė", Jurgita Murauskaitė -> "straipsnis":http://www.kaunodiena.lt/lt/?id=6&aid=12713 	
+
+    * Studijų aidai 03.09.25, 8 psl - "Pirmoji Diegimo šventė Lietuvoje" -> "nuoroda":http://www.ktu.lt/lt/informacija/aidai/aidai2022/index.html, "straipsnis":http://internet.ktu.lt/aidai/2022/aidai8.pdf
+
+    * Lietuvos rytas, priedas Vartai 03.09.29, Kompiuterijos skilitis  - "!InstallFest" renginyje - ne tik studentai", Paulius Jakutavičius
+
+  Nuotraukos:
+
+    * "Mariaus Gedmino":http://www.b4net.lt/%7Emgedmin/tmp/photos/installfest
+
+    * "Manto Puidos":http://plasmy.azuolas.org/third_stage_album.php?prev_path=albums/events/InstallFest&name=InstallFest&first_name=events; "Manto Puidos kokybiskos":http://plasmy.azuolas.org/albums/events/InstallFest/
+
+    * "Kastycio Laurinaicio":http://files.akl.lt/AKL/Diegyne/Kaunas/Kastycio_Foto/
+
+<br>
+ **!InstallFest [RimtesnisAprasymas]**
+
+ Kontaktai: ITPI direktoriaus pavaduotojas Markauskas, 300603
+
+<br>
+----------------------------------------------------------------------------------------------
+
+  Patalpos, kurios buvo siūlytos:
+
+   o Interneto klubas // Mindas
+
+   o KTU Bendrabutyje Nr. 9 // Mindas (yra salė, kurią butu galima susitarti gauti, internetas irgi būtų) 
+
+   o KTU exSC (direktorius - prof. R.Šeinauskas) // Romena
+
+   o KTU Elektronikos rūmai, 1 a. foje // Paulius M. (internetą galima būtų nemokamai gauti iš Kompiuterių tinklų katedros. Reiktų tik stalų, daug elektros prailgintojų ir, aišku, rūmų valdytojo pritarimo)

@@ -1,0 +1,5 @@
+[properties]
+categories:string = Multimedia,
+public:boolean = False
+title:string = MPD (music player daemon)
+trumpai:text = Konsolinis muzikos servisas, skirtas Linux OS.

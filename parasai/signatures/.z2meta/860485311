@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 539616321
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 16:22:16.827000 GMT+3
+logo_url:string = 
+mail:string = pi@freemail.lt
+organization:string = 
+position:string = MIF VU studentas
+status:string = fiz_asm
+title:string = Via\xc4\x8deslav Pozdniakov
+url_asm:string = 
+url_org:string = 

@@ -1,0 +1,28 @@
+<h2>Diagramų kūrimo paketas „Dia“<br>
+<a href="http://www.gnome.org/projects/dia/" target="_blank">www.gnome.org/projects/dia/</a></h2>
+<p>
+„Dia“ - tai multiplatforminė diagramų kūrimo programa, panaši į „Visio“. 
+„Dia“ yra nemokama atviro kodo programa su GPL licencija. Programa skirta įvairių diagramų braižymui: 
+tinklo, elektros įrangos, programinės įrangos (UML) ir kt.
+</p>
+<p>
+„MS Windows“ vartotojams programos valdymas gali pasirodyti kiek neįprastas. 
+Tačiau, kiek įvaldžius programą, „Dia“ taps gan patogi. Juo labiau, kad ji pilnai 
+atlieka pagrindines funkcijas, tai yra: 
+<ul>
+<li>patogūs diagramų braižymo įrankiai;</li>
+<li>įvairių diagramų kūrimo galimybės;</li>
+<li>nemažas papildomų figūrų paketas;</li>
+<li>papildomų modulių pridėjimas ir kt.</li>
+</ul>
+</p>
+<p>
+Pridedama dokumentacija bei papildomi įrankiai, skirti automatiniam programinių kodų generavimui iš diagramų.
+</p>
+<p>
+Pagrindinis programos puslapis yra <a href="http://www.gnome.org/projects/dia/" target="_blank">čia</a>, 
+kur rasite <a href="http://www.gnome.org/projects/dia/diatut/all/all.html" target="_blank">pradžiamokslį</a>, 
+atsakymus į dažnai užduodamus klausimus (<a href="http://www.gnome.org/projects/dia/faq.html" target="_blank">DUK</a>) 
+bei <a href="http://www.gnome.org/projects/dia/docs.html" target="_blank">dokumentaciją</a>.<br>
+Windows OS skirtą Dia programos variantą galite atsisiųsti iš <a href="http://dia-installer.sourceforge.net">http://dia-installer.sourceforge.net</a>
+</p>

@@ -1,0 +1,94 @@
+Vertimai
+
+  Idėja - prižiūrėti www.lietuvybe.org. Tikslas - vienoje vietoje kaupti ir laikyti informaciją, susijusią su programų vertimais, centralizuoti atlikti vertimus. Tame nori dalyvauti AKL nariai (Rimas ir Tadas).
+
+  05-01-30 d. AKL diskusijoje **Rimo Kudelio (RQ)** išreikšta "nuomone":https://lists.akl.lt/pipermail/akl/2005-January/001443.html, kuri, mano manymu (aut. pastaba - Romenos manymu), neturėtų būti pamiršta. Nors ir kiek ji būtų subjektyvi, bet daugiau mažiau pateikiama šiandienos situacija.
+
+ <i>Kęstutis Biliūnas wrote:<br>
+> Taigi aš manau, kad AKL turėtų rūpintis, kad tokių projektų būtų<br>
+> daugiau. Pavyzdžiui programų vertimai vyksta gana stichiškai. Ar ne būtų<br>
+> geriau, jei rimta AKL organizacija koordinuotų šią veiklą? Galbūt toks<br>
+> projektas pagerintų vertimų kokybę ir padidintų išeigą, net esant<br>
+> ribotam vertėjų resursui.</i>
+
+AKL galėtų šioje srityje stengtis. Tačiau, neturint jokios teisinės 
+galios tai įtakoti, visa tai ir liktų tik pastangomis.
+
+AK juk būtent tokiu (bendruomenės) principu ir veikia, be to, softo 
+kūrėjai nelabai turi galimybę patikrinti ar audituoti priimamo vertimo 
+kokybę. O vertimus gali submitinti kiekvienas norintis.
+
+Gerai, kad dideli projektai (GNOME bei KDE, na ir tarkim Mozilla) turi 
+savo lokalizacijos koordinatorius (Žygis, Donatas, MII), tačiau 
+mažesni dažniausiai jų neturi, ir būtent juose (t.y. pačiame 
+upstream'e) viskas vyksta gana stichiškai.
+
+Situacija daugmaž tokia:
+
+  * <b>Mozillos produktus ir !OOo verčia MII</b>. Tikrai kokybiškas darbas, ne 
+veltui apmokamas. Dalis terminų kertasi su mūsų (Manto) 
+propaguojamais, tačiau tai turi gana aiškią priežastį - vertimas 
+daromas valstybinio užsakymo lygyje, tad MII turi atsižvelgti į visus 
+VLKK įsakymus ir nupezėjimus, ir būtent jais vadovautis;
+
+  * <b>GNOME ir GNOME programas verčia Žygis</b>, taip pat jis, manau, 
+audituoja visus iš kitų į GNOME gaunamus vertimus, ir nekokybiškus 
+atmeta. Irgi labai geras darbas, gaila, kad neapmokamas (AKL'as galėtų 
+jį paremti, jei jau taip daug litų pirtelėms turi ;])
+
+  * <b>XFCE neper seniausiai pradėjau tvarkyti aš ![Rimas Kudelis]</b>. Prieš tai vertė toks 
+Mantas (ne mūsų Mantas), kuriam dabar sesija. Aš pakeičiau daugybę ten 
+buvusių stringų, supanašinau juos su Žygio darbu. Tačiau XFCE 
+maintainerių požiūriu mes esame lygiaverčiai, ir jei Mantas imtų 
+šakotis, kad štai „Failas“ buvo gerai, o „Byla“ - blogai, arba 
+nusiųstų XFCE kūrėjams vertimo pačą, kuriame pusė mano stringų būtų 
+atkeisti atgal, aš juos nuo pačo priėmimo galėčiau sulaikyti nebent 
+įkalbinėjimais ir argumentais (GNOME and KDE uses the terms that I 
+supplied, not Mantas). Žygis GNOME projekte šiuo atveju turi kur kas 
+daugiau teisių.
+
+  * <b>KDE verčia Donatas ir Ko</b>. Jam atiteko gana neblogos būklės vertimas, 
+tačiau senokai neatšviežintas. Žiūrėsim, kaip jis su tuo susitvarkys. 
+Mano vizija - būtų gerai kuo labiau suvienodinti vertimus. Tarkim, kad 
+GNOME, KDE, XFCE ir visa kita naudotų tuos pačius žodžius tiems 
+patiems dalykams žymėti. Galbūt tai utopija, o gal tos mintys kvailos, 
+nes skatina mažinti aplinkų savitumą. tačiau manau, jog vartotojui 
+tokiu atveju būtų kur kas lengviau keisti naudojamą aplinką ir jis 
+būtų kur kas paslankesnis.
+
+  * <b>Debiano diegiklį verti tu ![Kęstutis Biliūnas]</b>. Kadangi retokai jį matau, negaliu 
+pasakyt, geras jis ar blogas, bet esi jau subrendęs rimtas asmuo, 
+tikiu, kad vertimas geras. :)
+
+  * <b>X-Chat verčia Vaidrius</b>. Vertimas irgi geras, ir Vaidrius atsižvelgia 
+į pastabas bei pasiūlymus.
+
+  * <b>GAIM. Jį išvertė Gediminas</b>, ir vertimas tragiškas (žr, komp_lt). 
+Nenorėčiau jo įžeisti, tačiau, mano galva, jei nemoki - geriau 
+neversk, negu versk taip.
+
+  * <b>GIMP. Verčia lyg ir Mantas, lyg ir ne</b>, ir vertimas, nors ir gana 
+kokybiškas, pastoviai vėluoja. ;)
+
+  * Kas dar? :)
+
+AKL'as visa tai galėtų koordinuoti nebent savanoriško paklusnumo 
+princpu, t.y., tik vertėjo iniciatyva. Ir tai dar nebūtume užtikrinti, 
+jog upstreamas atsižvelgs į tą mūsų nusistatytą hierarchiją, 
+priimdamas pačus „iš kairės“.
+
+ <i>> Tai va, tokios mano temos pasvarstymui prie alaus.<i>
+
+
+From KęstutisBiliūnas Fri Mar 25 13:06:55 +0200 2005
+From: Kęstutis Biliūnas
+Date: Fri, 25 Mar 2005 13:06:55 +0200
+Subject: „Žaidimas“ galėtų būti komandinis
+Message-ID: <20050325130655+0200@wiki.akl.lt>
+
+O galėtų būti „civilizuotos bendruomenės principu“, t.y. koordinuoti
+šį darbą, kaip tai daro prancūzų, olandų ar ispanų komandos.
+
+http://asgard.debian.net/cgi-bin/l10n.cgi?team=es
+http://people.debian.org/~bertol/tr.by_package.html
+http://www.famdijkstra.org/debian/l10n/

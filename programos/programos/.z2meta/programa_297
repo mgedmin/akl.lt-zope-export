@@ -1,0 +1,5 @@
+[properties]
+categories:string = Kitos,
+public:boolean = True
+title:string = Gimin\xc4\x97s med\xc5\xbeio programa "GRAMPS"
+trumpai:text = Programa skirta gimin\xc4\x97s med\xc5\xbeiui suvesti, redaguoti, generuoti raportus, tyrin\xc4\x97ti genealoginiuo duomenis.

@@ -1,0 +1,6 @@
+<table tal:define="names python:here.names()">
+  <tr tal:repeat="item python:names.keys()">
+    <td tal:content="python:names[item]"></td>
+    <td tal:content="python:here.balsavo(item) and 'Balsavo' or 'Nebalsavo'"></td>
+  </tr>
+</table>

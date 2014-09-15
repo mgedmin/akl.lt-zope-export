@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-10-11T13:29:08+00:00
+creator:string = mantas
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-07-30T00:43:13+00:00
+last_editor:string = alga
+last_editor_ip:string = 127.0.0.1
+last_log:string = Free Alltel Audiovox Ringtones
+parents:lines = [\'Distribucija\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Baltix-Ubuntu-Linux-2005-10

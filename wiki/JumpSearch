@@ -1,0 +1,8 @@
+To jump directly to a page, enter the first few letters of its name in the JumpSearch field (usually at top right) and press enter.
+If more than one page matches, the alphabetically first is chosen.
+
+If no matches are found or if the expression begins with !, a search of all pages is done instead. This is case-insensitive and spaces are preserved.
+
+To list all pages alphabetically, leave the expression blank.
+
+See also RecentChanges, HowDoINavigate

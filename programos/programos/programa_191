@@ -1,0 +1,11 @@
+<h2>Žaidimas „SuperTux“<br>
+<a href="http://supertux.berlios.de/" target="_blank">supertux.berlios.de/</a></h2>
+<p>SuperTux - klasikinis bėgti ir šokti stiliaus žaidimas, įkvėptas legendinių Nintendo žaidimų iš Super Mario serijos.</p>
+
+<p>Vietoj Mario, pagrindinis veikėjas žaidime - mažasis Linux talismanas pingvinas Tuxas. Didžiąją dalį žaidimo grafikos 
+sukūrė Ingo Ruhnke, kito žaidimo, su tuo pačiu pingvinuku, Pingus, kūrėjas.</p>
+
+<p>Naujausia žaidimo versija yra 0.1.3, išleista 2005 metų liepos 9 dieną. Į ją įtrauktas pagrindinis žaidimo pasaulis 
+(26 lygiai) ir dvi papildomos salos (po 22 ir 28 lygius). Dabar kolkas galima parsisiųsti tik pirminį kodą arba sukompiliuotą 
+Linux, Windows ar Mac OS X versiją, nors ateityje žadama sukurti ir kitoms operacinėms sistemoms (FreeBSD, BeOS ir t.t.) 
+pritaikytas versijas.</p>

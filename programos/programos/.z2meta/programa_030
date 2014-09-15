@@ -1,0 +1,5 @@
+[properties]
+categories:string = Multimedia,
+public:boolean = 1
+title:string = Garso redaktorius \xe2\x80\x9eAudacity\xe2\x80\x9c
+trumpai:text = Tai multiplatforminis audio redaktorius su kuriuo j\xc5\xabs galite \xc4\xafra\xc5\xa1yti, groti, \nredaguoti, importuoti/exportuoti WAV, MP3, OGG, AIFF ir kitas bylas. Turi triuk\xc5\xa1mo panaikinimo, \n\xc5\xbeem\xc5\xb3 da\xc5\xbeni\xc5\xb3 padidinimo ir \xc4\xafvairiausi\xc5\xb3 kit\xc5\xb3 efekt\xc5\xb3.

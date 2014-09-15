@@ -1,0 +1,249 @@
+PHARE 2002 BAS project plan of activities
+
+  A plan in months could be found at PlanOfActivitiesMonths.<br>
+Lithuanian versions: VeikluPlanas, VeikluPlanasMenesiais.
+
+  You can also look at more detailed activities: ProjectCoordination, WebActivities, OSSActivities, InfDissemination.<br>
+Lithuanian versions: ProjektoKoordinavimas, WebVeiklos, OSSVeiklos, InfSklaida
+
+  1. Set and approve detailed plan of activities
+
+    * Set and coordinate detailed project schedule (of activities and main events)<br>
+<small>*--> result/output : detailed project schedule*</small>
+
+    * Organize project steering  committee and project team meeting<br>
+<small>*--> result/output : place, date and time scheduled*</small>
+
+    * Meeting of project steering committee and kick-off meeting in Vilnius<br>
+<small>*--> result/output : approved detailed project schedule*</small>
+
+  2. Establish and document procedures for testing websites and document formats used in data exchange between local authorities and citizens
+
+    * Draw up a list of Lithuanian websites and coordinate with responsible persons of organizations<br>
+<small>*--> result/output : a list of Lithuanian websites to be tested*</small>
+
+    * Draw up a list of Latvian websites and coordinate with responsible persons of organizations<br>
+<small>*--> result/output : a list of Latvian websites to be tested*</small>
+
+    * Establish and document procedures for testing websites in Lithuania and Latvia<br>
+<small>*--> result/output : procedures for testing websites*</small>
+
+    * Test Lithuanian websites for W3C standards compliance (test and commit mistakes)<br>
+<small>*--> result/output : a report on testing results of Lithuanian websites*</small>
+
+    * Test Latvian websites for W3C standards compliance (test and commit mistakes)<br>
+<small>*--> result/output : a report on testing results of Latvian websites*</small>
+
+    * Analyze document formats at Lithuanian websites and requested document forms from citizens (Vilnius)<br>
+<small>*--> result/output : a list of document formats used at Lithuanian websitese*</small>
+
+    * Analyze document formats at Latvian websites and requested document forms from citizens (Riga)<br>
+<small>*--> result/output : a list of document formats used at Latvian websites*</small>
+
+    * Analyze Lithuanian web site test results and compile report<br>
+<small>*--> result/output : Lithuania's team report on results*</small>
+
+    * Analyze Latvian web site test results and compile report<br>
+<small>*--> result/output : Latvia's team report on results*</small>
+
+    * Compile general report based on Lithuanian and Latvian web site test results<br>
+<small>*--> result/output : general report on testing and findings of both countries*</small>
+
+  3. Analyze and select open standard document formats 
+
+    * Research what open document formats are used in other EU countries<br>
+<small>*--> result/output : a list of document formats used in other EU countries*</small>
+
+    * Analyze existing Lithuanian laws and regulations regarding data exchange and standards<br>
+<small>*--> result/output : a list of Lithuanian laws and regulations regarding data exchange and standards*</small>
+
+    * Analyze existing Latvian laws and regulations regarding data exchange and standards<br>
+<small>*--> result/output : a list of Latvian laws and regulations regarding data exchange and standards*</small>
+
+    * Compile 10-page report on the use of open document formats in the public sector based on project report findings and input from other EU countries<br>
+<small>*--> result/output : a 10-page report on the use of open document formats in the public sector*</small>
+
+    * Author an article summarizing the open formats portion of the project and its findings, for distribution to Lithuanian and Latvian media organizations<br>
+<small>*--> result/output : an article (press release) about Lithuanian and Latvian situation on using open formats*</small>
+
+    * Contact Lithuanian mass media organizations regarding the publication of prepared article<br>
+<small>*--> result/output : an article published in 3 main Lithuanian dailies*</small>
+
+    * Contact Latvian mass media organizations regarding the publication of prepared article<br>
+<small>*--> result/output : an article published in 2 main Latvian dailies*</small>
+
+  4. Implement use of open formats at Vilnius City Municipality
+
+    * Select and test tools for creating open standard documents<br>
+<small>*--> result/output : a list of selected tools for creating open standard documents with brief descriptions*</small>
+
+    * Select and test tools for converting documents to open standard ones<br>
+<small>*--> result/output : a list of selected tools for converting documents to open standard ones with brief descriptions*</small>
+
+    * Compile a report and recommendations on tools for open file format creation and conversion<br>
+<small>*--> result/output : a report and recommendations (guidelines) on tools for open file format creation and conversion*</small>
+
+    * Organize visit of Latvian team members to Lithuania to discuss project status and pilot implementation procedures (set schedule and place)<br>
+<small>*--> result/output : place, date and time scheduled*</small>
+
+    * Conduct Vilnius meeting of project steering committee and project teams<br>
+<small>*--> result/output : approved results and scheduled further activities *</small>
+
+  5. Trainings for municipal workers
+
+    * Prepare training materials<br>
+<small>*--> result/output : prepared training materials*</small>
+
+    * Organize and administrate 4-day training seminar for Vilnius City municipal workers<br>
+<small>*--> result/output : selected 20 municipal workers for trainings*</small>
+
+    * Organize and administrate 1-day seminar for Lithuanian municipal decision makers<br>
+<small>*--> result/output : selected about 80 Lithuanian municipal decision makers for seminar*</small>
+
+    * Organize and administrate 1-day seminar for Latvian municipal decision makers<br>
+<small>*--> result/output : selected about 60 Latvian municipal decision makers for seminar*</small>
+
+    * Conduct 4-day seminar and trainings for appropriate Vilnius City municipal workers<br>
+<small>*--> result/output : 20 municipal workers trained, feedbacks analyzed*</small>
+
+    * Conduct 1-day seminar for Lithuanian municipal decision makers<br>
+<small>*--> result/output : 80 Lithuanian municipal decision makers raised awareness in IT, feedbacks analyzed*</small>
+
+    * Conduct 1-day seminar for Latvian municipal decision makers<br>
+<small>*--> result/output : 60 Latvian municipal decision makers raised awareness in IT, feedbacks analyzed*</small>
+
+  6. Implement of project pilot at Vilnius City Municipality
+
+    * Prepare and coordinate a detailed plan of implementation<br>
+<small>*--> result/output : a detailed plan for pilot implementation*</small>
+
+    * Identify existing hardware and software systems for inclusion in project, determine their project suitability and determine any necessary upgrades<br>
+<small>*--> result/output : a detailed report on hardware and software that is already used and/or needed for further activities*</small>
+
+    * Identify up to 20 municipal workers responsible for electronic document publication for project involvement<br>
+<small>*--> result/output : selected 20 municipal workers responsible for electronic document publication*</small>
+
+    * Implement and test selected software tools at individual workstations<br>
+<small>*--> result/output : software installed at workstations and tested*</small>
+
+    * Train and support municipal workers at their workplaces<br>
+<small>*--> result/output : 20 selected municipal workers trained at their workplaces to use installed software (2 days)*</small>
+
+  7. Test and revise existing website of Vilnius City Municipality
+
+    * Revise webpages of Vilnius City Municipality for W3C standards compliance<br>
+<small>*--> result/output : the webpages of Vilnius City Municipality are compliant with W3C standards*</small>
+
+    * Convert closed document formats on website to selected standards compliant ones using established project guidelines<br>
+<small>*--> result/output : documents in close formats converted to selected open formats*</small>
+
+    * Re-publish converted open standard documents on involved websites either in place of or in addition to closed format ones<br>
+<small>*--> result/output : converted documents published on websites of municipality*</small>
+
+    * Launch revised websites after standards compliance testing and revision cycle<br>
+<small>*--> result/output : a revised municipal website published on Internet*</small>
+
+  8. Publish Open Standard User's Guide Book --> UsersGuide
+
+    * Compile and edit 50 page Lithuanian language Open Standard User's Guide Book based on project reports and findings<br>
+<small>*--> result/output : a 50-page Open Standard User's Guide Book prepared in Lithuanian language (in electronic format)*</small>
+
+    * Compile and edit 50 page Latvian language Open Standard User's Guide Book based on project reports and findings<br>
+<small>*--> result/output : a 50-page Open Standard User's Guide Book prepared in Latvian language (in electronic format)*</small>
+
+    * Print 100 copies of the book and distribute by ALAL to Lithuanian municipal decision makers<br>
+<small>*--> result/output : 100 printed copies of Open Standard User's Guide Book distributed to Lithuanian municipal decision makers and Vilnius City workers*</small>
+
+    * Print 60 copies of the book and distribute to Latvian municipal decision makers<br>
+<small>*--> result/output : 60 printed copies of Open Standard User's Guide Book distributed to Latvian municipal decision makers*</small>
+
+    * Publish Open Standard User's Guide Book on Internet for public access and use<br>
+<small>*--> result/output : Open Standard User's Guide Book in Lithuanian language published at applicants', Vilnius City Municipality and ALAL websites for public access and use. In Latvian language – at LAKA website*</small>
+
+  9. Public presentation of project activities and results
+
+    * Publish brochures for project presentations<br>
+<small>*--> result/output : 2x2000 A4, 4+4 brochures published for project presentations (in Lithuanian, Latvian and English languages)*</small>
+
+    * Publish project informational posters for presentations<br>
+<small>*--> result/output : 2 project informational posters published for INFOBALT 2004 and BALTIC IT&T 2005 exhibitions*</small>
+
+    * Present project at INFOBALT 2004 exhibition at AKL's stand and conference --> we will have to change this into some other event<br>
+<small>*--> result/output : project presented at INFOBALT 2004*</small>
+
+    * Present project at  BALTIC IT&T 2005 exhibition at LAKA's stand<br>
+<small>*--> result/output : project presented at BALTIC IT&T 2005*</small>
+
+    * Present project results and recommendations to Information Society Development Committee to the Government of Lithuanian Republic<br>
+<small>*--> result/output : recommendations officially provided to the Government of Lithuanian Republic*</small>
+
+    * Present project results and recommendations to information technology decision makers of the Republic of Latvia Government<br>
+<small>*--> result/output : recommendations officially provided to information technology decision makers of the Republic of Latvian Government*</small>
+
+    * Provide recommendations to EC programme IDA<br>
+<small>*--> result/output : recommendations provided to EC programme IDA*</small>
+
+    * Press conference and public presentation (final conference) of project results in Vilnius<br>
+<small>*--> result/output : articles written in no less than 3 main Lithuanian dailies. About 150 conference participants informed about project results*</small>
+
+    * Press conference and public presentation (final conference) of project results in Riga<br>
+<small>*--> result/output : articles written in no less than 2 main Latvian dailies. About 120 conference participants informed about project results*</small>
+
+  10. Final analyze of activities, audit and project closing
+
+    * Prepare quarter and  final project report<br>
+<small>*--> result/output : quarter and final project report prepared*</small>
+
+    * Select auditing company and draft audit contract<br>
+<small>*--> result/output : signed audit contract*</small>
+
+    * Execute project audit procedures<br>
+<small>*--> result/output : project audit procedures executed*</small>
+
+    * Final meeting of project steering committee to confirm final report and audit results. Final meeting of project team. Discuss project results and project sustainability in
+ Vilnius<br>
+<small>*--> result/output : *</small>
+
+    * Project management and control (one day per project week) total 20 weeks expected<br>
+<small>*--> result/output : *</small>
+
+
+From unknown Wed Jun 28 21:34:47 +0300 2006
+From: 
+Date: Wed, 28 Jun 2006 21:34:47 +0300
+Subject: <a href='http://www.ringtones-dir.com'
+Message-ID: <20060628213447+0300@www.akl.lt>
+
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... <a href='http://www.ringtones-dir.com'>free ringtones</a> : [http://www.ringtones-dir.com download ringtones] - [HTTP://www.ringtones-dir.com download ringtones] : [nokia ringtones|http://www.ringtones-dir.com] - [nokia ringtones|HTTP://www.ringtones-dir.com] : http://www.ringtones-dir.com/download/ : [[http://www.ringtones-dir.com ring tones]] : [[http://www.ringtones-dir.com | ringtones download]] : "samsung ringtones" http://www.ringtones-dir.com : [http://www.ringtones-dir.com|ringtones free] </u>
+              
+
+From unknown Fri Jul 14 14:06:29 +0300 2006
+From: 
+Date: Fri, 14 Jul 2006 14:06:29 +0300
+Subject: i want to know
+Message-ID: <20060714140629+0300@www.akl.lt>
+
+Guys, sorry for off-topic
+
+Does anyone know how do the sites like <a href=http://www.oxrash.com>www.oxrash.com</a> work?
+Things like <a href=http://www.oxrash.com/online-casino.htm>Online Casino</a> ,  <a href=http://www.oxrash.com/poker.htm>Poker</a> ,  <a href=http://www.oxrash.com/tramadol-online.htm>Tramadol Online</a> and more .. ?
+Do they have everything like rx meds, cars and gambling?
+
+Thanks!
+
+Kris Huber
+
+
+
+
+
+
+
+From unknown Wed Jul 26 21:29:55 +0300 2006
+From: 
+Date: Wed, 26 Jul 2006 21:29:55 +0300
+Subject: <a href='http://www.ringtones-rate.com'
+Message-ID: <20060726212955+0300@www.akl.lt>
+
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... <a href='http://www.ringtones-rate.com'>mp3 ringtones</a> : [http://www.ringtones-rate.com real ringtones] - [HTTP://www.ringtones-rate.com real ringtones] : [motorola ringtones|http://www.ringtones-rate.com] - [motorola ringtones|HTTP://www.ringtones-rate.com] : http://www.ringtones-rate.com/tones/ : [[http://www.ringtones-rate.com tracfone ringtones]] : [[http://www.ringtones-rate.com | qwest ringtones]] : "nextel ringtones" http://www.ringtones-rate.com : [http://www.ringtones-rate.com|funny ringtones] </u>
+              

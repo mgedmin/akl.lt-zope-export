@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 112558322
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 12:16:36.913000 GMT+3
+logo_url:string = http://www.jjanonis.su.lt/failai/91.gif
+mail:string = ly1fdx@splius.lt
+organization:string = J. Janonio gimnazija
+position:string = Programuotojas/Moksleivis
+status:string = fiz_asm
+title:string = Julius \xc5\xa0\xc4\x97poraitis
+url_asm:string = http://sepa.gamedev.lt/
+url_org:string = http://jjanonis.su.lt

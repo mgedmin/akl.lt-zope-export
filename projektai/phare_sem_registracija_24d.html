@@ -1,0 +1,76 @@
+<h2>„Atvirieji standartai ir atvirieji dokumentų formatai savivaldybėse“</h2>
+<h3>Registracija į gegužės 24 d. praktinį seminarą Vilniuje</h3>
+
+<dtml-if submit>
+<dtml-if expr="REQUEST.has_key('firstname') and REQUEST.has_key('lastname') and REQUEST.has_key('email') and REQUEST.has_key('organization')">
+
+<p><strong><dtml-var firstname> <dtml-var lastname> sėkmingai užregistruotas į gegužės 24 d. seminarą</strong>.<br />
+Jūsų nurodyti duomenys:</p>
+<dl><dt>Atstovaujama organizacija:</dt> <dd><strong><dtml-var organization></strong></dd>
+<dt>Užimamos pareigos:</dt> <dd><strong><dtml-var jobposition missing="nenurodyta"></strong></dd>
+<dt>Kontaktinis telefonas:</dt> <dd><strong><dtml-var phone missing="nenurodyta"></strong></dd>
+<dt>Kontaktinis el.pašto adresas:</dt> <dd><strong><dtml-var email></strong></dd>
+<p>Iki pasimatymo seminare! Jei turite klausimų, rašykite mums 
+el. paštu <a href="mailto:info@akl.lt">info@akl.lt</a>.</p>
+
+<dtml-sendmail smtphost="127.0.0.1" port="25">
+Content-Type: text/plain; format=flowed; charset=UTF-8
+MIME-Version: 1.0
+To: info@akl.lt
+From: <dtml-var email>
+Subject: Registracija =?windows-1257?Q?=E1_gegu=FEes_24_d=2E_se?=
+ =?windows-1257?Q?minar=E0?=
+
+Internete į gegužės 24 d. seminarą „Atvirieji standartai ir atvirieji dokumentų formatai savivaldybėse“ užsiregistravo šis žmogus:
+Vardas: <dtml-var firstname>
+Pavardė: <dtml-var lastname>
+Organizacija: <dtml-var organization missing="nenurodyta">
+Pareigos: <dtml-var jobposition missing="nenurodyta">
+Kontaktinis telefonas: <dtml-var phone missing="nenurodyta">
+El.paštas: <dtml-var email>
+
+geros dienos,
+RQ
+
+</dtml-sendmail>
+
+<dtml-else>
+
+<strong>Jūsų užregistruoti nepavyko</strong>
+<p>Užpildyti ne visi reikalingi laukai. Prašome grįžti ir patikslinti duomenis. Jūs įvedėte tokius duomenis:</p>
+<dl>
+<dt>Vardas</dt>
+<dd><dtml-var firstname missing="<strong>NENURODYTA</strong>"><dd>
+<dt>Pavardė</dt>
+<dd><dtml-var lastname missing="<strong>NENURODYTA</strong>"></dd>
+<dt>Atstovaujama organizacija</dt>
+<dd><dtml-var organization missing="<strong>NENURODYTA</strong>"></dd>
+<dt>Užimamos pareigos</dt>
+<dd><dtml-var jobposition missing="nenurodyta"></dd>
+<dt>Kontaktinis telefonas</dt>
+<dd><dtml-var phone missing="nenurodyta"></dd>
+<dt>Kontaktinis el.pašto adresas</dt>
+<dd><dtml-var email missing="<strong>NENURODYTA</strong>"></dd>
+</dl>
+
+</dtml-if>
+
+<dtml-else>
+
+<form action="<dtml-var URL0>" method="GET">
+<input type="hidden" name="doc" value="phare_sem_registracija_24d.html" />
+<dl>
+<dt>* Vardas:</dt> <dd><input type="text" name="firstname:ignore_empty" /></dd>
+<dt>* Pavardė:</dt> <dd><input type="text" name="lastname:ignore_empty" /></dd>
+<dt>* Organizacija:</dt> <dd><input type="text" name="organization:ignore_empty" /></dd>
+<dt>Pareigos:</dt> <dd><input type="text" name="jobposition:ignore_empty" /></dd>
+<dt>Kontaktinis telefonas:</dt> <dd><input type="text" name="phone:ignore_empty" /></dd>
+<dt>* El.pašto adresas:</dt> <dd><input type="text" name="email:ignore_empty" /></dd>
+<br />
+<br />
+<dt>Patvirtinkite, jog informacija teisinga</dt> <dd><input type="submit" name="submit" value="Tvirtinu" /></dd>
+</dl>
+<p>Žvaigždute pažymėtus laukus įvesti būtina</p>
+</form>
+
+</dtml-if>

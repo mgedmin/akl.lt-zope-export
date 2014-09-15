@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 789989208
+confirmed:boolean = 1
+gen_date:date = 2005/06/25 10:42:39.350000 GMT+3
+logo_url:string = 
+mail:string = ne0n@site.vhost.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Antanas \xc5\xa0trimaitis
+url_asm:string = http://site.e-viskas.net
+url_org:string = 

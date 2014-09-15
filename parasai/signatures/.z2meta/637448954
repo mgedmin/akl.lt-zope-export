@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 686910184
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 08:46:42.514000 GMT+3
+logo_url:string = 
+mail:string = raimundas@infopasaulis.lt
+organization:string = UAB "Informatikos pasaulis"
+position:string = Direktorius
+status:string = imone
+title:string = Raimundas Tribandis
+url_asm:string = 
+url_org:string = http://www.infopasaulis.lt

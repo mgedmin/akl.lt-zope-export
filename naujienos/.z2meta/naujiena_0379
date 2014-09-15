@@ -1,0 +1,9 @@
+[properties]
+author:string = \xc5\xbdygis
+blurb:text = \xc5\xa0iandien <a href="http://www.gnome.org">GNOME projektas</a> \xc5\xa1ven\xc4\x8dia i\xc5\xa1leid\xc4\x99 naujausi\xc4\x85 populiarios, multiplatform\xc4\x97s Laisvos darbo aplinkos GNOME 2.14 versij\xc4\x85.\n\nLygiai po pus\xc4\x97s met\xc5\xb3, nuo GNOME 2.12, GNOME k\xc5\xabr\xc4\x97j\xc5\xb3 visame pasaulyje: hakeri\xc5\xb3, dokumentacijos ra\xc5\xa1ytoj\xc5\xb3, naudojimosi paprastumo bei pagalbini\xc5\xb3 technologij\xc5\xb3 specialist\xc5\xb3, vert\xc4\x97j\xc5\xb3, sistem\xc5\xb3 administratori\xc5\xb3, kompanij\xc5\xb3, meninink\xc5\xb3, naudotoj\xc5\xb3 bei testuotoj\xc5\xb3 sunkaus darbo d\xc4\x97ka GNOME 2.14 i\xc5\xa1vydo dienos \xc5\xa1vies\xc4\x85. Tai dar vienas puikus leidimas, kuriuo galima did\xc5\xbeiuotis - labai a\xc4\x8di\xc5\xab kiekvienam prisid\xc4\x97jusiam!\n\nI\xc5\xa1sami\xc4\x85 informacij\xc4\x85 apie GNOME 2.14 rasite m\xc5\xabs\xc5\xb3 leidimo ap\xc5\xbevalgoje: <a href="http://www.gnome.org/start/2.14/notes/lt/">http://www.gnome.org/start/2.14/notes/lt/</a>
+categories:multiple selection = (\'GNOME&nbsp;aplinka\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2006-03-16
+email:string = uid0@akl.lt
+profesionalams:boolean = 0
+title:string = I\xc5\xa1leista GNOME 2.14!

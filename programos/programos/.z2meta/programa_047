@@ -1,0 +1,5 @@
+[properties]
+categories:string = Kitos,
+public:boolean = 1
+title:string = Skaitmeninio para\xc5\xa1o \xc4\xafrankis \xe2\x80\x9eGnuPG\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eGNU PG\xe2\x80\x9c yra GnuPG (GPG) skaitmeninio para\xc5\xa1o bei \xc5\xa1ifravimo \xc4\xafrankis.

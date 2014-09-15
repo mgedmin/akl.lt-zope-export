@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 309280012
+confirmed:boolean = 1
+gen_date:date = 2005/07/01 12:28:40.327000 GMT+3
+logo_url:string = 
+mail:string = kdainius@gmail.com
+organization:string = 
+position:string = VU studentas
+status:string = fiz_asm
+title:string = Dainius Kunigauskas
+url_asm:string = 
+url_org:string = 

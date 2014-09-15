@@ -1,0 +1,9 @@
+[properties]
+author:string = Donatas G.
+blurb:text = <i>Vientisoje ir visi\xc5\xa1kai laisvoje darbastalio aplinkoje KDE - daug nauj\xc5\xb3 savybi\xc5\xb3 ir patobulinim\xc5\xb3</i>\n\n<i>2005 m. lapkri\xc4\x8dio 29 d.</i> - <a href="http://www.kde.org">KDE projektas</a> d\xc5\xbeiugiai prane\xc5\xa1a apie daugel\xc4\xaf <a href="http://www.kde.org/awards">apdovanojim\xc5\xb3 pelniusios</a> K darbastalio aplinkos svarbios naujos versijos pasirodym\xc4\x85. K darbastalio aplinkoje buvo \xc4\xafgyvendinta daug nauj\xc5\xb3 savybi\xc5\xb3, atlikta patobulinim\xc5\xb3, kad KDE tapt\xc5\xb3 nuosekliausiai i\xc5\xa1vystyta, stabilia ir integruota laisva darbastalio aplinka.\n\nNauj\xc4\x85j\xc4\x85 KDE versij\xc4\x85 jau galima parsisi\xc5\xb3sti \xc5\xa1altini\xc5\xb3 pavidalu arba SuSE, Kubuntu ir keleto kit\xc5\xb3 distributyv\xc5\xb3 diegimo paket\xc5\xb3 pavidalu.
+categories:multiple selection = (\'KDE&nbsp;aplinka\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2005-11-29
+email:string = dgvirtual@akl.lt
+profesionalams:boolean = 0
+title:string = I\xc5\xa1leista populiaros darbastalio aplinkos "KDE" 3.5 versija

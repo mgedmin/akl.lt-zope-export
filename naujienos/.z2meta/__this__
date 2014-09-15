@@ -1,0 +1,5 @@
+[properties]
+kiekRodyti:int = 6
+newsId:int = 1048
+submenu:boolean = False
+title:string = 

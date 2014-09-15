@@ -1,0 +1,6 @@
+Asymptopia Crossword Builder is a JavaScript education application. Through the GUI, you can automatically generate unlimited math crosswords (add/sub/mult/div/alg/frac) or enter/paste your own lists of key:hint pairs. It is educational, and keeps kids busy. Some crosswords examples:
+
+1) countries of the globe (the answer) and their corresponding lat/lon pair (the hint). Solve the puzzle with the aid of a globe.
+2) All element names, i.e. H,He,Li,Be,C, etc... and their corresponding number of protons. The number of protons is the hint, the name of the element is the answer. Spelling names of elements turns out to be good practice. Solve the puzzle with the aid of a Periodic Table of the Elements.
+
+http://www.asymptopia.org/index.php?topic=MathCrosswordBuilder

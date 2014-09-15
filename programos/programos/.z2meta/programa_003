@@ -1,0 +1,5 @@
+[properties]
+categories:string = Biurui,Projektavimui,
+public:boolean = 1
+title:string = Diagram\xc5\xb3 k\xc5\xabrimo paketas \xe2\x80\x9eDia\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eDia\xe2\x80\x9c - tai multiplatformin\xc4\x97 diagram\xc5\xb3 k\xc5\xabrimo programa, pana\xc5\xa1i \xc4\xaf \xe2\x80\x9eVisio\xe2\x80\x9c. \n\xe2\x80\x9eDia\xe2\x80\x9c yra nemokama atviro kodo programa su GPL licencija. Programa skirta \xc4\xafvairi\xc5\xb3 diagram\xc5\xb3 brai\xc5\xbeymui: \ntinklo, elektros \xc4\xafrangos, programin\xc4\x97s \xc4\xafrangos (UML) ir kt.

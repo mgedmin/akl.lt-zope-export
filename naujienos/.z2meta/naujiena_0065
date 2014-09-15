@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Ne kart\xc4\x85 vie\xc5\xa1ai skelbusi, kad \xe2\x80\x9eLinux\xe2\x80\x9c netinka \xc4\xafmon\xc4\x97ms, \xe2\x80\x9eMicrosoft\xe2\x80\x9c pati <a href="http://uptime.netcraft.com/up/graph/?host=www.microsoft.com">naudoja</a> \xe2\x80\x9eLinux\xe2\x80\x9c, kad apsaugot\xc5\xb3 serverius nuo atak\xc5\xb3.\n</p>
+date:string = 2003-08-24
+title:string = Kad apsaugot\xc5\xb3 savo tinklalap\xc4\xaf nuo atak\xc5\xb3, \xe2\x80\x9eMicrosoft\xe2\x80\x9c naudoja \xe2\x80\x9eLinux\xe2\x80\x9c

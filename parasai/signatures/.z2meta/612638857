@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 289413004
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 09:49:46.878000 GMT+3
+logo_url:string = 
+mail:string = mykolas@ovc.lt
+organization:string = Organizacij\xc5\xb3 vystymo centras
+position:string = \xc5\xbeini\xc5\xb3 vadybininkas
+status:string = imone
+title:string = Mykolas Lepe\xc5\xa1ka
+url_asm:string = 
+url_org:string = http://www.ovc.lt

@@ -1,0 +1,3 @@
+[properties]
+content_type:string = text/plain; charset=windows-1257
+title:string = 

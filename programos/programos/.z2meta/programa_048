@@ -1,0 +1,5 @@
+[properties]
+categories:string = Kitos,
+public:boolean = 1
+title:string = Byl\xc5\xb3 kontrolini\xc5\xb3 sum\xc5\xb3 generavimo ir tikrinimo programa "Md5summer"
+trumpai:text = Su \xc5\xa1ia programa gal\xc4\x97site sugeneruoti norim\xc5\xb3 byl\xc5\xb3 kontrolines sumas (md5sums), pagal kurias paskui gal\xc4\x97site\npatikrinti (taip pat su \xc5\xa1ia programa) ar nepasikeit\xc4\x97 tos bylos. Tai ypa\xc4\x8d naudinga siun\xc4\x8diant didelias bylas \ninternetu bei saugant informacij\xc4\x85 CD/DVD diskuose ar diskeliuose, kadangi j\xc5\xabs 100% \xc5\xbeinosite ar nesusigadino \njums svarbios bylos.

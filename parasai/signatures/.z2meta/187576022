@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 533684632
+confirmed:boolean = 1
+gen_date:date = 2005/06/13 10:18:20.396000 GMT+3
+logo_url:string = http://www.sisneta.lt/images/logo.gif
+mail:string = marius@sisneta.lt
+organization:string = UAB "Sisneta"
+position:string = 
+status:string = fiz_asm
+title:string = Marius Motiekaitis
+url_asm:string = 
+url_org:string = http://www.sisneta.lt

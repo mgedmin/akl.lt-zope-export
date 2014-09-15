@@ -1,0 +1,8 @@
+[properties]
+babravicius:int = 1
+confirm_id:string = 705255927
+confirmed:boolean = 0
+email:string = mykolas@uzupis.com
+grazulis:int = 2
+kriauciunas:int = 3
+title:string = mykolas@uzupis.com

@@ -1,0 +1,12 @@
+<p>Vyksta Google surengtos "Summer of code" iniciatyvos paraiškų svarstymas. GNU projekte šiuo metu 
+beveik perpus lenkdama kitus kandidatus pirmauja paraiška GNU Classpath (alternatyvus java sisteminės 
+bibliotekos išpildymas) saugiajai komunikacijai (SSL) iš esmės pagerinti. Ši sistema yra ir veikia, tačiau 
+norima išplėsti jos galimybes. Kandidatui padeda tai, jog jis jau nemažai dirbo GNU projektuose ir yra 
+gerai šios bendruomenės pažįstamas.</p>
+
+<p>Toliau pagal reitingą seka pasiūlymai tobulinti Guile programavimo kalbą, iš esmės pagerinti GNU 
+slankaus kablelio aritmetikos biblioteką bei suteikti Bison kodo generatoriui galimybes generuoti kodą 
+Java, C# ir Python kodą. Daug populiarių paraiškų ir įvairiais GNU/Hurd vystymo klausimais. Nemažai ir 
+pasikartojačių idėjų (tuomet pasirenkamas rimčiausiu atrodantis kandidatas).</p>
+
+<p>Google planuoja grantą gavusiems studentams mokėti 4500 dolerių už maždaug trijų mėnesių darbą.</p>

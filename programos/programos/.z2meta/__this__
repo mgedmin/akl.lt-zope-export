@@ -1,0 +1,4 @@
+[properties]
+progId
+newsId:int = 1
+title:string = 

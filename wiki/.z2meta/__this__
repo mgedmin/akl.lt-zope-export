@@ -1,0 +1,4 @@
+[properties]
+edits_need_username:boolean = True
+subscriber_list:lines = (\'\',)
+title:string = wiki

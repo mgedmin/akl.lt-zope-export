@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 602791972
+confirmed:boolean = 0
+gen_date:date = 2005/05/18 21:17:55.626000 GMT+3
+logo_url:string = 
+mail:string = lapiukas@gmail.com
+organization:string = Moksleivis
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Gediminas Lape
+url_asm:string = 
+url_org:string = 

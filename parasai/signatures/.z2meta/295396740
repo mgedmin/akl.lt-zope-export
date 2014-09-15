@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 359614593
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 12:19:39.343000 GMT+3
+logo_url:string = 
+mail:string = esar@adm.vtu.lt
+organization:string = VGTU
+position:string = doktorant\xc4\x97
+status:string = fiz_asm
+title:string = Edita \xc5\xa0arkien\xc4\x97
+url_asm:string = 
+url_org:string = http://www.vgtu.lt

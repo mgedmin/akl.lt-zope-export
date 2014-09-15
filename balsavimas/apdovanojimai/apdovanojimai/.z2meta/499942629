@@ -1,0 +1,8 @@
+[properties]
+confirm_id:string = 893985186
+confirmed:boolean = 1
+email:string = pyxis@kaunas.omnitel.net
+grazulis:int = 3
+paulauskas:int = 1
+romena:int = 2
+title:string = pyxis@kaunas.omnitel.net

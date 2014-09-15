@@ -1,0 +1,5 @@
+[properties]
+categories:string = Vaizdui,
+public:boolean = 1
+title:string = Darbo su ekrano nuotraukomis programa \xe2\x80\x9eSmartision-ScreenCopy\xe2\x80\x9c
+trumpai:text = Patogus darbas su ekrano nuotraukomis. Daug galimybi\xc5\xb3: automatinis nufotografavimas, nuotrauk\xc5\xb3 kolekcij\xc5\xb3 generatorius ir t.t. 

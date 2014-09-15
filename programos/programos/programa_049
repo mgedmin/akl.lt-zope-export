@@ -1,0 +1,75 @@
+<h2>Moodle (Modular Object Orentiered Distance Learning Environment)<br>
+<a href="http://moodle.org">
+  <img src="images/moodlelogo.gif" alt="Moodle" border="0" class="rphoto">
+    </a>
+<a href="http://moodle.org">http://moodle.org</a><br>
+<a href="http://moodle.projektas.lt">http://moodle.projektas.lt</a></h2>
+
+<p>Distancinio mokymosi sistemos (DMS) sparčiai populiarėja. „Moodle“ -
+šiuo metu populiariausia iš GNU analogų. Ją kuria dėstytojas ir profesionalus
+programuotojas, kuris ilgą laiką buvo WebCT (tai komercinė DMS)
+prižiūrėtojas. Ir jam labai nepatiko, kad negali pritaikyti jos savo
+reikmėms. Taigi jis 1998 metais pradėjo „Moodle“ kūrimą
+:).</p>
+<p>„Moodle“ remiasi socialinio konstruktyvizmo teorija, t.y.
+orientuojasi į žinių
+konstravimą mokiniams bendraujant tarpusavyje arba su dėstytoju.
+<ul>
+<li><b>asinchroninės </b> www <b>diskusijos</b> – leidžia kiekvienam
+pareikšti savo nuomonę jam tinkamu laiku;</li>
+<li><b>sinchroniniai </b> www <b>pokalbiai</b> – tinka neilgai trunkančiam
+konkrečių niuansų išsiaiškinimui;</li>
+<li><b>bendras darbas</b> („workshop“) – skatina studentus
+dalintis idėjomis bei tarpusavy je derinti veiklą;</li>
+<li><b>individualios užduotys</b> („journal“) – padeda studentams
+neprarasti individualaus darbo įgūdžių, kad jie neįprastų
+diskusijose tiesiog pritarti kitų nuomonėms.</li>
+</ul>
+</p>
+<p>Žinių fiksavimui bei patikrinimui naudojami:
+<ul>
+<li><b>testai</b> – lakoniška atsiskaitymo forma žinioms įtvirtinti:</li>
+<ul>
+<li>bent 5 tipų, galima importuoti iš WebCT bei kitų populiarių komercinių DMS ar
+tiesiog iš tekstinių bylų,</li>
+<li>galima nurodyti, kiek kartų galima testą kartoti, kaip vertint rezultatą,</li>
+<li>automatiškai skaičiuojami balai už
+testus ir kitas užduotis, o semestro/trimestro rezultatus galima
+eksportuoti į „Excel“</li>
+</ul>
+<li><b>apklausos</b> taikomos fiksuoti studentų refleksijoms apie mokymosi
+procesą.</li>
+</ul>
+</p>
+<p>Tam, kad būtų galima „Moodle“ naudoti įvairaus
+dinamiškumo
+kursuose, yra 3 kurso vedimo strategijos:
+<ul>
+<li>Socialinė
+– grindžiama atvirais klausimais iš kurių rutuliojasi diskusija;</li>
+<li>Savaitinė
+– turinys ir užduotys grupuojami ir tiksliai paskirstomi pagal
+savaites – reikia laikytis grafiko;</li>
+<li>Pagal
+temas – užduotys grupuojamos pagal temas – panašiai, kaip
+savaitiniam variante, tik nereikia laikytis griežto grafiko.</li>
+</ul>
+</p>
+<p>„Moodle“ pripažinta geriausia pedagoginiu aspektu tarp kitų distancinio
+mokymosi sistemų: 
+[<a href="http://www.xplana.com/whitepapers/archives/Open_Source_Courseware">
+1</a>] (Ctr+F "moodle"). 
+Didžiausias patogumas - testai: <a class="moz-txt-link-freetext"
+href="http://www.gim.ktu.lt/%7Ejurgis/">http://www.gim.ktu.lt/~jurgis/</a>.
+<a href="http://emilis.net/%7Ejurgis/moodle/">http://emilis.net/~jurgis/moodle/</a>
+- čia galite išbandyti bandomąją versiją Lietuvoje. Pažiūrėkite ir 
+„Moodle“ <a href="http://dz0.tinkle.lt/listing/download.php?file=/moodle_demo4teacher.swf">
+flash intro</a>. KTU magistrantas Jurgis Pralgauskas lietuvių 
+kalba yra parengęs apžvalgą apie „Moodle“, kurią rasite 
+<a href="http://tadas.hn.org/%7Ejurgis/listing/index.php?dir=/edutech/moodle">čia</a>.<br>
+„Moodle“ naudoja ir Klaipėdos universitetas (
+<a href="http://vma.ku.lt/moodle/">http://vma.ku.lt/moodle/</a>) bei 
+Atviros Lietuvos fondas. Nuotolinio mokymo ir testavimo pavyzdžių taip pat 
+rasite Informacinių technologijų mokymo centro 
+<a href="http://www.itmc.lt/nuotolinis/">svetainėje</a>.
+</p>

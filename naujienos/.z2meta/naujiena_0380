@@ -1,0 +1,9 @@
+[properties]
+author:string = kliurka
+blurb:text = Tokijuje spaudos konferencijoje SONY vadovas Ken Kutaragi prane\xc5\xa1\xc4\x97, kad 2006 lapkri\xc4\x8dio m\xc4\x97nesi planuojamas i\xc5\xa1leisti SONY PS3 bus komplektuojamas su 60GB kietu disku ir LINUX OS
+categories:multiple selection = (\'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'GNU/Linux&nbsp;OS\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2006-03-16
+email:string = baruse@takas.lt
+profesionalams:boolean = 0
+title:string = SONY PLAYSTATION\xc2\xae3 bus komplektuojamas su LINUX OS

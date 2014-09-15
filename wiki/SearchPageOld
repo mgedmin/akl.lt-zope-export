@@ -1,0 +1,57 @@
+<dtml-if "_.has_key('expr')">
+
+<dtml-comment>this is slow.. re-implement in python?</dtml-comment>
+
+<dtml-if "_.has_key('source') and source == 'jump'">
+  <dtml-comment>
+  we are doing a jump
+  </dtml-comment>
+  <dtml-if "expr == ''">
+    <dtml-comment>blank expr - jump to front page
+    <dtml-call "RESPONSE.redirect(URL1)"></dtml-comment>
+    <dtml-comment>blank expr - let the search list all</dtml-comment>
+  <dtml-elif "expr[0] == '!'">
+    <dtml-comment>skip jumping, just do a search</dtml-comment>
+    <dtml-call "REQUEST.set('expr',expr[1:])">
+  <dtml-else>
+    <dtml-comment>search for an id beginning with expr</dtml-comment>
+    <dtml-in "aq_parent.objectValues(spec='ZWiki Page')" sort=id reverse>
+      <dtml-if "_.string.find(_.string.lower(id()),_.string.lower(expr)) == 0">
+        <dtml-comment>found one - jump there</dtml-comment>
+        <dtml-comment>can't find url_quote</dtml-comment>
+        <dtml-call "RESPONSE.redirect(URL1 + '/' + _.string.replace(id(),' ','%20'))">
+      </dtml-if>
+    </dtml-in>
+  </dtml-if>
+  <dtml-comment>no ids matched - fall through and do a search</dtml-comment>
+</dtml-if>
+
+<form method="POST" action="!SearchPage">
+<input type="hidden" name="source" value="search">
+!<b>Search for:</b> <input name="expr" type="text" size="30" value="<dtml-var expr>">
+<input type="submit" name="submit" value="Search">
+<br>
+<b>Results:</b>
+<br>
+<br>
+<dtml-call "REQUEST.set('count',0)">
+<dtml-in "aq_parent.objectValues(spec='ZWiki Page')" sort=id>
+  <dtml-unless "_.string.find(_.string.lower(_.getitem('sequence-item').raw),_.string.lower(expr)) == -1 and _.string.find(_.string.lower(id()),_.string.lower(expr)) == -1">
+    <dtml-call "REQUEST.set('count',REQUEST.count + 1)">
+    [<dtml-var id>]<br>
+  </dtml-unless>
+</dtml-in>
+<p>
+<b>(<dtml-var count> hits)</b>
+</form>
+
+<dtml-else>
+
+<form method="POST" action="!SearchPage">
+Type a search expression and hit enter to search the entire wikiweb. The expression is case-insensitive and spaces are preserved. Leave it blank to list all pages. See also JumpSearch. 
+<p>
+<b>Search for:</b> <input name="expr" type="text" size="30">
+<input type="submit" name="submit" value="Search">
+</form>
+
+</dtml-if>

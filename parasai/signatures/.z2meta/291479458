@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 639408277
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 15:44:45.537000 GMT+3
+logo_url:string = 
+mail:string = domasj@gmail.com
+organization:string = 
+position:string = Mokinys
+status:string = fiz_asm
+title:string = Domas Jokubauskis
+url_asm:string = http://domas.npages.net
+url_org:string = 

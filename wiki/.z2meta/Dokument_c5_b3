@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2007-01-29T11:36:42+00:00
+creator:string = ristinak
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2007-05-24T14:47:49+00:00
+last_editor:string = ristinak
+last_editor_ip:string = 127.0.0.1
+last_log:string = 
+parents:lines = [\'Standartai\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Dokument\xc5\xb3

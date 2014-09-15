@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 225552669
+confirmed:boolean = 0
+gen_date:date = 2005/06/17 20:34:6.984000 GMT+3
+logo_url:string = 
+mail:string = psgkalnietis@one.lt
+organization:string = VSI Prienu Ligonine
+position:string = Kompiuteriu tinklu administratorius
+status:string = fiz_asm
+title:string = Mindaugas, Judickas
+url_asm:string = 
+url_org:string = 

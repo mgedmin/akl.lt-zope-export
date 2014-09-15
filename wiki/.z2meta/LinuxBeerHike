@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2006-08-07T11:37:37+00:00
+creator:string = mantas
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-08-26T12:17:01+00:00
+last_editor:string = mantas
+last_editor_ip:string = 127.0.0.1
+last_log:string = \xc4\xaed\xc4\x97jau nuorodas \xc4\xaf nuotraukas
+parents:lines = [\'FrontPage\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = LinuxBeerHike

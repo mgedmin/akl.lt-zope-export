@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 467387173
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 16:11:54.001000 GMT+3
+logo_url:string = 
+mail:string = karolis.jaseliunas@gmail.com
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Karolis Jaseliunas
+url_asm:string = 
+url_org:string = 

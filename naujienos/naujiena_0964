@@ -1,0 +1,15 @@
+<p /><a href="http://www.noooxml.org/petition-lt">„Pasakykite NE - ydingo MS Office „OpenXML“ formato paskelbimui ISO standartu“</a> - 
+ standartų šalininkus skatiname pasirašyti peticiją prieš Microsoft Office „OpenXML“ (sutrumpintai - OOXML) specifikacijos patvirtinimą ISO standartu. 
+Pateikiamos 8 priežastys, kodėl OOXML yra netinkamas ir net pavojų programinės įrangos kūrėjams bei naudotojams keliantis formatas:
+<p />
+<ol><li>Jau egzistuoja ir yra <a href="http://en.wikipedia.org/wiki/OpenDocument_software">plačiai naudojamas</a> tam pačiam tikslui skirtas standartas - ISO 26300 „OpenDocument Format“ (ODF): papildomi besidubliuojantys standartai reikalauja daug išlaidų verslui, valstybei ir piliečiams;</li>
+<li>Vis dar nėra nei vienos patvirtintos (atitinkančios skelbiamą specifikaciją) OOXML realizacijos: netgi pats naujausias MS Office 2007 naudoja neoficialų, į OOXML panašų dokumentų formatą, kuris skiriasi nuo oficialios OOXML specifikacijos, senesnės MS Office versijos (2000, XP, 2003) išvis nesupranta OOXML formato...;</li>
+<li>OOXML specifikacija nėra pilna (trūksta privalomos informacijos), pavyzdžiui, nėra autoSpaceLikeWord95 bei useWord97LineBreakRules aprašymų;</li>
+<li>Daugiau nei 10% specifikacijos pavyzdžių neatitinka XML kalbos standarto, kurio pagrindu yra kuriamas OOXML;</li>
+<li>Nėra garantijos, jog pilnai ar iš dalies atitinkančios OOXML specifikaciją programinės įrangos kūrėjai nenukentės nuo patentų ar patentų mokesčių kompanijai Microsoft.</li>
+<li>Formato specifikacija kertasi su jau egzistuojančiais standartais, tokiais kaip ISO 8601 (Datos ir laiko vaizdavimas), ISO 639 (Vardų ir kalbų vaizdavimo kodai) bei ISO/IEC 10118-3 (Kriptografinė maiša);</li>
+<li>Elektroninių lentelių formate yra klaida, kuri neleidžia įvesti datų iki 1900 metų: ši klaida yra tiek OOXML specifikacijoje, tiek Microsoft Excel 2000, XP, 2003 ir 2007;</li>
+<li>Ši specifikacija buvo sukurta vien tik iš vieno gamintojo - „Microsoft“ pusės, nesinaudojant kitų suinteresuotų pusių (gamintojų, pardavėjų, pirkėjų, naudotojų bei kontrolierių) patirtimi bei ekspertizėmis.</li>
+
+<p /><a href="http://www.noooxml.org/petition-lt">Pasirašyti peticiją galite čia</a>.
+</ol>

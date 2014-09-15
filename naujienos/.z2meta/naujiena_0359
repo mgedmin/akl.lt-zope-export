@@ -1,0 +1,9 @@
+[properties]
+author:string = Erika
+blurb:text = Kompanijos <a href="http://www.hp.com">Hewlett-Packard</a> ir <a href="http://www.mandriva.com">Mandriva</a> \npasira\xc5\xa1\xc4\x97 susitarim\xc4\x85, kuriuo remiantis yra planuojama Lotyn\xc5\xb3 Amerikos teritorijoje platinti \npersonalinius kompiuterius HP, kurie dirbt\xc5\xb3 valdomi operacin\xc4\x97s sistemos Mandriva Linux 2006.
+categories:multiple selection = (\'GNU/Linux&nbsp;OS\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x83\\xc2\\x85\\xc3\\x82\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s&nbsp;teis\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s\')
+date:string = 2006-01-23
+email:string = erika@akl.lt
+profesionalams:boolean = 0
+title:string = Hewlett-Packard Lotyn\xc5\xb3 Amerikoje pradeda platinti kompiuterius su Mandriva Linux

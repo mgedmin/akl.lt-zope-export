@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:17+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-02-11T05:10:13+00:00
+last_editor:string = jurgis
+last_editor_ip:string = 127.0.0.1
+last_log:string = 
+parents:lines = [\'Patentai\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Patentai/antiReklama

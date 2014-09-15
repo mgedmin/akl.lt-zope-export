@@ -1,0 +1,5 @@
+[properties]
+categories:string = DBServeriai,
+public:boolean = 1
+title:string = Duomen\xc5\xb3 bazi\xc5\xb3 sistema \xe2\x80\x9eSAP DB\xe2\x80\x9c
+trumpai:text = Duomen\xc5\xb3 bazi\xc5\xb3 sistema \xe2\x80\x9eSAP DB\xe2\x80\x9c pasi\xc5\xbeymi nesud\xc4\x97tingu administravimu. Prie duomen\xc5\xb3 baz\xc4\x97s gali jungtis neribotas skai\xc4\x8dius vartotoj\xc5\xb3. \nDuomen\xc5\xb3 baz\xc4\x97s apimtis taip pat neribojama.

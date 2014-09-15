@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>I\xc5\xa1leista nar\xc5\xa1ykl\xc4\x97s \xe2\x80\x9eMozilla Firebird 0.6.1\xe2\x80\x9c versija. <a href="http://www.mozilla.org/projects/firebird/">\xe2\x80\x9eMozilla Firebird\xe2\x80\x9c</a> nar\xc5\xa1ykl\xc4\x97 yra modifikuota <a href="http://www.mozilla.org">\xe2\x80\x9eMozilla\xe2\x80\x9c</a> nar\xc5\xa1ykl\xc4\x97s versija, kurioje vartotojo s\xc4\x85saja paremta XUL kalba, kaip ir <a href="http://galeon.sourceforge.net">\xe2\x80\x9eGaleon\xe2\x80\x9c</a>, <a href="http://kmeleon.sourceforge.net/">\xe2\x80\x9eK-Meleon\xe2\x80\x9c</a> ar <a href="http://www.mozilla.org/projects/camino/">\xe2\x80\x9eCamino\xe2\x84\xa2\xe2\x80\x9c</a> nar\xc5\xa1ykl\xc4\x97se. \xe2\x80\x9eMozilla Firebird\xe2\x80\x9c ateityje pakeis dabartin\xc4\x99 integruot\xc4\x85 \xe2\x80\x9eMozilla\xe2\x80\x9c nar\xc5\xa1ykl\xc4\x99.</p>
+date:string = 2003-08-13
+title:string = I\xc5\xa1leista \xe2\x80\x9eMozilla Firebird 0.6.1\xe2\x80\x9c versija 

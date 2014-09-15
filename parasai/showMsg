@@ -1,0 +1,11 @@
+<html metal:use-macro="container/main_template/macros/main">
+  <tal:block metal:fill-slot="body">
+    <p tal:content="structure here/REQUEST/msg | nothing"/>
+    <p>
+      <a href="index_html#remejai">Peržiūrėti parašų sąrašą.</a>
+    </p>
+    <p>
+      <a href="http://moodle.projektas.lt/pries_PI_patentus/banneriai_platinimui.html">Šios akcijos banneriai.</a>
+    </p>
+  </tal:block>
+</html>

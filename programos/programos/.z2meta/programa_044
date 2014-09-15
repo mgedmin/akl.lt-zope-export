@@ -1,0 +1,5 @@
+[properties]
+categories:string = GIS,
+public:boolean = 1
+title:string = Erdvini\xc5\xb3 duomen\xc5\xb3 baz\xc4\x97 "PostGis"
+trumpai:text = \xc5\xa0i programa leid\xc5\xbeia saugoti erdvinius duomenis PostgreSQL duomen\xc5\xb3 baz\xc4\x97je. J\xc4\x85 galima palyginti su ESRI SDE arba Oracle Spatial extension. PostGIS realizuoja <a HREF=\'http://www.opengis.org\'>OpenGIS</a> \n"<a HREF=\'http://www.opengis.org/techno/specs/99-049.pdf\'>Simple Features Specification for SQL</a>" standart\xc4\x85.

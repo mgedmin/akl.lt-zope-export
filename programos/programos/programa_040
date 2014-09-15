@@ -1,0 +1,20 @@
+<h2>Duomenų bazių serveris „PostgreSQL“ <br>
+<a href="http://www.postgresql.org/" target="_blank">www.postgresql.org</a></h2>
+<p>
+Šiuo metu tai turbūt rimčiausias iš visų laisvai prieinamų duomenų bazių serverių.
+„PostgreSQL“ nenusileidžia savo galimybėmis kitoms rimtoms duomenų bazių 
+valdymo sistemoms, o kai kuriomis savybėmis parodo geresnius rezultatus. 
+Palaiko didelius duomenų bei vartotojų
+kiekius, nesulėtindama savo darbo. Tai puikus produktas diegiant dideles
+plataus masto duomenų bazes.</p>
+<p>
+„PostgreSQL“ yra sukurta „UNIX“ platformai. Šis
+duomenų bazių serveris dirba ir „MS Windows“ aplinkoje, tačiau palaiko tik NT platformą 
+(iki 8.0 versijos reikėjo prieš tai įdiegti papildomą programinę įrangą (cygwin), kuri tarsi 
+emuliuoja „UNIX“ veiklą). Detalus diegimo procesas yra aprašytas 
+<a href="http://www.databasejournal.com/features/postgresql/print.php/3064861" target="_blank">čia</a>.
+</p>
+<p>
+Dokumentaciją rasite <a href="http://www.postgresql.org/docs/" target="_blank">čia</a>. Taip pat yra išsami 
+dokumentacija <a href="http://linux.perm.ru/doc/software/SQL/postgresql/" target="_blank">rusų kalba</a>.
+</p>

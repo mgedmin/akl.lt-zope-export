@@ -1,0 +1,61 @@
+## Script (Python) "kandidatai"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+names = [
+    {'id': 'grazulis', 
+     'name': 'Saulius Gražulis',
+     'nomin': 'Narsiausiai kovojantis prieš patentus'},
+    {'id': 'kriauciunas', 
+     'name': 'Mantas Kriaučiūnas',
+     'nomin': 'Desktopo Dievas'},
+    {'id': 'glodenis', 
+     'name': 'Donatas Glodenis',
+     'nomin': 'Lietuvybės nešėjas į Atvirąjį Kodą'},
+    {'id': 'berucka', 
+     'name': 'Žygimantas Beručka',
+     'nomin': 'Lietuvybės nešėjas į Atvirąjį Kodą'},
+    {'id': 'gedminas', 
+     'name': 'Marius Gedminas',
+     'nomin': "Už Python'o kursą MIF'e"},
+    {'id': 'agejevas', 
+     'name': 'Albertas Agejevas', 
+     'nomin': 'Geriausio lietuviško laisvo projekto kūrėjas'},
+    {'id': 'jocius',
+     'name': 'Martynas Jocius',
+     'nomin': 'Geriausio lietuviško laisvo projekto kūrėjas'},
+    {'id': 'biliunas',
+     'name': 'Kęstutis Biliūnas',
+     'nomin': 'Lietuvybės nešėjas į Atvirąjį Kodą'},
+    {'id': 'romena',
+     'name': 'Romena Puikytė',
+     'nomin': 'Atviro kodo Deivė'},
+    {'id': 'dagiene',
+     'name': 'Valentina Dagienė',
+     'nomin': 'Lietuvybės nešėjas į Atvirąjį Kodą | Lokalizavimo guru'},
+    {'id': 'krukauskas',
+     'name': 'Romualdas Krukauskas',
+     'nomin': 'Atvirojo kodo nešėjas į valdžios institucijas | Atvirojo kodo lobistas'},
+    {'id': 'jonusas',
+     'name': 'Tomas Jonušas',
+     'nomin': 'Atvirojo kodo „vadybininkas“'},
+    {'id': 'germanavicius',
+     'name': 'Vytautas Germanavičius',
+     'nomin': 'Laisvų standartų universitete stūmėjas | Laisvų biuro programų gerintojas'},
+    {'id': 'paulauskas',
+     'name': 'Gediminas Paulauskas',
+     'nomin': 'Lietuvybės nešėjas į Atvirąjį Kodą'},
+    {'id': 'zalatorius',
+     'name': 'Juozas Zalatorius',
+     'nomin': 'Atvirojo kodo nešėjas į valdžios institucijas'},
+    {'id': 'babravicius',
+     'name': 'Gintautas Babravičius',
+     'nomin': 'Už valstybės paramą AK idėjoms'}
+]
+names.sort()
+return names

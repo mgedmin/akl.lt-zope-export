@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 623285659
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 12:16:38.790000 GMT+3
+logo_url:string = http://www.lema.lt/images/bg_virsus_lema_lt.gif
+mail:string = tomas.dedinskas@lema.lt
+organization:string = Lema
+position:string = pardavimu / projektu vadovas
+status:string = imone
+title:string = Tomas Dedinskas
+url_asm:string = 
+url_org:string = http://www.lema.lt

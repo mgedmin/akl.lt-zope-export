@@ -1,0 +1,47 @@
+<script type="text/javascript" language="javascript">
+function checkForm() {
+    count = 0;
+    form = document.getElementById('forma');
+    for (i = 0; i < form.elements.length; i++) {
+        el = form.elements[i];
+        if (el.type != 'checkbox')
+            break;
+        if (el.checked) {
+            count = count + 1;
+        }
+    }
+    if (count < 1) {
+        alert('Jūs nepažymėjote nei vieno logotipo. Balsuoti galite ne daugiau kaip už 3 logotipus.');
+        return false;
+    }
+    if (count > 3) {
+        alert('Jūs pažymėjote per daug logotipų (' + count + '). Iš viso galite pažymėti ne daugiau kaip 3 logotipus.');
+        return false;
+    }
+    return true;
+}
+</script>
+<form action="logotipas/balsuok" method="post" id="forma">
+<style>
+td.logotipas
+{
+	border: solid black 1px;
+}
+</style>
+  <table>
+  <tr tal:repeat="items here/logotipai">
+    <td width="25%" class="logotipas" tal:repeat="item items">
+      <tal:block define="name python:item[0]; url python:item[1]">
+        <label tal:attributes="for name">
+          <img tal:attributes="src url; alt name" width="100%"/>
+        </label>
+        <br/>
+        <input type="checkbox" tal:attributes="name name; id name"/>
+      </tal:block>
+    </td>
+  </tr>
+  </table>
+  <br/>
+  <p><input type="submit" value="Balsuoti" onclick="return checkForm(); void(0);"/>
+  <input type="reset" value="Išvalyti"/> </p>
+</form>

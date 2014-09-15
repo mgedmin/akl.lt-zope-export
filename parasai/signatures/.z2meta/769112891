@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 718355426
+confirmed:boolean = 1
+gen_date:date = 2005/05/13 09:05:29.682000 GMT+3
+logo_url:string = 
+mail:string = gintask@omni.lt
+organization:string = \xc5\xa0iauli\xc5\xb3 Santarv\xc4\x97s vidurin\xc4\x97 mokykla
+position:string = specialistas
+status:string = fiz_asm
+title:string = Gintautas Kazelskis
+url_asm:string = 
+url_org:string = 

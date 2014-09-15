@@ -1,0 +1,132 @@
+ Dokumento formatas
+
+  Dokumentų formatas yra standartas. Standartas – tai bendras susitarimas dėl kažko, nustatant normas, taisykles ir reikalavimus.
+Pagal tai, kas ir kaip gali susitarti ir kaip tie susitarimai bus skelbiami bei pagal jų veikimo principus standartai gali būti skirstomi į atvirus (laisvus) ir uždarus (nuosavybinius).
+
+ Atviras dokumento formatas
+
+  Atvirus formatas bet kas gali laisvai naudoti, pamatyti specifikacijas bei reikšti pasiūlymus dėl tobulinimo.
+Bruce Perens paaiškinimai kokie yra pagrindiniai atvirų formatų (standartų) principai:
+
+  * Prieinamumas. Jie yra laisvai prieinami visiems (ir perskaitymo, ir įgyvendinimo prasme).
+
+  * Padidina galutinio vartotojo pasirinkimo laisvę. Atviri standartai sukuria sąžiningą, konkuruojančią rinką standarto realizavimams. Jie “nepririša” vartotojo prie konkretaus tiekėjo ar tiekėjų grupės.
+
+  * Nemokami. Atvirą standartą galima laisvai realizuoti visiems, už tai negali būti imamas mokestis. (gali būti imamas tik už sertifikavimą.)
+
+  * Jokios diskriminacijos. Atviri standartai bei organizacijos, kurios juos administruoja negali teikti pirmenybės vienam realizuotojui prieš kitą. Sertifikavimo organizacijos turi sudaryti galimybę patikrinti atitikimą standartams ir pigiems bei nemokamiems įgyvendinimams.
+
+ Atvirų formatų pavyzdžiai
+
+  JPEG (.jpg) – atviras el. paveikslėlių formatas. Bet kas gali nemokamai sužinoti jo specifikacijas ir pagaminti produktą, kuris bus 100% suderinamas su .jpg formatu
+
+  HTML – WWW konsorciumo (www.w3.org) standartizuojamas formatas. Čia taip pat bet kas gali nemokamai sužinoti ir netgi patikrinti konkretaus HTML dokumento atitikimą standartui.
+
+  OpenDocument – OASIS (www.oasis-open.org) standartizuojamas biuro dokumentų formatas, sukurtas XML formato pagrindu.
+
+  PDF (Portable Document Format) – Adobe kompanijai priklausantis, tačiau atviras formatas
+
+ Nuosavybinis (uždaras) formatas/standartas
+
+  Nuosavybinis (uždaras) formatas/standartas – dažniausiai vieno gamintojo naudojamas standartas, kurio aprašymas (specifikacija) nėra paskelbtas viešai. Nuosavybiniai formatai neleidžia keistis informacija (dokumentais) tarp skirtingų gamintojų ir neleidžia vartotojui laisvai rinktis. Nuosavybiniai formatai kenkia konkurencijai, vartotojas papuola į „spąstus“, nebegali pakeisti tiekėjo. Tai sąlygoja aukštesnius kaštus.
+
+ Atvirųjų dokumentų formatų analizė
+
+  Viešai publikuojamų dokumentų formatų parinkimo kriterijai:
+
+   * Paplitimas. Formatas turi būti naudojamas daugiau nei vienos kompanijos gaminamuose produktuose.
+
+   * Nepriklausomumas. Formatas neturėtų priklausyti ir jo vystymosi neturėtų nulemti  tik viena kompanija ar uždara kompanijų grupė.
+
+   * Portabilumas-ar dokumentų formatui yra PĮ įvairiose OS
+
+   * Formato palaikymas laisvoje programinėje įrangoje. Tai užtikrina, kad darbui su tuo atviru formatu visada bus nemokamų programų (tik laisvos programos visada bus nemokamos).
+
+ HTML formatas
+
+  Privalumai:
+
+   * Labai paplitęs, palaikomas daugybės programinės įrangos gamintojų
+
+   * Nepriklausomas nuo jokios konkrečios kompanijos ar uždaros kompanijų grupės, standartizuojamas  www.w3.org konsorciumo
+
+   * Daugumoje OS ir daug laisvos programinės įrangos (Mozilla, Firefox, NVU, OpenOffice.org ir t.t.) palaiko
+
+  Trūkumai:
+
+   * Netinka atvaizduoti sudėtingom lentelėm, taip pat kai reikia tiksliai pritapti prie spausdinamo formato
+
+   * Kai kurie PĮ gamintojai nesilaiko standarto (pvz MS Frontpage sukuria blogą HTML dokumentą)
+
+ PDF formatas
+
+  Privalumai:
+
+   * Labai paplitęs, tačiau palaikomas gerokai mažiau gamintojų nei HTML
+
+   * Portabilus – darbui su PDF formatu yra PĮ daugumoje operacinių sistemų
+
+   * Yra laisvos PĮ, palaikančios PDF formatą, tačiau nelabai daug ir dažniausiai nepilnai palaiko visas PDF galimybes, pvz., PDF formų su lietuviškais simboliais pildymui nėra laisvos programinės įrangos.
+
+  Trūkumai:
+
+   * Priklausomas nuo vienos kompanijos
+
+   * Pigios PDF dokumentų kūrimo priemonės nepaplitę
+
+   * Praktiškai netinka redaguojamiems dokumentams
+
+ OpenDocument formatas
+
+  Nelabai paplitęs (nes tik nesenai standartizuotas), tačiau palaikomas ir naudojamas smulkių ir stambių PĮ gamintojų produktuose – SUN, IBM, Novell, Oracle, KDE ir t.t. Tačiau tai ateitį turintis formatas: universaliausias iš visų (atvirų ir uždarų) biuro dokumentų formatų, turi daugiausia galimybių, laiko patikrintas (milijonai vartotojų naudojosi daugiau nei 4 metus OpenOffice.org XML formatu, kurio pagrindu yra padarytas OpenDocument), pripažintas Europos Komisijos bei Europos Sąjungos, saugus, Turi skaitmeninio parašo galimybę, sparčiai plintantis, vis daugiau programinės įrangos gamintojų pradeda palaikyti šį formatą, pvz Oracle neseniai paskelbė apie planus naudoti OpenDocument formatą vietoj PDF formato.
+
+  Privalumai:
+
+   * Nepriklausomas nuo vieno gamintojo ar gamintojų grupės – standartizuojamas OASIS, planuojama standartizuoti ISO (tuomet taps ISO standartu).
+
+   * Portabilus – darbui su OpenDocument formatu yra PĮ daugumoje OS
+
+   * Yra laisvos PĮ, pilnai palaikančios šį formatą.
+
+  Trūkumai:
+
+   * Dauguma PĮ, palaikančios šį formatą dabar (2005 04 mėn) yra beta stadijoje
+
+ XForms formatas
+
+  XForms – tai specializuotas formatas (standartas), skirtas įvairių formų pildymui bei į formas įvestų duomenų tikrinimui ir perdavimui internetu. Tai nepriklausomas standartas, standartizuojamas WWW konsorciumo (www.w3.org/MarkUp/Forms/).
+
+  XForms yra PDF Forms bei kitų, nuosavybinių, formatų alternatyva, leidžianti vartotojui pildyti sudėtingas formas tiesiai iš naršyklės (yra galimybė pildyti ir su atskira programa). XForms palaikomas daugelio PĮ gamintojų, tame tarpe ir laisvos PĮ, pvz ., OpenOffice.org 2.x.
+
+ Programinės įrangos apžvalga
+
+  Biuro programų paketai OpenOffice.org 2.0 bei StarOffice 8.0 palaiko aukščiau minėtus ir kitus formatus:
+
+   HTML<br>
+   OpenDocument<br>
+   PDF (įskaitant ir PDF formas)<br>
+   MS Office - *.doc	*.xls	*.ppt (įskaitant ir MS Office 2003 XML formatus)<br>
+   RTF (Rich Text Format)<br>
+   Delninių kompiuterių biuro programų formatai<br>
+   Daug kitų formatų, įskaitant XForms bei Docbook
+
+ Rekomendacijos dėl priemonių pasirinkimo
+
+  Dokumentų konvertavimas į bei iš OpenDocument formato
+
+   Mažiems dokumentų kiekiams konvertuoti pakanka pasinaudoti OpenOffice.org 2.0 paketo „Išsaugoti kitaip“ (Save As) funkcija – t.y. „Išsaugoti kaip“ (Save As) dialoge pasirinkti norimą formatą.
+
+   Patogiai konvertuoti didesniems dokumentų kiekiams yra sukurtos specialios priemonės – OpenOffice.org 2.0 paketas iškart turi priemones automatiniam diske esančių dokumentų konvertavimui į OpenDocument formatą, taip pat yra papildomų priemonių šiam tikslui.
+Konvertuoti daug dokumentų į OpenDocument formatą naudojamas dokumentų konvertavimo vedlys („Document Converter“). Jį galima iškviesti iš bet kurios OpenOffice.org 2.0 programos pagrindinio meniu: „File->Wizards->Document Converter...“
+
+   Konvertuoti daug dokumentų iš OpenDocument, MS Office ar kitų OpenOffice.org paketo suprantamų formatų į MS Office, OpenDocument, PDF ar kitus formatus galite pasinaudoti DocConverter bei BatchConv įrankiais, kuriuos galima atsisiųsti iš: www.ooomacros.org bei http://oooconv.free.fr/batchconv .
+
+  Dokumentų konvertavimas į PDF
+
+   Yra pakankamai nemokamų priemonių dokumentų konvertavimui į PDF formatą:
+OpenOffice.org nuo 1.1.0 versijos 
+
+   PDFCreator ( www.pdfcreator.de.vu )
+
+   PDF formų kūrimui galima naudoti OpenOffice.org biuro paketo 2.0 ir naujesnes versijas bei 
+Scribus ( www.scribus.org.uk ), žr: http://ahnews.music.salford.ac.uk/scribus/documentation/cgiform/pdf_form.html

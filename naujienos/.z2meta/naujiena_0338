@@ -1,0 +1,9 @@
+[properties]
+author:string = Jaro
+blurb:text = Sveiki GIMP myl\xc4\x97tojai ir entuziastai!  Kaip ir buvo vie\xc5\xa1ai (deja, ne pla\xc4\x8diai) skelbta, spalio 9d. vakare kanale #gimp (Aitvaro tinkle, irc.data.lt) \xc4\xafvyko GIMP naudotoj\xc5\xb3 susib\xc4\x97gimas (angl. hackfest ), kuriuo buvo tikim\xc4\x85si ka\xc5\xbek\xc4\x85 padovanoti GIMP projektui 10-ies met\xc5\xb3 jubiliejaus proga ( <a href="http://zygis.gotdns.org">\xc5\xbdygimantas</a> skelbdamas dat\xc4\x85 sumai\xc5\xa1\xc4\x97 jubiliejaus dat\xc4\x85, kuri i\xc5\xa1 tikro yra lapkri\xc4\x8dio 21 d.). 
+categories:multiple selection = (\'Grafikos&nbsp;programos\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2005-11-09
+email:string = jaro@akl.lt
+profesionalams:boolean = 0
+title:string = GIMP naudotoj\xc5\xb3 susib\xc4\x97gimas.

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 200810058
+confirmed:boolean = 1
+gen_date:date = 2005/06/11 13:29:7.099000 GMT+3
+logo_url:string = 
+mail:string = dainiuz@delfi.lt
+organization:string = Vilniaus universitetas, Matematikos ir informatikos fakultetas
+position:string = Programuotojas, studentas
+status:string = fiz_asm
+title:string = Dainius \xc5\xa0imelevi\xc4\x8dius
+url_asm:string = 
+url_org:string = http://mif.vu.lt/

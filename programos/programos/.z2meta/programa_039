@@ -1,0 +1,5 @@
+[properties]
+categories:string = DBServeriai,
+public:boolean = 1
+title:string = Duomen\xc5\xb3 bazi\xc5\xb3 serveris \xe2\x80\x9eMySQL\xe2\x80\x9c
+trumpai:text = Tai vienas populiariausi\xc5\xb3 pasaulyje atviro kodo duomen\xc5\xb3 bazi\xc5\xb3 serveri\xc5\xb3. D\xc4\x97l \nunikalios architekt\xc5\xabros, \xe2\x80\x9eMySQL\xe2\x80\x9c turi labai patog\xc5\xb3 valdym\xc4\x85, greit\xc4\x85 ir\nefektyv\xc5\xb3 duomen\xc5\xb3 apdorojim\xc4\x85. \xe2\x80\x9eMySQL\xe2\x80\x9c labiau tinka interneto projektams, \nkur yra nesud\xc4\x97tingos strukt\xc5\xabros duomen\xc5\xb3 baz\xc4\x97.<br>\nDuomen\xc5\xb3 bazi\xc5\xb3 serveris \xe2\x80\x9eMySQL\xe2\x80\x9c kuriamas pagal dvigub\xc4\x85 licencijavimo sistem\xc4\x85.

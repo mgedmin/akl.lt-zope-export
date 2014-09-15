@@ -1,0 +1,585 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="ru"><head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8"><title>Cтатья посвященная миру GTK+</title>
+  
+  <meta name="GENERATOR" content="OpenOffice.org 2.0  (Linux)">
+  <meta name="AUTHOR" content="Пользователь №23">
+  <meta name="CREATED" content="20051223;9250000">
+  <meta name="CHANGEDBY" content="Безденежных Сергей">
+  <meta name="CHANGED" content="20051225;22065100">
+  <style>
+	<!--
+		@page { size: 21cm 29.7cm; margin-left: 2cm; margin-right: 1.5cm; margin-top: 2cm; margin-bottom: 2cm }
+		P { margin-bottom: 0.21cm; direction: ltr; color: #000000; text-align: left; widows: 2; orphans: 2 }
+		P.western { font-family: "Times New Roman", serif; font-size: 12pt; so-language: ru-RU }
+		P.cjk { font-family: "Times New Roman", serif; font-size: 12pt }
+		P.ctl { font-family: "Times New Roman", serif; font-size: 12pt; so-language: ar-SA }
+	-->
+	</style></head>
+
+<body bgcolor="#ffffff" dir="ltr" lang="ru-RU" text="#000000">
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+<a href="http://www.sib.opennet.ru/index.html">[Домой]</a><br>
+</p>
+<div style="text-align: center;"><big><big><font size="3"><big><big><b>Основы
+<span lang="en-US">GTK</span>+, часть
+1: Зачем использовать <span lang="en-US">GTK</span>+?</b></big></big></font></big></big></div>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Уровень пользователя: начинающий</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font color="#000000">Исходная статья:
+</font><a href="http://www-128.ibm.com/developerworks/library/os-gtk1/index.html"><u><font color="#000000">http://www-128.ibm.com/developerworks/library/os-gtk1/index.html</font></u></a></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm; widows: 2; orphans: 2;" align="justify">
+<font color="#000000">20 декабря 2005, Maciej Katafiasz
+(</font><a href="mailto:ibmdw@mathrick.org?subject=Why%20use%20GTK+?"><u><font color="#000000">ibmdw@mathrick.org</font></u></a><font color="#000000">)</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font color="#000000">25 декабря 2005, Сергей
+Безденежных (</font><a href="mailto:sib-mail@mtu-net.ru"><u><font color="#000000">sib-mail@mtu-net.ru</font></u></a><font color="#000000">)</font></p>
+<p class="western" style="margin-bottom: 0cm;" align="justify"><br>
+</p>
+<p class="western" style="margin-left: 1.23cm; text-indent: -0.02cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Эта статья первая из цикла трех
+статей, посвященных миру <span lang="en-US">GTK</span>+.
+В статье рассматривается, что такое
+<span lang="en-US">GTK</span>+, почему Вы должны
+обратить на него внимание и преимущества,
+которые он предоставляет. Вместе с
+последующими статьями из этой серии Вы
+получите общее представление о <span lang="en-US">GTK</span>
+и узнаете, где найти более подробную
+информацию, посвященную этой теме.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3"><span lang="en-US">GTK</span>+ - это инструментарий
+создания графического интерфейса
+пользователя (<span lang="en-US">GUI</span>). Это
+библиотека (точнее, это набор сильно
+связанных между собой библиотек), которая
+позволяет создавать программы с
+графическим интерфейсом. Можно сказать,
+что <span lang="en-US">GTK</span>+ предоставляет
+готовые кирпичики для построения
+графического интерфейса.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Изначально, <span lang="en-US">GTK</span>+
+разрабатывался в рамках проекта, широко
+известного графического редактора <span lang="en-US">GIMP</span>
+(GNU Image Manipulation Program). Работая над ранними
+версиями <span lang="en-US">GIMP</span>, взамен
+инструментарию Motif, который в то время
+еще не был свободным, Питер Матис (Peter
+Mattis) и Спенсер Кимбал (Spencer Kimball) разработали
+<span lang="en-US">GTK</span> (основанный на коде
+<span lang="en-US">GIMP</span>). Когда инструментарий
+обрел объектно-ориентированные свойства,
+к названию <span lang="en-US">GTK</span> добавили
+значок плюса, получилось <span lang="en-US">GTK</span>+.
+</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Все это произошло почти 10 лет
+назад. В настоящее время, активно
+разрабатывается <span lang="en-US">GTK</span>+ версии
+2.8, а <span lang="en-US">GIMP</span> остается одной из
+самых известных программ, использующих
+<span lang="en-US">GTK</span>+, но в то же время не
+единственной. Без преувеличения, тысячи
+программ написаны с использованием
+<span lang="en-US">GTK</span>+, и, как минимум, два
+рабочих стола (Xfce и GNOM<span lang="en-US">E</span>)
+используют GTK+, чтобы предоставить
+пользователям быстрое и мощное рабочее
+окружение.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"><big>
+<font size="3"><big><b>Зачем использовать инструментарий
+при создании графических приложений?</b></big></font></big></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Использование такой библиотеки
+как GTK+ дает значительные преимущества
+при создании собственного графического
+приложения. Например, значительно
+сокращается время разработки, нет
+необходимости дублирования обыкновенных
+вещей, что позволяет про<span style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;">граммисту
+сосредоточиться на реали</span>зации
+уникальных функций проекта. Для
+пользователей, такие преимущества
+означают великолепную совместимость
+всех их приложений: где бы инструментарий
+не работал, там же будут работать
+приложения. Такая переносимость возможна
+за счет того, что используется набор
+совместимых средств и вещи, созданные
+с помощью этих средств, могут использоваться
+всеми, кто использует библиотеку, вне
+зависимости от того, где они ее используют.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">В действительности, современные
+графические инструментарии позволяют
+делать значительно больше, чем просто
+избежать дублирования. Они предлагают
+множество возможностей, к которым
+привыкли пользователи, но которые не
+реализуемы в простых проектах из-за
+того, что они значительно увеличивают
+трудозатраты и время на создание
+приложения. Поэтому, если наличие
+графического интерфейса для программы
+является обязательным, следует
+использовать графический инструментарий.
+На самом деле, другого выхода просто
+нет. Остается только один вопрос: какой
+инструментарий использовать?</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"><big>
+<font size="3"><big><b>Достоинства GTK+</b></big></font></big></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Каковы бы ни были Ваши вопросы
+при разработке приложения, GTK+ - это тот
+ответ, который Вы ищете. GTK+ есть что
+предложить:</font></p>
+<ul>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font size="3">Он одновременно современный, активно разрабатываемый и
+поддерживаемый энергичным сообществом, графический инструментарий;</font></p>
+  </li>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font size="3">Он включает большой круг возможностей, позволяющий
+использовать программу максимальному числу людей, благодаря сложнейшим
+механизмам интернационализации, локализации и специальных возможностей
+доступа к программе;</font></p>
+  </li>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font size="3">Он простой и легкий в использовании для программистов и
+пользователей;</font></p>
+  </li>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font size="3">Он отлично спроектирован, гибок и расширяем;</font></p>
+  </li>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font size="3">Он свободно распространяется по общедоступной лицензии;</font></p>
+  </li>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font size="3">Он переносим как с точки зрения пользователей, так и
+программистов.</font></p>
+  </li>
+</ul>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"><big>
+<font size="3"><big><b>Современный и активно
+разрабатываемый инструментарий</b></big></font></big></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">GTK+ написан с использованием
+приемов и методов, признанных наилучшими
+в разработке программ, и даже если
+обнаруживаются недостатки (они существуют,
+потому что не бывает идеального ПО),
+разработчики делают все возможное,
+чтобы устранить их к следующей версии.
+Использование современного программного
+обеспечения означает, что Вы не застрянете
+с незаконченным куском работы, зачахнув
+на обочине истории. </font>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Постоянная поддержка и разработка,
+также означает, что у Вас есть возможность
+повлиять на направление развития
+инструментария. В добавок ко всему, с
+выходом очередного релиза, в программу
+добавляются новые возможности и
+функциональность, основанные на просьбах
+пользователей, и исправляются старые
+ошибки.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"><big>
+<font size="3"><big><b>Интернационализация, локализация
+и специальные возможности доступа</b></big></font></big></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">При создании общего программного
+обеспечения, предназначенного широкому
+кругу пользователей, следует держать
+в голове несколько вещей: интернационализацию,
+локализацию и специальные возможности
+доступа к программе (обычно сокращаемые
+как <i>i18n, l10n </i>и <i>a11y </i>соответственно).</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3"><b>Интернационализация </b>– это
+процесс подготовки программы к
+использованию людьми, говорящими на
+языках, отличных от того, на котором
+говорит создатель программы, таким
+образом делающий приложение независимым
+от любого из языков.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Интернационализация – это больше
+чем просто перевод текстовых сообщений
+в программе. Она заставляет обращать
+внимание на такие вещи, как различные
+способы письма (напр. иероглифы) и
+используемые алфавиты, различные
+направления письма, специальную обработку
+символов, требуемую для отображения
+многих языков и обеспечение поддержки
+соответствующих методов ввода текста.
+Во многих языках нельзя просто назначить
+каждой клавише клавиатуры свою букву
+алфавита, необходимо помнить, что
+существуют еще большие сложности,
+например, такие как использование
+правильных склонений в сообщениях.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3"><b>Локализация</b> тесно связана
+с интернационализацией по той причине,
+что подразумевает подготовку программы
+к использованию международной
+общественностью, однако предполагает
+больше, чем просто смену языка. Программа
+должна распознавать и правильно
+отображать различные форматы даты,
+времени, денег, чисел, правильно
+сортировать текст и еще много чего, о
+чем можно даже не знать, к примеру, в
+некоторых языках использование одного
+и того же символа, может толковаться по
+разному, в зависимости от его положения
+в слове.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Так же как интернационализация,
+хорошая локализация отражается на всем
+коде программы, и не может быть легко
+реализована, даже если постараться
+хорошо обдумать все детали. Однако GTK+
+предоставляет все необходимые инструменты
+для интернационализации и локализации,
+в результате чего код (и даже скомпилированный
+код) без дополнительной доработки может
+быть исполнен с различными языками, на
+различных локалях. Все, что для этого
+необходимо, – это установить в операционной
+системе нужные форматы данных (для
+локализации) или файлы переводов (для
+интернационализации), которые могут
+поставляться с программой или отдельно.
+В результате достигается гибкость,
+которая по вкусу разработчикам,
+переводчикам и особенно пользователям.
+</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3"><b>Специальные возможности доступа
+</b>– это то, что дает возможность каждому
+использовать программу. Некоторые
+пользователи имеют плохое зрение,
+некоторые не могут использовать
+клавиатуру или мышь, некоторые вообще
+не могут шевелить ни чем кроме глаз. И
+чтобы каждому из этих пользователей
+дать возможность использовать программу,
+нужно проделать огромный объем работы.
+К счастью, в GTK+ реализована сложная
+инфраструктура специальных возможностей,
+которая позволяет воспользоваться ее
+возможностями без дополнительной
+работы. Благодаря этой инфраструктуре
+(которая де-факто является стандартом
+на Unix системах), программы становятся
+доступны огромному числу пользователей.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Вы так-же можете воспользоваться
+преимуществами предоставляемыми
+специальными возможностями, такими как
+выполнение автоматических тестов
+графического интерфейса. Делая свое
+приложение доступным для программ,
+реализующих специальные возможности,
+вы делаете его доступным для программ-тестов,
+которые могут проверить поведение
+программы, иногда это позволяет избежать
+больших проблем, характерных для обычных
+способов создания графического
+интерфейса. Так же стоит помнить, что
+дополнительные возможности больше не
+являются просто полезной возможностью,
+многие положения, например, требования
+к ПО, предназначенному для использования
+в правительстве США, требуют от программ
+поддержки специальных возможностей. </font>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Предыдущие три пункта, возможно,
+являются веской причиной, по которой
+следует использовать инструментарий,
+в частности GTK+, в котором на высоком
+уровне реализована поддержка всех трех
+возможностей. Эта поддержка не безупречна,
+но она лучшая среди современного
+программного обеспечения, и важность
+включения этих возможностей в создаваемые
+приложения не может быть преувеличена.
+В современном мире, где повсеместно
+используются компьютеры и пользователи
+работающие с ними многочисленны и
+разнообразны, становиться просто не
+возможно создать программный продукт,
+удовлетворяющий всем группам пользователей.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"><big>
+<font size="3"><big><b>Простота и легкость в использовании</b></big></font></big></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Это звучит обыденно, но на самом
+деле означает многое. Инструментарий
+должен быть легок для пользователей,
+позволяя создавать простой,
+интуитивно-понятный и приятный в
+использовании, даже для новичков,
+графический интерфейс. Создание
+правильной модели взаимодействия
+человек-компьютер – нетривиальная
+задача, и в этом смысле GTK+ - плод многих
+часов работы, результат многих, иногда
+трудных решений. </font>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Дополнительно, GTK+ прост в
+использовании для разработчиков. Он
+позволяет сказать, то что Вы хотите,
+прямым языком, без отягощения Вас хламом,
+которым компьютеры стараются нагрузить
+людей, дабы компенсировать свой врожденный
+недостаток воображения.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"><big>
+<font size="3"><big><b>Хорошие решения, гибкость и
+расширяемость</b></big></font></big></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">GTK+ написан таким образом, что
+позволяет своим разработчикам добавлять
+новые возможности, а пользователям
+использовать эти возможности без
+внесения глобальных изменений в проект
+таким способом, который им по душе.
+Инструментарий расширяем, это означает,
+что можно добавлять собственные блоки
+и затем использовать их также, как и
+встроенные блоки. Допусти<span style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;">м,
+можно создать собственный элемент
+управления, к примеру какой-нибудь
+график данных, а затем заставить следовать
+его стилю оформления, выбранному
+пользователем, так-же как это делают
+родные элементами управления GTK+. </span></font>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Более того, GTK+ - настраиваемый
+инструментарий, что позволяет настроить
+его под свои нужды. В GTK+ есть система,
+которая распространяет настройки среди
+приложений, есть возможность выбора
+темы. <i>Тема</i> - это набор настроек,
+распространяемых совместно, она
+определяет как выглядят основные
+элементы управления GTK+, их точные размеры
+и поведение. Используя темы, можно (к
+примеру) имитировать вид разных
+операционных систем (см. Рисунок 1).</font></p>
+<div style="text-align: center;">
+<img alt="Формы GTK" src="gtk1_bylos/figure1.jpg" name="Графический объект1" style="border: 0px solid ; width: 435px; height: 467px;" align="middle"><br clear="left">
+</div>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm; text-align: center;">
+<font size="3">Рисунок 1 – Примеры отображения
+приложений GTK+</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"><big>
+<font size="3"><big><b>Свободное ПО с общедоступной
+лицензией</b></big></font></big></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Свободное программное обеспечение
+означает, что все могут не только получить
+и использовать инструментарий, но также
+распространять и изменять его в
+соответствии с определенными ограничениями.
+Общедоступная лицензия означает, что
+эти ограничения не значительны, а
+получаемая степень свободы велика.
+Наиболее важно, что GTK+ адаптирован к
+лицензии LGPL (Lesser General Public License), в которой
+меньше ограничений, нежели чем в лицензии
+GNU. Лицензия LGPL позволяет свободно
+получать, изменять и распространять
+программное обеспечение, если внесенные
+изменения свободны. Лицензия LGPL также
+позволяет использовать функции библиотек
+без необходимости открывать их код. Это
+важно для многих промышленных
+пользователей, где нежелательно или
+недопустимо делать код общедоступным,
+зачастую, из-за ранее используемых
+лицензий. Используя лицензию LGPL, можно
+быть одновременно и хорошим бизнес-партнером,
+и сторонником открытых программ. </font>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"><big>
+<font size="3"><big><b>Переносимость</b></big></font></big></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">И последнее, но не менее важное,
+GTK+ обладает свойством переносимости.
+Это означает, что пользователи могут
+запускать его на многих платформах и
+системах. Разработчики, напротив, могут
+поставлять свое программное обеспечение
+многочисленным пользователям, написав
+программу только один раз, и также могут
+использовать различные платформы
+программирования и разработки, инструменты
+и языки программирования. Все это
+предназначено для большой потенциальной
+аудитории, причем для достижения ваших
+целей вы можете использовать более
+широкий набор средств и инструментов,
+наиболее подходящий для Ваших задач.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">В совокупности все эти достоинства
+делают GTK+ прочной основой для разработки
+программного обеспечения. Используя
+GTK+, вы сможете сконцентрироваться на
+решении актуальных проблем, вместо
+того, чтобы «изобретать колесо»,
+и можете быть уверены, создаваемое вами
+приложение будет вести себя так, как
+ожидают пользователи, решая их проблемы
+,а не создавая новые.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"><big>
+<font size="3"><big><b>В следующий раз</b></big></font></big></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3">Эта статья дает краткий и
+поверхностный обзор GTK+, не углубляясь
+в детали. В следующей части вы увидите
+код GTK+ в действии. Будет показано, как
+программа работает в действительности,
+дан обзор некоторых доступных инструментов
+и продемонстрирована работа GTK+ с
+различными платформами и языками
+программирования. В последней статье
+вы найдете примеры GTK+ в реальной
+обстановке, будут проанализированы
+проблемы совместимости и переносимости,
+установки и настройки GTK+ для ваших
+специфических нужд. Последнее, но не
+менее существенное, вы получите
+информацию, где можно найти поддержку
+, если вы решите использовать GTK+ в своих
+проектах.</font></p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3"><b><big>Ссылки по теме</big> </b></font>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3"><b>Изучение </b></font>
+</p>
+<ul>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font color="#000000">Посетите сайт </font><a href="http://www.gtk.org/"><u><font color="#000000">GTK+</font></u></a><font color="#000000">, чтобы
+получить больше информации об инструментарии;</font></p>
+  </li>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font color="#000000">Страницы руководства </font><a href="http://gtk.org/api"><u><font color="#000000">GTK+ API</font></u></a><font color="#000000"> необходимы каждому разработчику;</font></p>
+  </li>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font color="#000000">В книге </font><a href="http://www.amazon.com/exec/obidos/tg/detail/-/1593270305/002-7090147-8728026?v=glance"><u><i><font color="#000000">The Official GNOME 2 Developer's Guide</font></i></u></a><font color="#000000"> Матиса Варкуса (Matthias Warkus) описано
+программирование в GNOME 2, включая программирование с GTK+;</font></p>
+  </li>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font color="#000000">Прочитайте статью по адресу </font><a href="http://gazette.lrn.ru/lg70/articles/rus-ghosh.html"><u><font color="#000000">http://gazette.lrn.ru/lg70/articles/rus-ghosh.html</font></u></a><font color="#000000"> посвященную программированию в GNOME с использованием
+GTK+.</font></p>
+  </li>
+</ul>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<br>
+</p>
+<p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify">
+<font size="3"><b>Скачайте программы</b></font></p>
+<ul>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font color="#000000">Получите официальные исходные коды </font><a href="http://gtk.org/download"><u><font color="#000000"><font color="#000080">GTK+;</font></font></u></a></p>
+  </li>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font color="#000000">Скачайте первую и наиболее известную программу GTK+
+графический редактор </font><a href="http://www.gimp.org/"><u><font color="#000000">GIMP</font></u></a> и посетите <a href="http://www.gimp.ru/">сайт российских пользователей GIMP</a>;</p>
+  </li>
+</ul>
+<ul>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font color="#000000">Посмотрите </font><a href="http://gnome.org/"><u><font color="#000000">GNOME</font></u></a><font color="#000000"> -
+продвинутый рабочий стол для Linux;</font></p>
+  </li>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font color="#000000">Попробуйте </font><a href="http://xfce.org/"><u><font color="#000000">Xfce</font></u></a><font color="#000000"> быстрый и
+простой в использовании рабочий стол;</font></p>
+  </li>
+  <li>
+    <p class="western" style="margin-bottom: 0cm;" align="justify"><font color="#000000">Посетите сайт </font><a href="http://gnomefiles.org/"><u><font color="#000000">Gnomefiles</font></u></a><font color="#000000">, дабы
+ознакомиться более чем с 1000 программ использующих GTK+.</font></p>
+  </li>
+</ul>
+</body></html>

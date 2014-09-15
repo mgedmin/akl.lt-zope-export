@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 608852482
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 17:33:58.440000 GMT+3
+logo_url:string = http://www.assis.lt/client/img/assis_logo.gif
+mail:string = arturas@assis.lt
+organization:string = UAB "Assis"
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Art\xc5\xabras Pik\xc5\xa1rys
+url_asm:string = 
+url_org:string = http://www.assis.lt

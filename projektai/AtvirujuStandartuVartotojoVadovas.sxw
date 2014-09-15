@@ -1,0 +1,11 @@
+## Script (Python) "AtvirujuStandartuVartotojoVadovas.sxw"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=Atvirųjų standartų vartotojo vadovas (redirect)
+##
+request = container.REQUEST
+request.RESPONSE.redirect("http://www.akl.lt/2005/phare/AtvirujuStandartuVartotojoVadovas.sxw")

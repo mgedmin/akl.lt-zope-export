@@ -1,0 +1,5 @@
+[properties]
+categories:string = Pramogai,
+public:boolean = 1
+title:string = \xe2\x80\x9eFrozen Bubble\xe2\x80\x9c
+trumpai:text = \xc5\xa0is nuotaikingas \xc5\xbeaidimas patiks visiems. Galima \xc5\xbeaisti ir dviese prie vieno kompiuterio. \n\xe2\x80\x9eWindows\xe2\x80\x9c versij\xc4\x85 rasite adresu <a href="http://nsis.sourceforge.net/fb/" target="_blank">http://nsis.sourceforge.net/fb/</a>

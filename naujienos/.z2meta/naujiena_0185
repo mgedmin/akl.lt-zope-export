@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Sausio pabaigoje <a\n href="http://www.koffice.org/announcements/announce-1.3.php">pasirod\xc4\x97</a>\nnauja biuro program\xc5\xb3 paketo \xe2\x80\x9e<a href="http://www.koffice.org">KOffice</a>\xe2\x80\x9c\nversija. Pagrindiniai program\xc5\xb3 patobulinimai yra susij\xc4\x99 su kit\xc5\xb3 biuro\nprogram\xc5\xb3 dokument\xc5\xb3 format\xc5\xb3 suderinamumu. Sukurta visi\xc5\xa1kai nauja savyb\xc4\x97 - PDF dokumento importas \xc4\xaf\n\xe2\x80\x9eKWord\xe2\x80\x9c program\xc4\x85, suteikiantis galimyb\xc4\x99 dokument\xc4\x85 redaguoti ir\ni\xc5\xa1saugoti pakeitimus.</p>
+date:string = 2004-02-02
+title:string = I\xc5\xa1leista biuro program\xc5\xb3 paketo \xe2\x80\x9eKOffice\xe2\x80\x9c 1.3 versija

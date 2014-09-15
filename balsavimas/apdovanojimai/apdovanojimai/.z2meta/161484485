@@ -1,0 +1,8 @@
+[properties]
+agejevas:int = 1
+confirm_id:string = 411270363
+confirmed:boolean = 1
+email:string = tomas@vadyba.com
+grazulis:int = 3
+kriauciunas:int = 2
+title:string = tomas@vadyba.com

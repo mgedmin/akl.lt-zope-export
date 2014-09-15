@@ -1,0 +1,50 @@
+Mini-atmintinės tekstas pradedančiajam ("žaliam") kompiuterio naudotojui apie darbą su Baltix GNU/Linux ver. 2.x yra perkeltas į Baltix GNU/Linux puslapį - http://baltix.akl.lt/wiki/BaltixHowto
+
+
+From unknown Mon Jan 30 10:04:22 +0200 2006
+From: 
+Date: Mon, 30 Jan 2006 10:04:22 +0200
+Subject: del ntfs
+Message-ID: <20060130100422+0200@wiki.akl.lt>
+
+pas mane yra du kietieji diskai C ir D. I C idiegiau Baltix paketa. D diske yra informacija NTFS sistemoje, bet Baltix jo nemato. Ka daryti? 
+
+From unknown Tue Jan 31 22:26:55 +0200 2006
+From: 
+Date: Tue, 31 Jan 2006 22:26:55 +0200
+Subject: USB modemai
+Message-ID: <20060131222655+0200@wiki.akl.lt>
+
+Būtų gerai jeigu kas nurodytų kaip susitvarkyti su USB ADSL modemais;)
+
+From unknown Tue Feb 21 21:06:33 +0200 2006
+From: 
+Date: Tue, 21 Feb 2006 21:06:33 +0200
+Subject: Kaip paviešinti (share) prie kompiuterio prijungtą spausdintuvą tinkle ?
+Message-ID: <20060221210633+0200@wiki.akl.lt>
+
+Kaip paviešinti (share) prie kompiuterio prijungtą spausdintuvą vietiniam (arba interneto) tinkle ?
+
+Panašu, kad kol kas tai tegalima padaryti tik redaguojant /etc/cups/cupsd.conf konfigūracinę bylą:
+
+1. Užkomentuoti eilutę "Listen 127.0.0.1:631" ir atkomentuoti "Port 631"
+
+2. Sekcijose <Location /> bei <Location /printers> padaryti:
+
+Order Deny,Allow
+
+Deny From All
+
+Allow From 192.168.0.0/24  #/24 leis spausdinti visam 192.168.0.1 - 192.168.0.255 potinkliui)
+
+</Location>
+
+
+
+From unknown Sun Mar 12 15:51:17 +0200 2006
+From: 
+Date: Sun, 12 Mar 2006 15:51:17 +0200
+Subject: Kaip atnaujint Baltix GNU/Linux iš kompiuterio?
+Message-ID: <20060312155117+0200@wiki.akl.lt>
+
+Pvz kai parsisiunčiu viska iš paketų serverio, kai yrasau y diska tai praskanuoja diska ir randa, o kaip is kompiuterio?

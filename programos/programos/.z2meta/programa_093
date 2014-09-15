@@ -1,0 +1,5 @@
+[properties]
+categories:string = Multimedia,
+public:boolean = 1
+title:string = Video redaktorius \xe2\x80\x9eKino\xe2\x80\x9c
+trumpai:text = Kino programa skirta tiems linux vartotojams, kurie turi skaitmenines video DV kameras

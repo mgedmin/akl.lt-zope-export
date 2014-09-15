@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 267029100
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 14:25:9.342000 GMT+3
+logo_url:string = 
+mail:string = madguru@gmail.com
+organization:string = Idamas
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Paulius Navickas
+url_asm:string = 
+url_org:string = http://www.idamas.lt

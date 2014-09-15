@@ -1,0 +1,9 @@
+[properties]
+author:string = Kristina Kudria\xc5\xa1ova
+blurb:text = Po 21 m\xc4\x97nesio \xc4\xaftempto darbo pagaliau i\xc5\xa1leista Debian GNU/Linux 4.0 kodiniu pavadinimu \xe2\x80\x9eetch\xe2\x80\x9c. Debian GNU/Linux - tai laisva operacin\xc4\x97 sistema, palaikanti vienuolika skirting\xc5\xb3 procesori\xc5\xb3 architekt\xc5\xabr\xc5\xb3, grafines aplinkas Gnome, KDE ir Xfce. Ji taip pat pasi\xc5\xbeymi kriptografine P\xc4\xae, yra suderinama su FHS v2.3 bei P\xc4\xae, sukurta LSB versijai 3.1.
+categories:multiple selection = (\'GNU/Linux&nbsp;OS\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2007-04-09
+email:string = kristina@akl.lt
+profesionalams:boolean = False
+title:string = I\xc5\xa1leista Debian 4.0 (Etch)

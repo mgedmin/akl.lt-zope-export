@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2006-03-09T17:44:08+00:00
+creator:string = mantas
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-03-14T12:01:23+00:00
+last_editor:string = mantas
+last_editor_ip:string = 127.0.0.1
+last_log:string = Patvarkiau (pra\xc5\xa1au nesikartoti komentare), papild\xc5\xbeiau - \xc4\xafd\xc4\x97jau telefonijos programas bei XaraXtreme
+parents:lines = [\'Renginiai\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = ITsprendimaiNamams

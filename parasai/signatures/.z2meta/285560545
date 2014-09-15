@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 675456667
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 16:17:28.092000 GMT+3
+logo_url:string = 
+mail:string = tomas@vadyba.com
+organization:string = UAB "Viae Ventus"
+position:string = Direktorius
+status:string = imone
+title:string = Tomas Jonu\xc5\xa1as
+url_asm:string = 
+url_org:string = http://www.vadyba.com

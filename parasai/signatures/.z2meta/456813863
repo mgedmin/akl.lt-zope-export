@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 986595035
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 13:25:9.014000 GMT+3
+logo_url:string = 
+mail:string = nikvis@me.vtu.lt
+organization:string = VGTU Suvirinimo ir med\xc5\xbeiagotyros problem\xc5\xb3 institutas
+position:string = direktorius
+status:string = vyr_org
+title:string = Nikolaj Vi\xc5\xa1niakov
+url_asm:string = 
+url_org:string = http://www.vtu.lt/fakultetai/me/smpi/

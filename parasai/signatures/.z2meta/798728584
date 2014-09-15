@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 770501418
+confirmed:boolean = 1
+gen_date:date = 2005/12/08 18:58:50.274000 GMT+2
+logo_url:string = 
+mail:string = reglic@mail.ru
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Andrejus Pustelnikovas
+url_asm:string = 
+url_org:string = 

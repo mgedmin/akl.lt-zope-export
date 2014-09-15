@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:19+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-09-06T16:52:01+00:00
+last_editor:string = jaro
+last_editor_ip:string = 127.0.0.1
+last_log:string = projektas buvo pataisytas ir tada pa\xc4\x97jo
+parents:lines = [\'FrontPage\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Phare SPF 2001

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 309951881
+confirmed:boolean = 1
+gen_date:date = 2005/05/24 19:18:8.433000 GMT+3
+logo_url:string = 
+mail:string = v.bakaitis@gmail.com
+organization:string = 
+position:string = abiturientas
+status:string = fiz_asm
+title:string = Valentinas Bakaitis
+url_asm:string = http://dienorastis.optimalus.net
+url_org:string = 

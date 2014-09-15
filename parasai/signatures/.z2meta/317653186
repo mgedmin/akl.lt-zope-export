@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 556046034
+confirmed:boolean = 1
+gen_date:date = 2005/05/13 12:46:5.145000 GMT+3
+logo_url:string = 
+mail:string = suktas@migla.ktu.lt
+organization:string = 
+position:string = KTU laborantas
+status:string = fiz_asm
+title:string = Tomas Dem\xc4\x8denko
+url_asm:string = 
+url_org:string = http://fmf.ktu.lt

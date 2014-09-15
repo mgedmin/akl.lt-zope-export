@@ -1,0 +1,1 @@
+Web serveris windows ir linux sistemom, į jį įeina apache 2, mysql 4.1.16, mysqladmin, php 4, php 5, perl 5.8.7. Labai paprastas instaliavimas, nereikia nieko redaguoti ar nustatinėti.

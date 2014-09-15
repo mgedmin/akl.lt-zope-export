@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>IETF (Internet Engineering Task Force) oficialiai patvirtino XMPP (Extensible Messaging and Presence Protocol) apra\xc5\xa1ym\xc4\x85. Dokumentas, \xc5\xbeinomas kaip \xe2\x80\x9eXMPP-Core\xe2\x80\x9c, apra\xc5\xa1o realaus laiko duomen\xc5\xb3 perdavim\xc4\x85, leid\xc5\xbeiant\xc4\xaf vartotojams ar programoms keistis XML \xc5\xbeinut\xc4\x97mis, dinami\xc5\xa1kai sujungiant\xc4\xaf \xc5\xbeinut\xc4\x97s strukt\xc5\xabrin\xc4\x99 informacij\xc4\x85 bei turin\xc4\xaf.<br>\nIETF pri\xc4\x97m\xc4\x97 XMPP kaip nauj\xc4\x85 trump\xc5\xb3j\xc5\xb3 \xc5\xbeinu\xc4\x8di\xc5\xb3 IM (Instant Messaging) standart\xc4\x85. \xc5\xa0is protokolas formuoja \xc5\xa1ird\xc4\xaf Jabber sistemos, kuri yra atviro kodo sprendimas ICQ, AIM bei MSN.\n</p>
+date:string = 2004-02-12
+title:string = IETF standartizavo Jabber protokol\xc4\x85

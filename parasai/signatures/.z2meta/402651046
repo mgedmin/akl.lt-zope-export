@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 386409531
+confirmed:boolean = 1
+gen_date:date = 2006/02/08 10:13:5.365000 GMT+2
+logo_url:string = 
+mail:string = info@visidarbai.lt
+organization:string = laisvai samdomas specialistas
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Audrius Na\xc5\xa1l\xc4\x97nas
+url_asm:string = http://www.arsinformatica.lt
+url_org:string = http://www.visidarbai.lt

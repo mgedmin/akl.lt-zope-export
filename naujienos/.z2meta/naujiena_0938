@@ -1,0 +1,9 @@
+[properties]
+author:string = Kristina Kudria\xc5\xa1ova
+blurb:text = Gruod\xc5\xbeio 9d. vykusiame visuotiniame nari\xc5\xb3 susirinkime buvo i\xc5\xa1rinktas naujas prezidentas ir nauji valdybos nariai.
+categories:multiple selection = ()
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2006-12-16
+email:string = kristina@akl.lt
+profesionalams:boolean = False
+title:string = AKL turi nauj\xc4\x85 vald\xc5\xbei\xc4\x85

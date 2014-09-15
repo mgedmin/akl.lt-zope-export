@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 474019133
+confirmed:boolean = 1
+gen_date:date = 2005/05/23 22:11:6.667000 GMT+3
+logo_url:string = 
+mail:string = vaidas.pilkauskas@sc.vu.lt
+organization:string = Vilniaus universitetas Skai\xc4\x8diavimo centras
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Vaidas Pilkauskas
+url_asm:string = 
+url_org:string = http://www.vu.lt

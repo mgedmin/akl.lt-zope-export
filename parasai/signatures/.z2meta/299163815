@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 972466088
+confirmed:boolean = 1
+gen_date:date = 2005/09/10 02:10:17.092000 GMT+3
+logo_url:string = 
+mail:string = martin@saulis.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Martin Saulis
+url_asm:string = http://www.saulis.com
+url_org:string = 

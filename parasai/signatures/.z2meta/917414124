@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 749234131
+confirmed:boolean = 1
+gen_date:date = 2005/05/25 16:16:8.149000 GMT+3
+logo_url:string = 
+mail:string = vaivai@adm.vtu.lt
+organization:string = VGTU
+position:string = Intelektin\xc4\x97s nuosavyb\xc4\x97s grup\xc4\x97s ved\xc4\x97ja
+status:string = fiz_asm
+title:string = Vaiva Laukaitien\xc4\x97
+url_asm:string = 
+url_org:string = http://www.vtu.lt

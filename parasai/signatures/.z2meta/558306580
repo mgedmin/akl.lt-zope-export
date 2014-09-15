@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 555642545
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 17:53:41.718000 GMT+3
+logo_url:string = 
+mail:string = mdalius@gmail.com
+organization:string = 
+position:string = Studentas
+status:string = fiz_asm
+title:string = Dalius Mockevi\xc4\x8dius
+url_asm:string = 
+url_org:string = 

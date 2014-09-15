@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 279063515
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 23:49:23.784000 GMT+3
+logo_url:string = http://www.veta.lt/image002.jpg
+mail:string = liudvikas.jablonskas@gmail.com
+organization:string = UAB "VETA"
+position:string = Kompiuterin\xc4\x97s bei org. technikos specialistas
+status:string = fiz_asm
+title:string = Liudvikas Jablonskas
+url_asm:string = http://liudvikas.lazdynai.lt
+url_org:string = http://www.veta.lt

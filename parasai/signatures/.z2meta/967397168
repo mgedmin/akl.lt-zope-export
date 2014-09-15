@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 100799905
+confirmed:boolean = 1
+gen_date:date = 2005/06/01 22:20:33.475000 GMT+3
+logo_url:string = http://www.aroste.lt/base/logo_new.gif
+mail:string = stasys@aroste.lt
+organization:string = UAB Arost\xc4\x97
+position:string = Gamybos vadovas
+status:string = imone
+title:string = Stasys Dabrega
+url_asm:string = 
+url_org:string = http://www.aroste.lt

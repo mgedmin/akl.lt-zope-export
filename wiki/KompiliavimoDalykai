@@ -1,0 +1,7 @@
+Dėl Knoppix kompiliavimo
+
+  Informacija, kaip daryti Debian paketus: https://lists.akl.lt/pipermail/baltix-knoppix/2003-May/thread.html, https://lists.akl.lt/pipermail/baltix-knoppix/2003-June/thread.html
+
+  Konsultacijai: baltix-knoppix ir http://lists.debian.org/debian-openoffice listuose
+
+  MII informacija: !OpenOffice ištekliai yra padėti http://aldona.mii.lt/pms/fps/ooresources kataloge. Ten yra bylos: lt.zip - tai lietuviškas vertimas ir lt_lt.xml - lokalės aprašymo byla. Pradinio kodo mes niekur nekeitėme, todėl jį reikia parsisiųsti iš !OpenOffice.org. Diegiant lokalės bylą reikia tik pridėti porą eilučių į localedata.c ir makefile bylas (žr. !OpenOffice.org/L10N)(jei kompiliuosit 1.1 v. tai ten lietuvių lokalė jau turi būti ir to daryt nereiks).

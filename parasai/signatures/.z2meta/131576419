@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 903732192
+confirmed:boolean = 0
+gen_date:date = 2005/05/30 22:46:55.506000 GMT+3
+logo_url:string = 
+mail:string = codis@walla.com
+organization:string = 
+position:string = Tinklo administratorius
+status:string = fiz_asm
+title:string = Tadas Vaitek\xc5\xabnas
+url_asm:string = 
+url_org:string = 

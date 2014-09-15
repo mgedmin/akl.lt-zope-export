@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 751934725
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 03:08:18.582000 GMT+3
+logo_url:string = 
+mail:string = arunas.st@banga.lt
+organization:string = 
+position:string = Nam\xc5\xb3 in\xc5\xbeinierius (pri\xc5\xbei\xc5\xabriu dukr\xc4\x85 ma\xc5\xbeamet\xc4\x99)
+status:string = fiz_asm
+title:string = Ar\xc5\xabnas Stankevi\xc4\x8dius
+url_asm:string = http://www.aiste.net
+url_org:string = 

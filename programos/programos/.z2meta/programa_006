@@ -1,0 +1,5 @@
+[properties]
+categories:string = Biurui,
+public:boolean = 1
+title:string = Mozilla-Calendar
+trumpai:text = \xc5\xa0iame rinkinyje galima rasti kalendori\xc5\xb3, hierarchin\xc4\xaf u\xc5\xbeduo\xc4\x8di\xc5\xb3 s\xc4\x85ra\xc5\xa1\xc4\x85, greitos paie\xc5\xa1kos funkcij\xc4\x85, \npasikartojan\xc4\x8di\xc5\xb3 veiksm\xc5\xb3 registr\xc4\x85, duomen\xc5\xb3 import\xc4\x85 ir eksport\xc4\x85, dirbti su tinkle ar interneto serveryje esan\xc4\x8diais duomenimis. 

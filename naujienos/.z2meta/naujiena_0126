@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>I\xc5\xa1leista laisvos operacin\xc4\x97s sistemos <a href="http://www.openbsd.org">\xe2\x80\x9eOpenBSD\xe2\x80\x9c</a> 3.4 versija. Naujoje versijoje daug paketim\xc5\xb3 saugumo u\xc5\xbetikrinimui.<br>\n<a href="http://www.bsd.org/">\xe2\x80\x9eBSD\xe2\x80\x9c</a> \xc5\xa1eimos distribucija \xe2\x80\x9eOpenBSD\xe2\x80\x9c pasi\xc5\xbeymi tuo, kad per 7 metus joje buvo rasta tik viena pavojinga nuotolin\xc4\x97 klaida.\n</p>
+date:string = 2003-10-31
+title:string = \xe2\x80\x9eOpenBSD\xe2\x80\x9c 3.4 versija

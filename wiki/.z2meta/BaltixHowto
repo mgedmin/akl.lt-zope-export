@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2006-01-24T23:12:29+00:00
+creator:string = mantas
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-11-13T14:54:54+00:00
+last_editor:string = mantas
+last_editor_ip:string = 127.0.0.1
+last_log:string = Baltix atmintin\xc4\x97 perkelta \xc4\xaf http://baltix.akl.lt/wiki/BaltixHowto
+parents:lines = [\'Distribucija\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Baltix-Howto

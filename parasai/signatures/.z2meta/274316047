@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 272564140
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 12:28:27.357000 GMT+3
+logo_url:string = 
+mail:string = vytenis.v@gmail.com
+organization:string = 
+position:string = Studentas
+status:string = fiz_asm
+title:string = Vytenis Virui\xc5\xa1is
+url_asm:string = 
+url_org:string = 

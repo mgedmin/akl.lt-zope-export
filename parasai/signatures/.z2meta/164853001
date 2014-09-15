@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 155984289
+confirmed:boolean = 1
+gen_date:date = 2005/05/13 21:53:8.431000 GMT+3
+logo_url:string = http://www.akl.lt/images/logo.png
+mail:string = lena@ibt.lt
+organization:string = Biotechnologijos institutas
+position:string = mokslo darbuotoja
+status:string = fiz_asm
+title:string = Elena Manakova
+url_asm:string = 
+url_org:string = http://www.ibt.lt

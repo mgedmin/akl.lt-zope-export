@@ -1,0 +1,7 @@
+[properties]
+blurb:text = Kaip ir kiekvien\xc4\x85 vasar\xc4\x85, mes rengiame vasaros myt\xc4\x85 prie e\xc5\xbeero. \xc5\xa0iemet tai \xc4\xafvyks liepos 16 d. (\xc5\xa1e\xc5\xa1tadienis) Antalakajoje, \xc5\xa1iauriau Balt\xc5\xb3j\xc5\xb3 Lakaj\xc5\xb3 e\xc5\xbeero. Kvie\xc4\x8diame visus laisv\xc5\xb3j\xc5\xb3 program\xc5\xb3 naudotojui ir prijau\xc4\x8dian\xc4\x8dius.\nDaugiau informacijos <a href="http://wiki.akl.lt/">\xc4\x8dia.</a>
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2005-07-08
+profesionalams:boolean = 0
+title:string = Liepos 16 d. AKL vasaros mytas 

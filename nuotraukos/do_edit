@@ -1,0 +1,19 @@
+## Script (Python) "do_edit"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+request = container.REQUEST
+
+if request.has_key('UPDATE'):
+    n = 1
+    while request.has_key('n%d' % n):
+        id = request['n%d' % n]
+        value = request['t%d' % n]
+        context[id].manage_changeProperties(title=value)
+        n += 1
+    return 'Updated'

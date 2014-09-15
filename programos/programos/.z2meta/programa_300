@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,Programavimui,
+public:boolean = True
+title:string = Programavimo \xc4\xafranki\xc5\xb3 rinkinys \xe2\x80\x9eEclipse\xe2\x80\x9c
+trumpai:text = Eclipse yra atvirojo kodo bendruomen\xc4\x97, kurios projektai suteikia atvir\xc4\x85j\xc4\x85 P\xc4\xae k\xc5\xabrimo platform\xc4\x85 su visais\n\xc4\xafsivaizduojamais \xc4\xafrankiais, kuri\xc5\xb3 gali prireikti programuotojui.

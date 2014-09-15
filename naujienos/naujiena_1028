@@ -1,0 +1,17 @@
+<p>2010 m. liepos 15 d. pasirodė nauja openSUSE versija. openSUSE yra draugiškas ir stabilus Linux platinamasis paketas, verčiamas į kelias dešimtis pasaulio kalbų, taip pat ir į lietuvių. openSUSE tinka tiek vos pradedantiesiems naudoti Linux, tiek profesionalams. Naujoje openSUSE versijoje rasite ne tik atnaujintus paketus, bet ir naujų savybių.</p>
+<p>Lyginant su 11.2 versija, naujoji yra tobulesnė tuo, kad:</p>
+<ul><li>dar labiau sulietuvinta;</li>
+<li>pradėjo numatytuoju atveju naudoti <i>nouveau</i> tvarkykles NVIDIA plokštėms, <i>radeon</i> tvarkykles ATI plokštėms; jose įgalinta KMS;</li>
+<li>YaST paketų tvarkytuvėje galima automatiškai šalinti nebereikalingus paketus;</li>
+<li>palaikoma <i>btrfs</i> rinkmenų sistema;</li>
+<li>pateikiama netbook kompiuteriams pritaikyta Meego aplinka ir specialus KDE4 aplinkos režimas;</li>
+<li>diegiant iš DVD galima rinktis sparčią ir ištekliams nereiklią LXDE darbalaukio aplinką;</li>
+<li>galima išbandyti GNOME Shell;</li>
+<li>nors nėra numatytieji, bet galima naudoti GRUB2 ir Upstart;</li>
+<li>į demonstracinius CD (LiveCD) įtraukti VirtualBox papildiniai;</li>
+<li>įtraukta <i>imagewriter</i> programėlė, skirta ISO atvaizdų įrašymui į USB atmintines.</li></ul>
+<p>OpenSUSE su metais žymiai patobulėja. Ir, sprendžiant iš pirmųjų atsiliepimų, 11.3 žada būti geriausia ligi šiolei išleista openSUSE versija. </p>
+<p>Nemokamai ir laisvai platinamą openSUSE 11.3 galite atsisiųsti iš <a href="http://software.opensuse.org/113/lt">http://software.opensuse.org/113/lt</a>. Čia lietuviškai aprašytos visos galimos parsisiuntimo parinktys.
+</p>
+<p>Daugiau apie openSUSE 11.3 sužinosite <a href="http://www.opensuse.lt">lietuviškoje openSUSE Linux pagalbos svetainėje</a> arba oficialiame <a href="http://en.opensuse.org/Portal:11.3">tinklapyje</a>.</p>
+<p>Smagaus naudojimo!</p>

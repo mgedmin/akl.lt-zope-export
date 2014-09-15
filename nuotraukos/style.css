@@ -1,0 +1,69 @@
+BODY {
+	margin: 0;
+	padding: 0;
+	font-face: Verdana, sans-serif;
+}
+
+DIV.odd, DIV.even  {
+           float: left;
+           width: 130px; height: 145px;
+           text-align: center;
+           border-color: #888888;
+	   background-color: #CCCCFF;
+           border-width: 2px;
+           border-style: solid;
+           padding: 5px;
+           margin: 10px 10px;
+}
+
+DIV.odd, DIV.even  { border: none;
+                     background: white;}
+
+/*
+DIV.odd { background-color: #CCCCFF; }
+DIV.even { background-color: #DDDD88; }
+*/
+
+DIV.odd SPAN, DIV.even SPAN {vertical-align: middle;}
+
+DIV.nav  { float: left;
+           width: 120px;
+           background-color: #EEEEEE;
+           border-color: #000088; border-width: 2px; border-style: solid;
+           padding: 10px 10px ; margin: 10px 10px; 
+           font-size: 9pt; }
+
+DIV.picnav { background-color: #EEEEEE;
+             border-color: #000088;
+             border-bottom-width: 2px;
+             border-top-width: 0px;
+             border-left-width: 0px;
+             border-right-width: 0px;
+             border-style: solid;
+             padding:  1px 10px 0px 10px;
+	     font-face: Verdana, sans-serif;
+	     font-size: 10pt; }
+
+DIV.picnav P {
+	   font-face: Verdana, sans-serif;
+	   font-size: 10pt;
+}
+
+DIV.body {
+	 padding: 1ex;
+}
+
+DIV.pic  {   text-align: center;
+             padding: 10px 10px;
+	     margin: 0;
+	     border: none;
+}
+
+DIV P { padding: 2px 5px;
+ margin: 5px }
+
+H1  { text-align: center; }
+
+.sub { 	     font-face: Verdana, sans-serif;
+	     font-size: 8pt; }
+}

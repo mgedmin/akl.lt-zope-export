@@ -1,0 +1,9 @@
+[properties]
+author:string = Jaro
+blurb:text = Prie\xc5\xa1 naujuosius metus \xc4\xafvyko akl.lt atnaujinimas. M\xc5\xabs\xc5\xb3 svetain\xc4\x97je pasirod\xc4\x97 nauji straipsniai apie laisva P\xc4\xae (\xc5\xbei\xc5\xabr\xc4\x97kite <a href="ak/">\xe2\x80\x9eatviras kodas\xe2\x80\x9c</a>). Taip pat atsinaujino <a href="/programos/">program\xc5\xb3</a> skiltis, dabar kiekvienas puslapio lankytojas gal\xc4\x97s prid\xc4\x97ti programos apra\xc5\xa1ym\xc4\x85. <br/>\nPasirod\xc4\x97 AKL nario Donato Glodenio straipsnis: <a href="http://www.akl.lt/apie/straipsniai/?doc=EuroposKomisija-Microsoft.html">\xe2\x80\x9eEuropos Komisija prie\xc5\xa1 Microsoft: kas i\xc5\xa1 ties\xc5\xb3 vyksta?\xe2\x80\x9c</a> <br/><br/>\nLinkime s\xc4\x97km\xc4\x97s ir laim\xc4\x97s 2006 metais ir tikim\xc4\x97s, kad laisvoji P\xc4\xae 2006 palengvins j\xc5\xabs\xc5\xb3 gyvenim\xc4\x85.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2005-12-31
+email:string = jaro@akl.lt
+profesionalams:boolean = 0
+title:string = Nedidelis m\xc5\xabs\xc5\xb3 puslapio atnaujinimas

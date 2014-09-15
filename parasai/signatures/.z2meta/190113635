@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 348908484
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 14:09:15.800000 GMT+3
+logo_url:string = http://www.vu.lt
+mail:string = evaldux2000@yahoo.com
+organization:string = Vilniaus Universitetas
+position:string = studentas
+status:string = fiz_asm
+title:string = Evaldas Pabr\xc4\x97\xc5\xbea
+url_asm:string = 
+url_org:string = http://www.vu.lt

@@ -1,0 +1,7 @@
+<h2>Asmeninių finansų apskaitos sistema „jGnash“ <br>
+<a href="http://jgnash.sourceforge.net" target="_blank">jgnash.sourceforge.net</a></h2>
+<p>
+Ši asmeninių finansų apskaitos sistema yra sukurta Java, todėl veikia visose platformose (įskaitant „Linux“ ir „Windows“), 
+kuriose veikia 1.4 versijos Java vykdymo aplinka (JRE).<br>
+„jGnash“ yra panaši į „GnuCash“, tačiau turi mažiau galimybių.
+</p>

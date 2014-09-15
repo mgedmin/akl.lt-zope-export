@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 575328367
+confirmed:boolean = 1
+gen_date:date = 2005/07/05 18:17:55.137000 GMT+3
+logo_url:string = 
+mail:string = audrius.skersys@takas.lt
+organization:string = 
+position:string = Mokinys
+status:string = fiz_asm
+title:string = Audrius Skersys
+url_asm:string = 
+url_org:string = 

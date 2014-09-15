@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 197677859
+confirmed:boolean = 0
+gen_date:date = 2005/05/17 13:26:20.628000 GMT+3
+logo_url:string = 
+mail:string = rytis.zabielskas@adm.vtu
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Rytis Zabielskas
+url_asm:string = 
+url_org:string = 

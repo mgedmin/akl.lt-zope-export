@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = Interneto pokalbi\xc5\xb3 programa \xe2\x80\x9eGaim\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eGaim\xe2\x80\x9c - tai laisva internete (\xe2\x80\x9eInstant Messages\xe2\x80\x9c) programa, dirbanti su \nJabber, ICQ, Yahoo, MSN, IRC ir Gadu-Gadu pokalbi\xc5\xb3 sistemomis. Veikia Windows, Linux ir kitose OS.\n \xc5\xa0i programa skirta tiems, kurie nori naudotis keliais skirtingais protokolais, bet viena programa. 

@@ -1,0 +1,310 @@
+2011-12-01 alga
+  Manto prašymu, pataisyta vienintelė validacijos klaida.  Du kartus buvo naudojamas elemento id="akl".
+  Meniu skripte pakeičiau, kad a elementų idai būtų %s_link, o ne %s, kur %s yra obj.getName().
+
+2009-12-29 mgedmin
+  Padarytas upgrade į Zope 2.12 + daaaug burtų, kad veiktų lietuviškos raidės MSIE naudotojams.
+  Detalės: visur, kur PT yra naudojama "structure xxx" kviečiama here.fix_encoding(); visur,
+  kur PythonScript spausdinamas ne-Unikodinis tekstas, daroma "return context.fix_encoding(printed)".
+  Negarantuoju, kad absoliučiai visur viskas pataisyta.
+
+2009-11-07 jaro
+  Atnaujinau nuorodų sąrašą, pridėjau mandriva, liet-it bei ubuntu.lt, kai ką užkomentavau, nes
+  puslapiai jau neegzistuoja.
+
+2009-07-26 jaro
+  Pataisiau kelis mistype'us GPL tekste.
+
+2009-07-25 jaro, mgedmin
+  Padarytas upgrade į Zope2.10 + šiek tiek magijos, kad viskas veiktų.
+
+2007-07-17 mgedmin
+  Kristinos prašymu pakeičiau naujienų URLą cron skripte į http://planet.akl.lt/atom.xml.
+  Netestavau, ar veikia.
+
+2007-02-19 ristinak
+  Pakeičiau tekstą apie AKL, kuris matomas puslapio dešinėje (failas default).
+
+2007-01-04 mgedmin
+  Penkios naujienos iš blog.akl.lt rodomos pirmajame puslapyje.
+  Realizacijos detalės: akl_blog (page template'as) formatuoja, get_akl_blog (external metodas)
+  parsina iš diske gulinčio RSS failo, cron scriptas (/etc/cron.d/update-akl-blog) kas valandą
+  atnaujina failą diske su wgetu.
+
+2007-01-29/30 jaro ir RQ
+  Pakeitėm dizainą į vėb 2.0 bėta versiją. ;D
+
+2007-01-24 jaro
+  Pirmame puslapyje naujienų stulpelį apkeičiau vietomis su pasisveikinimo stulpeliu.
+
+2006-12-30 jaro
+  Prisukau naują puslapio statistiką. T.y. įdėjau į index_html puslapį javascriptą.
+
+2006-12-04 jaro
+  Įdėjau LGPL vertimą.
+
+2006-07-27 mantas
+Įdėjau www.imfederation.com mažiausią logo, kaip ten jie rekomenduoja About IMF skiltyje
+
+2006-05-02 jaro
+  Padariau, kad kai žiūri pilną naujieną rodytu jos autorių.
+
+2006-02-27 jaro
+  Padariau, kad programos/add praneštu, jog programos aprašymas bus publikuotas tik
+po to, kai jį peržiūrės vienas iš AKL narių.
+
+2005-12-31 jaro
+  Perkeliau kai ką iš akl-new.
+
+2005-11-14 jaro
+  Parariau wikio RecentChanges RSS. (http://wiki.akl.lt/rss)
+
+2005-07-23 jaro
+  Bandau webdav.
+
+2005-07-09 jaro
+  Patobulinau pirmojo puslapio išvaizdą. Dabar naujienos yra labiau išskirtos.
+
+2005-07-06 jaro
+  Patvarkiau apie->narystė. Bei sudėjau Sauliaus Gražulio atsakymus į klausimą 
+kodėl verta būti AKL nariu. Iš susirašynėjimo mailais su vienu iš narių išėjo 
+neblogas DUK :)
+
+jaro
+  Padėtas visuiotinio susirinkimo protokolas
+
+jaro
+  Saulius Gražulis sukūrė 2005 folderį, ten laikysime 2005 metų dokumentus.
+  Kokiu būdų ateityje neturėtu pradinginėti nuorodos į akl dokumentus, net jei 
+  pertvarkysime puslapį.
+
+2005-05-12 jaro
+  Taisiau info apie visuotinį susirinkimą.
+  Taisiau info apie komitetus.
+
+2005-05-06 jaro
+  Taisiau CSS. pakeičiau px į em, kad darant ctrl++ didetu ne tik tekstas, bet ir puslapio plotis.
+  Šiaip keli žmones skundėsi, kad turi didele gebą ir jiems sunku skaityti akl.lt, dabar matyt bus geriau.
+
+2005-05-04 jaro
+  Truputi taisiau /naujienos/trupmai, kad atitiktu w3c reikalavimus.
+  Validavimo klaidų sumažėjo, bet dar nemažai (14) liko :(
+
+2005-05-04 jaro
+  Bandau padaryti, kad pirmo puslapio informacija būtų skaitomesnė. 
+  Suskirsčiau viską į blokelius.
+
+2005-04-25
+  Sukurta apdovanojimo balsavimų forma.
+
+2005-04-22 jaro
+  Patvarkiau apie akl (visus failus sukišau į files folderį). Parašiau apie visuotinį narių susirinkimą 2005.
+
+2005-04-20 jaro
+  Keli dizaino pataisymai. 
+
+2005-04-19 mantas
+  Pataisiau Dia programos ir Skaityklos naujos dokumentacijos nuorodas
+
+2005-04-11 jaro
+  Idėjau nuorodą į suselinux.lt
+
+2005-03-31 meskiukas
+  Padariau rss naujienų eksportavimą (http://www.akl.lt/naujienos/rss).
+
+2005-03-11 jaro
+  Pataisiau PostgreSQL aprašymą.
+  
+2005-02-21 meskiukas
+  Pradėjau kurti parašų rinkimo prieš PĮ patentus formą.
+
+2004-10-25 mantas
+  Į dokumentaciją įdėjau atsarginių kopijų darymo sistemos BackupPC aprašymą rusų kalba.
+
+2004-10-19 mantas
+  Įdėjau naujieną apie AKL ir Infobalt2004, valio ;).
+
+2004-07-15 romena
+  Turbūt užvakar pakaitaliojau apie Stallmano seminarą aprašymą.
+  Šiandien papildžiau narystę apie juridinius asmenis.
+  Šiandien įkėliau įstatų naujausią redakciją, kokią turėjau (gali būti, kad ją 
+dar reiks keisti)
+
+2004-07-01 romena
+  Pirmadienį sudėjau nuotraukas iš Vokietijos, buvau pamiršusi. Ir dar prieš kokią savaitę sudėjau 
+nuotraukas iš Biržų diegynės.
+  Trumpai prie seminarų aprašiau dėl Stallmano ir pakeičiau default puslapį.
+  Sukūriau komitetus "apie" srityje ir trumpai parašiau.
+
+2004-06-01 romena
+  Sukūriau ChangeLogWiki
+  Pakeičiau eVitamins.html, sukūriau naują - eVitamins_forNGOs.html, įdėjau naują logą į default
+
+2004-05-28 romena
+  Prirašiau prie mokomųjų programų Moodle ir prie projektavimo - ArgoUML.
+  Beje, tas naujienose "daugiau" yra levota, kaip ir anksčiau tai sakiau
+
+2004-05-06 mgedmin
+  Pataisiau nuorodą į balanso PDFą bei vieną neapsaugotą ampersandą apie/revizoriaus_isvada.html
+
+2004-04-01 mantas
+  Įdėjau nuorodą į AKL produktų klaidų/pasiūlymų pranešimų sistemą (http://info.akl.lt/roundup/)
+  prie OpenDict puslapio
+
+2004-03-31 jaro
+  Pridėjau užraša "Daugiau..." prie naujienų pirmame puslapyje.
+
+2003-12-16 jaro
+  Pašalinau užrašą "Plačiau..." prie naujienų.
+
+2003-11-30 romena
+  Atidaryta Skaitykla viešai. O šiaip vos ne kasdien vyksta koks nors pataisymas www
+
+2003-11-10 romena
+  Pildžiau Skaityklą
+
+2003-11-09 romena
+  Dėjau info į Skaityklą
+
+2003-11-07 jaro
+  Į kiekviena sukurta skaityklos folderį teko įdėti ( ir truputi pakeisti )
+  papildoma submenu, kad šoninis menu gražintu ten kur reikia. 
+
+2003-11-07 romena
+  Jaro sukūrė sritį Skaitykla su keturiais meniu punktais
+
+2003-11-03 romena
+  Pataisiau Seminarų ir Diskusijų aprašymus, sukėliau pranešimus, sudėjau nuorodas į foto ir pranešimus.
+  Papildžiau Nuorodas. Sukūriau vieną kategoriją.
+  Įdėjau vieną programą.
+  Sutvarkiau Paslaugų dalį pagal CD
+  Dar pakoregavau tekstuką default puslapyje ir Laisvų programų CD šiek tiek.
+
+2003-11-02 romena
+  Sudėjau visas „pamestas“ programas, kurios nebuvo sukeltos (daug tokių buvo). 
+  Sukūriau vieną kategoriją. Sudėjau kategorijas į listą.
+  Pertvarkiau nuorodas - kategorijas ir pačias nuorodas, daug pildžiau.
+
+2003-10-29 romena
+  Viliukas grąžino rėmėjus, o aš pakeičiau logus tenais. Ir vėl turime rėmėjus :)
+
+2003-10-25 jaro
+  Pataisiau LPCD2 aprašymą. Patikslinau nuorodas.
+
+2003-10-22 jaro
+  Vi ir RQ pakeitė struktūrą, bei papildė programu skilti.
+  Atsirado Paslaugu skiltelė. ( Prapuolė rėmėjai, gal reikia gražinti??? )
+
+2003-10-19 romena
+  Sukūriau projektą parodai Infobalt 2003 (anglų k.), trumpai aprašiau ir įdėjau į listą. Dabar nuolat šiek tiek 
+  taisinėju su Infobalt susijusią info lietuvių k. dalyje
+
+2003-10-08 romena
+  Sukūriau projektą parodai Infobalt 2003 (lietuvių k.), trumpai aprašiau ir įdėjau į listą.
+  Ir dar perdariau CD aprašymą, ir dar sukūriau Seminarų ir Diskusijų projektus. Ui, kaip 
+  gerai, kad vienu įkvėpimu pavyko :)
+
+2003-10-02 jaro
+  Ištriniau protesto akciją, bei į pagrindini vėl 
+  Laisvų Programų CD įdėjau.
+
+2003-10-02 romena
+  wikyje taisiau įvairią info. www įrašiau keletą sakinukų Laisvų programų CD ir Installfest projektuose.
+
+2003-09-22 romena
+  wikyje taisiau daug informacijos įvairiuse projektuose (InstallFest Kaune, LinLed, Seminarai SVV Vilniuje), taip pat 
+  ir pagrindiniame puslapyje.
+  Be to, praeitą savaitę Albertas sukūrė statistiką: http://ideja.akl.lt/webalizer
+
+2003-09-22 romena
+  Pataisiau informaciją Projektų dalyje apie InstallFest
+
+2003-09-19 marius
+  Pataisiau http://www.akl.lt/projektai/Anketa.txt charsetą
+
+2003-09-12 romena
+  Įdėjau logotipus OpenDicto. Reikia dar akl.lt pagrindiniame puslapyje įdėti logo ir aprašymą.
+
+2003-09-09 romena
+  Prirašiau tekstų apie OpenDict projektą ir žodyną. Sukūriau Projektą, Jaro sukūrė prie programų.
+
+2003-09-01 romena
+  Pataisinėjau tekstus po WITFOR'o.
+
+2003-08-31 mantas
+  Išverčiau protestą prieš patentus.
+
+2003-08-29 jaro
+   Itraukiau AKL'a į akciją prieš patentus. Lietuviškas ir angliškas default
+  puslapiai pakeisti, ten įdėjau protesto akcijos baneriuką ir tekstą.
+
+2003-08-28 romena
+  Pakeičiau Patikimų sprendimų logo
+
+2003-08-27 romena
+  Pataisinėjau paskutiniuosius tekstukus: default, eVitaminai ir WITFOR (LT ir EN).
+
+2003-08-27 jaro
+  Lietuviškas puslapis: 
+    Pakeistas paveiksliukas pagrindiniame puslapyje.
+    Trupučiuka pakeistai pagrindinio puslapio aprašymas (projektų dalis)
+    Įdėjau eVitaminu ir WitFor aprašymą į projektų skiltelį.
+    Įdėjau Lema logo prie rėmėjų.
+  Angliškas puslapis:
+    Įdėtas default puslapiukas.
+    Pataisyti ir išskaidyti projektų aprašymai, bei aprašytas WitForas.
+    Įdėtas Lema logo į sponsors.
+  Sena puslapi susaugojau kaip akl_iki_witfor
+    
+2003-08-24 jaro
+  Pridėjau eVitamins skiltelį angliškajame variante.
+  Įdėjau eVitamins aprašymą
+
+2003-08-24 mantas
+  Pataisiau anglišką tekstą, nekiltų problemų su Free Software Foundation - 
+  AKL tikslas yra skatinti laisvos programinės įrangos,
+  kitaip dar vadinamos atviro kodo programine įranga, naudojimą.
+  (žr. komentarą prie LAKA: http://www.fsfeurope.org/projects/education/education.en.html)
+
+2003-08-24 romena
+  Pataisinėjau puslapius apie mūsų rėmėjus (LT ir EN). Dar trūksta 1 logotipo.
+
+2003-08-24 alga
+  Priverčiau anglišką dalį veikti, pataisiau kai kuriuos angliškus tekstus.
+
+2003-07-14 mantas
+  Senai buvau beprisėdęs prie akl.lt puslapio tvarkymo...
+  Patobulinau "Vertimo Pradžiamokslį"
+  Padariau, kad iš pagr. puslapio būtų aiškiau patektį į naujienų puslapį - t.y. įdėjau linką "Visos naujienos" ir dar kai ką ;)
+
+2003-04-04 mantas
+  Kadangi niekas nerašo apie AKL dalyvavimą parodoje, teko tai padaryti pačiam...
+  Reiktų įdėti nuorodą į files.akl.lt prie programų skyriaus bei padėkoti Info 2003 organizatoriams.
+
+2003-04-09 alga
+  Prikūriau šiek tiek istorijos į apie/apie.html.  Dar viena nuotrauka!
+
+2003-04-04 mantas
+  Papildžiau TODO, įdėjau"SAP DB" bei "PostgreSQL"
+
+2003-04-02 mantas
+  Įdėjau sodipodi prie grafinių programų
+
+2003-04-01 mantas
+  Papildžiau TODO ir naujienas
+
+2003-03-29 mantas
+  Sukūriau TODO bylą ir parašiau ten biški planų (reikia naudojančių AKP lietuvoje įmonių sąrašo bei Linux OS skyrelio)
+
+2003-03-28 mantas
+  Pridėjau finansinių ir apskaitos programų sekciją bei 2 programas jGnash ir GnuCash
+
+2003-03-21 mantas
+  Patvarkiau įrankių puslapį, įdėjau FTP kliento "FileZilla" bei bylų ir tinklalapų parsisiuntimo programų 
+  "WackGet" ir "GetLeft" aprašymus, taip pat nuorodas į www.happypenguin.org ir puikų žaidimą - GL-117
+
+2003-03-18 alga
+  Įdėjau naujienas apie AKL steigiamąjį susirinkimą ir servo pakėlimą.
+
+2003-03-17 alga
+  Prikėliau servą.

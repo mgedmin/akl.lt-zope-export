@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 636912627
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 08:34:44.701000 GMT+3
+logo_url:string = 
+mail:string = rkac@fm.vtu.lt
+moder_denied:string = 
+moder_ok:string = 
+organization:string = VGTU FMF med\xc5\xbeiag\xc5\xb3 atsparumo katedra
+position:string = prof. habil. dr., katedros ved\xc4\x97jas
+status:string = vyr_org
+title:string = Rimantas Ka\xc4\x8dianauskas
+url_asm:string = 
+url_org:string = http://www.vtu.lt/fakultetai/fmf/mak/index.php?id=1

@@ -1,0 +1,9 @@
+[properties]
+author:string = Jurgis Pralgauskis
+blurb:text = Baland\xc5\xbeio 26d. Kaune \xc4\xafvyks Python entuziast\xc5\xb3 konferencija. Kaip \xc5\xbeinia Python yra m\xc4\x97giamas Ubuntu k\xc5\xabr\xc4\x97j\xc5\xb3 beigi AKL steig\xc4\x97j\xc5\xb3 :). <br /><br />\nKvie\xc4\x8diame dalyvauti profesionaus ir m\xc4\x97g\xc4\x97jus!\n<br/><br/>Daugiau informacijos <a href="http://pycon.akl.lt/">pycon.akl.lt</a>
+categories:multiple selection = (\'Programavimas\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2009-04-16
+email:string = jurgis@akl.lt
+profesionalams:boolean = True
+title:string = Python konferencija PyCon-LT 2009

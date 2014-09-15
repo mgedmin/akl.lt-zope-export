@@ -1,0 +1,9 @@
+<p>Gegužės 1 buvo oficialiai išleista nauja stabili laisvos operacinės sistemos OpenBSD versija – 3.9.</p>
+<p>Naujovių OpenBSD 3.9 turi daugybę: naujų platformų palaikymas (kai kurių Apple Macintosh G5),  aparatinės 
+įrangos naujos tvarkyklės (divers), naujos paslaugų programos (utilities) (perrašytas ftp-proxy, dabar su 
+tftp-proxy sdiff, getent), naujas funkcionalumas (ancontrol visiškai palaikomas ifconfig), tobulesnis kodas, 
+nauja PĮ (OpenSSH 4.3, OpenBGPD 3.9, OpenOSPFD 3.9) ir kt.</p>
+
+<p>Naujos versijos detales bei diegimo informaciją galima rasti <a href="http://openbsd.org">openbsd.org</a>.</p>
+
+<p>Šaltinis: <a href="http://www.nixp.ru">http://www.nixp.ru</a></p>

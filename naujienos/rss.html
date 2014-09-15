@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC 
+    "-//W3C//DTD XHTML 1.1 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title tal:content="template/title">The title</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+  <form action="rss" method="get">
+    <table>
+    <tr>
+      <th>Naujienų kiekis</th>
+      <th>Naujienų patikimumas</th>
+      <th>Naujienų kategorijos</th>
+      <th>Rūšiavimas</th>
+    </tr>
+    <tr>
+      <td>
+        <label>
+          <input type="radio" name="all" value="0" checked="checked"/>
+          20 naujausių
+        </label><br/>
+        <label>
+          <input type="radio" name="all" value="1"/>Visos naujienos
+        </label>
+      </td>
+      <td>
+        <label>
+          <input type="radio" name="wait" value="0" checked="checked"/>
+          Patikrintos naujienos
+        </label><br/>
+        <label>
+          <input type="radio" name="wait" value="1"/>
+          Nepatikrintos naujienos
+        </label>
+      </td>
+      <td>
+        <select name="cat" multiple="1" size="5">
+          <tal:block tal:repeat="item here/map_categories">
+            <option tal:attributes="value python:item[1]"
+                    tal:content="python:item[0].replace('&nbsp;', ' ')"
+                    selected="selected"/>
+          </tal:block>
+        </select>
+      </td>
+      <td>
+        <label>
+          <input type="checkbox" name="wait" value="0"/>
+          Pateikti atvirkščia tvarka
+        </label><br/>
+      </td>
+    </tr>
+    </table>
+    <br/>
+    <input type="submit" value="Gauti RSS"/>
+  </form>
+</body>
+</html>
+<!--
+# vim: expandtab ts=2 sw=2 sts=2
+-->

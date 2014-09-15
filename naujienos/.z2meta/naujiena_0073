@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p><a href="http://www.aegir-cms.org/">\xe2\x80\x9eAegir\xe2\x80\x9c</a> turinio valdymo sistemos projektas i\xc5\xa1leido programos 1.0 versij\xc4\x85. Paremta GNU GPL licencija, ji dirba <a href="http://www.midgard-project.org/">\xe2\x80\x9eMidgard\xe2\x80\x9c</a> ir Linux/Apache/MySQL/PHP (LAMP) platformoje.\n</p>
+date:string = 2003-09-02
+title:string = \xe2\x80\x9eAegir\xe2\x80\x9c turinio valdymo sistema

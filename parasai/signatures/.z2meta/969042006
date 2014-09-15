@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 513097425
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 08:46:40.581000 GMT+3
+logo_url:string = 
+mail:string = vaidas.skucas@stud.ktu.lt
+organization:string = 
+position:string = Studentas (KTU taikomoji matematika)
+status:string = fiz_asm
+title:string = Vaidas Sku\xc4\x8das
+url_asm:string = 
+url_org:string = 

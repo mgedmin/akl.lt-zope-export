@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC 
+    "-//W3C//DTD XHTML 1.1 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html metal:use-macro="container/main_template/macros/main">
+<tal:block metal:fill-slot="body">
+  <h3 tal:content="here/title_or_id"/>
+  <ul>
+    <li><a href="/parasai">Titulinis puslapis</a></li>
+    <li><a href="all_signatures">Visi parašai</a></li>
+    <li><a href="all_persons">Fizinių asmenų parašai</a></li>
+    <li><a href="all_organisations">Įmonių parašai</a></li>
+  </ul>
+</tal:block>
+</html>

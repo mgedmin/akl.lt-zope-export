@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:06+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-10-16T17:05:29+00:00
+last_editor:string = jaro
+last_editor_ip:string = 127.0.0.1
+last_log:string = taisiau gramatik\xc4\x85
+parents:lines = [\'www.akl.lt\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = duk_floss

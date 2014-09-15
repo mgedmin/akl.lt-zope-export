@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 661887771
+confirmed:boolean = 1
+gen_date:date = 2005/07/09 20:40:1.197000 GMT+3
+logo_url:string = 
+mail:string = esu@ostax.org
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Edmundas \xc5\xa0ostakas
+url_asm:string = http://www.ostax.org
+url_org:string = 

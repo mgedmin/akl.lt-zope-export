@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 299298795
+confirmed:boolean = 1
+gen_date:date = 2005/05/28 12:24:51.401000 GMT+3
+logo_url:string = 
+mail:string = valiuzas@hotmail.com
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Valentas Karpinskis
+url_asm:string = 
+url_org:string = 

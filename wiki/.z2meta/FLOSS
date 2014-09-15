@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:08+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-08-28T09:46:49+00:00
+last_editor:string = jaro
+last_editor_ip:string = 127.0.0.1
+last_log:string = Id\xc4\x97jau angli\xc5\xa1k\xc4\x85 teksta kuri reikia i\xc5\xa1versti
+parents:lines = [\'www.akl.lt\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = FLOSS

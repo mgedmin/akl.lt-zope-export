@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 450432334
+confirmed:boolean = 0
+gen_date:date = 2005/06/10 16:25:39.037000 GMT+3
+logo_url:string = http://www.siauliuvandenys.lt
+mail:string = ervidas@siauliuvandenys.lt
+organization:string = UAB Siauliu vandenys
+position:string = derintojas
+status:string = fiz_asm
+title:string = Ervidas Mikenas
+url_asm:string = 
+url_org:string = http://www.siauliuvandenys.lt

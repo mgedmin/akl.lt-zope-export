@@ -1,0 +1,4 @@
+[properties]
+IP:string = 10.10.10.210, 217.117.19.14
+balsai:string = logo3,logo7,logo4
+title:string = 

@@ -1,0 +1,9 @@
+[properties]
+author:string = Erika
+blurb:text = Kompanijos IDC atlikti tyrimai rodo, kad Europos kompanijos vis da\xc5\xbeniau pasirenka atviro kodo \nprogramin\xc4\x99 \xc4\xafrang\xc4\x85 ne d\xc4\x97l ekonomini\xc5\xb3 prie\xc5\xbeas\xc4\x8di\xc5\xb3, o d\xc4\x97l \xc5\xa1i\xc5\xb3 program\xc5\xb3 augan\xc4\x8dios kokyb\xc4\x97s ir lankstumo. \nIDC duomenimis, \xc5\xa1iuo metu versle pla\xc4\x8diausiai yra naudojamos \xc4\xafvairios atviro kodo \nduomen\xc5\xb3 bazi\xc5\xb3 valdymo sistemos. Jas naudoja vir\xc5\xa1 33% kompanij\xc5\xb3.
+categories:multiple selection = ()
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x84\\xc2\\x97s&nbsp;teis\\xc3\\x84\\xc2\\x97s\')
+date:string = 2006-01-25
+email:string = erika@akl.lt
+profesionalams:boolean = 0
+title:string = Tre\xc4\x8ddalis Europos kompanij\xc5\xb3 naudoja atviro kodo duomen\xc5\xb3 bazi\xc5\xb3 valdymo sistemas

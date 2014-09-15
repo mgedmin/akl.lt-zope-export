@@ -1,0 +1,9 @@
+[properties]
+author:string = Kristina Kudria\xc5\xa1ova
+blurb:text = Korporacija Microsoft paskelb\xc4\x97 apie oficial\xc5\xb3 operacin\xc4\x97s sistemos Windows Embedded CE 6.0 i\xc5\xa1leidim\xc4\x85. \xc5\xa0i naujiena neb\xc5\xabt\xc5\xb3 pasteb\xc4\x97ta AK ap\xc5\xbevalginink\xc5\xb3, jei ne viena aplinkyb\xc4\x97: CE 6.0 i\xc5\xa1eities tekstai (apie 3.9 milijonai eilu\xc4\x8di\xc5\xb3) dabar visi\xc5\xa1kai prieinami licencijos Shared Source s\xc4\x85lygomis kompanijos partneriams.
+categories:multiple selection = (\'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2006-11-02
+email:string = kristina@akl.lt
+profesionalams:boolean = False
+title:string = Microsoft atveria Windows i\xc5\xa1eities tekstus

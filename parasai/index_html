@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC 
+    "-//W3C//DTD XHTML 1.1 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html metal:use-macro="container/main_template/macros/main">
+  <tal:block metal:fill-slot="body">
+    <script type="text/javascript" language="javascript">
+    //<!--
+        function checkConfirm() {
+            yes = document.getElementById("agree_yes");
+            no = document.getElementById("agree_no");
+            if (yes.checked || no.checked) {
+                return true;
+            } else {
+                alert("Jūs nepažymėjote, ar sutinkate, kad Jūsų įrašas būtų " +
+                      "patalpintas viešoje rėmėjų lentelėje Internete. " +
+                      "Maloniai prašome pasirinkti vieną iš galimybių. " +
+                      "Žinoma, mes kviečiame Jus prisijungti prie " +
+                      "paskelbusiųjų savo apsisprendimą Internete -"+"- " +
+                      "tik garsiai pareikšdami savo nuomonę, apginsime savo " +
+                      "interesus. Mes nemanome, kad dėl to gali nukentėti " +
+                      "kieno nors interesai -"+"- atvirkščiai.\n\n" +
+                      "Jeigu nesutinkate viešai paskelbti savo " +
+                      "apsisprendimo, Jūsų palaikymo balsas bus įtrauktas į " +
+                      "balsų statistiką ir popierinėje kopijoje perduotas " +
+                      "Lietuvos ministrams ir Europarlamentarams, bet " +
+                      "Internete nebus skelbiamas.");
+                return false;
+            }
+        }
+
+        // pagal asmens tipą, prasmingiau įvardina formos laukus
+        function applyStatus2FormLabels(){
+          signup_form = document.getElementById("signup");
+          if (signup_form.status.value == "fiz_asm"){
+            document.getElementById( "label_org_name" ) .innerHTML = "Darbovietės pavadinimas:"                ; 
+            document.getElementById( "label_org_URL" )  .innerHTML = "Darbovietės interneto puslapis:"         ; 
+            document.getElementById( "label_org_logo" ) .innerHTML = "Darbovietės logotipo adresas internete:" ; 
+            document.getElementById( "label_name" )     .innerHTML = "Vardas, pavardė*:"                       ; 
+            document.getElementById( "label_position" ) .innerHTML = "Jūsų užsiėmimas:"                        ; 
+          }                                                                                 
+          else if (signup_form.status.value == "imone") {
+            document.getElementById( "label_org_name" ) .innerHTML =  "Įmonės pavadinimas*:"  ;
+            document.getElementById( "label_org_URL" )  .innerHTML =  "Įmonės interneto puslapis:"           ;
+            document.getElementById( "label_org_logo" ) .innerHTML =  "Įmonės logotipo adresas internete:"   ;
+            document.getElementById( "label_name" )     .innerHTML =  "Vardas, pavardė*:"                    ;
+            document.getElementById( "label_position" ) .innerHTML =  "Jūsų pareigos*:"                      ;
+           }                                                                                  
+          else {
+            document.getElementById( "label_org_name" ) .innerHTML =  "Organizacijos (padalinio) pavadinimas*:"  ;
+            document.getElementById( "label_org_URL" )  .innerHTML =  "Organizacijos (padalinio) interneto puslapis:"           ;
+            document.getElementById( "label_org_logo" ) .innerHTML =  "Organizacijos (padalinio) logotipo adresas internete:"   ;
+            document.getElementById( "label_name" )     .innerHTML =  "Vardas, pavardė*:"                    ;
+            document.getElementById( "label_position" ) .innerHTML =  "Jūsų pareigos*:"                      ;
+           }                                                                                  
+        }
+
+    //-->
+    </script>
+
+    <div tal:replace="structure here/akl_atributai.htmi" />
+
+    <center>
+    <h1>
+    <a href="#paremti">
+        Kviečiame Jus paremti šią AKL poziciją programinės įrangos patentų klausimu!
+    </a>
+    <a name="intro"></a>
+    </h1>
+    </center>
+     
+    <div tal:replace="structure here/tekstai/akl-sw-pat-LT-short.htmi" />
+
+    <p>
+        <a href="#remejai">AKL pozicijos rėmėjai</a>
+    (iš viso 
+      <span tal:define="all_supporters here/getValidSignatures"
+            tal:replace="python:len(all_supporters)" />.   
+     Organizacijų:
+       <a href="#organizacijos"><span tal:define="global org_supporters  python:here.getValidSignatures('organizacijos')"
+                                      tal:replace="python:len(org_supporters)" /></a>, 
+     fizinių asmenų: 
+       <a href="#fiziniai_asmenys"><span tal:define="global pers_supporters python:here.getValidSignatures('fiz_asm')"
+                                         tal:replace="python:len(pers_supporters)" /></a>
+    ).
+
+    </p>
+
+    <p>
+        <a href="akl-sw-pat-LT.html">
+            Čia rasite AKL argumentaciją ir nuorodas į šaltinius.
+        </a>
+        <br />
+        <a href="http://wiki.akl.lt/PatentaiDiskusijos">
+            O čia - lietuviškus straipsnius bei 
+            diskusijas PĮ patentų tema
+        </a> 
+        <br />Norintys populiarinti šią akciją, gali savo puslapyje pateikti 
+        <a href="http://moodle.projektas.lt/pries_PI_patentus/banneriai_platinimui.html">pasirinktą "bannerį". </a> 
+
+    </p>
+
+    <p>
+        Pilną dokumento versiją galite parsisiųsti 
+        <a href="tekstai/akl-sw-pat-LT.html">HTML</a>,
+        <a href="tekstai/akl-sw-pat-LT.pdf">PDF</a>
+        (<a href=
+        "http://www.adobe.com/products/acrobat/readstep2.html"
+        >Acrobat Reader</a>,
+        <a href="http://wwwthep.physik.uni-mainz.de/~plass/gv/">GV</a>) ar
+        <a href="tekstai/akl-sw-pat-LT.sxw">SXW</a>
+        (<a href="http://www.openoffice.lt/">Open Office org</a>)
+        formatu.
+    </p>
+
+<!-- ========================================== --> <hr size="3" />
+
+    <a name="paremti"></a>
+    <p>
+      Jūs taip pat galite pasisakyti 
+      <a href=
+      "http://www.nosoftwarepatents.com/lt/m/intro/index.html" >
+      prieš programinės įrangos (PĮ) patentus</a>
+      ir išreikšti savo palaikymą AKL PĮ patentų klausimu. Tai padarysite, jei
+      užsiregistruosite <a href="akl-sw-pat-LT.html" >AKL pozicijos</a>
+      rėmėju, užpildę šią formą (svarbiausi laukeliai pažymėti žvaigždute):
+    </p>
+    <center>
+
+    <form id="signup" action="addSignature" method="post">
+        <table border="0">
+          <tr>
+            <td align="right">Statusas*:</td>
+            <td>
+              <select name="status" onChange="applyStatus2FormLabels();">
+                <option value="fiz_asm">Fizinis asmuo</option>
+                <option value="imone">Įmonė</option>
+                <option value="vyr_org">Vyriausybinė organizacija</option>
+                <option value="biudzet">Biudžetinė įstaiga</option>
+                <option value="vis_org">Visuomeninė organizacija</option>
+                <option value="nepelno">Ne pelno siekianti organizacija</option>
+                <option value="kita">Kita</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td align="right"><span id="label_org_name">Įmonės, organizacijos, padalinio pavadinimas*:</span></td>
+            <td>
+              <input type="text" name="organization" size="40" />
+            </td>
+          </tr>
+          <tr>
+            <td align="right"><span id="label_org_URL">Įmonės interneto puslapis:</span></td>
+            <td>
+              <input type="text" name="url_org" value="http://" size="40" />
+            </td>
+          </tr>
+          <tr>
+            <td align="right"><span id="label_org_logo">Įmonės logotipo adresas internete:</span></td>
+            <td>
+              <input type="text" name="logo_url" value="http://" size="40" />
+            </td>
+          </tr>
+          <tr>
+            <td align="right"><span id="label_name">Vardas, pavardė*:</span></td>
+            <td>
+              <input type="text" name="name" size="40" />
+            </td>
+          </tr>
+          <tr>
+            <td align="right"><span id="label_position">Jūsų pareigos ar užsiėmimas*:</span></td>
+            <td>
+              <input type="text" name="position" size="40" />
+            </td>
+          </tr>
+          <tr>
+            <td align="right">Asmeninis interneto puslapis:</td>
+            <td>
+              <input type="text" name="url_asm" value="http://" size="40" />
+            </td>
+          </tr>
+          <tr>
+            <td align="right" valign="top">El. paštas* :
+              </td>
+            <td>
+              <input type="text" name="mail" size="40"/>
+              <br/><small>(reikalinga parašui patvirtinti)</small><br/><br/>
+            </td>
+           </tr>
+          <tr>
+            <td align="right">Pastabos:<br/> (Galite paminėti, kokius AK produktus naudojate.)</td>
+            <td>
+              <textarea name="notes" cols="40" rows="5"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td align="right">
+              Sutinku, kad mano duomenys (be el.pašto)<br/>
+              būtų paskelbti šioje svetainėje*:
+            </td>
+            <td>
+              <input id="agree_yes" type="radio" name="agree" 
+                     value="yes" checked="checked"/>Taip
+              <input id="agree_no" type="radio" name="agree" 
+                     value="no"/>Ne
+            </td>
+          </tr>
+        </table>
+        <input type="submit" value="Tapti rėmėju" 
+               onclick="return checkConfirm();"/>
+        <input type="reset" value="Išvalyti"/>
+      </form>
+      <script type="text/javascript" language="javascript">
+      // <!--
+        yes = document.getElementById("agree_yes");
+        yes.checked = false;
+        applyStatus2FormLabels();
+      // -->
+      </script>
+
+    </center>
+        <p>
+    Jūsų el. pašto adresas bus naudojamas tik Jūsų parašo autentiškumui 
+patvirtinti, siekiant, kad Jūsų vardu nepasirašytų kas nors kitas. El. pašto
+adresas nebus perduodamas tretiems asmenims ar naudojamas kitiems tikslams.
+    </p>
+    <p>
+Jūsų el. pašto adresas bus laikomas AKL duomenų bazėje ir jos rezervinėse kopijose tol, 
+ko tęsis ši akcija, kad išvengtume dublikatų. Pasibaigus šiai akcijai, 
+informacija apie Jūsų el. pašto adresą bus sunaikinta.
+    </p>
+    <p>
+Kiti Jūsų pateikti duomenys bus pridėti prie kreipimosi spausdintos kopijos ir 
+pateikti Lietuvos ministrams, europarlamentarams ir Seimo nariams kaip Jūsų 
+valios liudijimas. Elektroninę tokio dokumento su parašais versiją mes 
+paliksime AKL archyvuose; jei nenorite, kad Jūsų rekvizitai liktų tokiuose 
+archyvuose, mes Jūsų pageidavimu galime rekvizitus ištrinti, pažymėdami, kad 
+'rėmėjo duomenys išimti iš archyvinės el. kopijos jo prašymu'.
+    </p>
+    <p>
+      Jūs galite bet kuriuo metu pasitraukti iš AKL rėmėjų, įvedę savo el. pašto adresą į šią formą
+      (įvestu adresu bus atsiųstos tolesnės instrukcijos, kaip atšaukti narystę palaikančiųjų gretose):
+   </p>
+    <center>
+      <form action="deleteSignature" method="post">
+        <input type="text" name="email"/>
+        <input type="submit" value="Pasitraukti iš AKL rėmėjų"/>
+      </form>
+    </center>
+
+    <p>
+        Kilus problemoms ar klausimams, kreipkitės į
+        <a href="mailto:parasai@ideja.akl.lt">grazulis&nbsp;at&nbsp;akl&nbsp;tšk&nbsp;lt</a>.
+    </p>
+
+<!-- ========================================== --> <hr size="3" />
+
+    <h2><a name="supporters"></a><a name="remejai"></a>Rėmėjai </h2> 
+   <h4><a name="organizacijos">&nbsp;</a>10 paskutinių užsiregistravusių organizacijų</h4>
+    <p><a href="visi_parasai#organizacijos">Pilnas organizacijų sąrašas</a>
+    </p> 
+    <tal:block tal:define="signatures_org python:here.getPublishableSignatures(status='organizacijos')">
+    <table border="1" width="100%">
+      <tr>
+        <th>Nr.</th>
+        <th>Organizacija</th>
+        <th>Statusas</th>
+      </tr>
+      <tal:block tal:repeat="sig python:signatures_org[-10:]">
+        <tr tal:define="agree sig/agree | nothing" 
+                       tal:condition="agree">
+            <td align="center" 
+                tal:define="number repeat/sig/number; 
+                            length python:len(signatures_org); 
+                            index python:number + length - 10" 
+                tal:content="string:${index}."/>
+            <td>
+              <img tal:condition="python:sig.logo_url != ''" alt=""
+                   tal:attributes="src sig/logo_url"
+                   height="50"/>
+              <a tal:condition="python:sig.url_org != ''"
+                 tal:attributes="href sig/url_org"
+                 tal:content="sig/organization"></a>
+              <span tal:condition="python:sig.url_org == ''"
+                    tal:replace="sig/organization"/>
+              (atstovauja <span tal:replace="python:sig.position.lower()"/>)
+            </td>
+            <td tal:content="python:here.getStatus(sig.status)"/>
+            
+        </tr>
+      </tal:block>
+    </table>
+    Iš viso palaikančių organizacijų: <strong><span tal:replace="python:len(org_supporters)"/></strong> (kai kurių rėmėjų duomenys, jų pageidavimu, viešai nerodomi).
+    </tal:block>
+
+
+<!-- ======================================= -->
+
+    <h4><a name="fiziniai_asmenys">&nbsp;</a>10 paskutinių užsiregistravusių fizinių asmenų</h4>
+    <p><a href="visi_parasai#fiziniai_asmenys">Pilnas fizinių asmenų sąrašas</a>
+    </p> 
+    <tal:block tal:define="signatures_fiz_asm python:here.getPublishableSignatures(status='fiz_asm')">
+    <table border="1" width="100%">
+      <tr>
+        <th>Nr.</th>
+        <th>Vardas, pavardė</th>
+        <th>Užsiėmimas, darbovietė</th>
+      </tr>
+      <tal:block tal:repeat="sig python:signatures_fiz_asm[-10:]">
+        <tr tal:define="agree sig/agree | nothing" 
+                       tal:condition="agree">
+            <td align="center" 
+                tal:define="number repeat/sig/number; 
+                            length python:len(signatures_fiz_asm); 
+                            index python:number  + length - 10" 
+                tal:content="string:${index}."/>
+            <td>
+              <a tal:condition="python:sig.url_asm != ''"
+                 tal:attributes="href sig/url_asm"
+                 tal:content="sig/title"></a>
+              <span tal:condition="python:sig.url_asm == ''"
+                    tal:replace="sig/title"/>
+            </td>
+           <td>
+              <span tal:replace="sig/position"/>
+
+              <span tal:condition="python:sig.organization != ''"> (</span><a tal:condition="python:sig.url_org != ''"
+                 tal:attributes="href sig/url_org"
+                 tal:content="sig/organization"></a><span tal:condition="python:sig.url_org == ''"
+                    tal:replace="sig/organization"/><span tal:condition="python:sig.organization != ''">)</span>
+           </td>
+        </tr>
+      </tal:block>
+    </table>
+
+    Iš viso palaikančių fizinių asmenų: <strong><span tal:replace="python:len(pers_supporters)"/></strong> (kai kurių rėmėjų duomenys, jų pageidavimu, viešai nerodomi).
+    </tal:block>
+
+    <p> <a href="#intro">grįžti į pradžią</a>, <a href="#paremti">grįžti prie formos.</a></p>
+  </tal:block>
+</html>

@@ -1,0 +1,124 @@
+Tai štai,<br>
+šiuo metu situacija maždaug tokia:<br>
+<pre>
+rq@lazdynas:~$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/scsi/host1/bus0/target4/lun0/part2
+                      1,9G  471M  1,5G  25% /
+/dev/md/0              51G   45G  3,3G  94% /data
+</pre>
+
+Tad tėra likę 3gigai vietos mirrorams. Mažoka...<br>
+Kas mirrorrinama, galima pažiūrėti, nuėjus į http://files.akl.lt .<br>
+Download statistikos - http://files.akl.lt/www/webstats.html .
+
+Norėjosi dar !OpenOffice pamirrorint, bet vietos jau lyg ir trūksta.. Galbūt bandysiu prijungti dar šiek tiek vietos, tačiau tai neišspręs visų problemų ilgam.
+
+Šiaip jei kas turit kokių idėjų ar pageidavimų dėl serverio - galit jas čia dėti arba siųsti paštu ftpATfiles.akl.lt.
+
+Rimas
+
+<hr><b>mantas, 2003/06/14 00:51 EET (via web):</b><br>
+Rimai, kodėl nepasakai realios situacijos files.akl.lt kietajame diske ?
+
+mantas@lazdynas:/data/ftp$ du -h -s *
+
+602M    AKL<br>
+2,8M    Archyvavimas<br>
+2,7G    debian-linux<br>
+27M     diagramos_cad<br>
+8,4M    Dokumentacija<br>
+3,9M    fonts_ms<br>
+203M    gentoo<br>
+7,7M    Grafika_Foto<br>
+9,3M    incoming<br>
+736K    Internetas<br>
+7,1M    Irankiai<br>
+24G     kde !!! !!!<br>
+4,3G    knoppix<br>
+15M     Matematika<br>
+12G     OpenOffice.org<br>
+1,8G    redhat<br>
+
+
+Kaip jau ir sakiau - KDE mirrorinimo sutvarkymas išpręstų problemas gana ilgam. Kuo KDE taip nusipelnė, kad mes turime jai skirti pusę (!!!) files.akl.lt vietos ?
+Beje, jei paprasčiausiai nori, kad kažkas paaukotų hdd tai taip ir parašyk :)
+
+<hr><b>rq, 2003/06/15 19:46 EET (via web):</b><br>
+Taigi taigi taigi...<br>
+biskį pakeičiau KDE mirrorinimo skriptą (berods niekas nuo to nenukentės), dabar situacija tokia:<br>
+<pre>lazdynas:/data/ftp# ./.list
+602M    AKL
+2,8M    Archyvavimas
+0       baltix-knoppix
+2,8G    debian-linux
+27M     diagramos_cad
+8,4M    Dokumentacija
+3,9M    fonts_ms
+4,0K    FOOTER.html
+205M    gentoo
+7,7M    Grafika_Foto
+4,0K    HEADER.html
+7,8M    incoming
+736K    Internetas
+7,1M    Irankiai
+13G     kde
+4,3G    knoppix
+15M     Matematika
+12G     OpenOffice.org
+1,8G    redhat
+33G     total
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/md/0              51G   33G   15G  70% /data</pre><br>
+Tad vaizdas kiek pagerėjo, galima bus OpenOffice.org normaliai užsiimt. Dabartinis jo katalogas užima 12G (buvau tai pamiršęs), sutvarkius normalų mirrorinimą, jis neturėtų per daug išaugt.<br>
+Rimas
+
+<i>P.S.</i> gal yra savanorių aukotojų, kurie paaukotų kokius du-tris sveikus diskus po 80G? Tada galima būtų dar ilgai augantį KDE mirrorint. ;D
+
+<hr><b>vi, 2003/06/19 12:27 EET (via web):</b><br>
+Jo, man irgi reikėtų kokių dviejų diskų po 250Gb :p ./vi
+
+<hr><b>rq, 2003/06/22 12:27 EET (via web):</b><br>
+o tau kam tiek? mirrorinsi kažką? :DD
+
+<hr><b>romena, 2003/08/07 10:10 EET (via web):</b><br>
+ar nereikia iš www.akl.lt nuorodos į files.akl.lt ?
+
+<hr><b>rq, 2003/09/12 14:44 EET (via web):</b><br>
+reikia
+
+<hr><b>rq, 2004/03/29 14:09 EET (via web):</b><br>
+na ką jau čia...
+Mantas vėl skundžiasi, kad KDE užima 16G.
+pažiūrėkime:
+<pre>
+lazdynas:/data# ls -la www/jaro
+total 2151760
+drwxr-xr-x    2 jaro     jaro         4096 2004-03-17 18:37 .
+drwxrwxr-x    9 root     root         4096 2004-03-10 16:44 ..
+-rw-r--r--    1 jaro     jaro     733485056 2004-02-24 10:17 Paskutinis Samurajus (ru) CD1.avi
+-rw-r--r--    1 jaro     jaro     733896704 2004-02-24 10:25 Paskutinis Samurajus (ru) CD2.avi
+-rw-r--r--    1 jaro     jaro     733847552 2004-02-22 10:42 Ziedu Valdovas - Karaliaus sugryzimas (ru) CD1.avi
+
+lazdynas:/data/www/freshdebs/images/netrinti_cia_manto# ls -l
+total 723764
+-rw-r--r--    1 mantas   mantas   740403200 2002-12-01 22:33 Ivan_Vasilievich_Meniajet_Professiju.avi
+</pre>
+
+jo, labai gražu. filmukus pratrynus, atsirado laisvų dar 3.5G. That's how it's done! :)
+
+From unknown Sat Jun 10 16:05:41 +0300 2006
+From: 
+Date: Sat, 10 Jun 2006 16:05:41 +0300
+Subject: 
+Message-ID: <20060610160541+0300@www.akl.lt>
+
+you suckckckckckckckckkckckc
+
+From unknown Sat Jun 10 16:06:10 +0300 2006
+From: 
+Date: Sat, 10 Jun 2006 16:06:10 +0300
+Subject: 
+Message-ID: <20060610160610+0300@www.akl.lt>
+
+this site is a peas off shit

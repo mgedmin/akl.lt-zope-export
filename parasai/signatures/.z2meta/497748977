@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 340124980
+confirmed:boolean = 1
+gen_date:date = 2005/05/24 16:15:17.786000 GMT+3
+logo_url:string = 
+mail:string = alga@akl.lt
+organization:string = Programuotoj\xc5\xb3 artel\xc4\x97
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Albertas Agejevas
+url_asm:string = 
+url_org:string = http://www.pov.lt

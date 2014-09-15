@@ -1,0 +1,5 @@
+[properties]
+categories:string = Projektavimui,
+public:boolean = 0
+title:string = Blender3D
+trumpai:text = Nemokamas 3D grafikos redaktorius.

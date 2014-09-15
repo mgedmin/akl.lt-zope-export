@@ -1,0 +1,9 @@
+[properties]
+author:string = Mykolas OK
+blurb:text = Nuo ketvirtadienio (2007-10-25) iki \xc5\xa1e\xc5\xa1tadienio, Litexpo parod\xc5\xb3 centre Vilniuje vyksta paroda <a href="http://2007.infobalt.lt/">InfoBalt 2007</a>.\nOrganizacija Atviras Kodas Lietuvai parodoje turi savo stend\xc4\x85, o kiekvienam AKL nariui po nemokam\xc4\x85 kvietim\xc4\x85 \xc4\xaf parod\xc4\x85.<br />\nD\xc4\x97l kvietim\xc5\xb3 ir kit\xc5\xb3 klausim\xc5\xb3 kreipkit\xc4\x97s \xc4\xaf Mant\xc4\x85 Kriau\xc4\x8di\xc5\xabn\xc4\x85, tel. +370 61 45 30 85 arba Sauli\xc5\xb3 Gra\xc5\xbeul\xc4\xaf, tel.: +370 61 43 63 66
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'GNU/Linux&nbsp;OS\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc3\\x84\\xc2\\x97s&nbsp;aplinkos\', \'S\\xc3\\x84\\xc2\\x97km\\xc3\\x84\\xc2\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x84\\xc2\\x97s&nbsp;teis\\xc3\\x84\\xc2\\x97s\')
+date:string = 2007-10-24
+email:string = mykolas@akl.lt
+profesionalams:boolean = False
+title:string = AKL nariams - nemokami kvietimai \xc4\xaf InfoBalt 2007

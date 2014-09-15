@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 769507401
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 14:30:5.629000 GMT+3
+logo_url:string = http://pov.lt/povlogo
+mail:string = aiste@pov.lt
+organization:string = UAB "Programuotoj\xc5\xb3 artel\xc4\x97"
+position:string = Direktor\xc4\x97
+status:string = imone
+title:string = Aist\xc4\x97 Kesminait\xc4\x97
+url_asm:string = http://aiste.org
+url_org:string = http://pov.lt

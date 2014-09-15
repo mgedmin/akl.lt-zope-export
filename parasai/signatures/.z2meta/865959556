@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 770769817
+confirmed:boolean = 0
+gen_date:date = 2005/05/20 13:26:23.876000 GMT+3
+logo_url:string = 
+mail:string = antanasg@hotmail.com
+organization:string = UAB Vilniaus vandenys
+position:string = in\xc5\xbe.
+status:string = imone
+title:string = Antanas Ruzgas
+url_asm:string = 
+url_org:string = http://www.vv.lt

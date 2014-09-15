@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2009-05-27T16:54:29+00:00
+creator:string = grazulis
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2009-05-30T02:27:41+00:00
+last_editor:string = mgedmin
+last_editor_ip:string = 127.0.0.1
+last_log:string = Marius Gedminas
+parents:lines = [\'FrontPage\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = AKLVisuotinis2009

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 817931652
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 13:27:42.540000 GMT+3
+logo_url:string = 
+mail:string = php5@programmer.net
+organization:string = 
+position:string = Web bei atviro kodo aplikacij\xc5\xb3 programavimas
+status:string = fiz_asm
+title:string = Marius Ka\xc5\xbeem\xc4\x97kaitis
+url_asm:string = http://codh.tavo.net
+url_org:string = 

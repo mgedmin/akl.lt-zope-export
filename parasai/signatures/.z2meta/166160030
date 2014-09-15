@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = True
+confirm_id:int = 211275149
+confirmed:boolean = False
+gen_date:date = 2007/03/17 01:58:22.864000 GMT+2
+logo_url:string = http://713a703227be40edc96653ddc81c67af-u.fb4pfgd.info
+mail:string = amarion@operamail.com
+organization:string = Remington
+position:string = Raul
+status:string = vis_org
+title:string = Morris
+url_asm:string = http://713a703227be40edc96653ddc81c67af-u.fb4pfgd.info
+url_org:string = http://713a703227be40edc96653ddc81c67af-u.fb4pfgd.info

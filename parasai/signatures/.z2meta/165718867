@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 750634321
+confirmed:boolean = 1
+gen_date:date = 2005/07/23 07:30:7.374000 GMT+3
+logo_url:string = http://www.infotakas.lt/images/Infotakas_logo_200x71.gif
+mail:string = infotakas@infotakas.lt
+organization:string = UAB "Infotakas"
+position:string = direktorius
+status:string = imone
+title:string = Laimundas Stulgis
+url_asm:string = 
+url_org:string = http://www.infotakas.lt

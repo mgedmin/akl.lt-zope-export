@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 907298074
+confirmed:boolean = 1
+gen_date:date = 2005/07/01 14:10:32.973000 GMT+3
+logo_url:string = 
+mail:string = indru@takas.lt
+organization:string = uab Techniniai vertimai
+position:string = direktore
+status:string = imone
+title:string = ingrida drukteinyte
+url_asm:string = 
+url_org:string = http://www.tvertimai.com

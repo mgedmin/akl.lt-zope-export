@@ -1,0 +1,9 @@
+[properties]
+author:string = Mykolas OK
+blurb:text = Lietuvi\xc5\xa1koje <a href="http://lt.wikipedia.org/">Vikipedijos</a> (laisvosios internetin\xc4\x97s enciklopedijos) versijoje jau daugiau nei de\xc5\xa1imt t\xc5\xabkstan\xc4\x8di\xc5\xb3 straipsni\xc5\xb3.\n\nVikipedija \xe2\x80\x93 tai tarptautinis projektas \xe2\x80\x93 daugiakalb\xc4\x97 laisva\nenciklopedija, kuri internete be apribojim\xc5\xb3 prieinama kiekvienam.\nKiekvienas gali papildyti jos turin\xc4\xaf ar i\xc5\xa1taisyti pasteb\xc4\x97tas klaidas.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2005-12-16
+email:string = mykolasok@gmail.com
+profesionalams:boolean = 0
+title:string = Lietuvi\xc5\xa1ka Vikipedija per\xc5\xbeeng\xc4\x97 10 000 straipsni\xc5\xb3 rib\xc4\x85!

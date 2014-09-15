@@ -1,0 +1,87 @@
+## Script (Python) "rss"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=all=0,wait=0,cat="all"
+##title=
+##
+# all:
+#   1 - Visos naujienos
+#   0 - 20 naujausių
+# wait:
+#   1 - Nepatvirtintos naujienos
+#   0 - Patvirtintos naujienos
+# cat:
+#   all - visos kategorijos
+#   gnome - tik gnome
+#   patent - tik patentai
+#   ...
+#   cat=gnome,patent - tik gnome ir patentu kategorijos
+#   del reiksmiu ziureti i map_categories faila
+
+#context.REQUEST.RESPONSE.setHeader('Content-Type','application/rss+xml')
+context.REQUEST.RESPONSE.setHeader('Content-Type','text/xml')
+if int(wait):
+    visos = container.nepatikrintos.objectValues('DTML Document')
+    sar = [(n.getId(), n) for n in visos]
+    sar.sort()
+    sar.reverse()
+    naujienos = [item[1] for item in sar]
+else:
+    if cat=="all":
+        naujienos = context.visos()
+    else:
+        cats = []
+        try:
+            for category in context.map_categories():
+                if category[1] in cat:
+                    cats.append(category[0])
+        except:
+            for category in context.map_categories():
+                if cat == category[1]:
+                    cats.append(category[0])
+        naujienos = []
+        for naujiena in context.visos():
+            try:
+                for category in naujiena.categories:
+                    if category in cats:
+                        naujienos.append(naujiena)
+            except AttributeError:
+                pass
+if not int(all):
+    naujienos = naujienos[:20]
+print '<?xml version="1.0" encoding="utf-8"?>'
+print """<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+<channel>
+  <title>AKL naujienos</title>
+  <link>http://www.akl.lt</link>
+  <description>AKL naujienos</description>
+  <language>lt</language>"""
+for naujiena in naujienos:
+    print "<item>"
+    print "<title>%s</title>" % naujiena.title
+    print "<link>http://www.akl.lt/naujienos/?id=%s</link>" % naujiena.getId()
+    print "<pubDate>%s</pubDate>" % naujiena.date
+    print "<description><![CDATA[%s]]></description>" % naujiena.blurb
+    try:
+        for category in naujiena.categories:
+            category = category.replace("&nbsp;", " ")
+            print "<category>%s</category>" % category
+    except AttributeError:
+        pass
+    try:
+        if naujiena.profesionalams:
+            print "<category>Profesionalams</category>"
+    except AttributeError:
+        pass
+    print "</item>"
+print"""
+</channel>
+</rss>"""
+return printed

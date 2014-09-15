@@ -1,0 +1,9 @@
+Math Volcano is a JavaScript web application for memorizing
+multiplication tables through "12 x 12." Individual and
+cumulative clocktime information is shown in a table. Each
+"level" can be repeated until the clocktimes are satisfactory.
+Cookies are used to store the clocktime information for
+five days after the session.
+
+After completing all levels the sleeping volcano awakens.
+http://www.asymptopia.org/MathVolcano/MathVolcano.html

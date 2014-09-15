@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 521483575
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 16:58:11.308000 GMT+3
+logo_url:string = 
+mail:string = knpz@aukrude.lt
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Vadimas Amosovas
+url_asm:string = http://www.14m3rz.info/b2
+url_org:string = 

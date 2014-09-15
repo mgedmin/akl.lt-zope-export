@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title tal:content="template/title">The title</title>
+  </head>
+  <body>
+    
+    <h2><span tal:replace="here/title_or_id">content title or id</span>
+        <span tal:condition="template/title"
+              tal:replace="template/title">optional template id</span></h2>
+
+    This is Page Template <em tal:content="template/id">template id</em>.
+<p>
+<a href="AAgejevas_svetaines.odp">AAgejevas_svetaines.odp</a><br>
+<a href="AAgejevas_svetaines.pdf">AAgejevas_svetaines.pdf</a><br>
+<a href="MKriauciunas_atviri-dokumentu-formatai.odp">MKriauciunas_atviri-dokumentu-formatai.odp</a><br>
+<a href="MKriauciunas_atviri-dokumentu-formatai.pdf">MKriauciunas_atviri-dokumentu-formatai.pdf</a><br>
+<a href="PDubinskas_Novell.odp">APDubinskas_Novell.odp</a><br>
+<a href="PDubinskas_Novell.pdf">APDubinskas_Novell.pdf</a><br>
+<a href="TJonusas_atviri-standartai.odp">TJonusas_atviri-standartai.odp</a><br>
+<a href="TJonusas_atviri-standartai.pdf">TJonusas_atviri-standartai.pdf</a><br>
+<a href="ZJancoras_el-paslaugos.odp">ZJancoras_el-paslaugos.odp</a><br>
+<a href="ZJancoras_el-paslaugos.pdf">ZJancoras_el-paslaugos.pdf</a><br>
+</p>
+  </body>
+</html>

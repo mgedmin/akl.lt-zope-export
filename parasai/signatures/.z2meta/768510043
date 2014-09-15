@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = True
+confirm_id:int = 892916923
+confirmed:boolean = 1
+gen_date:date = 2006/12/08 16:44:50.485000 GMT+2
+logo_url:string = 
+mail:string = ejmootis@gmail.com
+organization:string = VDU
+position:string = studentas
+status:string = fiz_asm
+title:string = Eimantas Nari\xc5\xabnas
+url_asm:string = http://www.ejmootis.ten.lt
+url_org:string = http://www.vdu.lt

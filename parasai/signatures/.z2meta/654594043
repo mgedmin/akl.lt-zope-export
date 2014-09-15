@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 762282341
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 10:31:56.541000 GMT+3
+logo_url:string = 
+mail:string = gvh@one.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Jonas Val\xc4\x8diukas
+url_asm:string = 
+url_org:string = 

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 874139541
+confirmed:boolean = 1
+gen_date:date = 2005/05/25 16:58:3.196000 GMT+3
+logo_url:string = http://www.resola.lt/~edas/resola/Resola1.gif
+mail:string = edas@resola.lt
+organization:string = UAB "RESOLA"
+position:string = direktorius
+status:string = imone
+title:string = Edvardas Ra\xc4\x8dkauskas
+url_asm:string = 
+url_org:string = http://www.resola.com

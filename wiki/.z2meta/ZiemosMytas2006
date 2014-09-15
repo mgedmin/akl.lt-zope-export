@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2006-01-09T11:40:08+00:00
+creator:string = erika
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-06-05T00:50:02+00:00
+last_editor:string = 127.0.0.1
+last_editor_ip:string = 127.0.0.1
+last_log:string = <a href=\'http://www.insurance-top.com\'
+parents:lines = [\'Mytas\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = ZiemosMytas2006

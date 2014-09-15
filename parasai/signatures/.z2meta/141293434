@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 307394322
+confirmed:boolean = 1
+gen_date:date = 2005/05/31 21:13:27.811000 GMT+3
+logo_url:string = 
+mail:string = help@su.lt
+organization:string = \xc5\xa0iauli\xc5\xb3 universitetas
+position:string = 
+status:string = fiz_asm
+title:string = Laimonas Dirmeikis
+url_asm:string = 
+url_org:string = http://www.su.lt

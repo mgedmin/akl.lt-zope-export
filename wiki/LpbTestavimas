@@ -1,0 +1,15 @@
+Čia galima rašyti bug'us, kuriuos rasite testuodami CD „Laisvos programos biurui 2006“. Parsisiųsti .iso galima iš <a href="http://files.akl.lt/incoming/LPBbeta1.iso">http://files.akl.lt/incoming/LPBbeta1.iso</a>
+
+<b>Žinomi/pataisyti bug`ai:</b>
+
+
+1. Dabar Gaim naudos GTK 2,8, iš naujojo paketo.
+Seniau buvo gaim su gtk 2,6, o gimp su 2,8.
+
+2. Nuorodos jau veikia. Seniau mesdavo lentelę, jog browseris sėdi offline`e.
+
+3. Openoffice kalbų problema išspresta, sudėtas naujas ooo.org
+
+4. OpenDict jau instaliuojasi. 
+
+5. 7-zip jau taip pat instaliuojasi.

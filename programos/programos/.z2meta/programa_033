@@ -1,0 +1,5 @@
+[properties]
+categories:string = Multimedia,
+public:boolean = 1
+title:string = Multimedia grotuvas ir streaming serveris \xe2\x80\x9eVLC media player\xe2\x80\x9c 
+trumpai:text = Tai daugiaplatforminis (veikiantis Linux, Windows, Mac ir kitose OS) multimedia (film\xc5\xb3 ir muzikos) grotuvas, sukurtas Videolan projekto.

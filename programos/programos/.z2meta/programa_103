@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,Pramogai,
+public:boolean = 1
+title:string = Internetini\xc5\xb3 pokalbi\xc5\xb3 programa \xe2\x80\x9eJabbin\xe2\x80\x9c
+trumpai:text = Jabbin yra Atvirojo Kodo internetini\xc5\xb3 pokalbi\xc5\xb3 programa leid\xc5\xbeianti nemokamus skambu\xc4\x8dius tarp kompiuteri\xc5\xb3 naudojant VoIP sistem\xc4\x85  Jabber tinklu.

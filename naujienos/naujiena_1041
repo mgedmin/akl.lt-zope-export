@@ -1,0 +1,32 @@
+<p><strong>Linux Mint</strong> – šiuolaikinė operacinė sistema, kuriama <a href="http://ubuntu.lt">Ubuntu</a> ir 
+<a href="http://debian.org">Debian GNU/Linux</a> pagrindu. 
+Naujoji Mint versija naudoja naujas <strong>Ubuntu 11.10</strong> technologijas bei naujos kartos GNOME 3.2 naudotojo sąsają 
+su Linux Mint kūrėjų patobulinimais – MGSE (Mint Gnome Shell Extensions):</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://www.linuxmint.com/pictures/screenshots/lisa/lisa_light.png" alt="" width="550" height="347" /></p>
+<p><strong>Gnome 3 ir MGSE</strong><br />
+Naujas Linux Mint 12 darbastalis naudoja Gnome 3.2 su MGSE plėtiniais.<br />
+MGSE (Mint Gnome Shell Extensions) – tai Gnome 3 darbastalio papildymai, leidžiantys Gnome 3 naudotis tradiciniu būdu, 
+paliekant galimybę išjungti norimus MGSE komponentus ir naudotis klasikine Gnome 3 aplinka.</p>
+<p><strong>Pagrindinės Mint Gnome Shell Extension ypatybės:</strong></p>
+<ul>
+<li>Matomos piktogramos sistemos dėkle (dešinėje pusėje).</li>
+<li><strong>Apatinis skydelis</strong> kuriame yra: <strong>Programų meniu</strong>, <strong>Langų sąrašas</strong> bei <strong>Darbalaukių keitiklis</strong>.</li>
+<li>kiti Gnome 3 sąsajos pagerinimai.</li>
+</ul>
+<p>MGSE turi papildomų plėtinių (kaip medijos grotuvo indikatorius) ir keletą Ubuntu bei Gnome 3 patobulinimų.</p>
+<p>Linux Mint 12 – seno ir naujo darbastalių mišinys. Tai naujas darbastalis su tradiciniais komponentais.</p>
+<p><strong>MATE</strong><br />
+Jei norite naudotis prie ankstesne Linux Mint išvaizda, galite įdiegti MATE aplinką (paketas <em>mint-meta-mate</em> jau yra įdiegtas DVD leidime). 
+Tai Gnome 2 aplinka, suderinama su Gnome 3. Perspėjama, kad ši aplinka yra kūrimo stadijoje, todėl 
+prieš ją naudodami įdiekite visus atnaujinimus.</p>
+
+<p><strong>Pakeistos interneto naršyklės paieškos</strong></p>
+<ul>
+<li>Nauja numatytoji paieška Duck Duck Go.</li>
+<li>Supaprastintas papildomų paieškų įdiegimas.</li>
+</ul>
+<p>Linux Mint 12 naudoja Ubuntu 11.10 operacinės sistemos kaip bazinę sistemą, Linux 3.0 branduolį ir Gnome 3.2 grafinę naudotojo sąsają (darbastalį).</p>
+<p>Plačiau skaitykite <a href="http://www.linuxmint.com/rel_lisa_whatsnew.php">Linux Mint tinklalapyje.</a><br />
+Linux Mint 12 galite nemokamai <a href="http://www.linuxmint.com/download.php">atsisiųsti iš www.linuxmint.lt.</a></p>
+
+Daugiau informacijos: <a href="http://akmc.lt/2011/11/27/linux-mint-12-isleista/">akmc.lt/2011/11/27/linux-mint-12-isleista/</a> bei <a href="http://linuxmint.lt">linuxmint.lt</a>

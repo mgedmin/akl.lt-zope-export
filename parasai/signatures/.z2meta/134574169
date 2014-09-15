@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 413995269
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 21:46:42.428000 GMT+3
+logo_url:string = 
+mail:string = vidmantas.k@gmail.com
+organization:string = 
+position:string = moksleivis
+status:string = fiz_asm
+title:string = Vidmantas Kabo\xc5\xa1is
+url_asm:string = http://www.emptydot.com
+url_org:string = 

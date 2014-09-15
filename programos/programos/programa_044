@@ -1,0 +1,11 @@
+<h2> Erdvinių duomenų bazė "PostGis" <br>
+<a href="http://postgis.refractions.net/">http://postgis.refractions.net</a></h2>
+<p>
+Ši programa leidžia saugoti erdvinius duomenis PostgreSQL duomenų bazėje. Ją galima palyginti su ESRI SDE arba Oracle Spatial extension. PostGIS realizuoja <a HREF='http://www.opengis.org'>OpenGIS</a> 
+"<a HREF='http://www.opengis.org/techno/specs/99-049.pdf'>Simple Features Specification for SQL</a>" standartą.
+</p>
+<h2>Laisvos GIS programinės įrangos puslapis „FreeGIS“ <br>
+<a href="http://www.freegis.org">www.freegis.org</a></h2>
+<p>
+Šiame puslapyje rasite laisvos GIS programinės įrangos apžvalgą, nemokamus žemėlapius ir t.t.
+</p>

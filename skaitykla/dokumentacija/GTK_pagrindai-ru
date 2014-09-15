@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ru"><head>
+  <meta content="text/html; charset=windows-1251" http-equiv="content-type"><title>Основы GTK+</title>
+  
+  <meta content="Безденежных Сергей" name="author">
+  <meta content="Программирование в GTK+, GNOME" name="description">
+  <meta content="Linux, GTK+, GNOME, программирование GTK+,программирование Gnome" name="keywords"></head>
+
+<body>
+<!--begin of Rambler's Top100 code --> <a href="http://top100.rambler.ru/top100/"><img src="GTK+pagrindai-ru_bylos/top100.gif" alt="" border="0" height="1" width="1"></a><!--end of Top100 code-->
+<big style="font-weight: bold;"><big><big><span style="color: rgb(102, 0, 204); font-style: italic;"></span></big></big></big>
+<table style="margin-left: auto; margin-right: auto; text-align: left; width: 90%; height: 203px;" border="0" cellpadding="1" cellspacing="2">
+  <tbody>
+    <tr align="center">
+      <th style="background-color: rgb(204, 204, 255); vertical-align: top; width: 780px;"><big style="font-weight: bold;"><big><big><span style="color: rgb(102, 0, 204); font-style: italic;">Основы GTK+</span></big></big></big><big style="font-weight: bold;"><big><big><span style="color: rgb(102, 0, 204); font-style: italic;"> </span></big></big></big></th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; width: 780px;"><span style="text-decoration: underline;"></span><font><a href="http://www.sib.opennet.ru/gtk-world/gtk1.html"><font size="3">Часть
+1: Зачем использовать <span lang="en-US">GTK</span>+?</font></a></font></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><font size="3">Эта статья первая
+из цикла трех
+статей, посвященных миру <span lang="en-US">GTK</span>+.
+В статье рассматривается, что такое <span lang="en-US">GTK</span>+,
+почему Вы должны
+обратить на него внимание и преимущества,
+которые он предоставляет. Вместе с
+последующими статьями из этой серии Вы
+получите общее представление о <span lang="en-US">GTK</span>
+и узнаете, где найти более подробную
+информацию, посвященную этой теме.</font></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><a href="http://www.sib.opennet.ru/gtk-world/gtk2.html"><font><font></font></font></a><font><font><a href="http://www.sib.opennet.ru/gtk-world/gtk2.html"><font size="3">Часть 2: Как использовать <span lang="en-US">GTK</span>+.</font></a></font></font></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><font size="3">Это
+вторая статья из цикла статей под общим
+названием «Основы GTK+».
+Она познакомит
+вас с основами программирования с
+использованием GTK+, на примере простого приложения GTK+, написанного
+на языке C, а затем того же приложения,
+написанного на языках Python и C#. В конце
+вы найдете обзор нескольких полезных
+программ, которые помогут разрабатывать
+приложения GTK+ лучшие и быстрее.</font></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">Страница
+изменена: 29.01.2006, Сергей Безденежных &lt;-sib-mail@mtu-net.ru-&gt;<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div style="text-align: center;"><big style="font-weight: bold;"><big><big><span style="color: rgb(102, 0, 204); font-style: italic;"></span></big></big></big></div>
+<br>
+<br>
+<br>
+</body></html>

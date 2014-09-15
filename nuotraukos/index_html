@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title tal:content="here/title_or_id">The Title</title>
+  </head>
+  <body> 
+    <div class="body">
+    <h1 tal:content="here/title_or_id" />
+
+    <div class="nav">
+         <p><a tal:attributes="href request/URL2">Up</a></p>
+         <tal:block tal:repeat="dir python: here.objectValues('Folder')">
+            <p><a tal:attributes="href dir/absolute_url" tal:content="dir/title_or_id" /></p>
+         </tal:block>
+    </div>
+
+    <tal:repeat repeat="img python: here.objectValues('Photo')">
+        <div tal:attributes="class python: repeat['img'].odd() and 'odd' or 'even'">
+           <a tal:attributes="href python: 'view?image=%s' % img.getId() " >
+             <span tal:content="structure python: img.tag(display='thumbnail')"/><br/>
+             <span class="sub" tal:content="python: img.title_or_id()" />
+           </a>
+        </div>
+    </tal:repeat>
+
+    <!-- Paprasti failai -->
+    <tal:repeat repeat="file python: here.objectValues('ExtFile')">
+        <div tal:attributes="class python: repeat['file'].odd() and 'odd' or 'even'">
+           <a tal:attributes="href python: '%s' % file.getId() " >
+             <span tal:content="python: '%s (%s KB)' % (file.getId(), file.get_size()/1024)"/><br/>
+             <span class="sub" tal:content="python: file.title" />
+           </a>
+        </div>
+    </tal:repeat>
+  </div>
+  </body>
+</html>

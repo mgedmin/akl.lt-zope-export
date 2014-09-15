@@ -1,0 +1,5 @@
+[properties]
+categories:string = Multimedia,
+public:boolean = 1
+title:string = Video fail\xc5\xb3 redagavimo programa \xe2\x80\x9eAviDemux\xe2\x80\x9c
+trumpai:text = AviDemux programa skirta video fail\xc5\xb3 redagavimui ir perkodavimui. Labai pana\xc5\xa1i \xc4\xaf VirtualDub, \ntik turinti galimyb\xc4\x99 u\xc5\xbekoduoti vaizd\xc4\x85 \xc4\xaf VCD, SVCD, DVD formatus.

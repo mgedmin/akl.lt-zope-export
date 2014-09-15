@@ -1,0 +1,8 @@
+[properties]
+confirm_id:string = 842968230
+confirmed:boolean = 1
+dagiene:int = 1
+email:string = t.kvedaras@akl.lt
+grazulis:int = 2
+romena:int = 3
+title:string = t.kvedaras@akl.lt

@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 421774340
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 13:16:59.825000 GMT+3
+logo_url:string = http://test.trakai.lt/herbas.gif
+mail:string = puff@xxx.lt
+moder_denied:string = 
+moder_ok:string = 
+organization:string = Trak\xc5\xb3 rajono savivaldyb\xc4\x97s administracija
+position:string = Informacini\xc5\xb3 sistem\xc5\xb3 vyriausiasis specialistas
+status:string = biudzet
+title:string = Simonas Jutkevi\xc4\x8dius
+url_asm:string = 
+url_org:string = http://www.trakai.lt

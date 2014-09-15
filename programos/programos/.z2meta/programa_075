@@ -1,0 +1,5 @@
+[properties]
+categories:string = Webserveriai,
+public:boolean = 1
+title:string = Turinio valdymo sistema \xe2\x80\x9eeZ publish\xe2\x80\x9c
+trumpai:text = Galinga ir patogi naudojimui turinio valdymo sistema (CMS - Content \nManagement System), para\xc5\xa1yta PHP kalba. Dirba su duomen\xc5\xb3 bazi\xc5\xb3 \nvaldymo sistemomis \xe2\x80\x9eMySQL\xe2\x80\x9c ir \xe2\x80\x9ePostgreSQL\xe2\x80\x9c.

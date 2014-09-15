@@ -1,0 +1,34 @@
+## Script (Python) "navbar"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+REQUEST = container.REQUEST
+
+finita = prev = next = this = None
+
+for obj in context.objectValues('Photo'):
+    if not finita:
+        prev = this
+        this = obj
+    else:
+         next = obj
+         break
+    if obj.id == REQUEST['image']:
+         finita = 1
+
+if prev:
+    print '<a href="view?image=%s">Prev</a>' % prev.id
+else:
+    print 'Prev'
+print '<a href="%s">Up</a>' % REQUEST['URL1']
+if next:
+    print '<a href="view?image=%s">Next</a>' % next.id
+else:
+    print 'Next'
+
+return printed

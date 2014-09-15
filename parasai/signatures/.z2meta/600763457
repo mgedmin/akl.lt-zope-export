@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 136915052
+confirmed:boolean = 1
+gen_date:date = 2005/06/11 13:28:57.185000 GMT+3
+logo_url:string = 
+mail:string = cpp@centras.lt
+organization:string = UAB Omnitel
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Karolis Petrauskas
+url_asm:string = 
+url_org:string = http://www.omnitel.lt

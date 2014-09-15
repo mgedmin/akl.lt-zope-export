@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 668784503
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 14:13:25.818000 GMT+3
+logo_url:string = 
+mail:string = napalm@mintis.lt
+organization:string = UAB "Minties vingiai"
+position:string = 
+status:string = fiz_asm
+title:string = Andrius Kokianciks
+url_asm:string = 
+url_org:string = http://www.mintis.lt

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 130529512
+confirmed:boolean = 1
+gen_date:date = 2005/05/31 13:00:44.577000 GMT+3
+logo_url:string = 
+mail:string = saulius.vl@gmail.com
+organization:string = VU Fizikos fakultetas
+position:string = Studentas
+status:string = fiz_asm
+title:string = Saulius Valatka
+url_asm:string = http://elite.projektas.lt/
+url_org:string = http://www.ff.vu.lt/

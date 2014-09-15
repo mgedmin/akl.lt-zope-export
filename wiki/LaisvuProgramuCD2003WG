@@ -1,0 +1,229 @@
+Čia perkeltas Laisvų programų CD 2003 gaminimo etapas. 
+
+ * Biuro programos (katalogas Ofisas):
+
+    o Ofiso paketas ("OpenOffice.org") 
+
+    o Tekstų redaktorius ("AbiWord") (nereikia, arba perkelti i kataloga "Kitos_programos". mykolas)
+
+    o Kalendorius bei darbo organizatorius ("Mozilla-Calendar")
+
+ * Interneto programos (katalogas Internetas)
+
+    o Interneto naršyklė ("Mozilla")
+
+    o E-pašto programos (Mozilla-Mail, Sylpheed)
+
+    o Atviro kodo susirašinėjimo agentai ("Exodus", "PSI" bei "XChat"). **PAPILD:** PSI lietuvių k. (Meskiukas)
+
+    o HTML redaktorius ("Mozilla-Composer")
+
+    o Interneto taikomųjų programų serveris ("Zope") 
+
+    o FTP bei parsisiuntimo programos ("FileZilla" -ftp, "WackGet" - parsisiuntimo)
+
+ * Vaizdų apdorojimo programos (katalogas "vaizdas"):
+
+    o Galinga vaizdų apdorojimo programa ("GIMP")
+
+    o Darbo su vaizdais bei paveikslėliais įrankių rinkinys ("Image Magic")
+
+    o Darbo su ekrano nuotraukomis programa ("smartision-ScreenCopy")
+
+ * Multimedia (audio ir video) programos (katalogas "Multimedia"):
+
+    o Audio grotuvas ("Zinf") 
+
+    o Garso redaktorius ("Audacity") 
+
+    o Muzikinių CD nuskaitymo į kompiuterį programa ("CDex") 
+
+    o Muzikinių bylų suspaudėjas ("Oggdrop") 
+
+ * Kompiuterinio projektavimo bei diagramų kūrimo programos (katalogas "Diagramos_CAD"):
+
+    o Kompiuterinio projektavimo (braižymo) programa ("QCAD") 
+
+    o Diagramų kūrimo programa ("Dia") 
+
+    o Funkcijų grafikų braižymo programa ("Gnuplot") 
+
+ * Duomenų bazių valdymo sistemos (katalogas "DBMS" arba "db"):
+
+    o Duomenų bazių serveriai ("Firebird", "MySQL") 
+
+ * Vertimo programos bei žodynai (katalogas "Zodynai_Vertimai"):
+
+    o Vertimų programos ("PoEdit", "Translator") bei kompiuterinių terminų žodynas
+
+ * Kitos programos (katalogas "Irankiai"):
+
+    o PostScript bei PDF programos ("Ghostscrip" bei "GsView")
+
+    o Vertimų programos (PoEdit, Translator) bei kompiuterinių terminų žodynas (i kataloga "Zodynai_Vertimai"? mykolas)
+
+    o Bylų tvarkytojas - DN
+
+    o Universalus archyvatorius ("7-Zip")
+
+ * Mokomosios programos bei žaidimai (katalogas Mokymas_Zaidimai):
+
+    o Mokomosios programos ("Tux Typing", "TuxPaint", "Tux of Math Command")
+
+    o Astronomijos mokymo programa ("Celestia") 
+
+    o Keletas atviro kodo žaidimų - "TuxRacer", "Reaper", "MirrorMagic", "Search and Rescue", "FlightGear" (sukurti kataloga "zaidimai"?)
+
+ * **NAUJA** - lietuviškos programos: programos, aprašymai, prezentacijos:
+
+    o Žodynų programa "OpenDict" ir "LED" įskiepiai (?) (i kataloga "Zodynai_Vertimai"? mykolas)
+
+ * **NAUJA** - firmų, teikiančių paslaugas prezentacija
+
+<hr><b>romena, 2003/09/24 18:11 EET (via web):</b><br>
+(18:12:19) meskiukas@akl.lt: aha, siūlyčiau dar apache, bet jis labai populiarus (nebent būtų atliekamos vietos)
+toliau pamiršai OpenDict 
+prie gnuplot labai tinka Octave - matlab pakaitalas. Ir dar būtų labai gerai parted - particijų dydžiams keisti (vietoj Partition magic)
+
+<hr><b>jaro, 2003/09/24 18:30 EET (via web):</b><br>
+davai dar ir apache php postgresql idedam :)
+
+<hr><b>romena, 2003/09/24 19:01 EET (via web):</b><br>
+iš Mantienos OpenDict CD: Sodipodi (grafika) ir gal dar kokis žaidimas pridėtas
+
+<hr><b>rq, 2003/09/24 19:04 EET (via web):</b><br>
+mano mintys ir pasiūlymai:
+
+ * Mozilla -> Mozilla Firebird;
+
+ * Mozilla-Mail -> Mozilla Thunderbird;
+
+ * Mozilla-Calendar - su Firebird nelabai gražiai atrodo, be to, tada dar reikia sudėti QuickTools (arba pačiam pasidaryti ant desktopo ikonėlę - "C:\Program Files\mozilla.org\Firebird\MozillaFirebird.exe" -calendar;
+
+ * Mozilla-Composer - ar jis išvis egzistuoja kaip atskiras produktas?;
+
+ Kita vertus, jei vėliausia mozilla naudotų standartines sistemines (o ne savo mėlynai žalias) dekoracijas kaip pagrindinę temą, tai gali būt ir mozilla su visais savo komponentais....;
+
+ * Plius siūlyčiau įtraukti GnuPG (arba GPGME) ir enigmail priedą pasirinktam mozillos paštininkui;
+
+ * Sylpheed - jei čia ta windozinė versija, kuri veikia ant GTK1, tai geriau išvis nedėt, jei ant GTK2 - iš kur gavot? ;)) ;
+
+ * GIMP - labai nebedaug laiko liko iki 2.0 versijos išėjimo. Windams jau yra sukompiliuota 1.3 versija, tačiau ji neturi gražaus installerio (tenka išzipuot gal 15 .zip failų). Vakar klausiau apie tai bičo, kuris daro installerius, jis man sakė, kad jau pradėjo daryt 1.3 installerį. Tad būtų labai gerai netyčia nepaimti senos GIMP1.2 versijos, kuri turi kur kas mažiau gerų savybių ir yra GTK1 programa (bewru, kaip ir Sylpheed);
+
+ * DN - ar jis tikrai tinkamas šiuo metu? Ar jis palaiko windozinius failų vardus? jei gali, bet su pluginu (berods taip ir yra), tai reikia nepamiršti iškart įdėti ir tą pluginą; 
+
+ * Achyvatoriai - siūlau vietoj (ar greta) 7-zip padėti ZipGenius. Jis panašesnis į WinZip ir taip pat nemokamas (nors ir ne open). http://www.zipgenius.it;
+
+ * romena, OpenDict čia, kiek suprantu, jau paminėtas, tik kai kas neįrašė jo pavadinimo :)))
+
+ * Vietoj specifinių programų, kurias end-user'is vargu, ar naudos (pvz, serveriai, development įrankiai, PoEdit'as) gal geriau būtų sudėti kokią nedidelę Linux distrą, pasileidžiančią iš CD (pvz, debugintas ir biskį apkirptas morphix)?
+
+* Dar galima būtų įrašyt kokį html puslapiuką, kuriame išvardintumėm patalpintas ir nepatalpintas programas pagal kategorijas (pvz., gal nelabai verta dėt matematinį softą, užtektų tik linko į jį?..).
+
+
+<hr><b>romena, 2003/09/25 16:28 EET (via web):</b><br>
+Pyxis, 2003.09.24
+
+utilitai: Wget, Ethereal, Explore2fs, PuTTY, GNUWin32, LINE, UNIX Tools...
+
+video/audio: VirtualDub, LAME, backendai LAME'ui, XviD
+
+text: MikTeX, Vim portas po Win32
+
+programing: Cygwin, ActivePerl (nezhinau, tik ar freeware),
+
+SourceNavigator, FreePascal.
+
+games: FreeCiv (nebandziau)
+
+zhodynai: DICT klientas
+
+daugiau i galva neateina kol kas.
+
+
+<hr><b>romena, 2003/09/25 16:44 EET (via web):</b><br>
+(16:37:51) Kaleda: mozilla-firebird - ta pati mozilla, tik 100kartu geresne ir greitesne. Nera video 
+
+ * VirtualDub - softas
+
+ * huffyuv - kodekas (bent jau huffyuv - tai px)
+
+ * xvid - kodekas, labai gerai butu
+
+<hr><b>zygis, 2003/09/25 17:01 EET (via web):</b><br>
+Pritariu, kad būtinai reikia Mozilla Firebird, taip pat ir Mozilla Thunderbird, nors jis ir ne toks stabilus. 
+
+Taip pat verti įdėti VirtualDub ir XviD. Iš DB serverių dėti tik MySQL (jei bus pridėtas Apache).
+
+<hr><b>romena, 2003/09/26 09:57 EET (via web):</b><br>
+(09:31:07) Smu: Siaip geras daikciukas dar yra SimpleCheck'as - tikrina pasto dezutes. Dar labai reiktu Miranda - icq kliento.
+
+<hr><b>meskiukas, 2003/09/26 11:58 EET (via web):</b><br>
+Dar reikėtų pataisyti CD startupą. 2002 metų su win98 per MyComputer nepavykdavo pažiūrėti CD turinio - kiekvieną kartą kreipiantis išmesdavo startup HTML'ą.
+
+<hr><b>romena, 2003/09/26 13:37 EET (via web):</b><br>
+(13:02:05) black@akl.lt: siulau dar prideti dokumentacija
+is files.akl.lt/Dokumentacija
+
+<hr><b>meskiukas, 2003/09/26 14:15 EET (via web):</b><br>
+Prisiminiau, kad windozei labai reikalingas firewall. Gal kas žino kokį OpenSource ar bent jau free firewall?
+Naudoju darbe kažkokį "tiny personal firewall 2". Žiūrėjau gamintojų puslapį - nebeduoda atsisiųsti nemokamo firewall :(
+
+<hr><b>mykolas, 2003/09/26 23:09 EET (via web):</b><br>
+Atsiprasau, kad sveplas. "The Keyboard Layout Switcher applet appears to have died unexpectedly".
+Meskiuk, is My_Computer du kart bakstelejus bet koki CD, turinti autostarta, man visada atsidarydavo tas autostartas. Norint perziureti tekdavo desiniu peles klavisu rinktis Explore. Ar su AK CD kas nors vyksta kitaip? Bet kuriuo atveju "Startup html" puslapio virsuje turetu buti nuoroda i PERZIURETI CD TURINI. Nepatyrusiam vartotojui patogu, kai idejus CD pasirodo meniu ir paaiskinimas ka jis gali daryti. Manau, sio patogumo neturetume atsisakyti. Perziureti turini paprastai nori truputi daugiau suprantantys ir galintys atlikti sudetinesnius veiksmus. Meskiuk, paaiskink jei ka nors ne taip supratau apie Tavo mineta problema.
+
+<hr><b>mykolas, 2003/09/26 23:18 EET (via web):</b><br>
+AbiWord manau nereikalingas arba turi nesipainioti salia OpenOffice.
+Naujienos turi buti isdestytos pagal temas, tik atskirame puslapyje sudetos papildomos nuorodos i naujienas. Gal pradiniame puslapyje su paaiskinimu kas cia per diskas.
+
+<hr><b>romena, 2003/10/02 13:23 EET (via web):</b><br>
+(13:23:59) pyxis: btw yra dar vienas pasiulymas Net Transporter 1,50  - freeware, palaiko http(s), ftp, mms, rtsp.
+
+<hr><b>black, 2003/10/04 13:05 EET (via web):</b><br>
+Visus programų testavimo rezultatus dedame į vieną vietą - [LPCD2003TEST]
+
+
+<hr><b>jaro, 2003/10/08 05:23 EET (via web):</b><br>
+nu jei apie freepascal prabilo zmones, tai ir gcc reikia deti, nu ir xemacs.
+Siaip tai viena gera 3D programike radau: blender (www.blender.org), gal dar nepamineta?
+
+<hr><b>jaro, 2003/10/08 05:51 EET (via web):</b><br>
+O, dar ir k3d(k3d.sourceforge.net) lyg ir nieko.
+
+<hr><b>mantas, 2003/10/13 19:46 EET (via web):</b><br>
+Manau reiktų įdėti keletą atviro kodo screensaverių, pvz iš http://www.nigels.com/software.html
+
+From unknown Mon Jul 11 18:36:20 +0300 2005
+From: 
+Date: Mon, 11 Jul 2005 18:36:20 +0300
+Subject: Vypres Chat 
+Message-ID: <20050711183620+0300@wiki.akl.lt>
+
+
+
+From unknown Sun Oct 23 00:31:23 +0300 2005
+From: 
+Date: Sun, 23 Oct 2005 00:31:23 +0300
+Subject: mp3
+Message-ID: <20051023003123+0300@wiki.akl.lt>
+
+
+
+From unknown Sat Jul 22 11:27:53 +0300 2006
+From: 
+Date: Sat, 22 Jul 2006 11:27:53 +0300
+Subject: <a href='http://www.ringtones-dir.com'
+Message-ID: <20060722112753+0300@www.akl.lt>
+
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... <a href='http://www.ringtones-dir.com'>free ringtones</a> : [http://www.ringtones-dir.com download ringtones] - [HTTP://www.ringtones-dir.com download ringtones] : [nokia ringtones|http://www.ringtones-dir.com] - [nokia ringtones|HTTP://www.ringtones-dir.com] : http://www.ringtones-dir.com/download/ : [[http://www.ringtones-dir.com ring tones]] : [[http://www.ringtones-dir.com | ringtones download]] : "samsung ringtones" http://www.ringtones-dir.com : [http://www.ringtones-dir.com|ringtones free] </u>
+              
+
+From unknown Sat Jul 22 11:27:55 +0300 2006
+From: 
+Date: Sat, 22 Jul 2006 11:27:55 +0300
+Subject: <a href='|funny ringtones]'
+Message-ID: <20060722112755+0300@www.akl.lt>
+
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ...  </u>
+              

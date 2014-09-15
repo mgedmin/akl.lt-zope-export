@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 618030418
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 16:49:25.645000 GMT+3
+logo_url:string = 
+mail:string = miisa@one.lt
+organization:string = KTU
+position:string = Studentas
+status:string = fiz_asm
+title:string = Viktoras Mi\xc5\xa1eikis
+url_asm:string = 
+url_org:string = http://www.ktu.lt

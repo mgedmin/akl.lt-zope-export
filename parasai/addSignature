@@ -1,0 +1,101 @@
+## Script (Python) "addSignature"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+request = context.REQUEST
+f = request.form
+
+# Susirenkami formos duomenys
+name = f.get('name', 'Anonimas')
+position = f.get('position', '')
+url_org = f.get('url_org', '')
+if url_org == 'http://':
+    url_org = ''
+organization = f.get('organization', '')
+notes = f.get('notes', ' ')
+logo_url = f.get('logo_url', '')
+if logo_url == 'http://':
+    logo_url = ''
+mail = f.get('mail', '').lower()
+status = f.get('status', 'fiz_asm')
+url_asm = f.get('url_asm', '')
+if url_asm == 'http://':
+    url_asm = ''
+agree = f.get('agree', 'no') == 'yes'
+# Patikriname, ar tokiu emailu nėra registracijų
+sigs = container.signatures.objectValues('DTML Document')
+for s in sigs:
+    if s.mail.lower() == mail:
+        request.RESPONSE.redirect("showMsg?msg=%s" % "Negalime priimti Jūsų rėmimo, nes nurodytu el. paštu jau buvo užregistruotas vienas rėmimas.<br/>Jūsų naujas rėmimas galės būti priimtas tik tada, kai bus ištrintas senasis.")
+        return
+
+# Formos duomenų įrašymas
+id = random.randint(100000000, 999999999)
+
+root = container['signatures']
+root.manage_addProduct.addDTMLDocument(id, name)
+sig = root["%s" % id]
+sig.manage_edit(notes, name)
+sig.manage_addProperty('position', position, "string")
+sig.manage_addProperty('url_org', url_org, "string")
+sig.manage_addProperty('organization', organization, "string")
+sig.manage_addProperty('logo_url', logo_url, "string")
+sig.manage_addProperty('mail', mail, "string")
+sig.manage_addProperty('confirmed', 0, "boolean")
+confirm_id = random.randint(100000000, 999999999)
+sig.manage_addProperty('confirm_id', confirm_id, "int")
+sig.manage_addProperty('status', status, "string")
+sig.manage_addProperty('gen_date', DateTime(), "date")
+sig.manage_addProperty('url_asm', url_asm, "string")
+sig.manage_addProperty('agree', agree, "boolean")
+
+# Išsiunčiame laišką
+
+Msg = """Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Sveiki,
+
+Jūs pareiškėte norą tapti AKL pozicijos rėmėju prieš programinės įrangos patentus
+http://www.akl.lt/parasai puslapyje. Į rėmėjo formą įvedėte šiuos
+duomenis:
+
+Statusas: %s
+Įmonės, organizacijos pavadinimas: %s
+Įmonės interneto puslapis: %s
+Įmonės logotipo adresas internete: %s
+Užsiėmimas (darbovietė): %s
+Vardas, pavardė: %s
+Asmeninis interneto puslapis: %s
+El. paštas: %s
+Pastabos:
+%s
+
+Jei šie duomenys teisingi, patvirtinti rėmimą galite paspaudę šią
+nuorodą: http://www.akl.lt/parasai/confirm_add?id=%s&confirm_id=%s
+
+Pasitraukti iš rėmėjų galima paspaudus http://www.akl.lt/parasai/confirm_delete?id=%s&confirm_id=%s
+
+Šios nuorodos galios dar 24 val.
+
+ps.: Šis laiškas yra generuojamas  ir siunčiamas į lankytojo nurodytą el. pašto adresą automatiškai.
+
+-- 
+AKL
+http://www.akl.lt/parasai""" % (
+    context.getStatus(status),
+    organization, url_org, logo_url, position, name, url_asm, mail, notes, 
+    id, confirm_id, id, confirm_id
+)
+To = mail
+From = "AKL <%s>" % mail
+Subj = "=?UTF-8?B?UHJhxaF5bWFzIHBhdHZpcnRpbnRpIHBhcmHFocSF?=" # Prašymas patvirtinti parašą
+context.MailHost.send(Msg, To, From, Subj)
+
+request.RESPONSE.redirect("showMsg?msg=%s" % "Jūsų nurodytu el. paštu buvo išsiųsta nuoroda rėmimo patvirtinimui.<br/>Gavę laišką, įsitikinkite, kad nurodyti teisingi duomenys ir paspauskite gautą nuorodą.")
+return

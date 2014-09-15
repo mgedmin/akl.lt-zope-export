@@ -1,0 +1,36 @@
+<h2>„ArgoUML“<br>
+<a href="http://argouml.tigris.org">http://argouml.tigris.org</a></h2>
+<a href="http://argouml.tigris.org">
+  <img src="images/argologo.gif" alt="ArgoUML" border="0" class="rphoto">
+    </a>
+<p>UML - unifikuota modeliavimo kalba (tai - sutartinių projektavimo
+ženklų kalba ;)). Ja patogu projektuoti įvairius sąryšius bei procesus.
+Dažniausiai
+naudojama programavimo inžinerijoje, bet taip pat tinka ir kituose
+moksluose - kad ir socialiniuose.</p>
+<p>„ArgoUML“ parašytas Java 1.3, todėl tinka visoms operacinėms
+sistemoms. Palaiko 8 iš 9 standartinių diagramų tipų:
+<ul>
+<li>Klasių</li>
+<li>Būsenų</li>
+<li>Veiklos</li>
+<li>Naudojimo būdų (Use-Case)</li>
+<li>Bendradarbiavimo</li>
+<li>Platinimo (Deployment) (includes Object and Component diagram in
+one) </li>
+<li>Sekos (dabartinėje versijoje išimta)</li>
+</ul>
+</p>
+<p>Sudarytą modelį galima lengviau ar net automatiškai realizuoti kaip
+programą - dabar galima generuoti Java, C++, PHP (tikriausiai ir
+Python) kodą. „Reverse-engineering“ - galimybė iš programos kodo
+generuoti UML
+diagramas (standartiškai palaiko Java, be to yra Python bei komercinis
+modulis PHP kalbos atvirkštiniam projektavimui).</p>
+<p>Sąrašą programos savybių su aprašymais rasite <a
+href="http://argouml.tigris.org/features.html">čia</a>. O apsilankę <a
+href="http://argouml.tigris.org/tours/index.html">čia</a>,
+susipažinsite su programos aplinka ir galimybėmis. Taip pat 
+publikuojamas <a
+href="http://argouml.tigris.org/documentation/defaulthtml/manual/">vartotojo
+vadovas</a>, <a href="http://argouml.tigris.org/documentation/">dokumentacija</a>.</p>

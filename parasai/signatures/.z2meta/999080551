@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 131124936
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 10:39:49.272000 GMT+3
+logo_url:string = http://com.fermentas.lt/img/fermentas.gif
+mail:string = tarv@fermentas.lt
+organization:string = Fermentas UAB
+position:string = Informacini\xc5\xb3 technologij\xc5\xb3 grup\xc4\x97s vadovas
+status:string = imone
+title:string = Tomas Tarvainis
+url_asm:string = http://tt.ibt.lt
+url_org:string = http://www.fermentas.lt

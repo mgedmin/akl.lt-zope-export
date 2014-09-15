@@ -1,0 +1,8 @@
+[properties]
+confirm_id:string = 429128919
+confirmed:boolean = 1
+email:string = nerijus@users.sourceforge.net
+grazulis:int = 2
+kriauciunas:int = 1
+paulauskas:int = 3
+title:string = nerijus@users.sourceforge.net

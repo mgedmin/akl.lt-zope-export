@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 372156629
+confirmed:boolean = 1
+gen_date:date = 2005/05/24 07:46:10.333000 GMT+3
+logo_url:string = 
+mail:string = wilmux@gmail.com
+organization:string = Vilniaus universitetas
+position:string = Student\xc4\x97
+status:string = fiz_asm
+title:string = Vilma Dambrauskait\xc4\x97
+url_asm:string = 
+url_org:string = http://www.vu.lt

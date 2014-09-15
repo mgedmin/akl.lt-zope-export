@@ -1,0 +1,12 @@
+<h2>Galinga geografinė informacinė sistema „Grass“ <br>
+<a href="http://grass.itc.it">http://grass.itc.it</a></h2>
+<p>
+Tai laisva geografinė informacinė sistema (GIS). Dirba su rastriniais bei vektoriniais žemėlapiais, yra nuotraukų apdorojimo bei kitos funkcijos. <br>
+Palaiko šiuos duomenų formatus:<br>
+2D ir 3D rastriniai duomenys (pvz. ASCII, ARC/GRID, E00, GIF, GMT, TIF, PNG, ERDAS LAN, Vis5D, SURFER (.grd) ir t.t.); <br>
+palydovinės ir aero nuotraukos (pvz. AVHRR, BIL/BSQ, ERDAS LAN, HDF, LANDSAT TM/MSS, NHAP aerial photos, SAR, SPOT ir t.t.);<br>
+topologiniai vektoriniai duomenys (pvz. ARC/INFO, ArcView SHAPE (su topologiniais pataisymais), BIL, DLG (U.S.), DXF, DXF3D, GMT, GPS-ASCII, USGS-DEM, IDRISI, MOSS, MapInfo MIF, TIGER, VRML ir t.t.) bei taškiniai duomenys.<br>
+ <br>  
+GRASS duomenų apdorojimo galimybės: erdvinė analizė; žemėlapių generavimas; duomenų vizualizacija (2D,2.5D ir 3D); duomenų generavimas modeliuojant; ryšys su DBMS (PostgreSQL, kiti per ODBC,...); duomenų kaupimas, geostatistika.<br>
+Išsamią dokumentaciją bei pradžiamokslius rasite čia: <a href="http://grass.itc.it/gdp/">http://grass.itc.it/gdp/</a>
+</p>

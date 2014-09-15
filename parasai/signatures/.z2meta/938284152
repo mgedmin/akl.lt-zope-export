@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 979053645
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 08:59:50.604000 GMT+3
+logo_url:string = 
+mail:string = ziurkenas@gmail.com
+organization:string = 
+position:string = studentas
+status:string = fiz_asm
+title:string = Juozas Breive
+url_asm:string = http://juozukas.info
+url_org:string = 

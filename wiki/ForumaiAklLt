@@ -1,0 +1,180 @@
+Bendri forumai apie laisvas programas
+
+ Idėja
+
+   Lietuva yra per maža, kad kiekvienas kurėtu savo forumus. Paprasčiausiai nebus kam atsakyti į žmonių klausimus :)
+
+   Žmogus visą gyvenimą naudojo MS Windows ir t.t., dabar idiegė Linux'ą. Jam reikalinga pagalba. Nepatogu yra bėgioti po visą internetą ir ieškotis atsakymų į savo klausimus. linux_os konferencijose jį tiesiog pasius tolyn, be to kartais patgiau skaityti webforumus nei gauti šimtais laiškus kur daugelis tavęs nedomina.
+
+   Dėl šitų ir kitų priežasčiu buvo nutarta sukurti forumai.akl.lt
+
+
+ Forumų kategorijos
+
+  * Laisvos programos
+    
+    * Biuro programos
+  
+      o OpenOffice.org
+
+      o Abi Word
+
+      o Kitos 
+
+    * Interneto naršyklės
+
+      o Mozilla Firefox
+
+      o Kitos
+
+    * Pašto programos
+
+      o Mozilla Thunderbird
+
+      o Evolution
+
+      o KMail
+
+      o Kitos
+
+    * Multimedia
+
+    * Grafikos programos
+
+      o Gimp
+
+      o Blender
+
+  * Laisvos programavimo kalbos
+
+    * GCC
+
+    * PHP
+
+    * Python
+
+    * Ruby
+   
+  * Laisvos duomenų bazės
+
+    * MySQL
+
+    * PostgreSQL
+
+  * Free Software ideologija
+
+    * Licencijos
+
+    * Programų laisvė (Kas tai programų laisvė? Kuo skiriasi laisvos programos nuo uždaro kodo (nuosavybinių) programų)
+
+    * Patentai
+
+    * Organizacija "Atviras Kodas Lietuvai"
+
+  * Laisvos Operacinės Sistemos
+
+    * GNU/Hurd
+
+    * FreeBSD
+
+    * GNU/Linux ( visi forumai apie linux'ą, distras, konfiguravimą laikoma linux.akl.lt/index.php/forumai )
+
+  * Kiti
+
+    * Forumo klaidos (pranešimai apie forumai.akl.lt klaidas)
+
+    * AK naudojimas (kur ir kaip naudojame AK)
+
+    * Apie orą (šiaip draugiški pokalbiai)
+
+
+   siūlykite savo forumų kategorijas!
+
+ Techninis realizavimas
+
+   Po ilgų svarstymų buvo nuspresta naudoti phpbb stabilia versiją su papildomu moduliu subkategorijom daryti. 
+   Taip buvo pasirinkta nes:
+    
+    * phpbb yra išverstas į Lietuvių kalbą
+    
+    * turi visas reikalingas galimybęs
+
+    * nors pasirodo saugumo spragos, bet jos greitai taisomos
+  
+    * paprastas interfeisas
+
+ Kas padaryta?
+   
+   Paleista forumai.akl.lt svetainė ant phpbb forumų skripto. PHPBB buvo truputi patobulintas (sudėjau Categories Hierarchy hack'ą).
+ 
+From unknown Wed Apr 20 20:43:11 +0300 2005
+From: 
+Date: Wed, 20 Apr 2005 20:43:11 +0300
+Subject: dz0
+Message-ID: <20050420204311+0300@wiki.akl.lt>
+
+dar kategrijos/forumai galetu buti:
+
+- Baltix (ir kitos distr. gal nepakenktu)
+
+- Python (geras daiktas apie kuri LT dar per mazai kalbama)
+
+- Kur ir kaip naudojate AK (kad dalyviai vieni kitus geriau pazintu ir suprastu)
+
+ps.: siaip forumai yra geras sourcas "Dokumentacijai":http://wiki.akl.lt/Dokumentacija
+
+From unknown Tue Mar 28 12:44:29 +0300 2006
+From: 
+Date: Tue, 28 Mar 2006 12:44:29 +0300
+Subject: kazys
+Message-ID: <20060328124429+0300@www.akl.lt>
+
+LENGVAI UZDIRBAMI PINIGAI!!!
+pabandyk, pamatysi kad veikia...
+Skaitant si straipsni jus galite pakeisti savo gyvenima! Tai pakeite mano gyvenima... As aptikau tai viename is forumu ir nusprendziau pabandyti. Dalyvaujant ivairiuose forumose, as randu sita straipsni, kuriame sakoma, kad galima padaryti tukstancius doleriu per keleta savaiciu idedant tik 6$. Skaistalai, pagalvojau, tai turetu buti eilinis budas apmauti „lochus“, bet nusprendziau perskaityti ir suzinoti koki Herbalaif man kisa... Toliau ten sakoma, kad reikia persiusti po 1$ i e-gold saskaita , kiekvienam is saraso apacioje. Paskui isbraukti pirma e-gold saskaitos numeri ir irasyti savo saskaitos numeri i paskutine sesta eilute, ir talpinate sita straipsni kaip minimum 200 forumuose ir skelbimuose. Jokiu apgauliu… As pamasciau, kad nieko neprarandu isskyrus savo 6$ ir nusprendziau pabandyti. Ir atspekit kas??? Po keliu dienu man i e-gold saskaita pradejo kauptis pinigai… As buvau apakes!!! Bet pagalvojau, kad tuo ir pasibaigs… Bet nepasibaige… Per pora savaiciu susikaupe apie 1000 $, po triju savaiciu – keli tukstanciai, po pusantro men – apie 15000 $. Ir dabar tebeina. Ir sita suma toliau tebeauga. O prasidejo tik nuo 6$... As turejau nepavidetina finansine padeti tuomet, kai perskaiciau sita straipsni. As nepatikejau, kad tai dirba kol pats nepradejau gauti pinigus is viso pasaulio. Dabar galiu sau leisti isigyti viska, ko man reikia, tai as vadinu finansine nepriklausomybe… Noriu su jumis pasidalinti kaip tai dirba, nes tai naudinga ir jums, ir man. As jums pazadu, jeigu jus tiksliai seksite instrukcija ir neturesite vilciu gudrauti, jus pradesite gauti daug daugiau pinigu, negu tikites, per daug nesistengdamas. Pasiulymas: Perskaitykite tai pora kartu!!! Issaugokite savo kompe, sekite instrukcija ir pinigai neprivers jusu laukti. Sutikite - tai paprasta!!! Tai absoliuciai legalu, tai tik bankine pinigu pavedimo operacija, ir jusu indelis yra tik 6$ ir pora valandu internete… Svarbu: Tai ne apgavyste ir visiskai legalu ir jus niekuo nerizikuojate ir neprarandate, bet tai tikrai dirba!!! Atkreipkit demesi: Tiksliai sekite instrukcija ir 50000$ ir daugiau bus jusu nuo 20 iki 60 dienu laikotarpije. Visa tai sekmingai veikia del dalyviu saziningumo. Yra trys paprasti ZINGSNIAI: • Jei dar neturite, jums reikia atsidaryti saskaita e-gold internetiniame banke adresu: https://www.e-gold.com. Einate i “Create an account” , spauskite “I AGREE” ir uzpildykite registracijos anketa, isiminkite savo saskaitos VARDA ir SLAPTAZODI, na ir be abejones savo SASKAITOS numeri. • Kad ieiti i banko pavedimo forma adresu: https://www.e-gold.com/acct/login.html , virsuje spauskite SPEND. Lange PAY iveskite pirma saskaitos numeri is saraso apacios, AMOUNT lange skaiciu 1, Choose unit lange isrinkite US’ Dollars, MEMO lange irasykite “ Iveskite prasom mano saskaitos numeri i sarasa”. Tokia operacija pakartokite su kiekvienu is sarase esanciu dalyviu. Visa tai ivykdzius, jus padarete paslauga, ir svarbiausia - tai visiskai legalu. Jus taip pat prasote teisetos paslaugos, uz kuria mokate. Perveskite po 1$ i sekancias e- gold saskaitas: 1. 2603832. . 2. 2762313 3. 2822455. 4. 1703831. 5. 2928337.. 6. 3022016.Dabar isbraukite is saraso Nr.1 saskaitos numeri, perneskite visas saskaitas vienu eiles numeriu i viru, o i atlaisvinta Nr.6 eilute irasykite savo e-gold saskaitos numeri. • Darykite bet kokius pokycius, bet islaikykite pagrindine ideja, Isplatinkite sita straipsni kaip min 200 forumose ir naujenu juostose( News Groups), skelbimuose arba asmeniniais laiskais, isidemekite - kuo daugiau informacijos apie si straipni, tuo didesnes bus jusu pajamos ir tos pajamos tesiogiai priklauso nuo jusu. Sitas biznis sekmingai gyvuoja ir klesti del dalyviu saziningumo ir rimtumo. Ir kada jus pasieksite pirma eilute, jus turesite tukstancius $ tesiog kaip saraso kurejas! Tai kainuoja tik 6 $ ir kelias valandas nesunkaus darbo!!! Uzsiimkite tuo dabar, neatidekite rytdienai!!! Laikas pinigai!!! O dabar as papasakosiu, kodel jus bet kokiu atveju neko neprarandate, o tikrai islosiate. Tiesiog paprasta aritmetika. Sakysim is 200 laisku ar straipsniu as gausiu 5 atsakymus (menkas rezultatas), tai reiskia as uzdirbsiu 5$ budamas sestoje pozicijose sarase. Dabar sitie 5 zmones isplatina dar po 200 pranesimu su jusu saskaitos numeriu jau 5 pozicijoje, ir pastariesiems taip pat atsako tik po 5 zmones – tai jau 25$ i saskaita. Toliau sitie 25 zm. daro po 200 patalpinimu su jusu sask.Nr. 4 pozicijoje ir atsako vel 5zm. – pajamos 125$. Toliau sitie 125 zm. patalpinus po 200 pranesinu ir gavus po savo 5 zm. Jums duoda 625$ pajamu (jus 3 pozicijose) Toliau dar idomiau: sitie 625zm. daro 200 patalpinimu su jusu sask. Nr. 2 pozicijose, atsako velgi po 5 zm. – tai 3125$. Ir tie 3125zm. daro 200 patalpinimu, ir daro 15625$. Ar ne ispudingas skaicius? Ir tai tik uz pirmutinius 6$. Kada jusu sarase jau nera jus vel issiuncate 6$ kiek vienam is busimo saraso ir talpinat savo sask.Nr. i 6 pozicija. Ar jus galite isivaizduoti kiek zmoniu kasdien visame pasaulyje prisijungia prie interneto ir skaito sita straipsni, kaip ir jus dabar skaitote!!! Pagalvokit ne vien apie Lietuvos, bet pvz Rusijos galimybes. Kaip paskleisti informacija internete? 1. Atidarot paieskos serverius (Google.com, Aport.ru, Yahoo.com, Rambler.ru, Jandex.ru, AlfaVista.com ir kitus) 2. Rasom raktini zodi – forum(mas), skelbimas, News groups, advertising ir kitus. 3. Paieska suras tukstancius forumu ir skelbimu skilteliu, kur jus ir galite patalpinti savo straipsni. Kaip padeti ir pasimti pinigus is interneto? 1. Kad padeti 6$ i e-gold saskaita, jums reikia: ieiti i Webmoney Transfer in Lithuania adresu : www.wm-lt.com/e-goldlt.htm , spaudziate LTL- > e-gold, uzpildote prasima pervesti is bet kurio Lietuvos banko (PVZ- AB Hansa LTB) i e-gold saskaita ir nurodote savo eMaila. Jums atsius saskaita i kuria jus pervedat pinigus Lt, o jie automatiskai perveda pinigus i jusu e-gold saskaita. Jie perspeja, kad pavedima padarys per laikotarpi iki 3 paru, bet dazniausiai tai ivykdo per kelias valandas. PASTABA: idekite siek tiek daugiau pinigeliu, kadangi tarpininkai ima 0.1% mokesti. 2. Kad paimti pinigus is e-gold – darome atvirkstine operacija: e-gold - > LTL ir pervedame pinigus is e-gold i bet kuri Lietuvos banka. Sekmes isleidziant uzdirbtus pinigus!!!
+
+
+From unknown Thu May 4 22:06:48 +0300 2006
+From: 
+Date: Thu, 04 May 2006 22:06:48 +0300
+Subject: tai veikia...
+Message-ID: <20060504220648+0300@www.akl.lt>
+
+tiem kam reik greit pinigu 
+Skaitant ši straipsnį jūs galite pakeisti savo gyvenima! Tai pakeitė mano gyvenimą... Aš aptikau tai viename iš forumų ir nusprendziau pabandyti. Dalyvaujant ivairiuose forumose, as randu sita straipsni, kuriame sakoma, kad galima padaryti tukstancius doleriu per keleta savaiciu idedant tik 6$. Skaistalai, pagalvojau, tai turetu buti eilinis budas apmauti „lochus“, bet nusprendziau perskaityti ir suzinoti koki Herbalaif man kisa... Toliau ten sakoma, kad reikia persiusti po 1$ i e-gold saskaita , kiekvienam is saraso apacioje. Paskui isbraukti pirma e-gold saskaitos numeri ir irasyti savo saskaitos numeri i paskutine sesta eilute, ir talpinate sita straipsni kaip minimum 200 forumuose ir skelbimuose. Jokiu apgauliu… As pamasciau, kad nieko neprarandu isskyrus savo 6$ ir nusprendziau pabandyti. Ir atspekit kas??? Po keliu dienu man i e-gold saskaita pradejo kauptis pinigai… As buvau apakes!!! Bet pagalvojau, kad tuo ir pasibaigs… Bet nepasibaige… Per pora savaiciu susikaupe apie 1000 $, po triju savaiciu – keli tukstanciai, po pusantro men – apie 15000 $. Ir dabar tebeina. Ir sita suma toliau tebeauga. O prasidejo tik nuo 6$... As turejau nepavidetina finansine padeti tuomet, kai perskaiciau sita straipsni. As nepatikejau, kad tai dirba kol pats nepradejau gauti pinigus is viso pasaulio. Dabar galiu sau leisti isigyti viska, ko man reikia, tai as vadinu finansine nepriklausomybe… Noriu su jumis pasidalinti kaip tai dirba, nes tai naudinga ir jums, ir man. As jums pazadu, jeigu jus tiksliai seksite instrukcija ir neturesite vilciu gudrauti, jus pradesite gauti daug daugiau pinigu, negu tikites, per daug nesistengdamas. Pasiulymas: Perskaitykite tai pora kartu!!! Issaugokite savo kompe, sekite instrukcija ir pinigai neprivers jusu laukti. Sutikite - tai paprasta!!! Tai absoliuciai legalu, tai tik bankine pinigu pavedimo operacija, ir jusu indelis yra tik 6$ ir pora valandu internete… Svarbu: Tai ne apgavyste ir visiskai legalu ir jus niekuo nerizikuojate ir neprarandate, bet tai tikrai dirba!!! Atkreipkit demesi: Tiksliai sekite instrukcija ir 50000$ ir daugiau bus jusu nuo 20 iki 60 dienu laikotarpije. Visa tai sėkmingai veikia del dalyviu sažiningumo. Yra trys paprasti ZINGSNIAI: • Jei dar neturite, jums reikia atsidaryti saskaita e-gold internetiniame banke adresu: https://www.e-gold.com. Einate i “Create an account” , spauskite “I AGREE” ir uzpildykite registracijos anketa, isiminkite savo saskaitos VARDA ir SLAPTAZODI, na ir be abejones savo SASKAITOS numeri. • Kad ieiti i banko pavedimo forma adresu: https://www.e-gold.com/acct/login.html , virsuje spauskite SPEND. Lange PAY iveskite pirma saskaitos numeri is saraso apacios, AMOUNT lange skaiciu 1, Choose unit lange isrinkite US’ Dollars, MEMO lange irasykite “ Iveskite prasom mano saskaitos numeri i sarasa”. Tokia operacija pakartokite su kiekvienu is sarase esanciu dalyviu. Visa tai ivykdzius, jus padarete paslauga, ir svarbiausia - tai visiskai legalu. Jus taip pat prasote teisetos paslaugos, uz kuria mokate. Perveskite po 1$ i sekancias e- gold saskaitas: 1. 2762313.  2 .2822455. 3. 1703831. 4. 2928337. 5. 3022016. 6. 3114545. Dabar isbraukite is saraso Nr.1 saskaitos numeri, perneskite visas saskaitas vienu eiles numeriu i viru, o i atlaisvinta Nr.6 eilute irasykite savo e-gold saskaitos numeri. • Darykite bet kokius pokycius, bet islaikykite pagrindine ideja, Isplatinkite sita straipsni kaip min 200 forumose ir naujenu juostose( News Groups), skelbimuose arba asmeniniais laiskais, isidemekite - kuo daugiau informacijos apie si straipni, tuo didesnes bus jusu pajamos ir tos pajamos tesiogiai priklauso nuo jusu. Sitas biznis sekmingai gyvuoja ir klesti del dalyviu saziningumo ir rimtumo. Ir kada jus pasieksite pirma eilute, jus turesite tukstancius $ tesiog kaip saraso kurejas! Tai kainuoja tik 6 $ ir kelias valandas nesunkaus darbo!!! Uzsiimkite tuo dabar, neatidekite rytdienai!!! Laikas pinigai!!! O dabar as papasakosiu, kodel jus bet kokiu atveju neko neprarandate, o tikrai islosiate. Tiesiog paprasta aritmetika. Sakysim is 200 laisku ar straipsniu as gausiu 5 atsakymus (menkas rezultatas), tai reiskia as uzdirbsiu 5$ budamas sestoje pozicijose sarase. Dabar sitie 5 zmones isplatina dar po 200 pranesimu su jusu saskaitos numeriu jau 5 pozicijoje, ir pastariesiems taip pat atsako tik po 5 zmones – tai jau 25$ i saskaita. Toliau sitie 25 zm. daro po 200 patalpinimu su jusu sask.Nr. 4 pozicijoje ir atsako vel 5zm. – pajamos 125$. Toliau sitie 125 zm. patalpinus po 200 pranesinu ir gavus po savo 5 zm. Jums duoda 625$ pajamu (jus 3 pozicijose) Toliau dar idomiau: sitie 625zm. daro 200 patalpinimu su jusu sask. Nr. 2 pozicijose, atsako velgi po 5 zm. – tai 3125$. Ir tie 3125zm. daro 200 patalpinimu, ir daro 15625$. Ar ne ispudingas skaicius? Ir tai tik uz pirmutinius 6$. Kada jusu sarase jau nera jus vel issiuncate 6$ kiek vienam is busimo saraso ir talpinat savo sask.Nr. i 6 pozicija. Ar jus galite isivaizduoti kiek zmoniu kasdien visame pasaulyje prisijungia prie interneto ir skaito sita straipsni, kaip ir jus dabar skaitote!!! Pagalvokit ne vien apie Lietuvos, bet pvz Rusijos galimybes. Kaip paskleisti informacija internete? 1. Atidarot paieskos serverius (Google.com, Aport.ru, Yahoo.com, Rambler.ru, Jandex.ru, AlfaVista.com ir kitus) 2. Rasom raktini zodi – forum(mas), skelbimas, News groups, advertising ir kitus. 3. Paieska suras tukstancius forumu ir skelbimu skilteliu, kur jus ir galite patalpinti savo straipsni. Kaip padeti ir pasimti pinigus is interneto? 1. Kad padeti 6$ i e-gold saskaita, jums reikia: ieiti i Webmoney Transfer in Lithuania adresu : www.wm-lt.com/e-goldlt.htm , spaudziate LTL- > e-gold, uzpildote prasima pervesti is bet kurio Lietuvos banko (PVZ- AB Hansa LTB) i e-gold saskaita ir nurodote savo eMaila. Jums atsius saskaita i kuria jus pervedat pinigus Lt, o jie automatiskai perveda pinigus i jusu e-gold saskaita. Jie perspeja, kad pavedima padarys per laikotarpi iki 3 paru, bet dazniausiai tai ivykdo per kelias valandas. PASTABA: idekite siek tiek daugiau pinigeliu, kadangi tarpininkai ima 0.1% mokesti. 2. Kad paimti pinigus is e-gold – darome atvirkstine operacija: e-gold - > LTL ir pervedame pinigus is e-gold i bet kuri Lietuvos banka. Sekmes isleidziant uzdirbtus pinigus!!!
+
+
+
+From unknown Sat Jun 24 06:59:34 +0300 2006
+From: 
+Date: Sat, 24 Jun 2006 06:59:34 +0300
+Subject: Hi I'am new user
+Message-ID: <20060624065934+0300@www.akl.lt>
+
+Hi I'am new user
+____________________________
+
+
+
+
+
+From unknown Thu Jul 20 12:34:03 +0300 2006
+From: 
+Date: Thu, 20 Jul 2006 12:34:03 +0300
+Subject: Test
+Message-ID: <20060720123403+0300@www.akl.lt>
+
+test
+_________________
+
+
+
+
+From unknown Thu Jul 27 09:46:28 +0300 2006
+From: 
+Date: Thu, 27 Jul 2006 09:46:28 +0300
+Subject: New User .
+Message-ID: <20060727094628+0300@www.akl.lt>
+
+Hi i am new user
+_____

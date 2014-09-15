@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 577174754
+confirmed:boolean = 1
+gen_date:date = 2005/06/07 15:56:49.741000 GMT+3
+logo_url:string = 
+mail:string = xxx123@one.lt
+moder_denied:string = 
+moder_ok:string = 
+organization:string = Studentas
+position:string = Studentas
+status:string = fiz_asm
+title:string = Paulius Makaulius
+url_asm:string = 
+url_org:string = 

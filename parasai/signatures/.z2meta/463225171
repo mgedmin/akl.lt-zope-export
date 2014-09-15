@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 682795798
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 09:24:14.177000 GMT+3
+logo_url:string = http://linas.extrafm.lt/ddl/extrafm_logo_small.jpg
+mail:string = linas@extrafm.lt
+organization:string = UAB "Interbanga"
+position:string = Kompiuterini\xc5\xb3 ry\xc5\xa1i\xc5\xb3 analitikas
+status:string = fiz_asm
+title:string = Linas Mak\xc5\xa1tutis
+url_asm:string = http://linas.extrafm.lt
+url_org:string = http://www.extrafm.lt

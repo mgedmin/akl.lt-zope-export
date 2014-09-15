@@ -1,0 +1,7 @@
+[properties]
+blurb:text = \xc5\xa0\xc4\xaf m\xc4\x97nes\xc4\xaf Miuncheno miesto taryba pasirinko <a href=\xe2\x80\x9dhttp://www.softcon.de/\xe2\x80\x9d>\xe2\x80\x9dSoftcon\xe2\x80\x9d</a> ir <a href=\xe2\x80\x9dhttp://www.gonicus.de/\xe2\x80\x9d>\xe2\x80\x9dGonicus\xe2\x80\x9d</a> \xc4\xafmones, kurios tieks atvirojo kodo taikom\xc4\x85sias programas savivaldyb\xc4\x97s 14 t\xc5\xabkst. kompiuteri\xc5\xb3 darbo vietose.
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'GNU/Linux&nbsp;OS\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\')
+date:string = 2005-04-26
+profesionalams:boolean = 0
+title:string = Miunchenas pasirinko \xe2\x80\x9cLinux\xe2\x80\x9d tiek\xc4\x97jus

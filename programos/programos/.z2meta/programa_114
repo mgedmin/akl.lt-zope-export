@@ -1,0 +1,5 @@
+[properties]
+categories:string = Mokymui,Pramogai,
+public:boolean = 0
+title:string = Asymptopia Crossword Builder (With Math Generator)
+trumpai:text = Asymptopia Crossword Builder is a JavaScript education application. Through the GUI, you can automatically generate unlimited math crosswords (add/sub/mult/div/alg/frac) or enter/paste your own lists of key:hint pairs. It is educational, and keeps kids busy.\nhttp://www.asymptopia.org/index.php?topic=MathCrosswordBuilder

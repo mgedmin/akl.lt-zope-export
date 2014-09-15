@@ -1,0 +1,110 @@
+Ištestuoti programas, esančias http://www.akl.lt/programos ir surašyti rezultatus į lentelę. To nepakanka: reikalinga formuoti turinio sąrašą, testuotas programas dėti į vieną, visiems prieinamą, vietą, ty. <a href=ftp://files.akl.lt/incoming/testavimas/>ftp://files.akl.lt/incoming/testavimas/<a>, dalintis testavimo informacija.
+Testavimui turime vieną savaitę - t.y. nuo spalio 4 iki 11 dienos, prašome suspėti. Sėkmės darbe.
+
+Turinio surašymo struktūra:
+
+**PROGRAMOS PAVADINIMAS - komentaras 
+
+Ofiso paketas "OpenOffice.org" (black) - Ištestavau galutinai OOo (ux galinga programa reikalaujanti daug darbo) radau kelis bugus: atidariau įprastą word (doc) dokumentą (su daug lietuviškom raidėm, ir paveiksliukais) išsaugant rtf sudarkė visą. Išsaugodamas tą patį failą *.doc senesniems oficams (95 ir 6.0) atidarydamas juos pasigedau paveiksliukų (jie tiesiog dingo). Ps.: dar vienas pastebėjimas - visi failai  išskyrus sxw, txt ir pdf užima kiek mažiau nei 7 megus, tuo tarpu pats doc failas svėrė vos 300 kb - labai neekonomiška! Bene keisčiausia klaida buvo kai pabandžiau išsaugoti html formatu, nors failas buvo išsaugotas ir rimtesnių nemalonumų nemačiau prieš saugant išmetė štai tokį error: "Warning saving the document <dokumento pavadinimas>:: Write Error. The following characters could not be displayed in the selected character set <ir kažkoks kvadračiukas>".
+
+<b>Mantas</b>: čia yra draugiškumo vartotojui problema - default encoding pas tave nustatytas nelietuviškas ir neunicode, o tame dokumente buvo lietuviškų ar rusiškų simbolių ir OpenOffice teisingai pasakė, tik dar galėjo pasufleruoti, kaip žmogui tą probemą išspręsti - t.y. "Choose correct encoding from menu blablabla" (gal kas nori pareportinti apie tai į issuezilla?. Beje jei kas nors neveikia arba veikia ne taip kaip turėtų tai reikia konkrečiai išsiaiškinti (t.y. padėti problemų sukeliantį dokumentą kur į ftp), nes dabar tai sunku suprasti apie kokius ten megus ir paveiksliukus kalbi.)
+
+<b>Black</b>: Negana to vis dar nėra lietuviško interfeiso - pasak V.Dagienės jei dar nebaigė versti 1.0.3, baigt ketina lapkričio mėn. Pliusai: pagaliau integruotas pdf exportas, dar daugiau įrankių, daug patogiau naudoti. 
+
+Tekstų redaktorius "AbiWord" (black) - ištestavau ne naujausią versiją, o 1.99 beta - radau štai tokius bugus: atidarant doc failą (tą patį su kuriuo testavau OOo) neatidarė paveiksliukų - juos tiesiog ignoravo; yra lietuvių kalba,tačiau nėra išverstos kai kurie mygtukai - t.y. tokie kaip recent file, ir panašiai ...  jųs suskaičiavau tikrai nemažai. (ps.: Recent file dar netgi ir neveikia). Kitų klaidų nepastebėta.
+<b>Mantas</b>: Reikia testuoti ne 1.99 beta, o 2.0, ten ir vertimas geras ir recent files veikia ir doc formatą atidaro ;) Ir vėl - jei kam neatidaro normaliai kokio dokumento reikia konkrečiai išsiaiškinti (t.y. padėti tą dokumentą kur į ftp).
+
+Kalendorius bei darbo organizatorius "Mozilla-Calendar" (black) - ypatingų trukumų nepastebėta.
+
+Interneto naršyklė "Mozilla" (black) - ištestavau naujausią versiją (tiek lietuvišką 1.4 tiek anglišką 1.5) rimtesnių pakitimų nepastebėjau patogu naudoti abi. Gal net patogesnė nei Opera.
+
+
+<b> Jei kas jau ištestavo kokias programas - tiesiog papildykite esamus komentarus</b>
+
+
+
+<hr><b>romena, 2003/10/08 11:19 EET (via web):</b><br>
+apie kiekvieną iš programų, reikalingas trumpas aprašymas: kas per programa, pagrindinės funkcijos, įdiegimo instrukcijos, svarbios nuorodos
+
+<hr><b>jurgis, 2003/10/08 16:27 EET (via web):</b><br>
+Universalus archyvatorius ("7-Zip") - (JuPy) Paskutinė versija 3.11. Instaliuojasi Doublclicku ir nieko nepraso :]. Turi integruotas 40 kalbų tame tarpe ir LT. Testavau su Win XP. Palaiko 7z, ZIP, CAB, RAR, ARJ, GZIP, BZIP2, TAR, CPIO, RPM it DEB failų formatus. Kaip sklebiais savo puslapyje kad ju naujoji archyvavimo technologija suspaudzia geriau (bandziau ant exe failais - suspaude kaikuriuos net 70%).Galima daryt SFX, apsaugoti slaptažodžiu. Dirba kaip failu manageris, integruojasi su windows shell. Veikia visi standartiniai F? klavisai prie kuriu pripratome jau nuo NC laiku :]<br>
+Įdomūs featursai, kad turi daugelio pamegto FAR managerio pluginus, kurie įgalina peržvelgti  doc, xls, ppt, msi, chm failus
+Turi "favorites" meniu kur galima susideti labiausiai lankomus katalogus<br>
+<b>Trukumai</b><br> 
+<b>1.</b> nedaro tomu t.y. neskaido i mazesniu failus archyvo<br>
+<b>2.</b> neturi buttonbar virsuj ir reik mokintis shortkutus ant klaviaturos<br>
+<b>3.</b> "Add to archive..." pasiekiamas tik su pele nera klaviaturoj shortkuto <- cia nepatogumas <br> 
+
+
+
+<hr><b>mantas, 2003/10/11 02:24 EET (via web):</b><br>
+Reiktų įdėti naujausią (1.3.20 arba 1.3.21) GIMP versiją, bet niekur nemačiau Win32 setup'o, gal kas žino kur rasti (o gal patiems sukurti) ?
+
+senesnė - 1.2.5 versija turi ir privalumų ir trūkumų prieš naują - ja gana sunku naudotis pradedantiesiems, tačiau ji yra išversta į lietuvių kalbą. Manau reiktų bent jau išverstus patarimus perkelti į 1.3.2x versijas.
+
+<hr><b>black, 2003/10/11 14:02 EET (via web):</b><br>
+Įdėjau į files.akl.lt/testavimas/ dokumentą su kuriuo testavau. Dėl AbiWord - neradau 2.0 versijos windowsams - išskyrus tai kad yra binarai - o ne setupas. Mantiena pas mane default encoding viskas ok. O problemos spręsti jis nepasiūlė kaip.
+
+<hr><b>meskiukas, 2003/10/12 02:08 EET (via web):</b><br>
+Tai štai, pratestavau viską, ką planavau ir šiek tiek daugiau. Papastinsiu čia rezultatus:
+
+Visų pirma dėl gimp... energingai visą vakarą bandžiau naujausias windows skirtas versijas (per google galima rasti), tačiau man nesisekė pasileisti (win98), vos tik prieina font'ų konfigūravimą, viskas lūžta :( Gal kas gali su &acirc;??geresne&acirc;?? win versija pratestuoti? Sena versija dirba normaliai be priekaištų.
+
+sodipodi 0.32 (įtariu greitu laiku bus naujesnė versija). Viskas praėjo be problemų, kiek bandžiau veikė normaliai.
+
+imagemagic - didelių pastebėjimų kaip ir neturiu...
+
+smartision - kartais visai reikalingas daiktas, ypač dirbant su win98, kai jie mėgsta nulūžti. Tada bent jau gali paskutinius screenshotus peržiūrėti (jei įjungtas automatinis screenshotų darymas).
+
+psi 0.9
+Tai pokalbių programa, veikianti jabber tinkle. Galima susirašynėti su žmonėmis, naudojančiais ICQ, MSN,                        YahooMessenger ir kt. protokolus. Plačiau apie tai, kaip elgtis jabber tinkle aprašyta adresu                        http://www.akl.lt/dokumentacija/?doc=jabber.html 
+Naudojimasis:
+Įdiegiant programą nieko nurodyti nereikia, tačiau vos tik pasileidus programą reikia susikurti sau &acirc;??Profiles&acirc;??.                        Kiekvienas vartotojas besinaudojantis &acirc;??Psi&acirc;?? gali turėti atskirą &acirc;??profiles&acirc;??. Vėliau paprašys susikurti naują &acirc;??account&acirc;??. Čia jau reiktų sekti instrukcijas, aprašytas aukščiau minėtame puslapyje. (http://psi.affinix.com/)
+
+zinf 2.2.1 - didelių pastebėjimų neturiu, nebent pridėti nuorodą į temų puslapį galiu http://www.zinf.org/themes.php
+
+Octave (rekomended)
+GNU Octave yra aukšto lygio kalba, skirta skaičiavimams. Ji suteikia komandinės eilutės aplinką ir leidžia
+atlikti įvairius skaičiavimus. Ši kalba yra labai gerai suderinta su matematiniu paketu Matlab, todėl Matlab
+skirtos programos puikiai veikia su Octave ir atvirkščiai. Octave moka pavaizduoti ir grafikus, tam reikia
+įdiegtos gnuplot programos. (http://www.octave.org/)
+
+vim 6.2 (recomended)
+&acirc;??ViM&acirc;?? yra galingas tekstų redaktorius, turintis daug komandų bei galimybių. Jis iš pirmo žvilgsnio panašus į
+&acirc;??notepad&acirc;??, tačiau galimybėmis nesulyginamas.
+Beje, pridėjau prie vim'o installo anglišką tutorialą bei lietuviškas instrukcijas iš lietuvybe.org puslapio.
+
+<hr><b>meskiukas, 2003/10/12 02:09 EET (via web):</b><br>
+Beje, sorry už kringelius... ten turėjo būti lietuviškos kabutės...
+
+<hr><b>meskiukas, 2003/10/12 02:26 EET (via web):</b><br>
+Beje, black, gali į http://files.akl.lt/incoming/testavimas padėti ftp://baltija.homelinux.net/testavimas/ turinį? Aš neturiu leidimo tam...
+
+<hr><b>meskiukas, 2003/10/13 16:26 EET (via web):</b><br>
+naujausius gimpus (kuriuos bandžiau) galima atsisiųsti iš http://www.gimp.org/win32/gimp-head-20030901.zip arba dar naujesnis www.gimp.org/win32/gimp-1.3.22-20031009.zip bei www.gimp.org/win32/gimp-dev-1.3.22-20031009.zip bet čia be papildomų bibliotekų. Jas dar reiktų atskirai pasiimti iš pagrindinio puslapio (http://www.gimp.org/~tml/gimp/win32/downloads.html). Dar radau ir listą gimpo developerių http://www.mail-archive.com/gimp-developer%40lists.xcf.berkeley.edu/index.html
+
+<hr><b>RQ, 2003/10/14 09:26 EEST (via web):</b><br>
+Visi linkai į GIMP1.3 reikiamus failus, taip pat ir instrukcija, kaip instaliuoti winduose, yra adresu http://wiki.gimp.org/gimp/WindowsInstall. Aš susidėjau kaip advanced juzeris :D tik tai, ko man trūksta po X-Chat instaliacijos. rezultatas - GIMP pasileidžia, bet neatidaro bandytų paveiksliukų (unknown format). Išvada - reikia pabandyt susidėt _PAGAL_ instrukciją (anybody tu try?).<br>
+RQ
+
+
+<hr><b>rq, 2003/10/14 09:54 EET (via web):</b><br>
+ * Mozilla firebird - pats naudoju, labai zjbs, bugų nelabai pastebėjau. Tačiau aš ja _naudojuos_, o ne _testuoju_, tad gali būt, kad kažką paražiopsojau.<br>
+ * Mozilla thunderbird - irgi naudoju, labai zjbs, tačiau pastebėjau vieną trūkūmą, kuris, rodos, dar nesutvarkytas - tai blogai veikianti funkcija "forward as attachment". Attachmentas neturi galūnės savo pavadinime, todėl OE nežino, kaip jo atidaryt. Nors tai ir OE klaida, tačiau thunderbirdui tai trūkūmas. Vėlgi priminsiu, kad aš programa naudojuos, o ne testuoju ją.<br>
+ * Mozilla Calendar - bandžiau su firebird. Nelabai gražiai atrodo, be to, tada dar reikia sudėti QuickTools (arba pačiam pasidaryti ant desktopo ikonėlę - "C:\Program Files\mozilla.org\Firebird\MozillaFirebird?.exe" -calendar; Kadangi man nepatiko ir kalendorius man nelabai reikalingas, platesnių komentarų iš mano pusės nebus.<br>
+ * GnuPG, GPGME ir Enigmail for thunderbird. Pirmasis - konsolinis tūlsas, juo nesinaudoju, tam yra wrapperiai, pvz, GPGME - tas gal ir neblogas, tačiau per daug irgi nesinaudoju, nes man nereikalingas (savo GPG raktą generavau po linuxu, tada suimportavau į windausus, naudodamas GPGME - tiek man jo ir tereikėjo). Enigmail - neblogas produktas, tačiau riekia nurodyti gpg.exe bylos adresą, ir nėra Browse mygtuko - šioks toks nepatogumas. Dirba tikrai neblogai, net moka pats importuoti reikiamus GPG raktus iš serverio. Dar reikėtų paminėti, kad OE (surprise!) nepalaiko GPG/MIME, tad OE juzeriai, gavę GPG/MIME, mato baltą laišką su dviem attachmentais. Tačiau galima naudoti GPG/inline - tai nėra labai gražu, tačiau tinka tam fscking OE.<br>
+ * GIMP 1.3 - išbandžiau su WinXP - pasileido, tačiau, kadangi ėmiau ne visus failus iš nurodytų vietų, man neatidaro paveiksliukų. Gal meskiukas išbandytų pats, susiinstaliuodamas normaliai?<br>
+ * DN - naudoju po DOS ir retkarčiais po windausais, tačiau pas mane jis nerodo ilgų failų vardų (trūksta plugino?)<br>
+ * ZipGenius - naudoju namie. neblogas, nors pradžioj atrodo kaip vaikiškas žaisliukas (daugumą tokių blizgučių galima atjungti, jei nepatinka). Savybės išvardintos adresu http://www.zipgenius.it/intweb/features.htm, tingiu čia vardint.<br>
+Iš manęs tiek,<br>
+RQ
+
+From unknown Wed Mar 23 12:55:38 +0200 2005
+From: 
+Date: Wed, 23 Mar 2005 12:55:38 +0200
+Subject: 
+Message-ID: <20050323125538+0200@wiki.akl.lt>
+
+va toks vylu pasiūlė visai neblogą straipnį apie naudingas laisvas programas Windows'ams:
+http://software.newsforge.com/article.pl?sid=05/03/04/164209
+

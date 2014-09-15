@@ -1,0 +1,5 @@
+[properties]
+categories:string = Kitos,
+public:boolean = 1
+title:string = Universalus archyvatorius \xe2\x80\x9e7-Zip\xe2\x80\x9c
+trumpai:text = Puikus laisvas archyvatorius, suspaud\xc5\xbeiantis bylas labiau nei kiti (komerciniai ar laisvi). \n\xe2\x80\x9e7-Zip\xe2\x80\x9c - universalus archyvatorius. Integruota 40 kalb\xc5\xb3 (tame tarpe ir lietuvi\xc5\xb3). \nPalaiko 7z, ZIP, CAB, RAR, ARJ, GZIP, BZIP2, TAR, CPIO, RPM ir DEB archyv\xc5\xb3 formatus. \nGreitas suspaudimas, i\xc5\xa1archyvavimas, integracija su \xe2\x80\x9eMS Windows\xe2\x80\x9c aplinka. \nZIP archyv\xc5\xb3 apsaugojimas slapta\xc5\xbeod\xc5\xbeiu. Yra automatinio i\xc5\xa1archyvavimo galimyb\xc4\x97. 

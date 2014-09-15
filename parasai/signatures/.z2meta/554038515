@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 316707490
+confirmed:boolean = 1
+gen_date:date = 2005/06/06 23:07:40.496000 GMT+3
+logo_url:string = 
+mail:string = simonas.leleiva@e-net.lt
+organization:string = 4Team Corp.
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Simonas Leleiva
+url_asm:string = 
+url_org:string = http://www.4team.biz

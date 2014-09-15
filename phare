@@ -1,0 +1,11 @@
+## Script (Python) "phare"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=Redirect to the phare info page
+##
+request = container.REQUEST
+request.RESPONSE.redirect("http://www.akl.lt/projektai/?doc=phare2002.html")

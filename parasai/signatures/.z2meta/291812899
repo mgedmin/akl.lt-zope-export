@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 979211467
+confirmed:boolean = 1
+gen_date:date = 2005/05/31 13:00:47.996000 GMT+3
+logo_url:string = 
+mail:string = ala@kn.nrd.lt
+organization:string = UAB NRD
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Albertas Laurinavi\xc4\x8dius
+url_asm:string = 
+url_org:string = http://www.nrd.lt

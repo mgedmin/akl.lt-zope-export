@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 523721585
+confirmed:boolean = 1
+gen_date:date = 2005/08/01 15:57:50.407000 GMT+3
+logo_url:string = 
+mail:string = evaldasp@gmail.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Evaldas Petkevicius
+url_asm:string = http://www.operacija.com
+url_org:string = 

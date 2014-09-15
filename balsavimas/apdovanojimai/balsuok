@@ -1,0 +1,122 @@
+## Script (Python) "balsuok"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+request = context.REQUEST
+f = request.form
+
+email = f.get('email', 'None').lower()
+valid_mails = container.names()
+if not email in valid_mails.keys():
+    request.RESPONSE.redirect("%s/?doc=showMsg&msg=%s" % (
+        container.absolute_url(),
+        "Atsiprašome, Jūs negalite balsuoti. Balsuoti gali tik AKL nariai. Balsuojant reikia nurodyti el.pašto adresą kuris naudojamas nariai@akl.lt konferencijoje."
+    ))
+    return
+results = f.keys()
+results.remove('email')
+if len(results) > 3:
+    request.RESPONSE.redirect("%s/?doc=showMsg&msg=%s" % (
+        container.absolute_url(),
+        "Per daug balsuojate. Grįžkite atgal ir sumažinkite balsų skaičių."
+    ))
+    return
+balas1 = False;
+balas2 = False;
+balas3 = False;
+invalid = False
+for rez in results:
+    if f[rez] == '1':
+        if balas1:
+            invalid = True
+            break
+        else:
+            balas1 = True
+    if f[rez] == '2':
+        if balas2:
+            invalid = True
+            break
+        else:
+            balas2 = True
+    if f[rez] == '3':
+        if balas3:
+            invalid = True
+            break
+        else:
+            balas3 = True
+if invalid:
+    request.RESPONSE.redirect("%s/?doc=showMsg&msg=%s" % (
+        container.absolute_url(),
+        "Balsuojant vieną kartą galima priskirti 1 balą, vieną kartą 2 balus ir vieną kartą - 3. Jūs balsavote per daug. Grįžkite atgal ir pasitaisykite."
+    ))
+    return
+if not (balas1 and balas2 and balas3):
+    request.RESPONSE.redirect("%s/?doc=showMsg&msg=%s" % (
+        container.absolute_url(),
+        "Dar ne už visus balsavote. Grįžkite atgal ir pasitaisykite."
+    ))
+    return
+root = container['apdovanojimai']
+sigs = root.objectValues('DTML Document')
+for s in sigs:
+    if (s.email.lower() == email) and (s.confirmed):
+        request.RESPONSE.redirect("%s/?doc=showMsg&msg=%s" % (
+            container.absolute_url(),
+            "Jūs jau balsavote. Daugiau balsuoti nebegalite."
+        ))
+        return
+id = "%s" % random.randint(100000000, 999999999)
+root.manage_addProduct.addDTMLDocument(id, email)
+balsas = root[id]
+balsas.manage_addProperty('email', email, "string")
+balsas.manage_addProperty('confirmed', 0, "boolean")
+confirm_id = "%s" % random.randint(100000000, 999999999)
+balsas.manage_addProperty('confirm_id', confirm_id, "string")
+for rez in results:
+    balsas.manage_addProperty(rez, int(f[rez]), "int")
+
+vardai = []
+for kandidatas in context.kandidatai():
+    for rez in results:
+        if rez == kandidatas['id']:
+            vardai.append("%s: %s %s" % \
+               (kandidatas['name'], f[rez], f[rez]=='1' and 'balas' or 'balai'))
+Msg = """Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Sveiki,
+
+Jūs balsavote už žemiau išvardintus kadidatus:
+
+%s.
+
+Jei tikrai balsuojate už šiuos kandidatus, paspauskite 
+šią nuorodą: %s/confirm?id=%s&confirm_id=%s.
+
+-- 
+AKL
+%s""" % (
+    ",\n".join(vardai),
+    container.absolute_url(),
+    id,
+    confirm_id,
+    container.absolute_url()
+)
+To = email
+From = "AKL <%s>" % email
+Subj = "Balsavimo patvirtinimas"
+context.MailHost.send(Msg, To, From, Subj)
+
+request.RESPONSE.redirect("%s/?doc=showMsg&msg=%s" % (
+    container.absolute_url(),
+    "Jūsų nurodytu el. paštu buvo išsiųsta nuoroda balsavimo patvirtinimui.\
+    Gavus laišką įsitikinkite, kad nurodytas teisingas balsavimas ir \
+    paspauskite gautą nuorodą."
+))
+
+return

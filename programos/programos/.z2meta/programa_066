@@ -1,0 +1,5 @@
+[properties]
+categories:string = Projektavimui,
+public:boolean = 1
+title:string = \xe2\x80\x9eArgoUML\xe2\x80\x9c
+trumpai:text = UML - unifikuota modeliavimo kalba (tai - sutartini\xc5\xb3 projektavimo\n\xc5\xbeenkl\xc5\xb3 kalba ;)). Ja patogu projektuoti \xc4\xafvairius s\xc4\x85ry\xc5\xa1ius bei procesus.\nDa\xc5\xbeniausiai\nnaudojama programavimo in\xc5\xbeinerijoje, bet taip pat tinka ir kituose\nmoksluose - kad ir socialiniuose.

@@ -1,0 +1,71 @@
+Idėja
+
+   Susirenka vienoj vietoj guru ir naujokai, guru padeda naujokams suinstaliuoti
+   ir suderinti Linuxą jų kompuose.
+
+Tolkas
+
+   Atviro kodo populiarinimas lameriams.
+
+Reikia
+
+   Didelės erdvės su elektra ir tinklu. Tiktų kokios universiteto patalpos ar kokia didelė firma.
+
+Vieta
+
+   "Kaunas":http://wiki.akl.lt/InstallFestKaunas2003 - Pirmasis !InstallFestos renginys įvyko Kaune, 2003.09.20 d., šeštadienį, KTU ITPI patalpose
+
+   "Panevezys":http://wiki.akl.lt/InstallFestPanevezys2003 - Diegimo svente Panevezyje, 2003 m. gruodzio 13 d., sestadieni, KTU Panevezio instituto Distancinio mokymo centre  
+
+   <b>"Vilnius":http://wiki.akl.lt/InstallFestVilnius2004 - VU MIF'e, 2004 m. vasario 14 d., šeštadienį!!!</b>
+
+   <b>"Utena":http://wiki.akl.lt/InstallFestUtena2004 - 2004 m. vasario 28 d., šeštadienį!!!</b>
+
+   <b>"Silute":http://wiki.akl.lt/InstallFestSilute2004 - 2004 m. kovo 20 d., šeštadienį!!!</b>
+
+   InstallFestKlaipeda 
+
+   InstallFestSiauliai
+
+Programa
+
+   Dalyviai atsitempia kompiuterius ir mūsų guru jiems padeda instaliuotis: (1) tik Debian, nes dauguma tiki į Debian GNU/Linux, (2) tik Knoppix, nes tai paprasčiau, (3) lammer-users-friendly distribuciją, (4) leidžiama pasirinti, įspėjant apie tai iš anksto.
+
+Galimas rėmimas
+
+   Patalpomis, įranga, pietumis, alumi, pinigais benzinui ir kitais gerai dalykais.
+
+Renginio atributika
+
+   Reikalinga aprengti komandą vienodais marškinėliais, prisegti korteles, išsikabinti plakatus, pasidaryti vizitines koreles, ...
+
+[Instrukcijos]
+
+<hr><b>romena, 2003/07/04 08:52 EET (via web):</b><br>
+**Marius Gedminas**, 2003-07-04. Installfestas -- gera mintis.  Tik nereikia jo daryti "vietoje" ko
+nors arba "kartu" su kokiu nors kitu renginiu.
+
+_Ateiciau su Linuxiniu notebooku_ (kaip guru, o ne kaip naujokas ;).
+Beje, vienas iš reikalavimų vietai būtų ne tik tinklas, bet ir
+Internetas.  Ir ko gero būtų gera idėja pareikalauti iš naujokų, kad jie
+pasidarytų svarbių duomenų backupus prieš atsinešdami kompus (o ką, jei
+elektra nelaiku dingsta particiją resizinant).
+
+<hr><b>romena, 2003/07/04 09:14 EET (via web):</b><br>
+**Mindas**, 2003-07-04: tik vienas dalykas - installfestui reikia:
+
+a) patalpu su greitu internetu (arba kompo su debian mirroru ir LANu)
+
+b) zmoniu - caininku, kurie nieko nemoka
+
+_patalpas kaune_ galeciau bandyti paderinti net dvi:
+
+a) mano bendradarbiai turi interneto kluba
+
+b) 9 barake yra sale kuria butu galima susitarti gauti ish komes, internetas irgi butu
+
+<hr><b>mgedmin, 2003/07/04 14:18 EET (via web):</b><br>
+IMHo LANo nepakaks niekaip (net ir turint Debian mirrorą) -- reikia Google, jei pasipainios koks nors truputį egzotiškesnis hardwaras.
+
+<hr><b>alga, 2003/07/05 00:33 EET (via web):</b><br>
+Mhm... Tikriausiai apsimoka daryti [InstallFest]us atskirai Vilniuje ir Kaune, ir tiesiog vieniems pas kitus į svečius atvažiuot.  Mielai su savo noutu nuvažiuočiau pas kauniečius.

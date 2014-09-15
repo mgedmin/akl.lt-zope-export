@@ -1,0 +1,13 @@
+## Script (Python) "balsavo"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=email
+##title=
+##
+for obj in container['apdovanojimai'].objectValues('DTML Document'):
+    if obj.confirmed and (obj.title == email):
+        return True
+return False

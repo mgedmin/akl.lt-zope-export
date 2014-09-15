@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 879599003
+confirmed:boolean = 1
+gen_date:date = 2005/05/13 18:28:38.296000 GMT+3
+logo_url:string = 
+mail:string = info@top.lt
+organization:string = Kompiuterija - PC World
+position:string = reporteris
+status:string = imone
+title:string = Rimas Abromavi\xc4\x8dius
+url_asm:string = 
+url_org:string = http://www.kompiuterija.lt

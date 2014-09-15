@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 170790020
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 12:19:48.906000 GMT+3
+logo_url:string = 
+mail:string = paulius.maruska@freemail.lt
+organization:string = AIVA SISTEMA
+position:string = Interneto svetaini\xc5\xb3 programuotojas (PHP)
+status:string = fiz_asm
+title:string = Paulius Maru\xc5\xa1ka
+url_asm:string = 
+url_org:string = http://www.aiva.lt/

@@ -1,0 +1,38 @@
+<h2>Atviro kodo žodynas „OpenDict“<br>
+<a href="http://opendict.idiles.com/">http://opendict.idiles.com/</a></h2>
+<a href="http://opendict.idiles.com/">
+  <img src="images/OpenDict_logo_mazas.png" height="60" width="257" alt="OpenDict_logo" class="">
+    </a>
+
+<p>„OpenDict“ yra laisva (atviro kodo) žodynų programa. Ja galima dirbti su žodynais
+atvirais formatais: „DICT“, „TMX“, „Mova“, „Slowo“. Taip pat - „LED“ anglų-lietuvių, 
+lietuvių–anglų, vokiečių–lietuvių, lietuvių–vokiečių kalbų žodynų priedais 
+(įskiepiais).
+</p>
+
+<p>Žodynų programą „OpenDict“ sukūrė visuomeninė organizacija 
+<a href="http://www.akl.lt">„Atviras kodas Lietuvai“</a>, 
+bendradarbiaudama su gerai žinomo „winLED“ autorinių teisių valdytoja 
+<a href="http://www.vtex.lt">UAB „VTeX“</a>. Jos kūrimą parėmė ir 
+<a href="http://www.vilnius.lt">Vilniaus miesto savivaldybė</a>. Programos autoriai: 
+<a href="mailto:mjoc@akl.lt">Martynas Jocius</a> ir <a href="mailto:mantas@akl.lt">Mantas Kriaučiūnas</a>.
+</p>
+
+<p>Daugiau informacijos AKL tinklalapio projektų skilties dalyje 
+<a href="http://www.akl.lt/projektai/?doc=OpenDict.html">Atviro kodo žodynas „OpenDict“</a>.
+</p>
+
+<p>Programą bei jos pradinius tekstus galima parsisiųsti iš jos <a href="http://opendict.idiles.com/">interneto svetainės</a>. 
+„LED“ įskiepiai yra <a href="http://ftp.akl.lt/zodynai/OpenDict/LED-zodynai-priedai-0.3/">čia</a>. 
+Jais galima naudotis pagal atitinkamas licencijas.
+</p>
+Klaidas ir pasiūlymus prašome pranešti čia: <a href="http://info.akl.lt/roundup/opendict/">http://info.akl.lt/roundup/</a>
+<br><br><br>
+
+<a href="/images/opendict-led1.png"><img src="/images/opendict-led1.png" 
+     height="172.5" width="217" alt="Ekrano paveikslėlis su LED įskiepiu" class=""></a>
+<p align=left><i>Ekrano paveikslėlis su LED įskiepiu</i></p><br>
+
+<a href="/images/opendict-serv1.png"><img src="/images/opendict-serv1.png" 
+     height="172.5" width="303" alt="Ekrano paveikslėlis su serverio žodynu" class=""></a>
+<p align=left><i>Ekrano paveikslėlis su serverio žodynu</i></p>

@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Kompanija <a href="http://www.ximian.com">\xe2\x80\x9eXimian\xe2\x80\x9c</a> neseniai paskelb\xc4\x97 apie projekt\xc4\x85 <a href="http://www.go-mono.com/">\xe2\x80\x9eMono\xe2\x80\x9c</a>, \xe2\x80\x9eMicrosoft\xe2\x80\x9c .NET laisvos programin\xc4\x97s \xc4\xafrangos versij\xc4\x85. \xe2\x80\x9eMono\xe2\x80\x9c 1.0 versij\xc4\x85 ketinama i\xc5\xa1leisti 2004 met\xc5\xb3 antrame ketvirtyje. Jame bus C# kompiliatorius, vykdomoji aplinka, GTK# (GTK+ jungimui su .NET), \xc4\xafrankiai ir formos.\n</p>
+date:string = 2003-11-27
+title:string = Naujas \xe2\x80\x9eMono\xe2\x80\x9c projektas

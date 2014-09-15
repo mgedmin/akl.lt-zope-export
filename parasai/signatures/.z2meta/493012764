@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 601199930
+confirmed:boolean = 1
+gen_date:date = 2005/05/12 01:10:15.501000 GMT+3
+logo_url:string = 
+mail:string = jurpral@stud.ktu.lt
+organization:string = KTU Edukologijos institutas
+position:string = laborantas
+status:string = fiz_asm
+title:string = Jurgis Pralgauskis
+url_asm:string = http://dz0.tinkle.lt
+url_org:string = 

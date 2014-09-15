@@ -1,0 +1,23 @@
+<p>Lapkričio 29d. buvo išleista populiaros Linux ir kitų Unix tipo sistemų darbastalio aplinkos "KDE" 3.5 versija.
+
+<p>Tarp svarbesnių pakeitimų naujojoje versijoje paminėtini šie:</p>
+<ul>
+<li> KDE interneto naršyklė Konqueror yra antroji pasaulyje, praėjusi Acid2 CSS testą, pralenkdama Mozilla Firefox ir Internet Explorer naršykles. Acid2 CSS testas patikrina ar naršyklė palaiko World Wide Web konsorciumo Cascading Style Sheets bei HTML4 rekomendacijas. Pirmoji šį testą praėjo Safari, Apple sukurta naršyklė, naudojanti tą pačią technologiją, kaip ir Konqueror (patobulintą KHTML, pavadinta Webcore). Apie KHTML ir Safari galite pasiskaityti <a href="http://developer.apple.com/darwin/projects/webcore">čia</a>);
+
+<li> Konqueror taip pat gali blokuoti reklamų rodymą žiniatinklio puslapiuose naujos reklamos blokavimo sistemos dėka;
+
+<li> SuperKaramba technologija (įrankis) dabar įtraukta į KDE, taip suteikiant naudotojui galimybę naudotis integruotais ir lengvai įdiegiamais valdikliais naudotojo darbastaliui;
+
+<li> Skubiųjų žinučių programa Kopete palaiko MSN ir Yahoo! žiniatinklio kameras; sutvarkytas iso-8859-13 koduotės rodymas lietuviškuose irc kanaluose;
+
+<li> mokslo ir pramogų modulyje atsirado trys naujos programos (KGeography, Kanagram ir blinKen), daug patobulinimų įgyvendinta periodinės cheminių elementų lentelės programoje Kalzium
+</ul>
+<p>Visus pakeitimus galite pamatyti <a href="http://www.kde.org/path/to/visual/feature/guide">čia</a>.
+
+<p>Pasak KDE leidimų koordinatoriaus Stephan Kulow, „Pakeitimai, atsiradę pastaraisiais metais, rodo, koks brandus yra KDE projektas. KDE yra pati galingiausia darbastalio aplinka ir programavimo platforma rinkoje. Nors didžiausi pakeitimai numatomi KDE 4, kitame pagrindiniame KDE leidime, KDE 3.5 naudotojams bus puiki platforma darbui keletui ateinančių metų.“
+
+<p><b>APIE KDE PROJEKTĄ</b></p>
+
+<p>KDE projektą sudaro šimtai programuotojų, vertėjų, menininkų ir kitų dalyvių visame pasaulyje, kurie bendradarbiauja Interneto dėka. Ši bendruomenė kuria ir laisvai platina stabilią, integruotą ir laisvą darbastalio aplinką biurui ir namams. KDE suteikia lanksčią, iš atskirų komponentų sudarytą, tinklui skaidrią architektūrą ir galingus programavimo įrankius, paverčiančius ją turtinga programavimo platforma. KDE yra tarptautinės bendruomenės vystoma darbastalio aplinka, ji prieinama daugiau nei 80-čia skirtingų kalbų, tame tarpe ir lietuvių.
+
+<p>KDE, kuri kuriama remiantis Qt technologija, išvystyta Trolltech, yra gyvas įrodymas, kad atviro kodo, „turgaus tipo“ programinės įrangos vystymo modelis gali būti veiksmingas ir pateikti pirmaklases technologijas, tolygias net labai sudėtingai komercinei programinei įrangai ar net ją pralenkiančias.

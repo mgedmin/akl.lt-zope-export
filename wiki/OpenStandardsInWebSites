@@ -1,0 +1,82 @@
+Open standards in the web sites
+
+ Preface
+
+   This section of the manual will introduce you to using open standards in a web site.
+
+
+ Open Standards and Internet
+
+   Open standards are standards which are freely available for people to
+   read and implement.  If a standard describes some technology that
+   requires licensing some patents, it cannot be considered open, even if
+   its text is freely availabe.  Open standards create a fair,
+   competitive environment, encourages competition between vendors, and
+   thus create an advantage to the consumer.
+
+   Open technologies were essential to the Internet's popularity, and
+   allowed them to conquer the competing proprietary technologies.  This
+   openness created a global Internet hardware, software and service
+   market.  Computer/information networks that existed before the spread
+   of the Internet either switched to the Internet technologies (MSN,
+   AOL), or got extinct (Compuserve).
+
+   Domination of open standards enables the user to freely choose email
+   server and client software, web servers, browsers and ignore the
+   interoperability issues.
+
+
+ Open standards of the WWW
+
+   HTTP appeared in the early 1990-s as a collection of informal
+   standards.  It was standardised by W3C in 1995 as HTML 2.0.  The
+   standard has quite limited features by modern-day standards. 
+
+   During the ensuing "browser wars", Netscape and Microsoft competed
+   by adding unique features to their browsers, which resulted in
+   divergent dialects of HTML and major incompatibilities among the
+   leading browsers.  Most of the features added by the browser
+   vendors were geared at making visual effects easier available, but
+   that was not in line with the original idea of HTML 
+
+   There were attempts to reconcile the differences by releasing the
+   HTTP 3.2 and HTTP 4.0 standards.  The currently relevant standards,
+   HTTP 4.01, and XHTML 1.1, promote separation of content and
+   presentation, but still allow exact and visually intensive designs
+   by providing the style information in a CSS document.
+
+
+ Why bother with standards compliance on WWW?
+
+   The main function of municipal web sites is information
+   dissemination, so maximum accessibility is important.  Open
+   standards will ensure the website is accessible to disabled people
+   using speech generators or Braille terminals.  Additionally, the
+   standards-compliant website will be easily accessable via
+   smartphones, indexable by search systems, available to automated
+   tools extracting information from the web site.
+
+   Open standards provide equal opportunities to the users, as they do
+   not lock in to any particular vendor.  Additionally, a standards
+   compliant web site will be more future proof, as the standards will be 
+   supported in the future, and the web sites employing non-standard
+   features of the contemporary browsers can have to be correted.  The
+   change of the technologies is so swift that these changes might be
+   needed in several months.
+
+ Testing standards conformance of LT and LV municipal web sites
+
+   The 60 Lithuanian municipal web sites were tested for compliance
+   with open standards.  There was just one (http://www.prienai.lt/)
+   which has some parts compliant with HTTP and CSS specifications.
+   6 sites used a standards-compliant CSS stylesheet.
+
+   Out of the 30 Latvian municipal web sites tested, none used valid
+   HTML, 7 used standards-compliant CSS, and 13 used CSS which was
+   standards-compliant, but elicited warnings from the validator.
+
+   These results are alarming, even more so considering that most of
+   the web sites were created by contract by companies specialising
+   in web technologies.  This means that contractors of municipalities
+   did an unacceptable job.  Municipalities should require standards
+   compliance from contractors creating their web sites.

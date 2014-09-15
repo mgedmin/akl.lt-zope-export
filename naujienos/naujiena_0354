@@ -1,0 +1,23 @@
+<p>Po naršyklės <a href="http://www.mozilla.com/firefox/">Mozilla Firefox 1.5</a> išleidimo galų gale pasirodė ilgai laukta pašto programa <a href="http://www.mozilla.com/thunderbird/">Mozilla Thunderbird 1.5</a>. Dabar programa veikia dar geriau, tapo dar patogesnė.</p>
+
+<p><b>Kas naujo Thunderbird 1.5</b></p>
+
+<ul>
+  <li>Automatinis atnaujinimas supaprastina produkto atnaujinimą. Pranešimas apie atnaujinimo buvimą tapo pastebimesnis, o patys Thunderbird skirti atnaujinimai dabar yra mažesni negu 0,5MB. Taip pat buvo pagerinta plėtros atnaujinimo sistema.</li>
+  <li>Vykdant adresų automatinį užpildymą dabar pirmieji pasirodo tų gavėjų adresai, kuriems jūs dažniausiai siunčiate pranešimus.</li>
+  <li>Pridėta galimybė renkamame pranešimo tekste automatiškai patikrinti gramatines klaidas.</li>
+  <li>Virtualūs aplankai dabar gali dirbti iš karto su keliomis pašto dėžutėmis.</li>
+  <li>Pagerintas darbas su RSS.</li>
+  <li>Galimybė iš pranešimų pašalinti prisegtus failus.</li>
+  <li>Integracija su anti-spam'iniais filtrais, įdiegtais serveryje.</li>
+  <li>Pranešimų filtruose atsirado galimybė atsakyti į pranešimus ir juos persiųsti.</li>
+  <li>Atsirado galimybė panaudoti Kerberos autentifikaciją.</li>
+  <li>Pranešimo juodraščio automatinis išsaugojimas.</li>
+  <li>Atsirado galimybė automatiškai ištrinti pranešimus po numatyto dienų skaičiaus.</li>
+  <li>Pranešimų filtrai aplankui „Įeinantys“.</li>
+  <li>Pagerintas programos interfeisas, tame tarpe pakeista nustatymų panelė ir supaprastintas SMTP serverių valdymas.</li>
+  <li>Daugybė pagerinimų saugumo sistemoje.</li>
+</ul>
+
+<p>Atsisiųsti galima iš <a href="http://www.mozilla.com/thunderbird/">čia</a>.<br>
+Plačiau apie pakeitimus galima perskaityti <a href="http://www.mozilla.com/thunderbird/releases/1.5.html">čia</a>.

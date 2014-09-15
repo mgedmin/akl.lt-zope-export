@@ -1,0 +1,49 @@
+<table cellpadding=2 cellspacing = 10>
+  <tr><td><i>Leidėjas</i></td><td><i>Vienetai</i></td><td><i>Spalvų kiekis</i></td><td><i>CD kokybė</i></td><td><i>Dėžutė</i></td><td><i>Kaina</i></td></tr>
+  <tr><td></td></tr>
+  <tr>
+	<td>„Žara“</td><td>200</td><td>4</td><td>aukšta (japonų)</td><td>Slim</td><td>3,96 Lt + PVM</td>
+  </tr>
+  <tr>
+	<td></td><td>200</td><td>4</td><td>paprasta (ACME)</td><td>Slim</td><td>3,12 Lt + PVM</td>
+  </tr>
+  <tr>
+	<td></td><td>500</td><td>4</td><td>aukšta (japonų)</td><td>Slim</td><td>3,72 Lt + PVM</td>
+  </tr>
+  <tr>
+	<td></td><td>500</td><td>4</td><td>paprasta (ACME)</td><td>Slim</td><td>2,95 Lt + PVM</td>
+  </tr>
+  <tr><td></td></tr>
+  <tr>
+	<td><b>„Viluka“</b></td><td>200</td><td>2</td><td>skaitmeninis foto</td><td>Slim</td><td>3,10 Lt + PVM</td>
+  </tr>
+  <tr>
+	<td></td><td>200</td><td>4</td><td>kokybės</td><td>Slim</td><td>3,50 Lt + PVM</td>
+  </tr>
+  <tr>
+	<td></td><td>500</td><td>2</td><td>padengimas</td><td>Slim</td><td><b>2,70 Lt + PVM</b></td>
+  </tr>
+  <tr>
+	<td></td><td>500</td><td>4</td><td></td><td>Slim</td><td><b>3,15 Lt + PVM</b></td>
+  </tr>
+
+  <tr><td></td></tr>
+  <tr>
+	<td>„BOD“</td><td>500</td><td>2</td><td>šilkografinė</td><td></td><td>3,56 Lt + PVM</td>
+  </tr>
+  <tr>
+	<td></td><td>500</td><td>4</td><td>spauda</td><td></td><td>3,96 Lt + PVM</td>
+  </tr>
+  <tr>
+	<td></td><td>1000</td><td>2</td><td></td><td>0,35 Lt/vnt.</td><td>2,44 Lt + PVM</td>
+  </tr>
+  <tr>
+	<td></td><td>1000</td><td>4</td><td></td><td>+PVM</td><td>2,71 Lt + PVM</td>
+  </tr>
+  <tr>
+	<td></td><td>2000</td><td>2</td><td></td><td></td><td>1,64 Lt + PVM</td>
+  </tr>
+  <tr>
+	<td></td><td>2000</td><td>4</td><td></td><td></td><td>1,82 Lt + PVM</td>
+  </tr>
+

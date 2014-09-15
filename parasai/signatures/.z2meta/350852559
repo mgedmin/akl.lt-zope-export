@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 918671795
+confirmed:boolean = 1
+gen_date:date = 2005/05/20 08:46:36.887000 GMT+3
+logo_url:string = http://www.litrail.lt/www.nsf/top_logo.gif
+mail:string = viktoras@litrail.lt
+organization:string = AB "Lietuvos gele\xc5\xbeinkeliai"
+position:string = Vyr. programuotojas
+status:string = fiz_asm
+title:string = Viktoras Ivanauskas
+url_asm:string = 
+url_org:string = http://www.litrail.lt

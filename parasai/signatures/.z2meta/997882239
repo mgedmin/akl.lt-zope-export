@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 540700306
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 13:31:11.644000 GMT+3
+logo_url:string = http://www.stekas.com/~gintariux/logo2.GIF
+mail:string = gintaras.s@isg.lt
+organization:string = UAB "International Solution Group"
+position:string = Vilniaus padalinio vadovas
+status:string = imone
+title:string = Gintaras Siniauskas
+url_asm:string = 
+url_org:string = http://www.isg.lt

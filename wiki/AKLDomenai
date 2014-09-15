@@ -1,0 +1,47 @@
+*.akl.lt subdomenai
+
+ Tikslai
+
+   Vienyti AK vartotojų ir kūrėjų bendruomenes
+
+   Centralizuotai ir prieinamiau pateikti informaciją vartotojui apie AK
+
+ Užduotis
+
+  * Sukurti atviro kodo operacinių sistemų ir jų distribucijų subdomenus po akl.lt redirektinant į atitinkamus tinklalapius:
+
+
+     [linux.akl.lt] -->> kuriame savo linux portalą. Lietuvoje kolkas tokio nėra. lnx.lt manau, kad jau nebeegzistuoja :( (jaro)
+
+     [naujienos.akl.lt] -->> bendras naujienų portalas. Iš ten www.akl.lt, linux.akl.lt ims naujienas per RSS, o savo naujienų atskirai nelaikys.
+
+     [forumai.akl.lt] -->> bendri forumai apie laisvas programas
+
+     debian.akl.lt -->> debian.home.lt - jau yra
+
+     slackware.akl.lt -->> www.slackware.lt
+
+     freebsd.akl.lt -->> www.freebsd.lt ?
+
+     netbsd.akl.lt -->> www.netbsd.lt
+
+     openbsd.akl.lt -->> www.openbsd.lt
+
+  * Sukurti [cvs.akl.lt]. Tikslas - saugoti visus daromus projektus vienoje vietoje, pvz. vertimus. Tik greičiausiai šiuo metu neturime tam vietos.
+
+<hr><b>vi, 2003/07/24 15:59 EET (via web):</b><br>
+cvs.akl.lt vietos turime kas užsiims administravimu?
+
+<hr><b>vi, 2003/07/24 16:03 EET (via web):</b><br>
+Ar kas nors susisiekė su saitų adminais dėl linkinimo į juos? subdomenus padaryti yra penkios minutės :)
+
+<hr><b>alga, 2003/07/28 19:38 EET (via web):</b><br>
+Idėja nelabai į temą, mano galva.  Norėdami pamatyti, kuo man ji nepatinka, pagalvokite apie šiuos:
+  
+  * webserver.akl.lt -> httpd.apache.org
+
+  * food.akl.lt -> www.cili.lt
+
+  * priesai.akl.lt -> www.microsoft.lt
+
+Ir dar.  Rašot proposalą, tai prisipažinkit, kas rašo.

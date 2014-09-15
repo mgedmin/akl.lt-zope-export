@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 227981546
+confirmed:boolean = 1
+gen_date:date = 2005/05/12 11:09:31.787000 GMT+3
+logo_url:string = http://www.aki.vtu.lt/vgtu-logo.jpg
+mail:string = info@aki.vtu.lt
+organization:string = VGTU Atvirojo kodo institutas
+position:string = Direktoriaus pavaduotojas
+status:string = vyr_org
+title:string = \xc5\xbdilvinas Jan\xc4\x8doras
+url_asm:string = 
+url_org:string = http://www.aki.vtu.lt/

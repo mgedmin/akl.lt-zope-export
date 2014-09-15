@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 312780120
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 22:46:57.312000 GMT+3
+logo_url:string = 
+mail:string = mind@dokeda.lt
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Mindaugas Lakavi\xc4\x8dius
+url_asm:string = 
+url_org:string = 

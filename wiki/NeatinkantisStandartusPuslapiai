@@ -1,0 +1,180 @@
+Informacija apie puslapius kuriais dėl standartų neatitikimo neįmanoma pasinaudoti naudojant laisvas programas, pavyzdžiui, naršyklę <a href="http://atviraskodas.ivpk.lt">Informacinės visuomenės plėtros komiteto prie LR Vyriausybės</a> rekomenduojamą Mozilla Firefox ar biuro paketą OpenOffice.org.
+
+<b>Dėmėsio</b>: institucijos bei įstaigos, kurios turi tokias svetaines, pažeidžia "TEISĖS GAUTI INFORMACIJĄ IŠ VALSTYBĖS IR SAVIVALDYBIŲ ĮSTAIGŲ" įstatymą bei kitus teisės aktus (žr.: <a href="http://openoffice.lt/nuorodos">www.openoffice.lt/nuorodos</a> bei <a href="http://www3.lrs.lt/pls/inter3/dokpaieska.showdoc_l?p_id=266443">www3.lrs.lt/pls/inter3/dokpaieska.showdoc_l?p_id=266443</a>
+
+Dedame tikslų puslapio pavadinimą bei nurodome kokiais atvejais jis kreivai veikia. Aprašyme turi būti nurodyta tikrinimo data, taip pat jis turi būti toks, kad nebūtų sunku atkartoti problemą.
+
+<b>Svarbios svetainės (būtina priversti susitvarkyti iki 07-04).</b>
+
+- <b> Valstybinė mokesčių inspekcija - http://deklaravimas.vmi.lt (naudotis neįmanoma) bei http://www.vmi.lt - turi daug problemų.</b>
+
+  http://deklaravimas.vmi.lt - neįmanoma naudotis (baisiai išdarkytos formos, dėl kreivo JavaScript neveikiantys tikrinimai ir mygtukai), pabandykit sėkmingai užpildyti deklaraciją "online" būdu arba "online" pratęsti pradėtos deklaracijos pildymą bei nusiųsti deklaraciją pvz su Firefox 1.5.
+ http://www.vmi.lt daug informacijos pateikiama vien M$ Office formatais (žr. pvz http://www.vmi.lt/Formos/eformos/eformos.asp ), daug kur neveikia kokie mygtukai pvz registravimasis į seminarus arba išvis niekas neveikia, pvz kaip čia: https://www.vmi.lt/e-services/ )
+
+ Į skundus el. bei paprastu paštu dažniausiai išvis nereaguoja (žr. AKL el. pašto archyvus - https://lists.akl.lt/pipermail/akl/ ), telefonu meluoja arba "nuoširdžiai" pataria naudotis Winblows OS.. Taip valstybinė mokesčių inspekcija pažeidžia viešųjų pirkimų ir kitus įstatymus, verčia įmones, įstaigas bei privačius asmenis naudoti vien tik vieno gamintojo -  Micro$oft interneto naršyklę ir dėl to verčia pirkti to paties M$ gaminamą operacijų sistemą Winblows :(
+
+
+- <b>Viešųjų pirkimų tarnyba - http://www.vpt.lt bei Centrinis viešųjų pirkimų portalas - http://www.cvpp.lt</b>
+
+  Nuėjus į viešųjų pirkimų tarnybos svetainės ( http://www.vpt.lt ) pamatai baisų šoninį meniu ir jei dar sugebi ten paspausti ant "Viešosios el. paslaugos" ir tada ant "Prisijungimas prie Viešųjų pirkimų monitoringo sistemos" tai tave pasiunčia į http://cvpp.lt/vpt/login.asp ir ten prisijungus niekas realiai neveikia ir neįmanoma dirbti (iki 2007 metų rašydavo: "Darbui su VPMIS naudokite Microsoft Internet Explorer 5.5 arba aukštesnę versiją", žr.: https://195.182.64.233/vpmis).
+
+  Taip viešųjų pirkimų tarnyba pažeidžia viešųjų pirkimų ir kitus įstatymus, verčia įmones ir valstybės įstaigas naudoti vien tik vieno gamintojo -  Micro$oft interneto naršyklę ir dėl to verčia pirkti to paties M$ gaminamą operacijų sistemą Winblows :(
+
+
+- <b> Lietuvos radijas ir televizija - http://www.lrt.lt (žr. komentarus žemiau)</b>
+
+----
+
+P.S. (nuo Manto) - gal paprasčiau būtų čia rašyti tik tuos puslapius/paslaugas, kurie atitinka standartus ir normaliai veikia naudojant ne M$ programinę įrangą, nes kol kas neradau nė vieno normaliai veikiančio :(
+
+(nuo Mykolo) - galiu patvirtinti, kad (bent jau prieš pusę metų) nebuvo nė vienos valstybės institucijos svetainės, kuri atitiktų visus vyriausybės nutarimo 2003 nr. 480 reikalavimus. Tačiau dauguma jų su vargu vis tik galima naudotis. Čia galime surinkti labiausiai aktualius atvejus. 
+
+From mantas Tue Oct 17 14:18:12 +0300 2006
+From: mantas
+Date: Tue, 17 Oct 2006 14:18:12 +0300
+Subject: https://paslaugos.evaldzia.lt - ten pabandykite prisijungti per banką ir pamatysite baisumus
+Message-ID: <20061017141812+0300@wiki.akl.lt>
+
+https://paslaugos.evaldzia.lt - visiškai niekas neveikia :(
+
+ten pabandykite prisijungti per banką ir pamatysite baisumus - išmeta kažkokį pranešimą bet teksto ir net prie banko neprijungia :(
+O jei jungiesi iš banko, pvz iš lt.hanza.net (spaudi ant "E-Paslaugos" -> "Viešosios el.paslaugos") tai vistiek niekas neveikia :(
+
+Taip pat neišeina įdiegti IVPK prie LRV CA sertifikato - paspaudus ant "Sertifikatą  galima gauti čia" 
+
+From mantas Tue Oct 17 14:28:43 +0300 2006
+From: mantas
+Date: Tue, 17 Oct 2006 14:28:43 +0300
+Subject: https://www.registrucentras.lt/ceps - pasirinkus  "FINANSINĖS ATSKAITOMYBĖS ATASKAITŲ PARSISIUNTIMĄ"
+Message-ID: <20061017142843+0300@wiki.akl.lt>
+
+https://www.registrucentras.lt/ceps - prisijungus per kokį banką ir pasirinkus "FINANSINĖS ATSKAITOMYBĖS ATASKAITŲ RINKINIO PARSISIUNTIMAS" gauni:
+
+Error ! The current browser is either too old or too modern (using DOM document structure).
+
+
+http://www.apskritis.lt/index.php?-1734021653 Neįmanoma pasinaudoti.
+Nurodyta: „Prašome įdiegti papildymą prieš pildant 3 ketvirčio atskaitomybės formas“.
+Pateikiamas *.exe archyve suspausta *.xls forma su skriptais.
+--Mykolas
+
+
+From mantas Fri Feb 9 10:25:18 +0200 2007
+From: mantas
+Date: Fri, 09 Feb 2007 10:25:18 +0200
+Subject: Lietuvos nacionalinis radijas ir televizija - http://www.lrt.lt 
+Message-ID: <20070209102518+0200@https://wiki.akl.lt>
+
+Pradėsim nuo radijo - nuėjus į http://www.lrt.lt/radio/ ir paspaudus ant oranžinės flash reklamos "Įsijunk interneto radiją" (kairėj pusėj, viršuj) nieko neįvyksta (parodomas tik užrašas "Firefox prevented this site from opening a popup window), o jei leidi atsidaryti tam iššokančiam langu tai Firefox "Klaidų konsolėje" (žr. meniu Tools->Error Console) parašoma tokia klaida:
+
+Error: syntax error
+Source File: http://www.lrt.lt/new/eta_onair.php
+Line: 1, Column: 1
+Source Code:
+BOB SINCLAIR^
+
+O iššokusiame lange, kuriame turėtų groti radijas atsiranda klaida:
+Can't parse that
+no files
+
+(jei naudoji laisvą flash priedą gnash tai gauni kitą klaidą Firefox klaidų konsolėje: Error: [Exception... "'Abort' when calling method: [nsICommandLineHandler::handle]"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] )
+
+From mantas Fri Feb 9 12:32:31 +0200 2007
+From: mantas
+Date: Fri, 09 Feb 2007 12:32:31 +0200
+Subject: Transliacijų problemos - Lietuvos nacionalinis radijas ir televizija: http://www.lrt.lt/radio
+Message-ID: <20070209123231+0200@https://wiki.akl.lt>
+
+Transliacijų problemos - Lietuvos nacionalinis radijas ir televizija: http://www.lrt.lt/radio (testuota su Baltix GNU/Linux 2.x/Ubuntu 6.x (su įdiegtu libxine-extracodecs paketu bei totem-xine) - spaudinėjau ant nuorodų dešinėj pusėj, po mėlynu užrašu "Tiesiogiai internetu"):
+
+**LR** - **Low** bei *"Klasika"* **Low** neveikia, klaida:
+Totem nepavyko groti „mmsh://media1.lrt.lt/lr2live?MSWMExt=.asf“.
+Nėra tokio įvesties įskiepio, kuris galėtų atverti šio filmo vietą
+
+**Opus3** - **Low** neveikia, nes blogas streaming serverio URL (turi neveikt ir po Windows), redirektina į http://www.lrt.lt/ci.media.play.php?u=http://medi1.lrt.lt/opus3 , o reikia į 
+http://www.lrt.lt/ci.media.play.php?u=http://media1.lrt.lt/opus3
+
+(kai rankomis pataisai firefox'o adreso laukelyje tai pradeda veikt viskas be problemų)
+
+**@radijas** - **Low** neveikia, klaida:
+Can't parse that
+no files
+
+Tą pačią klaidą gauname paspaudę ant pačiam viršuj esančios nuorodos "Interneto radijas"
+
+Visi **Hi** bei tarp *@radijas (Hi | Low)* ir kalendoriaus esančios transliacijos veikia, vadinasi galima padaryti kad veiktų ir kiti :)
+LR laidų archyvas veikia, tačiau transliuoja tai tai, ant ko paspaudi - t.y. visuomet tą patį, pvz paspaudęs ant "Vakaro pasaka" girdžiu bliuzą, kuri girdžiu ir paspaudęs ant kitų laidų...
+Paspaudęs ant "klasikos" archyvo laidų negirdžiu išvis jokio garso :(, tačiau kažkas tipo groja, nes atidaro grotuvą ir klaidų nemeta...
+
+Ta pati problema yra ir nuėjus į http://www.lrt.lt/radio/news.php ir paspaudus ant "Naujausios laidos internete"
+
+From Eglė Wed Mar 21 10:43:30 +0200 2007
+From: Eglė
+Date: Wed, 21 Mar 2007 10:43:30 +0200
+Subject: Eilinės Valstybinės mokesčių inspekcijos internet puslapio problemos-nelabai veik "Užduoti klausimą"
+Message-ID: <20070321104330+0200@wiki.akl.lt>
+
+Valstybinės mokesčių inspekcijos (VMI) interneto puslapio problemos: nelabai veik forma "Užduoti klausimą" - neina užpildyti laukų "JA pavadinimas" bei "MM identifikacinis numeris (JA-kodas)" bei "MM identifikacinis numeris (FA-asmens kodas)", žr.: http://www.vmi.lt/lt/index.aspx?itemId=10215373
+
+Kad įsitikinti nueikit į http://www.vmi.lt, tuomet iš viršutinio meniu išsirinkite "Klausiate - atsakome" ir kairiam šone paspauskite ant nuorodos "Užduoti klausimą", pamatysite formą, kurioje kai kurių laukų plotis yra gal koks 1 milimetras :(
+
+From MantasKriaučiūnas Sat May 19 10:34:42 +0300 2007
+From: Mantas Kriaučiūnas
+Date: Sat, 19 May 2007 10:34:42 +0300
+Subject: Krūva formų .doc formatu Kauno savivaldybėje, pvz http://eps.kaunas.lt:8080/index.do
+Message-ID: <20070519103442+0300@wiki.akl.lt>
+
+Kauno savivaldybės svetainėje, taip vadinamoje "Elektroninių paslaugų sistemoje" visos formos pateikiamos tik .doc formatu, pvz nueikit į http://eps.kaunas.lt:8080/index.do , tada spauskite mygtuką "Ieškoti", gausite krūvą nuorodų į taip vadinamas "Paslaugas", kur paspaudus ant kiekvienos nuorodos gausite aprašymą, kurio skyriuje "Formos ir nuorodos" bus nuorodos į M$ Office .doc ir pan. failus :(
+
+From MantasKriaučiūnas Mon May 28 08:18:44 +0300 2007
+From: Mantas Kriaučiūnas
+Date: Mon, 28 May 2007 08:18:44 +0300
+Subject: Daug LRT puslapių (Laidų archyvas, www.lrt.lt/opus3/ ) pradėjo neveikt kai nėra flash-plugin :(
+Message-ID: <20070528081844+0300@wiki.akl.lt>
+
+LRT išvis dėjo ant puslapio lankytojų - krūva LRT puslapių (pvz http://www.lrt.lt/archyvas/ , http://www.lrt.lt/opus3/ ir t.t.) pradėjo neveikt kai nėra flash-plugin, o pvz http://www.lrt.lt/opus3/ meta tokį užrašą ir esant įdiegtam flash priedui:
+
+Alternate HTML content should be placed here.This content requires the Macromedia Flash Player.Get Flash
+
+Pasirodo, apie 20-čiai procentų iš bandžiusių naudotis LRT laidų archyvu, negalėjo pasinaudoti, nes tiems žmonėms jis paprasčiausiai neveikia, žr. apklausos rezultatus kairėj pusėj čia: http://lrt.lt/media.php?strid=2961828&id=3783214
+
+From Mantas Sat Sep 22 11:46:04 +0300 2007
+From: Mantas
+Date: Sat, 22 Sep 2007 11:46:04 +0300
+Subject: Po Linux nerodo LRT tiesioginės transliacijos :(
+Message-ID: <20070922114604+0300@wiki.akl.lt>
+
+LRT vėl diskriminuoja naudojančius laisvą programinę įrangą:
+Po Linux nerodo LRT tiesioginės transliacijos, žr.: http://www.lrt.lt/archyvas/?channel=234940&section=5&quality=high arba http://www.lrt.lt/archyvas/?channel=234940&section=5&quality=low 
+
+From Mantas Fri May 8 14:44:36 +0300 2009
+From: Mantas
+Date: Fri, 08 May 2009 14:44:36 +0300
+Subject: Vis dar nerodo LRT tiesioginių transliacijų ir fontas.lrt.lt - Lietuvos vardo tūkstantmečio proga?
+Message-ID: <20090508144436+0300@wiki.akl.lt>
+
+LRT vis dar diskriminuoja naudojančius laisvą programinę įrangą: Po Linux nerodo LRT tiesioginės transliacijos, žr.: http://www.lrt.lt/archyvas/?channel=234940&section=5&quality=high arba http://www.lrt.lt/archyvas/?channel=234940&section=5&quality=low
+
+Tikriausiai problema yra tame, kad tiesioginei transliacijai naudojamas ne standartinis mms srautas, o kažkoks mmsh - naudojant Ubuntu 9.04 su totem-gstreamer Firefox naršyklės plugin'u parodo pranešimą, kad trūksta kodeko ir reikia paieškoti, bet kai liepi paieškoti tai neranda:
+
+No packages with the requested plugins found
+The requested plugins are:
+application/x-mmsh dekoderis
+
+Dar viena neveikianti LRT "paslauga" - neįmanoma peržiūrėti LRT aukso fondo archyvų, nors http://fondas.lrt.lt rašo, kad tai vertinga Lietuvos kultūros paveldo dalis, ši medžiaga neturėtų dūlėti lentynose – ja turėtų galėti naudotis ir džiaugtis visuomenė, todėl nuspręsta prie skaitmeninio archyvo sukurti interneto prieigą, deja pabandžius peržiūrėti nieko nerodo, pvz nuėjus į http://fondas.lrt.lt/Media/ItemInfo.aspx?ItemId=11042 ir paspaudus ant mygtuko "Peržiūra" nieko nerodo, nors ir atsiranda video peržiūros programos langas (žr.: http://fondas.lrt.lt/Media/ItemReview.aspx?ItemId=11042 )
+
+From Mantas Sat May 9 13:31:53 +0300 2009
+From: Mantas
+Date: Sat, 09 May 2009 13:31:53 +0300
+Subject: LRT pakeitė aukštesnės kokybės radio transliacijų formatą į visiškai uždarą
+Message-ID: <20090509133153+0300@wiki.akl.lt>
+
+LRT pakeitė aukštesnės kokybės radio (Lietuvos Radijo, Klasikos bei Opus3) transliacijų formatą į visiškai uždarą - WMAv3 (WMA9), žr. pvz. mms://82.135.234.194/LR :( 
+Seniau tiesioginei radio transliacijai buvo naudojamas WMAv2 (WMA8) formatas, kurį gerai palaiko laisvo programos, kaip gstreamer (totem) bei VLC, o dabar pvz. naudojant Ubuntu 9.04 su totem-gstreamer Firefox naršyklės plugin'u parodo pranešimą, kad trūksta kodeko ir reikia paieškoti, bet kai liepi paieškoti tai neranda:
+
+No packages with the requested plugins found
+
+The requested plugins are:
+Windows Media Audio 9 dekoderis
+
+Beje, LRT tiesiogines transliacijas galima rasti ir http://www.erdves.lt/TVonline/ - ten paprasčiau pasiimti tiesioginį serverio URL, kai nori žiūrėti tiesiai media grotuve.

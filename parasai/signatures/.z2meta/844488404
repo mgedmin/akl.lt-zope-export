@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 735437814
+confirmed:boolean = 0
+gen_date:date = 2005/05/26 10:29:1.600000 GMT+3
+logo_url:string = 
+mail:string = minde.j@delfi.lt
+organization:string = KTU
+position:string = Studentas (Linux sistemu adminas)
+status:string = fiz_asm
+title:string = Mindaugas Jaraminas
+url_asm:string = 
+url_org:string = http://www.ktu.lt

@@ -1,0 +1,5 @@
+[properties]
+categories:string = Mokymui,Pramogai,
+public:boolean = 0
+title:string = Math Volcano - www.asymptopia.org/MathVolcano/MathVolcano.html
+trumpai:text = Math Volcano is a JavaScript web application for memorizing\nmultiplication tables through "12 x 12." Individual and\ncumulative clocktime information is shown in a table. Each\n"level" can be repeated until the clocktimes are satisfactory.\nCookies are used to store the clocktime information for\nfive days after the session.\n\nhttp://www.asymptopia.org/MathVolcano/MathVolcano.html

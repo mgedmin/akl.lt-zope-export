@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:20+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2004-01-16T18:14:46+00:00
+last_editor:string = romena
+last_editor_ip:string = 127.0.0.1
+last_log:string = 
+parents:lines = [\'Fondai\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = 

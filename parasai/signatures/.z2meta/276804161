@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 145101291
+confirmed:boolean = 1
+gen_date:date = 2005/05/20 15:41:45.131000 GMT+3
+logo_url:string = http://www.vic.lt/pics/logo.gif
+mail:string = martynas@vic.lt
+organization:string = \xc5\xbdEM\xc4\x96S \xc5\xaaKIO INFORMACIJOS IR KAIMO VERSLO CENTRAS
+position:string = administratorius
+status:string = fiz_asm
+title:string = Martynas Butkus
+url_asm:string = 
+url_org:string = http://www.vic.lt

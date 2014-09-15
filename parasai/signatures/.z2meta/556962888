@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 764397078
+confirmed:boolean = 1
+gen_date:date = 2005/09/26 22:28:52.131000 GMT+3
+logo_url:string = 
+mail:string = mg@sc.vtu.lt
+organization:string = 
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Mindaugas Grigas
+url_asm:string = 
+url_org:string = 

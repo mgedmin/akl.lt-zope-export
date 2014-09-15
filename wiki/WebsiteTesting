@@ -1,0 +1,51 @@
+User's Guide Book: Website compliance with open standards --> Procedures for testing websites for compliance with open standards
+
+ Websites to be tested:
+
+  * The list of Lithuanian websites: MunicWebsitesLT.
+
+  * An index of Latvian municipalities: http://www.gov.lv/index.php?sad=pasvald
+
+ Testing procedures
+
+  web site checklist: http://www.maxdesign.com.au/presentation/checklist.cfm
+  
+  *Aigars:*
+
+  I think we should diversify the research - take some big, some medium
+  and some small municipalities. Thus we could also compare the results
+  accross the size scale.
+
+  I am thinking about 3 staged approach:
+
+  1. w3c validation
+
+  2. cross-browser functionality testing (Firefox, Konqeror, Opera)
+
+  3. downloadable and uploadable file formats
+
+  *Viktoras:*
+
+  I think we should also validate css at http://jigsaw.w3.org/css-validator/
+
+  and we might check how they appear on different browsers (Mozilla, IE6, IE5, Opera), it's important if they use javascript
+
+From maikls Wed Feb 2 00:17:26 +0200 2005
+From: maikls
+Date: Wed, 02 Feb 2005 00:17:26 +0200
+Subject: 
+Message-ID: <20050202001726+0200@https://wiki.akl.lt>
+
+An index of Latvian municipalities: http://www.gov.lv/index.php?sad=pasvald
+(Thank you Kaspars)
+
+A nice web site checklist: http://www.maxdesign.com.au/presentation/checklist.cfm
+(Thank you Edgars)
+
+From unknown Mon Feb 7 02:11:52 +0200 2005
+From: 
+Date: Mon, 07 Feb 2005 02:11:52 +0200
+Subject: 
+Message-ID: <20050207021152+0200@wiki.akl.lt>
+
+Not to forget HTML validation too: http://validator.w3.org/

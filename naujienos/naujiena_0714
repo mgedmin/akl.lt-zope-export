@@ -1,0 +1,36 @@
+<p>Ryšium su Debian Developer'io Joost van Baal atvykimu į
+Lietuvą, organizuojamas PGP KeySigning renginys. Jis įvyks 2006 m.
+rugpjūčio 14 d. 14 val. UAB „Programuotojų artelė“ biuro
+patalpose (Vilnius, Z. Sierakausko 30A-17, <a href="http://maps.google.com/maps?f=q&hl=en&q=N54.683200+E25.262183&ie=UTF8&ll=54.682466,25.263062&spn=0.011586,0.041714&t=k&om=1">N54.683200 E25.262183</a>).</p>
+
+<p>Tai pirmasis oficialus tokio pobūdžio renginys Lietuvoje. Jis vyks
+pagal supaprastintą protokolą (nes greičiausiai dalyvių nebus labai
+daug), todėl išankstinė dalyvių registracija nėra būtina ir dalyvių
+sąrašo kompiliavimas prieš renginį nebus atliekamas. Kiekvienas
+dalyvis su savimi turi turėti:</p>
+<ol>
+<li> Atsispausdinęs daug (tiek kiek tikisi gauti signatūrų savo GPG
+   raktui) lapukų su savo Vardu ir Pavarde, e-pašto adresu, GPG key ID,
+   key type, ir HEX fingerprint.
+<li> Pasą ar kitą rimtą dokumentą (pvz. vairuotojo teises) su nuotrauka,
+   patvirtinantį asmens tapatybę.
+<li> Rašymo priemonę.
+</ol>
+
+<p>PASTABA: Dalyvio viešasis GPG raktas būtinai turi būti publikuotas
+bent viename viešųjų PGP raktų serveryje.
+
+<p>Nors išankstinė dalyvių registracija nėra privaloma, tačiau
+pageidautina, kad informuotumėte Kęstutį Biliūną &lt;kebil@kaunas.init.lt&gt;
+apie savo ketinimus dalyvauti.
+
+<p>Visus, kam rūpi PGP pasitikėjimo tinklo didinimas, kviečiame
+dalyvauti.
+
+<p>Daugiau apie PGP Key Signing Party galite paskaityti čia:
+<a href="http://www.cryptnet.net/fdp/crypto/gpg-party.html">GPG Keysigning Party HOWTO</a>.
+
+<p>Renginio organizatoriai:<br>
+Albertas Agejevas &lt;alga@akl.lt&gt;<br>
+Kęstutis Biliūnas &lt;kebil@kaunas.init.lt&gt;<br>
+Marius Gedminas &lt;mgedmin@b4net.lt&gt;

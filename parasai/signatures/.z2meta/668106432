@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 545617397
+confirmed:boolean = 1
+gen_date:date = 2005/06/05 15:53:25.495000 GMT+3
+logo_url:string = 
+mail:string = dima@ibt.lt
+organization:string = BTI
+position:string = studentas (BTI)
+status:string = fiz_asm
+title:string = Dmitrij Golovenko
+url_asm:string = 
+url_org:string = 

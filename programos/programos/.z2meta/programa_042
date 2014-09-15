@@ -1,0 +1,5 @@
+[properties]
+categories:string = Finansams,
+public:boolean = 1
+title:string = Asmenini\xc5\xb3 finans\xc5\xb3 apskaitos sistema \xe2\x80\x9ejGnash\xe2\x80\x9c
+trumpai:text = \xc5\xa0i asmenini\xc5\xb3 finans\xc5\xb3 apskaitos sistema yra sukurta Java, tod\xc4\x97l veikia visose platformose (\xc4\xafskaitant \xe2\x80\x9eLinux\xe2\x80\x9c ir \xe2\x80\x9eWindows\xe2\x80\x9c), \nkuriose veikia 1.4 versijos Java vykdymo aplinka (JRE).

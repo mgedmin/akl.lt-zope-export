@@ -1,0 +1,9 @@
+[properties]
+author:string = Kristina Kudria\xc5\xa1ova
+blurb:text = Piet\xc5\xb3 Afrikos Respublikos (PAR) vyriausyb\xc4\x97 paskelb\xc4\x97 apie savo ketinimus naudoti atviro kodo programin\xc4\x99 \xc4\xafrang\xc4\x85 valstyb\xc4\x97s \xc4\xafstaig\xc5\xb3 kompiuteriuose. Anot oficiali\xc5\xb3 PAR vald\xc5\xbeios atstov\xc5\xb3, naujoji strategija skirta suma\xc5\xbeinti administracijai skirtas i\xc5\xa1laidas bei pakelti vietini\xc5\xb3 IT specialist\xc5\xb3 pasiruo\xc5\xa1imo lyg\xc4\xaf.
+categories:multiple selection = (\'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2007-02-26
+email:string = kristina@akl.lt
+profesionalams:boolean = False
+title:string = PAR planuoja pereiti prie Open Source

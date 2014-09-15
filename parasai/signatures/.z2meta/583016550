@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 214314294
+confirmed:boolean = 1
+gen_date:date = 2005/07/12 22:27:20.519000 GMT+3
+logo_url:string = 
+mail:string = tautvydas.duda@mif.vu.lt
+organization:string = 
+position:string = studentas
+status:string = fiz_asm
+title:string = Tautvydas Duda
+url_asm:string = 
+url_org:string = 

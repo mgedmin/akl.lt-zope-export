@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 771942774
+confirmed:boolean = 1
+gen_date:date = 2005/05/24 19:36:51.845000 GMT+3
+logo_url:string = 
+mail:string = paulius@bofh.lt
+organization:string = uab BMS
+position:string = 
+status:string = fiz_asm
+title:string = Paulius Mazeika
+url_asm:string = 
+url_org:string = http://www.bms.lt

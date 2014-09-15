@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 834722940
+confirmed:boolean = 1
+gen_date:date = 2005/04/25 01:21:16.379000 GMT+3
+logo_url:string = http://www3.lrs.lt/n/rinkimai/20001008/lb773039.jpg
+mail:string = mykolasok@gmail.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Mykolas Okuli\xc4\x8d-Kazarinas
+url_asm:string = http://www.consum.org/xhtml/
+url_org:string = http://www.consum.org/

@@ -1,0 +1,9 @@
+[properties]
+author:string = Jaro
+blurb:text = Baig\xc4\x97si <a href="baltix%20logotipas.html">konkursas</a>"Lietuvi\xc5\xa1kos\nLinux distribucijos <a href="http://files.akl.lt/baltix-knoppix/">Baltix</a> logotipas". D\xc4\x97kojame visiems dalyvavusiems!<br/>\nBalsavimas u\xc5\xbe geriausi\xc4\x85 darb\xc4\x85 vyksta <a href="http://www.akl.lt/balsavimas/?doc=Logotipas.html">\xc4\x8dia.</a>
+categories:multiple selection = (\'Grafikos&nbsp;programos\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'GNU/Linux&nbsp;OS\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2005-08-07
+email:string = jaro@akl.lt
+profesionalams:boolean = 0
+title:string = Balsavimas d\xc4\x97l Baltix Linux logotipo

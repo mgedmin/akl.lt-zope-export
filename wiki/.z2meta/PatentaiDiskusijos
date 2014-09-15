@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:18+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-06-04T20:36:44+00:00
+last_editor:string = 127.0.0.1
+last_editor_ip:string = 127.0.0.1
+last_log:string = klausimai firmoms prie\xc5\xa1 apsisprend\xc5\xbeiant
+parents:lines = [\'Patentai\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Patentai/Diskusijos

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 331900083
+confirmed:boolean = 0
+gen_date:date = 2005/05/18 21:35:18.233000 GMT+3
+logo_url:string = 
+mail:string = init_mail@yahoo.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Gediminas Kubilius
+url_asm:string = 
+url_org:string = 

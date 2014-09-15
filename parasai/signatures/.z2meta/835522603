@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 516779188
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 20:24:26.519000 GMT+3
+logo_url:string = http://www.fsf.org/newsitem_icon.gif
+mail:string = audriusa@bioinformatics.org
+organization:string = Free Software Foundation
+position:string = GNU Classpath (laisva atviro kodo java) grupes programuotojas (CORBA)
+status:string = fiz_asm
+title:string = Audrius Meskauskas
+url_asm:string = http://savannah.gnu.org/users/audriusa
+url_org:string = http://www.fsf.org/

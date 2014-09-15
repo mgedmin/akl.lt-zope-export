@@ -1,0 +1,83 @@
+## Script (Python) "add"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+from Products.PythonScripts.standard import html_quote
+request = container.REQUEST
+
+isAnonymous = request.AUTHENTICATED_USER.getUserName() == 'Anonymous User'
+
+date = request.date
+title = request.title
+blurb = request.blurb
+body = request.body
+author = request.author or ""
+email = request.email or ""
+profesionalams = int(request.profesionalams)
+
+if body and not blurb:
+    blurb = body
+
+if not body and blurb:
+    body = blurb
+
+# Gaunam id
+id = "naujiena_%04d" % container.newsId
+container.manage_changeProperties(newsId=container.newsId + 1)
+if isAnonymous:
+    root = container["nepatikrintos"]
+else:
+    root = container
+
+# Tikrinam ar naujiena yra tikra (jei žmogus įrašė 'taip' į atsakymą 'Ar naujiena yra įdomi/aktuali')
+# Jei ne, tai newsId sumažinam vienetu, parodome pranešimą "Įrašykite <i>taip</i>, patvirtindami, kad naujiena yra įdomi/aktuali Lietuvos žmonėms!" ir pasiūlom grįžt atgal.
+if request.tikra.strip().upper() != "TAIP":
+    container.manage_changeProperties(newsId=container.newsId - 1)
+    return "Jūs norite mums pasiūlyti neįdomią/neaktualią naujieną? Gal grįžkite atgal ir įrašykite <i>taip</i>, patvirtindami, kad naujiena yra įdomi/aktuali Lietuvos žmonėms?"
+
+
+# Tikrinam ar naujienos pavadinimas yra ilgesnis nei vienas žodis (dauguma spamo į title įrašo tik vieną žodį)
+# Jei taip, tai newsId sumažinam vienetu, parodome pranešimą "Įrašykite gerą pavadinimą" ir pasiūlom grįžt atgal.
+if title.strip().find(' ') == -1:
+    container.manage_changeProperties(newsId=container.newsId - 1)
+    return "Naujienos pavadinimas turi būti iš kelių žodžių. Gal grįžkite atgal ir įrašykite ilgesnį naujienos pavadinimą ;) ?"
+
+# Tikrinam ar nėra naujienos su tokiu pavadinimu, jei yra tai newsId sumažinam vienetu ir
+# parodome pranešimą, kad jau yra su tokiu pavadinimu ir pasiūlom grįžt atgal.
+for item in root.objectValues('DTML Document'):
+    if item.title.strip().upper() == title.strip().upper():
+        container.manage_changeProperties(newsId=container.newsId - 1)
+        return "Naujiena su tokiu pavadinimu jau yra (nepatikrintose) naujienose. Gal grįžkite atgal ir pakeiskite pavadinimą arba pasitikrinkite ar nesikartojate ;) ?"
+
+#reik padaryti spam-testą - paprasčiausia būtų patikrinti 
+#ar į datą bei email įveda kažką panašaus į datą bei email. Kas dirba su ŽOPE, padarykite tai, būkit žmonės...
+
+# Dedam peidžą
+#container.manage_addProduct.OFSP.addDTMLDocument(id, title)
+root.manage_addProduct.addDTMLDocument(id, title)
+naujiena = root[id]
+naujiena.manage_edit(body, title)
+naujiena.manage_addProperty('blurb', blurb, 'text')
+naujiena.manage_addProperty('date', date, 'string')
+naujiena.manage_addProperty('author', author, 'string')
+naujiena.manage_addProperty('email', email, 'string')
+categories = context.getCategories()
+naujiena.manage_addProperty(
+    'category_values', " ".join(categories), 'tokens')
+naujiena.manage_addProperty('categories', 'category_values', 'multiple selection')
+category_values = []
+for i in range(0, len(categories)):
+    value = request.form.get("category_%s" % (i + 1), 'off')
+    if value == 'on':
+        category_values.append(categories[i])
+if len(category_values) > 0:
+    naujiena.manage_changeProperties(categories=category_values)
+
+naujiena.manage_addProperty('profesionalams', profesionalams, 'boolean')
+
+request.RESPONSE.redirect(request.URL1)

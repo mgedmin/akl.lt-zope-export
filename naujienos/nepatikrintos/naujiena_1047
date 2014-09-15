@@ -1,0 +1,27 @@
+Domitės geografinėmis informacinėmis sistemomis (GIS)? O gal naudojate ar planuojate naudotis žemėlapių kūrimo/tvarkymo programomis savo darbe ar moksluose?<br>
+Kovo 14 d. Kauno marių regioninio parko direkcijoje vyko nemokami GIS įvadiniai mokymai su laisva (atviro kodo) GIS programine įranga - 
+<a href="http://qgis.org">Quantum GIS (QGIS)</a>. QGIS yra nemokama ir niekada nebus mokama (http://www.akl.lt/ak/licencijos).
+
+<a href="http://qgis.org">Quantum GIS (QGIS)</a> programinė įranga per pastaruosius 5 metus labai patobulėjo, ir tapo gana rimtu konkurentu 
+Lietuvoje dažnai nelegaliai naudojamai ESRI ArcMap produkcijai. Sutikite, kad 10 tūkst. LT už vieną darbo vietą yra labai ir labai didelė prabanga.
+
+Mokymuose dalyvavo Lietuvos regioninių parkų specialistai, dėl didelio susidomėjimo negalėjo dalyvauti visi norintys, todėl dar šiais metais 
+planuojami pakartotiniai mokymai. Jau dabar visi naudojantys ar norintys naudotis laisva GIS programine įranga gali bendrauti tam 
+skirtame forume: http://forumai.akl.lt
+
+Kodėl QGIS? 
+Todėl kad juo galima atlikti visus veiksmus kurių reikia gamtininkams, miškininkams ar net teritorijų planavimo specialistams. 
+Galimybės neribotos. Pilnai galima naudotis ir siųstis duomenis WMS formate (ortofoto, miškų, gyvenviečių, susisiekimo kelių sluoksniai ir kt.) 
+iš www.geoportal.lt, kurti duomenų bazes, atlikti analizes, skaičiavimus, kurti aukštos raiškos žemėlapius ir kt. 
+Neradau nieko ko nepadaryčiau su ArcMap ir be to kai kurios funkcijos yra daug patogesnės nei minėto brangaus produkto. 
+Jis veikia daug greičiau, neapkraudamas kompiuterio atminties. Pažįsta visus GIS formatus ir duomenų bazes, tai leidžia pereiti 
+be vargo nuo vienos programos prie kitos.
+
+Galima tvirtai teigti, kad daugelyje darbų brangios ir sudėtingos programos nereikia. 
+Galėtume sutaupyti ir už tuos pinigus nusipirkti gerus GPS imtuvus, delninius kompiuterius darbui lauke.  
+
+Quantum Gis jau daug kas pripažįsta profesionalia GIS programine įranga, kuri veikia ant įvairių platformų (Windows, Android, Linux) 
+ir net gali būti kaip WEB aplikacija (http://www.qgis.org/about-qgis/features.html#server). 
+Vokietijoje programa įgauna pagreitį perspektyvoje bus tobulinama. Kuo daugiau vartotojų ja naudosis tuo geresnė ji bus.
+
+Liūdna matyti kada pinigai metami į balą arba esame verčiami naudotis (vogti) piratine įranga. Nesame ta Valstybė, kuri turi perteklinį biudžetą.

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 401284799
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 09:32:16.857000 GMT+3
+logo_url:string = http://www.salda.lt/images/sys/titul_top.png
+mail:string = dainiusf@salda.lt
+organization:string = T\xc5\xaaB Salda
+position:string = in\xc5\xbeinierius-programuotojas
+status:string = fiz_asm
+title:string = Dainius Figoras
+url_asm:string = 
+url_org:string = http://www.salda.lt

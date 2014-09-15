@@ -1,0 +1,9 @@
+[properties]
+author:string = Jaro
+blurb:text = \xc5\xa0iandien startavo <a href="http://forumai.akl.lt">forumai.akl.lt</a> svetain\xc4\x97. \xc4\x8cia laisv\xc5\xb3 program\xc5\xb3 naudotojai gal\xc4\x97s aptarin\xc4\x97ti laisvas programas, dalintis patirtimi.\n
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x84\\xc2\\x97s&nbsp;teis\\xc3\\x84\\xc2\\x97s\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x84\\xc2\\x97s&nbsp;teis\\xc3\\x84\\xc2\\x97s\')
+date:string = 2005-11-17
+email:string = jaro@akl.lt
+profesionalams:boolean = 0
+title:string = Startavo forumai.akl.lt!

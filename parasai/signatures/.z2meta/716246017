@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 122444962
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 09:42:16.932000 GMT+3
+logo_url:string = http://www.virdorida.lt/images/Logo.png
+mail:string = virgisz@virdorida.lt
+organization:string = V.\xc5\xbdidonio firma "Virdorida"
+position:string = Savininkas
+status:string = imone
+title:string = Virginijus \xc5\xbdidonis
+url_asm:string = 
+url_org:string = http://www.virdorida.lt

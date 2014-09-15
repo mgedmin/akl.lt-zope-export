@@ -1,0 +1,9 @@
+[properties]
+author:string = Kristina Kudria\xc5\xa1ova
+blurb:text = Pasirod\xc4\x97 i\xc5\xa1ankstin\xc4\x97 stabilios GNOME 2.14 versijos b\xc5\xabsim\xc5\xb3 galimybi\xc5\xb3 ap\xc5\xbevalga. GNOME 2.14 bus i\xc5\xa1leistas \xc5\xa1i\xc5\xb3 met\xc5\xb3 kovo 15 d. Davyd Madeley jau tradici\xc5\xa1kai pristat\xc4\x97 puslap\xc4\xaf su momentin\xc4\x97mis ekrano nuotraukomis ir publikuota trumpa GNOME 2.14 naujien\xc5\xb3 ap\xc5\xbevalga.
+categories:multiple selection = (\'GNOME&nbsp;aplinka\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2006-02-21
+email:string = ristinkak@gmail.com
+profesionalams:boolean = 0
+title:string = I\xc5\xa1ankstin\xc4\x97 GNOME 2.14 naujien\xc5\xb3 ap\xc5\xbevalga

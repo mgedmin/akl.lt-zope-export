@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 954853970
+confirmed:boolean = 1
+gen_date:date = 2005/05/23 09:39:28.803000 GMT+3
+logo_url:string = 
+mail:string = petras_pauliunas@fc.vdu.lt
+organization:string = VDU
+position:string = IT specializstas, P\xc4\xae, Web programuotojas
+status:string = fiz_asm
+title:string = Petras Pauli\xc5\xabnas
+url_asm:string = http://puga.vdu.lt/inf101
+url_org:string = http://www.vdu.lt

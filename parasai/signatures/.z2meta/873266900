@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 595741998
+confirmed:boolean = 1
+gen_date:date = 2005/05/20 18:01:41.545000 GMT+3
+logo_url:string = 
+mail:string = donataz@gmail.com
+organization:string = 
+position:string = VU studentas
+status:string = fiz_asm
+title:string = Donatas Bru\xc5\xbeas
+url_asm:string = 
+url_org:string = 

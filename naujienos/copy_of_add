@@ -1,0 +1,71 @@
+## Script (Python) "copy_of_add"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=a
+##title=
+##
+if a != "3":
+    request.RESPONSE.redirect(request.URL1)
+    return
+
+from Products.PythonScripts.standard import html_quote
+request = container.REQUEST
+
+isAnonymous = request.AUTHENTICATED_USER.getUserName() == 'Anonymous User'
+
+date = request.date
+title = request.title
+blurb = request.blurb
+body = request.body
+author = request.author or ""
+email = request.email or ""
+profesionalams = int(request.profesionalams)
+
+if body and not blurb:
+    blurb = body
+
+if not body and blurb:
+    body = blurb
+
+# Gaunam id
+id = "naujiena_%03d" % container.newsId
+container.manage_changeProperties(newsId=container.newsId + 1)
+if isAnonymous:
+    root = container["nepatikrintos"]
+else:
+    root = container
+
+# Tikrinam ar nėra naujienos su tokiu pavadinimu, jei yra tai newsId sumažinam vienetu ir
+# parodome pranešimą, kad jau yra su tokiu pavadinimu ir pasiūlom grįžt atgal.
+for item in root.objectValues('DTML Document'):
+    if item.title.strip().upper() == title.strip().upper():
+        container.manage_changeProperties(newsId=container.newsId - 1)
+        return "Naujiena su tokiu pavadinimu jau yra nepatikrintose naujienose. Gal grįžkite atgal ir pakeiskite pavadinimą?"
+
+# Dedam peidžą
+#container.manage_addProduct.OFSP.addDTMLDocument(id, title)
+root.manage_addProduct.addDTMLDocument(id, title)
+naujiena = root[id]
+naujiena.manage_edit(body, title)
+naujiena.manage_addProperty('blurb', blurb, 'text')
+naujiena.manage_addProperty('date', date, 'string')
+naujiena.manage_addProperty('author', author, 'string')
+naujiena.manage_addProperty('email', email, 'string')
+categories = context.getCategories()
+naujiena.manage_addProperty(
+    'category_values', " ".join(categories), 'tokens')
+naujiena.manage_addProperty('categories', 'category_values', 'multiple selection')
+category_values = []
+for i in range(0, len(categories)):
+    value = request.form.get("category_%s" % (i + 1), 'off')
+    if value == 'on':
+        category_values.append(categories[i])
+if len(category_values) > 0:
+    naujiena.manage_changeProperties(categories=category_values)
+
+naujiena.manage_addProperty('profesionalams', profesionalams, 'boolean')
+
+request.RESPONSE.redirect(request.URL1)

@@ -1,0 +1,1741 @@
+PHARE 2002 BAS
+
+ LAKA Activities
+
+ / the table was made pasting Calc table into Mozilla Composer /
+
+<table border="1" cellspacing="0" cols="11" frame="void" rules="groups">
+<colgroup><col width="36"></colgroup> <colgroup><col width="273"></colgroup>
+<colgroup><col width="206"></colgroup> <colgroup><col width="63"></colgroup>
+<colgroup><col width="80"></colgroup> <colgroup><col width="83"></colgroup>
+<colgroup><col width="60"></colgroup> <colgroup><col width="66"></colgroup>
+<colgroup><col width="58"></colgroup> <colgroup><col width="75"></colgroup>
+<colgroup><col width="61"></colgroup> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="35" valign="top"
+width="36"><b><br>
+</b></td>
+<td align="right" valign="top" width="273"><br>
+</td>
+<td align="right" valign="top" width="206">Name / Calendar Month<br>
+</td>
+<td align="center" valign="top" width="63"><b>Kaspars</b></td>
+<td align="center" valign="top" width="80"><b>Maikls</b></td>
+<td align="center" valign="top" width="83"><b>Aigars</b></td>
+<td align="center" valign="top" width="60"><span
+style="font-weight: bold;">JANUARY</span><br>
+</td>
+<td align="center" valign="top" width="66"><b>FEBRUARY</b></td>
+<td align="center" valign="top" width="58"><b>MARCH</b></td>
+<td align="center" valign="top" width="75"><b>APRIL</b></td>
+<td align="center" valign="top" width="61"><b>MAY</b></td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="35" valign="top"><b><br>
+</b></td>
+<td align="right" valign="top"><br>
+</td>
+<td align="right" valign="top">Obligation / Project month<br>
+</td>
+<td align="center" valign="top">Coord.LV (1.1.2.2)</td>
+<td align="center" valign="top">Web Expert (1.2.5)</td>
+<td align="center" valign="top">OSS Expert (1.2.4)</td>
+<td align="center" valign="top"><b>1+2</b></td>
+<td sdval="3" sdnum="1023;" align="center" valign="top"><b>3</b></td>
+<td sdval="4" sdnum="1023;" align="center" valign="top"><b>4</b></td>
+<td sdval="5" sdnum="1023;" align="center" valign="top"><b>5</b></td>
+<td sdval="6" sdnum="1023;" align="center" valign="top"><b>6</b></td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="1" sdnum="1023;0;@" align="center" bgcolor="#ffff99"
+height="17" valign="top"><b>1</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><b>Set and
+approve detailed plan of activities</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><br>
+</td>
+<td sdval="4" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b>4</b></td>
+<td sdval="1" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b>1</b></td>
+<td sdval="1" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b>1</b></td>
+<td align="center" bgcolor="#0000ff"><br>
+</td>
+<td align="center"><br>
+</td>
+<td align="center"><br>
+</td>
+<td align="center"><br>
+</td>
+<td align="center"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="1.1" sdnum="1023;0;@" align="center" height="30"
+valign="top"><b>1.1</b></td>
+<td align="left" valign="top">Set and coordinate detailed project
+schedule (of activities and main events)</td>
+<td align="left" valign="top">detailed project schedule</td>
+<td sdval="2" sdnum="1023;" align="center" valign="top">2</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="1.2" sdnum="1023;0;@" align="center" height="30"
+valign="top"><b>1.2</b></td>
+<td align="left" valign="top">Organize project steering committee
+and project team meeting</td>
+<td align="left" valign="top">place, date and time scheduled</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top">1</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="1.3" sdnum="1023;0;@" align="center" height="30"
+valign="top"><b>1.3</b></td>
+<td align="left" valign="top">Meeting of project steering
+committee and kick-off meeting in Vilnius</td>
+<td align="left" valign="top">approved detailed project schedule</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><u>1</u></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><u>1</u></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><u>1</u></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="2" sdnum="1023;0;@" align="center" bgcolor="#ffff99"
+height="58" valign="top"><b>2</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><b>Establish and
+document procedures for testing websites and document formats used in
+data exchange between local authorities and citizens</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><br>
+</td>
+<td sdval="3" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">3</font></b></td>
+<td sdval="14" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">14</font></b></td>
+<td sdval="2" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">2</font></b></td>
+<td align="center" bgcolor="#0000ff" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="2.1" sdnum="1023;0;@" align="center" height="44"
+valign="top"><b>2.1</b></td>
+<td align="left" valign="top"><font color="#000000">Draw up a
+list of Lithuanian websites and coordinate with responsible persons of
+organizations</font></td>
+<td align="left" valign="top">a list of Lithuanian websites to be
+tested</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="2.2" sdnum="1023;0;@" align="center" height="44"
+valign="top"><b>2.2</b></td>
+<td align="left" valign="top"><font color="#000000">Draw up a
+list of Latvian websites and coordinate with responsible persons of
+organizations</font></td>
+<td align="left" valign="top">a list of Latvian websites to be
+tested</td>
+<td sdval="2" sdnum="1023;" align="center" valign="top"><font
+color="#000000">2</font></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><font
+color="#000000">1</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="2.3" sdnum="1023;0;@" align="center" height="30"
+valign="top"><b>2.3</b></td>
+<td align="left" valign="top"><font color="#000000">Establish and
+document procedures for testing websites in Lithuania and Latvia</font></td>
+<td align="left" valign="top">procedures for testing websites</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td sdval="3" sdnum="1023;" align="center" valign="top"><font
+color="#000000">3</font></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><font
+color="#000000">1</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="2.4" sdnum="1023;0;@" align="center" height="30"
+valign="top"><b>2.4</b></td>
+<td align="left" valign="top"><font color="#000000">Test
+Lithuanian websites for W3C standards compliance (test and commit
+mistakes)</font></td>
+<td align="left" valign="top">a report on testing results of
+Lithuanian websites</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="2.5" sdnum="1023;0;@" align="center" height="30"
+valign="top"><b>2.5</b></td>
+<td align="left" valign="top"><font color="#000000">Test Latvian
+websites for W3C standards compliance (test and commit mistakes)</font></td>
+<td align="left" valign="top">a report on testing results of
+Latvian websites</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td sdval="4" sdnum="1023;" align="center" valign="top"><font
+color="#000000">4</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="2.6" sdnum="1023;0;@" align="center" height="44"
+valign="top"><b>2.6</b></td>
+<td align="left" valign="top">Analyze document formats at
+Lithuanian websites and requested document forms from citizens (Vilnius)</td>
+<td align="left" valign="top">a list of document formats used at
+Lithuanian websites</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="2.7" sdnum="1023;0;@" align="center" height="44"
+valign="top"><b>2.7</b></td>
+<td align="left" valign="top">Analyze document formats at Latvian
+websites and requested document forms from citizens (Riga)</td>
+<td align="left" valign="top">a list of document formats used at
+Latvian websites</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td sdval="2" sdnum="1023;" align="center" valign="top"><font
+color="#000000">2</font></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><font
+color="#000000">1</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="2.8" sdnum="1023;0;@" align="center" height="30"
+valign="top"><b>2.8</b></td>
+<td align="left" valign="top"><font color="#000000">Analyze
+Lithuanian web site test results and compile report</font></td>
+<td align="left" valign="top">Lithuania's team report on results</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="2.9" sdnum="1023;0;@" align="center" height="30"
+valign="top"><b>2.9</b></td>
+<td align="left" valign="top"><font color="#000000">Analyze
+Latvian web site test results and compile report</font></td>
+<td align="left" valign="top">Latvia's team report on results</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td sdval="3" sdnum="1023;" align="center" valign="top"><font
+color="#000000">3</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>2.10</b></td>
+<td align="left" valign="top"><font color="#000000">Compile
+general report based on Lithuanian and Latvian web site test results</font></td>
+<td align="left" valign="top">general report on testing and
+findings of both countries</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><font
+color="#000000">1</font></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><font
+color="#000000">1</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="3" sdnum="1023;0;@" align="center" bgcolor="#ffff99"
+height="30" valign="top"><b>3</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><b><font
+color="#000000">Analyze and select open standard document formats </font></b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><br>
+</td>
+<td sdval="3" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">3</font></b></td>
+<td sdval="5" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">5</font></b></td>
+<td sdval="4" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">4</font></b></td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>3.1</b></td>
+<td align="left" valign="top"><font color="#000000">Research what
+open document formats are used in other EU countries</font></td>
+<td align="left" valign="top">a list of document formats used in
+other EU countries</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td sdval="2" sdnum="1023;" align="center" valign="top"><font
+color="#000000">2</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>3.2</b></td>
+<td align="left" valign="top"><font color="#000000">Analyze
+existing Lithuanian laws and regulations regarding data exchange and
+standards</font></td>
+<td align="left" valign="top">a list of Lithuanian laws and
+regulations regarding data exchange and standards</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>3.3</b></td>
+<td align="left" valign="top"><font color="#000000">Analyze
+existing Latvian laws and regulations regarding data exchange and
+standards</font></td>
+<td align="left" valign="top">a list of Latvian laws and
+regulations regarding data exchange and standards</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><font
+color="#000000">1</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td sdval="2" sdnum="1023;" align="center" valign="top"><font
+color="#000000">2</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>3.4</b></td>
+<td align="left" valign="top"><font color="#000000">Compile
+10-page report on the use of open document formats in the public sector
+based on project report findings and input from other EU countries</font></td>
+<td align="left" valign="top">a 10-page report on the use of open
+document formats in the public sector</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><font
+color="#000000">1</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>3.5</b></td>
+<td align="left" valign="top"><font color="#000000">Author an
+article summarizing the open formats portion of the project and its
+findings, for distribution to Lithuanian and Latvian media
+organizations.</font></td>
+<td align="left" valign="top">an article (press release) about
+Lithuanian and Latvian situation on using open formats</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td sdval="3" sdnum="1023;" align="center" valign="top"><font
+color="#000000">3</font></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><font
+color="#000000">1</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>3.6</b></td>
+<td align="left" valign="top"><font color="#000000">Contact
+Lithuanian mass media organizations regarding the publication of
+prepared article</font></td>
+<td align="left" valign="top">an article published in 3 main
+Lithuanian dailies</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>3.7</b></td>
+<td align="left" valign="top"><font color="#000000">Contact
+Latvian mass media organizations regarding the publication of prepared
+article</font></td>
+<td align="left" valign="top">an article published in 2 main
+Latvian dailies</td>
+<td sdval="2" sdnum="1023;" align="center" valign="top"><font
+color="#000000">2</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="4" sdnum="1023;0;@" align="center" bgcolor="#ffff99"
+height="30" valign="top"><b>4</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><b><font
+color="#000000">Implement use of open formats at Vilnius City
+Municipality</font></b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><br>
+</td>
+<td sdval="3" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">3</font></b></td>
+<td sdval="2" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">2</font></b></td>
+<td sdval="10" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">10</font></b></td>
+<td align="left"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>4.1</b></td>
+<td align="left" valign="top">Select and test tools for creating
+open standard documents</td>
+<td align="left" valign="top">a list of selected tools for
+creating open standard documents with brief descriptions</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td sdval="3" sdnum="1023;" align="center" valign="top">3</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>4.2</b></td>
+<td align="left" valign="top">Select and test tools for
+converting documents to open standard ones</td>
+<td align="left" valign="top">a list of selected tools for
+converting documents to open standard ones with brief descriptions</td>
+<td align="center" valign="top"><br>
+</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top">1</td>
+<td sdval="3" sdnum="1023;" align="center" valign="top">3</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>4.3</b></td>
+<td align="left" valign="top">Compile a report and
+recommendations on tools for open file format creation and conversion</td>
+<td align="left" valign="top">a report and recommendations
+(guidelines) on tools for open file format creation and conversion</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td sdval="3" sdnum="1023;" align="center" valign="top">3</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>4.4</b></td>
+<td align="left" valign="top">Organize visit of Latvian team
+members to Lithuania to discuss project status and pilot implementation
+procedures (set schedule and place)</td>
+<td align="left" valign="top">place, date and time scheduled</td>
+<td sdval="2" sdnum="1023;" align="center" valign="top">2</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>4.5</b></td>
+<td align="left" valign="top"><font color="#000000">Conduct
+Vilnius meeting of project steering committee and project teams.</font></td>
+<td align="left" valign="top">approved results and scheduled
+further activities </td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><u><font
+color="#000000">1</font></u></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><u><font
+color="#000000">1</font></u></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><u><font
+color="#000000">1</font></u></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="5" sdnum="1023;0;@" align="center" bgcolor="#ffff99"
+height="17" valign="top"><b>5</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><b><font
+color="#000000">Trainings for municipal workers</font></b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><br>
+</td>
+<td sdval="3" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">3</font></b></td>
+<td sdval="1" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">1</font></b></td>
+<td sdval="1" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">1</font></b></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="17" valign="top"><b>5.1</b></td>
+<td align="left" valign="top"><font color="#000000">Prepare
+training materials</font></td>
+<td align="left" valign="top">prepared training materials</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>5.2</b></td>
+<td align="left" valign="top"><font color="#000000">Organize and
+administrate 4-day training seminar for Vilnius City municipal workers</font></td>
+<td align="left" valign="top">selected 20 municipal workers for
+trainings</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>5.3</b></td>
+<td align="left" valign="top"><font color="#000000">Organize and
+administrate 1-day seminar for Lithuanian municipal decision makers</font></td>
+<td align="left" valign="top">selected about 80 Lithuanian
+municipal decision makers for seminar</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>5.4</b></td>
+<td align="left" valign="top"><font color="#000000">Organize and
+administrate 1-day seminar for Latvian municipal decision makers</font></td>
+<td align="left" valign="top">selected about 60 Latvian municipal
+decision makers for seminar</td>
+<td sdval="2" sdnum="1023;" align="center" valign="top"><font
+color="#000000">2</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>5.5</b></td>
+<td align="left" valign="top"><font color="#000000">Conduct 4-day
+seminar and trainings for appropriate Vilnius City municipal workers</font></td>
+<td align="left" valign="top">20 municipal workers trained,
+feedbacks analyzed</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>5.6</b></td>
+<td align="left" valign="top"><font color="#000000">Conduct 1-day
+seminar for Lithuanian municipal decision makers</font></td>
+<td align="left" valign="top">80 Lithuanian municipal decision
+makers raised awareness in IT, feedbacks analyzed</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>5.7</b></td>
+<td align="left" valign="top"><font color="#000000">Conduct 1-day
+seminar for Latvian municipal decision makers</font></td>
+<td align="left" valign="top">60 Latvian municipal decision
+makers raised awareness in IT, feedbacks analyzed</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><font
+color="#000000">1</font></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><font
+color="#000000">1</font></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><font
+color="#000000">1</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="6" sdnum="1023;0;@" align="center" bgcolor="#ffff99"
+height="33" valign="top"><b>6</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><b><font
+color="#000000">Implement of project pilot at Vilnius City Municipality</font></b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><br>
+</td>
+<td sdval="0" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">0</font></b></td>
+<td sdval="0" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">0</font></b></td>
+<td sdval="0" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">0</font></b></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>6.1</b></td>
+<td align="left" valign="top"><font color="#000000">Prepare and
+coordinate a detailed plan of implementation</font></td>
+<td align="left" valign="top">a detailed plan for pilot
+implementation</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>6.2</b></td>
+<td align="left" valign="top"><font color="#000000">Identify
+existing hardware and software systems for inclusion in project,
+determine their project suitability and determine any necessary upgrades</font></td>
+<td align="left" valign="top">a detailed report on hardware and
+software that is already used and/or needed for further activities</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>6.3</b></td>
+<td align="left" valign="top"><font color="#000000">Identify up
+to 20 municipal workers responsible for electronic document publication
+for project involvement</font></td>
+<td align="left" valign="top">selected 20 municipal workers
+responsible for electronic document publication</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>6.4</b></td>
+<td align="left" valign="top"><font color="#000000">Implement and
+test selected software tools at individual workstations</font></td>
+<td align="left" valign="top">software installed at workstations
+and tested</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>6.5</b></td>
+<td align="left" valign="top"><font color="#000000">Train and
+support municipal workers at their workplaces</font></td>
+<td align="left" valign="top">20 selected municipal workers
+trained at their workplaces to use installed software (2 days)</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="7" sdnum="1023;0;@" align="center" bgcolor="#ffff99"
+height="30" valign="top"><b>7</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><b><font
+color="#000000">Test and revise existing website of Vilnius City
+Municipality</font></b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><br>
+</td>
+<td sdval="0" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">0</font></b></td>
+<td sdval="0" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">0</font></b></td>
+<td sdval="0" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b><font color="#000000">0</font></b></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>7.1</b></td>
+<td align="left" valign="top"><font color="#000000">Revise
+webpages of Vilnius City Municipality for W3C standards compliance</font></td>
+<td align="left" valign="top">the webpages of Vilnius City
+Municipality are compliant with W3C standards</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>7.2</b></td>
+<td align="left" valign="top"><font color="#000000">Convert
+closed document formats on website to selected standards compliant ones
+using established project guidelines</font></td>
+<td align="left" valign="top">documents in close formats
+converted to selected open formats</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>7.3</b></td>
+<td align="left" valign="top"><font color="#000000">Re-publish
+converted open standard documents on involved websites either in place
+of or in addition to closed format ones</font></td>
+<td align="left" valign="top">converted documents published on
+websites of municipality</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>7.4</b></td>
+<td align="left" valign="top"><font color="#000000">Launch
+revised websites after standards compliance testing and revision cycle</font></td>
+<td align="left" valign="top">a revised municipal website
+published on Internet</td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="8" sdnum="1023;0;@" align="center" bgcolor="#ffff99"
+height="17" valign="top"><b>8</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><b>Publish Open
+Standard User's Guide Book</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><br>
+</td>
+<td sdval="8" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b>8</b></td>
+<td sdval="6" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b>6</b></td>
+<td sdval="7" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top"><b>7</b></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>8.1</b></td>
+<td align="left" valign="top">Compile and edit 50 page Lithuanian
+language Open Standard User's Guide Book based on project reports and
+findings</td>
+<td align="left" valign="top">a 50-page Open Standard User's
+Guide Book prepared in Lithuanian language (in electronic format)</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>8.2</b></td>
+<td align="left" valign="top">Compile and edit 50 page Latvian
+language Open Standard User's Guide Book based on project reports and
+findings</td>
+<td align="left" valign="top">a 50-page Open Standard User's
+Guide Book prepared in Latvian language (in electronic format)</td>
+<td sdval="4" sdnum="1023;" align="center" valign="top">4</td>
+<td sdval="6" sdnum="1023;" align="center" valign="top">6</td>
+<td sdval="6" sdnum="1023;" align="center" valign="top">6</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="72" valign="top"><b>8.3</b></td>
+<td align="left" valign="top">Print 100 copies of the book and
+distribute by ALAL to Lithuanian municipal decision makers</td>
+<td align="left" valign="top">100 printed copies of Open Standard
+User's Guide Book distributed to Lithuanian municipal decision makers
+and Vilnius City workers</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>8.4</b></td>
+<td align="left" valign="top">Print 60 copies of the book and
+distribute to Latvian municipal decision makers</td>
+<td align="left" valign="top">60 printed copies of Open Standard
+User's Guide Book distributed to Latvian municipal decision makers</td>
+<td sdval="3" sdnum="1023;" align="center" valign="top">3</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="86" valign="top"><b>8.5</b></td>
+<td align="left" valign="top">Publish Open Standard User's Guide
+Book on Internet for public access and use</td>
+<td align="left" valign="top">Open Standard User's Guide Book in
+Lithuanian language published at applicants', Vilnius City Municipality
+and ALAL websites for public access and use. In Latvian language – at
+LAKA website.</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top">1</td>
+<td align="center" valign="top"><br>
+</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top">1</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="9" sdnum="1023;0;@" align="center" bgcolor="#ffff99"
+height="30" valign="top"><b>9</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><b>Public
+presentation of project activities and results</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><br>
+</td>
+<td sdval="16" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top">16</td>
+<td sdval="5" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top">5</td>
+<td sdval="4" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top">4</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>9.1</b></td>
+<td align="left" valign="top">Publish brochures for project
+presentations</td>
+<td align="left" valign="top">2x2000 A4, 4+4 brochures published
+for project presentations (in Lithuanian, Latvian and English languages)</td>
+<td sdval="2" sdnum="1023;" align="center" valign="top">2</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="44" valign="top"><b>9.2</b></td>
+<td align="left" valign="top">Publish project informational
+posters for presentations</td>
+<td align="left" valign="top">2 project informational posters
+published for INFOBALT 2004 and BALTIC IT&amp;T 2005 exhibitions</td>
+<td sdval="2" sdnum="1023;" align="center" valign="top">2</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>9.3</b></td>
+<td align="left" valign="top">Present project at INFOBALT 2004
+exhibition at AKL's stand and conference</td>
+<td align="left" valign="top">project presented at INFOBALT 2004</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><u>1</u></td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>9.4</b></td>
+<td align="left" valign="top">Present project at BALTIC IT&amp;T
+2005 exhibition at LAKA's stand</td>
+<td align="left" valign="top">project presented at BALTIC
+IT&amp;T 2005</td>
+<td sdval="5" sdnum="1023;" align="center" valign="top">5</td>
+<td sdval="2" sdnum="1023;" align="center" valign="top">2</td>
+<td sdval="2" sdnum="1023;" align="center" valign="top">2</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>9.5</b></td>
+<td align="left" valign="top">Present project results and
+recommendations to Information Society Development Committee to the
+Government of Lithuanian Republic</td>
+<td align="left" valign="top">recommendations officially provided
+to the Government of Lithuanian Republic</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>9.6</b></td>
+<td align="left" valign="top">Present project results and
+recommendations to information technology decision makers of the
+Republic of Latvia Government</td>
+<td align="left" valign="top">recommendations officially provided
+to information technology decision makers of the Republic of Latvian
+Government</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top">1</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top">1</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top">1</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>9.7</b></td>
+<td align="left" valign="top">Provide recommendations to EC
+programme IDA</td>
+<td align="left" valign="top">recommendations provided to EC
+programme IDA</td>
+<td sdval="2" sdnum="1023;" align="center" valign="top">2</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>9.8</b></td>
+<td align="left" valign="top">Press conference and public
+presentation (final conference) of project results in Vilnius</td>
+<td align="left" valign="top">articles written in no less than 3
+main Lithuanian dailies. About 150 conference participants informed
+about project results</td>
+<td align="center" valign="top"><br>
+</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><u>1</u></td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>9.9</b></td>
+<td align="left" valign="top">Press conference and public
+presentation (final conference) of project results in Riga</td>
+<td align="left" valign="top">articles written in no less than 2
+main Latvian dailies. About 120 conference participants informed about
+project results</td>
+<td sdval="3" sdnum="1023;" align="center" valign="top">3</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top">1</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top">1</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdval="10" sdnum="1023;0;@" align="center" bgcolor="#ffff99"
+height="30" valign="top"><b>10</b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><b><font
+color="#000000">Final analyze of activities, audit and project closing</font></b></td>
+<td align="left" bgcolor="#ffff99" valign="top"><br>
+</td>
+<td sdval="7" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top">7</td>
+<td sdval="2" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top">2</td>
+<td sdval="2" sdnum="1023;" align="center" bgcolor="#ffff99"
+valign="top">2</td>
+<td align="left"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left" bgcolor="#0000ff"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>10.1</b></td>
+<td align="left" valign="top">Prepare quarter and final project
+report</td>
+<td align="left" valign="top">quarter and final project report
+prepared</td>
+<td sdval="4" sdnum="1023;" align="center" valign="top">4</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top">1</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top">1</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>10.2</b></td>
+<td align="left" valign="top">Select auditing company and draft
+audit contract</td>
+<td align="left" valign="top">signed audit contract</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="17" valign="top"><b>10.3</b></td>
+<td align="left" valign="top"><font color="#000000">Execute
+project audit procedures</font></td>
+<td align="left" valign="top">project audit procedures executed</td>
+<td sdval="2" sdnum="1023;" align="center" valign="top"><font
+color="#000000">2</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="center" valign="top"><font color="#000000"><br>
+</font></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="58" valign="top"><b>10.4</b></td>
+<td align="left" valign="top"><font color="#000000">Final meeting
+of project steering committee to confirm final report and audit
+results. Final meeting of project team. Discuss project results and
+project sustainability in Vilnius</font></td>
+<td align="left" valign="top"><br>
+</td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><u><font
+color="#000000">1</font></u></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><u><font
+color="#000000">1</font></u></td>
+<td sdval="1" sdnum="1023;" align="center" valign="top"><u><font
+color="#000000">1</font></u></td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody> <tbody>
+<tr>
+<td sdnum="1023;0;@" align="center" height="30" valign="top"><b>10.5</b></td>
+<td align="left" valign="top">Project management and control (one
+day per project week) total 20 weeks expected</td>
+<td align="left" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="center" valign="top"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+<td align="left"><br>
+</td>
+</tr>
+</tbody>
+</table>
+
+ Here you can see AKL's activities: [AKLActivities].

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 258000386
+confirmed:boolean = 1
+gen_date:date = 2005/11/07 10:55:6.053000 GMT+2
+logo_url:string = 
+mail:string = r.budzinskas@gmail.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Rolandas Budzinskas
+url_asm:string = 
+url_org:string = 

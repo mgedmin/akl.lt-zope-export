@@ -1,0 +1,5 @@
+<div class="news_item" tal:repeat="naujiena here/sviezios">
+   <h3 class="news_title"><a tal:attributes="href string:naujienos/?id=${naujiena/getId}" tal:content="python:unicode(naujiena.date) + ' ' + unicode(naujiena.title, 'utf-8')"/></h3>
+   <p class="naujiena-trumpai" tal:content="structure python:naujiena.blurb.decode('UTF-8')" />
+   <p class="readmore"> <a tal:attributes="href string:naujienos/?id=${naujiena/getId}">daugiau…</a></p>
+</div>

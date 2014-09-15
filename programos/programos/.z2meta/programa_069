@@ -1,0 +1,5 @@
+[properties]
+categories:string = Mokymui,
+public:boolean = 1
+title:string = \xc4\xaerankis matematiniams skai\xc4\x8diavimams \xe2\x80\x9eOctave\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eGNU Octave\xe2\x80\x9c yra auk\xc5\xa1to lygio kalba, skirta skai\xc4\x8diavimams. Ji suteikia komandin\xc4\x97s\neilut\xc4\x97s aplink\xc4\x85 ir leid\xc5\xbeia atlikti \xc4\xafvairius skai\xc4\x8diavimus. \xc5\xa0i kalba yra labai gerai\nsuderinta su matematiniu paketu \xe2\x80\x9eMatlab\xe2\x80\x9c, tod\xc4\x97l \xe2\x80\x9eMatlab\xe2\x80\x9c skirtos programos puikiai\nveikia su \xe2\x80\x9eOctave\xe2\x80\x9c ir atvirk\xc5\xa1\xc4\x8diai. Daug informacijos rasite tinklalapyje\n<a href="http://octave.sourceforge.net/Octave_Windows.htm" target="_blank">http://octave.sourceforge.net/Octave_Windows.htm</a>.<br>\n\xe2\x80\x9eOctave\xe2\x80\x9c moka pavaizduoti ir grafikus. Tam reikia \xc4\xafdiegti \xe2\x80\x9egnuplot\xe2\x80\x9c program\xc4\x85.

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 759960110
+confirmed:boolean = 0
+gen_date:date = 2005/05/18 11:08:17.484000 GMT+3
+logo_url:string = 
+mail:string = vjagminas@hotmail.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Vilius Jagminas
+url_asm:string = http://www.xenacom.net/vilius/index.html
+url_org:string = 

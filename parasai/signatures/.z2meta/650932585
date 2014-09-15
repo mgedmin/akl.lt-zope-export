@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 252959967
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 23:30:52.831000 GMT+3
+logo_url:string = 
+mail:string = aurimas.d@takas.lt
+organization:string = 
+position:string = moksleivis
+status:string = fiz_asm
+title:string = Aurimas Dubinskas
+url_asm:string = http://freakcore.net
+url_org:string = 

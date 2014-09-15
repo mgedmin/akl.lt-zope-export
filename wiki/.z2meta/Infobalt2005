@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:10+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-12-01T11:01:35+00:00
+last_editor:string = 127.0.0.1
+last_editor_ip:string = 127.0.0.1
+last_log:string = 5.02
+parents:lines = [\'FrontPage\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Infobalt2005

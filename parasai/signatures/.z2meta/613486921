@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 882181163
+confirmed:boolean = 0
+gen_date:date = 2005/07/27 01:02:45.040000 GMT+3
+logo_url:string = 
+mail:string = black@modding.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Andrius Maniusis
+url_asm:string = http://www.modding.lt
+url_org:string = 

@@ -1,0 +1,10 @@
+<div id="news_meta">
+<h2><a href="naujienos">Atviro kodo naujienos</a></h2>
+<p><a href="https://www.akl.lt/naujienos/add.html">Pasiūlyk naujieną!</a>&nbsp;:: <a href="http://www.akl.lt/naujienos/rss">RSS</a>&nbsp;:: <a href="http://www.akl.lt/naujienos/rss.html">RSS filtravimas</a></p>
+<div id="news_meta_bottom"></div>
+</div>
+
+<div tal:replace="structure here/naujienos/trumpai" />
+
+<p id="allnews"><a href="naujienos">Visos naujienos...</a></p>
+<div id="news_column_bottom"></div>

@@ -1,0 +1,5 @@
+[properties]
+categories:string = Projektavimui,Mokymui,
+public:boolean = 1
+title:string = Funkcij\xc5\xb3 grafik\xc5\xb3 brai\xc5\xbeymo programa \xe2\x80\x9egnuplot\xe2\x80\x9c
+trumpai:text = Dauguma technik\xc5\xb3, mokslinink\xc5\xb3 ar statist\xc5\xb3 naudoja grafik\xc5\xb3 atvaizdavimo programas kaip \xe2\x80\x9eOrigin\xe2\x80\x9c ar \xe2\x80\x9eMatlab\xe2\x80\x9c. Ta\xc4\x8diau jos pakankamai brangios. \nGrafik\xc5\xb3 brai\xc5\xbeymo programa \xe2\x80\x9egnuplot\xe2\x80\x9c tikrai nenusileid\xc5\xbeia savo galimyb\xc4\x97mis \xc5\xa1ioje srityje. Savo aplinka ir darbo principu \n\xe2\x80\x9egnuplot\xe2\x80\x9c yra gana pana\xc5\xa1i \xc4\xaf \xe2\x80\x9eMatlab\xe2\x80\x9c.

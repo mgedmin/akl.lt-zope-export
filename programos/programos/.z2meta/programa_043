@@ -1,0 +1,5 @@
+[properties]
+categories:string = GIS,
+public:boolean = 1
+title:string = Galinga geografin\xc4\x97 informacin\xc4\x97 sistema \xe2\x80\x9eGrass\xe2\x80\x9c
+trumpai:text = Tai laisva geografin\xc4\x97 informacin\xc4\x97 sistema (GIS). Dirba su rastriniais bei vektoriniais \xc5\xbeem\xc4\x97lapiais, yra nuotrauk\xc5\xb3 apdorojimo bei kitos funkcijos. <br>\nPalaiko \xc5\xa1iuos duomen\xc5\xb3 formatus:<br>\n2D ir 3D rastriniai duomenys (pvz. ASCII, ARC/GRID, E00, GIF, GMT, TIF, PNG, ERDAS LAN, Vis5D, SURFER (.grd) ir t.t.); <br>\npalydovin\xc4\x97s ir aero nuotraukos (pvz. AVHRR, BIL/BSQ, ERDAS LAN, HDF, LANDSAT TM/MSS, NHAP aerial photos, SAR, SPOT ir t.t.);<br>\ntopologiniai vektoriniai duomenys (pvz. ARC/INFO, ArcView SHAPE (su topologiniais pataisymais), BIL, DLG (U.S.), DXF, DXF3D, GMT, GPS-ASCII, USGS-DEM, IDRISI, MOSS, MapInfo MIF, TIGER, VRML ir t.t.) bei ta\xc5\xa1kiniai duomenys.

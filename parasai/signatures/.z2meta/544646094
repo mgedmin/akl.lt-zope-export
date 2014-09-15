@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 205805262
+confirmed:boolean = 1
+gen_date:date = 2005/05/28 11:45:48.570000 GMT+3
+logo_url:string = 
+mail:string = verta@verta.lt
+organization:string = 
+position:string = projekt\xc5\xb3 vadovas
+status:string = fiz_asm
+title:string = Egmontas Kalinauskas
+url_asm:string = 
+url_org:string = 

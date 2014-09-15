@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Kompanija <a href="http://www.ximian.com/">\xe2\x80\x9eXimian\xe2\x80\x9c</a>, kurios \xc4\xafk\xc5\xabr\xc4\x97jas ir vadovas yra \xe2\x80\x9eGnome\xe2\x80\x9c grafin\xc4\x97s vartotoj\xc5\xb3 bei programuotoj\xc5\xb3 aplinkos k\xc5\xabr\xc4\x97jas Miguel de Icaza neseniai i\xc5\xa1leido antros kartos grafin\xc4\x99 vartotojo aplink\xc4\x85 \xe2\x80\x9eLinux\xe2\x80\x9c operacinei sistemai - \xe2\x80\x9eXimian Dekstop 2\xe2\x80\x9c.<br>\n\xe2\x80\x9eXD2\xe2\x80\x9c - tai intuityvi, glaud\xc5\xbeiai integruota \xe2\x80\x9eLinux\xe2\x80\x9c grafin\xc4\x97 vartotojo aplinka verslui, sukurta \xe2\x80\x9eGnome 2\xe2\x80\x9c pagrindu.\n</p>
+date:string = 2003-09-03
+title:string = \xe2\x80\x9eXimian Dekstop 2\xe2\x80\x9c - \xe2\x80\x9eLinux\xe2\x80\x9c grafin\xc4\x97 vartotojo aplinka verslui

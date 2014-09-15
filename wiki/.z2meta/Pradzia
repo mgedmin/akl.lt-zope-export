@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2006-09-18T21:24:30+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-09-18T22:51:14+00:00
+last_editor:string = alga
+last_editor_ip:string = 127.0.0.1
+last_log:string = 
+parents:lines = [\'AKLMetrastis\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Pradzia

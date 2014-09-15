@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 793296918
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 09:04:58.699000 GMT+3
+logo_url:string = 
+mail:string = lukas@taskas.net
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Lukas Gerbutavicius
+url_asm:string = http://www.mobiles.lt
+url_org:string = 

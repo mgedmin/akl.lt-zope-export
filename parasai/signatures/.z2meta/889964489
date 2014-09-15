@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 764500666
+confirmed:boolean = 1
+gen_date:date = 2005/05/23 13:20:30.249000 GMT+3
+logo_url:string = http://www.eik.lt/eikas/eik.gif
+mail:string = valdas@eik.lt
+organization:string = V\xc5\xa1\xc4\xae Eikneta
+position:string = Direktorius
+status:string = imone
+title:string = Valdas \xc4\x8cernius
+url_asm:string = 
+url_org:string = http://www.eik.lt

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 133450142
+confirmed:boolean = 1
+gen_date:date = 2005/05/20 00:25:43.942000 GMT+3
+logo_url:string = 
+mail:string = puramuk@buakaw.homelinux.net
+organization:string = Buakaw ISP
+position:string = Studentas, tinklo administratorius, programuotojas
+status:string = fiz_asm
+title:string = Aidas Sabaliauskas
+url_asm:string = http://buakaw.homelinux.net
+url_org:string = 

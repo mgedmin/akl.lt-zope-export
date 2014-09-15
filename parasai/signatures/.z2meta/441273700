@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 193185845
+confirmed:boolean = 1
+gen_date:date = 2005/05/31 17:05:57.622000 GMT+3
+logo_url:string = http://www.technaorbis.lt
+mail:string = duckynr2@gmail.com
+organization:string = UAB "Techna Orbis"
+position:string = IT
+status:string = fiz_asm
+title:string = Mindaugas Marcinkevicius
+url_asm:string = 
+url_org:string = http://www.technaorbis.lt

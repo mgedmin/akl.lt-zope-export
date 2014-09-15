@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 632622220
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 22:42:0.330000 GMT+3
+logo_url:string = 
+mail:string = infidel@kst.name
+organization:string = 
+position:string = programuotojas
+status:string = fiz_asm
+title:string = K\xc4\x99stutis Gramba
+url_asm:string = http://www.kst.name
+url_org:string = 

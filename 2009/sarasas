@@ -1,0 +1,27 @@
+## Script (Python) "sarasas"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+# Rodome failų sąrašą
+
+list = context.objectValues()
+
+print '<ul>'
+for doc in list:
+     try:
+          name = doc.getId()
+          if doc.meta_type != 'Script (Python)' and doc.meta_type != 'Page Template':
+              print '<li><a href="%s/%s">%s &nbsp(%s)</li>' % \
+                  (context.absolute_url(), name, doc.title_or_id(), name)
+
+     except KeyError:
+          print '<a style="color: red"><span class="arrow">&gt;&nbsp;</span>%s</a><br/>' % doc
+
+print '</ul>'
+
+return printed

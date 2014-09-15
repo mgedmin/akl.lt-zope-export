@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>\xe2\x80\x9eLinux\xe2\x80\x9c branduolio k\xc5\xabr\xc4\x97jas Linus Torvalds i\xc5\xa1leido galutin\xc4\x99 2.6.1 \xe2\x80\x9eLinux\xe2\x80\x9c branduolio versij\xc4\x85. \xc5\xa0ioje versijoje daug pakeitim\xc5\xb3 ir patobulim\xc5\xb3, lyginant su ankstesne 2.6.0 versija. Taip pat i\xc5\xa1taisytas naujausias branduolio mremap() pa\xc5\xbeeidimas. Vis\xc4\x85 pakeitim\xc5\xb3 s\xc4\x85ra\xc5\xa1\xc4\x85 rasite <a href="http://www.kernel.org/pub/linux/kernel/v2.6/ChangeLog-2.6.1">\xc4\x8dia</a>.\n</p>
+date:string = 2004-01-16
+title:string = \xe2\x80\x9eLinux\xe2\x80\x9c branduolys 2.6.1

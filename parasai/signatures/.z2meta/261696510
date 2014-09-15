@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 631119055
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 13:42:58.532000 GMT+3
+logo_url:string = http://www.observer.lt/images/logo.gif
+mail:string = xawiers@esu.as
+organization:string = UAB "Observer Lietuva"
+position:string = IT specialistas
+status:string = fiz_asm
+title:string = Ksaveras \xc5\xa0akys
+url_asm:string = http://xawiers.esu.as
+url_org:string = http://www.observer.lt

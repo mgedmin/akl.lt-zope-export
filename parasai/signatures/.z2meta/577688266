@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 713228132
+confirmed:boolean = 1
+gen_date:date = 2005/05/21 23:15:17.586000 GMT+3
+logo_url:string = 
+mail:string = mantasman@mantasman.net
+organization:string = mantasman networks
+position:string = web developinimas
+status:string = fiz_asm
+title:string = mantas masalskis
+url_asm:string = 
+url_org:string = http://mantasman.net

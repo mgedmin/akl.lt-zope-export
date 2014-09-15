@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 740793112
+confirmed:boolean = 1
+gen_date:date = 2005/05/23 23:24:16.632000 GMT+3
+logo_url:string = 
+mail:string = kaleda@azuolas.org
+organization:string = 
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Antanas Gadeikis (Kal\xc4\x97da)
+url_asm:string = http://kaleda.azuolas.org
+url_org:string = 

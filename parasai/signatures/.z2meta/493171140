@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 416156983
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 13:06:37.130000 GMT+3
+logo_url:string = 
+mail:string = edvinas@elinara.ktu.lt
+organization:string = KTU DMC
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Edvinas Ma\xc4\x8diulis
+url_asm:string = 
+url_org:string = http://distance.ktu.lt

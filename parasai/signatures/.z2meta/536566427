@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 949761344
+confirmed:boolean = 1
+gen_date:date = 2005/05/23 22:20:13.843000 GMT+3
+logo_url:string = 
+mail:string = aleksas@takas.lt
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Aleksandras Nelkinas
+url_asm:string = 
+url_org:string = 

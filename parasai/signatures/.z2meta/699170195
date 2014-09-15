@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 279527660
+confirmed:boolean = 1
+gen_date:date = 2005/08/21 22:46:41.520000 GMT+3
+logo_url:string = 
+mail:string = marius@dugnas.com
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Marius S
+url_asm:string = http://www.dugnas.com
+url_org:string = 

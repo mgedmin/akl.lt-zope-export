@@ -1,0 +1,22 @@
+A notation for linking to pages on other wiki servers. Here's an example:
+
+ZWiki:FrontPage
+
+that is, two WikiName(s) separated by **:** .
+The first must be a local page containing a RemoteWikiURL, the second is the name of the page on the remote site.
+
+From unknown Wed Jan 12 18:00:51 +0200 2005
+From: 
+Date: Wed, 12 Jan 2005 18:00:51 +0200
+Subject: 
+Message-ID: <20050112180051+0200@wiki.akl.lt>
+
+iiu
+
+From unknown Wed Jan 12 18:00:53 +0200 2005
+From: 
+Date: Wed, 12 Jan 2005 18:00:53 +0200
+Subject: 
+Message-ID: <20050112180053+0200@wiki.akl.lt>
+
+iiu

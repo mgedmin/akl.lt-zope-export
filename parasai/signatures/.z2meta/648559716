@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 316437811
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 22:03:23.026000 GMT+3
+logo_url:string = 
+mail:string = visata@hotmail.com
+organization:string = VU
+position:string = studentas
+status:string = fiz_asm
+title:string = Vytautas Jalinskas
+url_asm:string = 
+url_org:string = 

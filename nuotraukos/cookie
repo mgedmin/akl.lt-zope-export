@@ -1,0 +1,17 @@
+## Script (Python) "cookie"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=Set a cookie for display size
+##
+R = context.REQUEST
+
+if not R.has_key('display'):
+    R.set('display', 'medium')
+
+R.RESPONSE.setCookie('display', R.display, path='/')
+
+return ''

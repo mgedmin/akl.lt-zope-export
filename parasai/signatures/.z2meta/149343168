@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 310169844
+confirmed:boolean = 1
+gen_date:date = 2005/08/24 23:20:50.376000 GMT+3
+logo_url:string = 
+mail:string = andrius@beer.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Andrius, Kazakevicius
+url_asm:string = 
+url_org:string = 

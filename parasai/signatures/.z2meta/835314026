@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 690662025
+confirmed:boolean = 1
+gen_date:date = 2005/05/20 21:07:27.802000 GMT+3
+logo_url:string = 
+mail:string = asleiniu@one.lt
+organization:string = KFI
+position:string = UNIX specialistas
+status:string = fiz_asm
+title:string = Art\xc5\xabras \xc5\xa0leinius
+url_asm:string = 
+url_org:string = 

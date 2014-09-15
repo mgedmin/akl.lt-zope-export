@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+allow_dtml:boolean = 1
+creation_time:string = 2005-09-13T01:49:28+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-01-02T21:38:02+00:00
+last_editor:string = 
+last_editor_ip:string = 
+last_log:string = 
+parents:lines = []
+subscriber_list:lines = []
+title:string = 

@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 592913132
+confirmed:boolean = 1
+gen_date:date = 2005/05/29 15:51:41.105000 GMT+3
+logo_url:string = 
+mail:string = adomas.vedeckis@stud.ktu.lt
+moder_denied:string = "Nikai" netinka, reikia tikr\xc5\xb3 pavard\xc5\xbei\xc5\xb3 -- SG 2005.05.29
+moder_ok:string = 
+organization:string = 
+position:string = studijuoju
+status:string = fiz_asm
+title:string = Adomas v\xc4\x96jaZ
+url_asm:string = 
+url_org:string = 

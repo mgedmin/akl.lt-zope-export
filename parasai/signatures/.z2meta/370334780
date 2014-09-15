@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 511683649
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 18:51:16.567000 GMT+3
+logo_url:string = 
+mail:string = folnin@gmail.com
+organization:string = 
+position:string = programavimas, php, mysql
+status:string = fiz_asm
+title:string = Julius Kriukas
+url_asm:string = http://www.jezus.lt
+url_org:string = 

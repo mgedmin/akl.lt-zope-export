@@ -1,0 +1,25 @@
+## Script (Python) "list"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+return [
+    'webproject.html',
+    'parodos',
+    'lpcd',
+    'phare2002.html',
+    'AK_programu_vystymas_2003.html',
+    'seminarai.html',
+    'diskusijos.html',
+    'InstallFest.html',
+    'OpenDict.html',
+    'eVitamins.html',
+    'distro.html',
+    'standartai.html',
+    'svv.html',
+    'EeePC-Linux.html',
+]

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 962496372
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 15:25:50.253000 GMT+3
+logo_url:string = 
+mail:string = android@mail.lt
+organization:string = 
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Nerijus Vasiliauskas
+url_asm:string = 
+url_org:string = 

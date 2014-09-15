@@ -1,0 +1,9 @@
+[properties]
+author:string = Jonas
+blurb:text = Tokia mintis kilo pama\xc4\x8dius 2007 met\xc5\xb3 leidimo Microsoft Office biuro paket\xc4\x85. I\xc5\xa1ties net senam Office vartotojui \xc5\xa1is paketas tampa tarsi visai nematyta programa. Nat\xc5\xabralu, kad reiks v\xc4\x97l i\xc5\xa1 naujo mokytis dirbti su juo. Nat\xc5\xabralus klausimas ar verta?\n\nDaugiau http://www.gavelis.lt/node/41
+categories:multiple selection = (\'Biuro&nbsp;programos\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2007-11-08
+email:string = jonas@gavelis.lt
+profesionalams:boolean = False
+title:string = Geriausias laikas parsisi\xc5\xb3sti OpenOffice?

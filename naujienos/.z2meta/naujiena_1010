@@ -1,0 +1,9 @@
+[properties]
+author:string = Ruslanas
+blurb:text = Vilniuje renginukas vyks NKKM mokyklos "\xc5\xbduv\xc4\x97dros" filiale (Laisv\xc4\x97s pr. 55, 219 kb.)/Gruod\xc5\xbeio 12 (\xc5\xa1e\xc5\xa1tadienis)  Norin\xc4\x8dius atvykti ir gyvai pa\xc5\xbei\xc5\xabr\xc4\x97ti ir pabandyti nemokam\xc4\x85 Mandriva 2010.0 pra\xc5\xa1ome registruotis. Viet\xc5\xb3 kiekis ribotas!
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'GNU/Linux&nbsp;OS\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2009-12-11
+email:string = ruslanas@lpic.lt
+profesionalams:boolean = False
+title:string = Mandriva 2010.0 diegyn\xc4\x97

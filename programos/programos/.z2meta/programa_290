@@ -1,0 +1,5 @@
+[properties]
+categories:string = Programavimui,Vaizdui,
+public:boolean = False
+title:string = muzikos programa
+trumpai:text = kad aitu parsisius muzikos

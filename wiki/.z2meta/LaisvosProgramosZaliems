@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:13+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-05-12T19:09:49+00:00
+last_editor:string = mantas
+last_editor_ip:string = 127.0.0.1
+last_log:string = \xc5\xbdali labiau supranta termin\xc4\x85 laisvos programos nei atviras kodas
+parents:lines = [\'FrontPage\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = LaisvosProgramos/Zaliems

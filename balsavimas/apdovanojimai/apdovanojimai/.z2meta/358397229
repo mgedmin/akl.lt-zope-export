@@ -1,0 +1,8 @@
+[properties]
+babravicius:int = 3
+berucka:int = 2
+confirm_id:string = 214678822
+confirmed:boolean = 1
+email:string = andrius@andrius.org
+jonusas:int = 1
+title:string = andrius@andrius.org

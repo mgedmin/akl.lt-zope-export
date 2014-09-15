@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2006-01-09T15:46:47+00:00
+creator:string = mantas
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-01-12T16:48:15+00:00
+last_editor:string = 127.0.0.1
+last_editor_ip:string = 127.0.0.1
+last_log:string = hehehe
+parents:lines = [\'Laisvosprogramosbiurui\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = OpenOfficevsMS

@@ -1,0 +1,270 @@
+naujienos.akl.lt naujienų sistemos (portalo) projektas
+
+ Idėja (NaujaIdeja)
+
+   Padaryti galingą naujienų sistemą, kuria galėtu bendrai naudotis bet kurie laisvai programinei įrangai skirti puslapiai, taip pat akl.lt projektai (pvz http://linux.akl.lt, http://gimp.akl.lt ). Didžiausia nauda iš to būtų, kad nereiktų kiekvienam projektui ieškoti ir rašyti daug naujienų atskirai, užtektų parašyti visiems po keletą naujienų į naujienos.akl.lt ir visi gautų daug naujienų rūpima tema, t.y. darbas nesidubliuotu. Pvz. žmogus parašo naujieną apie naują Linux GIMP versiją, nurodo jai kategorijas "Grafika" ir "Linux" ir šitą naujieną automatiškai pasirodo visuose puslapiuose kuriems tai aktualu (pvz. linux.akl.lt, gimp.akl.lt). 
+
+   Taip bus išvengta naujienų dubliavimo, įvairiūs puslapiai gaus daug daugiau juos dominančių ir patikrintų naujienų. Lankytojai, kuriuos domina laisvosios programos, ideologija ir t.t. galės paskaityti naujienas vienoje vietoje, jas pakomentuoti.
+
+<hr/>
+
+ Naujienu sistemai reikia: 
+
+  1. Naujienų įdėjimas:
+
+   * Galimybės įdėti naujienas tiek administratoriui, tiek paprastam lankytojui. <i>(keli lygiai. Pvz. admin, news_reporter, user)</i>
+
+   * Paprasto lankytojo paskelbtos naujienos turi būti patvirtinamos/nepatvirtinamos <i>(reikia patvirtinti jei įdėjo user, o admin ir news_reporter dedam automatiškai)</i>
+
+   * Galimybės naujienai priskirti kategoriją (kategorijas)
+
+   * būtų gerai, jei būtų galimybė pasimti naujienas iš kitų lietuvos naujienų tinklapių naudojant RSS, to pasekoje, jei naujiena atitiks mūsų kriterijus ir bus patvirtinta, ji paskelbiama tinklapyje
+
+   * Norint, kad būtų galima bendradarbiauti su kitais puslapiais reikia galimybės užtikrinti naujienų siuntėjo autentiškumą, t.y. kad jei pvz iš www.atviraskodas.net puslapio registruotas patikimas vartotojas parašė naujieną tai šios naujienos savybę "Patikrino" būtų automatiškai užpildoma atitinkamu vartotojo vardu iš www.atviraskodas.net ir tuomet šitam projektui nereiktų laukti kol šią naujieną patikrins akl.lt naujienų tikrintojai. Kitaip tariant turi būti galimybė užtikrinti kitose sistemose registruotų vartotojų (tų, kurie neturi akl zope logino) autentiškumą. Manau pradžioje tam užtektų sukurti 1 vartotoją kiekvienam išoriniam projektui akl zope sistemoje.
+
+  2. Naujienų peržiūra/publikavimas:
+
+   * Naujienų publikavimas RSS (XML Syndicate) formatu (su visom kategorijom ir savybėm "Patikrino" ir t.t.)
+
+   * Naujienų grupavimas pagal kategorijas
+
+   * Naujienų filtravimas pagal kategorijas
+
+   * Naujienų paieška pagal kriterijus(data, žodžiai naujienoje, kategorija)
+
+   * Naujienas galima komentuoti
+
+   * Atskirų naujienų komentavimas gali būti uždraustas
+
+   * Naujienos turi turėti RSS nuorodą
+
+   * Turi būti galimybė užprenumeruoti naujienas ir gauti jas emailu. Sistema pati privalo siųsti naujienas.
+
+  3. Naujienų patvirtinimas
+
+   * Patogus interfeisas naujienos patvirtinimui. T.Y. turi užtekti paspausti patvirtinu, ar atmetu.
+
+   * Moderatoriams privalo būti siunčiamas emailas su priminimais. Pvz. kažkas įdėjo naujieną, dienos pabaigoje yra nepatvirtintu/neatmestu naujienų.  
+
+   * Galima moderatoriui nustatyti už kokia kategorija jis atsakingas.
+
+  4. Naujienų portalas:
+
+   * Portalas turi turėti forumą (tokį kaip linuxquestions.org, manau reikia panaudoti http://forumai.akl.lt ?)
+
+   * Portalas turi būti nuolat moderuojamas
+
+   * Portale turi būti skyrelis "Dokumentacija", kurioje būtų talpinama Linux/Unix lietuviška dokumentacija - (Jaro: Šiap nesu tikras ar to reikia, nes dubliojama su akl.lt/skaitykla ir linux.akl.lt/dokumentacija)
+
+   * Portalas turi turėti nuorodų skyrelį, kuriame būtų gausu nuolat atnaujinamų nuorodų Atviro Kodo tematika
+
+   * Portale skelbiamos apklausos
+
+   * Portale numatyta minimali reklaminė erdvė mūsų sponsoriams
+
+  Parašė Gintas Balčiūnas (gintas at gmail.com), papildė Jaro (jaro at akl.lt) bei Mantas K. (mantas eta akl tšk lt)
+
+
+ Dabartinė būsena:
+
+  1. Naujienų įdėjimas padarytas ~80% (žr.: http://www.akl.lt/naujienos/add.html ), trūksta naujienų siuntėjo autentiškumo užtikrinimo galimybės (dabar galima užtikrinti tik akl.lt zope vartotojų autentiškumą, tačiau nėra galimybės užtikrinti neregistruotų vartotojų iš išorinių projektų autentiškumo) bei galimybės pasimti naujienas iš kitų naujienų tinklapių per RSS
+
+  2. Naujienų publikavimas padarytas ~50%, trūksta kategorijų ir savybių RSS exporte (žr.: http://www.akl.lt/naujienos/rss/ ), naujienų filtravimo, rūšiavimo, paieškos ir komentarų :)
+
+  3. Portalo ir forumų nėra išvis :(
+
+
+ Detaliau
+
+  Mantas mano, kad naujienų sistemą reiktų daryti 2 etapais:
+
+   1. Padaryti, kad naujienų sistema tenkintų vidinių akl projektų reikalavimus. Šitam dalykui labai nedaug trūksta - praktiškai užtektų kategorijų ir savybių RSS exporte ir jau būtų galima naudoti. Autentiškumo užtikrinimui užtektų sukurti 1 vartotoją kiekvienam vidiniam projektui akl zope sistemoje, pvz sukurti linux_akl_lt zope vartotoją, kuris bus įtrauktas į news rolę.
+ 
+   2. Padaryti, kad naujienų sistema tiktų išorijams puslapiams (projektams).
+
+  Jaro mano, kad reikia 2-jų RSS variantų
+
+   * Pirmas tiems kas šiaip nori postinti savo puslapyje naujienas ir sakyti, kad jos iš naujienos.akl.lt. tipo šalia newsforge, slashdot ir t.t. 
+
+   * Antras toks, per kurį galima gauti visą informaciją. T.Y. Pavadinimas, Data, Kategorijos, Trumpai, Visa naujiena, Aktualu tik profams ar ne, Patvirtino, Atsiuntė (kas parašė naujieną) ir kt.
+
+
+   Dar reikia, kad žmogus galėtu pasiūlyti naujieną iš linux.akl.lt www.akl.lt ar kito puslapio interfeiso.
+   Reikia, kad turintis linux.akl.lt (ar kito puslapio) account ir turintis teisę rašyti naujienas tame puslapyje, galėtu įdėti naujieną be patvirtinimo (čia vadinasi autentiškumo nustatymas, žr aukščiau).
+
+
+
+From unknown Thu Apr 14 16:48:45 +0300 2005
+From: mgedmin
+Date: Thu, 14 Apr 2005 16:48:45 +0300
+Subject: Apie dviračius
+Message-ID: <20050414164845+0300@https://wiki.akl.lt>
+
+O ar nėra egzistuojančių Zope produktų, kurie daro viską, ko reikia?  Pvz., kuo Squishdotas netinka?
+
+From unknown Fri Apr 15 21:58:22 +0300 2005
+From: 
+Date: Fri, 15 Apr 2005 21:58:22 +0300
+Subject: Mes nenorim išradinėt dviračio-jei yra produktas, kurs daro daugumą reikiamų dalykų tai reik naudot
+Message-ID: <20050415215822+0300@wiki.akl.lt>
+
+Tiesą sakant nelabai ir ieškojom programų, kurios gali atlikti daugumą naujienos.akl.lt sistemos darbų. Jei pvz Squishdot gali mums tikti tai puiku - tereikia jį pratestuoti ir įdiegti į akl.lt serverį :)
+Jei kas žino labiau tinkamesnių produktų - siūlykite.
+
+From unknown Mon May 30 23:44:12 +0300 2005
+From: 
+Date: Mon, 30 May 2005 23:44:12 +0300
+Subject: PHP alternatyvos
+Message-ID: <20050530234412+0300@wiki.akl.lt>
+
+http://mamboserver.com -- gan nerai isvystyta TVS dalis, bei grazus/patogus UI, bet dar stabilumo biski per mazai. Be to komentarai ir forumai nelabai native
+
+http://xoops.org -- core parasytas OO stilium, pripazistama viena draugiskiausiu portalo kūrėjų bendruomenių, naudoja SMARTY templatams, dizainus galima keist kaip kojines, yra WYSIWYG editorius, neblogos forumo galimybes, be to bet kur galima prikabinti komentarus. TVS funkcijai jame yra bent 5 moduliai/alternatyvos, profesionaliausiai atrodo wf-sections (nors dar biski beta..), sėkmingai galima standartinius news naudoti. Tvarkingas updatinimo mechanizmas.  Jį naudoja http://www.liks.lt, http://www.pamokos.net/ (dabar kazko nusmiges ; ), http://somsa.ktusa.lt 
+
+http://drupal.org -- kiek zinau pasižymi gerom blogginimo ir šiaip sisteminimo savybėm..
+
+
+
+From unknown Mon May 30 23:52:35 +0300 2005
+From: 
+Date: Mon, 30 May 2005 23:52:35 +0300
+Subject: ea, mano ideja perraso gintas, apie tai anksciau snekejom..
+Message-ID: <20050530235235+0300@wiki.akl.lt>
+
+
+
+From unknown Wed Jun 1 22:22:19 +0300 2005
+From: jaro
+Date: Wed, 01 Jun 2005 22:22:19 +0300
+Subject: reikia kažko specializuoto o ne paprasto CMS
+Message-ID: <20050601222219+0300@https://wiki.akl.lt>
+
+Šiaip jei jau naudoti ne zope+python tai reikia ne kažkokios ten mambo ar drupal, bet specializuotos news sistemos.
+Dėl Squishdot yra tokie trukumai: negalima priskirti keliu kategorijų naujienai, nėra internacionalizavimo, nors stable bet senai nebuvo naujų release, su automatinių naujienų siuntimų ne viskas gerai.
+
+From unknown Tue Jun 7 20:33:23 +0300 2005
+From: 
+Date: Tue, 07 Jun 2005 20:33:23 +0300
+Subject: Manau reikia daryti su kokiu php nuo nulio
+Message-ID: <20050607203323+0300@wiki.akl.lt>
+
+Manau jei norime padaryti kazka tokio, kas visiskai atitiktu musu poreikius - reikia specifikuoti musu poreikius ir visus juos sukodinti. Aisku galima pasinkti patogesnius tools ar frameworks (pvz. ez, zope).
+
+From unknown Tue Jun 7 22:01:14 +0300 2005
+From: 
+Date: Tue, 07 Jun 2005 22:01:14 +0300
+Subject: jau pasirinkta,
+Message-ID: <20050607220114+0300@wiki.akl.lt>
+
+po ilgu šnekų ir svarstymu buvo nuspręsta daryti zope produktą, bet savo. 
+Ramūnas apsiima būti pagrindiniu programuotoju, bet manau gerai būtų, kad prisijungtu dar kas nors.
+Gal kas mokate python? zope+python?
+
+From unknown Fri Jun 17 01:09:26 +0300 2005
+From: 
+Date: Fri, 17 Jun 2005 01:09:26 +0300
+Subject: žiūrim realiai
+Message-ID: <20050617010926+0300@wiki.akl.lt>
+
+per kiek tikites pasiekti tvarkingai naudojama produktą su zope (su +-2mėn paklaida)?
+
+kodėl jus galvojate, kad jusu poreikiai (ir galimybes) taip skiriasi nuo kito pasaulio? kuo jums mambo ar drupal specializacija netinka :)?
+
+gal del RSS featuru - jos tokiu imantriu neturi.., bet hierarchinis user-managementas mambo yra (turbut ir drupal)
+<br>multicat drupal yra (mambo planuoja 4.6 versijoj - apie 2005 gruodi , kiek zn)
+<br>del galimybes leist komentuot tik tam kuriuos postus.. (hm, tikiwiki berods turi, xoops wf-sections zadejo kazkada, mambo irgi buvo kalbu) 
+<br>kodinant daznai yra uzsibreziama per daug optimistiskai, manant, kad nebus netiketu bugu ir pan.., o paskui vilkinasi projektai.., tiesiog nesinori, kad ir siuo atveju taip atsitiktu..
+
+dar viena PHP sistema radaru bent jau be minetu squishdot atzvilgiu trukumu (bet netestinau ..) http://pxsystem.sourceforge.net/
+
+kaip ten bebutu galeciau skirti siek tiek vasaros, nuo liepos ~5d kad ir ta pacia zope kodinant (tik truputi mane pamokint reiktu). 
+
+Jurgis
+
+From unknown Sun Jun 19 17:27:15 +0300 2005
+From: Jaro
+Date: Sun, 19 Jun 2005 17:27:15 +0300
+Subject: ir atsakom realiai
+Message-ID: <20050619172715+0300@wiki.akl.lt>
+
+Jurgi, labai ačiū kad domėsi :)
+Šiaip planas yra toks: beta versija iki rugsėjo pirmos. Stable versija iki gruodžio 31 d.
+Dėl Tavo minėtu produktų, tai jie turi nemažai problemų: Mambo iš principo man nepatinka, nes yra gana bugovas. Drupal, gal verta patestuoti ? Tikiwiki aš esu čiupinėjes ir daugia su juo nenoriu nieko bendro turėti. 
+Šiaip šitam tikslui realizuoti galima ir ezpublish (man jis patinka) pakurti. Bet yra kelio problemos. Pirma, tai kad ezpublish kaip ir zope daug ryja, o kam mus du ryjantis daiktai ant vieno servo. Antra, Ramūnas pasirašė užsiimti šituo projektu rimtai, o su ezpublish, drupal ... neatsirado nei vieno savanorio :(
+Be daugelis akl web projektu sukasi su zope, tai natūralu, kad nesinori bardako serveryje daryti. 
+Dar vienas argumentas už savo produktą. Mums nereikia CMS'o su daugeliu nereikalingu funkcijų, mums reikia news publishing sistemos. 
+
+Jurgi, būtų cool jei prisijungtum. Manau Ramūnas Tave pamokintu kiek reikia, o kitka ir pats susiprastum :)
+
+From unknown Mon Jul 11 22:41:36 +0300 2005
+From: 
+Date: Mon, 11 Jul 2005 22:41:36 +0300
+Subject: Tik Zope... ;)
+Message-ID: <20050711224136+0300@wiki.akl.lt>
+
+Vyručiai. Negaiškite. Juolab kad pasirinkote Zope pamatu. O ir kokybiškiau nei Python vargiai ar ko beprigaminsi, juolab kad taip šauniai kaskart atnaujinamos bibliotekos.
+
+From unknown Mon Jul 11 22:44:46 +0300 2005
+From: 
+Date: Mon, 11 Jul 2005 22:44:46 +0300
+Subject: ...
+Message-ID: <20050711224446+0300@wiki.akl.lt>
+
+Be to ir C++ visada paprograminus ką pakišti po Python galima, jei jau kur rimtai greičio pritrūksit. O tai tikrai verta kartais padaryti.
+
+Sėkmės Jums
+
+Manu
+
+From unknown Mon Jul 18 15:43:44 +0300 2005
+From: 
+Date: Mon, 18 Jul 2005 15:43:44 +0300
+Subject: Five
+Message-ID: <20050718154344+0300@wiki.akl.lt>
+
+Gal verta sita daikta iskarto su zope3 rasyti, o deka Five galesime ir ant zope2.7 jis sukti ;)
+
+Jaro
+
+From unknown Fri Nov 4 10:31:10 +0200 2005
+From: 
+Date: Fri, 04 Nov 2005 10:31:10 +0200
+Subject: vytas
+Message-ID: <20051104103110+0200@wiki.akl.lt>
+
+Sveiki
+Netycia uzejau ir pamaciau diskusijas zope/python ir dar kazkur varpai apie plone skambejo. Galiu kai ka siais klausimais pasakyti. Turiu ideja su plone tvs pasikurti toki portala - koki, tai cia ne esme. Svarbu tai, kad su situo tvs jau 2 metai krapstausi - nera pakankamai laiko urmu padaryti. Atsiliepimai po 2 metu aiskinimosi: galinga bet neisbaigta sistema. Daug tipiniu atviro kodo sistemu problemu - iavairius prodoktus kure ba galo skirtingi zmones, todel kartais buna bedos juos suderinant. Taciau pavargus ir viska sukrovus i vientisa sistema, gaunasi milziniskas portalo variklis. Is esmes jis tenkintu visus jusu reikalavimus. Bet ne absoliuciai visus. kai ka reikia pasidaryti patiems.
+Taciau reiktu atkreipti demesi i viena dalyka - imti ne plone, o zope ir ant jos CMF produkto kurti portala - bereikalingas titaniskas darbas. Jei jusu platforma zope ir norit informacinio portalo - vienareiksmiskai reikia pradeti nuo plones. Sutaupot velniskai daug laiko programavimui. Pvz toks dalykas kaip naujienu publikavimas, RSS, vartotoju ikeltos informacijos tikrinimas ir leidimas publikuoti ir daugelis kitu dalyku jau dabar puikiai veikia ir galima tuo naudotis. Nera naujienu skirstymo pagal tematikas - ta reiktu papildyt. 
+Programavimo galimybes? Nuo A iki Z. Kitaip tariat praktiskai neribotos. I ka atsiremia "praktiskai" - i zope ir python zinias. Yra galingi produktai, skirti nauju objektu kurimui plone aplinkoje, kuriu pagalba naujas produktas tampa pilnai integruotinas i plone aplinka. Tik siuo atveju jau reikia sekti versijas - labai jautrus dalykas.
+Del lietuvybes. Plone oficialiai isversta i lietuviu kalba. Bet tik bazinis jos variantas ir tai ne pilnai. Produktam vertima teks pasidaryti. Nelabai sudetinga iki tol, kol neina kalba apie python skriptu vertima.
+Tiek trumpai info, jei kam idomu bus. 
+
+
+
+
+From unknown Tue Jul 4 00:08:10 +0300 2006
+From: 
+Date: Tue, 04 Jul 2006 00:08:10 +0300
+Subject: <a href='http://www.la-ringtones.com'
+Message-ID: <20060704000810+0300@www.akl.lt>
+
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... <a href='http://www.la-ringtones.com'>mp3 ringtones</a> : [http://www.la-ringtones.com real ringtones] - [HTTP://www.la-ringtones.com real ringtones] : [motorola ringtones|http://www.la-ringtones.com] - [motorola ringtones|HTTP://www.la-ringtones.com] : http://www.la-ringtones.com/tones/ : [[http://www.la-ringtones.com tracfone ringtones]] : [[http://www.la-ringtones.com | qwest ringtones]] : "nextel ringtones" http://www.la-ringtones.com : [http://www.la-ringtones.com|funny ringtones] </u>
+              
+
+From unknown Tue Jul 4 00:08:11 +0300 2006
+From: 
+Date: Tue, 04 Jul 2006 00:08:11 +0300
+Subject: <a href='otmail.com'
+Message-ID: <20060704000811+0300@www.akl.lt>
+
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ...  </u>
+              
+
+From unknown Thu Jul 13 18:29:12 +0300 2006
+From: 
+Date: Thu, 13 Jul 2006 18:29:12 +0300
+Subject: <a href='http://www.ringtones-dir.com'
+Message-ID: <20060713182912+0300@www.akl.lt>
+
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... <a href='http://www.ringtones-dir.com'>free ringtones</a> : [http://www.ringtones-dir.com download ringtones] - [HTTP://www.ringtones-dir.com download ringtones] : [nokia ringtones|http://www.ringtones-dir.com] - [nokia ringtones|HTTP://www.ringtones-dir.com] : http://www.ringtones-dir.com/download/ : [[http://www.ringtones-dir.com ring tones]] : [[http://www.ringtones-dir.com | ringtones download]] : "samsung ringtones" http://www.ringtones-dir.com : [http://www.ringtones-dir.com|ringtones free] </u>
+              

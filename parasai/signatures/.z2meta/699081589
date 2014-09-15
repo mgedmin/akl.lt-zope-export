@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 366997564
+confirmed:boolean = 0
+gen_date:date = 2005/07/03 17:20:36.179000 GMT+3
+logo_url:string = http://www.mediaworks.lt
+mail:string = smart@nora.lzuu.lt
+organization:string = UAB "Mediaworks"
+position:string = projekt\xc5\xb3 vadovas
+status:string = fiz_asm
+title:string = Stasys Marti\xc5\xa1ius
+url_asm:string = 
+url_org:string = http://www.mediaworks.lt

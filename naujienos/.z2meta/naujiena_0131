@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p><a href="http://linux-media.net/beep/">\xe2\x80\x9ebeep\xe2\x80\x9c</a> yra <a href="http://www.xmms.org">\xe2\x80\x9eXMMS\xe2\x80\x9c</a> programos pagrindu sukurtas audio grotuvas. \xc5\xa0ios at\xc5\xa1akos tikslas yra pagerinti vartotojo aplink\xc4\x85, j\xc4\x85 kuriant moderniomis technologijomis (GTK2, <a href="http://www.pango.org/">Pango</a>) ir patogum\xc4\x85, suteikiant galimyb\xc4\x99 rinktis apvalkalus (skins).<br>\n</p>
+date:string = 2003-11-04
+title:string = \xe2\x80\x9ebeep\xe2\x80\x9c audio grotuvas

@@ -1,0 +1,11 @@
+<p>Knygynuose jau galite ieškoti autoriaus Ian Gilfillan knygos „MySQL 4 vadovas“ (išversta į lietuvių kalbą).<br>
+MySQL jau subrendo. Netekusi nerimto įrankio interneto svetainėms vardo, MySQL dabar yra perspektyvus ir vertingas duomenų valdymo sprendimas. Jei anksčiau tai buvo idealus pasirinkimas interneto svetainėms, šiuo metu 4 versija turi daugelį savybių, reikalingų ir kitose aplinkose ir išlaiko savo įspūdingą spartą.<br>
+MySQL 4 yra spartesnė, turi atsarginių kopijų darymo prisijungus priemones ir daugybę naujų savybių. Yra labai nedaug priežasčių, dėl kurių neturėtumėte svarstyti galimybės naudoti MySQL savo duomenų bazės sprendime. Yra daug svarbių priežasčių, dėl kurių turėtumėte pasirinkti MySQL savo svarbiam duomenų valdymui:<br>
+Kaina: MySQL daugeliu atvejų yra nemokama, o jos parama nebrangi.<br>
+Sparta: MySQL lenkia daugelį savo konkurentų.<br>
+Funkcionalumas: MySQL siūlo dauguma savybių, kurių reikalauja rimti programuotojai, tokių, kaip visiškas suderinamumas su ACID, suderinamumas su didžiąja ANSI SQL dalimi, atsarginių kopijų darymas prisijungus, suderinamumas su SSL ir integracija į beveik visas programavimo aplinkas.<br>
+Mobilumas: MySQL veikia didžiojoje daugumoje operacijų sistemų ir daugeliu atvejų duomenys be jokių sunkumų gali būti persiųsti iš vienos sistemos į kitą.<br>
+Ši knyga skirta kūrėjams, duomenų bazių administratoriams (DBA) ir MySQL vartotojams. Joje nagrinėjamos šios temos: SQL; duomenų ir lentelių tipai ir jų naudojimas; užklausų ir indeksų optimizavimas; vartotojų abonementų valdymas ir saugumo užtikrinimas; MySQL administravimas ir konfigūravimas; programavimas su MySQL; MySQL įdiegimas.<br>
+Knygos prieduose yra: išsamus MySQL komandų vadovas; vadovai, kuriuose pateikiami PHP, Perl, C, Java, Python ir ODBC funkcijos ir metodai, skirti darbui su MySQL.<br>
+Knygą išleido „Smaltijos“ leidykla.
+</p>

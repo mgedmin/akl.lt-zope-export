@@ -1,0 +1,115 @@
+eVitamins for !NGOs <small>(paraiška Pasaulio banko LDM programai)</small>
+
+    <a href="http://web.worldbank.org/WBSITE/EXTERNAL/COUNTRIES/ECAEXT/LITHUANIAEXTN/0,,contentMDK:20199842~pagePK:141137~piPK:141127~theSitePK:304956,00.html">
+  <img src="ldm.png" 
+     height="91" width="102" alt="Lithuanian Development Marketplace">
+    </a>
+    <a href="http://web.worldbank.org/WBSITE/EXTERNAL/COUNTRIES/ECAEXT/LITHUANIAEXTN/0,,contentMDK:20199842~pagePK:141137~piPK:141127~theSitePK:304956,00.html">
+Apie LDM programą</a>
+
+  <b>Procedūra:</b>
+<ul>
+<li>April 5, 2004 - proposal outline submission</li>
+<li>April 30, 2004 - announcement of finalists</li>
+<li>May 7, 2004 - information session for finalists</li>
+<li>May 20, 2004 - complete project proposals submission</li>
+<li>June 10-11, 2004 - Knowledge Forum and Development Marketplace</li>
+</ul>
+
+  Finansavimo projektui negavome.
+
+<hr>
+
+  <b>PASIRENGIMAS PREZENTACIJAI</b>:
+
+    * Info apie stendą:
+
+      o aukštis - 2,34 m. bendras plotis- 1,71 m (pagrindinė vieta - 95 cm, šoninė siena -
+31 cm ir kita šoninė siena 45 cm). Vieta organizacijos pavadinimui: ilgis 1,69
+m., plotis - 30 cm. Parūpins lipnios juostos, kitos priemonės yra kiekvienos organizacijos reikalas.
+
+        <a href="VIKAI 1.jpg">
+  <img src="VIKAI 1_small.jpg" 
+     height="75" width="100" alt="Stendas prezentacijai">
+    </a>
+
+        <a href="VIKAI 2.jpg">
+  <img src="VIKAI 2_small.jpg" 
+     height="75" width="100" alt="Stendas prezentacijai">
+    </a>
+
+      o įrengti galima birželio 10 d. vakare (po forumo) arba birželio 11 d. ryte (prieš renginį)
+
+    * STENDAS:
+
+      o Organizacijos užrašas. Pasigaminti reikia patiems, jie tik parūpins lipnios juostos. <b>Atlikti:</b> parengti ir atspausdinti AKL pavadinimą stendui. Plotas pavadinimui: 1.69x0.30.
+
+      o Plakatai. Turime eVitamins plakatus (1.2x0.8) nuo Witforo, tačiau pakabinti galėsime tik 1, kadangi, pagal plotį telpa tik ant pagrindinės sienos. <b>Atlikti:</b> atrinkti plakatą ir organizuoti pakabinimą. Reikalui esant - atspausti papildomus (jei tik jie komponuosis prie pagrindinio)
+
+      o Bukletai. Turime bukletus nuo Witforo, kurie ir tiks. Reiktų atsispausti nedideles skrajutes apie šį projektą (daryti su Scribus ir paskui jį demonstruoti, kaip Scribus pavyzdį). <b>?</b>: kas sukurs ir atspausdins (manau, kad pakanka ant paprasto, gal spalvoto, poperiaus)? reikia teksto (en ir lt ?), kiek vnt?
+
+      o Projekto aprašymas. <b>Atlikti</b>: parengti oficialų projekto aprašymą dalinimui (nedaug vienetų). Kas atspausdins?
+
+      o Aprašymas apie AKL. <b>Atlikti</b>: parengti aprašymą apie AKL (veikla ir rezultatai). Kas atspausdins?
+
+      o Demonstravimas. <b>Atlikti:</b> gauti kompiuterį, kuriame būtų demonstruojamas Debian-NP. Mac'ą ?
+
+      o CD. <b>Atlkti</b>: parengti CD dalinimui (nedaug vnt.), sukurti viršelį. Iš kur CD ir kas sukurs viršelį? Mantas paruošia CD turinį.
+
+      o Apklausos anketa. Parengti apklausos anketą. <b>Atlikti:</b> sudaryti klausimyną ir atspausdinti (kas spausdins?), kiek vnt.?
+
+      o Dalyvių vizitinės kortelės. Būtų gerai, jei stendo dalyviai turėtų korteles.
+
+      o Stendo dalyviai: Romena, ...
+
+    * DISTRIBUCIJA:
+
+      o Dabartinė "Debian-NP":http://debian-np.alioth.debian.org/debian-np-bootcd-0.1r2.iso distribucijos versija sukurta 2003 m. pabaigoje ir pristatyti pasauliniame WSIS renginyje.
+
+      o Dabartinėje distribucijoje yra grafinė aplinka Gnome 2.4. Pagrindinėje juostoje (apačioje) pateikiamos tokios programos:<br>
+        Firebird (0.6.1)<br>
+        Evolution (1.4.4)<br>
+        !OpenOffice Writer (1.1.0)<br>
+        Mozilla HTML Editor (1.4)<br>
+        !GnuCash (1.8.7)<br>
+        !MrProject (0.9.1)<br>
+        Scribus (1.0.1, Qt 3.2.1)
+
+      o Sudaryti atnaujinimų sąrašą, atnaujinti programų versijas, sudėti LT versijas.
+
+      o Įdėti lietuviškumą.
+
+      o Developeriai - http://alioth.debian.org/projects/debian-np/
+
+    * DEMONSTRAVIMAS:
+
+      o Parengti su kiekviena iš aukščiau paminėtų programų pavyzdžius demonstravimui:<br>
+        Firebird (0.6.1) -> www.akl.lt, www.worldbank.lt, http://www.debian.org/devel/debian-nonprofit<br>
+        Evolution (1.4.4) -> sukurti kažkieno accountą, importuoti adresų knygelę<br>
+        !OpenOffice Writer (1.1.0) -> atidaryti šito projekto bylą<br>
+        Mozilla HTML Editor (1.4) -> įkelti šito projekto tekstą<br>
+        !GnuCash (1.8.7) -> ????? (čia būtų gerai iš Manto gauti naudojimo instrukcijas)<br>
+        !MrProject (0.9.1) -> įmesti šio projekto planelį<br>
+        Scribus (1.0.1, Qt 3.2.1) -> pristatymo metu dalinamos skrajutės maketukas<br>
+
+    * SPAUDA:
+
+      o parengti press release'us ir išplatinti bei apskambinti
+
+    * KLAUSIMAI RENGĖJAMS (Odeta Rimkevičiūtė, tel. 210 76 91):
+
+      o ar stendas bus toks, kaip rodytas seminaruose? - taip
+
+      o galimybės kompiuterio pajungimui, internetui - nebus kur prijungti kompiuterių
+
+      o dėl pavadinimo - kokio tipo tai turi būti? popierius? - gali būti bet koks, netgi nebūti ar būti bet kur (svarbu, kad kažkur matytųsi organizacijos pavadinimas)
+
+      o įėjimas laisvas abiejomis dienomis? 10 d. reikia registruotis, 11 d. laisvas įėjimas. 06.03 d. buvo užsiregistravę ~40 papildomai (ty. ne dalyviai) dalyvauti konferencijoje
+
+      o kiek yra skelbiama apie LDM ir pristatymą, ty. ar tikėtis lankytojų - tipo plačiai skelbiama, bet faktiškai daugiau per NVO (NISC puslapį), žada gal Britų ambasada būti (jei patiktų koks projektas - jį pirktų), kt.
+
+<hr>
+
+  Įvairūs saitai: http://lists.debian.org/debian-nonprofit/, http://debian-np.alioth.debian.org/intro.html, http://debian-np.alioth.debian.org/debian-np-screenshot-2003-11-27-2.jpg, http://debian-np.alioth.debian.org/debian-np-screenshot-2003-11-27-1.jpg, http://mako.yukidoke.org/talks/20040417-freedom_week-debian_np/
+
+  <b>Ryšys su kitais projektais:</b> "eVitaminai NVO":https://wiki.akl.lt/eVitaminaiNVO

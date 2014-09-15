@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 194283886
+confirmed:boolean = 1
+gen_date:date = 2005/05/30 14:07:37.379000 GMT+3
+logo_url:string = 
+mail:string = ignas.o@gmail.com
+organization:string = 
+position:string = Studijos, taikomoji matematika
+status:string = fiz_asm
+title:string = Ignas Oertelis
+url_asm:string = 
+url_org:string = 

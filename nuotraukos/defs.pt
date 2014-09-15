@@ -1,0 +1,18 @@
+<!-- Page Template Diagnostics
+ Compilation failed
+ xml.parsers.expat.ExpatError: unbound prefix: line 1, column 0
+-->
+<html metal:define-macro="page">
+  <head>
+   <metal:block define-slot="head">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <link rel="stylesheet" href="style.css"/>
+   <title tal:content="template/title">The Title</title>
+   </metal:block>
+  </head>
+  <body> 
+    <div metal:define-slot="body">
+    This is where the page's body text goes.
+    </div>
+  </body>
+</html>

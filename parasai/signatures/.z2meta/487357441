@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 934488650
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 19:18:47.482000 GMT+3
+logo_url:string = 
+mail:string = povilass@sintagma.lt
+organization:string = UAB "Sintagma"
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Povilas Serepinas
+url_asm:string = 
+url_org:string = http://www.sintagma.lt

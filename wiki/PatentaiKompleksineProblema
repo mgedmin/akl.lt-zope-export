@@ -1,0 +1,139 @@
+<hr> 
+prisijunkite prie akcijos: <br/>
+<a href="http://www.akl.lt/parasai"><img src="http://linux.akl.lt/patentai/ne8.gif" border="0"></a><br/>
+<hr>
+pagal http://swpat.ffii.org , http://www.nosoftwarepatents.com/lt/m/dangers/index.html , <br>
+bei koorporaciju argumentus _uz_ patentus http://www.patents4innovation.org/ , http://campaignforcreativity.org/camp4creativity/ <br>
+(paprastiems žmonėms (nepolitikams) trumpai, gerai ir lietuviškai paaiškinta http://www.pilieciai.lt/minerva/viewtopic.php?t=190    bei  kiek daugiau info http://www.neo.lt/nkm/index.phtml?lst=news&id=1078&p=   ir  http://www.omni.lt/index.php?base/z_117536)
+
+<h2><b>PROBLEMA turi 5  aspektus</b>: </h2>
+
+1) KONKURENCINĮ-KOMERCINĮ
+
+ Šią direktyvą nori "prastumti" didžiosios koorporacijos IBM, M$ ir pan, <br>
+ motyvuodamos tuo, kad patentai naudingi inovacijom -- leidžia apsaugoti intelektualią produkciją. <br>
+Tačiau realiai, tai <b>stabdytų inovacijas (ypač PĮ) smulkiajame versle</b>, kuris <br>
+ - pripažįstamas kaip vienas iš efektyviausiu inovacijų "variklių" <br>
+ - dažnai yra paremtas atviru kodu (http://opensource.org)  <br>
+ - neturi išteklių patenams ir galimam bylinėjimuisi dėl jų. 
+
+Galimas bylinėjimasis nesunkiai panaudojamas kaip legalus reketas, <br>
+ - <b>bylinejimasis smulk.verslui reiškia bankrotą</b>, nes bylos metu būna įšaldoma veikla <br>
+ - tad geriau sumokėti kažkokį mokestį (už jų nurodomas licenzijas)  <br>
+   arba parduoti savo patentą koorporacijai už jos siūlomą kainą..
+
+Ką koorporacijoms ir MVĮ reiškia atviras kodas: <br>
+ - jo programos yra pigi ir patikima alternatyva brangiai kainuojantiems Windows bei MS Office <br>
+ - nykstant nebaudžiamo piratavimo galimybėms, didėja atviro kodo GNU-Linux bei OpenOffice vartotojų
+ - atviro kodo programos yra platinamos laisvai ir nebūna patentuojamos
+
+Kuo didžiosios koorporacijos gąsdina atvirą kodą ir smulkųjį verslą?: <br>
+ - programai sukurti reikia daug sudėtinių dalių, ty. algoritmų, kurie gali būti jau užpatentuoti, <br>
+ - koorporacijos turi tūkstančius PĮ patentų ir gali jais manipuliuoti
+
+2) PROGRAMAVIMO SUDĖTINGUMO 
+
+ Kuriant programas, jos nėra rašomos nuo nulio. Yra naudojama daug jau anksčiau sukurtų programavimo elementų (programavimo moduliai, funkcijų bibliotekos ar pan.). Tie programavimo elementai buvo kuriami ir tobulinami jau daugiau nei 20 metų, ir juose yra naudojama daug ir įvairios paskirties idėjų, algoritmų, pvz:<br> <span style="font-size:10px">
+- duomenų nuskaitymui, rikiavimui, paieškai, <br>
+- vaizdo "piešimui" ekrane, <br>
+- vartotojo sąsajos organizavimui, <br>
+- multimedia suspaudimui bei atkūrimui <br>
+- kompiuterio dalių, pvz, pelės, klaviatūros, diskasūkių, valdymui <br>
+- įvairiam programos loginiam organizavimui ir t.t. <br>
+</span>
+
+Užpatentuoti galima net ir kelių eilučių algoritmus (pvz, GIF naudojamas LZW suspaudimo algoritmas), 
+tuo tarpu, vienoje programoje gali būti panaudoti keli šimtai tokių smulkių algoritmų - programiniai tekstai dažnai užima tūkstančius eilučių! Kiekvieną kartą, kuriant programą, reiktų ieškoti galimų patentų ir atskirai derėtis gal su dešimčia patentų turėtojų - tai ženkliai sabdytų programų kūrimą ir didintų kaštus.
+
+Viename internetiniame puslapyje galima priskaičiuoti 20 patentų! O jame pagrinde tik vartotojo sąsaja, duomenų perdavimas internetu ir elementarios e-komercijos idėjos. 
+http://webshop.ffii.org
+
+3) EKONOMINIO EFEKTO PAGRĮSTUMO
+
+ Dabar siūlomoje direktyvoje yra numatyta, kad  <br>
+ - PĮ patentai galioja max <b>20 metų</b>,  <br>
+ - kas yra <b>nepamatuotai daug</b>, palyginus su dabartiniais (l. sparčiais) PĮ progreso tempais. <br>
+ - nėra įvertinta kokia galimybė/tikimybė, kad_tavo_technologiją_nuplagijuos  vs  kad_ją_sugalvos_patys.
+
+4) TEISINĖS FORMULUOTĖS ("Ne, bet taip")
+
+ <a></a>1973 <a href="http://www3.european-patent-office.org/legal/epc/e/ar52.html#A52_2_c">Europos patentų konvencija 52 straipsnis</a> teigia, kad programinė įranga nėra patentuojama, <br>
+bet 1987 metais atsirado <a href="http://swpat.ffii.org/papers/epo-t840208/index.en.html">interpretacija</a>, kad PĮ "kaipo tokia" nėra patentuojamba, <b>bet</b>  yra galimybė patentuoti programinę įrangą, <a href="http://swpat.ffii.org/papri/ukpo-swpat0202/index.en.html">kai ji turi techninį efektą</a></b> (nors nėra sutarimo, kas yra "techninis efektas"). <br>
+pvz, pelės perpaišymas ekrane, pelės dvigubas spustelėjimas, progreso juosto paišymas jau yra užpatentuoti... iš viso iš apie <a href="iš apie 30000 programinių sprendimų">30'000<a></b> programinių sprendimų<br>
+http://www.infobalt.lt/new/enet/index.php?&t=apsauga&i=5818
+
+Daug(uma?) programų kūrėjų teigia, kad patentai nebūtini: <br>
+- užtenka autorinių teisių (copyright), kurios įsigalioja automatiškai (be papildomų išlaidų) ir yra pagrįstos įstatymais.<br>
+- platinant programas mašininiu kodu be pirminio teksto, programinių sprendimų (algoritmų), ypač sudėtingų ir netikėtų, neįmanoma atgaminti .
+
+5) POLITINĮ
+
+ - 2002 m. vasario 20 d. Europos Komisija pasiūlė direktyvos variantą, leidžiantį patentuoti netgi "proceso progreso juostą". (pagal minėtą teisinę formuluotę)
+
+- 2003 m. rugsėjo 24 d. Europos Parlamentas pasiūlė įvairias pataisas, kurios apribotų patentuojamų programų  sritį, apibrėžus kas yra ir kas nėra "techninis" išradimas: <br>
+būtina patentabilumo sąlyga - gamtos jėgų valdymas, o duomenų apdorojimas nelaikomas "techniniu efektu/išradimu".. 
+
+- Bet 2004 gegužės 18d, Europos ministrų taryboje, ignoruojant (beveik visas) parlamento pastabas ir pasiūlymus direktyva  buvo <a href="http://www.nosoftwarepatents.com/lt/m/politics/legislative.html">dalinai patvirtinta</a>.<br>
+Tuomet EMT vadovavo <a href="http://www.nosoftwarepatents.com/lt/m/politics/members.html">Airija</a>, o dalis narių neturėjo aiškios nuomonės. Airija pasistengė forsuoti priėmimą, nes joje yra stipri MicroSoft įtaka. <br>
+
+- Europos parlamentas <a href="http://www.nosoftwarepatents.com/phpBB2/viewtopic.php?t=327">2005 vasario 3d</a> <a href="http://swpat.ffii.org/papers/europarl0309/cons0401/tab/index.en.html">nepritaria</a> šiam direktyvos variantui, 
+
+- <a href="http://wiki.ffii.org/Cons050307En">2005 kovo 7d.</a> Europos taryba, pažeisdama protokolą, patvirtino direktyvą. Eu. parlamentas dar gali pataisyti/papildyti jos tekstą antro skaitymo metu.<br>
+Tad svarbu išaiškinti problemas Eu. parlamentarams. O jiems ypač svarus verslo balsas, tad prieš tai dar reiktu išsiaiškint su verslininkais:<br>
+- ar jie linkę naudoti laisvas atviro kodo programas ir sutaupyti viena kita tukstanti per metus, <br>
+- ar jiems tinka MS ir pan..<br>
+Be to, interneto serveriai daugumoje veikia Linux bei FreeBSD pagrindu, tai patentų įvedimas stipriai atsilieptu Europos www infrastruktūrai.
+
+From unknown Sun May 15 10:36:55 +0300 2005
+From: 
+Date: Sun, 15 May 2005 10:36:55 +0300
+Subject: a
+Message-ID: <20050515103655+0300@wiki.akl.lt>
+
+a
+
+From unknown Tue May 17 10:48:19 +0300 2005
+From: 
+Date: Tue, 17 May 2005 10:48:19 +0300
+Subject: qwerty
+Message-ID: <20050517104819+0300@wiki.akl.lt>
+
+kad labai jau levos tos akl siulomos programos....
+
+From unknown Tue May 17 16:31:19 +0300 2005
+From: 
+Date: Tue, 17 May 2005 16:31:19 +0300
+Subject: zmogus
+Message-ID: <20050517163119+0300@wiki.akl.lt>
+
+kalbama apie visas atvirojo kodo programas ir t.t.
+zmones turetu suprasti kokia tai rimta problema.
+
+From unknown Thu May 19 14:15:25 +0300 2005
+From: 
+Date: Thu, 19 May 2005 14:15:25 +0300
+Subject: to qwerty
+Message-ID: <20050519141525+0300@wiki.akl.lt>
+
+jei AKL programos lievos, tai idomu, kodel zmones jas sekmingai naudoja?<br>
+Lietuvoje http://www.aki.vtu.lt/prezentacijos/PATIKIMI-2005-04-05.pdf<br>
+ir užsienyje http://www.aki.vtu.lt/prezentacijos/Novell-2005-04-05.pdf. <br>
+Na dažnai reikia paplušėti, norint tvarkingai jas paruošti naudojimuisi, bet sumoj tai maždaug perpus pigiau, nei MS produktai. Azijos šalys, pvz Kinija, Indija, masiškai renkasi Linux vietoj Windows...
+
+From unknown Thu May 26 08:44:17 +0300 2005
+From: 
+Date: Thu, 26 May 2005 08:44:17 +0300
+Subject: Kinderis
+Message-ID: <20050526084417+0300@wiki.akl.lt>
+
+Atvisa kodas yra cool, bet manau, kad tokis atviras kodas kazkada baigsis ir taps tuo paciu pries ka dabar bandoma pasisakyti, kitaip tariant - viskas kas siuo metu yra nemokoma kazkada taps mokama :( galima ir pavyzduka maza, kad ir "RedHat" kazka buvo visiskai nemokomas o jau daba patapo komerciniu , va tau ir atviras kodas...
+
+From unknown Fri May 27 02:41:11 +0300 2005
+From: 
+Date: Fri, 27 May 2005 02:41:11 +0300
+Subject: pasidziaug rades, neverk pametes
+Message-ID: <20050527024111+0300@wiki.akl.lt>
+
+is principo viskas priklauso nuo pradines licenzijos
+jei tai GPL, tai nelabai gali baigtis: per daug geru dalyku yra, kad ju atsisakytum, o jei naudoji tai ir tobulini :)
+na niuansai tik tokie, kad jei priima patentus ir nebegali verslui naudoti, tai lieka tik tobulintojai-entuziastai bei iv. visuomenines geroves projektu apmokami programavimai.. Ir naudojimas nepelno tixlams (ale asmeniškai, švietimui, vyriausyb/visuomenin sektoriuj)..

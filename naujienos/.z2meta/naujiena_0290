@@ -1,0 +1,7 @@
+[properties]
+blurb:text = Svetain\xc4\x97 <a href="http://linux.akl.lt">linux.akl.lt</a> paskelb\xc4\x97 konkurs\xc4\x85 savo puslapio dizainui.\n\nOrganizacija "Atviras Kodas Lietuvai" \xc4\xafsteig\xc4\x97 kelis prizus ir maloniai kvie\xc4\x8dia prisijungti kiekvien\xc4\x85 norint\xc4\xaf sudalyvauti konkurse.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'GNU/Linux&nbsp;OS\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\')
+date:string = 
+profesionalams:boolean = 0
+title:string = Dizaino konkursas

@@ -1,0 +1,70 @@
+What is this ?
+
+  This is a kind of collaborative website, called a *wiki*.
+  "Wiki wiki" means "quick" in hawaiian.
+  You can edit any page on the spot, by clicking "Edit this page" or
+  by using the "Add a comment" form.
+
+  Several simple conventions are followed to make writing and
+  linking easier. Here is the main one:
+  each page has a WikiName - a short descriptive name made up of one or more
+  capitalized words run together. These are used to form automatic hyperlinks between pages.
+
+How do I navigate ?
+
+  To return to the site's front page at any time, click the logo at top left.
+
+  To see a site map centered on the current page, click "contents" above. 
+
+  To see a list of pages which link to this one, click the page title.
+
+  To jump to a page by name, or to search the site, enter text in the
+  search field at top right and press enter. To find out more, see JumpSearch.
+
+  To see a list of all pages in the site by modification date, visit RecentChanges.
+
+More about editing
+
+  To add some text to any page, scroll to the bottom, enter some text
+  into the "Add a comment" form and click the button.
+    SandBox is a good place to practice this.
+
+  Or, to make a more complex change, click the "Edit this
+  page" link, edit the text and click the "Change.." button.
+
+  Text will be formatted for you automatically. To begin with, just remember to
+  use a blank line when you want to start a new paragraph.
+ When you are ready, learn more about the TextFormattingRules.
+
+  NB: site admins can help undo any editing mistakes & recover old versions if needed.
+
+How do I link and create new pages ?
+
+  To create a link to another wiki page, just write it's WikiName.
+
+  If the page does not yet exist, a ? will be displayed - click this
+  when you are ready to create the new page. This is how pages are added to the site.
+
+  To link to a page on another site, just type the url. Or, you can
+  use HTML. Also, RemoteWikiLinks are a convenient notation for
+  linking to pages on another site.
+
+What if I make a mistake ?
+
+  If some good text gets lost by mistake, you might find it by backing
+  up in your browser - copy and paste back it into the
+  page. Otherwise, the site admin may be able to help undo the changes.
+
+Page hierarchy
+
+  Zwiki keeps track of parent-child relationships between pages, which
+  you may use or ignore; this information will be displayed at the top
+  of the page if enabled in UserOptions. The parent of a new page is
+  the page on which you clicked the ? link. You can change the
+  parent(s) later, by clicking on the page title.
+
+For more help:
+
+ There are some additional features not described here. see also:
+
+ ZWiki, ZWiki:HelpPage, ZWiki:AdvancedEditOptions

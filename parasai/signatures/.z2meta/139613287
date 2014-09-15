@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 892450872
+confirmed:boolean = 1
+gen_date:date = 2005/05/22 14:01:46.015000 GMT+3
+logo_url:string = http://www.projects.lt/op_logo.png
+mail:string = ovidijus@projects.lt
+organization:string = Optimalus projektai UAB
+position:string = Projektu vadovas
+status:string = fiz_asm
+title:string = Ovidijus Pukys
+url_asm:string = 
+url_org:string = http://www.projects.lt

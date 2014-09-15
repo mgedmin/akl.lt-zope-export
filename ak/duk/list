@@ -1,0 +1,14 @@
+## Script (Python) "list"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+return [
+    'duk_floss.html',
+    'duk_at.html',
+    'duk_patentai.html',
+]

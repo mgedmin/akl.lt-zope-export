@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 804582195
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 21:48:51.187000 GMT+3
+logo_url:string = 
+mail:string = tomasvalen@gmail.com
+organization:string = 
+position:string = DTU studentas
+status:string = fiz_asm
+title:string = Tomas, Valentukevicius
+url_asm:string = http://christiania.atspace.com
+url_org:string = 

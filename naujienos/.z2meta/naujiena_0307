@@ -1,0 +1,7 @@
+[properties]
+blurb:text = Gegu\xc5\xbe\xc4\x97s 24 ir 25 dienomis VGTU patalpose (Naugarduko 41, Vilnius) organizuojamas <a href="http://www.akl.lt/projektai/?doc=seminarai.html#SEC7">praktinis seminaras</a>, skirtas Lietuvos miest\xc5\xb3 ir rajon\xc5\xb3 savivaldybi\xc5\xb3 darbuotojams, rengiantiems ir publikuojantiems vie\xc5\xa1uosius elektroninius dokumentus ir vie\xc5\xa1\xc4\x85j\xc4\x85 informacij\xc4\x85, informacines sistemas savivaldyb\xc4\x97se pri\xc5\xbei\xc5\xabrintiems specialistams.<br>\nDar galima registruotis. I\xc5\xa1samesn\xc4\x99 informacij\xc4\x85 rasite \n<a href="http://www.akl.lt/projektai/?doc=seminarai.html#SEC7">\xc4\x8dia</a>.
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'Interneto&nbsp;programos\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\')
+date:string = 2005-05-20
+profesionalams:boolean = 0
+title:string = Praktinis seminaras "Atvirieji standartai ir atvirieji dokument\xc5\xb3 formatai savivaldyb\xc4\x97se". 2005-05-24/25 d., Vilnius

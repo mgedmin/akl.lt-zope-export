@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 850273735
+confirmed:boolean = 1
+gen_date:date = 2005/05/13 08:58:17.197000 GMT+3
+logo_url:string = 
+mail:string = ratai@visiems.lt
+organization:string = 
+position:string = KTU studentas
+status:string = fiz_asm
+title:string = Elvis Judinas
+url_asm:string = 
+url_org:string = http://ratai.visiems.lt

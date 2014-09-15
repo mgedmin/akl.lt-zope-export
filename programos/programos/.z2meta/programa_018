@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = HTML redaktorius \xe2\x80\x9eMozilla Composer\xe2\x80\x9c
+trumpai:text = Patogus \xc4\xafrankis vizualiam HTML puslapi\xc5\xb3 k\xc5\xabrimui. Yra apra\xc5\xa1ymas pradedantiesiems. \nDaugel\xc4\xaf objekt\xc5\xb3 savybi\xc5\xb3 galima keisti vizualiai. Patogus darbas su \xe2\x80\x9eJavaScript\xe2\x80\x9c. \nGalima ra\xc5\xa1yti kod\xc4\x85 arba kurti puslap\xc4\xaf vizualiomis priemon\xc4\x97mis.

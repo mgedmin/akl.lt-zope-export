@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 636302349
+confirmed:boolean = 1
+gen_date:date = 2005/05/13 09:54:54.469000 GMT+3
+logo_url:string = http://www.vpu.lt/socpedagogika/logo/skilogo.jpg
+mail:string = rokas.gulbinas@vpu.lt
+moder_denied:string = 
+moder_ok:string = 
+organization:string = VPU Socialin\xc4\x97s komunikacijos institutas
+position:string = labor.
+status:string = fiz_asm
+title:string = Rokas Gulbinas
+url_asm:string = http://www.vpu.lt/socpedagogika/
+url_org:string = http://www.vpu.lt/socpedagogika/

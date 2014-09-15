@@ -1,0 +1,5 @@
+[properties]
+categories:string = DBServeriai,
+public:boolean = 1
+title:string = Duomen\xc5\xb3 bazi\xc5\xb3 serveris \xe2\x80\x9ePostgreSQL\xe2\x80\x9c
+trumpai:text = \xc5\xa0iuo metu tai turb\xc5\xabt rim\xc4\x8diausias i\xc5\xa1 vis\xc5\xb3 laisvai prieinam\xc5\xb3 duomen\xc5\xb3 bazi\xc5\xb3 serveri\xc5\xb3.\n\xe2\x80\x9ePostgreSQL\xe2\x80\x9c nenusileid\xc5\xbeia savo galimyb\xc4\x97mis kitoms rimtoms duomen\xc5\xb3 bazi\xc5\xb3 \nvaldymo sistemoms, o kai kuriomis savyb\xc4\x97mis parodo geresnius rezultatus. \nPalaiko didelius duomen\xc5\xb3 bei vartotoj\xc5\xb3\nkiekius, nesul\xc4\x97tindama savo darbo. Tai puikus produktas diegiant dideles\nplataus masto duomen\xc5\xb3 bazes.

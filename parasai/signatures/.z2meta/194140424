@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 250101399
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 23:01:20.552000 GMT+3
+logo_url:string = 
+mail:string = nerijus.slepetys@gmail.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = nerijus \xc5\xa1lepetys
+url_asm:string = 
+url_org:string = 

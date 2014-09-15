@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = False
+creation_time:string = 2005-09-13T01:49:04+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-06-09T10:22:40+00:00
+last_editor:string = chabbrik
+last_editor_ip:string = 127.0.0.1
+last_log:string = Nauji AK straipsniu linkai
+parents:lines = [\'FrontPage\']
+revision_number:int = 1
+subscriber_list:lines = ()
+title:string = AKMoksliniai darbai

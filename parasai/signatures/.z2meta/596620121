@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 562044583
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 15:50:50.809000 GMT+3
+logo_url:string = 
+mail:string = audrius@siauliai-r.sav.lt
+organization:string = \xc5\xa0iauli\xc5\xb3 rajono savivaldyb\xc4\x97
+position:string = IT skyriaus vadovas
+status:string = fiz_asm
+title:string = Audrius De\xc5\xa1rius
+url_asm:string = 
+url_org:string = http://www.siauliai-r.sav.lt

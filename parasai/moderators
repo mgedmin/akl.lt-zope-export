@@ -1,0 +1,20 @@
+## Script (Python) "moderators"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+ramas = 'ramunas@baltija.homelinux.net'
+grazulis = 'grazulis@akl.lt'
+jurgis = 'Jurgis.Pralgauskis@stud.ktu.lt'
+return {
+    'fiz_asm': [ramas, grazulis, jurgis],
+    'imone': [ramas, grazulis, jurgis],
+    'vis_org': [ramas, grazulis, jurgis],
+    'vyr_org': [ramas, grazulis, jurgis],
+    'nepelno': [ramas, grazulis, jurgis],
+    'kita': [ramas, grazulis, jurgis]
+}

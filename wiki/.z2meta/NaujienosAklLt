@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:15+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2007-04-09T16:20:03+00:00
+last_editor:string = ristinak
+last_editor_ip:string = 127.0.0.1
+last_log:string = 
+parents:lines = [\'FrontPage\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = naujienos.akl.lt

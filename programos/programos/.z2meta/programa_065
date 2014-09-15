@@ -1,0 +1,5 @@
+[properties]
+categories:string = Projektavimui,
+public:boolean = 1
+title:string = Kompiuterinio projektavimo (brai\xc5\xbeymo) programa \xe2\x80\x9eQCAD\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eQCAD\xe2\x80\x9c - tai multiplatformin\xc4\x97 CAD programa. Ja galima kurti techninius br\xc4\x97\xc5\xbeinius: pastat\xc5\xb3 planus, vidines ar mechanines dalis ir kt. \nTuri galimyb\xc4\x99 prisijungti atskirus papildomus modulius, kuriais galima prapl\xc4\x97sti programos veikim\xc4\x85, \nsusikurti sau norim\xc4\x85 variant\xc4\x85. \xe2\x80\x9eQCAD\xe2\x80\x9c turi intuityvi\xc4\x85 aplink\xc4\x85, tod\xc4\x97l yra lengva su ja i\xc5\xa1 karto prad\xc4\x97ti dirbti.

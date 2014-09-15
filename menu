@@ -1,0 +1,26 @@
+## Script (Python) "menu"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+def menu_item(obj, name):
+    if obj == context:
+        a_class = "active"
+    else:
+        a_class = "inactive"
+    return '<li><a href="%s" class="%s" id="%s_link">%s</a></li>' % (obj.absolute_url(), a_class, obj.getId(), name)
+
+print menu_item(context.menu_root(), 'pagrindinis')
+
+for folder in context.menu_items():
+    try:
+        folder = getattr(context.menu_root(), folder)
+        if folder.getId() == "images": continue
+        print menu_item(folder, folder.title.decode('UTF-8'))
+    except:
+        raise 'BlogasMenuItemas: ' + folder
+return printed

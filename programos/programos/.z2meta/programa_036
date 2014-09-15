@@ -1,0 +1,5 @@
+[properties]
+categories:string = Multimedia,
+public:boolean = 1
+title:string = Kompiuterio ekrano filmavimo programos "Vnc2swf" bei "Taksi"
+trumpai:text = Naudodami \xc5\xa1ias programas gal\xc4\x97site \xc4\xafra\xc5\xa1yti savo kompiuterio ekrano vaizd\xc5\xb3 sek\xc4\x85 (veikim\xc4\x85) \xc4\xaf video byl\xc4\x85.\n"Vnc2swf" reikia naudoti kartu su <a href="http://www.realvnc.com/">VNC</a> serveriu.

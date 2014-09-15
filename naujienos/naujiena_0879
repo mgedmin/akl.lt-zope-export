@@ -1,0 +1,30 @@
+<p>Išleista Baltix GNU/Linux 2.0 versija, skirta namų bei biuro kompiuteriams. Ši versija yra padaryta ypač 
+ilgą palaikymą turinčio <a href="http://www.ubuntulinux.org">Ubuntu GNU/Linux 6.06 (Dapper)</a> pagrindu 
+ir yra pritaikyta Lietuvos, Latvijos bei kitų Baltijos šalių rinkai, ypač namų bei biuro kompiuteriams. 
+Dauguma naudotojų Baltix GNU/Linux OS ras viską, ko tik gali prireikti naudojantis kompiuteriu namuose 
+ar biure - t.y. lietuviškam, latviškam, rusiškam ir t.t. raštui bei rašybos tikrinimui skirtas programas, 
+paplitusių video bei audio formatų palaikymą, žodynus, edukacines programas ir t.t. Daugiau informacijos - 
+naujai sukurtame Baltix GNU/Linux OS portale - <a href="http://baltix.akl.lt">http://baltix.akl.lt</a> 
+bei Baltix GNU/Linux kūrėjų puslapyje - <a href="http://launchpad.net/distros/baltix">http://launchpad.net/distros/baltix</a><br>
+Naudokitės Jums paruošta GNU/Linux sistema iškart, be jokio papildomų programų diegimo bei konfigūravimo!</p>
+
+<p>Baltix GNU/Linux 2.0 versijoje rasite:
+ <ul>
+  <li>GNOME 2.14 kaip standartinę darbalaukio aplinką.</li>
+  <li>Internetinės telefonijos bei susirašinėjimo programą Jabbin 2.0, kuri yra suderinama su Google Talk ir kitomis XMPP/Jabber interneto standartą palaikančiomis programomis bei Ekiga, skirtą pokalbiams su SIP/H.323 interneto telefonijos standartą palaikančiais įrenginiais bei programomis, tame tarpe Windows Messenger bei Netmeeting.</li>
+  <li>Totem Media Player, palaikantį MPEG, AVI, Divx, Xvid, Theora ir kitus Lietuvoje naudojamus video bei MP3, Ogg Vorbis ir kitus audio formatus.</li>
+  <li>Nuotaikingas mokomąsias programas vaikams GCompris ir Tuxpaint.</li>
+  <li>Laisvą žodynų programą OpenDict su LED anglų-lietuvių-vokiečių žodynais-priedais.</li>
+  <li>Duomenų bei sistemos atstatymo įrankius, tame tarpe ir ištrintų nuotraukų, video ir kitų failų atstatymo įrankį PhotoRec bei TestDisk.
+
+  <li>ypač mažai resursų naudojančią IceWM aplinką.</li>
+  <li>Vektorinės grafikos programą Inkscape.</li>
+  <li>Braižymo programą QCAD.</li>
+  <li>Nuotraukų tvarkymo bei darbo su skaitmeniniais fotoaparatais programą GThumb.</li>
+  <li>Visų populiarių archyvų formatų (.zip, .arj, .cab, .rar, .7z, .gz, .bz2 ir kt.) palaikymą.</li>
+  <li>Galimybę Baltix GNU/Linux sistemoje paleisti programinę įrangą, skirtą Windows sistemai.</li>
+  <li>Iš viso, daugiau nei 1000 įdiegtų programinės įrangos paketų, apimančių per 2000 programų, įrankių bei žaidimų.</li>
+  <li>Automatinį kompiuterio diskų aptikimą bei prijungimą dirbant tiesiai iš CD (live CD režimu) - matykite ir naudokitės savo kompiuteryje esančia informacija iš Linux OS jos net neįdiegdami!</li>
+  <li>Patogią ADSL/PPPoE interneto prisijungimo programą.</li>
+  <li>Daugelio klaidų bei trūkumų, esančių Ubuntu GNU/Linux 6.06, pataisymus bei naujesnes dažnai naudojamų programų versijas.</li>
+ </ul></p>

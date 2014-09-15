@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 689790340
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 15:33:24.309000 GMT+3
+logo_url:string = 
+mail:string = mokslas@adm.vtu.lt
+organization:string = VILNIAUS GEDIMINO TECHNIKOS UNIVERSITETAS
+position:string = vyr. vadybinink\xc4\x97
+status:string = kita
+title:string = Rima Palionien\xc4\x97
+url_asm:string = 
+url_org:string = 

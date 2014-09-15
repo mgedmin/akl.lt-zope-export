@@ -1,0 +1,20 @@
+<h2>Interneto taikomųjų programų serveris „Zope“<br>
+<a href="http://www.zope.org/">
+  <img src="images/ZButton.jpeg" alt="Zope" border="0" class="rphoto">
+    </a>
+<a href="http://www.zope.org/">www.zope.org</a></h2>
+<p>
+„Zope“ (Z Object Publishing Environment) yra daugiaplatforminis 
+interneto taikomųjų programų (web application) serveris, įgalinantis 
+greitai kurti patikimas žiniatinklio programas. „Zope“ yra parašytas „Python“,
+labai produktyvia objektiškai orientuota skriptų, kalba.
+</p>
+<p>
+„Zope“ skirtas turinio valdymo sistemų, portalų, įprastų taikomųjų programų kūrimui. 
+Jis lengvai integruojamas su dauguma RDBMS („Oracle“, „PostgreSQL“,
+„MySQL“), tokiu būdu suteikdamas funkcionalumą, palyginamą su PHP ar ASP
+bei dar geresnį. „Zope“ palaiko HTTP, XML-RPC, FTP, WebDAV protokolus.
+</p>
+<p><a href="http://www.python.org/cgi-bin/moinmoin/MostPopularPythonProjects">Čia</a> 
+rasite nemažą sąrašą apie populiariausius „Python“ projektus.
+</p>

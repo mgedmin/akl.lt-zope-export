@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 712241527
+confirmed:boolean = 1
+gen_date:date = 2005/06/26 15:52:0.716000 GMT+3
+logo_url:string = 
+mail:string = someris@europe.com
+organization:string = 
+position:string = programuoju svetaines
+status:string = fiz_asm
+title:string = Juozas Varonenka
+url_asm:string = 
+url_org:string = 

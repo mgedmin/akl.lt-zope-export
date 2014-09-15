@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = Byl\xc5\xb3 parsisiuntimo programos \xe2\x80\x9eGetleft\xe2\x80\x9c ir \xe2\x80\x9eWackGet\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eGetleft\xe2\x80\x9c ir \xe2\x80\x9eWackGet\xe2\x80\x9c program\xc5\xb3 pagalba galima lengvai atsisi\xc5\xb3sti bylas bei tinklalapius i\xc5\xa1 interneto \n\xc4\xaf kompiuter\xc4\xaf ir v\xc4\x97liau juos per\xc5\xbei\xc5\xabr\xc4\x97ti (neprisijungus prie interneto).

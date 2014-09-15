@@ -1,0 +1,5 @@
+<p>Šveicarijos Federalinio technologijos instituto Lozanoje kriptografijos ir saugumo laboratorijos vyresnysis mokslinis bendradarbis Philippe'as Oechslinas paskelbė išradęs vien iš raidžių ir skaičių sudarytų „Windows“ slaptažodžių atspėjimo būdą, sparta gerokai lenkiantį komercines tokios paskirties programas. Dabar, pasak mokslininko, iškoduoti slaptažodį galima vidutiniškai per 13,6 sekundžių.<br>
+Tai, kad programa taip greitai įveikia „Windows“ slaptažodžius, P. Oechslinas nelaiko „Microsoft“ pražiopsota klaida - paprasčiausiai, pasak jo, šios operacijų sistemos naudojama slaptažodžių apsauga nėra labai gera. Šifruodama administratoriaus įvestus prieigos raktažodžius „Windows“ neprideda jokių papildomų atsitiktinai parenkamų ženklų, ir tai yra svarbiausioji P. Oechslino ir jo studentų sukurtos programos sėkmės priežastis.<br>
+Tuo tarpu „Unix“, „Linux“ ir „Mac OS X“ šifruodamos slaptažodžius prideda vadinamosios "„druskos“ - 12 bitų papildomų ženklų, kurie bandymus įveikti kodą laiko požiūriu prailgina 4096 kartų arba reikalauja naudoti 4096 kartų daugiau atminties.<br>
+Plačiau <a href="http://www.omni.lt/?rask$9359_16009$z_113682">www.omni.lt</a>.
+</p>

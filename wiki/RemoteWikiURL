@@ -1,0 +1,3 @@
+To support RemoteWikiLinks, we need a local page which describes the remote server. At minimum it should contain the RemoteWikiURL keyword followed by the URL on the same line, like this:
+
+RemoteWikiURL: http://www.zwiki.org/

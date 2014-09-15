@@ -1,0 +1,23 @@
+<p>Patobulinti, nauji „Linux“ branduoliai pasirodo maždaug kas du
+mėnesiai, tačiau rimti pasikeitimai įvyksta tik kas treji metai. Paskutinis
+toks oficialus „evoliucionavimas“ iš 2.4.x serijos į 2.6.x įvyko gruodžio
+17 dieną, po pusės metų bandymų. 2.4.x serija startavo 2001-ųjų sausį.<br>
+2.6.x branduolio patobulinimai daugiausia skirti dideliems duomenų
+saugojimo ir apdorojimo centrams, kurie lig šiol naudojo komercines
+operacines sistemas. 2.6 serija įgalins dirbti ne su iki šiol maksimaliai
+galimais 8, o 32 procesoriais. Patobulintos disko skaitymo, tinklo
+klasterių galimybės. 2 terabitų dydžio failų sistemos riba, egzistavusi
+2.4.x, 2.6 serijoje jau neegzistuoja. 2.6 branduolys savo spartumu lenkia ne
+tik 2.4.x seriją, „Windows“, bet ir „FreeBSD“ operacines sistemas.<br>
+Visgi 2.6 branduolį kolkas rekomenduojama naudoti tik tarnybinėse
+stotyse. Manoma, kad komerciniuose produktuose ir bazinėse „Linux“
+distribucijose 2.6 branduolys pasirodys dar 2004 pirmame pusmetyje.<br>
+Apie tai taip pat rašo <a href="http://www.infoteka.lt/index.php?name=rodyti2&id=1162&kat_id=1">„Infoteka“</a>, 
+<a href="http://www.lrytas.lt/20031222/kom22_lx.htm">„Lietuvos rytas“</a>. 
+Daugiau informacijos apie branduolį ir jo naujas savybes sužinosite 
+<a href="http://www.kernel.org">www.kernel.org</a>. Taip pat susipažinkite su 
+2.6 branduolio projekto vadovo Andrew Morton 
+<a href="http://lwn.net/Articles/63633/">laišku</a>, branduolio kūrėjo 
+Linus Torvalds <a href="http://linuxtoday.com/developer/2003121901226NWKNDV">pranešimu</a> ir 
+detalia <a href="http://kniggit.net/wwol26.html">apžvalga</a>.
+</p>

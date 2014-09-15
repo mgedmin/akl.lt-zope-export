@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html metal:define-macro="main">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title tal:content="template/title"></title>
+  <style type="text/css">
+    a img {
+        border: 0;
+    }
+  </style>
+</head>
+<body>
+  <table border="0" width="90%" align="center">
+    <tr>
+      <td>
+        <tal:block metal:define-slot="body">
+           Pagrindinis tekstas.
+        </tal:block>
+      </td>
+    </tr>
+    <tr>
+      <td align="right">
+        <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" height="31" width="88" /></a>
+        <a href="http://www.top100.lt/public.php?cnt=45549"><img src="http://www.top100.lt/cgi-bin/count?id=45549" width="88" height="31" border="0" alt="Top100.lt" /></a>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 821227877
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 01:05:44.307000 GMT+3
+logo_url:string = 
+mail:string = karolis.t@gmail.com
+organization:string = 
+position:string = Programuotojas, *nix tipo os administratorius
+status:string = fiz_asm
+title:string = Karolis Tamutis
+url_asm:string = http://blogas.projektas.lt
+url_org:string = 

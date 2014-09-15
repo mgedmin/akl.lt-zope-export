@@ -1,0 +1,5 @@
+[properties]
+categories:string = Multimedia,
+public:boolean = 1
+title:string = Video redaktorius \xe2\x80\x9eVirtualDub\xe2\x80\x9c
+trumpai:text = Tai video redaktorius \xe2\x80\x9eMS Windows\xe2\x80\x9c 98/NT/2000/XP platformoms. Su \xe2\x80\x9eVirtualDub\xe2\x80\x9c j\xc5\xabs galite \xc4\xafra\xc5\xa1yti, \nredaguoti, konvertuoti AVI bylas. Programa skaito (ne ra\xc5\xa1o) MPEG-1 ir valdo BMP formato paveiksl\xc4\x97lius.

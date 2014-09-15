@@ -1,0 +1,8 @@
+[properties]
+berucka:int = 2
+confirm_id:string = 414881695
+confirmed:boolean = 1
+email:string = jaro@akl.lt
+grazulis:int = 3
+krukauskas:int = 1
+title:string = jaro@akl.lt

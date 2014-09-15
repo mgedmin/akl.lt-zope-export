@@ -1,0 +1,62 @@
+## Script (Python) "deleteSignature"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=email
+##title=
+##
+counter = 0
+for sig in container.signatures.objectValues('DTML Document'):
+    if sig.mail == email:
+        counter = counter + 1
+        if sig.gen_date + 1 < DateTime():
+            # Iš naujo sugeneruojame kodą
+            confirm_id = random.randint(100000000, 999999999)
+            sig.manage_changeProperties(confirm_id=confirm_id)
+            sig.manage_changeProperties(gen_date=DateTime())
+        # Išsiunčiama nuoroda el. paštu, kurią paspaudus parašas bus ištrintas
+        Msg = """Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Sveiki,
+
+Gavome pranešimą, kad norite atšaukti AKL rėmimą prieš programinės įrangos patentus:
+
+Statusas: %s
+Įmonės, organizacijos pavadinimas: %s
+Įmonės interneto puslapis: %s
+Įmonės logotipo adresas internete: %s
+Užsiėmimas (darbovietė): %s
+Vardas, pavardė: %s
+Asmeninis interneto puslapis: %s
+El. paštas: %s
+Pastabos:
+%s
+
+Jei tikrai norite atšaukti rėmimą, paspauskite šią nuorodą:
+http://www.akl.lt/parasai/confirm_delete?id=%s&confirm_id=%s
+
+Ši nuoroda galios 24 val.
+
+-- 
+AKL
+http://www.akl.lt/parasai""" % (
+    context.getStatus(sig.status),
+    sig.organization, sig.url_org, sig.logo_url, sig.position, sig.title, 
+    sig.url_asm, sig.mail, sig, sig.id(), sig.confirm_id,
+)
+        To = email
+        From = "AKL <%s>" % email
+        Subj = "=?UTF-8?B?UGFyYcWhbyBpxaF0cnluaW1hcw==?="
+        context.MailHost.send(Msg, To, From, Subj)
+
+if counter == 0:
+    msg = "Jūsų nurodytu el. paštu nebuvo užregistruota nei vienas rėmimas."
+elif counter == 1:
+    msg = "Jūsų nurodytu el. paštu buvo išsiųsta nuoroda, kurią paspaudus bus atšauktas rėmimas."
+else:
+    msg = "Jūsų nurodytu el. paštu buvo užregistruoti %s rėmimai. Gautuose laiškuose bus nurodyta kaip atšaukti šiuos rėmimus." % counter
+context.REQUEST.RESPONSE.redirect("showMsg?msg=%s" % msg)
+return

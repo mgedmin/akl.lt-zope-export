@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 601063808
+confirmed:boolean = 1
+gen_date:date = 2005/10/06 16:45:49.507000 GMT+3
+logo_url:string = http://mif.vu.lt/images/logo.gif
+mail:string = teofilis@gmail.com
+organization:string = Vilniaus Universitetas
+position:string = Studentas informatikas
+status:string = fiz_asm
+title:string = Tomas Balsys
+url_asm:string = 
+url_org:string = http://www.mif.vu.lt

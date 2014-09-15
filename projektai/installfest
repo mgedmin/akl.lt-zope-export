@@ -1,0 +1,11 @@
+## Script (Python) "installfest"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=InstallFest.html (redirect)
+##
+request = container.REQUEST
+request.RESPONSE.redirect("http://akl.lt/projektai/?doc=InstallFest.html")

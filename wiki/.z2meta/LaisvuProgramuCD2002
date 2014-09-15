@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:13+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-03-30T09:05:32+00:00
+last_editor:string = 127.0.0.1
+last_editor_ip:string = 127.0.0.1
+last_log:string = Mokomosios programos ("Tux Typing", "TuxPaint?", "Tux of Math Command")
+parents:lines = [\'Infobalt2002\', \'LPCD\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = 

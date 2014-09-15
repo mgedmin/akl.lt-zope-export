@@ -1,0 +1,45 @@
+trumpai, <b>kas yra laisva programinė įranga (atviras kodas)</b>:  <br>
+Atviro kodo progama eiliniam vartotojui dažnai nesiskiria nuo kitų. pvz, http://www.ivpk.lt/main.php?id=opensource/d3.html <br>
+Tačiau </b>atviro kodo programų kūrimo filosofija yra ypatinga </b> tuo, <b>kad bet kam yra suteikiama laisvė programas keisti/taisyti/perprogramuoti bei platinti pagal savo norus - jie nėra varžomi kitų programos kūrėjų</b>.  <br>
+
+[AtvirasKodas/Zaliems/LaisvosProgramos]
+
+Kame čia šuo pakastas?
+
+Kiekviena programa turi dvi formas: 
+
+* mašininis kodas -- vykdomoji byla/bylos, kurį mes naudojame, kai paleidžiame/suaktyviname programą 
+
+* <b>pradinis/išeities tekstas/kodas</b> -- tekstinė byla/bylos, kurias parašo programuotojas, naudodamas kokią nors programavimo kalbą (pvz, Pascal, Logo, PHP, C, Java).  Paskui specialiomis priemonėmis jis "išverčiamas" (kompiliuojamas) į kompų (procesoriaus) kalbą -- mašininį kodą. O atgal korektiškai išversti beveik neįmanoma.<br>
+Būtent pradinis tekstas ir <b>suteikia galimybę modifikuoti programą, kaip kas nori</b>.
+
+Tradiciškai komerciniais sumetimais jis būna neplatinamas, nes bijoma, kad konkurentai nenuplagijuotų idėjų.  <br>
+Kita vertus, atviras kodas leidžia bet kam prisidėti prie programų kūrimo -- netgi jei jiems tai tiesiog hobi (pan, kaip galvosūlių sprendimas). Pvz, suradęs klaidą, gali pats ją ištaisyti. http://www.akl.lt/ak/?doc=osd.html
+
+Dabar programos tampa vis sudėtingesnės ir norint sukurti kokybišką produktą,  <br>
+verta suvienyti visų pastangas. Tai ir yra laisvos programinės įrangos (atviro kodo) siekis. Laisvos programinės įrangos iniciatorius Richardas Stallmanas patiesė pagrindus laisvos programinės įrangos kūrimui --  <br>
+nekomerciniais tikslais (už įv. fondų lėšas) sukūrė pagrindines programų kūrimo priemones (tekstų redaktorių emacs, C ir kitų programavimo kalbų kompiliatorių GCC ir t.t.) <br>
+ir išleido jas pagal "pradinių tekstų" prieinamumą garantuojančią licenziją. http://www.akl.lt/ak/?doc=gpl.html <br>
+Kiekvienas gauna tūkstanteriopai daugiau negu pats duoda ;).  <br>
+Turėdamas programavimo pagrindus tu gali nagrinėti programas ir <br>
+* ištaisyti rastas klaidas <br>
+* modifikuoti programą savo poreikiams <br>
+* papildyti programą naujom galimybėm  <br>
+Programų kūrimas kažkuo panašus į skruzdėlyno statymą. 
+<hr>
+Kad atviras kodas populiarus ir skatina programų kūrimą, galima įsitikinti 
+http://sourceforge.net ,  http://freshmeat.net
+
+  Norintiems dalyvauti AK
+
+   Dažnai būna problema susiorientuoti programavimo projektų gausybėje, <br>
+tačiau tai verčia mokintis pasirinkti bei derinti idėjas, <br>
+taip pat padeda išvengti dviračių išradinėjimo (kas sutaupo daug laiko -- ty, pagreitina progresą).
+
+From unknown Mon Feb 14 21:50:03 +0200 2005
+From: 
+Date: Mon, 14 Feb 2005 21:50:03 +0200
+Subject: 
+Message-ID: <20050214215003+0200@wiki.akl.lt>
+
+http://opensource.mit.edu/online_papers.php

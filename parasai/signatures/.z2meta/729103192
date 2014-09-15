@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 546332104
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 14:33:39.715000 GMT+3
+logo_url:string = 
+mail:string = valdas.sulinskas@stud.ktu.lt
+organization:string = Pakruojo "\xc5\xbdemynos" pagrindin\xc4\x97 mokykla 
+position:string = IT specialistas
+status:string = fiz_asm
+title:string = Valdas \xc5\xa0ulinskas
+url_asm:string = http://www.idomu.net
+url_org:string = 

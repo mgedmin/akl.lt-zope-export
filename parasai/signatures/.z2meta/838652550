@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 943742614
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 19:17:59.638000 GMT+3
+logo_url:string = 
+mail:string = info@ktusa.lt
+organization:string = Kauno technologijos universiteto Student\xc5\xb3 atstovyb\xc4\x97
+position:string = Viceprezidentas informacijai ir ry\xc5\xa1iams su visuomene
+status:string = vis_org
+title:string = Tautvydas \xc4\x8civas
+url_asm:string = 
+url_org:string = http://www.ktusa.lt

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 333336554
+confirmed:boolean = 1
+gen_date:date = 2005/05/24 10:26:12.228000 GMT+3
+logo_url:string = 
+mail:string = donatas.olsevicius@mif.vu.lt
+organization:string = 
+position:string = Studentas
+status:string = fiz_asm
+title:string = Donatas Olsevi\xc4\x8dius
+url_asm:string = 
+url_org:string = 

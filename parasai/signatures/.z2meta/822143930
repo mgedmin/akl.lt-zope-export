@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 522026189
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 13:29:38.676000 GMT+3
+logo_url:string = http://www.patikimi.lt/failai/9.gif
+mail:string = zygimantas@patikimi.lt
+organization:string = PATIKIMI SPRENDIMAI, UAB
+position:string = Direktorius
+status:string = fiz_asm
+title:string = \xc5\xbdygimantas Jan\xc4\x8doras
+url_asm:string = 
+url_org:string = http://www.patikimi.lt

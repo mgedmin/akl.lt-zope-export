@@ -1,0 +1,31 @@
+<dtml-var standard_html_header>
+<h2><dtml-var title_or_id></h2>
+<p>
+Inf. PHARE ar dar kažką, kad PHARE SPF pateikti tik .doc ir .xls.<br>
+</p>
+<p>
+padaryti, kad ir https://lists.akl.lt matytusi public konfa (zr akl.lnx.lt) tik ash nezinau kaip tai padaryti :)
+</p>
+<p>
+2003 m. balandžio 10 d. Valstybės žinių „Informaciniuose pranešimuose“ Nr. 27 paskelbtas atviras konkursas „Pedagogų kompiuterinio raštingumo kursų organizavimas ir vykdymas“.<br>
+Tomą domina šis klausimas.<br>
+</p>
+Pakalbėti laidoje "Prašau žodžio".<br>
+Reikia padaryti:<br>
+1. naudojančių AKP lietuvoje įmonių sąrašą su sėkmės istorijom - iškart įdėti VU ir kitas nepelno siekiančias.<br>
+2. Linux ir kitų atviro kodo OS skyrelio.<br>
+3. Gerų ir negerų valsybinių puslapių skyrelio (meškiukas galėtų apsiimti ją prižiūrėti)<br>
+4. Prekių ir paslaugų puslapio ir reikia susitarti kokiomis salygomis ir ką mes reklamuosime.
+ Manau, kad už dyką reklamuoti AKL gali tik vien su open source dirbančias įmones.<br>
+5. Susirasti kas Lietuvoje dirba su GRASS<br>
+6. http://freemind.sourceforge.net/ įdėti ir aprašyti
+7. http://foobar2000.org gal įdėti prie multimedia?
+8. Sutvarkyti nuorodas<br>
+9. Apsispręsti dėl AKL main puslapio dizaino, ty. kas turi matytis tame psl.<br>
+10. Susitvarkyti projektų valdymo puslapį.<br>
+11. Įdiegti naujienų rašymo ir komentarų sistemutę.<br>
+
+
+
+Uždaryti šita kontatora nes ji pūna iš vidaus!
+</p>

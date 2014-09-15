@@ -1,0 +1,7 @@
+[properties]
+blurb:text = Kvie\xc4\x8diame Jus paremti asociacijos "Atviras kodas Lietuvai" (AKL) pozicij\xc4\x85, \nkurioje AKL grie\xc5\xbetai pasisako prie\xc5\xa1 P\xc4\xae patentus. T\xc4\x85 galite greitai padaryti \nm\xc5\xabs\xc5\xb3 parengtoje Interneto svetain\xc4\x97je:\n<a href="http://www.akl.lt/parasai">www.akl.lt/parasai</a>.\n\nTaip pat savo svetain\xc4\x97je galite <a href="http://moodle.projektas.lt/pries_PI_patentus/banneriai_platinimui.html">\xc4\xafd\xc4\x97ti banner\xc4\xaf su nuorod\xc4\x85</a> \xc4\xaf \xc5\xa1it\xc4\x85 svetain\xc4\x99.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\')
+date:string = 2005-05-14
+profesionalams:boolean = 0
+title:string = Kvie\xc4\x8diame paremti AKL pozicij\xc4\x85 d\xc4\x97l P\xc4\xae patent\xc5\xb3

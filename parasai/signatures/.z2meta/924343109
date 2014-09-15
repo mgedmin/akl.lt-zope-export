@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 411742660
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 13:32:30.849000 GMT+3
+logo_url:string = 
+mail:string = lbraskus@yahoo.com
+organization:string = Vilniaus Universitetas
+position:string = 
+status:string = fiz_asm
+title:string = Laurynas Bra\xc5\xa1kus
+url_asm:string = 
+url_org:string = 

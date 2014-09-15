@@ -1,0 +1,10 @@
+<p>Paprastesni atviro kodo serveriai veikia jau seniai, tačiau sudėtingose 
+sistemose naudojamos EJB sistemos ilgą laiką reikalavo Sun Microsystems programinės įrangos. 
+Tokiam serveriui reikia operacinės sistemos, java virtualios mašinos ir papildomų modulių kurie 
+J2SE paverstų J2EE. Panaudojus Fedora Linux, GNU Classpath ir JOnaS, pavyko paleisti vien atvirą kodą 
+naudojantį serverį, "įveikiantį" 96.79 visų esamų testų.</p>
+
+<p>Nuorodos: <br />
+<a href="http://www.mail-archive.com/classpath@gnu.org/msg10808.html">www.mail-archive.com/classpath@gnu.org/msg10808.html</a>
+<a href="http://people.redhat.com/~aph/current-jonas-on-gcj-conformance-test-results.html">people.redhat.com/~aph/current-jonas-on-gcj-conformance-test-results.html</a>
+</p>

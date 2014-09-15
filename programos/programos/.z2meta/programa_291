@@ -1,0 +1,5 @@
+[properties]
+categories:string = Pramogai,
+public:boolean = False
+title:string = Battle For Wesnoth
+trumpai:text = Strateginis \xc4\x97jimas-po-\xc4\x97jimo tipo \xc5\xbeaidimas win/mac/unix platformoms. 40-80Mb.

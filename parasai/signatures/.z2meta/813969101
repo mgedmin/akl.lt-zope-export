@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 783534162
+confirmed:boolean = 1
+gen_date:date = 2005/07/01 15:48:29.304000 GMT+3
+logo_url:string = 
+mail:string = vaitke@gmail.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Laurynas Vaitkevi\xc4\x8dius
+url_asm:string = 
+url_org:string = 

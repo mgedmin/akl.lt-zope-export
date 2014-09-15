@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 511736646
+confirmed:boolean = 0
+gen_date:date = 2005/05/17 13:26:5.206000 GMT+3
+logo_url:string = 
+mail:string = zibute
+organization:string = Vilniaus Gedimino technikos universitetas
+position:string = Informacijos ir marketingo grup\xc4\x97s ved\xc4\x97ja
+status:string = kita
+title:string = \xc5\xbdibut\xc4\x97 Adomavi\xc4\x8dien\xc4\x97
+url_asm:string = 
+url_org:string = http://www.vgtu.lt

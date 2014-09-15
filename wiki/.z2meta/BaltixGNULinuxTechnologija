@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:05+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-10-12T20:41:21+00:00
+last_editor:string = mantas
+last_editor_ip:string = 127.0.0.1
+last_log:string = \xc4\xaed\xc4\x97jau launchpad.net/products/live-installer ,kei\xc4\x8diau www.gnoppix.org/wiki/index.php/LiveCDInstaller
+parents:lines = [\'Distribucija\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Baltix GNU/Linux technologija

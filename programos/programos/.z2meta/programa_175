@@ -1,0 +1,5 @@
+[properties]
+categories:string = Mokymui,
+public:boolean = False
+title:string = Tux paint
+trumpai:text = 

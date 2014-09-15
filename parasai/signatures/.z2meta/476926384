@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 847898426
+confirmed:boolean = 0
+gen_date:date = 2005/05/26 11:13:47.039000 GMT+3
+logo_url:string = 
+mail:string = enc.conf@gmail.com
+organization:string = VU Skai\xc4\x8diavimo centras
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Eimantas Vai\xc4\x8di\xc5\xabnas
+url_asm:string = http://blog.hardcore.lt/enc.conf/
+url_org:string = 

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 292155026
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 11:02:3.523000 GMT+3
+logo_url:string = http://www.infosaitas.lt/images/main_logo_5.gif
+mail:string = liutauras@infosaitas.lt
+organization:string = Infosaitas
+position:string = Direktorius
+status:string = imone
+title:string = Liutauras Adomaitis
+url_asm:string = 
+url_org:string = http://www.infosaitas.lt

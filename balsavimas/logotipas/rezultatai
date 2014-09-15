@@ -1,0 +1,20 @@
+## Script (Python) "rezultatai"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+rez = {}
+for doc in container['balsai'].objectValues('DTML Document'):
+    for item in doc.balsai.split(","):
+        rez[item] = rez.get(item, 0) + 1
+results = []
+for key in rez.keys():
+    results.append({
+        'name': key,
+        'value': rez[key]
+    })
+return results

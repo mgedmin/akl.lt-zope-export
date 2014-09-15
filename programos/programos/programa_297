@@ -1,0 +1,10 @@
+<h2>Giminės medžio programa "GRAMPS"<br>
+<a href="http://www.gramps-project.org/windows/">www.gramps-project.org/windows/</a> 
+</h2>
+
+<p>Programa skirta giminės medžiui suvesti, redaguoti, generuoti raportus, tyrinėti genealoginiuo 
+duomenis. GPL licenzija. Nuo 2.2 versijos veikia ir Windowsuose (tiesa reikia 4 papildomų programų)</p>
+
+<p>Jei Windows nustatyta lietuviu kalba, tai programa veikia lietuviškai, tiesa ataskaitose pavardės 
+ir vardai nelinksniuojami. Jei nustatyta kita kalba tai kalbą galima pakeisti naudojant set 
+LANG=LT parametruose arba cmd lange prieš startuojant programą.</p>

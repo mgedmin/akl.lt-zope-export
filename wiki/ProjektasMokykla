@@ -1,0 +1,80 @@
+MOKYKLA
+
+  * Pats pirmiausias ir didžiausias tikslas yra pasiekti tai, kad nuo 2003/09/01 būtų galima *officialiai* mokyklose dirbti su !OpenOffice bei Mozilla ir t.t. - t.y., kad 2004 egzaminus būtų galima laikyti ir su laisva programine įranga.
+
+  * Edu programų pilotinis diegimas mokyklose
+
+  * Mokomųjų programų bei žaidimų lokalizavimas (tuo gali užsiimti bet kas, pvz mokyklos informatikos būrelių metu ir pan.)
+
+
+  Kas padaryta Lietuvoje:
+
+       Keletas programų (Gcompris, !TuxPaint, GIMP) išversta į lietuvių kalbą - žr.: http://www.lietuvybe.org
+
+       Išbandyta ir aprašyta keliolika mokomųjų programų bei žaidimų, veikiančių ir Windows ir Linux aplinkose: http://www.akl.lt/programos
+
+       Parašytas laisvų programų lokalizavimo (vertimo) pradžiamokslis - http://www.akl.lt/dokumentacija
+
+       Kai kuriose mokyklose (pvz Bijotų pagr. mokykloje) naudoja Linux bei laisvas programas.
+
+  Kas padaryta užsienyje:
+
+      Daugelyje šalių yra gaminamos laisvos programinės įrangos distribucijos, skirtos mokykloms bei ikimokyklinėms įstaigoms:
+
+      Prancūzijoje - http://libresoftware-educ.org; www.ofset.org leidžia Freeduc distribuciją, kuri yra padaryta Debian Knoppix bazėje.
+
+      Norvegijoje - http://www.skolelinux.no leidžia Debian Linux pagrindu padarytą distribuciją.
+
+      Latvijoje - http://edu.laka.lv/wiki/edu
+
+      Italijoje - http://www.linuxdidattica.org
+
+      Danijoje - http://www.gnuskole.dk
+
+      Anglijoje - http://osie.sf.net
+
+      Vokietijoje - http://fsub.schule.de/
+
+      Šveicarijoje - http://www.college.ch/linux/index.php, komentaras - http://newsforge.com/article.pl?sid=03/05/27/1514225&mode=thread&tid=23
+
+      http://www.skolelinux.org/
+
+      http://www.tux4kids.org - Tux4Kids projektas
+
+      http://www.gnu.org/education/
+
+      http://edu.kde.org - KDE Edutainment project
+
+      http://www.fsfeurope.org/projects/education - TUX&GNU@school
+
+      http://www.schoolforge.net/, http://opensourceschools.org - atviro kodo programų pradinėms ir vidurinėms mokykloms kūrėjų tinklas 
+
+      http://richtech.ca/seul/ - PROGRAMŲ PORTALAS
+
+      http://fsd.unesco.org/directory/education/ - PROGRAMŲ PORTALAS
+
+      http://www.gnuwin.org/ - GNU programos Windams
+
+      http://k12os.org/, http://www.k12linux.org/, http://k12ltsp.org/
+
+      EduLinux: Prancūzijos-Kanados rinkai. Mandrake 9.1 pagrindu. http://www.ledevoir.com/2003/06/02/28926.html; http://linuxtoday.com/news_story.php3?ltsn=2003-06-03-009-26-NW-RL
+
+  Case studies:
+
+      http://www.k12ltsp.org/casestudy.html
+
+  Nuorodos:
+
+      * http://www.emokykla.lt
+
+      * http://www.tinklas.lt
+
+      * http://www.eurydice.org - švietimo tinklas Europoje
+
+      * http://www.socrates.lt - Minerva (ITC švietime)
+
+      * http://www.euro-cscl.org/ - Computer supported collaborative learning
+
+      * http://www.osef.org - Open Source Education Foundation
+
+      * http://www.proacte.com/projects/Projectlist.asp - Promoting European education and training research and development

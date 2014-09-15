@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+  <base tal:attributes="href request/response/base">
+  <title>Atviras kodas Lietuvai</title>
+  <link rel="stylesheet" type="text/css" 
+        tal:attributes="href python: here.root().absolute_url() + '/style/main.css'">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/gif">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body tal:attributes="class python:not here.isRoot() and 'inner' or 'index'">
+  <div id="main_container">
+    <div id="top_container">
+      <h1 id="main_head"><a href="/" tal:attributes="href python: here.root().absolute_url()" title="Į pradžios tinklalapį"><span>Atviras kodas Lietuvai</span></a></h1>
+      <div id="highlight" tal:content="structure here/hotnews">
+      </div>
+      <ol id="main_menu" tal:content="structure here/menu">
+          <li id="menu1"><a href="#">nuoroda1</a></li>
+          <li id="menu2"><a href="#">nuoroda2</a></li>
+          <li id="menu3"><a href="#">nuoroda3</a></li>
+          <li id="menu4"><a href="#">nuoroda4</a></li>
+          <li id="menu5"><a href="#">nuoroda5</a></li>
+          <li id="menu6"><a href="#">nuoroda6</a></li>
+      </ol>
+      <div id="top_container_bottom"></div>
+    </div>
+
+    <!-- Body -->
+    
+    <div>
+        <h1>Papasakok įdomią naujieną, žmogau!</h1>
+	      <form action="add" method="POST">
+	     <table>
+	     <tr>
+	       <td> Data (YYYY-MM-DD):
+	       <td><input type="text" name="date" tal:attributes="value python: DateTime().strftime('%Y-%m-%d')">
+	     </tr>
+	     <tr>
+	       <td>Antraštė:
+	       <td><input type="text" name="title" size="80">
+	     </tr>
+         <tr>
+           <td>Vardas:</td>
+           <td><input type="text" name="author"/></td>
+         </tr>
+         <tr>
+           <td>El. paštas:</td>
+           <td><input type="text" name="email"/></td>
+         </tr>
+	     <tr>
+	       <td>Trumpai (pirmam puslapiui, nenaudokite &lt;p&gt):
+	       <td><textarea cols="80" rows="5" name="blurb"></textarea>
+	     </tr>
+	     <tr>
+	       <td>Visa naujiena:
+	       <td><textarea cols="80" rows="10" name="body"></textarea>
+	     </tr>
+         <tr>
+           <td>Kategorijos:</td>
+           <td>
+             <table tal:define="cat here/formatCategories">
+             <tr tal:repeat="row cat">
+               <td tal:repeat="col row" style="white-space: nowrap;">
+                 <input type="checkbox" 
+                        tal:attributes="name 
+                                    string:category_${col/num}"/>
+                 <span tal:replace="structure col/name"/>
+               </td>
+             </tr>
+             </table>
+             <!--tal:block tal:repeat="category here/getCategories">
+               <input type="checkbox" 
+                 tal:attributes="name string:category_${repeat/category/number}"/>
+               <span tal:replace="structure category"/>
+             </tal:block-->
+           </td>
+         </tr>
+         <tr>
+           <td>Aktualu tik profesionalams:</td>
+           <td>
+             <input type="radio" value="1" name="profesionalams"/>Taip
+             <input type="radio" value="0" checked="checked"
+                    name="profesionalams"> Ne
+           </td>
+         </tr>
+	     <tr>
+	       <td colspan="2"><input type="submit">
+	       <input type="reset">
+           <div tal:define="username here/REQUEST/AUTHENTICATED_USER"
+                tal:condition="python:username.getUserName()=='Anonymous User'">
+             <br/>
+             <small>
+               (Jūsų naujiena bus publikuota tik po to, kai ją peržiūrės 
+                vienas iš AKL narių.)
+             </small>
+           </div>
+	     </tr>
+	     </table>
+	   </form>   
+    </div>
+    <!-- Footer -->
+    <div id="footer"><p>Autorinės teisės © 2002—2007 Atviras kodas Lietuvai.
+      Svetainės turinys pateikiamas pagal <a href="http://www.gnu.org/copyleft/fdl.html">GNU FDL</a> licenciją be invariantinių skyrių ir priekinio ar užpakalinio viršelio tekstų.
+      Visais klausimais kreipkitės: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#97;&#107;&#108;&#46;&#108;&#116;">&#105;&#110;&#102;&#111;&#64;&#97;&#107;&#108;&#46;&#108;&#116;</a>.
+      Puslapis sukurtas su <a href="http://www.zope.org/Credits">Zope</a>.</p>
+        <!-- phpmyvisites -->
+        <script type="text/javascript">
+        var a_vars = Array();
+        var pagename='';
+
+        var phpmyvisitesSite = 1;
+        var phpmyvisitesURL = "http://stats.akl.lt/phpmyvisites.php";
+        </script>
+        <script type="text/javascript" language="javascript" src="http://stats.akl.lt/phpmyvisites.js" type="text/javascript"></script>
+        <!-- /phpmyvisites -->
+        <div id="footer_bottom"></div>    
+    </div>
+    
+</body>
+</html>

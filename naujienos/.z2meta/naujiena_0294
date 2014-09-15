@@ -1,0 +1,7 @@
+[properties]
+blurb:text = Organizacija "Atviras Kodas Lietuvai" rengia labiausiai atviram kodui nusipelnusiuj\xc5\xb3 \xc5\xbemoni\xc5\xb3 apdovanojimus. \nDaugiau informacijos <a href="http://wiki.akl.lt/Apdovanojimai">wiki.akl.lt/Apdovanojimai</a>.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\')
+date:string = 
+profesionalams:boolean = 0
+title:string = Apdovanojimai

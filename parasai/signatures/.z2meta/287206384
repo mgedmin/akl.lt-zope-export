@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 839991031
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 11:11:15.580000 GMT+3
+logo_url:string = 
+mail:string = freak.wankin@gmail.com
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Justas Rutkauskas
+url_asm:string = 
+url_org:string = 

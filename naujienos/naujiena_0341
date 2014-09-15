@@ -1,0 +1,25 @@
+<p>2005 m. lapkričio mėn. buvo išleista pilnavertės, Lietuvai pritaikytos, operacijų sistemos Baltix GNU/Linux 1.1 versija. Siūlome ją atsisiųsti iš <a href="ftp://ftp.akl.lt/Linux/Baltix/">AKL ftp serverio</a>.</p>
+
+<p><b>Svarbiausių patobulinimų sąrašas:</b></p>
+<ul>
+  <li>Ištaisytos svarbios grafinės įdiegimo programos (ubuntu-express) klaidos (pvz. seniau neveikė įdiegimo programa, jei naudotojo kompiuteryje kietas diskas būdavo prijungtas ne prie pirmojo (primary) IDE kanalo).</li>
+  <li>Padaryta keletas naudingų patobulinimų grafinėje įdiegimo programoje (pvz. dabar veikia automatinis egzistuojančių MS Windows skirsnių prijungimas po įdiegimo).</li>
+  <li>Ištaisyta keletas svarbių Ubuntu 5.10 esančių klaidų:</li>
+  <ol>
+    <li>Jau veikia diskelio (floppy) prijungimas paspaudus ant diskelio ikonos „Kompiuteryje“.</li>
+    <li>Jau veikia NTFS skirsnių dydžio keitimas su Gparted programa.</li>
+    <li>Įdėta finalinė OpenOffice 2.0 versija su lietuvišku vertimu.</li>
+    <li>Įdėti trūkstami leistukai Tuxkart, Sokoban, Pingus bei Šachmatų (eboard) žaidimams.</li>
+    <li>Ištaisytos problemos su 7-zip archyvų formato palaikymu (Ubuntu 5.10 bei Baltix 1.0 paspaudus ant 7z archyvo išmesdavo klaidos pranešimą, 
+kad nėra programos, kuri suprastų šį formatą).</li>
+    <li>Programinės įrangos nustatymuose (software sources) dabar matosi ir 
+išjungtos programinės įrangos paketų saugyklos (paketų šaltiniai).</li>
+    <li>Ištaisytos katalogų bei bylų sulyginimo programos "Meld" klaidos, 
+buvusios Ubuntu 5.10 bei Baltix 1.0 esančioje versijoje.</li>
+    <li>Sudėti Ubuntu 5.10 oficialūs atnaujinimai (jie ištaiso kai kurias 
+nautilus bei 3D grafinių draiverių  nestabilumo problemas).</li>
+  </ol>
+  <li>Standartinė laiko zona nustatyta į lietuvišką ( Europe/Vilnius).</li>
+</ul>
+
+<p>Linkime malonaus naudojimosi nauja Baltix GNU/Linux versija.</p>

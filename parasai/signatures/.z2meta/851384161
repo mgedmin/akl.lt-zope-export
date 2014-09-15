@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 584080601
+confirmed:boolean = 0
+gen_date:date = 2005/06/28 11:15:46.217000 GMT+3
+logo_url:string = 
+mail:string = brovienas@yahoo.com
+organization:string = Curam Software
+position:string = Vyresnysis programin\xc4\x97s \xc4\xafrangos in\xc5\xbeinierius
+status:string = fiz_asm
+title:string = Linas Jakucionis
+url_asm:string = 
+url_org:string = http://www.curamsoftware.com

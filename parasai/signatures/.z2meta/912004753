@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 384987278
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 18:18:6.930000 GMT+3
+logo_url:string = 
+mail:string = srimas@dokeda.lt
+organization:string = 
+position:string = in\xc5\xbeinierius
+status:string = fiz_asm
+title:string = Rimantas Slu\xc5\xa1nys
+url_asm:string = 
+url_org:string = 

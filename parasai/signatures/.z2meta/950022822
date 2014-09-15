@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 938183788
+confirmed:boolean = 1
+gen_date:date = 2005/05/24 13:16:35.441000 GMT+3
+logo_url:string = 
+mail:string = tokul@users.sourceforge.net
+organization:string = 
+position:string = Kompiuterini\xc5\xb3 sistem\xc5\xb3 administratorius ir programuotojas
+status:string = fiz_asm
+title:string = Tomas Kuliavas
+url_asm:string = 
+url_org:string = 

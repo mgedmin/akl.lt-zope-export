@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 857166166
+confirmed:boolean = 1
+gen_date:date = 2005/05/22 09:15:54.530000 GMT+3
+logo_url:string = 
+mail:string = informatikas@skuodas.lt
+organization:string = Skuodo rajono savivaldyb\xc4\x97s administracija
+position:string = Vyresnysis informatikas
+status:string = vyr_org
+title:string = Robertas Lukas
+url_asm:string = 
+url_org:string = 

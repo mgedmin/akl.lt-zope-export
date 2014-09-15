@@ -1,0 +1,35 @@
+Laisvų ir nelaisvų progamų kategoorijos
+
+   Kalbant apie laisvas programas dažnai minimi skirtingi terminai (pvz. Open Source(Atviras kodas), Free Software (Laisvos programos), public domain, Freeware, Shareware...). Ne visi terminai reiškia tą patį.
+
+  <img src="http://www.akl.lt/akl-new/images/category.png" alt="PĮ kategorijos" border="0" height="450">
+
+  Šita Chao-Kuei diagrama vaizdžiai parodo skirtingų programinės įrangos kategorijų tarpusavio priklausomybęs.
+
+<hr>
+
+
+ Laisvos programos (Free software)
+
+  Laisvoji programinė įranga platinama yra su licencija, kuri leidžia kiekvienam naudoti programą nepriklausomai nuo panaudojimo srities, kopijoti ir platinti ją nepakitusia arba su pakeitimais, už dyką arba už pinigus. Iš principo tai reiškia, kad su programa pateikiamas ir išeitinis tekstas. „Programa be išeitinių tekstų - ne programa.“ ("If it's not source, it's not software.")
+
+
+ Atviro kodo programos (Open Source)
+
+  Dažnausiai sakant „Atviros kodas“ turima omenyje „Laisvos programos“. Tačiau šitas terminas gali būti vartojamas ne tik „laisvėms programoms“. OSI (www.opensource.org) patvirtino nemažai licencijų kurias laiko atviro kodo, tačiau kai kurios iš jų turi apribojimų, dėl kuriu jos nėra compatable su laisvom (pvz. GNU GPL) licencijom.
+  Taigi visos laisvos programos yra atviro kodo, bet ne visos atviro kodo programos yra laisvos.
+
+  <b>Svarbu</b> - <i>„Atviras kodas Lietuvai“ laikosi požiūrio, kad „atviro kodo programa“ = „laisvoji programa“, kalbant apie atvira kodą mes visada turime omenyje ir laisvę. Manome, kad naujas terminas FLOSS (Free libre and open source software) labiausiai atspindi mūsų požiūį.</i>
+
+
+ Vieša nuosavybė (Public domain software)
+
+  Public domain programinė įranga, tai programos kurios atiduotos viešai nuosavybei, tokios programos nėra saugomos autorine teise. Jei programos kodas yra vieša nuosavybe, tai galime teigti, kad tokia programą yra laisva, nes kiekvienas gali ja naudotis pagal savo nuožiura, tačiau tam tikros programos modifikacijos (padarytos po to kai programa tavo vieša nuosavybe) gali prarasti lasivę, nes nėra jokiu taisykliu draudžiančiu uždaryti programą.
+
+
+ Copylefted software
+
+  Programos platinamos pagal copyleft tipo licencijas, tai tokios programos, kuriu platinimo sąlygos neleidžia redistributoriams pridėti kokius nors papildomus apribojimus. Kitaip sakant kiekviena programos kopija ir modifikaciją, privalo būti platinama pagal tą pačia licenciją kaip ir pirminė programą. Tai reiškia, kad kiekviena tokios programos kopija (net jei buvo modifikojama), privalo likti laisva.
+
+
+  Paruošta pagal: „Categories of Free and Non-Free Software“ 

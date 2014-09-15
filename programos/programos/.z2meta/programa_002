@@ -1,0 +1,5 @@
+[properties]
+categories:string = Biurui,
+public:boolean = 1
+title:string = Tekst\xc5\xb3 redaktorius \xe2\x80\x9eAbiWord\xe2\x80\x9c
+trumpai:text = Nedidelis, greitas, naudojantis ma\xc5\xbeai kompiuterio resurs\xc5\xb3 (u\xc5\xbetenka 8 MB RAM), i\xc5\xa1verstas \xc4\xaf \nlietuvi\xc5\xb3 kalb\xc4\x85 tekst\xc5\xb3 redaktorius \xe2\x80\x9eAbiWord\xe2\x80\x9c. Supranta \xe2\x80\x9eMS Word\xe2\x80\x9c bei RTF dokument\xc5\xb3 format\xc4\x85. \nDokument\xc5\xb3 keitimuisi su paplitusiomis programomis rekomenduojama naudoti RTF format\xc4\x85. 

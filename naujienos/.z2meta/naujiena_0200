@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Vasario 28 dien\xc4\x85, \xc5\xa1e\xc5\xa1tadien\xc4\xaf, <a\n href="http://www.php.lt/render/News;nid,370">\xc4\xafvyko</a> pirmoji PHP\nprogramavimo kalbos konferencija Lietuvoje. Vilniaus Universiteto\nMatematikos ir\nInformatikos fakultete vykusiame renginyje dalyvavo apie 120\nprogramuotoj\xc5\xb3, besidomin\xc4\x8di\xc5\xb3\nPHP kalba, bei buvo perskaityti 5 prane\xc5\xa1imai. Prane\xc5\xa1imus skait\xc4\x97 didel\xc4\x99\npatirt\xc4\xaf programuojant \xc5\xa1ia programavimo kalba turintys prane\xc5\xa1\xc4\x97jai.</p>
+date:string = 2004-03-01
+title:string = Pirmoji PHP konferencija Lietuvoje

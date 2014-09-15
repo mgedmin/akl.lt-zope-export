@@ -1,0 +1,5 @@
+[properties]
+categories:string = Programavimui,
+public:boolean = False
+title:string = mono, mono-ide
+trumpai:text = Programavimo kalba, aplinka.

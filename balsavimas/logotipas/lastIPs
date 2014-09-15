@@ -1,0 +1,20 @@
+## Script (Python) "lastIPs"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+now = DateTime()
+maxDiff = 15.0 / (24 * 60)
+rez = []
+for doc in container['balsai'].objectValues('DTML Document'):
+    date = doc.bobobase_modification_time()
+    diff = now - date
+#    print doc.getId(), date, diff, maxDiff, diff < maxDiff, doc.IP
+    if diff < maxDiff:
+        rez.append(doc.IP)
+#return printed
+return rez

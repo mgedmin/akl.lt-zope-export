@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 656468468
+confirmed:boolean = 1
+gen_date:date = 2005/05/13 16:04:17.396000 GMT+3
+logo_url:string = 
+mail:string = chemic@whoever.com
+organization:string = VU
+position:string = chemikas
+status:string = fiz_asm
+title:string = Tadas Ragaliauskas
+url_asm:string = 
+url_org:string = 

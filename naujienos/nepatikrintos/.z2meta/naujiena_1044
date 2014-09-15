@@ -1,0 +1,9 @@
+[properties]
+author:string = Ruslanas G\xc5\xbeibovskis
+blurb:text = Atviras kodas bei jo svarba n\xc5\xabdienos visuomen\xc4\x97je, tai \xc5\xa1ia tema diskutuosime Kovo 10 dien\xc4\x85, prie\xc5\xa1 visuotin\xc4\x99 \xc5\xa1vent\xc4\x99! :) Kvie\xc4\x8diame visus \xc4\xaf Vilniuje, Gedimino pr. 9 - 3 auk\xc5\xa1te esant\xc4\xaf <a href="http://www.facebook.com/nvo.avilys" name="deja radau tik feisbuko nuorod\xc4\x85">Avil\xc4\xaf</a> Kovo 10 dien\xc4\x85, 12 val.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'GNU/Linux&nbsp;OS\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2012-03-03
+email:string = lpic.lt@lpic.lt
+profesionalams:boolean = False
+title:string = Atviras kodas bei jo svarba n\xc5\xabdienos visuomen\xc4\x97je

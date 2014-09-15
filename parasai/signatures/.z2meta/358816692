@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 889214478
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 08:23:41.076000 GMT+3
+logo_url:string = http://www.kelme.lt/kelme/images/KelmesH.gif
+mail:string = darijus.j@kelme.lt
+organization:string = Kelm\xc4\x97s rajono savivaldyb\xc4\x97s administracija
+position:string = Informatikos skyriaus ved\xc4\x97jas
+status:string = kita
+title:string = Darijus Janu\xc5\xa1ka
+url_asm:string = 
+url_org:string = http://www.kelme.lt

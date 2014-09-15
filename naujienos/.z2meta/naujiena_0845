@@ -1,0 +1,9 @@
+[properties]
+author:string = Edmondas
+blurb:text = 2006 m. Spalio 18 - 22d. Rygoje vyks Pike programavimo kalbos konferencija.\n \nVienas i\xc5\xa1 prane\xc5\xa1\xc4\x97j\xc5\xb3 - Martinas Nilsonas i\xc5\xa1 Opera Software, kuris pristatys Pike programavimo \nkalbos galimybes ir vystym\xc4\x85si, o Bilas Veliveris supa\xc5\xbeindins su savo FINS MVC Framework projektu. \nBe to bus pristatyta nauja knyga pavadinimu "Pike: An Introduction".
+categories:multiple selection = (\'Programavimas\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x84\\xc2\\x97s&nbsp;teis\\xc3\\x84\\xc2\\x97s\')
+date:string = 2006-09-25
+email:string = eg@zemaitija.net
+profesionalams:boolean = False
+title:string = Pike Konferencija 2006

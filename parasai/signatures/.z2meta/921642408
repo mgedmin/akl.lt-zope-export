@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 302359809
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 14:07:0.303000 GMT+3
+logo_url:string = 
+mail:string = sinfo@intermaks.lt
+organization:string = UAB \xc5\xa0iauli\xc5\xb3 Intermaks
+position:string = Direktorius
+status:string = imone
+title:string = Gintautas \xc5\xa0\xc4\x97poraitis
+url_asm:string = http://www.qsl.net/ly2gv
+url_org:string = http://www.intermaks.lt

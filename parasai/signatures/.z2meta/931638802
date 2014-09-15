@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 117321433
+confirmed:boolean = 0
+gen_date:date = 2005/05/17 13:21:57.278000 GMT+3
+logo_url:string = http://www.vtu.lt
+mail:string = gk\xc4\x8cfm.vtu.lt
+organization:string = VGTU Inforacini\xc5\xb3 technologij\xc5\xb3 katedra
+position:string = katedros ved\xc4\x97jas
+status:string = nepelno
+title:string = Genadijus Kulvietis
+url_asm:string = 
+url_org:string = http://www.vtu.lt

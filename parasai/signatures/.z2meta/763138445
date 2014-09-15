@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 879527509
+confirmed:boolean = 1
+gen_date:date = 2005/05/30 03:47:3.785000 GMT+3
+logo_url:string = http://www.tavo.net/images/tavo-logo.jpg
+mail:string = mantas@tavo.net
+organization:string = www.tavo.net
+position:string = Studentas, Administratorius.
+status:string = fiz_asm
+title:string = Mantas Kalausis
+url_asm:string = http://www.tavo.net
+url_org:string = http://www.tavo.net

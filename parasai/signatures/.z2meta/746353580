@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 128051998
+confirmed:boolean = 1
+gen_date:date = 2005/05/30 18:52:51.937000 GMT+3
+logo_url:string = 
+mail:string = donisa@gmail.com
+organization:string = 
+position:string = web programuotojas
+status:string = fiz_asm
+title:string = Donatas Aleksandravi\xc4\x8dius
+url_asm:string = http://www.wdev.biz
+url_org:string = 

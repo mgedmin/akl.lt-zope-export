@@ -1,0 +1,41 @@
+DIEGIMO ÐVENTË
+2004 03 20 d., Ðilutë
+
+
+
+DALYVIO ANKETA
+
+o Vardas
+
+o Pavardë
+
+o Amþius
+
+o Kontaktai
+
+
+o Á renginá turite atsineðti savo kompiuterá su visa, kasdien naudojama komplektacija. Nurodykite kompiuterio technines charakteristikas:
+
+	* atmintis (RAM):
+
+	* kietasis diskas / laisvos vietos diske:       /  
+
+	* procesorius:
+
+	* kiti parametrai:
+
+	* jei turite CD-ROM, tinklo kortà, taip pat atsineðkite
+
+	* jei naudojate printerá, skenerá, juos taip pat atsineðkite, jei tik yra galimybë
+
+
+o Distribucija. Jei neturite specialiø pageidavimø operacinei sistemai, tuomet diegsime "GNU/Linux" distribucijà "Knoppix" su grafine aplinka ir programomis: paðto, Interneto, teksto redagavimo, vaizdø apdorojimo, audio, video, edukacinëmis ir kt. Jei norite konkreèios distribucijos ar papildomø programø, áraðykite pageidavimus èia (jei negalësime iðpildyti jûsø nurodytø pageidavimà - informuosime apie tai):
+
+	* distribucija:
+
+	* programos: 
+
+
+
+
+Anketà siøskite info@akl.lt. Jei turi klausimø, taip pat raðykite info@akl.lt.

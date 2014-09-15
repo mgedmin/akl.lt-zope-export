@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 181090405
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 17:26:37.538000 GMT+3
+logo_url:string = 
+mail:string = domas@micro.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Domas Janickas
+url_asm:string = 
+url_org:string = 

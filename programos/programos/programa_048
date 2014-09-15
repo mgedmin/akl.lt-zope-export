@@ -1,0 +1,12 @@
+<h2>Bylų kontrolinių sumų generavimo ir tikrinimo programa "Md5summer" <br>
+<a href="http://www.md5summer.org" target="_blank">www.md5summer.org</a>
+<a href="http://www.md5summer.org">
+  <img src="md5summer.jpg" width="300" alt="md5summer-generate/chekcking" border="0" class="rphoto">
+</a>
+</h2>
+<p>
+Su šia programa galėsite sugeneruoti norimų bylų kontrolines sumas (md5sums), pagal kurias paskui galėsite
+patikrinti (taip pat su šia programa) ar nepasikeitė tos bylos. Tai ypač naudinga siunčiant didelias bylas 
+internetu bei saugant informaciją CD/DVD diskuose ar diskeliuose, kadangi jūs 100% žinosite ar nesusigadino 
+jums svarbios bylos.
+</p>

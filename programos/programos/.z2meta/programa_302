@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = True
+title:string = T\xc5\xabrinio valdymo sistema "ImpressPages"
+trumpai:text = Lengva ir greita atviro kodo turinio valdymo sistema, leid\xc5\xbeianti turin\xc4\xaf valdyti drag&drop ("tempk ir paleisk") principu. Sistema sukurta su PHP/MySQL, lengvai konfig\xc5\xabruojama, galima lengvai prapl\xc4\x97sti funkcionalum\xc4\x85 pagal individualius poreikius. Dirbti su \xc5\xa1ia sistema gali net ir techninio i\xc5\xa1silavinimo neturintis \xc5\xbemogus. Daugelis dalyk\xc5\xb3 automatizuota, tad nebereikia r\xc5\xabpintis nuotrauk\xc5\xb3 dyd\xc5\xbei\xc5\xb3, \xc5\xa1riftais, tarpais ar teksto formatavimu.

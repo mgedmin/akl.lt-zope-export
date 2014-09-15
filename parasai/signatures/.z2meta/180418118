@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 103398057
+confirmed:boolean = 1
+gen_date:date = 2005/08/09 11:44:39.631000 GMT+3
+logo_url:string = 
+mail:string = bacius@gmail.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Donatas Bacius
+url_asm:string = 
+url_org:string = 

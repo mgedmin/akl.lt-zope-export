@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>I\xc5\xa1leista biuro program\xc5\xb3 rinkinio <a href="http://www.openoffice.org/">\xe2\x80\x9eOpenOffice\xe2\x80\x9c</a> 1.1 versija. Lyginant su ankstesne versija, atsirado nema\xc5\xbeai patobulinim\xc5\xb3. Pagrindin\xc4\x97s naujov\xc4\x97s: trumpesnis programos paleidimo laikas, patobulintas suderinamumas su \xe2\x80\x9eMicrosoft Office\xe2\x80\x9c programomis, galimyb\xc4\x97 i\xc5\xa1saugoti bylas PDF ir SWF (Macromedia Flash) formatais.\n</p>
+date:string = 2003-10-01
+title:string = I\xc5\xa1leista \xe2\x80\x9eOpenOffice\xe2\x80\x9c 1.1 versija

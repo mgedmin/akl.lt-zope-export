@@ -1,0 +1,49 @@
+Čia bus rašomos Baltix/Ubuntu/Debian distribucijoms skirtos programos, kurios sudarys mokykloms skirtų programų sąrašą.
+
+*Dėmesio !* Rašykite tik mokslui/mokymui/edukacijai skirtas programas, jau egzistuojančių Baltix/Ubuntu baziniam pakete esančių programų (kaip OpenOffice.org ar interneto naršyklė) nerašykite.
+
+Sąrašą darysime http://lt.wikipedia.org/wiki/Atviro_kodo_program%C5%B3_s%C4%85ra%C5%A1as pagrindu, geriausia būtų jei naudingas programas dėtumėte ir čia ir ten.
+
+Skyriai:
+
+ Chemija
+
+  - Molekolių dėlionė Atomix (http://gnomefiles.org/app.php/Atomix)
+
+  - 2D cheminių struktūrų bei formulių redaktorius GNOME2 aplinkai (http://www.nongnu.org/gchempaint/)
+
+ Matematika (algebra, geometrija ir pan.)
+
+  -  wxMaxima cross platform GUI for the computer algebra system maxima (http://wxmaxima.sf.net)
+
+  - GeoGebra is a free and multi-platform dynamic mathematics software for schools that joins geometry, algebra and calculus. It received several international awards including the European and German educational software awards. (http://www.geogebra.org)
+
+  - KIG/DrGeo (panašūs į GeoGebra)
+
+  - Scilab mokslinis programų paketas, skirtas skaitmeniniams skaičiavimams mokslo ir inžinerijos taikymuose, panašus į "Maple" ar "Matlab" paketus (http://www.scilab.org)
+ 
+ Fizika
+
+  - 
+
+ Astronomija
+
+  -
+
+ Istorija
+
+  -
+
+ Programavimui
+
+  - PyIDE
+
+  - Pascal IDE, gal Lazarus ar FreePasscal IDE (http://www.freepascal.org)
+
+ Kompiuterio pažinimui
+
+  - Pelės/klaviatūros  treniruoklis TuxType (versija 1.5 ar naujesnė) / Gcompris
+
+ Mokymo/testavimo įrankiai
+
+  - Gal kokį KEduca ar pan. ?

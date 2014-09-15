@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 213469829
+confirmed:boolean = 1
+gen_date:date = 2005/06/25 21:59:21.721000 GMT+3
+logo_url:string = 
+mail:string = junerijus@yahoo.com
+moder_denied:string = Saulius Gra\xc5\xbeulis: nikai nepriimtini 2005.06.25
+moder_ok:string = 
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = junerijus
+url_asm:string = http://skelbk.puslapiai.lt
+url_org:string = 

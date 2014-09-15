@@ -1,0 +1,7 @@
+[properties]
+blurb:text = Jau galima balsuoti u\xc5\xbe labiausiai Atviram Kodui nusipelnius\xc4\xaf \xc5\xbemog\xc5\xb3.\nBalsavimo form\xc4\x85 <a href="http://www.akl.lt/balsavimas">\xc4\x8dia</a>.<br>\nDaugiau informacijos <a href="http://wiki.akl.lt/Apdovanojimai">wiki.akl.lt/Apdovanojimai</a>.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\')
+date:string = 2005-05-17
+profesionalams:boolean = 0
+title:string = BALSAVIMAS u\xc5\xbe labiausiai Atviram Kodui nusipelniusius \xc5\xbemones

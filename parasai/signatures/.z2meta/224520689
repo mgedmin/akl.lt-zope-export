@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 615565296
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 20:10:50.652000 GMT+3
+logo_url:string = 
+mail:string = kestasp@dokeda.lt
+organization:string = Studentas (KTU IF)
+position:string = Studentas
+status:string = fiz_asm
+title:string = Kestutis Plieskis
+url_asm:string = 
+url_org:string = 

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 911512618
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 15:39:35.713000 GMT+3
+logo_url:string = 
+mail:string = tinklapiai@gmail.com
+organization:string = 
+position:string = Lan admin
+status:string = fiz_asm
+title:string = Mindaugas \xc5\xbdvirblis
+url_asm:string = http://www.spruk.net/
+url_org:string = 

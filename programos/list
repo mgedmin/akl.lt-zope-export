@@ -1,0 +1,27 @@
+## Script (Python) "list"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+return [
+    'biurui.html',
+    'internetui.html',
+    'projektavimui.html',
+    'programavimui.html',
+    'vaizdui.html',
+    'multimedia.html',
+    'dbserveriai.html',
+    'webserveriai.html',
+    'gis.html',
+    'mokymui.html',
+    'finansams.html',
+    'pramogai.html',
+    'vertimui.html',
+    'zodynai.html',
+    'kitos.html',
+#    'add.html',
+]

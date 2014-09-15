@@ -1,0 +1,14 @@
+<h2>2D grafikų braižymo programa „Grace“<br>
+<a href="http://plasma-gate.weizmann.ac.il/Grace/">plasma-gate.weizmann.ac.il/Grace</a></h2>
+<a href="http://plasma-gate.weizmann.ac.il/Grace/">
+  <img src="images/grace_main.png" alt="Grace pavyzdys" border="0" class="rphoto">
+    </a>
+<p>
+„Grace“ yra WYSIWYG programa, skirta 2D grafikų braižymui ir
+manipuliavimui duomenimis. Atlieka beveik viską, ką
+galima daryti grafinėje aplinkoje (galima ir iš komandinės eilutės). Programa naudotis 
+labai patogu grafikų braižymo automatizavimui.<br>
+Galbūt vienas iš trūkumų yra neįprasta grafinė aplinka, tačiau
+tai trūkumas tik pradedantiesiems, nes nesunku priprasti. Taip pat - nėra išsamios dokumentacijos.<br>
+„Grace“ veikia visose „Unix“ tipo operacinėse sistemose, taip pat OS/2, Win9*/NT/2000/XP.
+</p>

@@ -1,0 +1,20 @@
+## Script (Python) "fix_encoding"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=text
+##title=
+##
+# If you do
+#   tal:replace="structure here/a_page_template",
+# here.a_page_template() will return unicode and all will be well.
+# If you do
+#   tal:replace="structure here/a_dtml_document",
+# here.a_dtml_document() will return a UTF-8 string and Zope will explode
+
+if not isinstance(text, unicode):
+    text = unicode(text, 'UTF-8')
+
+return text

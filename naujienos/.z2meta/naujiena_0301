@@ -1,0 +1,7 @@
+[properties]
+blurb:text = 2005-03-18 d. "NK straipsniuose" publikuojama Ry\xc4\x8dio Liaudansko parengta turinio valdymo sistem\xc5\xb3 ap\xc5\xbevalga "Nemokamos turinio valdymo sistemos". Straipsn\xc4\xaf rasite <a href="http://nkm.lt/index.phtml?lst=article&amp;action=view_article&amp;id=791">\xc4\x8dia</a>.
+categories:multiple selection = (\'Interneto&nbsp;programos\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x83\\xc2\\x83\\xc3\\x82\\xc2\\x83\\xc3\\x83\\xc2\\x82\\xc3\\x82\\xc2\\x85\\xc3\\x83\\xc2\\x83\\xc3\\x82\\xc2\\x82\\xc3\\x83\\xc2\\x82\\xc3\\x82\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x83\\xc2\\x83\\xc3\\x82\\xc2\\x83\\xc3\\x83\\xc2\\x82\\xc3\\x82\\xc2\\x84\\xc3\\x83\\xc2\\x83\\xc3\\x82\\xc2\\x82\\xc3\\x83\\xc2\\x82\\xc3\\x82\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\')
+date:string = 2005-05-01
+profesionalams:boolean = 0
+title:string = "Nemokamos turinio valdymo sistemos"

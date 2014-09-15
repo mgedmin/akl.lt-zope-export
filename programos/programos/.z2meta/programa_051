@@ -1,0 +1,5 @@
+[properties]
+categories:string = Mokymui,
+public:boolean = 1
+title:string = Astronomijos mokymo programa \xe2\x80\x9eCelestia\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eCelestia\xe2\x80\x9c - tai trimat\xc4\x97 realaus laiko kosmin\xc4\x97s erdv\xc4\x97s modeliavimo programa, \nleid\xc5\xbeianti visapusi\xc5\xa1kai susipa\xc5\xbeinti su Visata. Skirtingai nei paprastos planetariumo programos, \nji n\xc4\x97ra susieta su \xc5\xbdeme. J\xc5\xabs galite keliauti po Saul\xc4\x97s sistem\xc4\x85, \xc4\xaf bet kuri\xc4\x85 i\xc5\xa1 \xc5\xa1imto \nt\xc5\xabkstan\xc4\x8di\xc5\xb3 \xc5\xbevaig\xc5\xbed\xc5\xbei\xc5\xb3 ar net u\xc5\xbe m\xc5\xabs\xc5\xb3 Galaktikos ribos.

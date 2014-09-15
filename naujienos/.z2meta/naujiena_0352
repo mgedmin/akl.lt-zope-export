@@ -1,0 +1,9 @@
+[properties]
+author:string = Jaro
+blurb:text = Ateinant naujiems metams, visi kuriame naujus planus, norime ka\xc5\xbekuo patobul\xc4\x97ti. Visuomenin\xc4\x97 organizacija \xe2\x80\x9eAtviras kodas Lietuvai\xe2\x80\x9c kvie\xc4\x8dia naujaisiais metais pam\xc4\x97ginti atsisakyti piratini\xc5\xb3 program\xc5\xb3 ir skelbia akcij\xc4\x85: \n<b>Laisviems \xc5\xbemon\xc4\x97ms \xe2\x80\x93 laisvos programos!</b>
+categories:multiple selection = (\'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x84\\xc2\\x97s&nbsp;teis\\xc3\\x84\\xc2\\x97s\')
+date:string = 2006-01-01
+email:string = jaro@akl.lt
+profesionalams:boolean = 0
+title:string = Laisviems \xc5\xbemon\xc4\x97ms \xe2\x80\x93 laisvos programos!

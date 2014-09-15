@@ -1,0 +1,3 @@
+<p>Ne kartą viešai skelbusi, kad „Linux“ netinka įmonėms, „Microsoft“ pati <a href="http://uptime.netcraft.com/up/graph/?host=www.microsoft.com">naudoja</a> „Linux“, kad apsaugotų serverius nuo atakų.<br>
+Praeitą savaitę „Microsoft“ pakeitė DNS serverio konfigūracijas. Užklausas, siunčiamas į <a href="http://www.microsoft.com">www.microsoft.com</a> gauna Akamai sistema, dirbanti „Linux“ operacinėje sistemoje, o ne „Microsoft“ kompiuteris. Plačiau apie tai skaitykite <a href="http://story.news.yahoo.com/news?tmpl=story&cid=74&ncid=74&e=4&u=/cmp/20030821/tc_cmp/13100775">straipsnyje</a> bei <a href="http://news.netcraft.com/archives/2003/08/17/wwwmicrosoftcom_runs_linux_up_to_a_point_.html">„Netcraft“</a> komentaruose.
+</p>

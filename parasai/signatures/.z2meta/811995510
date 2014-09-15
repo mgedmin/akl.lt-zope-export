@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 779600816
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 11:11:3.551000 GMT+3
+logo_url:string = http://www.lrtc.lt/images/a_bokstas.gif
+mail:string = donatas@lrtc.net
+moder_denied:string = 
+moder_ok:string = JP - reiktu pervesti \xc4\xaf fiz_asm, nes negavau patvirtinimo, kad valdyba sutinka, bet gal mano mail\'a praziurejo, or so.., gaila but, gera imon\xc4\x97..
+organization:string = AB LRTC
+position:string = NOC inzinierius
+status:string = imone
+title:string = Donatas Gendvilas
+url_asm:string = 
+url_org:string = http://www.lrtc.lt

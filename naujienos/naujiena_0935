@@ -1,0 +1,21 @@
+<p>Atviro kodo bei laisvosios įrangos pasaulis sveikina Sun Microsystems apsisprendimą pateikti visus 
+populiarios java programavimo sistemos išeities kodus su GPL licenzija. „Manau, jog Sun prisidėjo prie 
+laisvosios įrangos kūrimo daugiau nei bet kuri kita kompanija ar bendruomenė.“ - teigia GPL licencijos autorius 
+Ričardas Stalmanas. „Ji elgiasi kaip tikras lyderis. Ji yra pavyzdys, kuriuo, aš viliuosti, seks kiti.“</p>
+
+<p>Java ilgą laiką buvo kritikuojama kaip „nelaisva“ kalba, kuria parašytos programos galėjo veikti tik kartu 
+su nemokamai platinamomis, tačiau pagal licenzijas atvirajam kodui nepriklausančiomis pagalbinėmis bibliotekomis. 
+Ne kartą ją buvo siūloma kur įmanoma keisti C, Python ar kitomis „tikrai laisvomis“ alternatyvomis. 
+Vėliau išsivystė alternatyvūs projektai (GNU Classpath, Apache Harmony), kurių kuriamų java vykdymo sistemų 
+kokybė šiuo metu priartėjo prie tinkamos plačiam praktiniam naudojimui. Tikėtina, jog šių projektų atviro 
+kodo pasauliui dar prireiks atviru kodu pakeisti toms Sun Microsystems java dalims, kurių pateikti atviro 
+kodo forma Sun neturi galimybės, nes jas ji pati pirko kitur.</p>
+
+<p>Sun atveria ne tik „standartinę“ J2SE, bet ir sudėtingiems tinklalapiams skirtą J2EE bei mobilioms sistemoms 
+skirtą J2ME bibiliotekas.</p>
+
+<p>Nuorodos:</p>
+[1] <a href="http://www.fsf.org/licenses/gpl.html">„GNU General Public License“</a>
+<br />[2] <a href="http://www.sun.com/2006-1113/feature/story.jsp">„Sun Opens Java“</a>
+<br />[3] <a href="http://www.gnu.org/philosophy/java-trap.html">„Free But Shackled — The Java Trap“</a>
+<br />[4] <a href="http://www.gnu.org/software/classpath/">„GNU Classpath“</a>

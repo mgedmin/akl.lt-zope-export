@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 163387225
+confirmed:boolean = 0
+gen_date:date = 2005/06/10 17:04:1.302000 GMT+3
+logo_url:string = http://diskusijos.net/dmx/and1/images/index_01.gif
+mail:string = alekna111@one.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Alekna
+url_asm:string = http://and1.666.lt
+url_org:string = http://and1.666.lt

@@ -1,0 +1,8 @@
+[properties]
+confirm_id:string = 379870420
+confirmed:boolean = 1
+email:string = mindas@ziedas.ktu.lt
+glodenis:int = 1
+kriauciunas:int = 2
+romena:int = 3
+title:string = mindas@ziedas.ktu.lt

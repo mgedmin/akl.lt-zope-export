@@ -1,0 +1,260 @@
+Laisvos programos biurui
+
+
+ *Tikslai:*
+
+  Sukurti kokybiška laisvų biuro programų CD, kuris taptų alternatyvą brangiems nuosavybiniams paketams.  
+
+  Tokiu būdų bus skatinamas atviro standarto (OpenDocument) plitimas Lietuvoje. Naudotojas turės pasirinkimo laisvę. Atviro kodo programinė įranga taps labiau žinoma Lietuvos naudotojams.
+
+  Laisvų biuro programų kompaktinis diskas privalo būti platinamas daugumoje kompiuterinių parduotuvių. 
+
+  Manaau tame CD turėtų būti patalpinta ir tokia reklaminė medžiaga, kaip kad punktai kuo OpenOffice.org 2.x (CD "Laisvos programos biurui" yra geriau nei) MS Works bei kuo geriau nei MS Office, žr.: OpenOfficevsMS
+
+ *Komponentai (CD turinys):*
+
+   - OpenOffice.org 2 (angliška ir lietuviška? versijos + lietuviški, rusiški bei lenkiški kalbos paketai)
+
+   - OpenOffice.org 2 lietuviška dokumentacija
+
+   - Naudingi OpenOffice.org 2 priedai (SVG palaikymui ir pan.)
+
+   - Klausimai ir atsakymai į dažniausius su OpenOffice.org susijusius klausimus (web'e irgi)
+
+   - OpenOffice dokumentu šablonai (Lietuviški ir ne tik, ypač reikia OpenOffice.org Draw bei Impress)
+
+   - OpenOffice paveiksliukų galerija (http://www.OpenClipart.org)
+
+   - Mozilla Firefox (sulietuvinta ir anglų versijos + lietuvizavimo paketai)
+
+   - Mozilla Thunderbird (sulietuvinta ir anglų versijos + Lietuvizacimo paketai)
+
+   - Mozilla Calendar/Sunbird/Lighting (kalendoriaus programa)
+
+   - Naudingi Mozilla Firefox, Thunderbird priedai ir jų aprašymai 
+
+   - OpenDict žodynas
+
+   - Visų programų aprašymai  Šie  Šiame. Šiame. Šitie Šiandien šiandien
+
+   - Speciali el.pašto konferencija (?)
+
+   - Spausdinta OpenOffice dokumentacija (?)
+
+   - Video pamokos
+
+   - Bylų į OpenDocument konvertavimo programa
+
+   - Antivirusinė programa (Clamwin.com, clammail.com + clamwin pluginai naršyklėms)
+
+   - Grafikos redagavimo programos - GIMP + GIMPShop?(Aprašymas yra NK ar Kompiuterijoj) + Inkscape + QGis?
+
+ *Padaryti darbai*
+
+   - Sulietuvinti OpenOffice.org 2  (Dagienė)
+
+   - Sulietuvinti Mozilla Firefox
+
+
+ *Numatomi darbai:*
+
+   - Surasti nors vieną žmogų, kuris galėtų užsiimti organizavimu ir dokumentacijos testavimu (Jaro ir visi kiti, iki Sausio 7)
+
+   - Paruošti Laisvų biuro programų CD viršelius (GIMP,???)
+
+   - Sulietuvinti OpenOffice.org 2 žinyną arba paruošti ir patikrinti lietuvišką dokumentaciją kitokioj formoj (Dagienė???)
+
+   - Pabaigti OpenDict LED priedų licencinius (tame tarpe ir licencijų pirkimo) reikalus (Jaro, iki Sausio 11)
+
+   - Sulietuvinti ir ištestuoti Mozilla Thunderbird, Calendar/Sunbird/Litghting (?) (Dagienė)
+
+   - Ištestuoti OpenOffice.org 2 suderinamumą su dažniausiai Lietuvoje naudojamais dokumentų formom (VMI deklaracijos ...) ir pranešti apie klaidas VMI bei OpenOffice.org kūrėjams  (???)
+
+   - Ištestuoti/padaryti OpenClipart bei įvairių OpenOffice (OpenDocument) šablonų integraciją su OpenOffice.org 2.0.x versija (Mantas, iki Sausio 11)
+
+   - Ištestuoti kaip veikia kalbos paketų įdiegimas į OpenOffice.org 2 (ar nesusigadina kai kurios, pvz Turinio funkcijos, įterpimas ar stilių pavadinimai, po kalbos paketo įdiegimo (Rusų ir Lenkų testuos Jaro)
+
+   - Parašyti trumpus programų aprašymus (Jaro ... )
+
+   - Paruošti OpenOffice.org dokumentaciją (reikia konretizuoti sritis, nes visa per daug)
+
+     - įdiegimas (Yra parašyta zeturijos, mantas jiems davė anglišką tekstą, ???)  
+
+   - Paruošti dokumentų šablonus (reiki išskirstyti, po truputį ir konkretizuoti) 
+     - vmi.lt (???)
+     - (???)
+
+   - Surinkti ir aprašyti Mozilla priedus (Jaro)
+
+   - Ištestuoti atvirirusines programas bei antivirsų priedus naršyklėms (Mantas, iki Sausio 13)
+
+   - Sukurti patogia diegimo programą (Jaro)
+
+   - Sukurti diegimo programos dizainą (Jaro susitars su dizaineriais, Styx' vieną pažista)
+
+   - Sukurti patrauklu kompakto dizainą (Jaro susitars su dizaineriais)
+
+   - Susitarti su CD platintojais (Jaro)
+
+   - Susitarti su CD gamyba (Jaro)
+
+   - Paruošti lankstinukus apie OpenOffice.org ir atvirus standartus Infobalt parodai (???)
+
+   - Parengti video pamokas (ne būtinas, bet naudingas komponentas)
+
+     - Video pradžiamokslis. Filmukas kuriame pavaizduojamos dažniausiai naudojamos OO.org funkcijos (fone balsas aiškina kas vyksta)
+   
+     - Filmukas kuriame pavaizduojamos reikalingos, bet sudetingėsnės OO.org funkcijos. (fone balsas aiškina kas vyksta)
+
+   - Paruošti minimalia produkto svetainę (Vytautas, http://openoffice.lt/index.php http://lt.openoffice.org)
+
+   - Lietuviška OpenOffice bugzilla/helpdesk (Vytautas) 
+
+   - Sukurti el.pašto konferenciją (???) (lt.openoffice.org turi konferencijas, deja registacijos puslapis ne lietuvių kalba)
+
+   - Atidirbti el.pašto supporto schemą (???)
+
+   - Sukurti paketo programų pristatymus (gal video/flash/screensaver ar pan.) (???)  
+
+       - text (???)  
+
+       - calc (???)  
+
+       - ... (???)  
+
+
+ Tai kol kas gana grubus projektas. Jis netinka rėmėjams ieškoti. bet gali tarnauti kaip orientacinis. 
+
+
+From jaro Wed Sep 28 15:00:56 +0300 2005
+From: jaro
+Date: Wed, 28 Sep 2005 15:00:56 +0300
+Subject: OO.org 2 linux versijos bugai
+Message-ID: <20050928150056+0300@wiki.akl.lt>
+
+Jei spelingą instaliuoji neturėdamas root teisių su "File-Wizards-Install new dictionaries" tai spelingas neveikia :(
+Įtariu kad išvis neveikia jei userio kataloge sumeti.
+
+From jaro Wed Sep 28 15:02:22 +0300 2005
+From: jaro
+Date: Wed, 28 Sep 2005 15:02:22 +0300
+Subject: Spelling bugas
+Message-ID: <20050928150222+0300@wiki.akl.lt>
+
+Kartais parašius žodį „Šie“, „Šiame“ iš diedelės „Š“ jį pabraukia, nors žodis teisingas. 
+
+
+From vytis Wed Sep 28 18:08:00 +0300 2005
+From: vytis
+Date: Wed, 28 Sep 2005 18:08:00 +0300
+Subject: sena problema
+Message-ID: <20050928180800+0300@wiki.akl.lt>
+
+šiaip jau aš prieš metus apie tai pranešiau http://qa.openoffice.org/issues/show_bug.cgi?id=35287
+
+From jaro Mon Oct 3 09:29:17 +0300 2005
+From: jaro
+Date: Mon, 03 Oct 2005 09:29:17 +0300
+Subject: va dar vienas OOo 2.0 bug'as
+Message-ID: <20051003092917+0300@wiki.akl.lt>
+
+kai darai compare documents ir dokumentai pasitaiko vienodi tai neišmeta jokio pranešimo ar dialogo - atrodo kad ta komanda paprasčiausiai nesuveikė :(
+
+From unknown Mon Jan 16 15:27:36 +0200 2006
+From: 
+Date: Mon, 16 Jan 2006 15:27:36 +0200
+Subject: o tai viskas tik VVindausams?
+Message-ID: <20060116152736+0200@wiki.akl.lt>
+
+Visos programos bus tik VVindausams?
+Visos programos bus tik lietuvių kalba ar ir kitomis?
+
+From unknown Mon Jan 16 15:39:25 +0200 2006
+From: 
+Date: Mon, 16 Jan 2006 15:39:25 +0200
+Subject: Koks progresas? (vytautas)
+Message-ID: <20060116153925+0200@wiki.akl.lt>
+
+atsakingi zmones galetu parasyti kokia padetis prie darbu.
+
+From unknown Mon Jan 16 15:45:26 +0200 2006
+From: 
+Date: Mon, 16 Jan 2006 15:45:26 +0200
+Subject: VLC (vytautas) 
+Message-ID: <20060116154526+0200@wiki.akl.lt>
+
+Reikia būtinai įdėti VLC media player (www.videolan.org), jis moka groti daugeli media formatų ir nereikalauja jokių kodekų įdiegimo. Žmonės labai dažnai diegdami kodekus kartu paleidžia viskokias šnipinėjimo, spaminimo, virusų siuntimo ir pan programas.
+
+
+
+From unknown Mon Jan 16 16:18:28 +0200 2006
+From: 
+Date: Mon, 16 Jan 2006 16:18:28 +0200
+Subject: OO bei mozillos bus ir Win ir Lin :)
+Message-ID: <20060116161828+0200@wiki.akl.lt>
+
+Situacija tokia, kad mums reikia pagalbos.
+LPB ne LPCD, todėl čia bus nedaug programų, tik tai kas būtina darbui biure. Vlc būtinai įtrauksime į LPCD3. 
+LPCD programos bus tik for Windows, bet jų bus daug. LPB programos bus ir Windows ir Linux :)
+
+From unknown Mon Jan 16 16:37:00 +0200 2006
+From: 
+Date: Mon, 16 Jan 2006 16:37:00 +0200
+Subject: OpenOffice.lt (vytautas)
+Message-ID: <20060116163700+0200@wiki.akl.lt>
+
+OpenOffice.lt jau padarytas, tai veikiantis ir gyvas puslapis.
+
+From unknown Mon Jan 16 16:40:13 +0200 2006
+From: 
+Date: Mon, 16 Jan 2006 16:40:13 +0200
+Subject: OO bei mozillos bus ir Win ir Lin :)
+Message-ID: <20060116164013+0200@wiki.akl.lt>
+In-Reply-To: <20060116161828+0200@wiki.akl.lt>
+
+paaiškinkite kas yra kas? LPCD, LPB, LPCD3.   
+
+From unknown Mon Jan 16 18:14:34 +0200 2006
+From: 
+Date: Mon, 16 Jan 2006 18:14:34 +0200
+Subject: SVG (vytautas)
+Message-ID: <20060116181434+0200@wiki.akl.lt>
+
+SVG Import Filter for OpenOffice 2.0 http://www.ipd.uka.de/~hauma/svg-import/
+Labai geras dalykas, pvz, galima būtų atidaryti Coreliu (ir uzsaugotus SVG formatu) arba inkscape sukurtus dokumentus atidaryti su OpenOffice.
+
+From unknown Sun Jul 2 00:20:20 +0300 2006
+From: 
+Date: Sun, 02 Jul 2006 00:20:20 +0300
+Subject: <a href='http://www.ringtones-dir.com'
+Message-ID: <20060702002020+0300@www.akl.lt>
+
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... <a href='http://www.ringtones-dir.com'>free ringtones</a> : [http://www.ringtones-dir.com download ringtones] - [HTTP://www.ringtones-dir.com download ringtones] : [nokia ringtones|http://www.ringtones-dir.com] - [nokia ringtones|HTTP://www.ringtones-dir.com] : http://www.ringtones-dir.com/download/ : [[http://www.ringtones-dir.com ring tones]] : [[http://www.ringtones-dir.com | ringtones download]] : "samsung ringtones" http://www.ringtones-dir.com : [http://www.ringtones-dir.com|ringtones free] </u>
+              
+
+From unknown Sun Jul 2 11:53:18 +0300 2006
+From: 
+Date: Sun, 02 Jul 2006 11:53:18 +0300
+Subject: <a href='http://www.ringtones-dir.com'
+Message-ID: <20060702115318+0300@www.akl.lt>
+
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... <a href='http://www.ringtones-dir.com'>free ringtones</a> : [http://www.ringtones-dir.com download ringtones] - [HTTP://www.ringtones-dir.com download ringtones] : [nokia ringtones|http://www.ringtones-dir.com] - [nokia ringtones|HTTP://www.ringtones-dir.com] : http://www.ringtones-dir.com/download/ : [[http://www.ringtones-dir.com ring tones]] : [[http://www.ringtones-dir.com | ringtones download]] : "samsung ringtones" http://www.ringtones-dir.com : [http://www.ringtones-dir.com|ringtones free] </u>
+              
+
+From unknown Mon Jul 10 03:09:33 +0300 2006
+From: 
+Date: Mon, 10 Jul 2006 03:09:33 +0300
+Subject: <a href='http://www.ringtones-dir.com'
+Message-ID: <20060710030933+0300@www.akl.lt>
+
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... <a href='http://www.ringtones-dir.com'>free ringtones</a> : [http://www.ringtones-dir.com download ringtones] - [HTTP://www.ringtones-dir.com download ringtones] : [nokia ringtones|http://www.ringtones-dir.com] - [nokia ringtones|HTTP://www.ringtones-dir.com] : http://www.ringtones-dir.com/download/ : [[http://www.ringtones-dir.com ring tones]] : [[http://www.ringtones-dir.com | ringtones download]] : "samsung ringtones" http://www.ringtones-dir.com : [http://www.ringtones-dir.com|ringtones free] </u>
+              
+
+From unknown Mon Jul 10 03:09:34 +0300 2006
+From: 
+Date: Mon, 10 Jul 2006 03:09:34 +0300
+Subject: <a href='|funny ringtones]'
+Message-ID: <20060710030934+0300@www.akl.lt>
+
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ...  </u>
+              

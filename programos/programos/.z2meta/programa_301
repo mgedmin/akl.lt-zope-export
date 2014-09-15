@@ -1,0 +1,5 @@
+[properties]
+categories:string = Kitos,
+public:boolean = True
+title:string = Universalus archyvatorius \xe2\x80\x9ePeazip\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9ePeazip\xe2\x80\x9c - patogi laisva archyvavimo  programa, veikianti visose populiariose sistemose (Linux, Windows, MacOS ir t.t.)\nPalaiko 7z, ZIP, CAB, RAR, ARJ, GZIP, BZIP2, TAR, CPIO, RPM, DEB ir kitus archyv\xc5\xb3 formatus. \nGreitas suspaudimas, i\xc5\xa1archyvavimas, integracija su \xe2\x80\x9eMS Windows\xe2\x80\x9c bei Linux aplinka. \nGalimyb\xc4\x97 archyvus apsaugoti slapta\xc5\xbeod\xc5\xbeiu, failus suskaidyti \xc4\xaf kelias dalis. Yra automatinio i\xc5\xa1archyvavimo galimyb\xc4\x97.

@@ -1,0 +1,53 @@
+## Script (Python) "logotipai"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+logotipai = [
+    [('logo1', "http://gimp.akl.lt/baltix%20logotipai/gimpNG/1-m.png"),
+     ('logo5', "http://gimp.akl.lt/baltix%20logotipai/v.a/logo3-m.png"),
+     ('logo9', "http://gimp.akl.lt/baltix%20logotipai/andrius.k/baltix-m.png"),
+     ('logo13', "http://gimp.akl.lt/baltix%20logotipai/gimpNG/baltix-b+b-m.png")],
+     
+    [('logo2', "http://gimp.akl.lt/baltix%20logotipai/gimpNG/2-m.png"),
+     ('logo6', "http://gimp.akl.lt/baltix%20logotipai/bruzas/bal2-m.png"),
+     ('logo10', "http://gimp.akl.lt/baltix%20logotipai/andrius.k/baltix2-m.png"),
+     ('logo14', "http://gimp.akl.lt/baltix%20logotipai/gimpNG/raid.rem-m.png")],
+
+    [('logo3', "http://gimp.akl.lt/baltix%20logotipai/gimpNG/3-m.png"),
+     ('logo7', "http://gimp.akl.lt/baltix%20logotipai/bruzas/bal3-m.gif"),
+     ('logo11', "http://gimp.akl.lt/baltix%20logotipai/gimpNG/4-m.png"),
+     ('logo15', "http://gimp.akl.lt/baltix%20logotipai/gimpNG/rutul+raid-m.png")],
+
+    [('logo4', "http://gimp.akl.lt/baltix%20logotipai/v.a/logo-m.png"),
+     ('logo8', "http://gimp.akl.lt/baltix%20logotipai/bruzas/bal5-m.gif"),
+     ('logo12', "http://gimp.akl.lt/baltix%20logotipai/gimpNG/k+r-m.png"),
+     ('logo16', "http://gimp.akl.lt/baltix%20logotipai/gimpNG/melyn.skl-m.png")],
+
+    [('logo17', "http://gimp.akl.lt/baltix%20logotipai/paulius%20sd/logotipas_linuxas-m.jpg"),
+     ('logo18', "http://gimp.akl.lt/baltix%20logotipai/laimonas%20mockus/final1-m.png"),
+     ('logo19', "http://gimp.akl.lt/baltix%20logotipai/laimonas%20mockus/final2-m.png"),
+     ('logo20', "http://gimp.akl.lt/baltix%20logotipai/laimonas%20mockus/final3-m.png")],
+
+    [('logo21', "http://gimp.akl.lt/baltix%20logotipai/laimonas%20mockus/final5-m.png"),
+     ('logo22', "http://gimp.akl.lt/baltix%20logotipai/paulius%20sd/logo-m.jpg"),
+     ('logo23', "http://gimp.akl.lt/baltix%20logotipai/paulius%20sd/logo2-m.jpg"),
+     ('logo24', "http://gimp.akl.lt/baltix%20logotipai/gimpNG/baltix-z-m.png")],
+
+    [('logo25', "http://gimp.akl.lt/baltix%20logotipai/kristina/01_kisa_small.png"),
+     ('logo26', "http://gimp.akl.lt/baltix%20logotipai/audrius%20skersys/Baltix-m.jpg"),
+     ('logo27', "http://gimp.akl.lt/baltix%20logotipai/audrius%20skersys/Kubas-m.jpg"),
+     ('logo28', "http://gimp.akl.lt/baltix%20logotipai/kristina/02_kisa_red_small.png")],
+
+    [('logo29', "http://gimp.akl.lt/baltix%20logotipai/kristina/02_kisa_green_small.png"),
+     ('logo30', "http://gimp.akl.lt/baltix%20logotipai/gimpNG/baltixpi-m.png"),
+     ('logo31', "http://gimp.akl.lt/baltix%20logotipai/vaidotas%20valantiejus/baltix-m.jpg"),
+     ('logo32', "http://gimp.akl.lt/baltix%20logotipai/audrius%20skersys/AKL%20Hand-m.jpg")],
+
+    [('logo33', "http://www.akl.lt/balsavimas/logotipas/blogo33.png")]
+]
+return logotipai

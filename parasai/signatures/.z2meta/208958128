@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 256150101
+confirmed:boolean = 1
+gen_date:date = 2005/06/07 15:30:49.552000 GMT+3
+logo_url:string = 
+mail:string = svaistiks@gmail.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Karolis Kapaciunas
+url_asm:string = 
+url_org:string = 

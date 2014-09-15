@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:31+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-07-26T16:44:21+00:00
+last_editor:string = dgvirtual
+last_editor_ip:string = 127.0.0.1
+last_log:string = reikia atnaujinti Atvirojo Kodo apibr\xc4\x97\xc5\xbeimas
+parents:lines = [\'FrontPage\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = www.akl.lt

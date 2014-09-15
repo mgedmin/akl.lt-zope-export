@@ -1,0 +1,16 @@
+## Script (Python) "getAllSignatures"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=status='all'
+##title=
+##
+sigs = container.signatures.objectValues('DTML Document')
+good = []
+for s in sigs:
+    if (s.status==status) or (status=='all') or \
+        ((status=='organizacijos') and (s.status != 'fiz_asm')):
+        good.append(s)
+return good

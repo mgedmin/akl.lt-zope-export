@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 742345665
+confirmed:boolean = 1
+gen_date:date = 2005/06/02 21:13:46.445000 GMT+3
+logo_url:string = 
+mail:string = vandrius@gmail.com
+organization:string = 
+position:string = studentas (KTU, informatikos fakultetas)
+status:string = fiz_asm
+title:string = Andrius Vasiliauskas
+url_asm:string = 
+url_org:string = 

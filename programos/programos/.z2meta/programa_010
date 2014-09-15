@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = El.pa\xc5\xa1to programa \xe2\x80\x9eSylpheed\xe2\x80\x9c
+trumpai:text = Viena i\xc5\xa1 patogesni\xc5\xb3 el. pa\xc5\xa1to program\xc5\xb3, mokan\xc4\x8di\xc5\xb3 dirbti su keliomis pa\xc5\xa1to d\xc4\x97\xc5\xbeut\xc4\x97mis. Standartin\xc4\x97s el. pa\xc5\xa1to funkcijos, filtrai, katalogai, adres\xc5\xb3 knygut\xc4\x97s. Nevykdo \xe2\x80\x9eJavaScript\xe2\x80\x9c, tod\xc4\x97l n\xc4\x97ra galimyb\xc4\x97s u\xc5\xbesikr\xc4\x97sti virusais vien per\xc5\xbei\xc5\xabr\xc4\x97jus lai\xc5\xa1k\xc4\x85. Pasi\xc5\xbeymi standartiniu funkcionalumu ir greitu veikimu. Pilnai palaikomas daugiakalbi\xc5\xa1kumas (lietuvi\xc5\xa1kos, rusi\xc5\xa1kos, UTF-8 ir kitos koduot\xc4\x97s). Programa \xe2\x80\x9eSylpheed\xe2\x80\x9c naudoja gana nedaug resurs\xc5\xb3, tod\xc4\x97l tinka ir senesniems, l\xc4\x97tiems kompiuteriams. 

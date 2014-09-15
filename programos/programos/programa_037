@@ -1,0 +1,15 @@
+<h2>Duomenų bazių serveris „Firebird“ <br>
+<a href="http://firebird.sourceforge.net/" target="_blank">firebird.sourceforge.net</a></h2>
+<p>
+„Firebird“ yra gana populiari komercinio DB serverio „Borland Interbase 6.x“ atviro
+kodo atšaka. Tai duomenų bazės valdymo sistema, pasižyminti greičiu ir siūlanti daugelį ANSI SQL-92 
+ypatybių. Ji veikianti „MS Windows“, „Linux“ bei kitose „UNIX“ platformose.
+</p>
+<p>
+„Firebird“ tinklalapis: <a href="http://firebird.sourceforge.net/" target="_blank">firebird.sourceforge.net</a>.
+Čia pateikiami atsakymai į dažnai užduodamus klausimus
+(<a href="http://firebird.sourceforge.net/index.php?op=faq" target="_blank">DUK</a>),
+taip pat - <a href="http://firebird.sourceforge.net/index.php?op=doc" target="_blank">dokumentacija</a> ir
+<a href="http://firebird.sourceforge.net/index.php?op=guide" target="_blank">pagalba naujokui</a>. Dokumentaciją 
+rusų kalba galite rasti <a href="http://www.ibase.ru">www.ibase.ru</a>.
+</p>

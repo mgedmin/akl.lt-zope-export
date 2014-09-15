@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 144376052
+confirmed:boolean = 0
+gen_date:date = 2005/07/04 16:56:46.949000 GMT+3
+logo_url:string = 
+mail:string = marius@giliupe
+organization:string = 
+position:string = Direktoriaus pav.
+status:string = fiz_asm
+title:string = Marius Jarutis
+url_asm:string = 
+url_org:string = 

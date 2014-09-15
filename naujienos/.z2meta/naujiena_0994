@@ -1,0 +1,9 @@
+[properties]
+author:string = sirex
+blurb:text = Visi, kurie domisi atviro kodo programomis ar nor\xc4\x97tu su\xc5\xbeinoti apie tai daugiau, kvie\xc4\x8diami apsilankyti <a href="http://www.infobalt.lt/">Infobalt parodoje</a>, AKL stende. Paroda vyks lapkri\xc4\x8dio 17-18 dienomis, \xe2\x80\x9eReval Hotel Lietuva\xe2\x80\x9c vie\xc5\xa1butyje, Vilniuje. \xc4\xae\xc4\x97jimas \xc4\xaf paroda nemokamas!
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2008-11-11
+email:string = sirexas@gmail.com
+profesionalams:boolean = False
+title:string = Aplankykite AKL stend\xc4\x85 Infobalt parodoje

@@ -1,0 +1,177 @@
+<hr>
+Baneriai prieš PĮ patentus :<br>
+<a href=http://moodle.projektas.lt/pries_PI_patentus/banneriai_platinimui.html>imkite mus ir dekite i savo svetaines</a> :).
+<hr>
+
+LT ryto straipsnis 2005–01–31 „Lietuvių europiniai patentai nedomina“ 
+http://www.akl.lt/naujienos/#naujiena_279 <br>
+Ką mano IT imonės: http://www.infobalt.lt/sc/getlist.php?&r=386&i=5859, http://www.ivpk.lt/main-news.php?cat=0&n=477<br>
+Požiūris iš esmės: http://swpat.ffii.org/index.en.html <br>
+
+grafinės proklamacijos http://vrijschrift.org/swpat/art/
+
+[Patentai/PranesimasSpaudai] -- skirta naujienų agentūroms, kartu yra Infobalt teiginių komentarai
+
+[Patentai/EuroparlamentaruNuomone] -- kas iš Lietuvos europarlamentarų yra susipažinęs ir ką mano dėl šios direktyvos.
+
+[Patentai/TerminuZodynelis] -- šiame reikale yra dvi (jei ne daugiau) pusės ir jos akcentuoja skirtingus dalykus bei naudoja skirtingus terminus. Tam, kad būtų galima suprasti, ką sako kiekviena išpusių. 
+
+[Patentai/Kreipimasis_i_verslininkus] --  Kreipimasis į verslininkus (ypač e-verslą), trumpai supažindinant su situacija <br>
+a) kuo PĮ patentai blogai, <br>
+b) kaip www.akl.lt/parasai gali padėti
+
+[Patentai/Apklausa] -- idėja padaryti klausimyną, kuriuo galima tiek apklausti, tiek informuoti žmones api FOSS bei PĮ patentus.
+
+[Patentai/Peticija] -- einamieji reikalai dėl parašų rinkimo
+
+[Patentai/Diskusijos] -- surinktos nuorodos į lietuviškus tinklapius, kur gvildenamos kompiuterinių programų patentų problemos
+
+<!-- demo(nstracijos) dėl PĮ patentų [Patentai/demo] <br-->
+idėjos socialinei reklamai [Patentai/antiReklama] <br>
+taip pat bandymai įvairiais būdais išdėstyti reikalą: [Patentai/kompleksineProblema] , [Patentai/prasomZodzio] <br>
+<b> labai gerai paaiškinta http://www.pilieciai.lt/minerva/viewtopic.php?t=190 </b>
+
+pastaba: kur palikta "??" reiškia, neesu garantuotas, kad per daug nenusišneku ;).
+
+Patentų teisė ar patentų biznis? Rinkos ekonomika ar patentų ekonomika?
+
+ Ka reiškia patentas
+
+  Patentas suteikia nuosavybės teisę i technologinį sprendimą, leidžianti jo panaudojimą versle monopolizuoti 20-čiai metų. <br>
+Kas pirmesnis – tas teisesnis!? Bet, pasak programų kūrėjų, intelektualios nuosavybės apsaugai ir efektyviai veiklai <u>užtenka ir autorinių teisių (copyright)</u>, ypač, atsižvelgiant į su patentais susijusias išlaidas. http://www.nosoftwarepatents.com/lt/m/basics
+
+ Patento vertė
+
+  Tam, kad isigyti/išsipirkti patentą reikia apie 3000–10000 eurų. O jei nori, kad jį apiformintų teisininkas, žinantis visas įstatymo subtilybes — iki 40'000 eurų.
+Tu gali parduot licenzijas kitiems, leidžiančias naudotis užpatentuota idėja.<br>
+KAINA – sutartinė.<br>
+Arba gali apskritai niekam neleisti naudoti šios idėjos!<br> 
+Galima parduoti ir patį patentą. (pvz, elektromobilio patentą sėkmingai nusipirko ir spaudžia naftos magnatai)
+
+ patento įrodymas
+
+  Naudodamas užpatentuotą algoritmą, tu gali buti pašauktas į teismą. Kai tu esi įtariamas, turi sustabdyti savo veiklą (na verslą), ir eit bylinėtis – tai trunka 1–2 metus ir kainuoja 200'000?? eurų.<br>
+Mažai firmai tai — bankrotas. <br>
+Dideliai koorporacijai – tai lašas biudžete. (?? nzn, kaip dėl veiklos sustabdymo)
+
+ Tvarka
+
+  Priimant patentus toli gražu ne visada yra sužiūrima, ar galima tokį patentą registruot ir pan. Tam reiktų papildomai samdyti teisininkus. <br>
+Teoriškai, jei įrodoma, kad idėja jau buvo žinoma iki pareiškimo ją registruoti, tai jos registruoti nevalia. Bet tiksliai sužiūrėti labai sunku, dėl formuluočių sudėtingumo<br>
+O patento formuluotė – tai tarsi menas – stengiamasi, kad naudojant idėją konkrečiam atvejui, ji būtų užregistruota galiojanti kuo platesniame konteste.
+http://swpat.ffii.org/pikta/index.en.html#dat
+
+ Aritmetika
+
+  Kas patentuojama? 
+patentuojama dažniausiai ne visa programa, o tam tikros jos dalys – procedūros/funkcijos ar pan.
+(pvz, kursoriaus atvaizdavimas ekrane naudojant XOR operaciją).<br>
+Tokių dalių programoje gali būti šimtai... <br>
+Tad vienos programos kūrėjui/kūrėjams gali tekti išsipirkti licenzijas šimtams patentų. Ar tai realu?<br>
+ps.: Ankstesniuose techniniuose išradimuose tokių mąstų nebūdavo. 
+GNU sistemos įkūrėjo ir vieno pagrindinių atviro kodo iniciatoriaus Richard Stallman mintys http://swpat.ffii.org/vreji/quotes/index.en.html#uspto94-rms
+
+  Didelė korporacija vs maža firma (SMULKUSIS VERSLAS)
+
+   t.y., dideli pinigai prieš mažus:
+"mes turim 3000 patentų, tu turi 1, na gal 3". <br>
+Mums reikia to vieno, ir tu gali reikšti pretenzijas... Bet tau reikia 30 mūsų patentų!
+
+   Legalus Reketas
+
+    Didelė firma gali ateit ir pasakyt mažai:
+"Tu naudoji musu patentą. Arba einam į teismą, arba perki licenziją už 50'000 eurų."<br>
+Pasirinkite variantą: <br>
+a) bankrotas <br>
+b) jus sumokate 50'000 eurų <br>
+http://www.nosoftwarepatents.com/lt/m/dangers/index.html
+
+  Didelė vs didelė
+
+   "mes turim 3000 patentu, jus turit 40000"
+Mums iš jūsų reikia 500 patentu, jums iš musų 100 patentų. <br>
+Teismų nei mes nei jūs nebijome, bet tai mus abi tik nualintų – o išloštų nebent teisėjai. <br>
+Tai mes protingai suderame apsikeisti reikiamom licenzijom. <br>
+
+  Maža vs maža
+
+   Vėlgi jėgos lygios ir su tais patentais daugiau vargo negu naudos. Užtenka ir copyright'u bei komercinių paslapčių saugojimo.
+
+ Logika: Ne, bet Taip
+
+  Direktyva skelbė tokį principą: programos kaipo tokios NEgali būti patentuojamos, bet programų panaudojimas kompiuteryje — gali (TAIP). 
+
+Analogiškai galima perfrazuoti pavyzdį: deguonies įsisavinimas kaipo toks negali būti patentuojamas, bet deguonies įsisavinimas naudojant plaučius – gali. <br>
+Esmė ta, kad programos yra prasmingos tik jų panaudojimo kompiuteriuose kontekste, tad pasakymas “kaipo tokios” neaišku, ką reiškia. 
+http://www.nosoftwarepatents.com/lt/m/politics/current.html
+
+ Kas iš to
+  Daaaaug nusikaltėlių – jūs ne išimtis, jei naudojate tai savo individulioje įmonėje ar kt. versle. Asmeninei nekomercinei veiklai patentai netrukdo. <br>
+Galbūt, kaip buvo kuriama jūsų naudojama programa, patento dar nebuvo, bet jį užregistravo vėliau.  <br>
+JAV kuriasi firmos, kurių pagrindinis užsiėmimas – patentų supirkinėjimas, o paskui “legalus reketas”. <br>
+Teoriškai, žmogus gali tiesiog mėgti programuoti visokius gudrius algoritmus, ir sugalvoti bei realizuoti jau užpatentuotą algoritmą. Ar jis jau nusikalto?? Ne, jei programą naudoja tik savo malonumui ir pa(si)deda į internetą.<br>
+O jūs parsisiunčiate... Tarkim, tai yra elektroninė skaičiuoklė (pan, kaip Excell).. ir jums ji labai patinka.. ir jūs ją naudojate savo firmos finansinei apskaitai -- atspėkit, kas gresia jums, jūsų firmai ir skaičiuojamiems pinigams?... 
+Plačiai pritaikomų patentų pvz: http://swpat.ffii.org/patents/samples/index.en.html#pag
+
+  Laisva programinė įranga
+
+   visa tai ypač aktualu laisvoms (atviro kodo) programoms. <br>
+jų tekstai pateikiami visiems, tad galima juos laisvai nagrinėtis ir ieškoti panašumų su savais patentais.<br> EPO (Europe Patent Office) užregistruotų patentų yra  > 30000.
+Galima net bandyti piktybiškai patentuoti atvirame kode rastas idėjas. 
+Dėl to, kad efektyviai neveikia patentų tinkamumo registravimui inspekcija (žr. Tvarka), visai realu, kad tai bus užregistruota (net jei ir tu pats buvai prieš tai užregistravęs – gal kitaip suformulavęs).  <br>
+O tada piktybiškas patentininkas jau gali kviesti bet ką naudojantį tą idėją (netgi tave) į teismą.  <br>
+Tau reikia rinktis: <br>
+a) eini bylinėtis -> užšaldomas tavo verslas -> bankrotas <br>
+b) perki iš jo licenziją <br>
+http://en.wikipedia.org/wiki/Coase%27s_Penguin - naujo ekonomikos modelio (pvz, GNU/Linux, Wikipedia) analizė ir paaiškinimai, kaip tam gali pakenkti patentai.
+
+ Ką daryti
+
+  Amerikoje software patentai įteisinti – Europoj – klausimas sprendžiamas, <br>
+Iš pradžių M$ ir pan lobistai bandė prastumti jiems palanku projektą, bet Lenkija jau du kartus sulaike.  <br>
+Taigi žadama svarstyti iš naujo http://www.ffii.org/~jmaebe/reso/resolution_55_4.pdf, http://kwiki.ffii.org/Restart050202En  <br>
+
+
+Reikia, kad ši informacija pasiektų LT atstovus EU: <br>
+http://www.nosoftwarepatents.com/lt/m/help/spread.html <br>
+Europos parlamentas pasisako prieš dabartinę direktyvą dėl "Computer Implemented Inventions", deja, tuo pačiu ir "Software Patents", 
+bet komisija, atrodo, yra įtakota didžiųjų koorporacijų ir pagal įstatymus šiuo atveju neprivalo paisyti parlamento nuomonės. 
+Visgi galutinį sprendimą priimt gali tik Europos ministrų taryba, Europos komisijos teikimu. Ministrų taryboje yra po ministrą iš kiekvienos šalies -- taigi Lietuva turi vieną balsą. Dabar svarbu jį išnaudoti.
+Apie ES valdymo struktūras http://en.wikipedia.org/wiki/Institutions_of_the_European_Union#Structures_that_comprise_the_EU
+<!-- per liaudi reikia ieškoti kelių į LT parlamentą (gal turit pažįstamų? tai per daug nedelskit!),  <br>
+o paskui į EU parlamentą ! <br>
+http://wwwdb.europarl.eu.int/ep6/owa/p_meps2.repartition?ipid=0&ilg=EN <br> 
+Laiškas EU parlamento nariui: http://swpat.ffii.org/letters/juri0502/index.en.html <br>
+For contacting MEPs there is the rule: Personal > Phone> Letter > fax > Email <br>
+(placiau: http://lists.ffii.org/mailman/private/lt-parl/2005-January/000030.html) <br>-->
+
+Būkim objektyvūs, parodykim ir oponentų nuomonę  http://www.patents4innovation.org  ir <a href="http://www.patents4innovation.org/index.php/eng/patents_advantages_risks/">pagrindiniai argumentai</a> bei <a href="http://www.patents4innovation.org/index.php/eng/patents_open_source/">kontr-argumentai atviro kodo teiginiams</a><br>
+palyginkim http://www.nosoftwarepatents.com/lt/m/untruths/sme.html
+
+M$ uzpatentavo peles spustelejima !
+ http://www.developer.net.au/features/top+of+my+head/microsoft+patents+mouse+click.asp
+http://patft.uspto.gov/netahtml/srchnum.htm iveskit 6727830 
+galima dar http://www.internetnews.com/bus-news/article.php/3322891
+
+„Linux“ pažeidžia 283 patentus? 
+http://news.zdnet.com/2100-3513_22-5291403.html
+
+http://www.wipo.int/sme/en/documents/software_patents.htm -- wipo -- World Intelectual Property Organization
+
+ar zinot http://petition.eurolinux.org/
+
+From unknown Thu May 12 23:37:55 +0300 2005
+From: jaro
+Date: Thu, 12 May 2005 23:37:55 +0300
+Subject: dėl prašom žodžio
+Message-ID: <20050512233755+0300@wiki.akl.lt>
+
+Skambinau jiems. Pasakė, kad problema aktuali, bet dėje kompai įdomus tik 20 gal 30% Lietuvos gyvantojų, o jiems rupi temos kur butu suprantamas ir įdomu 50%.
+Manau kol kas reikia juos palikti ramybėje
+
+From unknown Mon Jan 16 12:10:06 +0200 2006
+From: 
+Date: Mon, 16 Jan 2006 12:10:06 +0200
+Subject: bankrotas
+Message-ID: <20060116121006+0200@www.akl.lt>
+

@@ -1,0 +1,1 @@
+<img tal:replace="structure container/images/AKL-logo.png/tag" />

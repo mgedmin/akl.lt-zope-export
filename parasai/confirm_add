@@ -1,0 +1,85 @@
+## Script (Python) "confirm_add"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+request = context.REQUEST
+response = request.RESPONSE
+try:
+    id = request.id
+    confirm_id = request.confirm_id
+except AttributeError:
+    response.redirect("showMsg?msg=%s" % "Narystės patvirtinti negalime, nes neteisingai suformuluota užklausa.")
+    return
+root = container['signatures']
+try:
+    sig = root[id]
+except KeyError:
+    response.redirect("showMsg?msg=%s" % "Narystės patvirtinti negalime, nes tokios paraiškos nėra. Galbūt pasitraukėte iš rėmėjų?")
+    return
+if str(sig.confirm_id) == confirm_id:
+    if sig.confirmed:
+        response.redirect("showMsg?msg=%s" % "Jūsų rėmimas jau buvo patvirtintas.")
+        return
+    if sig.gen_date + 1 < DateTime():
+        response.redirect("showMsg?msg=%s" % "Jūsų rėmimas negali būti patvirtintas. Turbūt praėjo 24 val. limitas. <br/>Norėdami patvirtinti savo narystę, ištrinkite nepatvirtintą rėmimą, o tada vėl bandykite užpildyti rėmimo formą iš naujo.")
+        return
+    sig.manage_changeProperties(confirmed=1)
+    Msg = """Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Sveiki,
+
+Jūsų pritarimas AKL pozicijai prieš programinės įrangos patentus buvo patvirtintas.
+
+--
+AKL
+http://www.akl.lt/parasai"""
+    To = sig.mail
+    From = "AKL <%s>" % sig.mail
+    Subj = "=?UTF-8?B?RMSXa29qYW1lIHXFviByxJdtaW3EhQ==?=" #"=?UTF-8?B?UGFyYcWhbyBwYXR2aXJ0aW5pbWFz?="
+    context.MailHost.send(Msg, To, From, Subj)
+    # siunčiamas pranešimas moderatoriui
+    Msg = """Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Sveiki,
+
+Įvestas naujas parašas:
+
+vardas, pavardė: %s
+pareigos: %s
+organizacijos url: %s
+organizacija: %s
+organizacijos logotipo url: %s
+statusas: %s
+asmeninis url: %s
+publikuojam internete: %s
+
+Parašo taisymui adresas internete:
+https://www.akl.lt/parasai/edit_sig_form?id=%s
+
+--
+AKL
+http://www.akl.lt/parasai""" % (
+        sig.title,
+        sig.position,
+        sig.url_org,
+        sig.organization,
+        sig.logo_url,
+        container.getStatus(sig.status),
+        sig.url_asm,
+        sig.agree and 'Taip' or 'Ne',
+        sig.getId()
+    )
+    From = "AKL"
+    Subj = "[%s]: =?UTF-8?B?xK52ZXN0YXMgbmF1amFzIHBhcmHFoWFz?=" % sig.status
+    for moderator in container.moderators()[sig.status]:
+        context.MailHost.send(Msg, moderator, From, Subj)
+    response.redirect("showMsg?msg=%s" % "Rėmimas sėkmingai patvirtintas.")
+else:
+    response.redirect("showMsg?msg=%s" % "Rėmimas nebuvo patvirtintas, turbūt ne tą paraišką bandote patvirtinti.")

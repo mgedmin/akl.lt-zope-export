@@ -1,0 +1,5 @@
+[properties]
+content_type:string = text/html
+expand:boolean = 0
+output_encoding:string = utf-8
+title:ustring = "Atvirieji standartai ir atvirieji dokument\xc5\xb3 formatai savivaldyb\xc4\x97se". Seminaras, 2005-04-28, Vilnius

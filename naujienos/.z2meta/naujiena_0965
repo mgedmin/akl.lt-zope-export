@@ -1,0 +1,9 @@
+[properties]
+author:string = Kristina Kudria\xc5\xa1ova
+blurb:text = D\xc5\xbeiugi naujiena visiems ilg\xc4\x85 laik\xc4\x85 u\xc5\xbe <a href="http://lt.wikipedia.org/wiki/OpenDocument">OpenDocument</a> Lietuvoje \xe2\x80\x9ekovojusiems\xe2\x80\x9c bei sirgusiems laisv\xc5\xb3 standart\xc5\xb3 \xc5\xa1alininkams, kadangi \xc5\xa1i\xc5\xb3 met\xc5\xb3 liepos 31 d. Lietuvos standartizacijos departamentas patvirtino tarptautin\xc4\xaf standart\xc4\x85 ISO/IEC 26300:2006 Lietuvos standartu.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbeaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2007-08-08
+email:string = kristina@akl.lt
+profesionalams:boolean = False
+title:string = OpenDocument - oficialus Lietuvos standartas

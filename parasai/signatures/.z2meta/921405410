@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 621166720
+confirmed:boolean = 1
+gen_date:date = 2005/05/23 09:58:42.603000 GMT+3
+logo_url:string = 
+mail:string = egidijus@pst.lt
+organization:string = AB "Panev\xc4\x97\xc5\xbeio statybos trestas"
+position:string = Kompiuteri\xc5\xb3 specialistas
+status:string = fiz_asm
+title:string = Egidijus Sruogis
+url_asm:string = 
+url_org:string = http://www.pst.lt

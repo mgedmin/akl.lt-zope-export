@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 138828611
+confirmed:boolean = 1
+gen_date:date = 2005/05/24 10:41:34.775000 GMT+3
+logo_url:string = 
+mail:string = valdas@jrk.lt
+organization:string = Kauno kolegijos K\xc4\x97daini\xc5\xb3 Jonu\xc5\xa1o Radvilos studij\xc5\xb3 centras
+position:string = 
+status:string = fiz_asm
+title:string = Valdas Dirs\xc4\x97
+url_asm:string = 
+url_org:string = 

@@ -1,0 +1,5 @@
+[properties]
+categories:string = Webserveriai,
+public:boolean = 0
+title:string = DeveloperSide.NET
+trumpai:text = Web serveris windows ir linux sistemom.

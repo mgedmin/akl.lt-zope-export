@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Pasak <a\nhref="http://news.zdnet.co.uk/business/0,39020645,39148136,00.htm">ZDNet.co.uk</a>,\nnuosavybini\xc5\xb3 duomen\xc5\xb3 bazi\xc5\xb3 k\xc5\xabr\xc4\x97jai jau susiduria su did\xc4\x97jan\xc4\x8diu atvirojo\nkodo sprendim\xc5\xb3 populiar\xc4\x97jimu. Remiantis AMR atliktu tyrimu, atvirojo\nkodo duomen\xc5\xb3 bazi\xc5\xb3 serveriai kol kas rinkoje yra eksperimentin\xc4\x97je\nfaz\xc4\x97je, ta\xc4\x8diau iki 2006-\xc5\xb3j\xc5\xb3 labai i\xc5\xa1plis. Minimi trys pagrindiniai\nproduktai: \xe2\x80\x9e<a href="http://www.mysql.com/">MySQL</a>\xe2\x80\x9c, \xe2\x80\x9e<a\nhref="http://www.mysql.com/products/maxdb/">MaxDB</a>\xe2\x80\x9c ir \xe2\x80\x9e<a\nhref="http://www.postgresql.org/">PostgreSQL</a>\xe2\x80\x9c.\n</p>
+date:string = 2004-03-17
+title:string = Did\xc4\x97ja pasitik\xc4\x97jimas atviro kodo duomen\xc5\xb3 bazi\xc5\xb3 sprendimais

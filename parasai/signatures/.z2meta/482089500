@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 509676572
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 19:33:41.519000 GMT+3
+logo_url:string = http://suse.open.lt/gfx/suses.jpg
+mail:string = bruzas@userphp.com
+organization:string = Suse Linux Lietuvoje
+position:string = Webmaster , Sysadmin
+status:string = fiz_asm
+title:string = Linas Bru\xc5\xbeas
+url_asm:string = http://blogas.lt/BruZas/
+url_org:string = http://www.suselinux.lt

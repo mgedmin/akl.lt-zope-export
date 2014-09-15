@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 954279317
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 13:28:56.755000 GMT+3
+logo_url:string = 
+mail:string = tomas.vilda@gmail.com
+organization:string = Jono Denapo Firma "TIGBIS"
+position:string = Programuotojas
+status:string = imone
+title:string = Tomas Vilda
+url_asm:string = http://tvilda.stilius.net
+url_org:string = http://www.tigbis.lt

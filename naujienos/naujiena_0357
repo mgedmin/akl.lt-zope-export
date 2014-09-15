@@ -1,0 +1,6 @@
+<p>Google paslaugos Google Talk, sukurtos Jabber pagrindu, vartotojai dabar turi galimybę siųsti  
+pranešimus kitiems Jabber serverių vartotojams. Techniškai kalbant, Google įtraukė S2S modulį, 
+ko visi labai ilgai laukė:). Jeigu jūs norite prijungti jūsų paslaugą prie Google Talk paslaugos, 
+jūs turite žinoti, kad Google Talk naudoja dialback protokolą kaip aprašyta RFC 3920. Prašome 
+rašyti į  <a href="http://googletalk.blogspot.com/2006/01/xmpp-federation.html">Google Talk Open Group</a>, 
+jei turėsite klausimų ar problemų dėl suderinamumo su Google talk paslauga.</p>

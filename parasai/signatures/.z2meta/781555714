@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = True
+confirm_id:int = 275071469
+confirmed:boolean = 1
+gen_date:date = 2006/04/24 08:28:30.936000 GMT+3
+logo_url:string = 
+mail:string = saulius.krasuckas@ieee.org
+organization:string = VU MF
+position:string = ethernet tinklo administratorius, magistrantas
+status:string = fiz_asm
+title:string = Saulius Krasuckas
+url_asm:string = http://wiki.winehq.org/SauliusKrasuckas
+url_org:string = 

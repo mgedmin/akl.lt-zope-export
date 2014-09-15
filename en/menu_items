@@ -1,0 +1,17 @@
+## Script (Python) "menu_items"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+# šitas skriptas nustato meniu itemų tvarką
+return [
+    'about',
+    'projects',
+    'eVitamins',
+    'sponsors',
+    'lt',
+    ]

@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,Biurui,Kitos,
+public:boolean = True
+title:string = Laisvos antivirusin\xc4\x97s programos ClamMail, ClamLite bei ClamWin
+trumpai:text = Jei jums reikia greitos ir nedidel\xc4\x97s antivirusin\xc4\x97s programos el. pa\xc5\xa1tui arba Windows OS tikrinti - naudokite ClamMail bei ClamLite, kurias atsisi\xc5\xb3sti galite i\xc5\xa1 <a href="http://www.bransoft.com/clammail/en/clammail.html">http://clammail.sf.net</a>\n<br>\nJei jums reikia daugiau galimybi\xc5\xb3 turin\xc4\x8dios antivirusin\xc4\x97s programos - naudokite ClamWin, kuri\xc4\x85 atsisi\xc5\xb3sti galite i\xc5\xa1 <a href="http://www.clamwin.com">www.clamwin.com</a>

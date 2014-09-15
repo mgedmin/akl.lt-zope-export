@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 355578823
+confirmed:boolean = 1
+gen_date:date = 2005/05/29 11:58:7.935000 GMT+3
+logo_url:string = http://bsd.akmene.net/style/beastie.png
+mail:string = eg@zemaitija.net
+organization:string = Akmen\xc4\x97s kra\xc5\xa1to *BSD vartotoj\xc5\xb3 grup\xc4\x97
+position:string = Atviro kodo specialistas
+status:string = kita
+title:string = Edmondas Girkantas
+url_asm:string = http://zemaitija.net/~eg/
+url_org:string = http://bsd.akmene.net/

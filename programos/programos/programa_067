@@ -1,0 +1,24 @@
+<h2>Funkcijų grafikų braižymo programa „gnuplot“<br>
+<a href="http://www.gnuplot.info">www.gnuplot.info</a></h2>
+<a href="http://www.qnuplot.info">
+  <img src="images/gnuplot2.png" alt="gnuplot pavyzdys" border="0" class="rphoto">
+    </a>
+<p>
+Dauguma technikų, mokslininkų ar statistų naudoja grafikų atvaizdavimo programas kaip „Origin“ ar „Matlab“. Tačiau jos pakankamai brangios. 
+Grafikų braižymo programa „gnuplot“ tikrai nenusileidžia savo galimybėmis šioje srityje. Savo aplinka ir darbo principu 
+„gnuplot“ yra gana panaši į „Matlab“.
+</p>
+<p>
+„gnuplot“ atlieka dvimačių funkcijų bei duomenų taškų atvaizdavimą įvairiais stiliais (taškais, linijomis, punktyru ir kt.), 
+taip pat sveikų, iracionalų bei kompleksinių skaičių aritmetikos skaičiavimą ir pilnai palaiko kompleksinę aritmetiką. 
+Trimatį duomenų, paviršių atvaizdavimą leidžia atlikti įvairiais stiliais. Įmanomi pavadinimai ties kiekviena 
+grafiko ašimi bei taškais. Vartotojui teikiama išsami internetinė pagalba.
+</p>
+<p>
+Programa galima dirbti įvairiose operacinėse sistemose, ji palaiko įvairius grafinius formatus bei prievadus.<br>
+Redaguojant iš komandinės eilutės, išsaugoma ilga veiksmų istorija.<br>
+Programos gamintojų tinklalapis: <a href="http://www.gnuplot.info" target="_blank">www.gnuplot.info</a>.
+ Čia rasite atsakymus į dažnai užduodamus klausimus (<a href="http://www.gnuplot.info/faq/faq.html" target="_blank">DUK</a>) bei 
+dokumentaciją ties "The Links" skyriumi, 
+kur pateiktos įvairios pavyzdžių bei apmokymų nuorodos. 
+</p>

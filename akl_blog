@@ -1,0 +1,9 @@
+<h2 id="blog"><abbr title="Atviras kodas">AK</abbr> tinklaraščiuose</h2>
+<p tal:define="feed_data here/get_akl_blog"
+   tal:repeat="item python: feed_data['entries'][:5]">
+   <span tal:content="structure python: '%d-%02d-%02d'
+                                    % item['updated_parsed'][:3]">YYYY-MM-DD</span>
+   <a tal:attributes="href item/link"
+      tal:content="item/title">(title)</a>
+</p>
+<p><a href="http://planet.akl.lt/">Daugiau įrašų…</a></p>

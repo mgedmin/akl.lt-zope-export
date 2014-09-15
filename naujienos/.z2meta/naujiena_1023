@@ -1,0 +1,9 @@
+[properties]
+author:string = Jonas
+blurb:text = \xc5\xa0i\xc5\xb3 met\xc5\xb3 gegu\xc5\xbe\xc4\x97s m\xc4\x97n. 22 dien\xc4\x85 vykusiame visuotiniame asociacijos Atviras kodas Lietuvai (AKL) susirinkime, buvo i\xc5\xa1rinkta naujoji AKL vald\xc5\xbeia.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2010-05-22
+email:string = jonas@akl.lt
+profesionalams:boolean = False
+title:string = I\xc5\xa1rinkta nauja AKL vald\xc5\xbeia

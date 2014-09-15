@@ -1,0 +1,9 @@
+[properties]
+author:string = Erika
+blurb:text = JAV \xc5\xa1alies saugumo departamentas (Department of Homeland Security) skyr\xc4\x97 1,24 mln. JAV doleri\xc5\xb3 \nStenfordo universitetui bei firmoms Coverity ir Symantec tam, kad jie sukurt\xc5\xb3 programin\xc4\x97je \xc4\xafrangoje \nbei kode, kuris bus dedamas \xc4\xaf projekt\xc4\x85, esan\xc4\x8di\xc5\xb3 klaid\xc5\xb3 automatin\xc4\x97s paie\xc5\xa1kos, gaudymo ir prane\xc5\xa1imo \nOpenSource k\xc5\xabr\xc4\x97jams  sistem\xc4\x85. Tai buvo \xc4\xafvykdyta tod\xc4\x97l, kad vis daugiau JAV organizacij\xc5\xb3 tiesiogiai \npriklauso nuo atviro kodo sprendim\xc5\xb3 pagalba sukurt\xc5\xb3 sistem\xc5\xb3 saugumo.
+categories:multiple selection = ()
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x84\\xc2\\x97s&nbsp;teis\\xc3\\x84\\xc2\\x97s\')
+date:string = 2006-01-13
+email:string = erika@akl.lt
+profesionalams:boolean = 0
+title:string = JAV vald\xc5\xbeia r\xc5\xabpinasi OpenSource

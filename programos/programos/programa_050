@@ -1,0 +1,50 @@
+<h2>Fle3 (Future Learning Environment)<br>
+<a href="http://fle3.uiah.fi/">
+  <img src="images/fle3_logo.gif" alt="Fle3" border="0" class="rphoto">
+    </a>
+<a href="http://fle3.uiah.fi/">http://fle3.uiah.fi/</a></h2>
+
+<p>Fle3 yra internetinis mokymuisi skirtas įrankis (computer supported collaborative learning, CSCL). 
+Fle3 yra į darbui grupėje orientuota programa, kuri koncentruojasi ties žinių reiškimo 
+kūrimu ir vystymu. Tai programa tiems, kurie mokosi bendradarbiaudami grupėse, 
+patys kuria savo idėjas ir žinias diskusijų metu.
+</p>
+<p>Fle3 turi tris mokymosi įrankius ir keletą administracinių. Patys Fle3 kūrėjai į 
+šią programą žiūri kaip į dar vieną esminį mokymosi įrankį, kaip ir elektroninio pašto ar 
+teksto redagavimo programa, kurių sukurta yra ir atviro kodo. Fle3 yra išversta į 14 kalbų, 
+tarp jų ir lietuvių.
+</p>
+<ul>
+<li>„WebTops“ įrankiu gali naudotis mokytojai ir studentai ar
+moksleiviai saugoti dokumentus, bylas, nuorodas, pastabas, susijusias
+su studijomis, ir jais dalintis.</li>
+<li>„Knowledge Building“ įrankiu grupės gali organizuoti dialogus,
+teorijų kūrimą ar vesti debatus, įrašydamos mintis į bendrą duomenų
+bazę.</li>
+<li>Įrankis „Jamming“ yra erdvė bendram produktui kūrimui:
+paveikslėlių, teksto, audio, video. Skirtingos versijos atvaizduojamos
+grafiškai. „Jamming“ gali būti skirtas bet kokiam darbui, kuris
+reikalauja versijavimo.<br>
+</li>
+</ul>
+<p>Mokytojams ir administratoriams Fle3 siūlo įrankius vadovauti
+vartotojams, vesti kursus, studijų projektus. Galimas Fle3 duomenų
+bazės eksportas ir importas į XML formatą (suderinamas su <a
+href="http://eml.ou.nl/">EML</a> - Educational Modelling Language).</p>
+<p>Fle3 turi stiprią pedagoginę pusę, programa sukurta nuolat tariantis
+su švietimo ekspertais, mokytojais bei studentais, tad atspindi
+mokymąsi, kuris reikalingas informacinėje visuomenėje. Yra parengtos <a
+href="http://fle3.uiah.fi/papers.html">gairės</a> programos
+vartotojams. Galima išbandyti ir <a
+href="http://fle3.uiah.fi/demo.html">demo</a> versiją.</p>
+<p>Fle3 yra sukurta ir platinama pagal GPL licenciją. Programa sukurta <a
+href="http://www.zope.org/">„Zope“</a>, naudojantis programavimo kalba <a
+href="http://www.python.org/">„Python“</a>. Ji veikia beveik visose
+operacinėse sistemose: „GNU/Linux“, „MacOS X“, „*BSD“, „MS Windows“. <a
+href="http://fle3.uiah.fi/screen_shots/index.html">Čia</a> rasite
+programos ekrano paveikslėlių.
+</p>
+<p>Fle3 kuria Helsinkio menų ir dizaino universiteto laboratorija, kartu
+su Helsinio universiteto psichologijos padaliniu. Programos kūrimą
+parėmė Europos Komisijos IST programa.
+</p>

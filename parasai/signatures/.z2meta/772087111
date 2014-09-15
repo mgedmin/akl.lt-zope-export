@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 645013254
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 22:51:21.204000 GMT+3
+logo_url:string = 
+mail:string = mantas@kis.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Mantas Stankevi\xc4\x8dius
+url_asm:string = 
+url_org:string = 

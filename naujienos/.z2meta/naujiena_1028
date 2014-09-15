@@ -1,0 +1,9 @@
+[properties]
+author:string = Mindaugas
+blurb:text = 2010 m. liepos 15 d. pasirod\xc4\x97 nauja openSUSE versija. openSUSE yra draugi\xc5\xa1kas ir stabilus Linux platinamasis paketas, ver\xc4\x8diamas \xc4\xaf kelias de\xc5\xa1imtis pasaulio kalb\xc5\xb3, taip pat ir \xc4\xaf lietuvi\xc5\xb3. openSUSE puikiai tinka tiek pradedantiesiems naudoti Linux OS, tiek ir profesionalams. Naujoje versijoje rasite ne tik atnaujintus paketus, bet ir nauj\xc5\xb3 savybi\xc5\xb3.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'GNU/Linux&nbsp;OS\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2010-07-16
+email:string = embar@super.lt
+profesionalams:boolean = False
+title:string = openSUSE 11.3 i\xc5\xa1vydo dienos \xc5\xa1vies\xc4\x85

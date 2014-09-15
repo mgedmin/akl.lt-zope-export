@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Remiantis \xe2\x80\x9eNetcraft\xe2\x80\x9c <a href="http://news.netcraft.com/archives/2004/01/28/debian_fastest_growing_linux_distribution.html">duomenimis</a>,\n\xe2\x80\x9eDebian\xe2\x80\x9c yra spar\xc4\x8diausiai auganti \xe2\x80\x9eLinux\xe2\x80\x9c distribucija Web serveriuose\n\xc5\xa1iuo metu. "Debian" distribucija yra antroje vietoje pagal interneto serveri\xc5\xb3 skai\xc4\x8di\xc5\xb3,\nji dabar u\xc5\xbeima apie 16% rinkos, sekanti yra \xe2\x80\x9eSuSE\xe2\x80\x9c - apie 10%, ta\xc4\x8diau kol kas\nniekas negali pralenkti \xe2\x80\x9eRed Hat\xe2\x80\x9c, kuri u\xc5\xbeima ma\xc5\xbedaug 3 kartus daugiau\nrinkos Web serveriuose nei \xe2\x80\x9eDebian\xe2\x80\x9c distribucija - apie 50%.<br>\nPastaruoju metu \xe2\x80\x9eRed Hat\xe2\x80\x9c augimas \xc5\xa1iek tiek krenta...\n</p>
+date:string = 2004-02-02
+title:string = Did\xc4\x97ja \xe2\x80\x9eDebian\xe2\x80\x9c populiarumas Web serveriuose

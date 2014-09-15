@@ -1,0 +1,9 @@
+[properties]
+author:string = Albertas Agejevas
+blurb:text = Liepos 1-4 d. prie Gardino (Baltarusija) vyks kasmetin\xc4\x97 Atviro Kodo k\xc5\xabr\xc4\x97j\xc5\xb3 ir naudotoj\xc5\xb3 konferencija-stovykla <a href="http://lvee.org/">Linux Vacation / Eastern Europe (LVEE 2010)</a>.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2010-06-14
+email:string = alga@pov.lt
+profesionalams:boolean = False
+title:string = LVEE 2010 Gardine

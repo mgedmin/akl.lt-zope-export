@@ -1,0 +1,8 @@
+[properties]
+agejevas:int = 1
+biliunas:int = 2
+confirm_id:string = 110159783
+confirmed:boolean = 1
+email:string = grazulis@akl.lt
+kriauciunas:int = 3
+title:string = grazulis@akl.lt

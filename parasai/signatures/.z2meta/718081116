@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 242640902
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 10:34:52.623000 GMT+3
+logo_url:string = 
+mail:string = svajunas.sajavicius@mif.vu.lt
+organization:string = 
+position:string = Studentas
+status:string = fiz_asm
+title:string = Svaj\xc5\xabnas Sajavi\xc4\x8dius
+url_asm:string = 
+url_org:string = 

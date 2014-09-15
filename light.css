@@ -1,0 +1,70 @@
+  body { margin: 0px; background-color: #ffffff; font-family: tamoma, sans-serif; background: white; color: black;}
+  div.main { margin: 2ex; }
+  table.main tr td {margin: 1ex;}
+
+  table.container { width: 100%; height: 100%; }
+  table.container { padding: 0; margin: 0; border-collapse: collapse; border-spacing: 0; }
+
+  table.footer { background-color: #cddaf4; }
+  table.footer { color: #131d84; font-size: small; }
+  table.footer { border-top: solid #000; border-width: 1px}
+  table.footer td { vertical-align: bottom; white-space: nowrap; }
+  table.footer { font-family: tahoma, sans-serif; font-weight: bold; font-size: 8pt; }
+  table.footer a:link { color: #ff0000; text-decoration: none}
+  table.footer a:visited { color: #ff8800; text-decoration: none}
+
+  div.menu { color: #ffffff; background-color: }
+  div.menu { border: solid #000000; border-width: 1px; border-left: none; border-right: none;}
+  div.menu { font-family: tahoma, sans-serif; font-weight: bold; font-size: 8pt; }
+  div.menu { padding: 3px 15px 1.5ex 3px}  
+  div.menu { background-color: #cddaf4;  vertical-align: top;}
+  div.menu { white-space: nowrap; }
+
+  div.toolbox { color: #ffffff; background-color: }
+  div.toolbox { border: solid #000000; border-width: 1px;}
+  div.toolbox { font-family: tahoma, sans-serif; font-weight: bold; font-size: 8pt; }
+  div.toolbox { padding: 1px 3ex 2ex 1px }  
+  div.toolbox { background-color: #cddaf4;  vertical-align: top;}
+  div.toolbox { white-space: nowrap; }
+
+  span.box  { border: solid #000; border-width: 1px; padding: 3px 5px 3px 5px; background-color: #ffffff; }
+  span.box  { white-space: nowrap; margin: 10px 1px 1px 1px;}
+
+  span.box a:visited {text-decoration: none; color: black}
+  span.box a:link {text-decoration: none; color: black}
+  span.box a:hover {text-decoration: underline; color: black}
+
+  table.menu td.slick { white-space: nowrap; padding: 0; }
+  table.menu td.flags { padding: 0 3px; }
+  table.menu td.flags img { margin: 3px 2px; }
+  .slick {padding: 0; margin: 0; }
+
+  td.menu { color: #ffffff; background-color: #cddaf4; }
+  td.menu { border: solid #000000; border-width: 1px; }
+  td.menu { font-family: tahoma, sans-serif; font-weight: bold; font-size: 8pt; }
+  td.menu { padding: 3px 15px 1.5ex 3px}  
+  td.menu { vertical-align: top;}
+  td.menu { white-space: nowrap; }
+
+  h1, h2, h3, h4 { color: #131d84; }
+
+
+  .logo { color: #FF0; font-family: tahoma; font-weight: bold; font-size: 8pt; padding: 1ex 3ex}
+
+  table.list { border-spacing: 0; border: solid black; border-width: 1px}
+  table.list tr.header { background-color: #cddaf4; color: #131d84;
+  border-width: 1; border: solid #000}
+  table.list tr.header { font-family: tahoma, sans-serif; font-weight: bold; font-size: 8pt }
+  table.list tr.header th { text-align: left; padding: 6px 5px; }
+  table.list tr.odd { background-color: #ffffff; color: black; }
+  table.list tr.even { background-color: #eeeeee; color: black; }
+  table.list { font-family: tahoma, sans-serif; font-size: 9pt }
+  table.list td { padding: 3px; }
+  table.list td.checkbox { width: 10px; }
+
+  input.button { color: #131d88; background-color: white; border:
+  solid black; border-width: 1px}
+  input.button { padding: 3px 0px 6px 0px; }
+  input.button { margin: 1ex; }
+  input.button { font-family: tahoma, sans-serif; font-weight: bold;
+  font-size: 8pt }

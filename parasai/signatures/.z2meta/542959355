@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 119971083
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 15:45:40.098000 GMT+3
+logo_url:string = 
+mail:string = rytis.jankauskas@microlink.lt
+organization:string = Microlink Lietuva
+position:string = SUN sistem\xc5\xb3 in\xc5\xbeinierius
+status:string = fiz_asm
+title:string = Rytis Jankauskas
+url_asm:string = 
+url_org:string = 

@@ -1,0 +1,333 @@
+GNU/Linux [Distribucija] mokymo įstaigoms
+
+ Projekto vadovai:
+ - Dmitrijus Bugelskis - rootof[at]gmail.com
+
+ - Gintas Balčiūnas  - gintas[at]gmail.com
+
+
+ Tai linux distribucija skirta visų pirma mokiniams, mokytojams, studentams. Joje didesniąją programinės įrangos dalį sudarom programavimo įrankiai, bei mokomųjų programų paketai. Netruksta ir kasdieninių programėlių, be kurių gyvenimas tiesiog neįsivaizduojamas. ;) 
+Distribucijoje bus dvi grafinės aplinkos (GNOME bei Fluxbox )
+
+
+Projekto dalys: 
+
+ * Ubuntu pagrindu padaryta distribucija
+
+ * Ubuntu LiveCD pagrindu padarytas įdiegiamas Live CD (seniau buvo bandoma dirbti linux-live.org pagrindu).
+
+ * Svetainės internete su gausia dokumentacija.
+
+ * Prezentacija (pristatymas mokykloms, įvairūs seminarai) 
+
+
+Panašu, kad Ginto ir Dmitrijaus vadovaujamas projektas numiro :(, todėl siūlau paprastą sprendimą - Baltix GNU/Linux [distribucija] nuo 2.0 versija naudoja metapaketus programinei įrangai, taigi mums tereikia nuspręsti kokios programos turėtų būti [baltix-schools] metapakete ir sukurti baltix-artwork-schools paketą su mokykloms skirtu dizainu :)
+
+
+ Šiuo metu projekto įgyvendinamas nevyksta pagal planą, išskyrus kelius techninius nesklandumus (problemos su installer`iu)
+Distribucija jau surinkta, pirmieji neoficialus cd jau iškepti ir ištestuoti. Šio menesio pabaigoje planuojame ISO atvaizdus padaryti prieinamus visiems.
+ Portalui "Atviras Kodas Švietimui" (kuris bus skirtas populiarinti AK PĮ švietimo įstaigose) kolkas trūksta tik dizaino bei adreso internete (reikėtų sugalvot pavadinimą, siūlau - svietimas.akl.lt, ką manote? ) 
+
+
+TODO:
+
+ * "Išleisti į laisvę" .iso bylas. 2005.05.31
+
+ * Portalas. 2005.05.30
+
+ * Ištestuoti installerį 2005.05.31
+
+Ką manote?
+
+
+From Gintas Thu Mar 24 21:19:23 +0200 2005
+From: Gintas
+Date: Thu, 24 Mar 2005 21:19:23 +0200
+Subject: 
+Message-ID: <20050324211923+0200@https://wiki.akl.lt>
+In-Reply-To: <20050323232835+0200@https://wiki.akl.lt>
+
+jep FreePascal, sunku patikėt, huh? Mokiniams valstybiniai egzai su pascal būna.. 
+
+From unknown Sun Mar 27 17:18:20 +0300 2005
+From: 
+Date: Sun, 27 Mar 2005 17:18:20 +0300
+Subject: 
+Message-ID: <20050327171820+0300@wiki.akl.lt>
+
+vim įdėt, apache ir mysql sunkiai manau jog reikalingas.
+
+From unknown Fri Apr 1 10:59:21 +0300 2005
+From: 
+Date: Fri, 01 Apr 2005 10:59:21 +0300
+Subject: Junior
+Message-ID: <20050401105921+0300@wiki.akl.lt>
+
+Manau visų šių dalykų reikia - nepakenks...o jei dar kuris nors mokytojas gudresnis... Man regis dar kazko truksta...?
+
+
+From unknown Sat Apr 2 11:07:36 +0300 2005
+From: 
+Date: Sat, 02 Apr 2005 11:07:36 +0300
+Subject: Vaidotas
+Message-ID: <20050402110736+0300@wiki.akl.lt>
+
+Viskas labai labai gerai, bet kaip visa tai sukisti i dvi savaitines pamokas ??? Mokiniai google, neismoksta naudotis normaliai, ka jau kalbeti apie sitiek daug. Manau reiketu glaudinti. O del programavimo, geriau pirma teorija ismoksta tada programuoja viena is c/c++/Pascal  programavimo kalbu, nes tikrai visu neismoks...
+
+From unknown Wed Apr 6 20:10:27 +0300 2005
+From: 
+Date: Wed, 06 Apr 2005 20:10:27 +0300
+Subject: Emilis
+Message-ID: <20050406201027+0300@wiki.akl.lt>
+
+Programų reikia pakankamai, kad prisėdę programuojantys mokinukai galėtų tiek LAMP, tiek Python (jei tik tilptų) pačiupinėt. Reikia orientuotis ne vien į tai kas per dvi savaitines pamokas vyksta, bet kas ir po pamokų.
+
+Pats pamenu baigdamas mokyklą sėdėdavau po pamokų, Pascal'iu grafikas darkydavau -- nei tas buvo kokioj programoj ar pamokose, nei ką.
+
+Tas CD galėtų būti ne vien tai ko formaliai reikia mokyklai, bet kaip daiktas su išliekamaja verte, skatinantis ne tik išmokti naudotis kompiuteriu, bet ir sukurti kažką savo.
+
+Dar man akis šiektiek bado, kad nėra Nvu HTML redaktoriaus, kuris visai praverstų jei reikėtų pamokose su web kūrimu supažindint ar kas iš mokinių tuo susidomėtų.
+
+Sėkmės projekte :)
+
+From unknown Wed Apr 6 22:08:29 +0300 2005
+From: 
+Date: Wed, 06 Apr 2005 22:08:29 +0300
+Subject: Nereikia orientuotis i 2 pamokas
+Message-ID: <20050406220829+0300@wiki.akl.lt>
+
+- programų kaip ir netrūksta, bet orientuotis reiktų į pažengusius, smalsiuosius. Todėl apache, ftpd, mysql ir php būtina, tik gal neisnstaliuojama default, o kaip opcija. Taip, daugiau mokslinių programų - tai būtų stiprioji pusė. Pvz. atomų, molekulių simuliacija ir kzk panašaus.
+
+From unknown Thu Apr 7 12:58:35 +0300 2005
+From: 
+Date: Thu, 07 Apr 2005 12:58:35 +0300
+Subject: Mokykloms nereikia serverio
+Message-ID: <20050407125835+0300@wiki.akl.lt>
+
+Žmonės, tik nereikia persistengti. Kam mokyniams ftp mokykloje? Jei jie namuose nori žaisti su ftp ir t.t. tai gali paimti debian ir t.t. 
+Manau, kad šitoje distroje privalo būti max mokslinių programų. Be to pusiau žaidimai, pusiau mokymas (http://www.akl.lt/programos/?doc=pramoga.html), kad ir 2 klasės vaikams būtų ką daryti :) 
+
+Dar manau reikia apsistpresti Mozilla ThunderBird ar Evolution, PostgreSQL ar MySQL, nereikia perkrauti distros skirtingais irankiais tam pačiam veiksmui atlikti. Nesvaikim apie pasirinkimą, jei kas protingas ir nori pasirinkti, galės pasinaudoti apt-get.
+Vietoje Gmplayer siūlyčiau GXine, nes jis žymiai labiau iserfrendly.
+Kam nedit nei bus gedit?
+
+Gal dar reikia iškarto flash ir java idėgti, tipo kad su Firefox būtų tvarka.
+
+Tiek šinadien.
+Jaro
+
+From unknown Thu Apr 7 19:25:56 +0300 2005
+From: 
+Date: Thu, 07 Apr 2005 19:25:56 +0300
+Subject: VooZ2
+Message-ID: <20050407192556+0300@wiki.akl.lt>
+
+gal vertetu perzvelgti informatikos kurso aprasyma (kur ten svietimo ministerija paraso ka turi mokiniai ismokt) ir pagal ji sudaryti programu paketus?
+
+From unknown Fri Apr 8 12:03:45 +0300 2005
+From: 
+Date: Fri, 08 Apr 2005 12:03:45 +0300
+Subject: Jaro
+Message-ID: <20050408120345+0300@wiki.akl.lt>
+
+Nemanau, kad reikia orentuotis tik į informatikos pamokas.
+Kompiuteriu mokykloje sėkmingai naudojasi hemikai, fizikai, lituanistai, matematikai ...
+Kompiuteriai reikalingi pradinių klasiu moksleiviams.
+Su kompiuteriai maketuojamas mokyklos laikraštis, rašomi referatai.
+
+Į šituos poreikius ir reikia orentuotis, o tai jus susieinat tik ties informatika :(
+
+From unknown Fri Apr 8 12:07:48 +0300 2005
+From: 
+Date: Fri, 08 Apr 2005 12:07:48 +0300
+Subject: Scribus
+Message-ID: <20050408120748+0300@wiki.akl.lt>
+
+Manau mokyklos laikraščio maketavimui labai tiktu Scribus (http://www.scribus.org.uk/).
+
+From unknown Wed Apr 13 13:55:56 +0300 2005
+From: 
+Date: Wed, 13 Apr 2005 13:55:56 +0300
+Subject: SkoleLinux
+Message-ID: <20050413135556+0300@wiki.akl.lt>
+
+Kam jums tas LiveCD? Ar rikrai mokykliniai kompiuteriai turi terabaitus RAM'o? Kodėl negerai 
+lituanizuotas Skolelinux? Visai Europai tinka. tad lodėl Lietuvai netinka? 
+
+From mantas Wed Apr 13 17:07:36 +0300 2005
+From: mantas
+Date: Wed, 13 Apr 2005 17:07:36 +0300
+Subject: Baltix technologijos liveCD užtenka 24MB ram įdiegimui į diską
+Message-ID: <20050413170736+0300@https://wiki.akl.lt>
+
+Baltix ir šia technologija paremtos Linux distribucijos, kaip AtvirasKodasSvietimui projektas, nėra vien tik LiveCD - Baltix yra pilnavertė Linux distribucija, kurią galima ir įdiegti į kietą diską.
+Baltix technologijos Linux'ui užtenka 24MB RAM įdiegimui į diską (Baltix nuo 2005 metų galima įdiegti arba tiesiog iš tekstinio režimo arba užsikrovus pilnai grafinę aplinką), taigi Baltix Linux technologija šiuo atveju nėra blogiau nei Skolelinux, kuris iš principo yra daugiau skirtas pilnam visos klasės perėjimui prie Linux, tai daugiau tinklinis sprendimas, žr.: http://www.skolelinux.org/portal/about/what
+
+Toks jaumas kad tu iš tiesų nebandei nei 2005 metų Baltix nei Skolelinux, priešingu atveju būtum pastebėjęs, kad iš esmės abu projektai naudoja tą pačią technologiją - t.y. debian-installer (Skolelinux ją naudoja tik įdiegimui, o Baltix ją naudoja ir įdiegimui ir pradiniam startavimui iš CD, jei norima dirbti neįdiegus į kietą diską) be to, abu projektai yra daromi iš Debian. Tai reiškia, kad esant poreikiui yra labai paprasta pasiimti ir naudoti norimus komponentus iš Skolelinux.
+
+Beje, nereikia pamiršti, kad yra ir daugiau Linux distribucijų, skirtų mokykloms, kai kurios iš jų naudoja būtent LiveCD technologiją, žr. pvz.: Freeduc projektą - http://www.ofset.org/freeduc-cd
+
+From unknown Thu Apr 14 19:44:12 +0300 2005
+From: 
+Date: Thu, 14 Apr 2005 19:44:12 +0300
+Subject: dz0
+Message-ID: <20050414194412+0300@wiki.akl.lt>
+
+i kurią dalį publikos shis CD orientuotas? manau apie 20% mokyklinės populiacijos būtų visai neblogai :).
+
+Iš pradžių į tai atkreips dėmesį informatikai/mat/chem?/fiz mokytojai, tad jiems reikia optimalų prog. paketa apgalvot.. <br>
+ir kad būtų nesudėtingas - kuo paprastesnis, tuo geriau.. kol nera kokio www.python.lt, distroj uztenka php, manau.
+
+na M$O mokyklos kuriam laikui aprupintos, tai..<br>
+Gimpu keli mokytojai susizavetu, manau..<br>
+Matematikai yra fainas dalykas: http://wims.unice.fr/wims/wims.cgi?module=adm/browse.en (http://wims.unice.fr/download/wims/ )<br>
+Dar verti dėm dalykėliai (l. padeda pateikti mintis - zadu apie juos prie akl programu brukstelt, bet laiko ner): <br>
+- http://freemind.sourceforge.net<br>
+- http://cmap.coginst.uwf.edu <br>
+
+Naturaliai reix tutorialu - manau verta kelis surezisuot - http://www.debugmode.com/wink/ - ir pati winka aisu idet :)
+
+From mantas Sat Apr 16 13:39:55 +0300 2005
+From: mantas
+Date: Sat, 16 Apr 2005 13:39:55 +0300
+Subject: Neverta dėti uždaros (closed source) programinės įrangos
+Message-ID: <20050416133955+0300@https://wiki.akl.lt>
+
+Dėl wink kol kas teks palaukti - kiek aš žiūrėjau wink nėra leidžiamas pagal laisvą licenciją, taigi šios programos dėti neverta.
+Yra laisva kompiuterio ekrano filmavimo programa "Vnc2swf", daranti tą praktiškai patį ką ir wink, žr.: http://www.unixuser.org/~euske/vnc2swf/
+Naudodami "Vnc2swf" programą kartu su VNC serveriu galėsite įrašyti savo kompiuterio veikimą į video bylą.
+Kartais verta pažiūrėti į http://www.akl.lt/programos ;)
+
+From unknown Sun Apr 17 02:46:04 +0300 2005
+From: 
+Date: Sun, 17 Apr 2005 02:46:04 +0300
+Subject: dz0
+Message-ID: <20050417024604+0300@wiki.akl.lt>
+
+na gal del wink ir perlenkiau, bet siaip jis visai userfriendly ir moodle.org (gan pedagogineje) bendruomeneje apie ji buvo susizavejusiu atsiliepimu...
+
+dar pagalvojau, kazkada zondavau neta del iv "interactive online" edukaciniu dalyku.. sioks toks rezultatas <a href="http://diskusijos.ktug.lt/?s=v&id=1383&n=75&rp=1">cia</a> matosi; ji patvrarkius ir taip pat pateikus kur tame kompakte - butu bonusas :)
+
+apskritai, as kaipo edukologija studijuoju, girdejau, ITC sako, kad mokytojai programu gali gauti da figa, bet jie patys daznai neturi laiko aiškintis jų galimybių, todel jiems prie programos ant lekstutes labai sveika pateikti taip vadinamą metodiką:<br>
+- kelis pvz, ka su programa galima padaryti (geriausia, kad tai atitiktu ir mokymo/ugdymo programu reikalavimus)<br>
+- mazdaug, eiles tvarka surasyti, ką kur spausti, kad gautum toki ir toki rez.<br>
+- papasakoti, kokia iš to šauni nauda vaiko vystymuisi (gal estetinis lavinimas - Gimp, gal kritinis mąstymas - koncepcijų žemėlapiai, nors greičiausiai savarankiško darbo įgūdžiai )<br>
+arba siaip kokia cia ugdymo teorija pritaikoma (probleminio mąstymo (gamt/tixl. moxl. uzdavinai), o gal projektų metodas (pvz, internetines svetaines kūrimas), dabar ant bangos taip vadinama "metamokymosi kompetencija" (tipo, kaip zmogus mokosi mokytis ;)) <br>
+
+O forumas supportui visai pasitarnautų. Ir gal net wiki, jei chebra uzsikabins uz iv. metodikų kūrimo/sisteminimo/tobulinimo, (hm, wiki reiktų WYSIWYG, imo)
+
+From unknown Wed Apr 20 16:43:03 +0300 2005
+From: 
+Date: Wed, 20 Apr 2005 16:43:03 +0300
+Subject: KEduca
+Message-ID: <20050420164303+0300@wiki.akl.lt>
+
+Testu ir Egzaminu kurimo ir testavimo programa. Is kdeedu.
+
+From unknown Wed Apr 20 21:15:36 +0300 2005
+From: 
+Date: Wed, 20 Apr 2005 21:15:36 +0300
+Subject: testai
+Message-ID: <20050420211536+0300@wiki.akl.lt>
+
+šiaip labai placiu galimybiu yra moodle testai, paskui juos galima pateikti online, eksportavus perkelt i kt serv. ir pan.
+http://demo.moodle.com/course/view.php?id=2&topic=10  login admin:demo 
+
+From unknown Thu Apr 21 11:29:54 +0300 2005
+From: 
+Date: Thu, 21 Apr 2005 11:29:54 +0300
+Subject: Reik kažkur įdėti aprašymus kur ir kaip kitų šalių mokymo įstaigose naudojamas Linux ir opensource
+Message-ID: <20050421112954+0300@wiki.akl.lt>
+
+Tai va, reiktų kažkur įdėti aprašymus kur ir kaip kitų šalių mokymo įstaigose naudojamas Linux ir kita laisva programinė įranga (OpenOffice.org, GIMP, Mozilla, freepascal ir t.t.), kadangi Lietuvoje Linux ir laisva programinė įranga mokymo įstaigose naudojama gana mažai, kiek žinau plačiau naudojama tik freepascal ir lazarus, o Linux, OpenOffice, GIMP ir t.t. naudojama tik keliose mokyklose (jaro žino kokiose) ir univeruose, pvz VU MIF (dėl kolegijų nežinau).
+
+wiki.akl.lt yra SekmesIstorijos - ten reiktų dėti Lietuvoje sėkmingai naudojamų laisvų programų istorijas.
+
+From unknown Fri Apr 22 14:09:55 +0300 2005
+From: 
+Date: Fri, 22 Apr 2005 14:09:55 +0300
+Subject: O kur VNC?
+Message-ID: <20050422140955+0300@wiki.akl.lt>
+
+Mokytojams tikrai praverstu VNC! Pvz. Rodyti and visu kompu kaip naudotis Firefox'u :), Ar ziureti, kas ka veikia.
+
+From unknown Fri Apr 22 14:13:44 +0300 2005
+From: 
+Date: Fri, 22 Apr 2005 14:13:44 +0300
+Subject: KDevelop
+Message-ID: <20050422141344+0300@wiki.akl.lt>
+
+Anjuta ismest. KDevelop idet! Nes KDevelop turi daugiau galimybiu, doc'u ir labiau panasus i M$ :) Ai, galima dar ir QT (IMHO).
+
+From unknown Fri Apr 22 14:23:11 +0300 2005
+From: 
+Date: Fri, 22 Apr 2005 14:23:11 +0300
+Subject: Ne manote, kad GNOME ne tinka?
+Message-ID: <20050422142311+0300@wiki.akl.lt>
+
+KDE geriau pritaikytas prie (l)user'iu. (velgi IMHO)
+
+From unknown Fri Apr 22 14:28:06 +0300 2005
+From: 
+Date: Fri, 22 Apr 2005 14:28:06 +0300
+Subject: KDevelop
+Message-ID: <20050422142806+0300@wiki.akl.lt>
+In-Reply-To: <20050422141344+0300@wiki.akl.lt>
+
+Be, to palaiko ir GTK+,C,C++,FreePASCAL, Ada, ir t.t. Turi gera gdb frontend'a.
+
+From unknown Sat Apr 23 00:24:05 +0300 2005
+From: 
+Date: Sat, 23 Apr 2005 00:24:05 +0300
+Subject: nkts
+Message-ID: <20050423002405+0300@wiki.akl.lt>
+
+K.k.k.. kvepia KDE ir QT... nemanau, kad jie butų, tiksliau, gražiai pritiktų prie GTK...
+
+From unknown Sat Apr 23 00:35:00 +0300 2005
+From: 
+Date: Sat, 23 Apr 2005 00:35:00 +0300
+Subject: QT libams - ne
+Message-ID: <20050423003500+0300@wiki.akl.lt>
+
+tiesiog Kdevelop turi tiek daug dependencų, jog pusę kde reiks sukišt, ir dar qt.. taip kad, vietos neužteks. Ateityje žiūrėsim. 
+
+From unknown Sat Apr 30 10:40:44 +0300 2005
+From: 
+Date: Sat, 30 Apr 2005 10:40:44 +0300
+Subject: english
+Message-ID: <20050430104044+0300@wiki.akl.lt>
+
+
+
+From unknown Mon May 2 13:48:08 +0300 2005
+From: 
+Date: Mon, 02 May 2005 13:48:08 +0300
+Subject: IDE
+Message-ID: <20050502134808+0300@wiki.akl.lt>
+
+Nesu labai patyręs programuotojas, bet mano pasiūlymas būtų Diasce, Glade, DDD, Memprof (čia vienas komplektas) vietoj Anjuta.
+
+Sąraše nepastebėjau gdb, gal neatidžiai žiūrėjau...
+
+From unknown Fri May 13 20:59:10 +0300 2005
+From: 
+Date: Fri, 13 May 2005 20:59:10 +0300
+Subject: Wow
+Message-ID: <20050513205910+0300@wiki.akl.lt>
+
+"QT libams - ne" -- Ir kodelgi? "gcc 3.4 -fvisibility=hidden" ir vietos daug maziau uzims ir RAM maziau valgys ir developint daug maloniau ir paprasciau, beto DOCai labai geri net book'u keletas yra (taigi mokykloms ZJB!).
+Nejaugi GNOME yra "more user friendly" uz KDE? :))) 
+Full KDE + OOO + several other (GUI related) tools.
+
+P.S. As cia ne pries GNOME tesiog manau kad KDE (L)USERiams labiau tiktu.
+
+From unknown Fri May 27 03:06:04 +0300 2005
+From: 
+Date: Fri, 27 May 2005 03:06:04 +0300
+Subject: paminėkite ir Dagienės darbą
+Message-ID: <20050527030604+0300@wiki.akl.lt>
+
+http://www.ipc.lt/21z/duomenys/tyrimai/atviras%20kodas/ataskaita.pdf
+
+ir santrauka  http://www.ipc.lt/21z/mokymas/mokymopr/elaikr/veidrodis/2003n4.php?id=88&iid=6#1

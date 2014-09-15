@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 298360482
+confirmed:boolean = 1
+gen_date:date = 2005/05/26 22:42:52.227000 GMT+3
+logo_url:string = 
+mail:string = webmaster@stilius.net
+organization:string = Jono Denapo Firma "Tigbis"
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Tomas Vilda
+url_asm:string = http://tvilda.stilius.net
+url_org:string = http://www.tigbis.lt

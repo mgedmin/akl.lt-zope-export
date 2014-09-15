@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = Interneto nar\xc5\xa1ykl\xc4\x97 \xe2\x80\x9eMozilla\xe2\x80\x9c
+trumpai:text = Labai patogi interneto nar\xc5\xa1ykl\xc4\x97, turinti daug unikali\xc5\xb3 galimybi\xc5\xb3: nar\xc5\xa1ym\xc4\x85 kortel\xc4\x97se \n(angl. - tabs), da\xc5\xbenai lankom\xc5\xb3 adres\xc5\xb3 pakeitim\xc4\x85 raktiniais \xc5\xbeod\xc5\xbeiais, byl\xc5\xb3 parsiuntimo \nbei slapta\xc5\xbeod\xc5\xbei\xc5\xb3 valdym\xc4\x85, adres\xc5\xb3 knygel\xc4\x99, integruotas pa\xc5\xa1to, IRC susira\xc5\xa1in\xc4\x97jimo, \ntinklalapi\xc5\xb3 k\xc5\xabrimo programas ir k.t. 

@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:05+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-07-25T16:35:05+00:00
+last_editor:string = jaro
+last_editor_ip:string = 127.0.0.1
+last_log:string = Atsi\xc5\xbevelgta \xc4\xaf wiki.akl.lt/Tools
+parents:lines = [\'www.akl.lt\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Atviri standartai

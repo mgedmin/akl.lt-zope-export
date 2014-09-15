@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 673228085
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 10:54:1.822000 GMT+3
+logo_url:string = http://www.vytaras.lt/images/hyundai.gif
+mail:string = v.banys@hyundai.lt
+moder_denied:string = 
+moder_ok:string = JP - perved\xc5\xbeiau i\xc5\xa1 \xc4\xafmon\xc4\x97s
+organization:string = UAB Vytaras
+position:string = pardavimo vadybininkas
+status:string = fiz_asm
+title:string = Vytautas Banys
+url_asm:string = 
+url_org:string = http://www.hyundai.lt/

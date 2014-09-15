@@ -1,0 +1,5 @@
+[properties]
+categories:string = Kitos,
+public:boolean = 1
+title:string = PDFCreator
+trumpai:text = Su PDFCreator gal\xc4\x97site sukurti pdf byl\xc4\x85

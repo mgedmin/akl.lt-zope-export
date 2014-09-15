@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 893727918
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 11:34:47.190000 GMT+3
+logo_url:string = 
+mail:string = d.morci@gmail.com
+moder_denied:string = Ramas: Piktybinis para\xc5\xa1as: ne\xc4\xafvestas nei vardas, nei pavard\xc4\x97
+moder_ok:string = 
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = 
+url_asm:string = 
+url_org:string = 

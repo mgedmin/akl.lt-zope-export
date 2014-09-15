@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 327354338
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 01:36:39.302000 GMT+3
+logo_url:string = http://www.alna.com/images/logo.gif
+mail:string = dalius.dobravolskas@gmail.com
+organization:string = AB Alna Software
+position:string = Programuotojas, Studentas
+status:string = fiz_asm
+title:string = Dalius Dobravolskas
+url_asm:string = http://uosis.mif.vu.lt/~dado1945/cgi-bin/index.cgi
+url_org:string = http://www.alna.lt/

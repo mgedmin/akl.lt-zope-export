@@ -1,0 +1,40 @@
+Laisvos, atviro kodo programos
+
+
+ Ar tuo atveju, jei nesi programuotojas ir tokių įmonėje neturi, t.y., nemoki išnaudoti pagrindinio atviro kodo privalumo, apsimoka įmonėje naudoti atviro kodo programinę įrangą? 
+
+  Mes stengiames pabrėžti ne šiaip programos kodo atvirumą (tai pagrinde rupi programotojui), bet programų laisvumą. Programos laisvumas suteikia kelis privalumus:
+
+  * Jei aptikta klaidą ar šiaip nepatogumą, apie tai galima pranešti kūrėjams ir atkreips dėmesį į jūsų pastabą leidžiant naują programos versiją(su uždaro kodo programom tai labai retai įmanoma).
+
+  * Jei programa laisva ir jums reikalinga kažkokia papildoma jos funkcija, visada galima pasamdyti nepriklausomą programuotoją, kuris sukurtu reikiama funkciją. Jei programą uždara galima kreiptis tik į programos kūrėjus.
+
+  * Jei firmą nusprendža daugiau nepalaikyti produkto tai paprastai reiškia, kad programą nebus atnajinama ir pan. Bet jei programa yra laisva, gali atsirasti žmonės, kurie norės toliau vystyti programą (pvz. dabar IBM'o prašoma išlaisvinti OS/2), tikiu būdų jus ir toliau gausite programos atnaujinimus.
+
+
+ Gal bendrosios sąnaudos (Total Cost of Ownership) bus mažesnės, jei naudosiu daugelį uždaro kodo programų, ir tik geriausias atviro (pvz., ooo)?
+
+  Dažnai tenka naudoti nuosavybines ir laisvas programas kartu. Tai yra geras sprendimas, nes kartais tiesiog neegzistuoja laisvų analogu reikiamai užduočiai išspresti.
+  
+  Kartais pereiti prie laisvųjų programų yra brangiau nei nusipirkti naudojamų programų licencijas (reikia apmokyti darbuotojus, paruošti strategija, blankus ir t.t.), tačiau laisvų programų atnaujinimas ateityje kainos žymiai pigiau nei nuosavibinių. Be to jei įmonė išaugs naudojant laisvas programas išlaidos papildomoms darbo vietoms būtų minimalios nes nereikėtu pirkti naujų licencijų. 
+
+  Mes skatiname naudoti laisvas programas, nes ateities bendros sąnaudos bus tikrai mažesnės.
+
+
+From unknown Tue Jul 26 18:42:31 +0300 2005
+From: 
+Date: Tue, 26 Jul 2005 18:42:31 +0300
+Subject: klausimas į duk
+Message-ID: <20050726184231+0300@wiki.akl.lt>
+
+Ar tuo atveju, jei nesi programuotojas ir tokių įmonėje neturi, t.y., nemoki išnaudoti pagrindinio atviro kodo privalumo, apsimoka įmonėje naudoti atviro kodo programinę įrangą? O gal bendrosios sąnaudos (Total Cost of Ownership) bus mažesnės, jei naudosiu daugelį uždaro kodo programų, ir tik geriausias atviro (pvz., ooo)?
+
+From unknown Fri Jul 29 14:12:09 +0300 2005
+From: 
+Date: Fri, 29 Jul 2005 14:12:09 +0300
+Subject: Kodėl AKL grupė mažokai dėmesio skiria atviro kodo OS?
+Message-ID: <20050729141209+0300@wiki.akl.lt>
+
+Aš eilinis kompiuterinis vartotojas ir pastoviai seku Jūsų svetainėje publikuojmą medžiagą. Labai pasigendu atviro kodo operacinių sistemų pateikimų su išsamesniai apibūdinimais vienų ar kitų AK programų pritaikymu, ar patarimu eiliniam, neturinčiam specialaus išsilavinimo šioje srityje žmogui. Dabargi pas Jus daugumoje nurodoma, kad AK programos sėkmingai dirba su Microsoft Windows. Užtenka, kad mokyklose jau nuo mažumės vaikai sodinami ant Microsoft "adatos". Ar negalėtų AKL grupė daugiau dėmesio skirti UNIX/Linux pakraipai kaip perspektyvesniai krypčiai nei Windows. Šiuo metu didžioji kompiuterinių technologijų vartotojų armija įmonėse yra vyresnio amžiaus publika ir AKL grupė galėtų bent forumą surengti, kad žmogus galėtų paklausti ar gauti patarimą iš kvalifikuotų šaltinių, tokių kaip AKL.
+Aš daugeliui pasiūlau pabandyti Linux, bet vyresnioji publika tuoj pat pakolausia, o iš kur gauti pagalbos jei iškils vienas ar kitas klausimas?
+Jie dauguma "Brežnevinės" kartos ir su anglų kalba jiems sunkoka. Kai jiems parodai, kad yra tokios Linux OS kaip Suse,Mandrake pilnai,puikiai išverstos į Lietuvių kalbą jie būna sužavėti, bet kai paklausia, o kaip suinstaliuoti spausdintuvo, skenerio ar skaitmeninės technikos tvarkykles tada belieka pasiūlyt tik internetą, o jau tada jie visi atsako - ai geriau jau liksime prie Microsoft Windows..., o gaila

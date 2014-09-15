@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Nema\xc5\xbeai vartotoj\xc5\xb3 su\xc5\xbeav\xc4\x97j\xc4\x99s kol kas eksperimentinis <a\nhref="http://pearpc.sourceforge.net">\xe2\x80\x9ePearPC\xe2\x80\x9c</a> projektas i\xc5\xa1leido\njau antr\xc4\x85 papildym\xc4\x85. Norite savo kompiuteryje i\xc5\xa1bandyti egzoti\xc5\xa1k\xc4\x85\nLietuvoje \xe2\x80\x9eMac OS X\xe2\x80\x9c, arba \xe2\x80\x9eLinux\xe2\x80\x9c, skirt\xc4\x85 PPC architekt\xc5\xabrai? Tam\nnereikia specialaus komputerio - u\xc5\xbeteks \xe2\x80\x9ePearPC\xe2\x80\x9c. 0.1.2 versijoje\npagaliau galima naudotis tinklu, taip pat i\xc5\xa1taisytos kai kurios\nklaidos. \xe2\x80\x9ePearPC\xe2\x80\x9c svetain\xc4\x97je galite pamatyti <a\nhref="http://pearpc.sourceforge.net/screenshots.html">ekrano\npaveiksl\xc4\x97lius</a> bei <a\nhref="http://pearpc.sourceforge.net/downloads.html">atsisi\xc5\xb3sti program\xc4\x85</a>.\n</p>
+date:string = 2004-05-28
+title:string = \xe2\x80\x9ePearPC 0.1.2\xe2\x80\x9c

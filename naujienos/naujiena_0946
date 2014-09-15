@@ -1,0 +1,42 @@
+<p>Šiandien Inkscape bendruomenė išleidžia naujausią vektorinės grafikos kūrimo programinės įrangos 
+versiją, kurios vartotojo sąsaja išversta ir į lietuvių kalbą. Inkscape 0.45 versijoje įspūdingiausia 
+naujovė - Gausso suliejimo SVG filtras, kurio kūrimą rėmė Google Summer of Code programa. Gausso 
+suliejimo filtras suteikia galimybę švelniai ir natūraliai sulieti bet kuriuos Inkscape objektus, 
+tarp jų - formas, tekstą bei vaizdus. Tai leidžia pritaikyti daugybę fotorealistinių efektų: 
+reikiamos formos objekto atspindžius, ryškumo gylį (angl. depth of field), metamus šešėlius, 
+švytėjimą ir kt. Be to, sulieti objektai gali būti naudojami kaip kaukės kitiems objektams.</p>
+
+<p>Ši versija turi daugybę kitų naujų galimybių, senesnių įrankių pagerinimų ir klaidų ištaisymų. 
+Veiksmų istorijos dialogas leidžia peržiūrėti pakeitimų žurnalą bei atšaukti nenorimus veiksmus. 
+Buvo pridėta daug naujų efektų įskiepių tokių kaip „Raštas ant kreivės“ ir spalvų efektai. 
+Naujoji versija objektus daugeliu atvejų atvaizduoja 2-3% greičiau ir iki 5-10% greičiau, kuomet 
+naudojama daug dalinai permatomų objektų ir/ar spindulinių perėjimų. Rodymo kokybė taip pat buvo 
+pagerinta, nes neliko matomų spalvų ribų perėjimuose.</p>
+
+<p>Parsisiųskite Linux, Windows bei Mac OS X skirtus paketus:
+    <a href="http://sourceforge.net/project/showfiles.php?group_id=93438
+">http://sourceforge.net/project/showfiles.php?group_id=93438</a></p>
+
+<p>Detalesnė informacija apie Inkscape 0.45 versiją: <a href="http://wiki.inkscape.org/wiki/index.php/Release_Notes">
+http://wiki.inkscape.org/wiki/index.php/Release_Notes</a></p>
+
+<p>Bendruomenės atsiųsti ekranvaizdžiai:
+<a href="http://www.inkscape.org/screenshots/
+">http://www.inkscape.org/screenshots/</a></p>
+
+<h3>Apie Inkscape</h3>
+
+<p>Inkscape yra atvirojo kodo piešimo įrankis, kuris naudoja W3C konsorciumo vektorinės grafikos formatą 
+(SVG). Keletas SVG palaikomų funkcijų: pagrindinės formos, kreivės, tekstas, žymekliai, klonai, 
+permatomumo keitimas, transformacijos, perėjimai bei grupavimas. Inkscape taip pat palaiko Creative 
+Commons metaduomenis, mazgų redagavimą, sluoksnius, sudėtingas operacijas su kreivėmis, tekstą ant 
+kreivės, teksto išdėstymą formoje bei SVG XML redagavimą. Ši programa gali importuoti EPS, PostScript 
+bei daugelį taškinio vaizdo formatų, eksportuoti PNG, PS, PDF ir įvairius vektorinius formatus.</p>
+
+<p>Pagrindinė Inkscape motyvacija yra suteikti Atvirojo Kodo bendruomenei XML, SVG, ir CSS2 piešimo 
+įrankį, visiškai atitinkantį W3C standartus. Kitas Inkscape kūrėjų darbas yra esančio kodo vertimas 
+iš C/Gtk į C++/Gtkmm, pabrėžiant paprasto branduolio privalumus, kai papildomos galimybės pridedamos 
+naudojant įskiepių mechanizmą, ir palaikant paprastą, atvirą, bendruomeninį vystymo procesą.</p>
+
+<p>Visas tekstas: <a href="http://wiki.inkscape.org:8080/wiki/index.php/ReleaseAnnounce045-lt">
+http://wiki.inkscape.org:8080/wiki/index.php/ReleaseAnnounce045-lt</a></p>

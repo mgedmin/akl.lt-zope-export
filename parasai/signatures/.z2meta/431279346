@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 678244567
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 13:52:8.238000 GMT+3
+logo_url:string = http://www.brc.lt/logo.jpg
+mail:string = andrius.sersniovas@brc.lt
+organization:string = UAB "Baltijos realizacijos centras"
+position:string = IT Skyriaus vadovas
+status:string = imone
+title:string = Andrius \xc5\xa0er\xc5\xa1niovas
+url_asm:string = 
+url_org:string = http://www.brc.lt

@@ -1,0 +1,211 @@
+What are open formats ?
+
+Criteria of choosing open document formats for public information:
+
+ - Acceptance. The format must be used by more than one software provider.
+
+ - Independence. The specification of the format cannot be maintained by only one company or a closed association of companies.
+
+ - Portability. The format is guaranteed to be usable on multiple platforms.
+
+ - Implementation by free/open source software. The format must be implemented by open (free/libre) software to ensure that the format can be used and continue to be used free of charge and without restrictions.
+
+
+(I think we should put here (or above, after the explanation what open formats are) the JPEG (www.jpeg.org) example - it's very good and successful example of open format)
+
+According to these criteria we selected list of open file formats, recommended for use in Lithuanian public sector.
+
+Shortly there are mainly 4 important open document formats (standards):
+
+(put here more english text from broshure)
+
+1. (X)HTML - Worl Wide Web Consorcium standard
+
+ (TODO in Tools section - to test how good HTML is created by OOo 2.0 ? Some time ago there were some talks, that OOo 2.0 will produce standarts (w3c) compliant HTML :)
+
+
+2. Open Document - OASIS (http://www.oasis-open.org ) standard from 2005 05 01 (big anouncement on OASIS will be on May 18)
+ it seems there is only one really open and universal format,
+suitable for all kinds of office documents (texts, spreadsheets,
+presentations, drawings, math formulas, etc.), which is supported by big and small software 
+(and other) companies (TODO: ask in opendocument mailing list what are "National Archive of Australia"
+and some other initiators of OpenDocument) has the future - it's OASIS  "Open Document Format" 
+(it's an improved OpenOffice.org 1.0 file format):
+
+http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office
+
+This format is already used by at least 5 products:
+
+ - OpenOffice.org 2.x,
+
+ - KDE KOffice 1.4, 
+
+ - SUN StarOffice 8.x,
+
+ - IBM Workplace Client
+
+ - "Outside in content viewing and transformation technology" v. 8.0
+
+see these links for more information:
+
+http://marketing.openoffice.org/2.0/featureguide.html
+
+http://lists.oasis-open.org/archives/office/200502/msg00016.html
+
+http://developer.kde.org/development-versions/koffice-features.html
+
+http://lists.oasis-open.org/archives/office/200502/msg00015.html
+
+http://www.sun.com/staroffice/
+
+http://www.sun.com/2005-0329/feature/
+
+http://europa.eu.int/idabc/servlets/Doc?id=18035
+
+http://lists.oasis-open.org/archives/office/200503/msg00012.html
+
+http://www.stellent.com
+
+If someone still doesn't know - OpenOffice.org 2.0 candidate version is available here:
+http://download.openoffice.org/680/
+
+OOo 2.0 beta announcement in Lithuanian language:
+http://www.akl.lt/naujienos/#naujiena_288
+
+User-friendly and up to date article about this format is available here:
+
+http://www.groklaw.net/article.php?story=20050130002908154
+(I'm strongly suggesting to read at least this article before asking a
+question or sending any comments about Open Document format to this
+mailing list )
+
+Open Document format is also supported by 1dok project (www.1dok.org/eng/ )
+and EU. For more info about OpenDocument format support in EU look at 
+http://wiki.akl.lt/UsefulLinks , for example 
+http://europa.eu.int/idabc/en/document/3439 (Available documentation on
+the Promotion of Open Document Exchange Format) and
+http://europa.eu.int/idabc/en/document/2592/5588 (TAC approval on
+conclusions and recommendations on open document formats), there are
+important recommendations for our project and governmental institutions
+(one of the recomendations is "The public sector is encouraged to provide
+its information through several formats.")
+Also I found this info "The fact that the OASIS OpenDocument standard has
+made it's way into EU purchase cycle requirements is significant, but this
+is just the beginning."
+(look at http://lists.oasis-open.org/archives/office/200502/msg00027.html )
+
+So, it seems this format is the best in most cases, where simple HTML
+is not suitable. Only one pretty important disadvantage of this format
+is - almost all software, which uses this format, is still in beta stage.
+ I think it's not so importat for us, because our project should be 
+finished after few months, when OpenOffice.org 2.0 and StarOffice 8.0
+stable versions will be released ;)
+
+Some companies, for example Oracle, are planing to use "OpenDocument as a
+replacement for .pdf"
+http://lists.oasis-open.org/archives/office/200503/msg00003.html
+
+There is an OpenDocument format FAQ - look at http://lists.oasis-open.org/archives/office/200505/msg00012.html (it seems few days permanent link for FAQ will be http://www.oasis-open.org/committees/office/faq.php )
+
+The OpenOfficeView, written in Java
+https://oooview.dev.java.net/
+http://os.up.edu.ph/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=27&ttitle=OpenOffice.org_Viewer
+
+
+3. PDF and PDF forms - proprietary but open Adobe standard
+
+ PDF is very good for read-only documents and not so good for simple forms.
+
+ There are several open source tools for creating PDF documents and PDF forms:
+
+ - OpenOffice.org ( www.openoffice.org ) - from 1.1 version can create PDF from any supported text, spreadsheet, presentation or drawing format; 2.0 version can create PDF forms
+
+ - Scribus ( www.scribus.org.uk ), also can create PDF forms:
+ http://ahnews.music.salford.ac.uk/scribus/documentation/cgiform/pdf_form.html 
+ (we should put it at www.akl.lt/skaitykla )
+
+ - PDFCreator ( www.pdfcreator.de.vu )
+
+There are several open source tools for displaying PDF files, but it
+seems there are no open and free user-friendly tool for filling PDF
+forms, I found only one command line tool: www.accesspdf.com/pdftk/
+and several java libraries - www.pdfbox.org and www.etymon.com/epub.html
+
+The only user-friendly tool for PDF form filling is free, but proprietary
+Adobe Reader (previously known as Acrobat Reader). Filling PDF forms
+with Lithuanian/Latvian and other non iso8859-1 characters in Linux
+could be made only with Adobe Reader version 7.0 (and maybe higher, when they will be available)
+
+Because there is only one proprietary tool for filling PDF forms I think
+it would be better not to use PDF forms for changing documents between
+public institutions and citizens.
+
+
+4. XForms - Worl Wide Web Consorcium standard
+
+I think there is better - open and not proprietary standard (and file format)
+for filling various forms - it's XForms standart, which is maintained by
+World Wide Web consortium (W3C), look at
+
+http://www.w3.org/MarkUp/Forms/
+
+In its FAQ I found this info:
+
+XForms can do everything that HTML Forms can do, and then some. In
+particular XForms lets you:
+
+* Check data values while the user is typing them in.
+
+* Indicate that certain fields are required, and that the form cannot be
+  submitted without them.
+* Submit forms data as XML.
+
+* Integrate with Web services, for instance by using SOAP and XML RPC.
+
+* Submit the same form to different servers (for instance a search
+  string to different search engines).
+
+* Save and restore values to and from a file.
+
+* Use the result of a submit as input to a further form.
+
+* Get the initial data for a form from an external document.
+
+* Calculate submitted values from other values.
+
+* Constrain values in certain ways, such as requiring them to be in a
+  certain range.
+
+* Build 'shopping basket' and 'wizard' style forms without needing
+  to resort to scripting.
+
+XForms support can be installed in most popular browsers, for example
+Mozilla, Firefox, see http://www.mozilla.org/press/mozilla-2005-02-02.html
+also in MS Internet Explorer, look at
+http://ftp.novell.com/pub/forge/xforms-explorer/docs/home.html and
+http://www.formsplayer.com/download/ )
+There are also various commercial and free product for XForms design, etc
+for example http://www.xformation.com and http://developer.novell.com/xforms/
+
+OpenOffice 2.0 and StarOffice 8.0 beta versions also could be used as
+XForms designers, look at this article:
+http://www.understandingxml.com/archives/2005/03/xforms_editor_i.html
+
+I've tested FireFox 1.0+ (02-Feb-2005) with installed xforms.xpi plugin
+and was satisfied. I think such form filling possibility would really be
+suitable for Lithuanian/Latvian citizens and enterprises (eg. currently
+Lithuanian State Tax Inspectorate gives the possibility to fill tax
+forms with web browser, but this works only with M$ Internet Explorer,
+because is implemented with M$ .NET tools, which produces HTML
+and Javascript, working only with M$ IE :( ).
+
+For more info and various xforms software look at the end of
+http://www.w3.org/MarkUp/Forms/ and also at http://www.worldwidewiki.net/wiki/XForms
+
+Some more articles about XForms and Xforms software:
+
+http://www.xml.com/pub/a/2003/09/10/xforms.html
+http://www.infoworld.com/article/05/02/25/09TCxforms_1.html
+http://www.deltaxml.com/newsletters/DXNewsletter-2004-05.html
+(interesting, that one lithuanian is mentioned in this newsletter:
+XForms links from edma - Edmundas Mišeikis, http://213.190.42.244/whisper/space/XForms )

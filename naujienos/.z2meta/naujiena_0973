@@ -1,0 +1,9 @@
+[properties]
+author:string = Mantas Kriau\xc4\x8di\xc5\xabnas
+blurb:text = 2007 m. rugs\xc4\x97jo 20 d.: Pasaulin\xc4\x97 informacini\xc5\xb3 technologij\xc5\xb3 kompanija IBM pristat\xc4\x97 nemokam\xc4\x85 biuro program\xc5\xb3 rinkin\xc4\xaf \xe2\x80\x9eLotus Symphony\xe2\x80\x9c, skirt\xc4\x85 kurti ir redaguoti teksto dokumentus, lenteles ir prezentacijas.\n
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'S\\xc3\\x84\\xc2\\x97km\\xc3\\x84\\xc2\\x97s&nbsp;istorijos\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc3\\x84\\xc2\\x97s&nbsp;aplinkos\', \'S\\xc3\\x84\\xc2\\x97km\\xc3\\x84\\xc2\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x84\\xc2\\x97s&nbsp;teis\\xc3\\x84\\xc2\\x97s\')
+date:string = 2007-09-26
+email:string = mantas@akl.lt
+profesionalams:boolean = False
+title:string = IBM pristat\xc4\x97 nemokam\xc4\x85 biuro program\xc5\xb3 rinkin\xc4\xaf, sukurt\xc4\x85 OpenOffice.org pagrindu

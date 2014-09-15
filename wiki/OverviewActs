@@ -1,0 +1,89 @@
+User's Guide Book: Overview --> Overview of Lithuanian/Latvian and European Commission legal acts
+
+ Latvia:
+
+  
+
+ Lithuania:
+
+  Bendrieji reikalavimai valstybės institucijų interneto svetainėms, Lietuvos Respublikos Vyriausybės 2003 m. balandžio 18 d. nutarimas Nr. 480 : http://www3.lrs.lt/cgi-bin/preps2?Condition1=209540&Condition2= 
+
+
+ EU:
+
+  On the open document format, the situation on our side is basically as
+described on the IDABC website, i.e. we have issued recommendations to
+industry and public administrations. Our recommendations were also endorsed
+to some degree by the EPAN (the European Public Administrations Network).
+See attached, p. 14. As I see things, the main challenge for us will be to
+have the public sector live up to its own recommendations.
+
+  As concerns the Oasis Open Document Format (based on OpenOffice), this is
+now in the process of adoption as an OASIS standard (expected before
+summer). In addition, Sun has also taken the standardisation process forward
+to ISO and is reasonably optimistic that an ISO standard might be achieved
+before the end of the year (but I have no independent means of verifying).
+Meanwhile, some of the questions we had over the WordML format of Microsoft
+remain open, such as the issue of taking it into a standardisation process
+and fully implementing content in XML. Microsoft has recently indicated that
+it would be interested in discussing these issues further with us. 
+
+  As concerns your second question, public procurement is governed by
+directive 98/34/EC. I attach an electronic copy. This does not recognise the
+notion of open standards, and there is therefore no possibility of
+explicitly referring to anything other than either a formal international
+standard (such as ISO) a formal European standard (for example ETSI) or a
+formal national standard in procurement. Things like W3C, OASIS etc do not
+officially exist under this directive or at least produces no recognised
+standards. EPAN in the resolution that I have attached also complained about
+this and want a solution, but none will be possible until 98/34/EC is
+revised. (Colleagues from ENTR/D/4 which is responsible for this directive
+told me that they expect the revision process to take years rather than
+months.) I assume that you are aware of our own definition of open standards
+in the European Interoperability Framework (EIF, you'll find it on the IDABC
+website, p. 9 of the document)? This has created rather a controversy...
+
+ <u>Europos Komisijos veiksmai</u>
+
+  <b>IDABC</b> (Interoperable Delivery of European eGovernment Services to public Administrations, Businesses and Citizens) yra Europos Komisijos programa, skatinanti atvirųjų standartų naudojimą viešajame sektoriuje (http://europa.eu.int/idabc).
+
+  IDABC naudojasi informacinių ir komunikacinių technologijų teikiamomis galimybėmis siekdama skatinti ir palaikyti abipus sienos viešojo sektoriaus paslaugų teikimą gyventojams ir įmonėms Europoje, didinti efektyvumą ir bendradarbiavimą tarp Europos viešojo administravimo institucijų ir prisidėti, kad Europa taptų patraukli vieta gyventi, dirbti ir investuoti.
+
+  /IDABC stands for Interoperable Delivery of European eGovernment Services to public Administrations, Businesses and Citizens. It uses the opportunities offered by information and communication technologies to encourage and support the delivery of cross-border public sector services to citizens and enterprises in Europe, to improve efficiency and collaboration between European public administrations and to contribute to making Europe an attractive place to live, work and invest./ [iš http://europa.eu.int/idabc/]
+
+  * 2003 m. birželyje įvyko pirmoji aukšto lygio diskusija TAC (Telematics between Administrations Committee) susitikime.
+
+  * 2003 m. rugsėjo mėn. atlikta atvirųjų dokumentų standartų palyginamoji analizė. Įvertinta rinka ir vystomi atvirieji dokumentų formatai. Microsoft (WordML) ir SUN (OpenOffice) buvo pakviestos pakomentuoti atliktąją analizę. Susitikime dalyvavo IDA ekspertai.
+
+  * 2004 m. gegužę TAC parengė keletą rekomendacijų dėl atvirųjų dokumentų formatų naudojimo viešajame administravime. Rekomendacijose pabrėžiama, kad viešasis sektorius vengtų dokumentų formatus, kurie neužtikrina lygių galimybių rinkos dalyviams diegiant ar naudojant programas.
+
+  * EK direktoratas DG ENTR paskatino didžiuosius programinės įrangos gamintojus didinti dokumentų formatų interoperabilumą. Tai paskatino IBM, Microsoft ir SUN imtis veiksmų šia linkme.
+
+  * 2004 m. lapkričio mėn. didžiųjų rinkos žaidėjų palaikoma organizacija Open Forum Europe (OFE) pasiūlė Europos Komisijai Atvirojo dokumento formato (Open Document Format – http://europa.eu.int/idabc/en/document/3428) iniciatyvą. OFE rekomenduoja programinės įrangos gamintojams ir valstybių narių viešojo administravimo institucijoms naudoti šį dokumento formato viešiesiems dokumentams ir toliau jį vystyti.
+
+  IDABC programa [iš http://www.vrm.lt/index.php?id=299]
+
+   IDA programa  (1999-2004 m.) buvo skirta vystyti spartų keitimąsi elektronine informacija tarp ES šalių narių administracijų ir ES institucijų, naudojant informacijos ir ryšių technologijų pasiekimus, ir tokiu būdu pagerinti sprendimų priėmimą Bendrijoje, eEurope 2005 veiksmų plano įgyvendinimą ir vidinės rinkos procesų vystymą.
+
+   Siekdama užtikrinti efektyvų Lietuvos Respublikos dalyvavimą IDA programoje, Lietuvos Respublikos Vyriausybė priėmė nutarimą „Dėl Lietuvos Respublikos dalyvavimo Europos Bendrijos elektroninio keitimosi duomenimis tarp administracijų programoje (IDA)“.
+
+   Vykdydamas minėtą nutarimą Lietuvos Respublikos vidaus reikalų ministras patvirtino Elektroninio keitimosi duomenimis su Europos Sąjungos ir valstybių narių administracijomis taisykles (http://www3.lrs.lt/c-bin/spec/xml/getfmt?C=227852).
+
+   Vienas svarbiausių IDA programos aspektų – TESTA (Trans-European Services for Telematics – Telematikos paslaugos tarp Europos administracijų) tinklas, suteikiantis galimybę įdiegti informacines sistemas (pvz., EURODAC (daktiloskopinė informacijos sistema), DubliNet (prieglobsčio prašytojų duomenų sistema).
+
+   2004m. gegužės 18 d. Europos Sąjungos oficialiajame leidinyje paskelbtas Europos Tarybos ir Parlamento sprendimas (http://europa.eu.int/eur-lex/lex/LexUriServ/site/en/oj/2004/l_181/l_18120040518en00250035.pdf) dėl IDA programos tęsinio IDABC (Interoperable Delivery of pan-European e-Government Services to Public Administrations, Businesses and Citizens (2005-2009 m.).
+
+   IDABC programoje atsispindės IDA programos tikslai, tačiau IDABC programa apims daugiau sričių, tad visos Europos viešojo administravimo institucijų bendradarbiavimas turės naudos ne tik viešojo administravimo institucijoms, bet ir gyventojams bei verslo subjektams.
+
+   IDABC programos pagrindiniai tikslai:
+
+    · Skatinti ir remti visos Europos e.valdžios viešųjų paslaugų teikimą viešojo administravimo institucijoms, gyventojams ir verslo subjektams.
+
+    · Pagerinti Europos viešojo administravimo institucijų veiksmingumą ir tarpusavio bendradarbiavimą.
+
+    · Siekti, kad Europą taptų patrauklia vieta gyventi, dirbti ir investuoti.  
+
+   Daugiau informacijos apie IDABC programą galite rasti šiais adresais:
+
+      http://europa.eu.int/idabc<br>
+      http://www.is.lt 

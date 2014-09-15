@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 666991923
+confirmed:boolean = 1
+gen_date:date = 2005/07/27 17:05:17.031000 GMT+3
+logo_url:string = 
+mail:string = andrius@wrc.lt
+organization:string = 
+position:string = studentas
+status:string = fiz_asm
+title:string = Andrius Valiukevi\xc4\x8dius
+url_asm:string = 
+url_org:string = 

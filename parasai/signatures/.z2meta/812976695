@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 232473844
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 14:52:39.826000 GMT+3
+logo_url:string = 
+mail:string = vkiel@delfi.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Vaidas Kiela
+url_asm:string = 
+url_org:string = 

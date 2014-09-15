@@ -1,0 +1,8 @@
+[properties]
+biliunas:int = 2
+confirm_id:string = 954776025
+confirmed:boolean = 1
+email:string = ramunas@baltija.homelinux.net
+grazulis:int = 3
+romena:int = 1
+title:string = ramunas@baltija.homelinux.net

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 766426134
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 12:14:3.238000 GMT+3
+logo_url:string = 
+mail:string = valdas@regbis.com
+organization:string = 
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Valdas Monginas
+url_asm:string = http:///www.rcazuolas.com
+url_org:string = 

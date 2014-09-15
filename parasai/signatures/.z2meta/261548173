@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 566876647
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 12:23:20.220000 GMT+3
+logo_url:string = 
+mail:string = tadas@yoyo.lt
+organization:string = Vilniaus Universitetas, Matematikos ir informatikos fakultetas
+position:string = Studentas
+status:string = fiz_asm
+title:string = Tadas Sasnauskas
+url_asm:string = http://tadas.hn.org/~tadas/
+url_org:string = 

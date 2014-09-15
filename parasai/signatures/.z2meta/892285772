@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 250387410
+confirmed:boolean = 1
+gen_date:date = 2005/06/09 21:39:18.558000 GMT+3
+logo_url:string = 
+mail:string = mcpunky@gmail.com
+organization:string = 
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Modestas Rimkus
+url_asm:string = 
+url_org:string = 

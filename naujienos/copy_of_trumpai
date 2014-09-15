@@ -1,0 +1,7 @@
+<div tal:repeat="naujiena here/sviezios">
+   <h4 class="news_title">
+      <a tal:attributes="href string:naujienos/?id=${naujiena/getId}" tal:content="string:${naujiena/date} ${naujiena/title}"/>
+   </h4>
+   <div class="naujiena-trumpai" tal:content="structure naujiena/blurb" />
+   <div class="readmore"> <a tal:attributes="href string:naujienos/?id=${naujiena/getId}">daugiau...</a></div>
+</div>

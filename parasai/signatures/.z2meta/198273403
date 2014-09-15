@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 883360250
+confirmed:boolean = 0
+gen_date:date = 2005/05/24 09:50:28.172000 GMT+3
+logo_url:string = 
+mail:string = sanilas@hanner.lt
+moder_denied:string = 
+moder_ok:string = 
+organization:string = UAB Hanner
+position:string = analitikas
+status:string = fiz_asm
+title:string = Linas Gailevi\xc4\x8dius
+url_asm:string = 
+url_org:string = http://www.hanner.lt

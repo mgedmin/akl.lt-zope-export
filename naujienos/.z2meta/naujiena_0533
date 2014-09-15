@@ -1,0 +1,9 @@
+[properties]
+author:string = Audrius Me\xc5\xa1kauskas
+blurb:text = Vyksta Google surengtos "Summer of code" iniciatyvos parai\xc5\xa1k\xc5\xb3 svarstymas. GNU projekte \xc5\xa1iuo metu beveik perpus lenkdamas kitus kandidatus pirmauja parai\xc5\xa1ka GNU Classpath (alternatyvus java sistemin\xc4\x97s bibliotekos i\xc5\xa1pildymas) saugi\xc4\x85jai komunikacijai (SSL) i\xc5\xa1 esm\xc4\x97s pagerinti. 
+categories:multiple selection = (\'Programavimas\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2006-05-19
+email:string = audriusa@bluewin.ch
+profesionalams:boolean = True
+title:string = GNU projektui kol kas svarbiausia - saugi Java program\xc5\xb3 komunikacija

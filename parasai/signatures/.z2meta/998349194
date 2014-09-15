@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 804661693
+confirmed:boolean = 1
+gen_date:date = 2005/05/22 23:09:13.345000 GMT+3
+logo_url:string = http://www.marsatas.lt/logo.jpg
+mail:string = petras@miskas.net
+organization:string = UAB "Marsatas"
+position:string = kompiuterini\xc5\xb3 tinkl\xc5\xb3 administratorius
+status:string = fiz_asm
+title:string = Petras Sinkevi\xc4\x8dius
+url_asm:string = http://www.miskas.net
+url_org:string = http://www.marsatas.lt

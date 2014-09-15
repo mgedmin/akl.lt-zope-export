@@ -1,0 +1,9 @@
+[properties]
+author:string = kliurka ir Mantas
+blurb:text = 2006 gegu\xc5\xbe\xc4\x97s 2 d. universalusis atviras biuro dokument\xc5\xb3 formatas -  <a href="http://en.wikipedia.org/wiki/OpenDocument">OASIS OpenDocument (ODF)</a> buvo patvirtintas kaip tarptautinis ISO standartas "ISO/IEC 26300". Prie\xc5\xa1 metus OpenDocument buvo patvirtintas kaip standartas ir tarptautin\xc4\x97s verslo standart\xc5\xb3 organizacijos OASIS.
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Laisva&nbsp;P\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s&nbsp;teis\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x83\\xc2\\x85\\xc3\\x82\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s&nbsp;teis\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s\')
+date:string = 2006-05-03
+email:string = baruse@gmail.com, mantas@akl.lt
+profesionalams:boolean = False
+title:string = Universalusis atviras biuro dokument\xc5\xb3 formatas OpenDocument (ODF) tapo tarptautiniu standartu "ISO/IEC 26300" !

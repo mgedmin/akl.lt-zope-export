@@ -1,0 +1,17 @@
+## Script (Python) "list"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+return [
+    'firmos_biuras.html',
+    'firmos_internetas.html',
+    'firmos_serveriai.html',
+    'firmos_linux_kompuose.html',
+    'firmos_mokymas.html',
+    'firmos_abc.html',
+]

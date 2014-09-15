@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 185546029
+confirmed:boolean = 1
+gen_date:date = 2005/05/23 11:49:4.189000 GMT+3
+logo_url:string = 
+mail:string = gytenis@mail.tele2.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Gytenis Rasickas
+url_asm:string = 
+url_org:string = 

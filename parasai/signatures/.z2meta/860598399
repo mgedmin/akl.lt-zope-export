@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 638387927
+confirmed:boolean = 1
+gen_date:date = 2005/05/23 08:04:14.633000 GMT+3
+logo_url:string = 
+mail:string = mrdr@post.skynet.lt
+organization:string = 
+position:string = Laisvalaikio leidimas su gerais draugais.
+status:string = fiz_asm
+title:string = Edgaras Matuliauskas
+url_asm:string = http://nasa-team.net/
+url_org:string = 

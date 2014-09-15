@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 394928820
+confirmed:boolean = 0
+gen_date:date = 2005/05/17 19:53:14.418000 GMT+3
+logo_url:string = http://www.mokslas.lt
+mail:string = sigutec@delfi.lt
+organization:string = \xc5\xa0vietimo ir mokslo ministerija
+position:string = valstyb\xc4\x97s tarnautojas
+status:string = fiz_asm
+title:string = Romualdas Kalytis
+url_asm:string = 
+url_org:string = http://www.mokslas.lt

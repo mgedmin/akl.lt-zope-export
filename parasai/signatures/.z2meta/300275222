@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 781993012
+confirmed:boolean = 0
+gen_date:date = 2005/05/25 18:42:27.668000 GMT+3
+logo_url:string = 
+mail:string = kaspiss@centras.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Kasparas \xc5\xbdi\xc5\xabraitis
+url_asm:string = http://www.amberscript.com
+url_org:string = 

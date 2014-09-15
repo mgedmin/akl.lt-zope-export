@@ -1,0 +1,31 @@
+<p>Organizacija „Atviras kodas Lietuvai“ suteikia galimybę kiekvienam laisvų programų mylėtojui patalpinti puslapį apie jį dominanti laisvą projektą.</p>
+
+<p>Jums tereikia parašyti prašymą į <a href="mailto:info@akl.lt">info@akl.lt</a> kur aprašyti ką norite pateikti savo puslapyje, kokių resursų Jums reikia ir kokio subdomeno vardo norėtumete (vardas.akl.lt)</p>
+
+<p>Šiuo metų mūsų serveryje laikomi šitie projektai:</p>
+<ul>
+  <li><a href="http://gimp.akl.lt">gimp.akl.lt - Lietuviškas GIMP tinklapis</a></li>
+<!--  <li><a href="http://gnome.akl.lt">gnome.akl.lt - Lietuviškas Gnome grafinės aplinkos tinklapis</a><i> dar kuriamas</i></li> -->
+  <li><a href="http://lietuvybe.akl.lt">lietuvybe.org - laisvųjų programų vertimas (sulietuvinimas)</a></li>
+  <li><a href="http://linux.akl.lt">linux.akl.lt - GNU/Linux Lietuvoje</a><i> dar kuriamas</i></li>
+  <li><a href="http://plone.akl.lt">plone.akl.lt - turinio valdymo sistemos „Plone“ puslapis</a></li>
+  <li><a href="http://www.gnome.lt">www.gnome.lt - lietuviškas Gnome grafinės aplinkos tinklapis</a></li>
+  <li><a href="http://ec.akl.lt/catalog/">ec.akl.lt - osCommerce - Lietuviškos versijos puslapis</a></li>
+  <li><a href="http://coders.akl.lt/">coders.akl.lt - Šis puslapis skirtas žmonėms kurie nori mokintis ir išmokti programavimo.</a></li>
+  <li><a href="http://baltix.akl.lt/">baltix.akl.lt - Baltix GNU/Linux svetainė</a></li>
+  <li><a href="http://slackware.akl.lt/">slackware.akl.lt - Slackware Linux distribucijos lietuviškas puslapis.</a></li>
+  <li><a href="http://latex.akl.lt/">latex.akl.lt - Lietuviškas LaTeX puslapis/wiki.</a></li>
+  <li><a href="http://forumai.akl.lt/">forumai.akl.lt - forumas apie laisvas programas.</a></li>
+</ul>
+
+<p>Serveryje Jums bus suteikti tokie servisai:</p>
+<ul>
+  <li>MySQL DB arba PostgreSQL DB</li>
+  <li>Apache</li>
+  <li>Zope</li>
+  <li>PHP, Python, Ruby</li>
+  <li>SSH</li>
+  <li>Vietos tiek kiek reikia projektui</li>
+</ul>
+
+<p><b>Sukurk mylimo laisvo projekto puslapį internete!</b></p>

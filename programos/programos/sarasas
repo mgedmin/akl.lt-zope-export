@@ -1,0 +1,48 @@
+## Script (Python) "sarasas"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+# Rodome programų priklausančiu tam tikrai kategorijai sąrašą
+
+list = context.objectValues()
+
+#print '<ul>'
+for doc in list:
+     try:
+          name = doc.getId()
+
+          if doc.meta_type != 'Script (Python)' and doc.meta_type != 'Page Template':
+              for item in doc.categories.split(","):
+                  # čia matyt teks perrašyti, nes kodas kreivas
+                  # dabar kiekvienai kategorijai po if reikia daryti - ot ir nereikia, va padariau or...
+                  if (context.REQUEST['doc'] == 'biurui.html' and item == 'Biurui' and doc.public) or \
+                     (context.REQUEST['doc'] == 'internetui.html' and item == 'Internetui' and doc.public) or \
+                     (context.REQUEST['doc'] == 'projektavimui.html' and item == 'Projektavimui' and doc.public) or \
+                     (context.REQUEST['doc'] == 'programavimui.html' and item == 'Programavimui' and doc.public) or \
+                     (context.REQUEST['doc'] == 'vaizdui.html' and item == 'Vaizdui' and doc.public) or \
+                     (context.REQUEST['doc'] == 'multimedia.html' and item == 'Multimedia' and doc.public) or \
+                     (context.REQUEST['doc'] == 'dbserveriai.html' and item == 'DBServeriai' and doc.public) or \
+                     (context.REQUEST['doc'] == 'webserveriai.html' and item == 'Webserveriai' and doc.public) or \
+                     (context.REQUEST['doc'] == 'gis.html' and item == 'GIS' and doc.public) or \
+                     (context.REQUEST['doc'] == 'mokymui.html' and item == 'Mokymui' and doc.public) or \
+                     (context.REQUEST['doc'] == 'finansams.html' and item == 'Finansams' and doc.public) or \
+                     (context.REQUEST['doc'] == 'pramogai.html' and item == 'Pramogai' and doc.public) or \
+                     (context.REQUEST['doc'] == 'vertimui.html' and item == 'Vertimui' and doc.public) or \
+                     (context.REQUEST['doc'] == 'zodynai.html' and item == 'Žodynai' and doc.public) or \
+                     (context.REQUEST['doc'] == 'kitos.html' and item == 'Kitos' and doc.public):
+                       print '<h3><a href="%s/?doc=%s">%s</a></h3>' % \
+                          (context.absolute_url(), name, doc.title_or_id())
+                       print '<p>%s <a href="%s/?doc=%s">Plačiau...</a> </p>' % \
+                          (doc.trumpai, context.absolute_url(), name)
+
+     except KeyError:
+          print '<a style="color: red"><span class="arrow">&gt;&nbsp;</span>%s</a><br/>' % doc
+
+#print '</ul>'
+
+return context.fix_encoding(printed)

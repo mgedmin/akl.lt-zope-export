@@ -1,0 +1,8 @@
+[properties]
+agejevas:int = 3
+confirm_id:string = 321137570
+confirmed:boolean = 1
+email:string = kebil@kaunas.init.lt
+jocius:int = 1
+kriauciunas:int = 2
+title:string = kebil@kaunas.init.lt

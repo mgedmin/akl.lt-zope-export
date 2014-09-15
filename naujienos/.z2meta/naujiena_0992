@@ -1,0 +1,9 @@
+[properties]
+author:string = Albertas Agejevas
+blurb:text = Liepos 28 - rugpj\xc5\xab\xc4\x8dio 1 d. Kanadoje, Vistlerio miestelyje vykusiame <a href="https://wiki.mozilla.org/Summit2008">Mozilla Summit</a> susitikime dalyvavo AKL narys Rimas Kudelis.  Mozilla Summit tai kasmetinis projekto k\xc5\xabr\xc4\x97j\xc5\xb3 susitikimas, \xc4\xaf kur\xc4\xaf galima patekti tik su kvietimu. Rimas susitikime dalyvavo kaip lokalizacijos komandos narys.  Kelion\xc4\x99 ir pat\xc4\xaf rengin\xc4\xaf Rimas detaliai apra\xc5\xa1\xc4\x97 <a href="http://rq.lt/">savo tinklara\xc5\xa1tyje</a>.
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'Interneto&nbsp;programos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'S\\xc3\\x84\\xc2\\x97km\\xc3\\x84\\xc2\\x97s&nbsp;istorijos\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc3\\x84\\xc2\\x97s&nbsp;aplinkos\', \'S\\xc3\\x84\\xc2\\x97km\\xc3\\x84\\xc2\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x84\\xc2\\x97s&nbsp;teis\\xc3\\x84\\xc2\\x97s\')
+date:string = 2008-08-28
+email:string = alga@pov.lt
+profesionalams:boolean = False
+title:string = RQ Mozilla Summite

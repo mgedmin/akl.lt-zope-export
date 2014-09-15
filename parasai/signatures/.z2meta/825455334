@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 212108607
+confirmed:boolean = 1
+gen_date:date = 2005/06/04 23:01:21.119000 GMT+3
+logo_url:string = 
+mail:string = kpocius@gmail.com
+organization:string = 
+position:string = Studentas
+status:string = fiz_asm
+title:string = Karolis Pocius
+url_asm:string = http://freesoul.lcc.lt/~kpocius03/
+url_org:string = 

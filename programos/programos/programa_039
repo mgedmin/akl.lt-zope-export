@@ -1,0 +1,15 @@
+<h2>Duomenų bazių serveris „MySQL“ <br>
+<a href="http://www.mysql.com" target="_blank">www.mysql.com</a></h2>
+<p>
+Tai vienas populiariausių pasaulyje atviro kodo duomenų bazių serverių. Dėl 
+unikalios architektūros, „MySQL“ turi labai patogų valdymą, greitą ir
+efektyvų duomenų apdorojimą. „MySQL“ labiau tinka interneto projektams, 
+kur yra nesudėtingos struktūros duomenų bazė.<br>
+Duomenų bazių serveris „MySQL“ kuriamas pagal dvigubą licencijavimo sistemą.
+</p>
+<p>
+Detalus 
+diegimo procesas aprašytas 
+<a href="http://www.mysql.com/documentation/mysql/bychapter/manual_Installing.html" target="_blank">čia</a>, taip pat 
+konkrečiai „Windows“ platformai - <a href="http://fogwater.com/Articles/InstallingMySQLforWindows.html" target="_blank">fogwater.com</a>.
+</p>

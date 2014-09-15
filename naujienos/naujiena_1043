@@ -1,0 +1,56 @@
+<p>Strateginio žaidimo „<a href="http://wesnoth.org/start/1.10/">Mūšis dėl Vesnoto</a>“ kūrėjų komanda didžiuodamasi išleido 1.10 versiją. 
+Naujos laidos kūrimas bei tobulinimas truko beveik 2 metus. 
+„Mūšis dėl Vesnoto“ – tai populiarus laisvas (atviro kodo) pažingsninės strategijos (ėjimai daromi paeiliui) ir taktikos žaidimas su fantastine tema ir vaidmenų žaidimo elementais.
+Žaidimas išverstas į lietuvių, rusų, lenkų bei kitas kalbas, todėl jį žaisti gali ir nemokantys angliškai. 
+„Mūšį dėl Vesnoto“ galima žaisti ir keliems žmonėms prie vieno kompiuterio, taip pat internetu, 
+o pradedantiesiems ypač patiks įdomūs bei lengvai suprantami apmokymai (tutorial).</p>
+
+<h2 id='game'>Kas naujo Wesnoth 1.10 laidoje</h2>
+
+<div class='thumb tright'>
+  <div><a href='http://wesnoth.org/start/1.10/images/start-1-full.jpg'>
+<img src='http://wesnoth.org/start/1.10/images/start-1.jpg' alt='Vesnoto ekranvaizdis'/></a></div>
+</div>
+
+<p>„Google programavimo vasaros“ 2010 ir 2011 projektų dėka atsirado nauja planavimo
+su interaktyvia lenta sistema, padedanti susikurti kovos planus vizualiai planuojant 
+samdymą, judėjimą, atakas ir t.t. Ji netgi leidžia dalintis kuriamais planais su
+sąjungininkais daugelio žaidėjų žaidime.</p>
+<p>Buvo sukurti nauji vietovių tipai, o daugelis jau esamų buvo perpieštos ar
+atnaujintos, įskaitant ugnikalnius, animuotą vandenį, naujus papuošimus ir
+pilnai perpieštas pievas – Vesnoto mūšio laukas dabar daug gražesnis.</p>
+<p>Daugelis dalinių, tokių kaip ropliai, dabar turi naujas stovėjimo
+animacijas. Kartu su nauju animuotu vandeniu, tai padeda įkvėpti gyvenimą į
+anksčiau beveik nejudantį mūšio lauką.</p>
+<p>1.10 laidoje rasite visiškai perdarytą senosios <em>Šiauriečių</em> temos
+versiją, taip pat du naujus takelius: <em>Mūšio epika</em> ir <em>Miško
+šventovė</em>.</p>
+
+<p>Sukurta nauja kampanija, <em>Negyvas vanduo</em>; joje žaidžiate jaunu
+vandeniu – savo karalystės sosto įpėdiniu; jūsų užduotis yra atremti
+zombių invaziją ir išgelbėti savo tautą.</p>
+<p>Dauguma esamų kampanijų buvo daugiau ar mažiau atnaujintos ir
+patobulintos. Pavyzdžiui, perrašytas <em>Pasakojimo apie du brolius</em>
+siužetas, o keli <em>Vesmeros legendos</em> scenarijai perdaryti taip, kad
+žaidimas būtų dinamiškesnis ir turėtų geresnę mechaniką.</p>
+
+<h4 id='multiplayer'>Daugelio žaidėjų žaidimas</h4>
+
+<p>Pridėta keletas naujų žemėlapių: <em>Eterio nasrai</em>, <em>Arkanklavos
+citadelė</em>, <em>Tūkstančio geluonių įgula</em> ir
+<em>Ugnikalnis</em>. Kiti žemėlapiai buvo atnaujinti ir pabalansuoti, 
+pilnai išnaudojant naujus vietovių tipus.</p>
+
+<h4 id='general'>Kiti patobulinimai</h4>
+
+<p>Apšvietimo sistema dabar gali įvairias sritis apšviesti skirtingai, kad būtų
+geriau parodyti paros laiko efektai, ir, pavyzdžiui,  urvus palikti tamsius
+dienos bėgyje.</p>
+<p>Kad padėtume jums greitai atpažinti sulėtintus dalinius, dabar jie
+nuspalvinti žydrai.</p>
+
+<p>Išsamesnę informaciją bei atsisiuntimus rasite 
+<a href="http://wesnoth.org/start/1.10/index.lt.html">„Mūšio dėl Vesnoto“ 1.10 (ir ankstesnių laidų) apžvalga lietuviškai</a>.<br>
+<a href="http://launchpad.net/~baltix-members/+archive">Baltix GNU/Linux saugyklose</a> jau yra „Mūšio dėl Vesnoto“ naujausia laida, 
+todėl <a href="http://baltix.lt">Baltix operacinės sistemos</a> naudotojams užtenka <em>„Programų centre“</em> surasti <strong>wesnoth-1.10</strong> ir paspausti „Įdiegti“ :)</p>
+<p>Ačiū visiems Wesnoth žaidimo kūrėjams bei vertėjams į lietuvių kalbą - Vytautui Šalteniui, Andriui Štikonai ir kitiems už pasiaukojamą darbą!</p>

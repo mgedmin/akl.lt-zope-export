@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 958503763
+confirmed:boolean = 1
+gen_date:date = 2005/05/12 11:17:1.406000 GMT+3
+logo_url:string = http://www.akl.lt/images/logo.png
+mail:string = zilvinas.jancoras@akl.lt
+organization:string = Atviras kodas Lietuvai
+position:string = Prezidentas
+status:string = vis_org
+title:string = \xc5\xbdilvinas Jan\xc4\x8doras
+url_asm:string = 
+url_org:string = http://www.akl.lt/

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 274666088
+confirmed:boolean = 0
+gen_date:date = 2005/07/04 21:24:39.240000 GMT+3
+logo_url:string = 
+mail:string = gint.bend@one.lt
+organization:string = 
+position:string = IT inzinierius
+status:string = fiz_asm
+title:string = Gintautas Bendorius
+url_asm:string = 
+url_org:string = 

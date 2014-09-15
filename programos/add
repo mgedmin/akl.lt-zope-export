@@ -1,0 +1,83 @@
+## Script (Python) "add"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+from Products.PythonScripts.standard import html_quote
+request = container.REQUEST
+
+isAnonymous = request.AUTHENTICATED_USER.getUserName() == 'Anonymous User'
+
+title = request.title
+trumpai = request.trumpai
+body = request.body
+
+categories = ''
+
+if request.has_key('Internetui'):
+    categories = categories + "Internetui,"
+if request.has_key('Biurui'):
+    categories = categories + "Biurui,"
+if request.has_key('Programavimui'):
+    categories = categories + "Programavimui,"
+if request.has_key('Projektavimui'):
+    categories = categories + "Projektavimui,"
+if request.has_key('Vaizdui'):
+    categories = categories + "Vaizdui,"
+if request.has_key('Multimedia'):
+    categories = categories + "Multimedia,"
+if request.has_key('DBServeriai'):
+    categories = categories + "DBServeriai,"
+if request.has_key('Webserveriai'):
+    categories = categories + "Webserveriai,"
+if request.has_key('GIS'):
+    categories = categories + "GIS,"
+if request.has_key('Mokymui'):
+    categories = categories + "Mokymui,"
+if request.has_key('Finansams'):
+    categories = categories + "Finansams,"
+if request.has_key('Pramogai'):
+    categories = categories + "Pramogai,"
+if request.has_key('Vertimui'):
+    categories = categories + "Vertimui,"
+if request.has_key('Žodynai'):
+    categories = categories + "Žodynai,"
+if request.has_key('Kitos'):
+    categories = categories + "Kitos,"
+
+# Gaunam id
+id = "programa_%03d" % container.progId
+container.manage_changeProperties(progId=container.progId + 1)
+
+# programos aprašymą dedame į programos folderį
+root = container["programos"]
+
+#if isAnonymous:
+#    root = container["nepatikrintos"]
+#else:
+#    root = container
+
+# Tikrinam ar nėra programos su tokiu pavadinimu, jei yra tai progId sumažinam vienetu ir
+# parodome pranešimą, kad jau yra su tokiu pavadinimu ir pasiūlom grįžt atgal.
+for item in root.objectValues('DTML Document'):
+    if item.title.strip().upper() == title.strip().upper():
+        container.manage_changeProperties(progId=container.progId - 1)
+        return "Programa su tokiu pavadinimu jau yra įvesta. Gal grįžkite atgal ir pakeiskite pavadinimą?"
+
+# Dedam peidžą
+#container.manage_addProduct.OFSP.addDTMLDocument(id, title)
+root.manage_addProduct.addDTMLDocument(id, title)
+programa = root[id]
+programa.manage_edit(body, title)
+
+programa.manage_addProperty('categories', categories, 'string')
+
+public = 0
+programa.manage_addProperty('public', public, 'boolean')
+programa.manage_addProperty('trumpai', trumpai, 'text')
+
+request.RESPONSE.redirect(request.URL1+'/?doc=showThanks')

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 563671612
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 17:58:43.825000 GMT+3
+logo_url:string = 
+mail:string = opit@megalogika.lt
+organization:string = UAB "Megalogika"
+position:string = programuotoja
+status:string = fiz_asm
+title:string = Simona Bekerait\xc4\x97
+url_asm:string = http://blog.hardcore.lt/opit
+url_org:string = http://www.megalogika.lt

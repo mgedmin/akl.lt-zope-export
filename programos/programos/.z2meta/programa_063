@@ -1,0 +1,5 @@
+[properties]
+categories:string = Pramogai,
+public:boolean = 1
+title:string = \xe2\x80\x9eGNU Chess\xe2\x80\x9c
+trumpai:text = GNU Chess - tai Laisvasis \xc5\xa1achmat\xc5\xb3 \xc5\xbeaidimas.

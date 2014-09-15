@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 249524127
+confirmed:boolean = 1
+gen_date:date = 2005/05/21 23:15:15.977000 GMT+3
+logo_url:string = 
+mail:string = ramunazz@gmail.com
+organization:string = Programuotojas
+position:string = Programavimas
+status:string = fiz_asm
+title:string = Ramunas Monkevicius
+url_asm:string = 
+url_org:string = 

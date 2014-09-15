@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = Byl\xc5\xb3 parsisiuntimo programa \xe2\x80\x9eFileZilla\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eFileZilla\xe2\x80\x9c jums pad\xc4\x97s nar\xc5\xa1yti po FTP serverius bei bylas i\xc5\xa1 j\xc5\xb3. Palaiko FTP per SSH ir SSL.

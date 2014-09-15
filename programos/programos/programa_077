@@ -1,0 +1,80 @@
+<h2>Maršrutizatorius e-TILTAS LT</h2>
+<a href="http://www.opencrm.lt/files/etiltas.zip">
+  <img src="images/etiltas.gif" alt="e-TILTAS logo" border="0" class="rphoto"></a>
+<p>e-TILTAS LT - tai maža, į 1 lankstų
+diskelį telpanti „Linux“ distribucija, sukurta „Freesco“ pagrindu.
+E-TILTO LT pagrindinė paskirtis - keletos tinklų sujungimas,
+maršrutizavimas. e-TILTAS LT palaiko iki 3 Ethernet tinklo kortų ir
+iki 2 modemų. Pagrindinis E-TILTAS LT privalumas - maži
+reikalavimai kompiuteriui: čia užteks ir seno dulkes renkančio 386
+kompiuterio su 8MB operatyvinės atminties ir mažu kietu disku.
+e-TILTAS LT gali dirbti ir be kieto disko, tik iš lankstaus
+diskelio, tačiau tokiu atveju reikia ne mažiau 16MB operatyviosios
+atmintinės. Pagrindinis e-TILTO LT trūkumas lyginant su brangiais
+žinomų kompanijų maršrutizatoriais - dinaminės maršrutizacijos
+nebuvimas. Tačiau e-TILTAS LT sukurtas palyginti mažiems tinklams (iki
+100
+darbo vietų), kur ji retai reikalinga. e-TILTĄ LT lyginant su
+kitais „Linux“ pagrindu padarytais mažais maršrutizatoriais, galima
+paminėti paprastą įdiegimą ir itin patogią, lietuvišką
+sistemos derinimo (setup) programą.</p>
+<p>e-TILTĄ atsisiųsti galite iš 
+<a href="http://www.opencrm.lt/files/etiltas.zip">čia</a>.</p>
+<p><b>Pagrindiniai sistemos privalumai:</b>
+<ul>
+<li>Taupo pinigus įmonės interneto
+jungčiai. Prie vienos jungties (vieno IP adreso) galima prijungti
+visus įmonės kompiuterius.</li>
+<li>Saugo įmonės tinklą nuo interneto įsilaužimų.</li>
+<li>Aptarnauja tinklus, kuriuose dirba iki 100 kompiuterių.</li>
+<li>Didina tinklo našumą skaidant jį į segmentus.</li>
+<li>Paprastas konfigūravimas lietuvių kalba.</li>
+<li>Patikimas, praktikoje patikrintas branduolys („Linux“).</li>
+</ul>
+</p>
+<p><b>Pagrindinės užduotys, kurias
+atlieka e-TILTAS LT:</b>
+<ul>
+<li>Ethernet tiltas tarp kelių lokalių
+tinklų.</li>
+<li>Ugnies siena (apsauga nuo įsilaužimų).</li>
+<li>Vidinio tinklo adresų keitimas (NAT).</li>
+<li>Kešuojantis DNS serveris.</li>
+<li>DHCP serveris.</li>
+<li>HTTP serveris.</li>
+<li>Telnet serveris.</li>
+<li>Spausdinimo serveris.</li>
+<li>Nuotolinio pasiekimo serveris „dial-up“ klientams.</li>
+<li>Laiko serveris.</li>
+</ul></p>
+<p>e-TILTAS LT gali dirbti kaip paprastas
+maršrutizatorius arba paprastas tiltas, tačiau galima paleisti
+daugumą šių tarnybų, taip gaunant pakankamai universalų tinklo
+serverį. Derinimo programa pasiūlo keletą bazinių konfigūracijų.
+</p>
+<p><b>Reikalavimai techninei įrangai:</b>
+<ul>
+<li>Procesorius - 386 ar geresnis.</li>
+<li>Matematinis koprocesorius - nebūtinas.</li>
+<li>Operatyvioji atmintinė (RAM) -
+mažiausiai 6MB (būtina virtualioji atmintinė kietajame diske), 8MB
+(mažesniam užduočių rinkiniui virtualioji atmintinė nebūtina),
+rekomenduojama 16MB.</li>
+<li>Lanksčiųjų diskelių įrenginys 3,5" 1,44MB.</li>
+<li>Kietasis diskas - nebūtinas, jei
+sistemoje 8-16MB RAM, jei mažiau - reikalingas virtualiai
+atmintinei. Rekomenduojama ne mažesnis nei 20MB. </li>
+<li>Ethernet tinklo plokštės - 3Com509,
+3Com595, 3Com905, suderinamos su Realtek 8139, suderinamos su ISA/PCI
+NE2000. Dauguma kitų tinklo plokščių gali būti pritaikomos pagal
+atskirą užsakymą.</li>
+<li>Modemai. Negali būti naudojami
+softmodemai (winmodemai), tinka tiek išoriniai, tiek vidiniai
+modemai. Naudojant senesnius 386/486 kompiuterius rekomenduojama
+naudoti vidinius modemus, kadangi jie turi savo COM prievadus su
+greitais FIFO buferiais.</li>
+</ul>
+</p>
+<p>e-TILTAS LT kūrėja - lietuviška IT kompanija 
+<a href="http://www.aleja.lt">UAB „Informacijos alėja“</a>.
+</p>

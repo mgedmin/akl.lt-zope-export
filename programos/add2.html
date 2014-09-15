@@ -1,0 +1,47 @@
+<h1>Pridėkite programos aprašymą:</h1>
+
+<form action="add" method="POST">
+<table>
+    <tr>
+        <td>Programos pavadinimas:
+	<td><input type="text" name="title" size="60">
+    </tr>
+    <tr>
+	<td>Programos trumpas aprašymas:
+	<td><textarea cols="60" rows="5" name="trumpai"></textarea>
+    </tr>
+    <tr>
+	<td>Programos aprašymas:
+	<td><textarea cols="60" rows="15" name="body"></textarea>
+    </tr>
+    <tr>
+        <td>Kategorijos:</td>
+        <td>
+             <table tal:define="cat here/formatCategories">
+             <tr tal:repeat="row cat">
+               <td tal:repeat="col row" style="white-space: nowrap;">
+                 <input type="checkbox"
+                        tal:attributes="name 
+                                    string:${col/name}"/>
+                 <span tal:replace="structure col/name"/>
+               </td>
+             </tr>
+             </table>
+       </td>
+    </tr>
+    <tr>
+	<td colspan="2"><input type="submit">
+	    <input type="reset">
+            <div tal:define="username here/REQUEST/AUTHENTICATED_USER"
+                tal:condition="python:username.getUserName()=='Anonymous User'">
+            <br/>
+            <small>
+            (Jūsų programos aprašymas bus publikuota tik po to, kai ją peržiūrės 
+                vienas iš AKL narių.)
+            </small>
+            </div>
+        </td>
+    </tr>
+</table>
+</form>
+

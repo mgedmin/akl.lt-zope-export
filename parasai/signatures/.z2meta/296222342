@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 834920964
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 12:34:44.983000 GMT+3
+logo_url:string = http://www.compservis.lt/img/logo.gif
+mail:string = nikolajus.krauklis@compservis.lt
+organization:string = UAB "Compservis"
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Nikolajus Krauklis
+url_asm:string = 
+url_org:string = http://www.compservis.lt

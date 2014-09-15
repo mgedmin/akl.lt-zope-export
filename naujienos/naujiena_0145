@@ -1,0 +1,4 @@
+<p>Kompanija <a href="http://www.ximian.com">„Ximian“</a> neseniai paskelbė apie projektą <a href="http://www.go-mono.com/">„Mono“</a>, „Microsoft“ .NET laisvos programinės įrangos versiją. „Mono“ 1.0 versiją ketinama išleisti 2004 metų antrame ketvirtyje. Jame bus C# kompiliatorius, vykdomoji aplinka, GTK# (GTK+ jungimui su .NET), įrankiai ir formos.<br>
+„Mono“ projektas pradėtas 2001, tikslu .NET technologiją pritaikyti „Unix“ bei padėti norintiems pritaikyti savo žinias ir taikomąsias programas „Unix“ platformai. Naudojamas naujas programavimo modelis, sukurtas CLI (Common Language Infrastructure) ir C# pagrindu. Šiandien „Mono“ palaiko įvairias operacines sistemas, procesorius ir .NET savybes.<br>
+Daugiau informacijos apie projekto planus rasite <a href="http://www.go-mono.com/mono-roadmap.html">čia</a>.
+</p>

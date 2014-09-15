@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 393753225
+confirmed:boolean = 1
+gen_date:date = 2005/05/20 12:04:32.300000 GMT+3
+logo_url:string = 
+mail:string = mjoc@akl.lt
+organization:string = UAB \xe2\x80\x9eElektronin\xc4\x97 prekyba ir Ko.\xe2\x80\x9c
+position:string = Studentas, programuotojas, serveri\xc5\xb3 administratorius
+status:string = fiz_asm
+title:string = Martynas Jocius
+url_asm:string = http://mjoc.sig.lt
+url_org:string = http://www.ep.lt

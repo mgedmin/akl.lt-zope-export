@@ -1,0 +1,9 @@
+[properties]
+author:string = Donatas G.
+blurb:text = Prie\xc5\xa1 kelet\xc4\x85 dien\xc5\xb3 KDE vert\xc4\x97j\xc5\xb3 \xc4\xaf lietuvi\xc5\xb3 kalb\xc4\x85 iniciatyva startavo svetain\xc4\x97  <a href="http://kde.akl.lt">\xe2\x80\x9eKDE Lietuvoje ir ... lietuvi\xc5\xa1kai\xe2\x80\x9c</a>.
+categories:multiple selection = (\'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2008-09-03
+email:string = dgvirtual@akl.lt
+profesionalams:boolean = False
+title:string = Startavo svetain\xc4\x97 \xe2\x80\x9eKDE Lietuvoje ir ... lietuvi\xc5\xa1kai\xe2\x80\x9c

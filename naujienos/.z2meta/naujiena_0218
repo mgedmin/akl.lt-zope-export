@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Praeit\xc4\x85 savait\xc4\x99 pasirod\xc4\x97 laisvos vaizd\xc5\xb3 apdorojimo programos <a href="http://www.gimp.org">\xe2\x80\x9eThe GIMP\xe2\x80\x9c</a> \n(The GNU Image Manipulation Program) 2.0 versija. Tai didelis \xc4\xafvykis\nsavanoriams ir entuziastams, k\xc5\xabrusiems \xc5\xa1i\xc4\x85 profesionali\xc4\x85 versij\xc4\x85, ir\nu\xc5\xbebaigiantis trej\xc5\xb3 met\xc5\xb3 darb\xc4\x85. Tai pirmoji versija, kuri oficialiai\npalaikoma ne tik \xe2\x80\x9eUnix\xe2\x80\x9c tipo platformose, bet ir \xe2\x80\x9eMS Windows\xe2\x80\x9c bei\n\xe2\x80\x9eMacintosh OS X\xe2\x80\x9c.\n</p>
+date:string = 2004-04-01
+title:string = \xe2\x80\x9eThe GIMP 2.0\xe2\x80\x9c

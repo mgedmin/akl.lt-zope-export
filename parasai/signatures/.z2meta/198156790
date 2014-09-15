@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 849905060
+confirmed:boolean = 1
+gen_date:date = 2005/06/21 11:26:32.949000 GMT+3
+logo_url:string = 
+mail:string = goga@email.lt
+organization:string = UAB "BITI"
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Vadim Mentiukov
+url_asm:string = http://da.visibaldai.lt
+url_org:string = 

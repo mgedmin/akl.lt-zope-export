@@ -1,0 +1,47 @@
+## Script (Python) "balsuok"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+request = context.REQUEST
+if request.cookies.get('poll', None) == 'true':
+    request.RESPONSE.redirect("%s/?doc=showMsg&msg=%s" % (
+        container.absolute_url(),
+        "Jūs daugiau balsuoti nebegalite - jau balsavote. Laukite balsavimo pabaigos."
+    ))
+    return
+
+IP = request['HTTP_X_FORWARDED_FOR']
+ 
+if IP in container.lastIPs():
+    request.RESPONSE.redirect("%s/?doc=showMsg&msg=%s" % (
+        container.absolute_url(),
+        "Iš jūsų IP adreso (%s) jau buvo balsuota prieš keletą minučių. Siekdami apsisaugoti nuo automatinio balsavimo mes draudžiame balsuoti dažniau nei kas 15 minučių iš vieno IP adreso. Prašome balsuoti po 15 minučių." % IP
+    ))
+    return
+ 
+f = request.form
+results = f.keys()
+
+root = container['balsai']
+sigs = root.objectValues('DTML Document')
+
+id = "%s" % random.randint(100000000, 999999999)
+root.manage_addProduct.addDTMLDocument(id)
+balsas = root[id]
+
+balsas.manage_addProperty('balsai', ",".join(results), "string")
+balsas.manage_addProperty('IP', IP, "string")
+
+date = DateTime() + 365
+date = date.strftime("%d-%m-%Y 00:00:00 GMT")
+request.RESPONSE.setCookie('poll', 'true', expires=date, path="/balsavimas/logotipas/")
+
+request.RESPONSE.redirect("%s/?doc=showMsg&msg=%s" % (
+        container.absolute_url(),
+        "Jūsų balsas priimtas."
+    ))

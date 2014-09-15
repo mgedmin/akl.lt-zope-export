@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 309386220
+confirmed:boolean = 0
+gen_date:date = 2005/05/18 06:42:46.267000 GMT+3
+logo_url:string = 
+mail:string = melagis@gmail.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Romas Jankauskas
+url_asm:string = 
+url_org:string = 

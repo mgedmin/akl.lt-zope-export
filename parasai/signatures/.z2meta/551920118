@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 394117390
+confirmed:boolean = 1
+gen_date:date = 2005/05/31 07:47:31.175000 GMT+3
+logo_url:string = http://linux.akl.lt/patentai/ne18.png
+mail:string = mrkiller@one.lt
+organization:string = KillerSoft
+position:string = Web ir  flash kurejas
+status:string = fiz_asm
+title:string = Ernestas Stankevicius
+url_asm:string = http://www.mrkiller.ten.lt
+url_org:string = http://www.mrkiller.ten.lt

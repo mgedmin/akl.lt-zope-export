@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = True
+confirm_id:int = 230490722
+confirmed:boolean = False
+gen_date:date = 2007/03/06 03:23:31.167000 GMT+2
+logo_url:string = http://12.fangmian.info/%E4%B8%9C%E4%BA%9A%E9%93%B6%E8%A1%8C/
+mail:string = braeden@royalmail.com
+organization:string = Jarret
+position:string = Darrin
+status:string = vyr_org
+title:string = Immanuel
+url_asm:string = http://2.fangzheng.info/%E4%B8%96%E7%BA%AA%E6%9C%AB%E4%B9%8B%E6%A2%A6mtv/
+url_org:string = http://20.fangzheng.info/%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E5%B1%8A%E5%A5%A5%E8%BF%90%E4%BC%9A/

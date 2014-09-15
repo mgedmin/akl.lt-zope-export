@@ -1,0 +1,9 @@
+[properties]
+author:string = Kristina Kudria\xc5\xa1ova
+blurb:text = Pagaliau i\xc5\xa1leista naujoji laisvosios pa\xc5\xa1to programos Mozilla Thunderbird versija - 2.0. Thunderbird yra atvirojo kodo pa\xc5\xa1to programa, itin atspari virusams ir kitiems kenk\xc4\x97jams, veikianti Windows, Linux ir Mac operacin\xc4\x97se sistemose. Naujojoje versijoje rasite daugyb\xc4\x99 naujovi\xc5\xb3.
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'Interneto&nbsp;programos\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x83\\xc2\\x85\\xc3\\x82\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s&nbsp;aplinkos\', \'S\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97km\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s&nbsp;teis\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s\')
+date:string = 2007-04-19
+email:string = kristina@akl.lt
+profesionalams:boolean = False
+title:string = I\xc5\xa1leista pa\xc5\xa1to programos Thunderbird versija 2.0

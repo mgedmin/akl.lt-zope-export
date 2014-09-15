@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:31+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2005-02-02T21:15:59+00:00
+last_editor:string = romena
+last_editor_ip:string = 127.0.0.1
+last_log:string = 
+parents:lines = [\'UsersGuide\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = WebsiteRevision

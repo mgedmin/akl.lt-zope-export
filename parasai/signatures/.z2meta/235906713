@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 435544358
+confirmed:boolean = 1
+gen_date:date = 2005/10/10 14:38:45.167000 GMT+3
+logo_url:string = 
+mail:string = nutonium@gmail.com
+moder_denied:string = SG: nepilnas vardas; nerimta organizacija
+moder_ok:string = 
+organization:string = jezaumarija!!
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Darius N.
+url_asm:string = 
+url_org:string = 

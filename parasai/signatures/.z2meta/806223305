@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 476990937
+confirmed:boolean = 1
+gen_date:date = 2005/05/24 10:33:10.576000 GMT+3
+logo_url:string = 
+mail:string = saulius.shopaga@gmail.com
+organization:string = M.Daujoto vidurin\xc4\x97 mokykla
+position:string = mokytojas
+status:string = fiz_asm
+title:string = Saulius \xc5\xa0opaga
+url_asm:string = 
+url_org:string = http://djt.lt

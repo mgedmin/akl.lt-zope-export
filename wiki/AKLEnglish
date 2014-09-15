@@ -1,0 +1,15 @@
+AKL puslapis anglų kalba
+
+ Puslapio anglų kalba pagrindinė paskirtis - pristatyti AKL organizacijos veiklą bei apskritai AK judėjimo veiklą Lietuvoje: projektai, iniciatyvos, seminarai, mokymai ir kita.
+
+  Siūloma puslapio struktūra:
+
+   * Pagrindinis puslapis - pristatymas, kieno tai puslapis + kontaktai (adresai, telefonai, įm. kodas, sąskaita banke)
+
+   * Skyrius "AKL" - misija, tikslai, vizija
+
+   * Skyrius "Projects" - jau įgyvendinti projektai. Bendras aprašymas apie skyrių. Projektai klasifikuojami pagal Valstybiniai/Nacionaliniai/Lietuvoje projektai, Tarptautiniai projektai, Seminarai. Reikalinga lanksti įvedimo sistema (duomenys saugomi duombazytėje): pavadinimas, data/vieta, tikslas, trumpas aprašymas, rezultatai, projekto komanda, rėmėjai, kontaktai, pastabos.
+
+   * Skyrius "Initiatives" - AKL iniciatyvos, ketinami įgyvendinti projektai, projektų idėjos. Bendras aprašymas apie skyrių. Reikalinga lanksti įvedimo sistema (duomenys saugomi duombazytėje): pavadinimas, trumpas aprašymas, bendras tikslas, projekto tikslas, rezultatai (poveikis ir produkati), formuojama projekto komanda (partnerystės galimybės), tikimas biudžetas, kontaktai, pastabos.
+
+   * Skyrius "Sponsors"

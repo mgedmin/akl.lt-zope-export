@@ -1,0 +1,9 @@
+[properties]
+author:string = Erika
+blurb:text = Google paslaugos Google Talk, sukurtos Jabber pagrindu, vartotojai dabar turi galimyb\xc4\x99 si\xc5\xb3sti  \nprane\xc5\xa1imus kitiems Jabber serveri\xc5\xb3 vartotojams.
+categories:multiple selection = (\'Interneto&nbsp;programos\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x84\\xc2\\x97s&nbsp;teis\\xc3\\x84\\xc2\\x97s\')
+date:string = 2006-01-19
+email:string = erika@akl.lt
+profesionalams:boolean = 0
+title:string = Google Talk vartotojai gali bendrauti su kitais Jabber serveri\xc5\xb3 vartotojais!

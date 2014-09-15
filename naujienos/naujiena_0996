@@ -1,0 +1,7 @@
+Nokia išplatino informacinį laišką jog nuo 4.5 versijos QT grafinė sąsaja bus platinama ir pagal laisvosios LGPL v 2.1 licencijos sąlygas. Ši versija pasirodys 2009 m. kovo mėnesį ir turės net tris licencijas: komercinę, LGPL ir GPL. Skirtingai nuo GPL, LGPL leidžia naudoti QT biblioteką ir uždaro kodo programose. Tokia licencija Nokia siekia<ul>
+<li>Skatinti QT platformos populiarumą tiek įprastiniuose kompiuteriuose, tiek ir mobiliuose telefonuose bei įvairiose kitose srityse
+<li>Pasiekti, jog QT taptų iš esmės standartine grafine aplinka,
+<li>Plėsdama vartotojų ratą, gauti iš jų daugiau naudingos informacijos kuri padės tolimesniam QT vystymui
+<li>Didinti QT populiarumą atviro kodo bendruomenėse.
+</ul>
+QT bibliotekos plačiai naudojamos kuriant grafines programas, tame tarpe ir populiarią KDE grafinę sąsają, dažnai naudojama GNU/Linux operacinėse sistemose, taip pat KOffice biuro programų paketui, veikiančiam Linux, Windows ir kitose operacinėse sistemose. Gerai žinoma jos alternatyva yra GTK+ (naudojama dažniausiai GNOME grafinės aplinkos programų, taip pat populiariose GIMP, Firefox ir kt. programose). GTK+ grafinė sąsaja jau seniai platinama pagal LGPL licencijos sąlygas.

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 503447381
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 20:26:25.816000 GMT+3
+logo_url:string = 
+mail:string = loading@takas.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Maksim Golivkin
+url_asm:string = http://blog.hardcore.lt/loading
+url_org:string = 

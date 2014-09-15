@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 842654071
+confirmed:boolean = 1
+gen_date:date = 2005/06/04 19:58:1.850000 GMT+3
+logo_url:string = 
+mail:string = tomas@perkunas.vtu.lt
+organization:string = 
+position:string = IT analitikas, konsultantas
+status:string = fiz_asm
+title:string = Tomas Straupis
+url_asm:string = http://perkunas.vtu.lt
+url_org:string = 

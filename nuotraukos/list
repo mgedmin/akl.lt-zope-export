@@ -1,0 +1,20 @@
+## Script (Python) "list"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+def reCurse(dir):
+    results = []
+    for ob in dir.objectValues('Folder'):
+        results.append(reCurse(ob))
+    for ob in dir.objectValues('Photo'):
+        results.append(ob.absolute_url())
+    return "\n".join(results)
+
+print reCurse(context)
+
+return printed

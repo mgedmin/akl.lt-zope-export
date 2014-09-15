@@ -1,0 +1,5 @@
+[properties]
+categories:string = Mokymui,
+public:boolean = 1
+title:string = Kompiuterin\xc4\x97s algebros paketas \xe2\x80\x9eMaxima\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eMaxima\xe2\x80\x9c yra kompiuterin\xc4\x97s algebros paketas, skirtas\nsimboliniams apskai\xc4\x8diavimams. Galima atlikti simbolin\xc4\xaf integravim\xc4\x85,\nsukurti 3D grafikus, spr\xc4\x99sti lygtis. Tai viena i\xc5\xa1 pirm\xc5\xb3j\xc5\xb3 ir vis\ni\xc5\xa1liekanti tarp geriausi\xc5\xb3 kompiuterin\xc4\x97s algebros sistem\xc5\xb3.

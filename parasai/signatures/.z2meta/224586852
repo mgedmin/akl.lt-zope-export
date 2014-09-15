@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 326997064
+confirmed:boolean = 1
+gen_date:date = 2005/05/24 16:58:35.427000 GMT+3
+logo_url:string = http://distance.ktu.lt/vips/images/dmclogo.gif
+mail:string = marius.siegas@ktu.lt
+organization:string = KTU Distancinio mokymo centras
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Marius Siegas
+url_asm:string = 
+url_org:string = http://distance.ktu.lt/

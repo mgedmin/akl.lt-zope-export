@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2007-05-25 12:02:42
+creator:string = ristinak
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2007-05-25 12:28:12
+last_editor:string = ristinak
+last_editor_ip:string = 127.0.0.1
+last_log:string = 
+parents:lines = []
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Iniciatyva Lietuvoje

@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2006-09-29T09:07:56+00:00
+creator:string = jaro
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-09-30T16:11:50+00:00
+last_editor:string = ristinak
+last_editor_ip:string = 127.0.0.1
+last_log:string = 
+parents:lines = [\'Infobalt2006\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = CD gamyba

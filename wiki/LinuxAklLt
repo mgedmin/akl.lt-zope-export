@@ -1,0 +1,150 @@
+linux.akl.lt portalo projektas
+
+  <strong>iniciatoriai: </strong> Jaro, Mantiena bei naujai prisijungęs Cookiem.
+
+<hr/>
+
+ Čia bus pateiktas linux portalo projektas. Schemos ir t.t.
+ Išdėstyti jūsų ir mūsų pamastymai.
+ Laukiama atsiliepimų, bei pageidavimų.
+
+<hr/>
+
+
+Naujienų portalas http://naujienos.akl.lt
+
+ Šiuo metu www.akl.lt svetainėje naujienos talpinamos tik apie renginius ar seminarus, susijusius su laisva programine įranga, kitą atvirojo kodo politiką, ir labai retai apie naujas laisvas programas....
+
+ Naujienu portalui reikia: 
+  
+  * Galimybė įdėti naujienas tiek administratoriui, tiek paprastam lankytojui. <i>(keli lygiai. Pvz. admin, news_reporter, user)</i>
+
+  * Paprasto lankytojo paskelbtos naujienos turi būti patvirtinamos/nepatvirtinamos <i>(reikia patvirtinti jei įdėjo user, o admin ir news_reporter dedam automatiškai)</i>
+
+  * Naujienai turi būti priskirta kategorija
+
+  * Naujienų grupavimas pagal kategorijas
+
+  * Naujienų filtravimas pagal kategorijas
+
+  * Naujienų paieška pagal kriterijus(data, žodžiai naujienoje, kategorija)
+
+  * Naujienas galima komentuoti
+
+  * Atskirų naujienų komentavimas gali būti uždraustas
+
+  * Naujienos turi turėti RSS nuorodą
+
+  * Turi turėti galimybę pasimti naujienas iš kitų lietuvos naujienų tinklapių naudojant RSS, to pasekoje, jei naujiena atitiks mūsų kriterijus ir bus patvirtinta, ji paskelbiama tinklapyje
+
+  * Portalas turi turėti forumą (tokį kaip linuxquestions.org)
+
+  * Portalas turi būti nuolat moderuojamas
+
+  * Portale turi būti skyrelis "Dokumentacija", kurioje būtų talpinama Linux/Unix lietuviška dokumentacija
+
+  * Portalas turi turėti nuorodų skyrelį, kuriame būtų gausu nuolat atnaujinamų nuorodų Atviro Kodo tematika
+
+  * Portale skelbiamos apklausos
+
+  * Portale numatyta minimali reklaminė erdvė mūsų sponsoriams
+
+  Parašė Gintas Balčiūnas (gintas at gmail.com), redagavo Jaro (jaro at akl.lt).
+
+  Čia buvo parašyta for naujenos.akl.lt bet tinka ir to linux.akl.lt, taigi mes tai ir bandome realizuoti ;)
+
+<strong>SiteMap:</strong>
+
+<img src="http://www.akl.lt/images/akl_lt_sitemap" 
+   alt="Sitemap">
+
+From MantasKriaučiūnas Wed Feb 23 14:33:40 +0200 2005
+From: Mantas Kriaučiūnas
+Date: Wed, 23 Feb 2005 14:33:40 +0200
+Subject: 
+Message-ID: <20050223143340+0200@wiki.akl.lt>
+
+Saulius Gražulis pastebėjo:
+
+Tik krito į akis, kad vėl (kurį kartą... :) pamiršom Guru ir GNU
+sistemą/projeką/idėjas...
+
+Kad ir ką ten begalvotume apie filosofiją ir ideologijas ;), būkim teisingi:
+
+gcc --version
+Copyright (C) 2003 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+[...]
+... Ir dar keli šimtai GNU projektų bei tūkstačiai programėlių ...
+
+Taip kad vis tik mes naudojame GNU/Linux, RMS teisus ;).
+
+Deramai įvertinkime Ričardo ir FSF nuopelnus. Be FSF projektų Linux'as gal net
+iš vis nebūtų atsiradęs... Ir jau tikrai neturėtume sistemos, kuria visi
+laisvai galime naudotis šiandien.
+
+From unknown Thu Apr 14 20:37:12 +0300 2005
+From: 
+Date: Thu, 14 Apr 2005 20:37:12 +0300
+Subject: Dizainas ar svetaine?
+Message-ID: <20050414203712+0300@wiki.akl.lt>
+
+Nelabai supratau reikalinga svetaine ar svetaines dizainas..?
+
+From unknown Thu Apr 14 23:21:22 +0300 2005
+From: 
+Date: Thu, 14 Apr 2005 23:21:22 +0300
+Subject: Ir tai ir tai
+Message-ID: <20050414232122+0300@wiki.akl.lt>
+
+Svetainė jau daroma. Kol kas ten žiaurus unstable, ta svetainė bus. Bet vat dizaineris iš menęs nekoks. Taigi jei kas galėtu padaryti dizainą tai būtų cool :)
+
+Žinoma, jei kas yra eZpublish žinovas ir norėtu prisijungti prie varykliuko konfiguravino, tai irgi labai prašome prisijungti.
+
+Dar labai reikia žmonių, kurie rašytu straipsnius ir naujienas.
+
+From unknown Wed Apr 20 23:11:58 +0300 2005
+From: 
+Date: Wed, 20 Apr 2005 23:11:58 +0300
+Subject: VooZ2
+Message-ID: <20050420231158+0300@wiki.akl.lt>
+
+jaro, linux.akl.lt tai turi buti kuri apima viska: linux distru naujienas,linux pasaulio naujienas ir pan. jei zmogui reik pagalbos ar HOWTO jis eina i dokumentacija pasirenka kokia jis distra domisi ir mato visus HOWTO trumpa aprasyma ir linka kur gali visa perskaityti teksta
+
+From unknown Fri May 27 03:02:24 +0300 2005
+From: 
+Date: Fri, 27 May 2005 03:02:24 +0300
+Subject: į ką orientuojamės
+Message-ID: <20050527030224+0300@wiki.akl.lt>
+
+pagalvojau, išsamiai apie visokio plauko Linuxus tikrai nespėsime aiškinti. Forumuose galima vietos tam palikti (ir gal Wiki), o geekai puikiai išmano google ir pan :)
+
+Bet jei orientuojames į eilinį mirtingąjį, tai butu naudinga ir howto, ir dokumentacija,  ir (vaikisku) straipsnių, ir tutorialai (gal net animacijos) - manau tam geriausiai tiktų Baltix distra... - kaip sako Mamberiai "simplicity is power" :)
+
+From unknown Sun Jun 12 16:50:08 +0300 2005
+From: 
+Date: Sun, 12 Jun 2005 16:50:08 +0300
+Subject: ping
+Message-ID: <20050612165008+0300@wiki.akl.lt>
+
+Taip, orientuotis gal labiau reiktų į paprastą vartotoją. Labiausiai reiktų straipsnių kaip atlikti kasdienines užduotis. Pavyzdžiui kaip išsikepti CD (programų apžvalga) arba kaip padaryti, kad veiktų garsas iš kelių programų, kaip įdiegti Flash/Java, kaip sureguliuoti šriftus. Taip pat nepakenktų straipsniai šiek tiek ne į temą, pvz apie Jabber, GnuPG. Ir aišku tokių nestandartinių Tips/Tricks pvz kaip susireguliuoti savo vietinį paštą.
+
+Tarp kitko, jau turėjo baigtis konkursas dėl svetainės dizaino. Alio... kas dar gyvas?
+
+From unknown Tue Jun 14 18:09:52 +0300 2005
+From: 
+Date: Tue, 14 Jun 2005 18:09:52 +0300
+Subject: Jaro dėl dizaino
+Message-ID: <20050614180952+0300@wiki.akl.lt>
+
+Jo konkursas dėl dizaino baigėsi. 
+Rašykite čia kuris iš dizainų (http://linux.akl.lt/dizainai.html) Jums labiau patiko :)
+
+
+From unknown Tue Feb 14 21:17:34 +0200 2006
+From: 
+Date: Tue, 14 Feb 2006 21:17:34 +0200
+Subject: 
+Message-ID: <20060214211734+0200@wiki.akl.lt>
+
+geresne ta  vitalijaus svetaine,,viskas aisku nieko imantraus..svarbiausia kokia info nte bus

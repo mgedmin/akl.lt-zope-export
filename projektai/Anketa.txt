@@ -1,0 +1,41 @@
+DIEGIMO �VENT�
+2004 02 14 d., Vilnius
+
+
+
+DALYVIO ANKETA
+
+o Vardas
+
+o Pavard�
+
+o Am�ius
+
+o Kontaktai
+
+
+o � rengin� turite atsine�ti savo kompiuter� su visa, kasdien naudojama komplektacija. Nurodykite kompiuterio technines charakteristikas:
+
+	* atmintis (RAM):
+
+	* kietasis diskas / laisvos vietos diske:       /  
+
+	* procesorius:
+
+	* kiti parametrai:
+
+	* jei turite CD-ROM, tinklo kort�, taip pat atsine�kite
+
+	* jei naudojate printer�, skener�, juos taip pat atsine�kite, jei tik yra galimyb�
+
+
+o Distribucija. Jei neturite speciali� pageidavim� operacinei sistemai, tuomet diegsime "GNU/Linux" distribucij� "Knoppix" su grafine aplinka ir programomis: pa�to, Interneto, teksto redagavimo, vaizd� apdorojimo, audio, video, edukacin�mis ir kt. Jei norite konkre�ios distribucijos ar papildom� program�, �ra�ykite pageidavimus �ia (jei negal�sime i�pildyti j�s� nurodyt� pageidavim� - informuosime apie tai):
+
+	* distribucija:
+
+	* programos: 
+
+
+
+
+Anket� si�skite info@akl.lt. Jei turi klausim�, taip pat ra�ykite info@akl.lt.

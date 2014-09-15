@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 975222152
+confirmed:boolean = 1
+gen_date:date = 2005/07/29 11:21:54.603000 GMT+3
+logo_url:string = 
+mail:string = studija4d@projektas.lt
+organization:string = 
+position:string = dizaineris
+status:string = fiz_asm
+title:string = Ram\xc5\xabnas Pocius
+url_asm:string = http://studija4d.projektas.lt
+url_org:string = 

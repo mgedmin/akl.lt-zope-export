@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 442570975
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 14:47:28.218000 GMT+3
+logo_url:string = 
+mail:string = un1x0nly@gmail.com
+organization:string = \xc5\xbdemynos Gimnazija
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = \xc5\xbdygimantas Bruzgys
+url_asm:string = http://skd.skods.org/blog/
+url_org:string = http://www.e-zemyna.lt/

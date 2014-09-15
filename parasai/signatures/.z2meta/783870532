@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 111845584
+confirmed:boolean = 1
+gen_date:date = 2005/07/02 07:22:7.865000 GMT+3
+logo_url:string = 
+mail:string = romtup@takas.lt
+organization:string = 
+position:string = istorijos studijos
+status:string = fiz_asm
+title:string = Romualdas Tup\xc4\x8diauskas
+url_asm:string = 
+url_org:string = 

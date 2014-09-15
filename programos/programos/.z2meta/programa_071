@@ -1,0 +1,5 @@
+[properties]
+categories:string = Vertimui,
+public:boolean = 1
+title:string = Vertim\xc5\xb3 programa \xe2\x80\x9ePoEdit\xe2\x80\x9c
+trumpai:text = Daugel\xc4\xaf laisv\xc5\xb3 program\xc5\xb3 labai paprasta i\xc5\xa1versti pasinaudojant programa \xe2\x80\x9ePoEdit\xe2\x80\x9c bei kompiuterini\xc5\xb3 termin\xc5\xb3 \xc5\xbeodynu.

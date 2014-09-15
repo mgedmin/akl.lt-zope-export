@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 755586454
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 10:27:52.272000 GMT+3
+logo_url:string = 
+mail:string = pavel.jachimovic@ff.vu.lt
+organization:string = 
+position:string = studentas
+status:string = fiz_asm
+title:string = Pavel Jachimovic
+url_asm:string = 
+url_org:string = 

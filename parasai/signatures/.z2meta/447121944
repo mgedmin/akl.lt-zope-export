@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 900456051
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 12:59:25.551000 GMT+3
+logo_url:string = http://www.zet.lt/zet_logo.jpg
+mail:string = tomas@zet.lt
+organization:string = UAB Zenito Technologijos
+position:string = Vyr. Programuotojas
+status:string = imone
+title:string = Tomas \xc5\xbdeimys
+url_asm:string = 
+url_org:string = http://www.zet.lt

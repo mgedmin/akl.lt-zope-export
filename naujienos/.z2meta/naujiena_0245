@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Bir\xc5\xbeelio 23 d. Vokietijos mieste Karlsruhe <a\nhref="http://www.linuxtag.org/">\xe2\x80\x9eLinuxTag\xe2\x80\x9c</a> parodos metu Europos\nKomisijos programa <a href="http://europa.eu.int/ISPO/ida/">IDA</a>\norganizuoja vienos dienos <a\nhref="http://europa.eu.int/ISPO/ida/jsps/doc.jsp?2517">seminar\xc4\x85</a>\nAtviro kodo kompetencijos centrams (Open Source Software competence\ncentres) vie\xc5\xa1ojo sektoriaus tematika. Seminaro metu prane\xc5\xa1im\xc4\x85 skaitys\nir AKL valdybos narys T.Jonu\xc5\xa1as.</p>
+date:string = 2004-06-03
+title:string = IDA seminaras atviro kodo kompetencijos centrams, bir\xc5\xbeelio 23 d.

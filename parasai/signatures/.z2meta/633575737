@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 632526649
+confirmed:boolean = 1
+gen_date:date = 2005/05/25 19:00:44.239000 GMT+3
+logo_url:string = 
+mail:string = algirdas.n@gmail.com
+organization:string = 
+position:string = studentas (KTU)
+status:string = fiz_asm
+title:string = Algirdas Naud\xc5\xbeius
+url_asm:string = 
+url_org:string = 

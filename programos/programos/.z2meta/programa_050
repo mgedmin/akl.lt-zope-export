@@ -1,0 +1,5 @@
+[properties]
+categories:string = Mokymui,
+public:boolean = 1
+title:string = Fle3 (Future Learning Environment)
+trumpai:text = Fle3 yra internetinis mokymuisi skirtas \xc4\xafrankis (computer supported collaborative learning, CSCL). \nFle3 yra \xc4\xaf darbui grup\xc4\x97je orientuota programa, kuri koncentruojasi ties \xc5\xbeini\xc5\xb3 rei\xc5\xa1kimo \nk\xc5\xabrimu ir vystymu. Tai programa tiems, kurie mokosi bendradarbiaudami grup\xc4\x97se, \npatys kuria savo id\xc4\x97jas ir \xc5\xbeinias diskusij\xc5\xb3 metu.

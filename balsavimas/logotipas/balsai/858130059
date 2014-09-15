@@ -1,0 +1,10 @@
+<html>
+  <head><title><dtml-var title_or_id></title>
+  </head>
+  <body bgcolor="#FFFFFF">
+    <h2><dtml-var title_or_id></h2>
+<p>
+This is the <dtml-var id> Document.
+</p>
+</body>
+</html>

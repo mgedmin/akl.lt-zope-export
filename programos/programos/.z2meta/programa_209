@@ -1,0 +1,5 @@
+[properties]
+categories:string = Mokymui,Pramogai,
+public:boolean = False
+title:string = Laisvas nuotaikingas artilerijos \xc5\xbeaidimas, pana\xc5\xa1us \xc4\xaf \xc5\xbeinom\xc4\x85 Worms \xc5\xbeaidim\xc4\x85 - http://www.wormux.org
+trumpai:text = http://www.wormux.org\n\nLaisvas nuotaikingas artilerijos \xc5\xbeaidimas, pana\xc5\xa1us \xc4\xaf \xc5\xbeinom\xc4\x85 Worms \xc5\xbeaidim\xc4\x85\n\nWormux is a free game where funny animals fight on a 2D map with funny weapons. It is already very playable, with lots of weapons (Dynamite, Baseball Bat, Teleportation, etc.).

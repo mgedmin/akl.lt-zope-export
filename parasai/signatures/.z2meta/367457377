@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 326826645
+confirmed:boolean = 1
+gen_date:date = 2005/04/09 22:56:0.752000 GMT+3
+logo_url:string = 
+mail:string = ramunas@baltija.homelinux.net
+moder_denied:string = 
+moder_ok:string = Mano para\xc5\xa1as
+organization:string = Programavimo studija
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Ram\xc5\xabnas Luka\xc5\xa1evi\xc4\x8dius
+url_asm:string = 
+url_org:string = http://prog-studio.ath.cx/

@@ -1,0 +1,7 @@
+<p>www.omni.lt <a href="http://www.omni.lt/?i$9359_16009$z_129861">rašo</a>: „Open Source Development Labs“ (OSDL) konsorciumas, kuriame dirba ir „Linux“ branduolį sukūręs Linusas Torvaldsas, išleido „Linux“ branduolio 2.6 „beta“ versiją. Ši svarbi versija pavadinta „test9“ ir skirta bandymams didelėse „Linux“ naudojančiose bendrovėse bei „Linux“ pagrindu gaminamos programinės įrangos tiekėjams.<br>
+Pasak L. Torvaldso, tai paskutinė galimybė kompanijoms padaryti įtaką naujo branduolio kūrimo darbams. Neilgai trukus turėtų būti išleista galutinė „Linux 2.6“ versija.<br>
+Naujasis branduolys galės veikti su dideliu procesorių skaičiumi. OSDL skelbia, kad naujoji sistema buvo sėkmingai išbandyta su 64 procesorius naudojančiais serveriais. Staliniams kompiuteriams skirta versija leis lengviau pakeisti pelę, klaviatūrą ir kitus periferinius įrenginius.<br>
+Gerokai patobulintas darbas su srautais (threads)- netradiciniu „Unix“ ir „Linux“ būdu daugiaprograminiam režimui (multitasking) užtikrinti. Bandymų metu kompiuteryje buvo vienu metu paleista 100 tūkstančių srautų: jei anksčiau testo užduotys buvo atliekamos per 15 minučių, tai dabar tam tereikėjo vos 2 sekundžių.<br>
+Be to, naujajame branduolyje pagerintas darbo su įvesties ir išvesties įrenginiais efektyvumas, patobulinta sąveika su integruotais taikymais. OSDL teigia, kad naujosios versijos privalumus pastebės ir stalinius kompiuterius naudojantys vartotojai.<br>
+Naujojo branduolio išleidimo data dar nenustatyta, tačiau, pasak OSDL atstovų, „Linux 2.6“ bus parengtas iki šių metų pabaigos. 
+</p>

@@ -1,0 +1,5 @@
+[properties]
+categories:string = Kitos,
+public:boolean = 1
+title:string = Operacin\xc4\x97 sistema ReactOS
+trumpai:text = ReactOS yra laisva ir nemokama Microsoft Windows(TM) alternatyva, suderinama su egzistuojan\xc4\x8dia programine ir technine \xc4\xafranga, tame tarpe ir \xc4\xafvairiomis valdykl\xc3\x84\xc2\x97mis (drivers).\n

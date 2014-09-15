@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 423509950
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 20:08:2.405000 GMT+3
+logo_url:string = 
+mail:string = centras@ekspertai.com
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Tomas Zagurskis
+url_asm:string = http://www.ekspertai.com
+url_org:string = 

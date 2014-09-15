@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 210463112
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 23:07:7.019000 GMT+3
+logo_url:string = 
+mail:string = info@tornado.ktu.lt
+organization:string = KTU
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Saulius Petrauskas
+url_asm:string = http://tornado.ktu.lt
+url_org:string = http://www.ktu.lt

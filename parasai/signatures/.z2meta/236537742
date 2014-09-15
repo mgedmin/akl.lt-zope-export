@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 555927805
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 21:57:4.025000 GMT+3
+logo_url:string = 
+mail:string = dariusle@takas.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Darius Liepuonis
+url_asm:string = 
+url_org:string = 

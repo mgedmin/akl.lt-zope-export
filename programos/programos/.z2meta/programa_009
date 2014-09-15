@@ -1,0 +1,5 @@
+[properties]
+categories:string = Internetui,
+public:boolean = 1
+title:string = El.pa\xc5\xa1to programa \xe2\x80\x9eMozilla Mail\xe2\x80\x9c
+trumpai:text = Patogi elektroninio pa\xc5\xa1to programa, mokanti dirbti su keliomis pa\xc5\xa1to d\xc4\x97\xc5\xbeut\xc4\x97mis. \xe2\x80\x9eMozilla Mail\xe2\x80\x9c \nturi standartines el. pa\xc5\xa1to funkcijas, filtrus, katalogaus, adres\xc5\xb3 knygeles. Standarti\xc5\xa1kai nustatyta nevykdyti\n "JavaScript" ar "VBScript", tod\xc4\x97l n\xc4\x97ra galimyb\xc4\x97s \xe2\x80\x9eu\xc5\xbesikr\xc4\x97sti\xe2\x80\x9c virusais vien per\xc5\xbei\xc5\xabr\xc4\x97jus lai\xc5\xa1k\xc4\x85.

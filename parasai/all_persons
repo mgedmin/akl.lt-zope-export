@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC 
+    "-//W3C//DTD XHTML 1.1 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html metal:use-macro="container/main_template/macros/main">
+<tal:block metal:fill-slot="body">
+
+    <h2><span tal:replace="here/title_or_id">content title or id</span>
+        <span tal:condition="template/title"
+              tal:replace="template/title">optional template id</span></h2>
+
+    Skriptas <em tal:content="template/id">template id</em>.<br/><br/>
+
+    <tal:block tal:define="signatures_all python:here.getAllSignatures(status='fiz_asm')">
+
+    <table border="1" width="100%">
+      <tr>
+        <th>Nr.</th>
+        <th>Vardas, pavardė</th>
+        <th>Užsiėmimas</th>
+        <th>Organizacija</th>
+        <th>Conf.?</th>
+        <th>Aggree?</th>
+      </tr>
+
+      <tal:block tal:repeat="sig python:signatures_all">
+        <tr>
+
+            <td align="center" 
+                tal:define="number repeat/sig/number; 
+                            length python:len(signatures_all); 
+                            index python:number" 
+                tal:content="string:${index}."/>
+
+            <td>
+              <a tal:condition="python:sig.url_asm != ''"
+                 tal:attributes="href sig/url_asm"
+                 tal:content="sig/title"></a>
+              <span tal:condition="python:sig.url_asm == ''"
+                    tal:replace="sig/title" />
+            </td>
+
+           <td>
+              <span tal:replace="sig/position" />
+           </td>
+
+           <td>
+                 <a tal:condition="python:sig.url_org != ''"
+                           tal:attributes="href sig/url_org"
+                           tal:content="sig/organization">
+                 </a>
+                 <span tal:condition="python:sig.url_org == ''"
+                       tal:replace="sig/organization"  />
+           </td>
+
+           <td>
+              <span tal:condition="python:sig.confirmed"> x </span>
+           </td>
+
+           <td>
+              <span tal:condition="python:sig.agree"> x </span>
+           </td>
+           <td>
+             <a tal:attributes="href string:edit_sig_form?id=${sig/getId}">Taisyti</a>
+           </td>
+
+        </tr>
+      </tal:block>
+    </table>
+
+    </tal:block>
+
+</tal:block>
+</html>

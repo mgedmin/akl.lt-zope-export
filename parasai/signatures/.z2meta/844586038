@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 501411768
+confirmed:boolean = 1
+gen_date:date = 2005/05/12 15:38:55.187000 GMT+3
+logo_url:string = 
+mail:string = piemenux@gmail.com
+organization:string = UAB "Stiklita"
+position:string = darbininkas
+status:string = fiz_asm
+title:string = Marius \xc5\xbdukauskas
+url_asm:string = 
+url_org:string = http://www.stiklita.lt

@@ -1,0 +1,13 @@
+## Script (Python) "rikiuotiRezultatai"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+results = container.rezultatai()
+results = [(r['value'], r) for r in results]
+results.sort()
+return [r for (key, r) in results]

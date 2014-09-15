@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2006-10-09T09:28:32+00:00
+creator:string = 127.0.0.1
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2009-05-09T13:31:54+00:00
+last_editor:string = Mantas
+last_editor_ip:string = 127.0.0.1
+last_log:string = LRT pakeit\xc4\x97 auk\xc5\xa1tesn\xc4\x97s kokyb\xc4\x97s radio transliacij\xc5\xb3 format\xc4\x85 \xc4\xaf visi\xc5\xa1kai u\xc5\xbedar\xc4\x85
+parents:lines = [\'Standartai\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = NeatinkantisStandartusPuslapiai

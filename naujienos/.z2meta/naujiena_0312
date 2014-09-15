@@ -1,0 +1,7 @@
+[properties]
+blurb:text = M\xc5\xabs\xc5\xb3 svetain\xc4\x97je paskelbtas <a href="apie/files/?doc=kodel_verta_tapti_nariu.html">motyvacinis tekstas</a>, kod\xc4\x97l verta b\xc5\xabti AKL nariu. Taip pat para\xc5\xa1ytas trumpas DUK. Laukiame ir j\xc5\xabs\xc5\xb3 klausim\xc5\xb3 apie naryst\xc4\x99 AKLe, pasistengsime kuo grei\xc4\x8diau atsakyti.<br>\nKlausimus galima ra\xc5\xa1yti: <a href="mailto:info@akl.lt">info@akl.lt</a>\n
+categories:multiple selection = ()
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\')
+date:string = 2005-07-06
+profesionalams:boolean = 0
+title:string = Kod\xc4\x97l verta tapti AKL nariu

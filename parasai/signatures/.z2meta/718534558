@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 173317766
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 00:08:14.120000 GMT+3
+logo_url:string = 
+mail:string = arc3@one.lt
+organization:string = 
+position:string = IT megejas
+status:string = fiz_asm
+title:string = Arturas Rimonis
+url_asm:string = 
+url_org:string = 

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 392848945
+confirmed:boolean = 1
+gen_date:date = 2005/05/25 15:08:52.329000 GMT+3
+logo_url:string = 
+mail:string = tawas@tauta.com
+organization:string = Tinklapiu prieziura
+position:string = Kairys
+status:string = fiz_asm
+title:string = Karolis
+url_asm:string = 
+url_org:string = 

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 157711665
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 12:51:36.082000 GMT+3
+logo_url:string = 
+mail:string = snaiperiui@takas.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Mindaugas Kavaliauskas
+url_asm:string = 
+url_org:string = 

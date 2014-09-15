@@ -1,0 +1,9 @@
+[properties]
+author:string = Erika
+blurb:text = Piet\xc5\xb3 Kor\xc4\x97jos valstybin\xc4\x97s strukt\xc5\xabros (6-ios ministerijos) po bendro pasitarimo nusprend\xc4\x97 \npereiti prie Linux operacin\xc4\x97s sistemos. \xc5\xa0io \xc5\xbeingsnio prie\xc5\xbeastimi tapo \xe2\x80\x9eMicrosoft\xe2\x80\x9c sprendimas \nnutraukti palaikym\xc4\x85 operacinei sistemai Windows 98, kuri yra 13-oje procent\xc5\xb3 \xc5\xa1ios \xc5\xa1alies kompiuteri\xc5\xb3.
+categories:multiple selection = (\'GNU/Linux&nbsp;OS\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x84\\xc2\\x97s&nbsp;teis\\xc3\\x84\\xc2\\x97s\')
+date:string = 2006-01-24
+email:string = erika@akl.lt
+profesionalams:boolean = 0
+title:string = Piet\xc5\xb3 Kor\xc4\x97\xc2\x97jos ministerijos atsisako Windows ir pereina prie Linux

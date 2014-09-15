@@ -1,0 +1,6 @@
+[properties]
+alt:string = 
+content_type:string = image/png
+height:string = 22
+title:string = photo.png
+width:string = 26

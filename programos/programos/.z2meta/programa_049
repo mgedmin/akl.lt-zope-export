@@ -1,0 +1,5 @@
+[properties]
+categories:string = Mokymui,
+public:boolean = 1
+title:string = Moodle (Modular Object Orentiered Distance Learning Environment)
+trumpai:text = Distancinio mokymosi sistemos (DMS) spar\xc4\x8diai populiar\xc4\x97ja. \xe2\x80\x9eMoodle\xe2\x80\x9c -\n\xc5\xa1iuo metu populiariausia i\xc5\xa1 GNU analog\xc5\xb3. J\xc4\x85 kuria d\xc4\x97stytojas ir profesionalus\nprogramuotojas, kuris ilg\xc4\x85 laik\xc4\x85 buvo WebCT (tai komercin\xc4\x97 DMS)\npri\xc5\xbei\xc5\xabr\xc4\x97tojas. Ir jam labai nepatiko, kad negali pritaikyti jos savo\nreikm\xc4\x97ms. Taigi jis 1998 metais prad\xc4\x97jo \xe2\x80\x9eMoodle\xe2\x80\x9c k\xc5\xabrim\xc4\x85\n:).

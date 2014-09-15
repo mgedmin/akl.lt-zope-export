@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2005-09-13T01:49:13+00:00
+creator:string = alga
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2006-08-02T02:41:37+00:00
+last_editor:string = alga
+last_editor_ip:string = 127.0.0.1
+last_log:string = Free Cingular Cell Phone Ringtones
+parents:lines = [\'LPCD\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = LaisvuProgramuCD2005

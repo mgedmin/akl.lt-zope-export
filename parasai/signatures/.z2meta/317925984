@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 497301859
+confirmed:boolean = 1
+gen_date:date = 2005/06/01 16:31:53.038000 GMT+3
+logo_url:string = http://www.avalon.lt/avalon.gif
+mail:string = info@avalon.lt
+organization:string = AVALON
+position:string = PHP programuotojas
+status:string = fiz_asm
+title:string = Art\xc5\xabras Palei\xc4\x8dikas
+url_asm:string = 
+url_org:string = http://www.avalon.lt

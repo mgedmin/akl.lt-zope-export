@@ -1,0 +1,25 @@
+eVitaminai NVO
+
+  **Tikslas.** Suteikti galimybę visuomeninėms organizacijoms kompiuterizuoti darbo vietas pigiau, pagal galimybes, atsižvelgiant į visuomeninių organizacijų veiklos specifiką. Suteikti galimybę stipresnėms visuomeninėms organizacijoms naudoti nemokamą fundraising programinę įrangą.
+
+  **Trumpas aprasymas.** Šiuo projektu galima orientuotis į dviejų tipų organizacijas: (1) organizacijos, kurios neturi kompiuterizuotų darbo vietų arba yra nepakankamai kompiuterizuotos, (2) vidutinės organizacijos, kurios turi kompiuterizuotas darbo vietas, turi pakankamai stiprią organizaciją, vykdo projektus ir jiems reikalinga speciali jų veiklos pobūdį atitinkanti programinė įranga (fundraising, kontaktai ir t.t.). Projektas neapsiribotų tik programų sukūrimu. Reikalingi mokymai, supažindinantys su programomis, jų specifika, diegimu, aptarnavimu bei specializuotų programų galimybių išnaudojimų ir panaudojimų savo veikloje (fundraising trainings).
+
+  **Partneryste.** Vienas pagrindinių šio projekto iniciatorių - SIC (Algis Davidavičius). Taip pat ketinama prijungti NISC (Ilgius) bei Baltijos-Amerikos partnerystės fondą (Birutė). Komandoje taip pat yra Visorių MTP (Saulius).
+
+  **Finansavimas.** Projekto finansavimui studijuojamos galimybės FP6 programos rėmuose, Europos struktūrinių fondų padalinių - EQUAL ir pan. - bei vietinės lėšos.
+
+  **Programu analize.** Visiškai neseniai pradėtas Debian projektas "Debian-NP":http://www.debian.org/devel/debian-nonprofit/. Šis projektas orientuotas į NVO, kuriant jiems specifikuotą distribuciją (ala "Knoppix":http://www.knoppix.org, "Morphix":http://morphix.sourceforge.net/modules/news/, "Skolelinux":http://www.skolelinux.no/index.php.en?PHPSESSID=af637b9ad0b3620a91cccfae5644d012). Šiuo metu vyksta diskusijos ir atranka programų, kurios būtų tinkamiausios smulkioms NVO. Debian-NP sukurta distribucija tenkintų NVO, kuriant pigias kompiuterizuotas darbo vietas. Taip pat šio projekto rėmuose ketinama sukurti nemokamas fundraising ir panašias programą NVO. "Cia":http://wiki.debian.net/index.cgi?DebianNPNeeds yra detaliau išvardintos programos. "Info Central":http://www.infocentral.org, "Calendula":http://savannah.gnu.org/projects/calendula - tai dar keletas startavusių projektų.
+
+Kodėl atviras kodas? JAV yra net atlikti tyrimai dėl NVO gautų lėšų panaudojimo - didžioji dalis gautų lėšų buvo panaudota ne NVO tikslams siekti, o programinei įrangai įsigyti (fundraising, kontaktai, ryšių valdymas - 1 programa kainuoja 5000-20000 dol.). Tuo tarpu atviras kodas ne tik suteikia laisvas, nemokamas licencijas, bet yra apsauga nuo virusų, pasižymi sistemų lankstumu. Tačiau - kokius kompiuterius NVO naudoja šiandien Lietuvoje ir koks yra kompiuterizavimo lygis?
+
+Rezultatai - priduota paraiška "LDM programai":http://www.worldbank.lt/ldm_lt.htm su "Debian-NP projektu":http://www.debian.org/devel/debian-nonprofit, todėl pateikiu daugiau nuorodų:
+
+ * Pagrindinis projekto puslapis: http://www.debian.org/devel/debian-nonprofit/
+
+ * Pagrindinis wiki puslapis: http://wiki.debian.net/index.cgi?DebianNonProfit
+
+ * Programos, kurias ketinama įtraukti į distribuciją: http://wiki.debian.net/index.cgi?DebianNPNeeds.
+
+ * Todo sąrašas: http://wiki.debian.net/index.cgi?DebianNPTODO
+
+ * Download: http://debian-np.alioth.debian.org/debian-np-bootcd-0.1r2.iso

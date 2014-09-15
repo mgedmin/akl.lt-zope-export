@@ -1,0 +1,46 @@
+Microsoft Office Open XML
+
+ * Istorija, faktai, standarto priėmimo procesas
+
+ * OOXML prieštaravimai
+
+ * Nuorodos
+
+ * IniciatyvaLietuvoje
+
+ <hr />
+
+<b>Istoria, faktai, standarto priėmimo procesas</b>
+
+<b>OOXML prieštaravimai</b>
+
+OOXML:
+
+ * <b>buvo sukurtas naudoti vieno gamintojo programinės įrangos</b><br>
+2006 m. gruodį OOXML patvirtinusios Ecma organizacijos Technical Committee 45 savo tikslu numatė „sukurti formalų biuro programų formatą, kuris būtų visiškai suderinamas su Office Open XML formatais“. Tai reiškia, jog Ecma sukūrė standartą, kuris būtų suderinamas su vieno gamintojo programine įranga, pamirštant atvirojo standarto kūrimo procesus – standarto tobulinimą, atsižvelgiant į kitų egzistuojančių produktų naudotojų poreikius bei perimant kitų produktų funkcionalumą, palengvinant perėjimą nuo vieno formato prie kito bei suderinamumą tarp jų;
+
+
+ * <b>formato aprašymas užima daugiau nei 6000 puslapių</b><br>
+Ar protinga priimti iki galo neišnagrinėtą standartą, kurio aprašymas užima daugiau nei 6000 puslapių? Turint omeny OOXML dydį ir sudėtingumą, tikėtina, jog jis bus įgyvendintas tik vieno gamintojo;
+
+ * <b>nenaudoja jau egzistuojančių standartų, vietoj to iš naujo išradinėjamas ratas</b><br>
+Viena iš priežasčių, kodėl OOXML aprašymas yra toks ilgas, yra ta, jog nenaudojami jau egzistuojantys standartai. Programuotojai panaudoja žinomus įrankius ir technologijas, kadangi jos yra gerai ištestuotos ir veikia. OOXML nenaudojamų standartų pavyzdžiai yra SVG piešiniams ir MathML formulėms. Vietoj to, OOXML iš naujo išradinėja ratą, taip sukuriant bereikalingų rūpesčių programuotojams;
+
+
+ * <b>formate naudojami uždari binariniai formatai</b><br>
+Ecma TC 45 chartija uždraudė nariams daryti kokius nors pakeitimus formatui OOXML, kurie būtų nesuderinami su esamais Microsoft nuosavybiniais binariniais formatais. Tokiu būdu OOXML yra pilnas senų klaidų, atsineštų iš senų formatų implementacijų. Atviriems standartams tai negali būti leidžiama.
+
+
+ * <b>Ar reikalingi du standartai tam pačiam tikslui?</b><br>
+OOXML yra aiškus prieštaravimas kitam ISO/IEC standartui. OpenDocument formatas yra patvirtintas tarptautinis standartas (ISO/IEC 26300:2006). Abu formatai ODF ir OOXML buvo sukurti tai pačiai auditorijai (teksto, pateikčių ir skaičiuoklių naudotojams) bei naudoja tas pačias technines priemones (XML zip archyvuose).
+
+
+<b>Nuorodos</b>
+
+http://www.consortiuminfo.org/standardsblog/article.php?story=20070117145745854<br />
+http://odfalliance.org/<br />
+http://www.geniisoft.com/showcase.nsf/archive/20061027-0829<br />
+http://www.robweir.com/blog/2006/01/how-to-hire-guillaume-portes.html<br />
+http://www.robweir.com/blog/2006/07/game-of-zendo.html<br />
+
+

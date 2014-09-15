@@ -1,0 +1,45 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" href="style.css"
+        tal:attributes="href here/style.css/absolute_url"/>
+  <title tal:content="here/title_or_id">Title</title>
+</head>
+<body tal:define="msg here/do_edit">
+<div class="body">
+<h1 tal:content="here/title_or_id">Title</h1>
+
+<div class="msg"
+     tal:condition="msg"
+     tal:content="msg">
+</div>
+
+<div class="nav">
+  <p><a href=".." tal:attributes="href string:${request/URL2}/edit">Up</a></p>
+<tal:block tal:repeat="dir python: here.objectValues('Folder')">
+  <p tal:condition="python: dir.id != 'incoming'">
+    <a tal:attributes="href string:${dir/absolute_url}/edit" tal:content="dir/title_or_id">Subfolder</a></p>
+</tal:block>
+</div>
+
+<form action="." method="POST" tal:attributes="action request/URL">
+<tal:repeat repeat="img python: here.objectValues('Photo')">
+  <div tal:define="idx repeat/img/number"
+       tal:attributes="class python: repeat['img'].odd() and 'odd' or 'even'">
+    <a tal:attributes="href string:${img/id}/manage_editPhotoForm">
+      <span tal:content="structure python: img.tag(display='thumbnail')"/><br/>
+    </a>
+      <input type="hidden" tal:attributes="name string:n${idx}; value img/id" />
+      <textarea class="sub" tal:attributes="name string:t${idx}"
+                tal:content="img/title_or_id" />
+  </div>
+</tal:repeat>
+
+<div class="buttons">
+<input type="submit" name="UPDATE" value="Save" />
+<input type="submit" name="REFRESH" value="Refresh" />
+</div>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 763218456
+confirmed:boolean = 1
+gen_date:date = 2005/06/27 13:11:56.786000 GMT+3
+logo_url:string = 
+mail:string = skroblas@takas.lt
+organization:string = 
+position:string = studentas
+status:string = fiz_asm
+title:string = Valdas Jank\xc5\xabnas
+url_asm:string = 
+url_org:string = 

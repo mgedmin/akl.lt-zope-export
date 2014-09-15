@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 741466209
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 08:57:12.218000 GMT+3
+logo_url:string = 
+mail:string = laurynas.butkus@gmail.com
+organization:string = UAB "Neosymmetria"
+position:string = programuotojas
+status:string = fiz_asm
+title:string = Laurynas Butkus
+url_asm:string = http://lauris.night.lt/
+url_org:string = http://www.neo.lt/

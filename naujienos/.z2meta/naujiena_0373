@@ -1,0 +1,9 @@
+[properties]
+author:string = Jaro
+blurb:text = Tokiu pavadinimu vasario 24 d.savaitra\xc5\xa1tyje \xe2\x80\x9eAtgimimas\xe2\x80\x9c publikuotas Daivos\n Repe\xc4\x8dkait\xc4\x97s straipsnis, kuriame ra\xc5\xa1oma: \xe2\x80\x9eEuropos Komisija atkakliai reikalauja, \nkad programin\xc4\x97s \xc4\xafrangos kompanija \xe2\x80\x9eMicrosoft\xe2\x80\x9d palengvint\xc5\xb3 savo konkurentams \nkeli\xc4\x85 \xc4\xaf rink\xc4\x85, atskleisdama dal\xc4\xaf savo operacin\xc4\x97s sistemos \xe2\x80\x9eWindows\xe2\x80\x9d kodo. \n\xe2\x80\x9eMicrosoft\xe2\x80\x9d ginasi, jog jau padar\xc4\x97 pakankamai, o tolesni reikalavimai b\xc5\xabt\xc5\xb3 \npasik\xc4\x97sinimas prievarta atimti intelektin\xc4\x99 nuosavyb\xc4\x99. Ar i\xc5\xa1 jau \xc5\xa1e\xc5\xa1tus metus \ntrunkan\xc4\x8dio gin\xc4\x8do gali laim\xc4\x97ti vis stipr\xc4\x97janti su \xe2\x80\x9eMicrosoft\xe2\x80\x9d konkuruojanti j\xc4\x97ga \n\xe2\x80\x93 atvirojo kodo jud\xc4\x97jimas? Ir dar svarbiau \xe2\x80\x93 ar i\xc5\xa1 to k\xc4\x85 nors laim\xc4\x97s vartotojai?\xe2\x80\x9c
+categories:multiple selection = (\'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2006-02-28
+email:string = jaro@akl.lt
+profesionalams:boolean = 0
+title:string = Kaip gauti pigiau arba u\xc5\xbe dyk\xc4\x85

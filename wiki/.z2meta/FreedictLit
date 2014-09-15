@@ -1,0 +1,13 @@
+[properties]
+NOT_CATALOGED:boolean = 0
+creation_time:string = 2007-01-25T23:14:26+00:00
+creator:string = jaro
+creator_ip:string = 127.0.0.1
+last_edit_time:string = 2008-03-08T18:56:40+00:00
+last_editor:string = kestutis
+last_editor_ip:string = 127.0.0.1
+last_log:string = 
+parents:lines = [\'FrontPage\']
+revision_number:int = 1
+subscriber_list:lines = []
+title:string = Freedict-lit

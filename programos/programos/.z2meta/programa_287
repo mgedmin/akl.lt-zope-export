@@ -1,0 +1,5 @@
+[properties]
+categories:string = Mokymui,
+public:boolean = 1
+title:string = Mokslinis program\xc5\xb3 paketas \xe2\x80\x9eScilab\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eScilab\xe2\x80\x9c - mokslinis program\xc5\xb3 paketas, skirtas skaitmeniniams skai\xc4\x8diavimams mokslo ir in\xc5\xbeinerijos taikymuose, pana\xc5\xa1us \xc4\xaf "Maple" ar "Matlab" paketus. Galima naudoti Windows 9X/2000/XP, GNU/Linux, ar bet kurioje UNIX terp\xc4\x97je.

@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 496092527
+confirmed:boolean = 1
+gen_date:date = 2005/05/20 10:38:26.337000 GMT+3
+logo_url:string = 
+mail:string = lukas.simokaitis@sintagma.lt
+moder_denied:string = 
+moder_ok:string = JP - perved\xc5\xbeiau i\xc5\xa1 \xc4\xafmon\xc4\x97s, nes negavau patvirtinimo, kad valdyba sutinka
+organization:string = Sintagma
+position:string = Programuotojas
+status:string = fiz_asm
+title:string = Lukas Simokaitis
+url_asm:string = 
+url_org:string = 

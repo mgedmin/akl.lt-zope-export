@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 418756483
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 21:34:24.191000 GMT+3
+logo_url:string = http://www.type7.net/type7.jpg
+mail:string = info@type7.net
+organization:string = Type Seven Team
+position:string = narys
+status:string = kita
+title:string = Algirdas \xc5\xa0imkus
+url_asm:string = http://www.tinklapis.net
+url_org:string = http://www.type7.net

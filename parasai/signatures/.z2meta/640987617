@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 424082438
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 07:34:41.087000 GMT+3
+logo_url:string = 
+mail:string = tadas.kekys@stud.ktu.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Tadas Kekys
+url_asm:string = 
+url_org:string = 

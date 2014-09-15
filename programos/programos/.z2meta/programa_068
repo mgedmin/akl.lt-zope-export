@@ -1,0 +1,5 @@
+[properties]
+categories:string = Projektavimui,
+public:boolean = 1
+title:string = 2D grafik\xc5\xb3 brai\xc5\xbeymo programa \xe2\x80\x9eGrace\xe2\x80\x9c
+trumpai:text = \xe2\x80\x9eGrace\xe2\x80\x9c yra WYSIWYG programa, skirta 2D grafik\xc5\xb3 brai\xc5\xbeymui ir\nmanipuliavimui duomenimis. Atlieka beveik visk\xc4\x85, k\xc4\x85\ngalima daryti grafin\xc4\x97je aplinkoje (galima ir i\xc5\xa1 komandin\xc4\x97s eilut\xc4\x97s). Programa naudotis \nlabai patogu grafik\xc5\xb3 brai\xc5\xbeymo automatizavimui.<br>\nGalb\xc5\xabt vienas i\xc5\xa1 tr\xc5\xabkum\xc5\xb3 yra ne\xc4\xafprasta grafin\xc4\x97 aplinka, ta\xc4\x8diau\ntai tr\xc5\xabkumas tik pradedantiesiems, nes nesunku priprasti. Taip pat - n\xc4\x97ra i\xc5\xa1samios dokumentacijos.<br>\n\xe2\x80\x9eGrace\xe2\x80\x9c veikia visose \xe2\x80\x9eUnix\xe2\x80\x9c tipo operacin\xc4\x97se sistemose, taip pat OS/2, Win9*/NT/2000/XP.

@@ -1,0 +1,22 @@
+<h2>Tūrinio valdymo sistema „ImpressPages“<br>
+<a href="http://www.impresspages.org" target="_blank">http://www.impresspages.org</a>
+</h2>
+ <img src="http://www.impresspages.org/design/images/impress-pages.jpg" 
+     height="31" border="0" alt="ImpressPages">      
+<p>Lengva ir greita atviro kodo turinio valdymo sistema, leidžianti turinį valdyti drag&drop ("tempk ir paleisk") principu. Sistema sukurta su PHP/MySQL, lengvai konfigūruojama, galima lengvai praplėsti funkcionalumą pagal individualius poreikius. Dirbti su šia sistema gali net ir techninio išsilavinimo neturintis žmogus. Daugelis dalykų automatizuota, tad nebereikia rūpintis nuotraukų dydžių, šriftais, tarpais ar teksto formatavimu.</p>
+<p>Dėl savo savybių <a href="http://www.impresspages.org/">ImpressPages CMS</a> sutaupo laiko dirbant su svetaine. Automatiškai atliekamos funkcijos išlaiko svetainę gražią. <a href="http://www.impresspages.org/">ImpressPages CMS</a> bet kokį tekstą, nukopijuotą iš kitos svetainės ar Word dokumentų, sutvarko ir pritaiko prie esamo svetainės stiliaus. Perkėlus svetainę į kitą vietą ar serverį, sistema pati atnaujina visas vidines nuorodas.</p>
+<p>Optimizavimas paieškos sistemoms (SEO), daugiakalbiškumas, protinga vidinė paieška, lengvas būdas kurti sąsajas tarp vidinių svetainės puslapių, naujienlaiškis, RSS, svetainės žemėlapis (įskaitant ir paieškos sistemoms), įvairūs turinio tipai, saugumas, aiški ir patogi klaidų pranešimų sistema, lengva instaliacija ir kt. Tai savybės, kurios standartiškai įdiegtos į <a href="http://www.impresspages.org/">ImpressPages CMS</a>. Be to, sistemos galimybes galima praplėsti nemokamais papildiniais, dizaino temomis ir vertimais į užsienio kalbas.</p>
+<p>Lietuviškos svetainės naudojančios <a href="http://www.impresspages.org/">ImpressPages CMS</a>:</p>
+<ul>
+<li><a href="http://www.alfa.lt/kvieciu-sokti/">www.alfa.lt/kvieciu-sokti</a></li>
+<li>alfa.lt naujienlaiškis</li>
+<li><a href="http://m.alfa.lt/">m.alfa.lt</a> (alfa.lt mobili versija)</li>
+<li><a href="http://www.automokyklos.lt/">www.automokyklos.lt</a></li>
+<li><a href="http://www.inoauto.lt">www.inoauto.lt</a></li>
+<li><a href="http://www.dreamhouse.lt//">www.dreamhouse.lt</a></li>
+<li><a href="http://www.repex.lt/">www.repex.lt</a></li>
+<li><a href="http://www.uki.vu.lt/">www.uki.vu.lt</a></li>
+<li><a href="http://www.litaka.lt/">www.litaka.lt</a></li>
+<li>ir kt.</li>
+</ul>
+<p>Demo versiją pabandymui galite rasti čia - <a href="http://www.impresspages.org/demo-page">www.impresspages.org/demo-page</a></p>

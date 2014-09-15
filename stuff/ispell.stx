@@ -1,0 +1,93 @@
+Lietuviškų ispell afiksų lentelių README failas
+
+  Albertas Agejevas '<alga@uosis.mif.vu.lt>'
+  2000 balandžio 14 d., v. 0.3 
+
+Kas čia yra ir kam to reikia?
+
+   lietuviu.aff yra afiksų lentelė ispell programai.  ispell yra spell
+   checkeris (rašybos tikrinimo programa) Unix sistemoms.  Jis
+   veikia labai primityviai: ima iš teksto po vieną žodį ir tikrina, ar
+   toks žodis yra žodyne.  Jei nėra, pasiūlo panašiausius žodžius iš
+   žodyno.  "Panašūs" žodžiai gaunami pakeičiant gretimas raides
+   vietomis arba pakeičiant kokią nors vieną raidę, arba įterpiant tarpą
+   ar kokią raidę.
+
+   Lietuvių kalba yra sintetinio tipo, tai yra žodžio reikšmė priklauso
+   nuo jo formos, priešingai negu anglų arba vokiečių kalbos, vadinamos
+   analitinėmis, kuriose žodžio reikšmė išaiškėja tiktai kitų žodžių
+   kontekste.  Dėl to anglų kalboje pakanka tiesiog tikrinti kiekvieną
+   žodį, ar jis yra žodyne.  O štai lietuvių kalbos žodynuose
+   nepateikiamos visos įmanomos žodžių formos.  Lietuvių kalboje yra
+   tokios kaitomos žodžių klasės:
+
+   * daiktavardis (kaitomas skaičiais ir linksniais);
+
+   * būdvardis (giminė, skaičius ir linksnis);
+
+      - įvardžiuotinės formos (giminė, skaičius ir linksnis);
+
+      - laipsnių formos (giminė, skaičius ir linksnis);
+
+      - ypatybės su priesaga -umas (gerumas) (skaičius ir linksnis);
+
+      - vediniai su priesaga -okas -a (giminė, skaičius ir linksnis);
+
+   * įvardis (giminė, skaičius, linksnis);
+
+      - keletas įvardžiuotinių formų;
+
+   * veiksmažodis
+
+      - asmenuojamos formos: esamasis, būsimasis, būtasis kartinis ir
+	dažninis laikai;
+
+      - dalyviai, jų įvardžiuotinės formos, pusdalyviai (giminė, skaičius
+	ir linksnis)
+
+   * skaitvardis (kiekiniai ir kelintiniai, kurie
+panašūs atitinkamai į
+     daiktavardžius ir būdvardžius)
+
+   Kokybinis būdvardis turi apie 170 formų, o pridėjus priešdėlį ne-, jų
+   kiekis iškart padvigubėja.  Taigi, jeigu norėtume padaryti failą su
+   visomis visų žodžių formomis, jis būtų nepagrįstai didelis.  Laimei,
+   ispell palaiko dalyką, vadinamą afiksų sutraukimu.  Tai reiškia, kad
+   žodyne laikomas tiktai šakninis žodis su nuorodomis, kokios galūnės ar
+   priesagos prie to žodžio gali būti kabinamos.
+
+   Čia pateikiamoje afiksų lentelėje yra surašytos visų kaitomų lietuvių
+   kalbos žodžių kaitymo taisyklės, taigi žodyne tereikia nurodyti
+   šakninį žodį, o visos formos bus generuojamos automatiškai.
+
+
+Būsena
+
+    Tikiuosi, afiksų faile yra nurodytos visos lietuviškų žodžių kaitymo
+    taisyklės ir keletas žodžių darybos taisyklių. Kaip flag'ai naudojamos
+    ir mažosios raidės, taigi ispell turi būti sukompiliuotas su
+    'MASKBITS' opcija lygia 64, tuo tarpu, kai reikšmė pagal nutylėjimą yra
+    32, tai yra raidžių dydis flaguose yra ignoruojamas.  Jei norite
+    patikrinti, su kokia MASKBITS buvo sukompiliuotas jūsų ispell,
+    surinkite komandą::
+
+	    ispell -vv | grep MASKBITS
+
+    Nėra deminutyvinių (mažybinių)
+    priesagų palaikymo -- deminutyvai turi būti nurodomi
+    žodyne kaip atskiri žodžiai.
+
+    Kartu su lentelėmis pateikiamas žodynas.  lietuviu.base faile yra
+    pagalbiniai lietuvių kalbos žodeliai, įskaitant įvardžius,
+    skaitvardžius, dalelytes, jungtukus ir prielinksnius.  lietuviu.words
+    faile yra mano paties ir keleto bendraminčių iš savų rašinių pririnktų
+    žodžių krūvelė.
+
+    Kviečiu visus vartotojus siųsti man savo surinktų žodžių, kurių nėra
+    mano žodyne, rinkinius.  Kartu galėsime padaryti visai vartotiną
+    lietuvišką žodyną spell checkeriams!
+
+
+
+
+

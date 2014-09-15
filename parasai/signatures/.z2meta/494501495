@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 740510798
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 20:19:29.113000 GMT+3
+logo_url:string = 
+mail:string = lazdynas@splius.lt
+organization:string = \xc5\xa0iauli\xc5\xb3 energija
+position:string = \xc5\xbeurnalistas
+status:string = fiz_asm
+title:string = Rimantas Lazdynas
+url_asm:string = 
+url_org:string = http://www.senergija.lt

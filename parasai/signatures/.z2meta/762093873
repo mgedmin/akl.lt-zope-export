@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 135769380
+confirmed:boolean = 0
+gen_date:date = 2005/05/17 14:15:59.778000 GMT+3
+logo_url:string = 
+mail:string = sharunui@centras.lt
+organization:string = Kai\xc5\xa1iadori\xc5\xb3 savanori\xc5\xa1kos veiklos organizacija "Pegasas"
+position:string = valdybos pirminikas
+status:string = vis_org
+title:string = \xc5\xa0ar\xc5\xabnas KUBIAKAS
+url_asm:string = 
+url_org:string = 

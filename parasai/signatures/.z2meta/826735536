@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 757802435
+confirmed:boolean = 1
+gen_date:date = 2005/07/11 10:58:32.489000 GMT+3
+logo_url:string = 
+mail:string = logo@dtiltas.lt
+organization:string = 
+position:string = Studentas
+status:string = fiz_asm
+title:string = Orestas Miskivas
+url_asm:string = 
+url_org:string = 

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 691527119
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 10:35:20.626000 GMT+3
+logo_url:string = 
+mail:string = lauras@ragutis.lt
+organization:string = AB "Ragutis"
+position:string = IT administratorius
+status:string = fiz_asm
+title:string = Lauras Juozulynas
+url_asm:string = 
+url_org:string = http://www.ragutis.lt

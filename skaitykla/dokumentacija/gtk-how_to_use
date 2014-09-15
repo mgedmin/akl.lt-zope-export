@@ -1,0 +1,969 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=windows-1251"><title>Как использовать GTK+</title>
+  
+  <meta name="GENERATOR" content="OpenOffice.org 2.0  (Linux)">
+  <meta name="AUTHOR" content="Безденежных Сергей">
+  <meta content="Программирование с использованием GTK+, GNOME" name="description">
+  <meta content="Linux, GTK+, GNOME, программирование GTK+, программирование Gnome," name="keywords">
+  <meta name="CREATED" content="20060121;21471200">
+  <meta name="CHANGEDBY" content="Безденежных Сергей">
+  <meta name="CHANGED" content="20060129;13502700">
+  <style>
+	<!--
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		P { margin-bottom: 0.21cm }
+		TD P { margin-bottom: 0cm }
+	-->
+	</style></head>
+
+<body dir="ltr" lang="ru-RU">
+<p style="margin-bottom: 0cm;" align="justify"><a href="http://www.sib.opennet.ru/index.html">[Домой]</a></p>
+<div style="text-align: center;">
+<table style="margin-left: auto; margin-right: auto; width: 90%; text-align: left;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">
+      <div style="text-align: center;"><font style="font-size: 16pt;" size="4"><b>Основы
+GTK+, часть 2: Как использовать GTK+.</b></font></div>
+      <p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"> <font size="3">Уровень читателя: опытный</font></p>
+      <p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"> <font color="#000000">Исходная статья:
+      <a href="http://www-128.ibm.com/developerworks/library/os-gtk2/index.html">http://www-128.ibm.com/developerworks/library/os-gtk2/index.html</a></font></p>
+      <p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm; widows: 2; orphans: 2;" align="justify"> <font color="#000000">10 января 2006, Maciej
+Katafiasz
+(</font><a href="mailto:ibmdw@mathrick.org?subject=Why%20use%20GTK+?"><u><font color="#000000">ibmdw@mathrick.org</font></u></a><font color="#000000">)</font></p>
+      <p class="western" style="text-indent: 1.27cm; margin-bottom: 0cm;" align="justify"><font color="#000000">28 января 2006, Сергей
+Безденежных (</font><a href="mailto:sib-mail@DELETETHISmtu-net.ru"><u><font color="#000000">sib-mail@mtu-net.ru</font></u></a><font color="#000000">)</font></p>
+      <p style="margin-bottom: 0cm;" align="justify"><br>
+      </p>
+      <div style="margin-left: 40px;"><font size="3">Это
+вторая статья из цикла статей под общим
+названием «<a href="http://www.sib.opennet.ru/gtk-world/index.html">Основы GTK+</a>». На примере простого
+приложения GTK+, написанного
+на языке C, а затем того же приложения,
+написанного на языках Python и C#,&nbsp;</font><font size="3"> она
+познакомит
+вас с основами программирования с
+использованием GTK+.</font><font size="3"> В конце
+вы найдете обзор нескольких полезных
+программ, которые помогут разрабатывать
+приложения GTK+ лучшие и быстрее.</font></div>
+      <p style="margin-bottom: 0cm; margin-left: 40px;" align="justify"><font size="3">Эта
+статья рассчитана на то, что Вы знакомы
+с основными понятиями объектно-ориентированного
+программирования, такими как классы,
+объекты, методы и наследование.
+Дополнительно необходимо понимание
+основ синтаксиса языка C.</font></p>
+      <p style="margin-bottom: 0cm;" align="justify"><br>
+      </p>
+      <p style="margin-bottom: 0cm; font-style: normal;" align="justify"><font size="4"><b>Анатомия
+приложения GTK+ на языке С</b></font></p>
+      <p style="margin-bottom: 0cm;" align="justify"><font size="3">&nbsp;&nbsp;&nbsp;
+Я думаю,
+что код лучше обсуждать на примере. В
+этой статье в качестве примера я
+использую небольшую, написанную на
+языке С, программу, которая называется </font>HelloWorld<font size="3">.
+Хотя код этой программы
+короток и бесполезен, он показывает
+наиболее интересные концепции, с которыми
+следует познакомиться, прежде чем
+начинать программировать с использованием
+инструментария GTK+ (Листинг 1).</font></p>
+      <p style="margin-bottom: 0cm;"><font size="3"><b>Листинг 1.
+Приложение Hello World в GTK+</b></font></p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>#include &lt;gtk/gtk.h&gt;</code><br><code>#include &lt;libintl.h&gt;</code><br><br><code>#define _(x) gettext (x)</code><br><code>#define N_(x) (x)</code><br><br><code>#define GETTEXT_PACKAGE "gtk-hello"</code><br><code>#define LOCALEDIR "mo"</code><br><br><code>static char *greetings[] = { "Hello World",</code><br><code>                             "Witaj &#347;wiecie",</code><br><code>                             "<span lang="">&#19990;&#30028;&#12395;&#20170;&#26085;&#12399;</span></code><code>" };</code><br><br><code>static char* choose_greeting ()</code><br><code>{</code><br><code>  return greetings[g_random_int_range (0, G_N_ELEMENTS (greetings))];</code><br><code>}</code><br><br><code>static void cb_button_click(GtkButton *button, gpointer data)</code><br><code>{</code><br><code>  GtkWidget *label = GTK_WIDGET(data);</code><br><br><code>  g_assert(label != NULL);</code><br><code>  gtk_label_set_text(GTK_LABEL (label), choose_greeting());</code><br><code>}</code><br><br><code>static gboolean cb_delete(GtkWidget *window, gpointer data)</code><br><code>{</code><br><code>  gtk_main_quit();</code><br><code>  return FALSE;</code><br><code>}</code><br><br><code>int main (int argc, char *argv[])</code><br><code>{</code><br><code>  GtkWidget* window, *button, *label, *vbox;</code><br><code>  </code><br><code>  bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);</code><br><code>  bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");</code><br><code>  textdomain (GETTEXT_PACKAGE);</code><br><br><code>  gtk_init(&amp;argc, &amp;argv);</code><br><br><code>  window = gtk_window_new (GTK_WINDOW_TOPLEVEL);</code><br><code>  button = gtk_button_new_with_label (_("Hello World"));</code><br><code>  label = gtk_label_new (choose_greeting());</code><br><code>  vbox = gtk_vbox_new(FALSE, 0);</code><br><br><code>  gtk_container_add(GTK_CONTAINER (window), vbox);</code><br><code>  gtk_container_add(GTK_CONTAINER (vbox), label);</code><br><code>  gtk_container_add(GTK_CONTAINER (vbox), button);</code><br><br><code>  g_signal_connect(G_OBJECT (window), "delete-event", </code><br><code>                   G_CALLBACK(cb_delete), NULL);</code><br><br><code>  g_signal_connect (G_OBJECT (button), "clicked", </code><br><code>                    G_CALLBACK (cb_button_click), label);</code><br><br><code>  gtk_widget_show_all(window);</code><br><code>  gtk_main();</code><br><br><code>  return 0;</code><br><code>}</code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-bottom: 0cm;"><br>
+      </p>
+      <p style="margin-bottom: 0cm;"><font size="3"><b>Общая картина </b></font></p>
+      <p style="margin-bottom: 0cm;" align="justify"><font size="3">&nbsp;&nbsp;&nbsp;
+Перед
+тем, как перейти к деталям, рассмотрим
+по порядку, что происходит, когда Вы
+запускаете программу HelloWorld:</font></p>
+      <ol>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font size="3">Происходит
+инициализация GTK+ и поддержки интернационализации (i18n);</font></p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font size="3">Создаются
+виджеты;</font></p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font size="3">Виджеты
+организуются в иерархию, чтобы GTK+ знал, как их отображать на экране;</font></p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font size="3">Подключаются
+два обработчика сигналов: первый – для выхода из программы по нажатию
+кнопки закрытия окна и второй – для изменения приветствия по нажатию
+кнопки на форме;</font></p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font size="3">Окно
+отображается на экране, а затем для активации главного цикла программы
+вызывается функция </font><code>gtk_main()</code>.</p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font size="3">Главный
+цикл выполняется до тех пор, пока пользователь не закроет окно, и не
+будет вызвана функция </font><code>gtk_main_quit()<font size="3">.</font></code></p>
+        </li>
+      </ol>
+      <p style="margin-bottom: 0cm;" align="justify"><br>
+      </p>
+      <p style="margin-bottom: 0cm;" align="justify"><font size="3"><b>Инициализация</b></font></p>
+      <p style="margin-bottom: 0cm;"><font size="3">&nbsp;&nbsp;&nbsp;
+Следующие строки
+программы инициализируют GTK+ и поддержку
+интернационализации:</font></p>
+      <p style="margin-bottom: 0cm;"><font size="3"><b>Листинг 2.
+Инициализация GTK+ и поддержки
+интернационализации</b></font></p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>int main (int argc, char *argv[])</code><br><code>{</code><br><code>  GtkWidget* window, *button, *label, *vbox;</code><br><code>  </code><br><code>  bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);</code><br><code>  bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");</code><br><code>  textdomain (GETTEXT_PACKAGE);</code><br><br><code>  gtk_init(&amp;argc, &amp;argv);</code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-bottom: 0cm;" align="justify"><font size="3">&nbsp;&nbsp;&nbsp;
+Объявление
+функции main знакомо любому программисту,
+знающему язык C (если Вы не знакомы с
+языком С, знайте что main – это функция, с
+которой начинается выполнение программы). </font></p>
+      <p style="margin-bottom: 0cm;" align="justify"><font size="3">&nbsp;&nbsp;&nbsp;
+Следующая
+строка содержит объявление нескольких
+указателей с типом </font><code>GtkWidget</code><font size="3">.
+GTK+ - это объектно-ориентированный
+инструментарий, по этой причине в нем
+используются обычные для
+объектно-ориентированного программирования
+приемы. Например, наследование
+используется, чтобы создать различные
+виды виджетов. Сам по себе язык С не
+является объектно-ориентированным,
+однако GTK+ преодолевает это ограничение
+путем использования нескольких хитроумных
+приемов и некоторых свойств языка С.
+Таким образом, <i>объекты</i> представляются
+указателями, а тип </font><code><font size="3">GtkWidget</font></code><font size="3">
+называется основным <i>классом</i>, от
+которого образуются все остальные
+классы. Поэтому выше я объявил переменные
+типа </font><code>GtkWidget*</code><font size="3">. </font> </p>
+      <p style="margin-bottom: 0cm;" align="justify"><font size="3">&nbsp;&nbsp;&nbsp;
+Следующие
+три строки – это вызовы, которые нужно
+расположить в начале программы, чтобы
+включить в ней поддержку интернационализации
+интерфейса. Надо заметить, что в настоящих
+приложениях вам не придется в ручную
+объявлять </font><code>LOCALEDIR</code> и <code>GETTEXT_PACKAGE</code><font size="3">
+- ваша система сама позаботится об этих
+объявлениях, однако в нашем примере они
+помогают понять, что действительно
+происходит в программе. </font> </p>
+      <p style="margin-bottom: 0cm;" align="justify"><font size="3">&nbsp;&nbsp;&nbsp;
+В последней
+строчке вызывается функция </font><code>gtk_init()</code>.<font size="3">
+Вызов этой функции обязателен, при
+этом ей должны быть переданы аргументы,
+с которыми запущена программа, а ее
+вызов должен осуществляться <i>перед
+тем</i>, как будет сделан вызов любой
+другой функции GTK+. Если вы забудете
+осуществить вызов этой функции, то
+получите несколько десятков ошибок от
+различных подсистем, которые просто не
+смогут правильно запуститься. </font> </p>
+      <p style="margin-bottom: 0cm;"><br>
+      </p>
+      <p style="margin-bottom: 0cm;"><font size="3"><b>Создание
+виджетов</b></font></p>
+      <p style="margin-bottom: 0cm;"><font size="3">В следующих
+четырех строках осуществляется вызов
+различных видов функции </font><code>_new()</code><font size="3">:</font></p>
+      <p style="margin-bottom: 0cm;"><font size="3"><b>Листинг 3. Вызов
+различных функций _new()</b></font></p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>  window = gtk_window_new (GTK_WINDOW_TOPLEVEL);</code><br><code>  button = gtk_button_new_with_label (_("Hello World"));</code><br><code>  label = gtk_label_new (choose_greeting());</code><br><code>  vbox = gtk_vbox_new(FALSE, 0);</code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-bottom: 0cm;">
+      <table align="right" border="1" cellpadding="5" cellspacing="0" dir="ltr" frame="void" rules="rows" width="40%">
+        <col width="3*"> <col width="253*"> <tbody>
+          <tr>
+            <td rowspan="2" width="1%">
+            <p><img alt="" src="gtk2_bylos/c.gif" name="Графический объект1" style="border: 0px solid ; width: 10px; height: 2px;"></p>
+            </td>
+            <td bgcolor="#eeeeee" width="99%">
+            <p align="left"><b>Замечание по использованию TOPLEVEL<br>
+            </b>Увидев в функции <code>gtk_window_new</code> параметр <code>TOPLEVEL</code>
+, вы, наверное, подумали, что есть и
+другие типы окон. Без сомнения есть, однако их обычно не используют.
+Если вы все-таки хотите использовать другой тип, вы должны иметь четкое
+представление о взаимодействии GTK+ и оконной системы. Так что
+запомните простое правило: <i>всегда</i> используйте параметр <code>TOPLEVEL</code>.
+            </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="99%"><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <font size="3">&nbsp;&nbsp;&nbsp; Как Вы можете
+предположить, эти функции создают новые
+виджеты<big>, п</big>оэтому они называются <i>конструкторами
+(constructors)</i>
+объектов,
+представляющих собой виджеты. В языке С++
+конструкторы обозначаются особым
+образом и вызываются с использованием
+специальных служебных слов языка.
+Однако С не является объектно-ориентированным
+языком, поэтому в нем нет разницы между
+вызовом обычной функции и конструктором.
+Только окончание </font><code>_new()</code><font size="3">
+добавленное к названию функции,
+свидетельствует о том, что это на самом
+деле конструктор. Так же есть соглашение,
+что любой конструктор в пространстве
+имен </font><code>gtk_*</code><font size="3"> возвращает
+указатель на </font><code>GtkWidget</code><font size="3">, поэтому,
+объявляя переменную такого
+типа, вы можете присвоить ей результат
+вызова конструктора. </font> </p>
+      <p style="margin-bottom: 0cm;" align="justify"><font size="3">&nbsp;&nbsp;&nbsp;
+Если вы
+внимательно посмотрите на несколько
+конструкторов, то увидите, что они
+вызываются с различными параметрами,
+набор которых зависит от типа создаваемого
+виджета. В частности, конструкор </font><code>gtk_window_new
+(GTK_WINDOW_TOPLEVEL)</code><font size="3">
+создает новое окно типа </font><i>TOPLEVEL,</i><font size="3">
+этот виджет представляет собой обычное
+окно с заголовком, кнопкой закрыть и
+другими добавленными оконным менеджером
+элементами. </font> </p>
+      <p style="margin-bottom: 0cm;"><font size="3">&nbsp;&nbsp;&nbsp;
+Вызовы конструкторов
+для переменных </font><b>label</b> (метка) и <b>button </b><font size="3">(кнопка), делают в точности
+то, что от них ожидается. Обратите
+внимание на знак подчеркивания и скобки
+( _() ), окружающие строку, передаваемую
+в конструктор кнопки. Этот макрос
+вызывает подпрограмму </font><code>gettext()</code><font size="3">
+и является основой для перевода интерфейса
+программы. (Чтобы получить подробную
+информацию по использованию gettext,
+посмотрите <a href="#links">ссылки</a><span style="background: rgb(255, 255, 0) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;"></span>.)</font></p>
+      <p style="margin-bottom: 0cm;"><font size="3">&nbsp;&nbsp;&nbsp;
+Загадочный
+конструктор </font><code>gtk_vbox_new(FALSE, 0)</code><font size="3">
+создает вертикальный бокс (<b>Vbox</b>). Хотя
+этот виджет не отображает даже пикселя
+на экране, вы вскоре увидите, что он
+играет решающую роль при расположении
+элементов управления GTK+. </font> </p>
+      <p style="margin-bottom: 0cm;"><br>
+      </p>
+      <p style="margin-bottom: 0cm;"><font size="3"><b>Определение
+расположения </b></font> </p>
+      <p style="margin-bottom: 0cm;"><font size="3">&nbsp;&nbsp;&nbsp;
+Следующие три
+строки определяют расположение виджетов
+на экране:</font><br>
+      <br>
+      </p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>    gtk_container_add(GTK_CONTAINER (window), vbox);</code><br><code>    gtk_container_add(GTK_CONTAINER (vbox), label);</code><br><code>    gtk_container_add(GTK_CONTAINER (vbox), button);</code><br><code>  </code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-bottom: 0cm;" align="justify"><font size="3">&nbsp;&nbsp;&nbsp;
+Эти
+строки – вызовы объектно-ориентированных
+методов, относящихся к типу </font><code>GtkContainer</code><font size="3">.
+Если вы обратитесь к справочной информации
+по API, то увидите, что </font><code><font size="3">GtkContainer</font></code><font size="3">
+является потомком класса </font><code>GtkWidget</code><font size="3">,
+и что всем его методам как первый
+параметр передается переменная типа </font><code>GtkContainer*</code><font size="3">. Считается,
+что </font><code>GtkContainer*</code><font size="3"> - это <i>экземпляр</i>
+(<i>instance</i>) объекта, на
+которой должен действовать метод. По
+той причине, что все переменные объявлены
+с типом </font><code><font size="3">GtkWidget</font><code><font size="3">*</font></code></code><font size="3">,
+а компилятор C не поддерживает
+объектно-ориентированное наследование,
+необходимо убедить компилятор, что
+безопасно передать эти переменные
+функции и ждать от них значение типа </font><code><font size="3">GtkContainer*</font></code><font size="3">.
+Эту работу выполняет макрос </font><code>GTK_CONTAINER()</code><font size="3">,
+в нем реализовано безопасное преобразование к типу </font><code><font size="3">GtkContainer</font></code><font size="3">. </font><font size="3">Безопасное преобразование к типу</font><font size="3"> (<i>t</i></font><i>ype-safe</i><font size="3">),
+означает, что макрос проверяет, может
+ли быть выполнена необходимая операция
+над данным типом перед тем, как осуществить
+преобразование. Если макрос не может
+выполнить операцию, он выводит
+предупреждающее сообщение. </font> </p>
+      <p style="margin-bottom: 0cm;"><font size="3">&nbsp;&nbsp;&nbsp;
+Так как в GTK+
+используется модель расположения
+элементов </font><i>box layout</i><span style="font-style: normal;"><font size="3">,
+нет необходимости точно указывать, где
+на экране будет располагаться виджет.
+В программе </font></span>Hello World<span style="font-style: normal;"><font size="3">
+каждый вызов метода </font></span><code>gtk_container_add()</code><font size="3"><span style="font-style: normal;">
+говорит программе взять первый параметр
+или </span><i>родительский виджет</i><span style="font-style: normal;">
+и поместить в него второй параметр или </span><i>дочерний виджет</i><span style="font-style: normal;">.
+Виджет </span></font><code>VBox</code><span style="font-style: normal;"><font size="3">,
+используемый в нашем примере, – это вид
+виджета, используемый для расположения
+дочерних виджетов вертикально в ряд.
+Так что, когда вы по очереди помещаете
+внутрь этого виджета метку, а затем
+кнопку, то кнопка отображается под
+меткой.</font></span></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+Это
+все, что вам нужно сделать. Если вы
+когда-нибудь вздумаете вручную расположить
+и определить размеры виджетов, используйте <i>зафиксированные позиции (</i></font><i>absolute
+positioning)</i><font size="3"> – модель расположения
+элементов, используемая в некоторых
+других инструментариях, например, в
+Win32. В GTK+ вся работа по расположению и
+изменению размеров виджетов, выполняется
+за вас автоматически. </font> </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"> </p>
+      <font size="3"><b><br>
+Подключение
+сигналов к главному циклу</b></font>
+      <p style="margin-bottom: 0cm;"><span style="font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp; После
+создания и размещения виджетов наступило
+время добавить им немного логики. Как
+в большинстве графических инструментариев,
+в GTK+ реализована модель </font></span>с
+управлением по событиям <font size="3"><span style="font-style: normal;">(</span><i>event-driven</i><span style="font-style: normal;">).
+По существу, она организована вокруг
+главного цикла(</span><i>main loop</i><span style="font-style: normal;">)
+обработки событий. Главный цикл
+представляет собой бесконечный цикл,
+включающий три этапа: проверку наличия
+событий, их обработку и ожидание. Когда
+возникает событие, объект, ассоциированный
+с этим событием посылает </span><i>сигнал</i><span style="font-style: normal;">,
+который сообщает главному циклу о
+произошедшем событии. Далее главный
+цикл ищет сигнал во внутренней таблице,
+где сопоставлены сигналы и обработчики,
+эти сопоставления иногда называют
+обратными вызовами (</span><i>callbacks</i><span style="font-style: normal;">).
+В конце-концов главный цикл вызывает
+найденный обработчик сигнала для
+сигнала, пришедшего от объекта.</span></font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+В
+коде программы HelloWorld, регистрация
+обратных вызовов выглядит следующим
+образом:</font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><a name="listing1"></a> <font size="3"><b>Листинг 4. Регистрация
+обратных
+вызовов</b></font></p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>  g_signal_connect(G_OBJECT (window),  "delete-event", </code><br><code>                   G_CALLBACK(cb_delete), NULL);</code><br><code>  g_signal_connect (G_OBJECT(button), "clicked", </code><br><code>                    G_CALLBACK(cb_button_click), label);</code><br><code>                    </code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-bottom: 0cm;"><font size="3"><span style="font-style: normal;">&nbsp;&nbsp;&nbsp; Примечательно,
+что в GTK+ вы </span><i>подсоединяете</i><span style="font-style: normal;">
+сигналы. Так, в первой строчке функция </span></font><code>cb_delete</code><span style="font-style: normal;"><font size="3">
+соединена с сигналом </font></span><code>delete-event</code><span style="font-style: normal;"><font size="3">
+объекта </font></span><code>window</code><span style="font-style: normal;"><font size="3">.
+Точно так же во второй строчке функция </font></span><code>cb_button_click</code>
+соединена с
+сигналом <code>clicked</code> объекта <code>button</code>.<span style="font-style: normal;"><font size="3">
+Обратите внимание на то, что в четвертом
+параметре второго вызова</font></span>,
+передается указатель на нашу метку <code>label</code>, позже вы
+увидите, как он
+используется в функции <code>cb_button_click</code><span style="font-style: normal;"><font size="3">. </font></span></p>
+      <p style="margin-bottom: 0cm;"><span style="font-style: normal;"><font size="3">Ниже
+представлена функция </font></span><code>cb_delete</code><span style="font-style: normal;"><font size="3">,
+которая завершает приложение, когда
+пользователь закрывает окно. </font></span> </p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>static gboolean cb_delete(GtkWidget *window, gpointer data)</code><br><code>{</code><br><code>  gtk_main_quit();</code><br><code>  return FALSE;</code><br><code>}</code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-bottom: 0cm; font-style: normal;">
+      <table align="right" border="1" cellpadding="5" cellspacing="0" dir="ltr" frame="void" rules="rows" width="40%">
+        <col width="7*"> <col width="249*"> <tbody>
+          <tr>
+            <td rowspan="2" width="3%">
+            <p><img alt="" src="gtk2_bylos/c.gif" name="Графический объект2" style="border: 0px solid ; width: 10px; height: 2px;"></p>
+            </td>
+            <td bgcolor="#eeeeee" width="97%">
+            <p><a name="N10209"></a><b>Статический модификатор</b><br>
+В языке C ключевое слово <code>static</code> указывает компилятору,
+что нужно производить внутреннее связывание функций, это означает, что
+статические функции не видны за пределами файла, в котором они
+объявлены. Кроме случая, когда нужно использовать обратные вызовы более
+чем из одного файла, всегда используйте ключевое слово <code>static</code>
+при их объявлении. Следуя этому правилу, вы легко избежите путаницы при
+объявлении новых функций. Так как статические функции видны только в
+файле, в котором они объявлены, те же названия можно использовать снова.</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="97%"><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <font size="3">&nbsp;&nbsp;&nbsp; Любой
+обратный вызов для сигнала <code><span style="font-style: normal;"><font size="3">"delete-event"</font></span></code><span style="font-style: normal;"><font size="3">
+обязан соответствовать определенному
+в API прототипу, п</font></span>отому этой
+функции передается аргумент типа <code><span style="font-style: normal;"><font size="3">GtkWidget*</font></span></code><span style="font-style: normal;"><font size="3">
+и указатель на неопределенный тип </font></span><code><span style="font-style: normal;"><font size="3">data</font></span></code><span style="font-style: normal;"><font size="3">
+(тип </font></span><code><span style="font-style: normal;"><font size="3">gpointer</font></span></code><span style="font-style: normal;"><font size="3">
+равноценен типу </font></span><code><span style="font-style: normal;"><font size="3">void*</font></span></code><span style="font-style: normal;"><font size="3">).
+В нашем случае эти аргументы не нужны,
+и мы их просто игнорируем. Далее в теле
+функции вызывается функция </font></span><code><span style="font-style: normal;"><font size="3">gtk_main_quit()</font></span></code><span style="font-style: normal;"><font size="3">,
+она завершает бесконечный главный
+цикл. В конце, функция возвращает значение
+логического типа, снова по той же причине,
+что в прототипе обратного вызова для
+сигнала </font></span><code><span style="font-style: normal;"><font size="3">delete-event</font></span></code><span style="font-style: normal;"><font size="3"> точно определено:
+функция должна
+возвратить логический тип. Возвращаемое
+логическое значение определяет то,
+какие действия дальше </font></span>предпримет
+GTK+. Если функция возвратит значение <code><span style="font-style: normal;"><font size="3">TRUE</font></span></code><span style="font-style: normal;"><font size="3">,
+событие будет считаться обработанным,
+и обработчик события, который </font></span>по
+умолчанию для этого вызова удаляет
+виджет из оконной системы, не будет
+вызван. Иногда это бывает нужно, например,
+если надо спросить у пользователя
+сохранять данные или нет, возвратив <code><span style="font-style: normal;"><font size="3">TRUE</font></span></code>,
+можно приостановить закрытие окна.</font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+Ниже
+приведена функция <code>cb_button_click</code>, ее
+задача по нажатию кнопки изменить
+приветственное сообщение: </font> </p>
+      <p style="font-style: normal;"><a name="listing11"></a><font size="3"><b>Листинг
+5. Функция cb_button_click</b></font></p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>static void cb_button_click(GtkButton *button, gpointer data)</code><br><code>{</code><br><code>  GtkWidget *label = GTK_WIDGET(data);</code><br><br><code>  g_assert(label != NULL);</code><br><code>  gtk_label_set_text(GTK_LABEL (label), choose_greeting());</code><br><code>}</code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-bottom: 0cm;"><span style="font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp; Как
+вы можете видеть, эта функция похожа на
+функцию </font></span><code><span style="font-style: normal;"><font size="3">cb_delete</font></span></code><span style="font-style: normal;"><font size="3">,
+за исключением того, что она ничего не
+возвращает и вместо аргумента </font></span><code><span style="font-style: normal;"><font size="3">GtkWidget</font></span></code><span style="font-style: normal;"><font size="3">
+ей передается </font></span><code>GtkButton*</code><span style="font-style: normal;"><font size="3">.
+В коде функции неопределенный указатель </font></span><code><span style="font-style: normal;"><font size="3">data</font></span></code><span style="font-style: normal;"><font size="3"> преобразуется в указатель
+на </font></span><code><span style="font-style: normal;"><font size="3">GtkLabel</font></span></code><span style="font-style: normal;"><font size="3">.
+Помните четвертый параметр label, на
+который мы обратили внимание при
+регистрации обратных вызовов? Теперь
+при каждом обратном вызове указатель </font></span><code><span style="font-style: normal;"><font size="3">data</font></span></code><span style="font-style: normal;"><font size="3">
+будет содержать указатель на созданную
+нами в начале программы метку. Вы можете
+использовать аргумент </font></span><code><span style="font-style: normal;"><font size="3">data</font></span></code><span style="font-style: normal;"><font size="3">
+везде, где нужно передать дополнительную
+информацию функции обратного вызова.
+Таким же образом, если нужно получить
+доступ к объекту, пославшему сигнал,
+можно использовать первый параметр,
+которому в нашем случае соответствует
+аргумент </font></span><code><span style="font-style: normal;"><font size="3">button</font></span></code><span style="font-style: normal;"><font size="3">. </font></span></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+После
+получения указателя на метку, макрос <code>g_assert</code> проверяет
+не получилось ли
+так, что наша метка указывает на значение <code>NULL</code>. Макрос <code>g_assert</code>
+- это
+специальная утилита из библиотеки Glib
+(библиотека полезных типов и программ,
+активно используемая GTK+), которая
+прекращает исполнение программы, если
+не выполняется переданное ей условие,
+в нашем случае программа остановится,
+если <code>label</code> будет равно <code>NULL</code>.
+Поскольку <code>label</code> будет равняться <code>NULL</code>
+только в случае ошибки
+программиста, это выражение гарантирует
+то, что ошибка будет отловлена до того,
+как программа увидит свет.</font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><br>
+      </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3"><b>Отображение
+окна</b></font></p>
+      <p style="font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+После регистрации
+обратных вызовов функция <code>gtk_widget_show_all()</code>
+показывает окно и все его виджеты на
+экране (Рисунок 1).</font></p>
+      <p><b>Рисунок 1. Программа Hello World на польском
+и японском<br>
+      </b><img src="gtk2_bylos/hello_ja_pl.jpg" name="Графический объект3" alt="Окно программы HelloWorld" style="border: 0px solid ; width: 229px; height: 158px;"> </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3"><b>Активация
+главного цикла</b></font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+После
+того, как все установлено и отображено
+на экране, фукция <code>gtk_main()</code> активирует
+главный цикл. Главный цикл входит в
+бесконечный цикл ожидания и обработки
+поступающих сигналов до тех пор, пока
+кто-нибудь, закрыв окно, не вызовет функцию <code>gtk_main_quit()</code>.</font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="2"><b>ПРИМЕЧАНИЕ</b>:
+Если у вас остались какие-нибудь вопросы
+по программе, посмотрите код в архиве.
+Он точно такой же как в статье, но каждой
+строчке дан подробный комментарий.</font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3"><b><br>
+Компиляция
+и запуск</b></font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+Чтобы
+скомпилировать эту программу, вам
+понадобится компилятор С и файлы
+разработчика (файлы заголовков и
+библиотеки) для GTK+. Информация о том как
+их получить&nbsp; приведена в <a href="#links">ссылках</a><span style="background: rgb(255, 255, 0) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;"></span>.</font></p>
+      <p style="margin-bottom: 0cm;">После установки этих
+файлов, разархивируйте исходный код,
+перейдите в появившейся каталог и
+запустите <code>make</code>: </p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>$ tar -xzf gtk_hello.tgz</code><br><code>$ cd gtk_hello</code><br><code>$ make</code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3"><font size="2"><b>ПРИМЕЧАНИЕ</b>:
+Если вы используете Microsoft® Windows®,
+вместо запуска </font><code><font size="2">make</font></code><font size="2">
+откройте Microsoft Visual Studio™.NET и запустите
+проект "hello". </font></font> </p>
+      <p style="font-style: normal;"><br>
+      </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="4"><b>Использование
+GTK+ в других языках программирования</b></font></p>
+      <p style="margin-bottom: 0cm;"><font size="3"><span style="font-style: normal;">&nbsp;&nbsp;&nbsp; Вы
+можете использовать инструментарий
+GTK+ во множестве языков программирования.
+Чтобы воспользоваться им, вам понадобятся
+привязки. </span><i>Привязки</i><span style="font-style: normal;">
+(</span><i>b</i></font><i>indings</i><span style="font-style: normal;"><font size="3">)
+- это специальные пакеты для определенного
+языка, которые представляют API GTK+ в форме,
+понятной этому языку.</font></span></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+Например,
+я переписал код нашего приложения
+HelloWorld на языки Python и C#. Чтобы запустить
+GTK+ c этими языками, в дополнение к системам
+программирования Python и Mono/.NET вам
+соответственно понадобятся привязки
+PyGTK и Gtk# (см. <a href="#links">ссылки</a><span style="background: rgb(255, 255, 0) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;"></span>).</font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><br>
+      </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><a name="pygtk1"></a> <font size="3"><b>Hello World и PyGTK</b></font></p>
+      <p style="font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+В листинге 6
+показан код приложения Hello World, переписанный
+на язык Python.</font></p>
+      <p><a name="hello_pygtk"></a><b><span style="font-style: normal;"><font size="3">Листинг</font></span>
+6. Приложение Hello World в PyGTK</b></p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>import pygtk</code><br><code>pygtk.require('2.0')</code><br><code>import gtk</code><br><code>import random</code><br><br><code>greetings = ["Hello World", "Witaj &#346;wiecie", "<span lang="">&#19990;&#30028;&#12395;&#20170;&#26085;&#12399;</span></code><code>"]</code><br><code>def choose_greeting (greets):</code><br><code>    return greets[random.randint (0, len(greets) - 1)]</code><br><br><code>def cb_clicked(button, label):</code><br><code>    label.set_text(choose_greeting(greetings))</code><br><br><code>window = gtk.Window ()</code><br><code>vbox = gtk.VBox ()</code><br><code>button = gtk.Button("Hello World")</code><br><code>label = gtk.Label (choose_greeting (greetings))</code><br><br><code>window.add(vbox)</code><br><code>vbox.add(label)</code><br><code>vbox.pack_start(button, False, False)</code><br><br><code>window.connect("delete-event", lambda a,b: gtk.main_quit())</code><br><code>button.connect("clicked", cb_clicked, label)</code><br><br><code>window.show_all()</code><br><code>gtk.main()</code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;&nbsp;&nbsp; Благодаря краткости Python, эта версия
+программы получилась немного короче,
+чем ее двойник на С. Несмотря на это,
+выглядит она похоже. Хотя код приложения
+был переписан с использованием выражений
+Python, интерфейс программирования (API)
+остался тот же самый. </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><br>
+      </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><a name="gtksharp1"></a> <font size="3"><b>Hello World и Gtk#</b></font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+Код
+приложения Hello World с использованием
+привязки Gtk# занимает чуточку больше
+места, чем его версия на языке С, это
+связано с тем, что синтаксис выражений
+в языке С# достаточно длинный. Поэтому,
+я не поместил здесь полный исходный
+код, если нужно, его можно посмотреть в
+архиве. Здесь кратко рассмотрены
+несколько моментов при переносе
+приложения из языка C в C#:</font></p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>  class GtkHello : Gtk.Window</code><br><code>  {</code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-bottom: 0cm;"><span style="font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp; Вместо
+создания нового окна и описания его
+параметров, вы создаете подкласс класса </font></span><code><span style="font-style: normal;"><font size="3">Gtk.Window</font></span></code><span style="font-style: normal;"><font size="3"> и помещаете весь код
+описания параметров
+в его конструктор. Этот подход не является
+характерной чертой Gtk#, он часто
+используется в С-программах, если нужно
+создать более одной копии окна. В любом
+случае, создавать подклассы в C# так
+просто, что имеет смысл объявить новый
+класс, даже для одного нового окна, тем
+более, что структура программ на C# требует от вас объявить хотя бы
+один
+класс. </font></span> </p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>  this.DeleteEvent += new DeleteEventHandler(DeleteCB);</code><br><code>  button.Clicked += new EventHandler(ButtonClickCB);</code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;&nbsp;&nbsp; Как можно видеть, сигналы GTK+ переведены
+в родную для C# концепцию событий. Имена
+немного изменены, чтобы лучше следовать
+соглашениям именования принятым в C#.</p>
+      <p><a name="hello_pygtk1"></a><b>Листинг 7. Сигналы
+GTK+, переведенные в родную для C# концепцию
+событий</b></p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>  private void DeleteCB (object o, DeleteEventArgs args)</code><br><code>  {</code><br><code>    Application.Quit ();</code><br><code>    args.RetVal = true;</code><br><code>  }</code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;&nbsp;&nbsp; Из-за особенностей модели событий C#
+прототип для обработчика <code>delete-event</code>
+немного отличается. Вместо того, чтобы
+через функцию обратного вызова возвратить
+значение <code>true</code>, нужно передать его
+через аргументы <code>args.RetVal</code>. Пара
+функций <code>gtk_main()</code> и <code>gtk_main_quit()</code>
+заменены соответственно вызовами
+методов <code>Application.Run()</code> и <code>Application.Quit()</code>.</p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><br>
+      </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="4"><b>Полезные
+инструменты</b></font></p>
+      <p style="margin-bottom: 0cm;">&nbsp;&nbsp;&nbsp; Существует
+несколько
+инстр<span style="font-style: normal;"><font size="3">ументов,
+способных значительно облегчить вам
+жизнь при разработке программ с
+использованием GTK+. Наиболее полезными
+считаются </font></span>Glade, Libglade и Devhelp.</p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><a name="libglade"></a> <font size="3"><b>Glade и Libglade </b></font> </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+Дизайнер
+интерфейсов Glade помогает графически
+создавать интерфейс приложения, вместо
+того, чтобы в исходном коде описывать
+в отдельности каждый элемент. Но еще
+более полезным является второй компонент
+- библиотека Libglade, она позволяет читать
+специальный формат XML, который Glade
+использует при описании интерфейса. С
+помощью Libglade вы можете создать интерфейс
+приложения из этого описания, без
+написания какого-либо кода вообще.</font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+На
+рисунке 2 показано простое приложение,
+использующее Libglade для отображения
+нескольких виджетов.</font></p>
+      <p style="margin-bottom: 0cm;"><b>Рисунок 2. Простое
+приложение, использующее Libglade </b> </p>
+      <p style="text-align: left;"><img src="gtk2_bylos/glade_hello.jpg" name="Графический объект4" alt="Приложение использующее libglade" style="border: 0px solid ; width: 312px; height: 197px;"> </p>
+      <p>&nbsp;&nbsp;&nbsp; В листинге 8, показан полный исходный
+код приложения, изображенного на рисунке
+2.</p>
+      <p><b>Листинг 8. Исходный код приложения
+Libglade</b></p>
+      <table bgcolor="#eeeeee" border="1" cellpadding="5" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <pre><code>#include &lt;gtk/gtk.h&gt;</code><br><code>#include &lt;glade/glade.h&gt;</code><br><br><code>int main (int argc, char *argv[])</code><br><code>{</code><br><code>  GladeXML *ui;</code><br><code>  gtk_init(&amp;argc, &amp;argv);</code><br><br><code>  /* Чтение описания интерфейса из файла glade */</code><br><code>  ui = glade_xml_new ("glade_hello.glade", "main_window", NULL);</code><br><code>  /* Автоматическое подключение сигналов */</code><br><code>  glade_xml_signal_autoconnect(ui);</code><br><code>  gtk_main();</code><br><br><code>  return 0;</code><br><code>}    </code></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+Как
+видно, весь код занял 17 строчек, включая
+комментарии и пустые строки. Несмотря
+на то, что настоящие приложения не будут
+такими короткими, использование Libglade
+даст вам огромные преимущества при
+разработке программ, такие как модульность,
+понятность и надежность вашего кода. </font> </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+Если
+вы хотите более подробно изучить, как
+построена эта программа, вы можете найти
+ее, также как все другие примеры из этой
+статьи, в <a href="#files">приложении</a><span style="background: rgb(255, 255, 0) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;"></span>.</font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><br>
+      </p>
+      <p style="font-style: normal;"><a name="devhelp1"></a><font size="3"><b>Devhelp</b></font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+Браузер
+документации Devhelp разработан для чтения
+документации в формате, создаваемом
+программой gtk-doc (стандартной утилитой
+для создания документации GTK+), которая
+так же используется в некоторых других
+родственных проектах, таких как Pango и
+GNOME. С помощью Devhelp вы можете быстро
+найти функцию и посмотреть установленную
+по ней документацию, он помогает получать
+необходимую информацию намного быстрее.
+Devhelp – это приложение GNOME, поэтому чтобы
+запустить его, вам понадобится POSIX-совместимая операционная
+система(напр. Linux® или Sun Solaris), на которой будет
+работать GNOME и его библиотеки. Однако
+для просмотра документации вам не
+обязательно запускать сам GNOME. </font> </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+Если
+вы используете другую платформу,
+существует множество других путей
+чтения документации GTK+ . В проекте Mono,
+есть навигатор Monodoc, который обычно
+поставляется вместе со справочной
+информацией по Gtk#. Установочные пакеты
+GTK+ для Windows также включают документацию
+в формате, пригодном для чтения средствами
+Windows, включая Visual Studio®. В конце концов,
+всегда существует возможность обратиться
+к документации в сети с помощью
+веб-обозревателя, однако использование
+специального инструмента всегда
+предпочтительнее, так как он работает
+быстрее и обладает специальными
+функциями, полезными при поиске в
+документации. </font> </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><br>
+      </p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3"><b>В
+следующий раз</b></font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+В
+этой статье вы изучили основные приемы
+программирования с использованием GTK+
+. Также вы увидели, как использовать
+GTK+ в разных языках программирования,
+оперируя выражениями, специфичными для
+этих языков, но при этом, придерживаясь
+общей концепции создания приложений с
+GTK+. И в конце вы ознакомились с несколькими
+полезными инструментами, которые помогут
+разрабатывать приложения GTK+ лучшие и
+быстрее.</font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3">&nbsp;&nbsp;&nbsp;
+В
+последней статье этого цикла, вы ближе
+познакомитесь с другим аспектом
+разработки приложений с использованием
+GTK+ - установкой. В ней будут детально
+проанализированы&nbsp; возможности в
+этой области, включая вопросы переносимости
+и простоты установки. В заключение вы
+посмотрите на GTK+ с более широкой точки
+зрения, как на проект с активным
+сообществом, которое может помочь вам
+создавать приложения, лучше отвечающие
+потребностям ваших пользователей. </font> </p>
+      <p style="margin-bottom: 0cm;"><br>
+      </p>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <p><img src="file:///home/SibTechUser/%D0%A5%D0%BE%D0%B1%D0%B1%D0%B8/%D0%A1%D0%B0%D0%B9%D1%82/gtk-world/gtk2.html" name="Графический объект5" align="bottom" border="0" height="2" width="100%"></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-bottom: 0cm; font-style: normal;"><font size="3"><b><a name="files"></a>Приложение</b></font></p>
+      <p style="margin-bottom: 0cm; font-style: normal;"><img src="gtk2_bylos/gtk2_html_m7871f8d.png" name="Графический объект6" align="bottom" border="0" height="26" width="26"> <font size="3"><a href="http://www.sib.opennet.ru/gtk-world/os-gtk2_hello.zip">Исходные
+коды
+примеров
+(os-gtk2_hello.zip, 18Кб)</a> </font> </p>
+      <p style="margin-bottom: 0cm;"><br>
+      <br>
+      </p>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <col width="256*"> <tbody>
+          <tr>
+            <td width="100%">
+            <p><img src="gtk2_bylos/blue_rule.html" name="Графический объект15" align="bottom" border="0" height="2" width="100%"></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p><font size="3"><b><a name="links"></a>Ссылки по теме</b></font></p>
+      <p style="margin-bottom: 0cm;"><font size="3"><b>Изучение</b></font></p>
+      <ul>
+        <li>
+          <p style="margin-bottom: 0cm;">Прочитайте все статьи из цикла
+«<a href="http://www.sib.opennet.ru/gtk-world/index.html">Основы GTK+</a>»;</p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;">Ознакомьтесь с библиотекой <a href="http://www.gnu.org/software/gettext/">GNU Gettext</a>,
+предназначенной для перевода интерфейса программы во время её
+выполнения;</p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;">Посмотрите <a href="http://developer.gnome.org/doc/API/libglade/libglade.html"><u><font color="#000080">справочную информацию по</font></u> Libglade</a> –
+библиотеки динамического создания интерфейса приложений GTK+;</p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;"><font color="#000000">Посетите
+сайт </font><a href="http://www.gtk.org/"><u><font color="#000080">GTK+</font></u></a><font color="#000000">, чтобы получить больше информации об инструментарии;</font></p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;"><font color="#000000">Страницы
+руководства </font><a href="http://gtk.org/api"><u><font color="#000080">GTK+ API</font></u></a><font color="#000000">
+необходимы каждому разработчику;</font></p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;"><font color="#000000">В книге </font><a href="http://www.amazon.com/exec/obidos/tg/detail/-/1593270305/002-7090147-8728026?v=glance"><u><i><font color="#000080">The Official GNOME 2 Developer's Guide</font></i></u></a><font color="#000000"> Матиса Варкуса (Matthias Warkus) вы найдет информацию
+по программированию для GNOME 2, включая программирование с GTK+.</font></p>
+        </li>
+      </ul>
+      <p style="margin-bottom: 0cm;"><font size="3"><b>Скачайте
+программы</b></font></p>
+      <ul>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font color="#000000">Загрузите </font><a href="http://gtk-sharp.sourceforge.net/"><font color="#000080">Gtk#</font></a><font color="#000000"> - привязку GTK+ для Microsoft .NET;</font></p>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font color="#000000">Получите официальные исходные коды </font><a href="http://gtk.org/download"><u><font color="#000080">GTK+;</font></u></a></p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify">Посетите сайт
+проекта <a href="http://pygtk.org/">PyGTK</a>, посвященной созданию
+привязок GTK+ для языка Python;</p>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font color="#000000">Обратите внимание на редактор фалов Glade <a href="http://gazpacho.sicem.biz/">Gazpacho</a> , написанный на PyGTK;</font></p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font color="#000000">Установите <a href="http://developer.imendio.com/wiki/Devhelp">Devhelp</a> –
+ориентированный на программистов, навигатор по документации для GNOME;</font></p>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font color="#000000">Посмотрите </font><a href="http://gnome.org/"><u><font color="#000080">GNOME</font></u></a><font color="#000000"> -
+продвинутый рабочий стол для Linux;</font></p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font color="#000000">Попробуйте </font><a href="http://xfce.org/"><u><font color="#000080">Xfce</font></u></a><font color="#000000"> быстрый и
+простой в использовании рабочий стол;</font></p>
+        </li>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify"><font color="#000000">Посетите сайт </font><a href="http://gnomefiles.org/"><u><font color="#000080">Gnomefiles</font></u></a><font color="#000000">, дабы
+ознакомиться более чем с 1000 программ использующих GTK+.</font></p>
+        </li>
+      </ul>
+      <p style="margin-bottom: 0cm;"><b>Обсудите</b></p>
+      <ul>
+        <li>
+          <p style="margin-bottom: 0cm;" align="justify">Задайте
+вопросы о разработке ПО с использованием GTK+ в <a href="http://gtk.org/mailinglists.html"><u><font color="#000080">списках
+почтовой рассылки GTK+</font></u></a>.</p>
+        </li>
+      </ul>
+      <p style="margin-bottom: 0cm;"><br>
+      </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<font style="font-size: 16pt;" size="4"><b><br>
+<br>
+</b></font></div>
+</body></html>

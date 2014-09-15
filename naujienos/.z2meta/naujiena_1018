@@ -1,0 +1,9 @@
+[properties]
+author:string = Antanas
+blurb:text = <a href="http://alternatyvos.lt">Alternatyvos.lt</a> - tai kompiuterio program\xc5\xb3 paie\xc5\xa1kos sistema pradedantiesiems ir patyrusiems Linux naudotojams.<br>\n\xc4\xaeved\xc4\x99 programos pavadinim\xc4\x85, kuri veikia kitoje operacin\xc4\x97je sistemoje, gausite pana\xc5\xa1i\xc5\xb3 program\xc5\xb3 Linux sistemai lietuvi\xc5\xa1kus apra\xc5\xa1ymus.
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'GNU/Linux&nbsp;OS\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2010-04-13
+email:string = antanas.com@gmail.com
+profesionalams:boolean = False
+title:string = Lietuvi\xc5\xa1ka Linux program\xc5\xb3 paie\xc5\xa1ka

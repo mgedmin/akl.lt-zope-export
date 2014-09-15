@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p><a href="http://www.scribus.net">\xe2\x80\x9eScribus\xe2\x80\x9c</a> yra maketavimo programa,\nskirta \xe2\x80\x9eGNU/Linux\xe2\x80\x9c operacinei sistemai. Programos k\xc5\xabrimo komanda savo\ngalimyb\xc4\x97mis \xe2\x80\x9eScribus\xe2\x80\x9c lygina su \xe2\x80\x9eAdobe PageMaker\xe2\x80\x9c ir \xe2\x80\x9eQuarkXPress\xe2\x80\x9c.\n\xe2\x80\x9eScribus\xe2\x80\x9c palaiko CMYK spalv\xc5\xb3 palet\xc4\x99 ir spalv\xc5\xb3 skaidymo funkcij\xc4\x85,\nprograma galima sukurti PDF, importuoti ir eksportuoti PS bei EPS\n(Encapsulated Postscript) bylas. \xc5\xa0ios bei patobulintos vartotojo\naplinkos savyb\xc4\x97s jau yra naujoje 1.1.7 versijoje.\n</p>
+date:string = 2004-06-17
+title:string = Maketavimo programa \xe2\x80\x9eScribus\xe2\x80\x9c - \xe2\x80\x9eLinux\xe2\x80\x9c platformai

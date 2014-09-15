@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 125638612
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 23:49:12.238000 GMT+3
+logo_url:string = http://silokarcema.puslapiai.lt/
+mail:string = vilkas20@omni.lt
+organization:string = Laikra\xc5\xa1tis "\xc5\xa0ilokar\xc4\x8dema"
+position:string = Fotokorespondentas
+status:string = fiz_asm
+title:string = Vaidotas Vilkas
+url_asm:string = 
+url_org:string = http://silokarcema.puslapiai.lt/

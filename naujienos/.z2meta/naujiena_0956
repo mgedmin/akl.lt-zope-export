@@ -1,0 +1,9 @@
+[properties]
+author:string = RQ
+blurb:text = \xc5\xa0iandien \xc4\x97m\xc4\x97 ir netik\xc4\x97tai startavo naujas AKL projekt\xc4\x97lis pavadinimu \xe2\x80\x9eAtviras kodas dienora\xc5\xa1\xc4\x8diuose\xe2\x80\x9c.
+categories:multiple selection = (\'Laisva&nbsp;P\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\xae&nbsp;Lietuvoje\',)
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc3\\x83\\xc2\\x85\\xc3\\x82\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s&nbsp;aplinkos\', \'S\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97km\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s&nbsp;teis\\xc3\\x83\\xc2\\x84\\xc3\\x82\\xc2\\x97s\')
+date:string = 2007-03-27
+email:string = rq@akl.lt
+profesionalams:boolean = False
+title:string = Naujas AKL projektas - \xe2\x80\x9eAtviras kodas dienora\xc5\xa1\xc4\x8diuose\xe2\x80\x9c

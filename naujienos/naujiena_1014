@@ -1,0 +1,74 @@
+<p>2010m. vasario 11d. <a href="http://openoffice.org"><b>OpenOffice.org</b></a> kūrėjai išleido pagerintą laisvo biuro programų 
+rinkinio versiją 3.2, kurią galite nemokamai atsisiųsti iš <a href="http://openoffice.lt">lietuviško OpenOffice puslapio</a>.</p>
+<h4>Naujausioje OpenOffice.org laidoje yra daug naudingų patobulinimų:</h4>
+ <ul>
+ <li><img src="images/general_speed.png" align=right alt="Startup graph"><a href="http://openoffice.lt">OpenOffice.org</a> skaičiuoklė, rašyklė ir kitos programos <b>pasileidžia beveik 50% greičiau</b> lyginant su 2008m. rudenį išleista versija 3.0</li>
+ <li>Pagerintas suderinamumas su paplitusiais nuosavybiniais raštinės dokumentų tipais:
+  <ul>
+  <li>atveriant MS Excel 2007 dokumentus (.xlsx, .xlsb) bus nuskaitomi bei rodomi ir įterpiami OLE objektai, formų valdymo elementai bei sukinių lentelės (pivot tables);</li>
+  <li>galėsite naudotis slaptažodžiu apsaugotais MS Office XML (MS Office 2007) dokumentais (.docx, .docm, .dotx, .dotm, .xlsx, .xlsm, .xlsb, .xltx, .xltm, .pptx, .pptm, .potx, .potm);</li>
+  <li>slaptažodžiu apsaugotus dokumentus galėsite išsaugoti ir MS Word 97/2000/XP formatu.</li>
+  </ul></li>
+ <li>Kuriant dokumentus, spausdinant ar eksportuojant PDF formatą dabar pilnai palaikomi ir PostScript pagrindu padaryti OpenType formato šriftai.</li>
+ <li>OpenOffice.org 3.2 yra dar geriau suderinamas su tarptautiniu atviruoju biuro dokumentų standartu <a href="http://akl.lt/naujienos/?id=naujiena_0965">OpenDocument (ODF)</a> v1.2:
+  <ul><li>Atvirųjų dokumentų formatų (OpenDocument format, ODF) standartai užtikrina, kad Jūsų dabar kuriami raštinės dokumentai bus laisvai apdorojami ir 
+  nuskaitomi bet kokiose kitose IT sistemose, bei garantuoja suderinamumą su ateities sistemomis;</li>
+  <li>naujausioje OpenOffice.org versijoje yra pagerintas suderinamumas su <a href="http://oasis-open.org">OASIS</a> ODFF/OpenFormula specifikacijomis;</li> 
+  <li>OpenOffice.org 3.2 gali patikrinti, ar ODF dokumentas atitinka OpenDocument standarto specifikacijas ir automatiškai pataisyti dokumentą, jei jis neatitiks ODF specifikacijų.</li></ul></li>
+ <li>Siekiant pagerinti dokumentų įrašymą <a href="http://lt.wikipedia.org/wiki/MediaWiki">MediaWiki</a> formatu, 
+ MediaWiki filtras daugiau nebebus privalomas OpenOffice.org komponentas, jis buvo perkeltas į „Wiki Publisher“ priedą (plėtinį). 
+ Šis patobulinimas leis atnaujinti MediaWiki filtrą nelaukiant naujo OpenOffice.org leidimo.</li></ul>
+
+<h4>OpenOffice.org skaičiuoklės (Calc) patobulinimai:</h4>
+ <ul><li>dabar galima uždėti lentelių rėmelius (kraštines) nevientisiems pažymėjimams - lentelių pagražinimas bus greitesnis!;</li>
+ <li>pagerinta AutoFill funkcija - palengvintas tokių sąrašų užpildymas, kaip IP adresai (po 10.0.0.1, 10.0.0.2 ir t.t.);</li>
+ <li>naujajame rikiavimo dialogo lange galėsite į rikiavimui pasirinktą sritį įtraukti papildomus langelius, pagerintas mygtukų „Rikiuoti mažėjančiai“/„Rikiuoti didėjančiai“ veikimas;</li>
+ <li>palengvintas sujungtų langelių kopijavimas;</li>
+ <li>Dabar skaičiavimai bus atliekami ir su skaičiais, esančiais teksto tipo langeliuose;</li>
+ <li>pridėtas papildomas funkcionalumas filtravimo įrankyje;</li>
+ <li>įdėtos naujos funkcijos UNICODE ir UNICHAR, papildyta funkcija CONVERT_ADD</li></ul>
+
+<h4>OpenOffice.org pateikčių bei grafikos programų (Draw ir Impress) patobulinimai:</h4>
+ <ul><li>Grafiniuose dokumentuose, brėžiniuose ir pateiktyse dabar galima naudoti pastabas 
+  ir specialų puslapių skaičiaus lauką.</li></ul>
+
+<h4>OpenOffice.org duomenų bazių programos (Base) patobulinimai:</h4>
+ <ul><li>Duombazių formose galima keisti mastelį kaip ir kituose dokumentuose;</li> 
+ <li>pagerintas HTML ar RTF duomenų importavimas į duomenų bazę;</li> 
+ <li>daug DB formų savybių patobulinimų - interaktyvių duomenų bazių formų kūrėjai dabar galės paprasčiau ir efektyviau kurti duomenų bazių programas su OpenOffice.org Base;</li>
+ <li>Daugiau informacijos apie OpenOffice.org duomenų bazių programos patobulinimus rasite 
+  <a href="http://wiki.services.openoffice.org/wiki/Base/New_features_in_3_2#OOo_Base_3.2_new_features">OpenOffice.org Base Wiki</a></li></ul>
+
+<h4>Pagerinimai diagramų kūrime (Chart):</h4>
+ <ul><li><img src="images/chart_types.png" align=right alt="Burbulinė diagrama">atsirado nauji diagramų tipai („Burbulinė“ bei „Radaras“);</li> 
+ <li>diagramų kūrimo įrankio naudojimas tapo paprastesnis - papildomo (kontekstinio) meniu punktai dabar yra aiškesni, meniu tapo interaktyvesnis;</li>
+ <li>jums patiks ir naujos diagramų duomenų žymių teksto išdėstymo galimybės - dabar galite pasukti žymių tekstą (tai labai naudinga 
+  stulpelinėse diagramose, norint išvengti vieno stulpelio žymės teksto uždengimo kito stulpelio žymės tekstu).</li>
+ <li>Išsamesnę informaciją apie diagramų patobulinimus rasite <a href="http://blogs.sun.com/GullFOSS/entry/new_chart_features_in_openoffice2">GullFOSS tinklaraštyje</a>.</li>
+ </ul>
+
+<p>Išsamų naujų OpenOffice.org 3.2 patobulinimų aprašymą rasite 
+ <a href="http://incubator.wikimedia.org/wiki/Wn/lt/OpenOffice.org_biuro_programos_patobulintos_-_išleista_versija_3.2">lietuviškame Vikinaujienų puslapyje</a> 
+ bei <a href="http://www.openoffice.org/dev_docs/features/3.2/">OpenOffice.org svetainėje (angliškai)</a>.</p>
+<p><a href="http://openoffice.lt">Lietuviškame OpenOffice puslapyje - openoffice.lt</a> galėsite nemokamai parsisiųsi naujausias biuro programas, 
+ taip pat ten rasite daugiau informacijos apie naujas galimybes, atsakymus į dažnai užduodamus klausimus, OpenOffice naudotojų forumus bei pamokas.</p>
+<p>OpenOffice.org biuro programos turi įprastą išvaizdą, analogišką kitoms populiarioms biuro programoms, tačiau OpenOffice.org
+veikia visose populiariose operacinėse sistemose (<a href="http://lt.wikipedia.org/wiki/Linux">GNU/Linux</a>,
+<a href="http://lt.wikipedia.org/wiki/Windows">Windows</a>, <a href="http://lt.wikipedia.org/wiki/Mac_OS_X">MacOSX</a>,
+<a href="http://lt.wikipedia.org/wiki/FreeBSD">FreeBSD</a>, <a href="http://lt.wikipedia.org/wiki/Solaris_%28operacinė_sistema%29">Solaris</a>
+ir kt.), todėl naujausia versija galite naudotis iškart, be papildomo mokymosi ar išlaidų papildomai programinei įrangai!</p>
+
+<p>Ankstesnių <a href="http://ftp.akl.lt/Dokumentacija/OpenOffice/OpenOffice.org-3.pdf">OpenOffice.org 3.0 patobulinimų aprašymą</a> lietuvių kalba rasite 
+ <a href="http://ftp.akl.lt/Dokumentacija/OpenOffice/OpenOffice.org-3.pdf">ftp.akl.lt/Dokumentacija</a> 
+(išsamūs aprašymai angliškai yra <a href="http://www.openoffice.org/dev_docs/features/">OpenOffice.org svetainėje</a>).</p>
+
+<p style="margin-bottom:-1em;">Daugiau naujienų apie laisvąsias biuro programas OpenOffice.org bei universalųjį atvirą raštinės dokumentų formatą OpenDocument (ODF):</p>
+ <ul><li><a href="http://www.ubuntu.lt/node/456">Danijos vyriausybė nuo 2010 metų balandžio visus dokumentus saugos OpenDocument formatu ir atsisakys nevykusių .doc ir .xls formatų</a></li>
+ <li><a href="http://www.ubuntu.lt/node/459">21% vokiečių savo asmeniniuose kompiuteriuose yra įsidiegę „OpenOffice.org“ arba jo pagrindu padarytą biuro programų paketą</a></li>
+ <li><a href="http://akl.lt/naujienos/?id=naujiena_0988">Kovo 26 - Dokumentų laisvės diena!</a></li>
+ <li><a href="http://akl.lt/naujienos/?id=naujiena_979">Nauja OpenOffice versija 2.3 - kupina malonių staigmenų</a></li>
+ <li><a href="http://akl.lt/naujienos/?id=naujiena_0965">OpenDocument - jau oficialus Lietuvos standartas</a></li>
+ <li><a href="http://akl.lt/naujienos/?id=naujiena_0958">Jungtinių Tautų švietimo, mokslo ir kultūros organizacijos (UNESCO) apžvalgoje rekomenduojamas OpenDocument bei kiti atviri standartai ir programos</a></li>
+ <li><a href="http://akl.lt/naujienos/?id=naujiena_0952">Suomijos Teisingumo ministerija pereina prie OpenOffice.org</a></li>
+ <li><a href="http://akl.lt/naujienos/?id=naujiena_939">Išleista OpenOffice.org 2.1 bei OOo 2.1 Professional - sutikite Naujus metus su nauju biuro paketu!</a></li>
+</ul>

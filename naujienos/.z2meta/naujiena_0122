@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p><a href="http://www.zope.com">\xe2\x80\x9eZope\xe2\x80\x9c</a> korporacija informavo apie bendradarbiavim\xc4\x85 su JAV universtitetu, kuris vystys \xe2\x80\x9eZope4Edu\xe2\x80\x9c. \xe2\x80\x9eZope4Edu\xe2\x80\x9c - tai specialiai auk\xc5\xa1tosioms mokykloms sukurta turinio valdymo sistema (content management system, CMS), turinti turinio \xc5\xa1ablon\xc5\xb3 bibliotek\xc4\x85 tipin\xc4\x97ms akadamin\xc4\x97ms taikomosioms programoms, prapl\xc4\x97stas vartotojo autorizacijos galimybes bei daugel\xc4\xaf kit\xc5\xb3 savybi\xc5\xb3.<br>\nPla\xc4\x8diau apie tai - <a href="http://www.zope.com/News/PressReleases/DukePR">prane\xc5\xa1ime spaudai</a>.\n</p>
+date:string = 2003-10-28
+title:string = \xe2\x80\x9eZope\xe2\x80\x9c turinio valdymo sistema auk\xc5\xa1tosioms mokykloms

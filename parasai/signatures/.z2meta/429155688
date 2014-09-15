@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 788493428
+confirmed:boolean = 1
+gen_date:date = 2005/06/29 18:01:20.203000 GMT+3
+logo_url:string = http://www.sgmd.gf.vu.lt
+mail:string = dariausk@gmail.com
+organization:string = Student\xc5\xb3 gamtinink\xc5\xb3 mokslin\xc4\x97 draugija
+position:string = Studentas
+status:string = vis_org
+title:string = Darius Kazlauskas
+url_asm:string = 
+url_org:string = http://www.sgmd.gf.vu.lt

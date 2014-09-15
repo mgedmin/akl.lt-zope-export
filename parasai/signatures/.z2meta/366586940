@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 865118202
+confirmed:boolean = 0
+gen_date:date = 2005/06/12 13:47:41.678000 GMT+3
+logo_url:string = 
+mail:string = bougees@one.lt
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Martynas Butkus
+url_asm:string = 
+url_org:string = 

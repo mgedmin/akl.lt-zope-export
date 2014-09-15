@@ -1,0 +1,29 @@
+<p>Šiandien buvo paskelbtas pirmasis GNU Bendrosios Viešosios Licencijos trečiojo varianto juodrašis. 
+Šiuo metu labai dideliam skaičiui laisvųjų programų taikomai antroji versijai jau penkiolika metų - 
+programavimo pasaulyje tai labai daug. <a href="http://www.gnu.org">GNU</a> siekia, kad naujosios versijos 
+kūrime dalyvautų kuo daugiau laisvųjų programų kūrėjų iš viso pasaulio. Licenzijai skirtame <a href="http://gplv3.fsf.org/">
+tinklalapyje</a> kiekvienas gali aptarti jam nepatinkančius punktus ir siūlyti pataisas.</p>
+
+<p>Palyginus su ankstesne versija, naujojoje griežčiau apibrėžta išeities kodo savoka, stengiantis 
+užtikrinti, jog turint šį kodą tikrai neiškils sunkumų iš jo sugeneruoti veikiančią programą. Kodo savoka 
+dabar tiesiogiai apima taip pat ir įvairius šiame procese reikalingus programai skriptus ir specifines 
+pagalbines programas, jei tokios naudojamos.</p>
+
+<p>Naujojoje versijoje šią licenziją turinčios programos autorius taip pat turi teisę (bet ne pareigą) 
+reikalauti:</p>
+
+<ol>
+  <li>Išsaugoti programoje esančius jos autorystę  ar kopijavimo teises nusakančius įrašus.</li>
+  <li>Pašalinti iš platinamos programos jos pradinės autorystės įrašus ir laikytis šalies įstatymais 
+numatytų joje naudojamo prekinio ženklo taisyklių. </li>
+  <li>Reikalauti išsaugoti programoje esančias jos išeities kodo gavimo galimybes.
+  <li>Jei vartotojas savo naudai kelia programinės įrangos patento ieškinį prieš autoriaus parašytoje 
+programoje (ar jos vėlesnėse kitų keistose versijose) naudojamą algoritmą, šios programos autorius 
+turi galimybę atimti tokiam vartotojui (ir glaudžiai su juo susijusiems kitiems vartotojams) 
+teisę naudotis tąja programa.</li>
+</ol>
+
+<p>Nauja GPL versija bus svarstoma ne mažiau kaip metus ir greičiausiai šis pirminis variantas bus 
+gana rimtai papildytas ir pakeistas.</p>
+
+<p>Šios žinutės turinys gali būti platinamas be apribojimų (public domain).</p>

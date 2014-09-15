@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 501372252
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 12:47:55.106000 GMT+3
+logo_url:string = http://www.stekas.com/images/topics/logo.png
+mail:string = jon@stekas.lt
+organization:string = Stekas
+position:string = Programuotojas
+status:string = imone
+title:string = Jonas Jasas
+url_asm:string = 
+url_org:string = http://www.stekas.lt

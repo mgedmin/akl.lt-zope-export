@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 757964106
+confirmed:boolean = 1
+gen_date:date = 2005/05/31 21:12:56.522000 GMT+3
+logo_url:string = 
+mail:string = taxofonas@takas.lt
+organization:string = Kauno "Au\xc5\xa1ros" gimnazija
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Vainius Indilas
+url_asm:string = 
+url_org:string = http://www.ausra.kaunas.lm.lt/

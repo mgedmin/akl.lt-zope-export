@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 219831599
+confirmed:boolean = 1
+gen_date:date = 2005/05/19 12:58:45.198000 GMT+3
+logo_url:string = http://www.dantis.tvk.lt/news/images/dantis_logo.gif
+mail:string = dantis@tvk.lt
+organization:string = 
+position:string = Dant\xc5\xb3 technikas
+status:string = fiz_asm
+title:string = Eugenijus Kavaliauskas
+url_asm:string = http://www.dantis.tvk.lt
+url_org:string = http://www.dantis.tvk.lt

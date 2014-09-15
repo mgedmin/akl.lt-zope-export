@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 648847920
+confirmed:boolean = 1
+gen_date:date = 2005/05/17 13:09:33.688000 GMT+3
+logo_url:string = 
+mail:string = dglodenis@takas.lt
+organization:string = 
+position:string = Religijotyrininkas
+status:string = fiz_asm
+title:string = Donatas Glodenis
+url_asm:string = http://dgvirtual.kikilis.evs.lt
+url_org:string = 

@@ -1,0 +1,27 @@
+## Script (Python) "formatCategories"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+# Formatuojame kategorijas, kad puslapyje gražiau atrodytų
+cat = context.getCategories()
+l = len(cat)
+cols = 4
+rows = l / cols
+if l % cols != 0:
+    rows = rows + 1
+rez = []
+for i in range(0, rows):
+    row = cat[i*cols : (i+1)*cols]
+    r = []
+    for j in range(0, len(row)):
+        r.append({
+            'num': i * cols + j + 1,
+            'name': row[j]
+        })
+    rez.append(r)
+return rez

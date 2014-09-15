@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 754526409
+confirmed:boolean = 1
+gen_date:date = 2005/05/27 18:48:40.607000 GMT+3
+logo_url:string = http://www.kam.lt/images/logo.gif
+mail:string = vidmantas.lunys@gmail.com
+organization:string = Lietuvos kariuomen\xc4\x97s logistikos valdyba
+position:string = Office darbai
+status:string = fiz_asm
+title:string = Vidmantas Lunys
+url_asm:string = 
+url_org:string = http://www.kam.lt

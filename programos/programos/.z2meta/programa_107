@@ -1,0 +1,5 @@
+[properties]
+categories:string = Vaizdui,GIS,
+public:boolean = 0
+title:string = WW2D - http://ww2d.csoft.net
+trumpai:text = WW2D is cross-platform, free and open-source application similar to NASA World Wind or Google Earth software. It allows you to explore Earth using satellite imagery, topographic maps and images from other data sources also providing large placenames and boundaries database and allowing you to install community-made add-ons for even more information about our planet.

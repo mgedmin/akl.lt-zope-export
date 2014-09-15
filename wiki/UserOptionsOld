@@ -1,0 +1,211 @@
+<dtml-comment>
+Let's be clear about it: this page is one giant hack.
+Latest version at http://zwiki.org/UserOptions
+this form calls itself.
+if we are setting or clearing options, handle it now
+NB use path=wiki_base_url() if you want per-wiki options
+</dtml-comment>
+<dtml-if setall>
+!<dtml-let e="(ZopeTime() + 365).rfc822()">
+<dtml-call "RESPONSE.setCookie('zwiki_height',REQUEST.zwiki_height,path='/',expires=e)">
+<dtml-call "RESPONSE.setCookie('zwiki_width',REQUEST.zwiki_width,path='/',expires=e)">
+<dtml-call "RESPONSE.setCookie('zwiki_username',REQUEST.zwiki_username,path='/',expires=e)">
+<dtml-call "RESPONSE.setCookie('email',REQUEST.email,path='/',expires=e)">
+<dtml-call "RESPONSE.setCookie('zwiki_timezone',REQUEST.zwiki_timezone,path='/',expires=e)">
+<dtml-call "RESPONSE.setCookie('zwiki_bookmarks',REQUEST.zwiki_bookmarks,path='/',expires=e)">
+<dtml-call "RESPONSE.setCookie('zwiki_showlogo',REQUEST.zwiki_showlogo,path='/',expires=e)">
+<dtml-call "RESPONSE.setCookie('zwiki_showquote',REQUEST.zwiki_showquote,path='/',expires=e)">
+<dtml-call "RESPONSE.setCookie('zwiki_showsearch',REQUEST.zwiki_showsearch,path='/',expires=e)">
+<dtml-call "RESPONSE.setCookie('zwiki_showhierarchy',REQUEST.zwiki_showhierarchy,path='/',expires=e)">
+<dtml-call "RESPONSE.setCookie('zwiki_homepage',REQUEST.zwiki_homepage,path='/',expires=e)">
+<dtml-call "RESPONSE.setCookie('zwiki_advancededit',REQUEST.zwiki_advancededit,path='/',expires=e)">
+</dtml-let>
+
+*Cookies configured.*
+<dtml-elif clearall>
+<dtml-call "RESPONSE.expireCookie('zwiki_height',path='/')">
+<dtml-call "RESPONSE.expireCookie('zwiki_width',path='/')">
+<dtml-call "RESPONSE.expireCookie('zwiki_username',path='/')">
+<dtml-call "RESPONSE.expireCookie('email',path='/')">
+<dtml-call "RESPONSE.expireCookie('zwiki_timezone',path='/')">
+<dtml-call "RESPONSE.expireCookie('zwiki_bookmarks',path='/')">
+<dtml-call "RESPONSE.expireCookie('zwiki_showlogo',path='/')">
+<dtml-call "RESPONSE.expireCookie('zwiki_showquote',path='/')">
+<dtml-call "RESPONSE.expireCookie('zwiki_showsearch',path='/')">
+<dtml-call "RESPONSE.expireCookie('zwiki_showhierarchy',path='/')">
+<dtml-call "RESPONSE.expireCookie('zwiki_homepage',path='/')">
+<dtml-call "RESPONSE.expireCookie('zwiki_advancededit',path='/')">
+
+*Cookies removed.*
+</dtml-if>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td align="left" valign="top">
+Set your options below - or, choose one of these presets:
+</td>
+<td align="center" valign="top">
+<form action="&dtml-wiki_page_url;" METHOD="POST">
+<input type="hidden" name="setall" value="1">
+<input type="hidden" name="zwiki_height" value="&dtml.missing-zwiki_height;">
+<input type="hidden" name="zwiki_width" value="&dtml.missing-zwiki_width;">
+<input type="hidden" name="zwiki_username" value="&dtml.missing-zwiki_username;">
+<input type="hidden" name="email" value="&dtml.missing-email;">
+<input type="hidden" name="zwiki_timezone" value="&dtml.missing-zwiki_timezone;">
+<input type="hidden" name="zwiki_bookmarks" value="RecentChanges UserOptions HelpPage">
+<input type="hidden" name="zwiki_showlogo" value="1">
+<input type="hidden" name="zwiki_showquote" value="1">
+<input type="hidden" name="zwiki_showsearch" value="1">
+<input type="hidden" name="zwiki_showhierarchy" value="1">
+<input type="hidden" name="zwiki_homepage" value="&dtml.missing-zwiki_homepage;">
+<input type="hidden" name="zwiki_advancededit" value="1">
+<b><input type="submit" value="Show me the bells and whistles" tabindex=15 style="font-weight:bold"></b>
+</form>
+</td>
+<td align="center" valign="top">
+<form action="&dtml-wiki_page_url;" METHOD="POST">
+<input type="hidden" name="setall" value="1">
+<input type="hidden" name="zwiki_height" value="&dtml.missing-zwiki_height;">
+<input type="hidden" name="zwiki_width" value="&dtml.missing-zwiki_width;">
+<input type="hidden" name="zwiki_username" value="&dtml.missing-zwiki_username;">
+<input type="hidden" name="email" value="&dtml.missing-email;">
+<input type="hidden" name="zwiki_timezone" value="&dtml.missing-zwiki_timezone;">
+<input type="hidden" name="zwiki_bookmarks" value="">
+<input type="hidden" name="zwiki_showlogo" value="1">
+<input type="hidden" name="zwiki_showquote" value="1">
+<input type="hidden" name="zwiki_showsearch" value="">
+<input type="hidden" name="zwiki_showhierarchy" value="">
+<input type="hidden" name="zwiki_homepage" value="&dtml.missing-zwiki_homepage;">
+<input type="hidden" name="zwiki_advancededit" value="">
+<b><input type="submit" value="Make it simple" tabindex=16 style="font-weight:bold"></b>
+</form>
+</td>
+<td align="center" valign="top">
+<form action="&dtml-wiki_page_url;" METHOD="POST">
+<input type="hidden" name="setall" value="1">
+<input type="hidden" name="zwiki_height" value="&dtml.missing-zwiki_height;">
+<input type="hidden" name="zwiki_width" value="&dtml.missing-zwiki_width;">
+<input type="hidden" name="zwiki_username" value="&dtml.missing-zwiki_username;">
+<input type="hidden" name="email" value="&dtml.missing-email;">
+<input type="hidden" name="zwiki_timezone" value="&dtml.missing-zwiki_timezone;">
+<input type="hidden" name="zwiki_bookmarks" value="">
+<input type="hidden" name="zwiki_showlogo" value="">
+<input type="hidden" name="zwiki_showquote" value="">
+<input type="hidden" name="zwiki_showsearch" value="">
+<input type="hidden" name="zwiki_showhierarchy" value="">
+<input type="hidden" name="zwiki_homepage" value="&dtml.missing-zwiki_homepage;">
+<input type="hidden" name="zwiki_advancededit" value="">
+<b><input type="submit" value="Ultra-clean!" tabindex=17 style="font-weight:bold"></b>
+</form>
+</td>
+</tr>
+</table>
+<hr>
+
+<form action="&dtml-wiki_page_url;" METHOD="POST" ENCTYPE="multipart/form-data">
+Editform
+width: <input type="text" name="zwiki_width" size=3 maxlength=3 tabindex=1
+value="<dtml-var zwiki_width missing=80>"> 
+height: <input type="text" name="zwiki_height" size=3 maxlength=3 tabindex=2
+value="<dtml-var zwiki_height missing=25>">
+textarea dimensions; width will be 100% if supported
+
+Username: <input type="text" name="zwiki_username" size=20
+maxlength=20 tabindex=3 value="<dtml-var zwiki_username missing>">
+identifies your edits
+
+Email address: <input type="text" name="email" size=20 maxlength=40 tabindex=4
+!value="<dtml-var email missing>"> 
+saves  time when subscribing
+
+Time zone: <input type="text" name="zwiki_timezone" size=10 maxlength=20 
+tabindex=5 value="<dtml-var zwiki_timezone missing=PST>"> 
+localizes page modification times
+<dtml-comment>
+<select name="zwiki_timezone" size="1">
+  <option value="GMT-11">GMT-11</option>
+  <option value="GMT-10">GMT-10</option>
+  <option value="GMT-9">GMT-9</option>
+  <option value="GMT-8">GMT-8</option>
+  <option value="GMT-7">GMT-7</option>
+  <option value="GMT-6">GMT-6</option>
+  <option value="GMT-5">GMT-5</option>
+  <option value="GMT-4">GMT-4</option>
+  <option value="GMT-3">GMT-3</option>
+  <option value="GMT-2">GMT-2</option>
+  <option value="GMT-1">GMT-1</option>
+  <option selected="selected" value="GMT">GMT</option>
+  <option value="GMT+1">GMT+1</option>
+  <option value="GMT+2">GMT+2</option>
+  <option value="GMT+3">GMT+3</option>
+  <option value="GMT+4">GMT+4</option>
+  <option value="GMT+5">GMT+5</option>
+  <option value="GMT+6">GMT+6</option>
+  <option value="GMT+7">GMT+7</option>
+  <option value="GMT+8">GMT+8</option>
+  <option value="GMT+9">GMT+9</option>
+  <option value="GMT+10">GMT+10</option>
+  <option value="GMT+11">GMT+11</option>
+  <option value="GMT+12">GMT+12</option>
+</select>
+</dtml-comment>
+
+Bookmarks: 
+<input type="text" name="zwiki_bookmarks" size=60 maxlength=300 tabindex=6
+!value="<dtml-var zwiki_bookmarks html_quote 
+missing="RecentChanges UserOptions HelpPage">">
+<br>
+Konqueror users: separate your bookmarks with , not space
+
+Your preferred front page ?
+<input type="text" name="zwiki_homepage" size=20 maxlength=80 tabindex=7
+!value="<dtml-var zwiki_homepage url_quote missing=FrontPage>
+">
+the site logo and "zwiki.org" will take you here
+
+Show logo ? 
+<select name="zwiki_showlogo" tabindex=8>
+  <option value="">No</option>
+  <option value="1" 
+  <dtml-if "not _.has_key('zwiki_showlogo') or zwiki_showlogo">selected</dtml-if>
+  >Yes</option>
+</select>
+
+Show JumpSearch field ? 
+<select name="zwiki_showsearch" tabindex=10>
+  <option value="">No</option>
+  <option value="1" 
+  <dtml-if "not _.has_key('zwiki_showsearch') or zwiki_showsearch">selected</dtml-if>
+  >Yes</option>
+</select>
+
+Show AnnoyingQuote ? 
+<select name="zwiki_showquote" tabindex=11>
+  <option value="">No</option>
+  <option value="1" 
+  <dtml-if "not _.has_key('zwiki_showquote') or zwiki_showquote">selected</dtml-if>
+  >Yes</option>
+</select>
+
+Show page hierarchy ?
+<select name="zwiki_showhierarchy" tabindex=9>
+  <option value="">No</option>
+  <option value="1" 
+  <dtml-if "not _.has_key('zwiki_showhierarchy') or zwiki_showhierarchy">selected</dtml-if>
+  >Yes</option>
+</select>
+Unlike most wikis, this one has a page hierarchy.
+You can use this or ignore it.
+
+Show advanced edit form ?
+<select name="zwiki_advancededit" tabindex=12>
+  <option value="">No</option>
+  <option value="1" <dtml-if zwiki_advancededit>selected</dtml-if>>Yes</option>
+</select>
+You can see some extra options when editing pages.
+
+<div align="right"> 
+<b><input type="submit" name="setall" value="Set options" tabindex=13
+style="font-weight:bold"></b>
+<input type="submit" name="clearall" value="Forget options"
+tabindex=14> </div>
+</form>

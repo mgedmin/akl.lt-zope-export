@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 132798710
+confirmed:boolean = 1
+gen_date:date = 2005/05/26 23:17:55.261000 GMT+3
+logo_url:string = http://amcpro.lt
+mail:string = numark@one.lt
+organization:string = UAB "Audiotonas"
+position:string = vadybininkas
+status:string = fiz_asm
+title:string = Valdas Telksnys
+url_asm:string = 
+url_org:string = http://audiotonas.lt

@@ -1,0 +1,56 @@
+## Script (Python) "confirm"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+request = context.REQUEST
+response = request.RESPONSE
+try:
+    id = request.id
+    confirm_id = request.confirm_id
+except AttributeError:
+    response.redirect("%s/?doc=showMsg&msg=%s" % (
+        container.absolute_url(),
+        "Balsavimo patvirtinti negalime, nes neteisingai suformuota užklausa."
+    ))
+    return
+root = container['apdovanojimai']
+try:
+    balsas = root[id]
+except:
+    response.redirect("%s/?doc=showMsg&msg=%s" % (
+        container.absolute_url(),
+        "Tokio balsavimo nėra."
+    ))
+    return
+sigs = root.objectValues('DTML Document')
+for s in sigs:
+    if (s.email.lower() == balsas.email) and (s.confirmed):
+        response.redirect("%s/?doc=showMsg&msg=%s" % (
+            container.absolute_url(),
+            "Jūs jau balsavote. Daugiau balsuoti nebegalite."
+        ))
+        return
+if balsas.confirm_id == confirm_id:
+    if balsas.confirmed:
+        response.redirect("%s/?doc=showMsg&msg=%s" % (
+            container.absolute_url(),
+            "Jūsų balsavimas jau buvo patvirtintas."
+        ))
+        return
+    balsas.manage_changeProperties(confirmed=1)
+    response.redirect("%s/?doc=showMsg&msg=%s" % (
+        container.absolute_url(),
+        "Jūsų balsavimas patvirtintas."
+    ))
+    return
+else:
+    response.redirect("%s/?doc=showMsg&msg=%s" % (
+        container.absolute_url(),
+        "Jūsų balsavimas nepatvirtintas. Greičiausiai neturite tam teisės."
+    ))
+    return

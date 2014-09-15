@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 630493775
+confirmed:boolean = 1
+gen_date:date = 2005/06/02 17:45:5.035000 GMT+3
+logo_url:string = 
+mail:string = spark@xxx.lt
+organization:string = 
+position:string = 
+status:string = fiz_asm
+title:string = Herta Matulionyt\xc4\x97
+url_asm:string = 
+url_org:string = 

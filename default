@@ -1,0 +1,93 @@
+<!-- -*- coding: utf-8 -*- -->
+<h2>„Atviras kodas Lietuvai“</h2>
+
+<p>
+Sveiki atvykę į AKL - asociacijos, vienijančios laisvosios programinės įrangos (atvirojo kodo) 
+judėjimo šalininkus ir bendraminčius Lietuvoje, interneto svetainę. 
+Čia jūs rasite informacijos lietuvių kalba apie atviro kodo judėjimą, 
+„laisvas“ programas bei mūsų pastangas ir rezultatus skleidžiant šias idėjas Lietuvoje.
+</p>
+<br />
+<p>Atvirojo kodo bendruomeninė veikla naudinga tiek naudotojams, 
+tiek programuotojams, tiek pačioms programoms, kurios tobulinamos tampa 
+naudingos vis platesniam naudotojų ratui. Kviečiame visus prisijungti:</p>
+
+<ul>
+   <li><a href="http://forumai.akl.lt/">skaitykite ir klauskite</a> apie laisvas programas forume</li>
+   <li><a href="http://planet.akl.lt/">domėkitės</a>, ką rašo apie atvirą kodą Lietuvoje</li>
+   <li><a href="http://blog.akl.lt/">sužinokite</a>, kas vyksta AKL</li>
+   <li><a href="http://wiki.akl.lt/">susipažinkite ir prisijunkite</a> prie AKL projektų</li>
+</ul>
+
+<h2 id="blog"><abbr title="Atviras kodas">AK</abbr> tinklaraščiuose</h2>
+<p tal:define="feed_data here/get_akl_blog"
+   tal:repeat="item python: feed_data['entries'][:5]">
+   <span tal:content="structure python: '%d-%02d-%02d'
+                                    % item['updated_parsed'][:3]">YYYY-MM-DD</span>
+   <a tal:attributes="href item/link"
+      tal:content="item/title">(title)</a>
+</p>
+<p><a href="http://planet.akl.lt/">Daugiau įrašų…</a></p>
+
+<h2>Projektai</h2>
+<a href="projektai/?doc=EeePC-Linux.html">
+  <img src="projektai/EeePC-Linux/EeePC-banner_120x60.jpg" 
+alt="Nešiojamieji kompiuteriai su pilnaverte Linux sistema jau Lietuvoje!" class="lphoto">
+    </a>
+
+<p><a href="projektai">Projektų</a> skyriuje aprašyti AKL įvykdyti
+projektai bei iniciatyvos, kurioms ieškomi <a href="remejai">rėmėjai</a>.  
+Jei jūs suinteresuoti laisvų atviro kodo programų plitimu Lietuvoje,
+kviečiame bendradarbiauti. Naujokus kviečiame į 
+<a href="projektai/?doc=InstallFest.html">Diegimo šventes</a>. 
+Kartu su partneriais Vilniaus miesto savivaldybe ir Latvijos atvirojo kodo asociacija (LAKA)
+įgyvendinamas <a href="projektai/?doc=phare2002.html">
+atvirųjų standartų naudojimo savivaldybėse pilotinis projektas</a>, 
+finansuotas PHARE 2002 BAS programos.<br>
+AKL dalyvauja 
+<a href="projektai/parodos/?doc=Infobalt2007.html">"Infobalt" parodoje</a> ITT sprendimų forume.</p>
+
+<h2>Laisvos programos</h2>
+<a href="http://openoffice.lt">
+<img src="http://why.openoffice.org/campaign_images/ooo_getlegal_120x60.png"
+border="0" class="rphoto" alt="Get legal. Get OpenOffice.org"></a>
+
+<p>Šios svetainės <a href="programos">Programų</a> skiltyje pateikiami
+laisvų (atviro kodo) programų, kurias mes rekomenduojame vartotojams, sąrašas.
+Rekomenduojame naudotis laisva, specialiai Lietuvos rinkai pritaikyta, 
+<a href="http://baltix.akl.lt">„Baltix GNU/Linux“ operacine sistema</a>,
+turinčia visas populiariausias laisvas programas darbui biure, namuose bei pramogoms.
+Taip pat yra išleistas programų, tinkančių paprastam kompiuterio vartotojui bei
+veikiančių „MS Windows“ aplinkoje, rinkinys -
+<a href="projektai/?doc=cd.html">„Laisvų programų
+CD“</a>.</p>
+
+<p>Atviro kodo programų srityje veikiančias 
+firmas rasite <a href="paslaugos">Paslaugų</a> dalyje. Jos suteiks 
+Jums paslaugas, įdiegs programas ar suorganizuos mokymus.</p>
+
+<h2>Prisijunkite prie mūsų:</h2>
+<p>
+<a href="http://lists.akl.lt/mailman/listinfo/akl">Diskutuokime</a> apie atvirą kodą, 
+skaitykite <a href="http://lists.akl.lt/mailman/listinfo/naujienos">naujienas</a>, 
+<a href="http://lists.akl.lt/mailman/listinfo/naudotojai">teiraukitės</a> sprendimų, 
+iškilus problemoms naudojant atviro kodo programas, 
+arba patys <a href="http://lists.akl.lt/mailman/listinfo/naudotojai">teikite</a> 
+konsultaciją vartotojams. Jei norite užklausti informacijos tiesiogiai AKL, 
+rašykite el. paštu 
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#97;&#107;&#108;&#46;&#108;&#116;">&#105;&#110;&#102;&#111;&#64;&#97;&#107;&#108;&#46;&#108;&#116;</a>. 
+Taip pat galite tapti ir AKL <a href="apie/?doc=naryste.html">nariu</a>, 
+taip prisijungdami prie mūsų veiklos.</p>
+
+<p><a href="http://www.mozilla.org/thunderbird/"><img src="images/mozilla_thunderbird_small.png" alt="Mozilla Thunderbird" /></a> 
+<a href="http://www.mozilla.org/firefox/"><img src="images/mozilla_firefox_small.png" alt="Mozilla Firefox" /></a> 
+<a href="http://www.openoffice.lt/"><img src="images/openoffice_org_small.png" alt="OpenOffice.org" /></a> 
+<!-- <a href="http://www.imfederation.com/" title="IM Federation"><img src="images/im_federation.gif" alt="IM Federation" /></a> -->
+</p>
+<p>
+<!-- a href="http://forumai.akl.lt">
+  <img src="images/logo_forum_akl.gif" 
+     alt="Laivų programų forumai">
+</a -->
+</p>
+<div id="dashboard_bottom"></div>

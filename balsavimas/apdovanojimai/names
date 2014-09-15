@@ -1,0 +1,58 @@
+## Script (Python) "names"
+##bind container=container
+##bind context=context
+##bind namespace=
+##bind script=script
+##bind subpath=traverse_subpath
+##parameters=
+##title=
+##
+return {
+    'eugenijus@statyba.net': 'Eugenijus Paulauskas',
+    'arturas@akl.lt': 'Artūras Mickevičius',
+    'cookiem@akl.lt': 'Darius Loktevič',
+    'jaro@akl.lt': 'Jaroslav Šatkevič',
+    'tauras@vv.vtu.lt': 'Grigorij Smirnov',
+    'vs@uj.pfi.lt': 'Jurij Medvedev',
+    'kebil@kaunas.init.lt': 'Kęstutis Biliūnas',
+    'arturas@bustas.lt': 'Artūras Gudas',
+    'andrius@andrius.org': 'Andrius Kasparavičius',
+    'mindas@ziedas.ktu.lt': 'Mindaugas Žakšauskas',
+    'mantas@akl.lt': 'Mantas Kriaučiūnas',
+    'zygis@users.sf.net': 'Žygimantas Augilius',
+    'tomas@vadyba.com': 'Tomas Jonušas',
+    'alga@akl.lt': 'Albertas Agejevas',
+    'mgedmin@b4net.lt': 'Marius Gedminas',
+    'mykolasok@gmail.com': 'Mykolas Okulič-Kazarinas',
+    'ramunas@baltija.homelinux.net': 'Ramūnas Lukaševičius',
+    'aiste@aiste.org': 'Aistė Kesminaitė',
+    'vi@akl.lt': 'Vilius Ališauskas',
+    'rolandas@home.lt': 'Rolandas Juodžbalis',
+    'grazulis@akl.lt': 'Saulius Gražulis',
+    'ban@culture.lt': 'Saulius Norvaišas',
+    'augustas@balt.net': 'Augustas Gutautas',
+    'kaleda@azuolas.org': 'Antanas Gadeikis',
+    'pyxis@kaunas.omnitel.net': 'Šarūnas Misius',
+    'nerijus@users.sourceforge.net': 'Nerijus Baliūnas',
+    'sat@svedas.net': 'Gintautas Švedas',
+    'mkreismo@takas.lt': 'Marius Kreišmonas',
+    'sergej.porchun@centras.lt': 'Sergej Porchun',
+    'paulius@pit.ktu.lt': 'Paulius Mažeika',
+    'rq@akl.lt': 'Rimas Kudelis',
+    'zilvinas@patikimi.lt': 'Žilvinas Jančoras',
+    't.kvedaras@akl.lt': 'Tadas Kvedaras',
+    'zygimantas@patikimi.lt': 'Žygimantas Jančoras',
+    'moxliukas@delfi.lt': 'Petras Kudaras',
+    'albertas@topocentras.lt': 'Albertas Guščius',
+    'k.laurinaitis@is.lt': 'Kastytis Laurinaitis',
+    'linasv@centras.lt': 'Linas Vasiliauskas',
+    'alexiukas@gmail.com': 'Aleksandr Stankevič',
+    'edvinas@edvinas.org': 'Edvinas Juozaitis',
+    'adal@one.lt': 'Arnualdas Dalinda',
+    'vytautas@bonamens.com': 'Vytautas Germanavičius',
+    'gintas@akl.lt': 'Gintautas Miliauskas',
+    'edvardas.kireilis@mif.vu.lt': 'Edvardas Kireilis',
+    'edvardas@biuras.lt': 'Edvardas Vinogrodskis',
+    'shplintas@freemail.lt': 'Gintautas Petkevičius',
+    'marius@esga.lt': 'Marius Karnauskas'
+}

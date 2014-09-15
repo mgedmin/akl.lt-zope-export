@@ -1,0 +1,4 @@
+[properties]
+blurb:text = <p>Piet\xc5\xb3 Australijos Vyriausyb\xc4\x97 Software Choice iniciatoriams, kaip ra\xc5\xa1oma straipsnyje <a href="http://www.news.com.au/common/story_page/0,4057,6751841%255E15306,00.html">www.news.com.au</a> sako, kad atviro kodo programin\xc4\x97 \xc4\xafranga n\xc4\x97ra tinkama Vyriausyb\xc4\x97s IT sistemoms, nors Vyriausyb\xc4\x97s <a href="http://www.sa.gov.au">tinklalapis</a> <a href="http://uptime.netcraft.com/up/graph/?host=www.sa.gov.au">naudoja</a> atviro kodo programin\xc4\x99 \xc4\xafrang\xc4\x85 <a href="http://www.apache.org/">\xe2\x80\x9eApache\xe2\x80\x9c</a> ir operacin\xc4\x99 sistem\xc4\x85 \xe2\x80\x9eLinux\xe2\x80\x9c.\n</p>
+date:string = 2003-07-18
+title:string = Piet\xc5\xb3 Australijos Vyriausyb\xc4\x97 naudoja atvir\xc4\x85 kod\xc4\x85

@@ -1,0 +1,5 @@
+[properties]
+categories:string = Finansams,
+public:boolean = 1
+title:string = Asmenini\xc5\xb3 finans\xc5\xb3 tvarkytuv\xc4\x97 \xe2\x80\x9eKMyMoney2\xe2\x80\x9c
+trumpai:text = KMyMoney2 yra asmenini\xc5\xb3 finans\xc5\xb3 tvarkytuv\xc4\x97, veikianti Linux ir kitose unix tipo OS. Programa geriausiai integruojasi \xc4\xaf KDE darbastalio aplink\xc4\x85. Programa veikia pana\xc5\xa1iai kaip MS Money, joje galima kurti skirtingus s\xc4\x85skait\xc5\xb3 tipus, kategorizuoti \xc4\xafplaukas ir i\xc5\xa1laidas, patogu sutikrinti i\xc5\xa1ra\xc5\xa1us su bank\xc5\xb3 ataskaitomis. 

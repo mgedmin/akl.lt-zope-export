@@ -1,0 +1,5 @@
+[properties]
+categories:string = Multimedia,
+public:boolean = 1
+title:string = Video redaktorius \xe2\x80\x9eCinelerra\xe2\x80\x9c
+trumpai:text = <b>\xe2\x80\x9eCinelerra\xe2\x80\x9c</b> - Avid, AdobePremiere analogas Linux platformai, skirtas profesionalams arba \npa\xc5\xbeengusiems meg\xc4\x97jams, dirba su Quicktime, Avi, Ogm, HD, mpeg formatais.

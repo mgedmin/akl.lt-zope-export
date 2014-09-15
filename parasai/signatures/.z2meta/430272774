@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 593310630
+confirmed:boolean = 1
+gen_date:date = 2005/06/01 14:00:43.703000 GMT+3
+logo_url:string = 
+mail:string = vytautas.montrimas@std.lt
+organization:string = Vilniaus teritorine statistikos valdyba
+position:string = Vyresn. programuotojas
+status:string = fiz_asm
+title:string = Vytautas Montrimas
+url_asm:string = 
+url_org:string = http://www.std.lt/puslapiai/vasv

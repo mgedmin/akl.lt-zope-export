@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 597115166
+confirmed:boolean = 1
+gen_date:date = 2005/06/03 13:44:2.750000 GMT+3
+logo_url:string = 
+mail:string = ruslanasv@gmail.com
+organization:string = N/A
+position:string = Java coder
+status:string = fiz_asm
+title:string = Ruslanas Vitiutinas
+url_asm:string = http://www.cucikas.esimetrija.lt
+url_org:string = 

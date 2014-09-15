@@ -1,0 +1,8 @@
+[properties]
+berucka:int = 3
+confirm_id:string = 752749099
+confirmed:boolean = 1
+email:string = zygis@users.sf.net
+glodenis:int = 1
+grazulis:int = 2
+title:string = zygis@users.sf.net

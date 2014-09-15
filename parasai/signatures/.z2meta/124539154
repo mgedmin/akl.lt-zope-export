@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 565493650
+confirmed:boolean = 1
+gen_date:date = 2005/05/13 16:35:36.048000 GMT+3
+logo_url:string = http://www.fsm.lt/pav/FSM-D.jpg
+mail:string = ema@fsm.lt
+organization:string = Finansinio savaranki\xc5\xa1kumo mokykla
+position:string = Direktor\xc4\x97
+status:string = nepelno
+title:string = Ema Jan\xc4\x8dorien\xc4\x97
+url_asm:string = 
+url_org:string = http://www.fsm.lt

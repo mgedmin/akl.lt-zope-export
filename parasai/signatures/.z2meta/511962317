@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 732232952
+confirmed:boolean = 1
+gen_date:date = 2005/05/12 10:37:57.491000 GMT+3
+logo_url:string = 
+mail:string = zilvinas.jancoras@aki.vtu.lt
+organization:string = 
+position:string = VGTU AKI direktoriaus pavaduotojas
+status:string = fiz_asm
+title:string = \xc5\xbdilvinas Jan\xc4\x8doras
+url_asm:string = 
+url_org:string = 

@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 0
+confirm_id:int = 171047903
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 12:50:12.414000 GMT+3
+logo_url:string = http://kk.kauko.lt/kk.jpg
+mail:string = algirdas@kauko.lt
+organization:string = Kauno kolegija
+position:string = KT administratorius
+status:string = nepelno
+title:string = Algirdas \xc5\xa0ul\xc4\x8dinskas
+url_asm:string = 
+url_org:string = http://www.kauko.lt

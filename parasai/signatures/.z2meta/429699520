@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 185494963
+confirmed:boolean = 1
+gen_date:date = 2005/05/14 17:40:59.596000 GMT+3
+logo_url:string = http://www.kvitrina.com/failai/banner.jpg
+mail:string = kvitrina@kvitrina.com
+organization:string = savaitra\xc5\xa1tis "Kra\xc5\xa1to vitrina"
+position:string = Savininkas
+status:string = imone
+title:string = Vaclovas Sinkevi\xc4\x8dius
+url_asm:string = 
+url_org:string = http://www.kvitrina.com

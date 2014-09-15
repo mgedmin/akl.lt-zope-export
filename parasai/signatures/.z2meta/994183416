@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 427211998
+confirmed:boolean = 1
+gen_date:date = 2005/05/28 00:41:26.949000 GMT+3
+logo_url:string = 
+mail:string = en-t@sielosdraugai.net
+organization:string = studentas
+position:string = 
+status:string = fiz_asm
+title:string = Audrius Martinkus
+url_asm:string = 
+url_org:string = http://eN-T.sielosdraugai.net

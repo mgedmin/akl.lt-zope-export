@@ -1,0 +1,9 @@
+[properties]
+author:string = Ruslanas
+blurb:text = Lapkri\xc4\x8dio 22-\xc4\x85 dien\xc4\x85, Vilniuje vyks Mandriva Linux operacin\xc4\x97s sistemos diegimo \xc5\xa1vent\xc4\x97 (install party). Renginio metu padedami kvalifikuot\xc5\xb3 Linux specialist\xc5\xb3 gal\xc4\x97site \xc4\xafsidiegti Mandriva Linux OS \xc4\xaf savo kompiuter\xc4\xaf, ar pam\xc4\x97ginti \xc4\xafdiegti \xc4\xaf bandom\xc4\x85j\xc4\xaf kompiuter\xc4\xaf. Kvie\xc4\x8diame nepasidid\xc5\xbeiuoti ir \xc5\xa1e\xc5\xa1tadien\xc4\xaf atvykti \xc4\xaf rengin\xc4\xaf Vilniuje, Laisv\xc4\x97s pr. 55, 219 kb. 19:30 val.
+categories:multiple selection = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Multimedia\', \'\\xc3\\x85\\xc2\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Laisva&nbsp;P\\xc3\\x84\\xc2\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc3\\x84\\xc2\\x97s&nbsp;aplinkos\')
+category_values:tokens = (\'Biuro&nbsp;programos\', \'OpenOffice\', \'Interneto&nbsp;programos\', \'Grafikos&nbsp;programos\', \'Multimedia\', \'\\xc5\\xbdaidimai&nbsp;ir&nbsp;pramogos\', \'Programavimas\', \'Laisva&nbsp;P\\xc4\\xae&nbsp;Lietuvoje\', \'Laisvi&nbsp;formatai&nbsp;ir&nbsp;standartai\', \'GNU/Linux&nbsp;OS\', \'GNU/Hurd&nbsp;OS\', \'FreeBSD&nbsp;OS\', \'OpenBSD&nbsp;OS\', \'GNOME&nbsp;aplinka\', \'KDE&nbsp;aplinka\', \'Grafin\\xc4\\x97s&nbsp;aplinkos\', \'S\\xc4\\x97km\\xc4\\x97s&nbsp;istorijos\', \'Patentai&nbsp;ir&nbsp;autorin\\xc4\\x97s&nbsp;teis\\xc4\\x97s\')
+date:string = 2008-11-22
+email:string = ruslanas.g@gmail.com
+profesionalams:boolean = False
+title:string = Pasaulin\xc4\x97 Mandriva Linux 2009 \xc5\xa1vent\xc4\x97 (install fest) Lietuvoje

@@ -1,0 +1,18 @@
+<p>
+Pasirodė ilgai laukta smarkiai pagerinto OpenOffice.org 2.0 paketo beta versija. <br>
+OpenOffice.org 2.0 iš esmės pagerino vartotojo sąsają bei daugybę kitų dalykų:<br><ul>
+<li><table><tr><td><A HREF="http://www.openoffice.org/dev_docs/features/2.0/images/base.jpg"><IMG SRC="http://www.openoffice.org/dev_docs/features/2.0/images/base_th.jpg" WIDTH="200" BORDER="0"></A></td><td valign="top">atsirado nauja duomenų bazių programa, kurios pagalba MS Access vartotojams bus paprasčiau pereiti prie OpenOffice.org</td></tr></table></li>
+<li><table><tr><td><A HREF="http://www.openoffice.org/dev_docs/features/2.0/images/multi_pane.jpg"><IMG SRC="http://www.openoffice.org/dev_docs/features/2.0/images/multi_pane_th.jpg" WIDTH="200" BORDER="0"></A></td><td valign="top">smarkiai pagerinta prezentacijų kūrimo programa "Impress"</td></tr></table></li>
+<li>Standartiniu bylų formatu tapo atviras OASIS OpenDocument XML formatas (sukurtas OpenOffice.org 1.0 pagrindu). Šis formatas yra nepriklausomas ir taip pat yra naudojamas KOffice 1.4, StarOffice 8.0 biuro paketuose bei IBM Workplace Client pakete. Europos komisija rekomenduoja naudoti OASIS OpenDocument bylų formatą viešai (internete) pateikiant informaciją.</li>
+<li><table><tr><td><A HREF="http://www.openoffice.org/dev_docs/features/2.0/images/auto_shapes.jpg"><IMG SRC="http://www.openoffice.org/dev_docs/features/2.0/images/auto_shapes_th.jpg" WIDTH="200" BORDER="0"></A></td><td valign="top">naujos grafinės figūros "CustomShapes" (suderinamos su MS AutoShapes)</td></tr></table></li>
+<li><table><tr><td><A HREF="http://www.openoffice.org/dev_docs/features/2.0/images/xforms.jpg"><IMG SRC="http://www.openoffice.org/dev_docs/features/2.0/images/xforms_th.jpg" WIDTH="200" BORDER="0"></A></td><td valign="top">galimybė kurti formas laisvo W3C <a href="http://www.w3.org/MarkUp/Forms/">XForms</a> standarto pagrindu. Naudojant XForms standartą yra labai paprasta padaryti formos skaičiavimus (logiką) nieko neprogramuojant.</td></tr></table></li>
+<li>skaitmeninio parašo palaikymas</li>
+<li>taip pat daugybė kitų naujų galimybių, žr.: <a href="http://marketing.openoffice.org/2.0/featureguide.html">http://marketing.openoffice.org/2.0/featureguide.html</a> </li> 
+</ul> <br>
+Daugiau informacijos apie naujas galimybes, OpenOffice.org 2.0 nuotraukas rasite
+<a href="http://www.openoffice.org/dev_docs/features/2.0/">www.openoffice.org/dev_docs/features/2.0/</a>
+<br>
+Parsisiųsti galite iš <a href="http://download.openoffice.org/2.0beta/ ">http://download.openoffice.org/2.0beta/</a>
+<br>
+Išbandykite ir nepamirškite <a href="http://qa.openoffice.org/issue_handling/project_issues.html">pranešti</a> savo pasiūlymų bei pastebėtų trūkumų OpenOffice.org kūrėjams  !
+</p>

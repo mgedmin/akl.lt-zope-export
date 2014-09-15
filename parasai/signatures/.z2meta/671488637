@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 972494107
+confirmed:boolean = 1
+gen_date:date = 2005/05/16 10:37:43.713000 GMT+3
+logo_url:string = http://www.aleksandras.lt/pav/logo.jpg
+mail:string = mindaugaskarciauskas@yahoo.com
+organization:string = aleksandras
+position:string = direktorius
+status:string = imone
+title:string = aleksandras prozorov
+url_asm:string = 
+url_org:string = http://aleksandras.lt

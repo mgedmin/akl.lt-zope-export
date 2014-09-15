@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 582932473
+confirmed:boolean = 1
+gen_date:date = 2005/06/01 19:13:53.402000 GMT+3
+logo_url:string = http://www.statranga.lt/images/statranga_logo.jpg
+mail:string = rytis@statranga.lt
+organization:string = UAB "Statranga"
+position:string = Direktorius
+status:string = imone
+title:string = Gintautas Ambrasas
+url_asm:string = 
+url_org:string = http://www.statranga.lt

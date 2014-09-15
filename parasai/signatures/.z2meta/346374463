@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 909616389
+confirmed:boolean = 1
+gen_date:date = 2005/05/20 18:19:13.545000 GMT+3
+logo_url:string = 
+mail:string = beatleman@inbox.ru
+organization:string = 
+position:string = Php programuotuojas
+status:string = fiz_asm
+title:string = Roman Gorodeckij
+url_asm:string = 
+url_org:string = 

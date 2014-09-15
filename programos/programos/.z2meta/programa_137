@@ -1,0 +1,5 @@
+[properties]
+categories:string = Finansams,
+public:boolean = 0
+title:string = ragintas-apskaitai
+trumpai:text = Programa skirta smulkiam verslui (gyventojams vykdantiems individuali\xc4\x85 veikl\xc4\x85).

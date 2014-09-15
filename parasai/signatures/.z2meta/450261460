@@ -1,0 +1,15 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 817634647
+confirmed:boolean = 1
+gen_date:date = 2005/07/27 11:07:57.738000 GMT+3
+logo_url:string = http://www.klaipedos.technika.lt/logo.gif
+mail:string = fenixoid@email.com
+moder_denied:string = 
+moder_ok:string = 
+organization:string = UAB "Klaip\xc4\x97dos technika"
+position:string = Tinklo administratorius
+status:string = imone
+title:string = Donatas Porakis
+url_asm:string = http://www.gsmkodai.visiems.lt
+url_org:string = http://www.klaipedos.technika.lt

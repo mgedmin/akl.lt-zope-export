@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 229168848
+confirmed:boolean = 1
+gen_date:date = 2005/05/15 12:21:41.048000 GMT+3
+logo_url:string = 
+mail:string = auxaliutis@takas.lt
+organization:string = 
+position:string = Pardavimo vadybininkas IT kompanijoje, studentas
+status:string = fiz_asm
+title:string = Antanas Stasius
+url_asm:string = http://auxaliutis.ten.lt
+url_org:string = 

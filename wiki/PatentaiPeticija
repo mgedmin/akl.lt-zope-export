@@ -1,0 +1,56 @@
+Parašų formos worklfow svarbios smulkmenos:
+
+1.2)siulau leisti daugiau nei 24 valandas confirminimui - galima kad ir savaite (ir Mykolas tam minejo argumentų) <br />
+o rašyti galime ir toliau "24 valandas", kad gumos netampytu, ir kad nereiktu visur scriptuose keisti uzrasu ;) <br />
+kaip supratau uztektu confirm_add parasyti: if sig.gen_date + 7 < DateTime()
+
+1.3)tiems, kas dar neconfirmino savo paraso, bet per nauja uzpilde forma (nepraejus 24h), manau galima is kart issiusti confirmo prasyma pakartotinai <br>
+pvz, gal zmogus netycia istryne prasyma confirmint..
+
+2)siulau padaryti dar viena lauka/property - "bann" , tiems meilams, is kuriu atejo blevyzgos , nes jei istrinsi, tai vel gali rasyt :)
+
+2.2)banninimo/approoval scriptams siulau padaryt atskira dira - ir tada jam vienam acl uzteks uzdet turbut :)
+
+6) (cia paruostukai, banneriu sklaidai :) <br />
+bet manau netinka tie, kur sako tik "patentams - NE"  <b>svarbu pamineti PI !</b> <br />
+http://moodle.projektas.lt/pries_PI_patentus/banneriai_platinimui.html <br />
+http://moodle.projektas.lt/pries_PI_patentus/banneriai_pasirink_js.html <br /> 
+
+7) greit reikės atskirų objektų/psl pilniems sarasams isvesti, o pagrindiniame psl. apsiriboti ~20-50 paskutinių 
+
+siulau padaryti puslapius:
+
+- visos organizacijos (kad rimtiems veikejams, kuriems rupi tik organizacijos, nestabdytu, kol uzkraus x5 daugiau fiz asmenu.)
+
+- visi parasai (tai, kas dabar yra pagrindiname psl)
+
+8) jei parasu bus daug, verta pasiplanuot jų patvirtinimo wokflow'ą. 
+Kaip dalintis, kas kuriuos parasus tikrina?, nes visiems neverta savo demesio skirti tiems patiems parasams.
+
+- parasu confirminimo scriptukas kas tarkime 20ta (ar k-tąjį) parašą, triggerina koki scripta, kuris ir isciuncia tuos k parašų, paeiliui vis kitam tikrintojui. <br>
+siunciama info be mail'u - mes gi zadejom ju niekam nerodyt ;)
+
+- arba jei tarkim yra 7ni tikrintojai, sutaria, kad kiekvienos dienos vakara vis kitas is ju prisea ir perziuri ar nera junk'o. <br>
+
+- galima pasiskirstyt kas kame specializuojasi: pvz, Sauliui palikt organizacijas, o kitiems priziuret fiz_asm.
+
+- rysium su tuo, kad ne visi turi pakankama accessa prie zopes, tikrintojai gali tiesiog raportuoti blogiukus (numeri ir vard/pav) i kokį bendra lista. O vakare turintys accesą, pagal numeri, daug nesigilindami, bannins/trins.
+
+9) Trakų savivaldybė prašė
+> Savivaldybės administracija yra Biudžetinė įstaiga. Gal galite įvesti naują statusą
+> "Biudžetinė įstaiga" ir pakeisti Trakų rajono savivaldybės administracijos
+> statusą į jį. Ačiū.
+
+From unknown Sun May 22 16:49:48 +0300 2005
+From: 
+Date: Sun, 22 May 2005 16:49:48 +0300
+Subject: 
+Message-ID: <20050522164948+0300@wiki.akl.lt>
+
+10) siulau pirmame puslapyje daryti mazdaug
+* 10 rimciausiu organizacijų + tos, kur confirmino per paskutines 48val
+* 10 rimciausiu fiz asmenu + confirmai per 24val
+
+11) galima pasiulyti komentare trumpai paminėti, dėl kokių (jų naudojamų/planuojamų naudoti/kuriamų) programų jie pasiraso.
+
+12) http://www.akl.lt/parasai/signatures/manage_workspace man rodo tik vardus pavardes, pasirinkus, rodo dar komentara, o kaip pakoreguot kitus laukus, pvz, confirma nuimt?

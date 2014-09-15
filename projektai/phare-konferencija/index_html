@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title tal:content="template/title">The title</title>
+  </head>
+  <body>
+    
+    <h2><span tal:replace="here/title_or_id">content title or id</span>
+        <span tal:condition="template/title"
+              tal:replace="template/title">optional template id</span></h2>
+
+    This is Page Template <em tal:content="template/id">template id</em>.
+
+<p>
+<a href="phare-konferencija/1_TJonusas_Pristatymas.pdf">1_TJonusas_Pristatymas.pdf</a><br>
+<a href="phare-konferencija/1_TJonusas_Pristatymas.odp">1_TJonusas_Pristatymas.odp</a><br>
+<a href="phare-konferencija/2_RKrukauskas_ES.pdf">2_RKrukauskas_ES.pdf</a><br>
+<a href="phare-konferencija/2_RKrukauskas_ES.odp">2_RKrukauskas_ES.odp</a><br>
+<a href="phare-konferencija/3_GRakauskas_eMiestas.pdf">3_GRakauskas_eMiestas.pdf</a><br>
+<a href="phare-konferencija/3_GRakauskas_eMiestas.odp">3_GRakauskas_eMiestas.odp</a><br>
+<a href="phare-konferencija/4_JZalatorius_Portalas.pdf">4_JZalatorius_Portalas.pdf</a><br>
+<a href="phare-konferencija/4_JZalatorius_Portalas.odp">4_JZalatorius_Portalas.odp</a><br>
+<a href="phare-konferencija/5_AAgejevas_Svetaines.pdf">5_AAgejevas_Svetaines.pdf</a><br>
+<a href="phare-konferencija/5_AAgejevas_Svetaines.odp">5_AAgejevas_Svetaines.odp</a><br>
+<a href="phare-konferencija/6_MKriauciunas_DokumentuFormatai.pdf">6_MKriauciunas_DokumentuFormatai.pdf</a><br>
+<a href="phare-konferencija/6_MKriauciunas_DokumentuFormatai.odp">6_MKriauciunas_DokumentuFormatai.odp</a><br>
+<a href="phare-konferencija/7_MGikys_SF.pdf">7_MGikys_SF.pdf</a><br>
+<a href="phare-konferencija/7_MGikys_SF.odp">7_MGikys_SF.odp</a><br>
+<a href="phare-konferencija/8_DKalvaitis_SF.pdf">8_DKalvaitis_SF.pdf</a><br>
+<a href="phare-konferencija/8_DKalvaitis_SF.odp">8_DKalvaitis_SF.odp</a><br>
+<a href="phare-konferencija/9_RSkirmantas_FP6.pdf">9_RSkirmantas_FP6.pdf</a><br>
+<a href="phare-konferencija/9_RSkirmantas_FP6.odp">9_RSkirmantas_FP6.odp</a><br>
+<a href="phare-konferencija/10_ZJancoras_Sprendimai.pdf">10_ZJancoras_Sprendimai.pdf</a><br>
+<a href="phare-konferencija/10_ZJancoras_Sprendimai.odp">10_ZJancoras_Sprendimai.odp</a>
+</p>
+  </body>
+</html>

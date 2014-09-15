@@ -1,0 +1,31 @@
+<p>Pasirodė išankstinė stabilios GNOME 2.14 versijos būsimų galimybių apžvalga. GNOME 2.14 bus išleistas šių 
+metų kovo 15 d. Davyd Madeley jau tradiciškai pristatė puslapį su momentinėmis ekrano nuotraukomis ir 
+publikuota trumpa GNOME 2.14 naujienų apžvalga.</p>
+
+<p>Paskelbta apie naują patobulintą operatyviosios atmintinės skirstytoją (memory allocator), pavadintą Gslice, 
+kuris pakeis GmemChunk. Pessulus, pasirodęs paslaugų rinkinyje sistemų administratoriams GNOME Admin Suite, 
+leidžia pagerinti daugelį GNOME Desktop funkcijų (jis visų pirma skirtas interneto kavinėms, kur būtina apriboti 
+skydelių keitimą, komandinės eilutės ir kt. naudojimą). Sabayon, taip pat įeinantis į GNOME Admin Suite, 
+skirtas naudotojų grupių profilių kūrimui.</p>
+
+<p>Programose Nautilus ir Yelp pristatytos naujos daug produktyvesnės paieškos sistemos, leidžiančios 
+pagalbinės programos Beagle pajungimą.</p>
+
+<p>Bus išleita Ekiga'os (žinomos kaip GNOME Meeting) versija 2.0. Į jos funkcijas įeis SIP ir H323 
+palaikymas balso ir vaizdo ryšiui (Voice ir Video over IP), automatinis STUN nustatymas, PC-2-Phone 
+palaikymas pigiems tarptautiniams pokalbiams.</p>
+
+<p>Naujų galimybių atsirado ir langų tvarkyklėje Metacity, tarp kurių – savas compositing manager, 
+naudojantis libcm ir OpenGL, kuriantis tokius efektus kaip langų šešėliai, meniškai atsidarantys meniu ir kt.</p>
+
+<p>Naujas GNOME Desktop skydelio įskiepis DeskBar leidžia iškviesti programas, atverti žymeles, naudoti 
+paieškos sistemas (Google, Yahoo!, Beagle ir kt.).</p>
+
+<p>GNOME tekstų redaktorius gedit išmoko tiesiogiai išsaugoti bylas nutolusiuose kompiuteriuose, 
+įgavo galimybę pajungti Python priedus.</p>
+
+<p>GNOME Power Manager – naujos kartos maitinimo valdymo sistema. Kuriama ant Hardware Abstraction Layer (HAL), 
+suteikia naudotojams daugelį maitinimo valdymo funkcijų stalo kompiuteriams (ypač aktualu nešiojamiems 
+kompiuteriams).</p>
+
+<p>Daugiau <a href="http://www.gnome.org">www.gnome.org</a></p>

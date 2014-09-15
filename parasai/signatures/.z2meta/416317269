@@ -1,0 +1,13 @@
+[properties]
+agree:boolean = 1
+confirm_id:int = 421875099
+confirmed:boolean = 1
+gen_date:date = 2005/05/18 14:20:51.495000 GMT+3
+logo_url:string = 
+mail:string = domo@privatus.lt
+organization:string = 
+position:string = Moksleivis
+status:string = fiz_asm
+title:string = Dominykas Spei\xc4\x8dys
+url_asm:string = 
+url_org:string = 
